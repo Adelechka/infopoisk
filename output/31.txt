@@ -1,0 +1,968 @@
+<html>
+<head>
+<title>Как исследовать сходимость несобственного интеграла?</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="исследовать сходимость несобственного интеграла, признаки сходимости, признаки расходимости,  сравнить несобственный интеграл с интегралом, сходится или расходится, сходится вместе, признак сравнения, примеры решений">
+<meta name="Description" content="Приветствую опытных и не очень любителей несобственных интегралов, и на трёх ближайших уроках мы рассмотрим…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Как исследовать несобственный интеграл на сходимость?</h1>
+  
+  <br>
+  <p>Приветствую опытных и не очень любителей <strong><a href="nesobstvennye_integraly.html">несобственных интегралов</a></strong>, и на трёх  ближайших уроках мы рассмотрим новый материал – признаки их сходимости.
+  <p>Напоминаю основные типы несобственных интегралов:<br>
+      <img align="absmiddle" width="217" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image002.gif"> – <em>несобственные интегралы 1-го рода</em>;</p>
+  <p><img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image004.gif"> – <em>несобственные интегралы 2-го рода</em>, в которых функция <img align="absmiddle" width="36" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image006.gif"> терпит <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">бесконечный разрыв</a></strong> в точке <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image008.gif"> и / или <img align="absmiddle" width="13" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image010.gif"> или в промежуточных  точках отрезка <img align="absmiddle" width="36" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image012.gif">.</p>
+  <p>Предположим, что нам дан произвольный несобственный  интеграл. <strong>В чём состоит сегодняшняя задача?</strong> Задача состоит в том, чтобы выяснить, СХОДИТСЯ ЛИ (в принципе) данный интеграл  или нет.</p>
+  <p><strong>Зачем это нужно?</strong> Ну,  во-первых, иногда бывает полезно сразу выяснить этот вопрос. Во-вторых,  рассмотрим, например, такие несобственные интегралы:<br>
+      <img align="absmiddle" width="225" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image014.gif"></p>
+  <p>Здесь соответствующие <strong><a href="integraly_primery_reshenij.html">неопределенные  интегралы</a></strong> являются <em>неберущимися</em>,  и поэтому решить данные примеры <strong><a href="nesobstvennye_integraly.html">обычным  способом</a></strong> невозможно. Но можно выяснить, сходятся ли эти интегралы или  расходятся.</p>
+  <p>И, в-третьих, такие интегралы встречаются в практических  работах, а значит, материал этой странички действительно нужен :) Более того,  он тесно «перекликается» с исследованием <strong><a href="ryady_dlya_chajnikov.html">числовых  рядов</a></strong>, а значит, вы получите двойную выгоду. И я  постараюсь изложить всю информацию в своём традиционном стиле – просто и  доступно!</p>
+  <p>Вопрос третий: <strong>как  определить, сходится ли несобственный интеграл или нет?</strong></p>
+  <p>С помощью так называемых <em>признаков  сходимости / расходимости</em>, к изучению которых мы незамедлительно  приступаем. </p>
+  <p>Начнём с <strong><a href="nesobstvennye_integraly.html">несобственных  интегралов 1-го рода</a></strong>, и сразу <strong>очевидный  признак:</strong></p>
+  <p>Если подынтегральная функция<img align="absmiddle" width="36" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image006_0000.gif"> <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a></strong> на промежутке <img align="absmiddle" width="53" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image016.gif"> и <em>не ограничена</em> сверху и/или снизу при <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image018.gif">, то несобственный интеграл <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image020.gif"> расходится.</p>
+  <p>Пожалуйста: <img align="absmiddle" width="40" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image022.gif">. Вспоминаем «школьный» <a href="uravnenie_pryamoi_na_ploskosti.html">график прямой пропорциональности</a> <img align="absmiddle" width="60" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image024.gif">. Что-то и сам проностальгировал:<br>
+      <img align="absmiddle" width="262" height="262" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image026.jpg" alt="Интеграл от неограниченной на бесконечности функции расходится"><br>
+    При <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image028.gif"> этот график  уходит вверх на плюс бесконечность, и  совершенно понятно, что площадь под ним <em>(серая  штриховка)</em> бесконечна: <img align="absmiddle" width="76" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image030.gif">.</p>
+  <p>То же самое справедливо и для «страшных» интегралов  наподобие <img align="absmiddle" width="132" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image032.gif">, которые на самом деле ничуть не страшнЫ. Во-первых,  отмечаем <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывность</a></strong> подынтегральной функции на промежутке интегрирования, и, во-вторых, выясняем <strong><a href="metody_resheniya_predelov_neopredelennosti.html">порядок роста</a></strong> числителя и знаменателя –  этим мы уже занимались, когда находили <strong><a href="predely_primery_reshenii.html">пределы  функций</a></strong>. В числителе МЫСЛЕННО отбрасываем все младшие слагаемые под корнем: <img align="absmiddle" width="40" height="27" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image034.gif"> и константу-множитель: <img align="absmiddle" width="64" height="35" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image036.gif">, следовательно, старшая степень числителя равна <img align="absmiddle" width="16" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image038.gif">. …Возникли трудности со степенями? Срочно повторять <strong><a href="goryachie_formuly.pdf" target="_blank">школьные формулы</a></strong>! В знаменателе тоже  отбрасываем все младшие слагаемые: <img align="absmiddle" width="19" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image040.gif">, следовательно, старшая степень знаменателя равна 2. </p>
+  <p>Неравенство <img align="absmiddle" width="40" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image042.gif"> говорит нам о том,  что числитель <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого порядка роста</a></strong>, чем знаменатель, а значит, <img align="absmiddle" width="156" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image044.gif">. То есть, при <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image028_0000.gif"> подынтегральная  функция не ограничена сверху и площадь под графиком данной функции на  промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image046.gif"> – бесконечна: <img align="absmiddle" width="168" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image048.gif">.</p>
+  <p>Актуализируем ещё пару важных фактов о порядке роста. Рассмотрим  следующие несобственные интегралы от непрерывных на промежутке интегрирования  функций:<br>
+      <img align="absmiddle" width="124" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image050.gif"></p>
+  <p>При <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image028_0001.gif"> показательная функция <img align="absmiddle" width="19" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image053.gif"> с основанием <img align="absmiddle" width="35" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image055.gif"> <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого порядка роста</a></strong>, чем любая степенная функция <img align="absmiddle" width="67" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image057.gif">. Поэтому <img align="absmiddle" width="88" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image059.gif"> и соответствующий  несобственный интеграл <img align="absmiddle" width="87" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image061.gif"> – расходится.  Подчёркиваю, что в знаменателе может стоять «икс» хоть в сотой, хоть в тысячной  степени, суммы степенных функций – результат от этого не изменится: <img align="absmiddle" width="165" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image063.gif">. В справедливости предела <img align="absmiddle" width="165" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image065.gif"> можно убедиться, 100  раз применив <strong><a href="pravila_lopitalya.html">правило Лопиталя</a></strong> :)</p>
+  <p>Второе. При <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image028_0002.gif"> степенная функция <img align="absmiddle" width="67" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image057_0000.gif"> – <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого порядка роста</a></strong>, чем натуральный логарифм, таким  образом, функция <img align="absmiddle" width="73" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image068.gif"> (не ограничена сверху)  и соответствующий несобственный интеграл расходится: <img align="absmiddle" width="96" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image070.gif">.</p>
+  <p>Возьмите на заметку эту информацию, она нам потребуется в  будущем, в том числе самом близком.</p>
+  <p>Как ведёт себя интеграл, если подынтегральная функция <em>ограничена</em>? На всякий случай приведу  яркие примеры ограниченных функций, вдруг у кого недопонимание этого термина: <strong><a href="grafiki_i_svoistva_funkcij.html">экспонента</a></strong> <img align="absmiddle" width="43" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image072.gif"> – ограничена осью  абсцисс снизу; <strong><a href="grafiki_i_svoistva_funkcij.html">синус</a></strong>:  <img align="absmiddle" width="88" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image074.gif">, <strong><a href="grafiki_i_svoistva_funkcij.html">арктангенс</a></strong>: <img align="absmiddle" width="116" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image076.gif"> – ограничены и сверху,  и снизу.</p>
+  <p><strong>! Откройте</strong> <strong><a href="grafiki_i_svoistva_funkcij.html" target="_blank">методичку по графикам</a></strong> <em>(откроется на соседней вкладке)</em>,  освежите воспоминания о графиках основных элементарных функций, и продолжаем. Справку  не закрывать! – она будет здОрово помогать на сегодняшнем уроке. </p>
+  <p><strong>Если функция  ограничена</strong> сверху и/или снизу <strong>на  некотором промежутке, то мы ничего не можем сказать о сходимости интеграла на  данном промежутке</strong> – он может, как сходиться, так и расходиться.</p>
+  <p>В этой связи для исследования используют другие признаки, и  наиболее распространенными из них являются так называемые <em>признаки сравнения</em>. Ключевая идея состоит в том, что СРАВНИТЬ  «подопытный» интеграл с несобственным интегралом, сходимость или расходимость  которого нам <strong>уже известна</strong>, и на этом  основании сделать вывод о сходимости или расходимости «пациента».</p>
+  <p><strong>Признак сравнения:</strong> пусть две <em><a href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">неотрицательные</a></em> функции <img align="absmiddle" width="72" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image078.gif"> <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывны</a></strong> на промежутке <img align="absmiddle" width="53" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image016_0000.gif">, и для всех  <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image080.gif"> этого промежутка  справедливо неравенство <img align="absmiddle" width="105" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image082.gif">. Тогда из сходимости интеграла <img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image084.gif"> следует сходимость  интеграла <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image086.gif">, а из расходимости <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image086_0000.gif"> следует расходимость  интеграла <img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image084_0000.gif">.</p>
+  <p>Таким образом, данный признак работает в <strong>двух различных</strong> ситуациях, геометрия которых  очень и очень простА:</p>
+  <p>1) Пусть несобственный интеграл <img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image084_0001.gif"> сходится. Тогда  площадь, заштрихованная на чертеже серым цветом, будет <em>конечна</em>.  В силу условия <img align="absmiddle" width="105" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image082_0000.gif"> график функции <img align="absmiddle" width="36" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image006_0001.gif"> <em>(красная линия) </em>расположен <em>не  выше</em> графика <img align="absmiddle" width="35" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image090.gif"> и  интегралу <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image086_0001.gif"> соответствует  «красная» площадь, которая является ЧАСТЬЮ <em>конечной</em> «серой» площади. Следовательно, «красная» площадь тоже конечна, то есть несобственный  интеграл <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image020_0000.gif"> – сходится:<br>
+      <img align="absmiddle" width="395" height="243" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image094.jpg" alt="Иллюстрация признака сравнения для несобственных интегралов 1-го рода"><br>
+    2) Ситуация вторая: пусть на том же промежутке <img align="absmiddle" width="53" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image096.gif"> интеграл <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image020_0001.gif"> расходится. Это  означает, что «красная» площадь <em>бесконечна</em>.  А коль скоро, она является частью «серой» площади, то интегралу <img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image084_0002.gif"> ничего не остаётся  делать, как тоже расходиться.</p>
+  <p>Такой же признак можно сформулировать для интегралов  <img align="absmiddle" width="59" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image099.gif"> и, кроме того, для <em><a href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">неположительных</a></em> функций, удовлетворяющих  условию <img align="absmiddle" width="105" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image101.gif">, чертёж в последнем случае <a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html#6">отобразится в нижнюю  полуплоскость, симметрично относительно оси</a> <img align="absmiddle" width="28" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image103.gif">. Признаки сравнения для этих случаев сформулируйте и  осознайте самостоятельно. На практике такие примеры встречаются, и они не  должны поставить вас в тупик!</p>
+  <p>Но в первую очередь, конечно, традиционные примеры:</p>
+  <p>В начале вводного урока о <strong><a href="nesobstvennye_integraly.html">несобственных интегралах</a></strong> мы установили сходимость интеграла <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image105.gif">. Теперь поставим задачу <u>исследовать сходимость</u> интеграла <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image107.gif">.</p>
+  <p>Подчёркиваю, что <strong>решать  его не нужно</strong> <em>(хотя делается это легко)</em> – а нужно выяснить, сходится ли он (в принципе)  или нет. <br>
+    Прежде всего, обратим внимание, что функция <img align="absmiddle" width="23" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image109.gif"> непрерывна и <em>ограничена</em> на промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image046_0000.gif">, все её значения «сидят» в полуинтервале <img align="absmiddle" width="33" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image112.gif">. Но, как отмечалось выше, это не делает погоды, а посему  пробуем использовать признак сравнения. Сравнивать будем с интегралом <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image105_0000.gif">, сходимость которого уже установлена. Разбираемся:</p>
+  <p>На промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image046_0001.gif"> функции <img align="absmiddle" width="48" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image114.gif"> <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывны</a></strong>? Да, непрерывны. </p>
+  <p>Неотрицательны? Да, более того, строго положительны: <img align="absmiddle" width="95" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image116.gif">. Очень хорошо – условия признака выполнены, и поэтому можно  приступать к анализу самих функций. </p>
+  <p>Для ВСЕХ <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image080_0000.gif"> из данного промежутка  справедливо очевидное неравенство:<br>
+      <img align="absmiddle" width="49" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image119.gif"></p>
+  <p>а бОльшим знаменателям соответствуют мЕньшие дроби:<br>
+      <img align="absmiddle" width="56" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image121.gif"></p>
+  <p>Вы согласны? <strong>В случае  сомнений всегда можно взять несколько значений «икс»</strong> <em>(проще всего целых)</em> <strong>и  расписать несколько неравенств подробно</strong>, чтобы убедиться в своей правоте  или неправоте. В нашем случае:</p>
+  <p>если <img align="absmiddle" width="35" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image123.gif">, то <img align="absmiddle" width="31" height="17" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image125.gif">;<br>
+    если <img align="absmiddle" width="37" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image127.gif">, то <img align="absmiddle" width="41" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image129.gif">;<br>
+    если <img align="absmiddle" width="36" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image131.gif">, то <img align="absmiddle" width="51" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image133.gif">;<br>
+    Если <img align="absmiddle" width="37" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image135.gif">, то <img align="absmiddle" width="56" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image137.gif">;<br>
+    ….<br>
+    и теперь-то уж совершенно понятно, что для всех <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image080_0001.gif"> из промежутка <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image046_0002.gif"> неравенство <img align="absmiddle" width="56" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image121_0000.gif"> действительно  справедливо.</p>
+  <p>Таким образом, по признаку сравнения интеграл <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image107_0000.gif"> сходится <em>(равен конечному числу)</em> вместе с  интегралом <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image105_0001.gif">. Кстати, на чертеже выше я «по партизански» изобразил именно  графики функций <img align="absmiddle" width="141" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image141.gif">.<br>
+    <br>
+    С помощью признака сравнения легко установить, что интеграл  вида <img align="absmiddle" width="36" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image143.gif"> сходится при  <img align="absmiddle" width="37" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image145.gif"> и расходится, если <img align="absmiddle" width="60" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image147.gif">, а при <img align="absmiddle" width="40" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image149.gif"> он будет очевидно  расходящимся.</p>
+  <p>Так, например, интегралы <img align="absmiddle" width="132" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image151.gif"> – сходятся, а <img align="absmiddle" width="131" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image153.gif"> – расходятся (<em>в случаях непоняток со степенями повторяем <strong><a href="goryachie_formuly.pdf" target="_blank">формулы</a></strong>!)</em>.  </p>
+  <p class=classalert>Запишите данную  информацию на листок!</p>
+  <p>Это семейство «эталонных» интегралов активно используется в  практических заданиях, причём, опционально нижний предел интегрирования может быть и  другим, например: <img align="absmiddle" width="99" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image155.gif"> – зависит от того,  какой интеграл предложен для исследования.</p>
+  <p><u>Пример 1</u></p>
+  <p>Исследовать сходимость интеграла <img align="absmiddle" width="67" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image157.gif"></p>
+  <p><strong>Решение:</strong> данный <strong><a href="integrirovanie_kornei.html">биномиальный интеграл</a></strong> является <em>неберущимся</em>, но есть возможность  выяснить, сходится он или нет. Во-первых, отмечаем, что подынтегральная функция <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a></strong> на промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image046_0003.gif"> и ограничена на нём,  ибо предел <em><img align="absmiddle" width="108" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image159.gif"></em> – равен <em>конечному</em> числу <em>(в общем случае не обязательно нулю)</em>. Таким образом, отделаться  «малой кровью» у нас не получилось и решение продолжается.</p>
+  <p>По «общим очертаниям» предложенный  интеграл напоминает сходящийся «эталон» <img align="absmiddle" width="47" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image161.gif">. Начинаем проводить рассуждение. На промежутке <img align="absmiddle" width="71" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image163.gif">:</p>
+  <p><img align="absmiddle" width="69" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image165.gif"> <em>(что совершенно очевидно)</em>. «Навешивание» корней сохраняет  «статус-кво»:<br>
+      <img align="absmiddle" width="95" height="27" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image167.gif">, а вот дела с дробями обстоят ровно наоборот – по той  причине, что дробь с бОльшим знаменателем является мЕньшей:</p>
+  <p><img align="absmiddle" width="100" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image169.gif">, таким образом, по признаку сравнения исследуемый интеграл сходится  вместе с интегралом <img align="absmiddle" width="47" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image161_0000.gif">.</p>
+  <p><strong>Ответ:</strong> сходится</p>
+  <p>И ничего лишнего – что спрашивали, то и отвечаем. </p>
+  <p>Подобных примеров можно придумать очень много: <img align="absmiddle" width="253" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image171.gif"> – сравниваем с соответствующими  сходящимися интегралами <img align="absmiddle" width="143" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image173.gif">.</p>
+  <p> Как вариант,  знаменатель может быть «утяжелён» какой-нибудь возрастающей функцией – «иксом»  в положительной степени, логарифмом, экспонентой: <img align="absmiddle" width="276" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image175.gif"> и т.д.</p>
+  <p>Все эти интегралы исследуются по той же схеме, единственное,  здесь появляется дополнительная строчка в решении. Так, например, если в  разобранном примере:<br>
+      <img align="absmiddle" width="95" height="27" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image167_0000.gif">, то, домножая левую часть на <img align="absmiddle" width="17" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image177.gif">, мы <em>только её увеличим</em>,  и поэтому неравенство:<br>
+      <img align="absmiddle" width="109" height="27" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image179.gif"> будет выполнено  подАвно.</p>
+  <p>Следовательно:<br>
+    <img align="absmiddle" width="113" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image181.gif">, и по признаку сравнения, интеграл  <img align="absmiddle" width="80" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image183.gif"> тоже сходится.</p>
+  <p>Разберём ещё одну классику жанра:</p>
+  <p><u>Пример 2</u></p>
+  <p>Исследовать сходимость интеграла <img align="absmiddle" width="56" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image185.gif"></p>
+  <p><strong>Решение</strong>: для  удобства исследования перепишем его в виде <img align="absmiddle" width="39" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image187.gif">. Очевидно, что подынтегральная функция <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a></strong> на промежутке интегрирования и ограничена на нём, т.к. предел <img align="absmiddle" width="80" height="43" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image189.gif"> – равен <em>конечному</em> числу. Поэтому интеграл может  как сходиться, так и расходиться.</p>
+  <p>Сравним предложенный интеграл с интегралом<img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image191.gif">, сходимость которого выясняется в прямом смысле одной  строкой:<br>
+    <img align="absmiddle" width="377" height="53" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image193.gif"></p>
+  <p>Для любого <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image080_0002.gif"> из промежутка <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image046_0004.gif"> справедливо  неравенство:<br>
+      <img align="absmiddle" width="44" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image196.gif">, и поскольку основание функции <img align="absmiddle" width="76" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image198.gif">, то:<br>
+      <img align="absmiddle" width="53" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image200.gif"></p>
+  <p>а дробь с бОльшим знаменателем является мЕньшей:<br>
+    <img align="absmiddle" width="60" height="43" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image202.gif">, таким образом, по признаку сравнения, интеграл <img align="absmiddle" width="56" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image204.gif"> сходится вместе с  интегралом <img align="absmiddle" width="51" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image206.gif">.</p>
+  <p><strong>Ответ:</strong> сходится</p>
+  <p>И здесь интересно провести дополнительное исследование: в  силу <strong><a href="grafiki_i_svoistva_funkcij.html">чётности</a></strong> подынтегральной  функции, сходиться будет и интеграл  по  симметричному промежутку:<img align="absmiddle" width="57" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image208.gif"> Кроме того, <em>собственный</em> или «обычный» <strong><a href="opredelennye_integraly_primery_reshenij.html">определённый интеграл</a></strong> <img align="absmiddle" width="55" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image210.gif">, разумеется, тоже сходится, т.к. равен конечному числу.</p>
+  <p>Тогда, в силу <em>свойства  аддитивности, </em>сходится и интеграл:<br>
+      <img align="absmiddle" width="257" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image212.gif">.  И  парадоксально, но факт – данный интеграл рассчитан точно: <img align="absmiddle" width="96" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image214.gif">, невзирая на то, что соответствующий <strong><a href="integraly_primery_reshenij.html">неопределенный интеграл</a></strong> <strong><a href="tablica_integralov.pdf" target="_blank">не  берётся</a></strong>. Да, так бывает! Это так называемый <em>гауссов интеграл</em>, который нам встретится в <strong><a href="teorija_verojatnostei.html">теории вероятностей</a></strong>, но желающие могут <strong><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%83%D1%81%D1%81%D0%BE%D0%B2_%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB" target="_blank" rel="nofollow">ознакомиться с его вычислением</a></strong> уже сейчас.</p>
+  <p>Другая вариация задания – это <em>уменьшение числителя</em>:</p>
+  <p><u>Пример 3</u></p>
+  <p>Исследовать сходимость интеграла <img align="absmiddle" width="72" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image002_0000.gif"></p>
+  <p><strong>Решение</strong>:  подынтегральная функция непрерывна и ограничена на промежутке интегрирования.  Поскольку <img align="absmiddle" width="88" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image004_0000.gif">, то <img align="absmiddle" width="85" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image006_0002.gif">, и:<br>
+      <img align="absmiddle" width="77" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image008_0000.gif">, значит, по признаку сравнения исследуемый интеграл сходится  вместе с интегралом <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image010_0000.gif">.</p>
+  <p><strong>Ответ:</strong> сходится</p>
+  <p>И тут возникает вопрос об интеграле <img align="absmiddle" width="65" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image012_0000.gif">, подынтегральная функция которого <em>знакопеременна</em>, т.е. <strong>постоянно</strong> <a href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">меняет знак</a>. Как быть в этом случае? Для таких интегралов существуют свои  признаки, которые мы рассмотрим на уроке об <strong><a href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">условной и абсолютной сходимости интегралов</a></strong>. Ну а пока продолжаем.</p>
+  <p><strong>Ситуация вторая:</strong> сравнение интеграла <img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image014_0000.gif"> с заранее известным <u>расходящимся</u> интегралом <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image016_0001.gif">. Кратко напомню, что здесь на промежутке интегрирования должно  выполняться то же неравенство <img align="absmiddle" width="105" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image018_0000.gif">. Как и в предыдущей ситуации, анализировать можно  знаменатель или числитель:</p>
+  <p><u>Пример 4</u></p>
+  <p>Исследовать сходимость несобственных интегралов</p>
+  <p>а) <img align="absmiddle" width="43" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image020_0002.gif">, б) <img align="absmiddle" width="57" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image022_0000.gif"></p>
+  <p>Скромно и со вкусом. <strong>И  последнее «китайское» напоминание</strong> – в дальнейшем это будет подразумеваться  по умолчанию: <strong>перед решением ВСЕГДА  проверяем </strong><em>(мысленно или на черновике)</em> <strong>непрерывность функции на промежутке  интегрирования</strong>. Так, например, интеграл <img align="absmiddle" width="57" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image024_0000.gif"> терпит <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">бесконечный разрыв</a></strong> в точке <img align="absmiddle" width="35" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image026.gif">, и для его исследования используются другие методы (о  которых позже). <strong>Далее проверяем  ограниченность функции на данном промежутке</strong>, аналитически она  устанавливается <em>конечным</em> пределом <em><img align="absmiddle" width="33" height="29" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image028_0003.gif">подынтегральной функции. </em>А то может статься, промучаетесь  с примером битый час, а окажется, что данный предел бесконечен и интеграл  расходится <em>(см. примеры начала урока)</em>.</p>
+  <p><strong>Решаем</strong>:</p>
+  <p>а) Множитель-константа не влияет на сходимость или  расходимость, поэтому его можно сразу вынести за пределы интеграла:<br>
+      <img align="absmiddle" width="51" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image030_0000.gif"></p>
+  <p>Для каждого <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image032_0000.gif"> промежутка <img align="absmiddle" width="52" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image034_0000.gif"> справедливо  неравенство:<br>
+      <img align="absmiddle" width="52" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image036_0000.gif"> <em>(т.к. «икс» более высокого порядка роста, чем натуральный логарифм)</em>,</p>
+  <p>а мЕньшим знаменателям соответствуют бОльшие дроби:<br>
+      <img align="absmiddle" width="57" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image038_0000.gif">, значит, по признаку сравнения исследуемый интеграл <strong>расходится</strong> вместе с «эталонным»  интегралом <img align="absmiddle" width="35" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image040_0000.gif">.</p>
+  <p>Вместо слова «ответ» я привык выделять вердикт жирным  шрифтом, а при оформлении задания от руки подчёркивать его карандашом. Впрочем,  кому как удобнее.</p>
+  <p>б) <img align="absmiddle" width="57" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image022_0001.gif"> – а вот это вот более хитрый  пример. Здесь напрашивается сравнение с расходящимся интегралом <img align="absmiddle" width="40" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image043.gif">, но не всё так просто. Во-первых, при <img align="absmiddle" width="35" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image045.gif"> натуральный <strong><a href="grafiki_i_svoistva_funkcij.html" target="_blank">логарифм</a></strong> отрицателен <em>(смотрим  график!!)</em>. И, во-вторых, на участке <img align="absmiddle" width="57" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image047.gif"> этот логарифм <strong>меньше</strong> единицы, а значит, желаемое  неравенство не является справедливым: <img align="absmiddle" width="82" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image049.jpg">.</p>
+  <p>Что делать? Решение можно оформить двумя способами. Первый  способ академичный. Согласно <em>свойству  аддитивности</em>, делим интеграл на 3 части:<br>
+      <img align="absmiddle" width="256" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image051.gif"></p>
+  <p>Первый и второй интегралы <em>сходятся</em>, т.к. являются <strong><a href="opredelennye_integraly_primery_reshenij.html">определёнными  интегралами</a></strong>. Для всех же значений <img align="absmiddle" width="36" height="17" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image053_0000.gif"> справедливо  неравенство:<br>
+      <img align="absmiddle" width="69" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image055_0000.gif">, значит, интеграл <img align="absmiddle" width="57" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image057_0001.gif"> расходится вместе с  интегралом <img align="absmiddle" width="40" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image059_0000.gif">, </p>
+  <p>а значит, <strong>расходится</strong> и весь интеграл интеграл <img align="absmiddle" width="57" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image061_0000.gif">.</p>
+  <p>В укороченном способе оформления можно ограничиться такой  фразой:</p>
+  <p>– при <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image063_0000.gif"> справедливо  неравенство <img align="absmiddle" width="69" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image055_0001.gif"> – и тот же самый вывод. </p>
+  <p>Таким образом, <strong>сходимость  или расходимость несобственного интеграла 1-го рода зависит от «поведения» его  бесконечного «хвоста»</strong>. Следует заметить, что все эти очевидные свойства  строго доказываются в курсе математического анализа, но чтобы не перегружать  вас информацией, я излагаю их в обзорно-популярном стиле.</p>
+  <p>Тренируемся самостоятельно:</p>
+  <p><u>Пример 5</u></p>
+  <p>Исследовать сходимость несобственных интегралов</p>
+  <p>а) <img align="absmiddle" width="72" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image065_0000.gif">, б) <img align="absmiddle" width="57" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image067.gif">, в) <img align="absmiddle" width="79" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image069.gif">, г) <img align="absmiddle" width="64" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image071.gif">, д) <img align="absmiddle" width="67" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image073.gif">, …пожалуй, достаточно. </p>
+  <p>Примерные образцы чистового оформления примеров в конце  урока. И обязательно проверьте, успешно ли вы обошли все «подводные камни» ;)</p>
+  <p><strong>Всегда ли работает  рассмотренный признак сравнения?</strong> Нет, далеко не всегда, и сейчас мы  рассмотрим примеры, ради которых и зашли некоторые более опытные читатели:</p>
+  <p><u>Пример 6</u></p>
+  <p>Исследовать сходимость несобственных интегралов</p>
+  <p>а) <img align="absmiddle" width="57" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image075.gif">, б) <img align="absmiddle" width="84" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image143_0000.gif"></p>
+  <p><strong>Решение</strong>: </p>
+  <p>а) По «общим очертаниям» интеграл напоминает сходящийся  «эталон» <img align="absmiddle" width="35" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image079.gif">, но как провести сравнение? Шаблон <em>Примера 3</em> <em>(интеграл <img align="absmiddle" width="72" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image002_0001.gif">)</em> не годится, так как на промежутке <img align="absmiddle" width="52" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image081.gif"> аналогичное  неравенство является неверным:<br>
+      <img align="absmiddle" width="115" height="50" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image083.jpg"></p>
+  <p>Но мы его всё равно организуем: при <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image063_0001.gif"> степенная функция <img align="absmiddle" width="67" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image086_0002.gif">, и в частности корень <img align="absmiddle" width="25" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image088.gif"> для любого <img align="absmiddle" width="40" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image090_0000.gif"> – <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого порядка роста</a></strong>, чем <img align="absmiddle" width="28" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image092.gif">.<br>
+    Следовательно:<br>
+  <img align="absmiddle" width="96" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image094.gif"></p>
+  <p>Отмечу одну тонкость: если неравенство <img align="absmiddle" width="64" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image096_0000.gif"> выполнено вообще для  всех положительных «икс», то для более «мелких» корней, например <img align="absmiddle" width="53" height="25" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image098.gif">, это утверждение неверно. Так, неравенство <img align="absmiddle" width="64" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image100.gif"> начинает выполняться  лишь примерно с <img align="absmiddle" width="45" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image102.gif">, и поэтому при использовании таких корней <strong>нельзя применять формулировку</strong> «на всём  промежутке интегрирования». Следует сказать уклончиво: «при <img align="absmiddle" width="136" height="25" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image104.gif">, по умолчанию подразумевая, что «начало» интеграла <em>(где неравенство не выполнено)</em> – тоже  сходится.<strong></strong></p>
+  <p>Однако возвращаемся к задаче. В силу установленного  неравенства возникает вопрос сходимости интеграла <img align="absmiddle" width="55" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image106.gif"> и тут возникает вторая  загвоздка: поскольку <img align="absmiddle" width="69" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image108.gif">, то нужное нам неравенство опять не выполняется:<br>
+      <img align="absmiddle" width="97" height="53" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image110.jpg"></p>
+  <p>Что делать?</p>
+  <p><strong>Предельный признак  сравнения</strong>: пусть те же <a href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">неотрицательные</a> функции <img align="absmiddle" width="72" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image112_0000.gif"> <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывны</a></strong> на промежутке <img align="absmiddle" width="53" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image114_0000.gif"> и существует <em>конечный</em> предел их отношения <img align="absmiddle" width="92" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image116_0000.gif">, <em>отличный</em> от нуля.  Тогда интегралы <img align="absmiddle" width="63" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image016_0002.gif"> <strong>(1)</strong> и <img align="absmiddle" width="61" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image014_0001.gif"> <strong>(2)</strong> сходятся или расходятся одновременно. Кроме того, при <img align="absmiddle" width="37" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image120.gif"> из сходимости  интеграла (2) следует сходимость интеграла (1), а при <img align="absmiddle" width="51" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image122.gif"> из расходимости того  же интеграла (2) следует расходимость интеграла (1).</p>
+  <p>Но последняя часть признака применяется редко, гораздо чаще  подбирают такой интеграл, чтобы получился конечный предел. </p>
+  <p>Итак, исследуем сходимость интеграла <img align="absmiddle" width="55" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image106_0000.gif">. <strong>Вопрос:</strong> с каким  интегралом его нужно сравнить, чтобы в результате получился предел<img align="absmiddle" width="117" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image125_0000.gif">?</p>
+  <p>Нечто подобное мы уже проделывали при <strong><a href="metody_resheniya_predelov_neopredelennosti.html">вычислении пределов функций</a></strong>. Смотрим на знаменатель <img align="absmiddle" width="39" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image127_0000.gif"> нашей функции и  МЫСЛЕННО отбрасываем все младшие слагаемые: <img align="absmiddle" width="19" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image129_0000.gif"> – таким образом,  старшая степень знаменателя равна 2. Поскольку в числителе находится только <img align="absmiddle" width="57" height="35" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image131_0000.gif">, то старшая степень числителя равна <img align="absmiddle" width="16" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image133_0000.gif">. Теперь находим разность старших степеней: <img align="absmiddle" width="65" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image135_0000.gif"> <em>(строго такую, не наоборот!)</em>, и в результате приходим к выводу, что  наш интеграл следует сравнить с интегралом <img align="absmiddle" width="93" height="56" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image137_0000.gif">, который сходится.</p>
+  <p>Составляем <strong><a href="predely_primery_reshenii.html">предел</a></strong>, <strong><a href="goryachie_formuly.pdf" target="_blank">избавляемся от четырёхэтажности дроби</a></strong> и получаем:<br>
+      <img align="absmiddle" width="500" height="87" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image139.gif"> – конечное число,  значит, по предельному признаку сравнения, интеграл  <img align="absmiddle" width="55" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image106_0001.gif"> сходится вместе с интегралом <img align="absmiddle" width="45" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image141_0000.gif">.</p>
+  <p>И в силу установленного выше неравенства  <img align="absmiddle" width="96" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image094_0000.gif">, исследуемый интеграл <img align="absmiddle" width="57" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image075_0000.gif"> <strong>сходится </strong>вместе с интегралом <img align="absmiddle" width="55" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image106_0002.gif">.</p>
+  <p>Таким образом, у нас получилась двухшаговое исследование, в  котором мы использовали оба признака сравнения.</p>
+  <p>б) Интеграл <img align="absmiddle" width="84" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image143_0000.gif">. Проведём предварительный анализ: на промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image145_0000.gif"> <strong><a href="grafiki_i_svoistva_funkcij.html">арктангенс</a></strong> ограничен: <img align="absmiddle" width="104" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image147_0000.gif">, но эта информация помогает мало, т.к. на обоих этажах есть  и другие одно- и многочлены с «иксами». <strong>И  это типичная ситуация, в которой хорошо срабатывает предельный признак  сравнения!</strong> Используем ту же методику: МЫСЛЕННО отбрасываем под корнем все  младшие члены а также множитель-константу <em>(двойку)</em> при самой высокой степени: <img align="absmiddle" width="63" height="35" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image149_0000.gif">, значит, старшая степень знаменателя равна <img align="absmiddle" width="16" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image151_0000.gif">. В числителе находится одинокий <img align="absmiddle" width="17" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image153_0000.gif"> <em>(ограниченный арк не принимаем во внимание)</em>, и поэтому старшая  степень числителя равна 1. </p>
+  <p>Из старшей степени знаменателя (именно так) вычитаем старшую  степень числителя:<br>
+      <img align="absmiddle" width="63" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image155_0000.gif">, таким образом, наш интеграл следует сравнить с интегралом <img align="absmiddle" width="87" height="56" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image157_0000.gif">, который расходится. Возможно, у некоторых возник вопрос: а  что делать, если разность степеней получилась отрицательной? Это означает, что  числитель <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого порядка роста</a></strong>,  чем знаменатель и интеграл расходится – вычисляем предел <img align="absmiddle" width="101" height="29" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image159_0000.gif">, и готово.</p>
+  <p>Но в предельном признаке сравнения нас ожидает более  занятный предел:<br>
+      <img align="absmiddle" width="484" height="85" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image161_0001.gif"><br>
+     <img align="absmiddle" width="377" height="83" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image163_0000.gif"> – конечное число,  отличное от нуля, значит, исследуемый интеграл <strong>расходится</strong> вместе с интегралом <img align="absmiddle" width="40" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image165_0000.gif">.</p>
+  <p>Следует отметить, что при использовании предельного признака  отношение функций можно составлять и наоборот, так, в только что  разобранном примере можно составить предел <img align="absmiddle" width="104" height="85" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image167_0001.gif">, получить <img align="absmiddle" width="36" height="43" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image169_0000.gif"> и прийти к тому же  содержательному выводу.</p>
+  <p>Как быть, если нижний предел интегрирования равен нулю? Всё  просто, <em>по свойству аддитивности</em>: <img align="absmiddle" width="269" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image950.gif">. Первый интеграл сходится (это обычный <strong><a href="opredelennye_integraly_primery_reshenij.html">определённый интеграл</a></strong>, равный конечному числу), а для второго интеграла  используем предельный признак сравнения (см. выше). Сумма сходящегося и  расходящегося интеграла – есть расходящийся интеграл.</p>
+  <p>Такую же хитрость можно применить, если нижний предел  отрицателен, но здесь важно проследить, чтобы промежуток интегрирования  полностью вошёл в <strong><a href="oblast_opredeleniya.html">область определения</a></strong> подынтегральной функции. Так, интеграл <img align="absmiddle" width="92" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image951.gif"> существует, но вот его  собрат <img align="absmiddle" width="83" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image952.gif"> – уже нет. И в  легальном случае никаких проблем:<br>
+      <img align="absmiddle" width="556" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image953.gif">.</p>
+  <p>Пара интегралов для самостоятельного решения:</p>
+  <p><u>Пример 7</u></p>
+  <p>Исследовать сходимость несобственных интегралов</p>
+  <p>а) <img align="absmiddle" width="75" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image171_0000.gif">, б) <img align="absmiddle" width="149" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image173_0000.gif">, вот такой вот совсем не страшный красавец :)</p>
+  <p>И хотел я тут продолжить про несобственные интегралы 2-го  рода, но статья задалась недетская, и поэтому милости прошу <a href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">во вторую часть</a>, где нас ожидает самый настоящий «экшн»!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 5. <strong>Решение</strong>:</em><br>
+      <em>а) Сравним данный  интеграл со сходящимся интегралом <img align="absmiddle" width="51" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image175_0000.gif">. На промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image145_0001.gif">:</em><br>
+      <em><img align="absmiddle" width="93" height="44" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image178.gif">, значит, исследуемый интеграл тоже <strong>сходится</strong>.</em></p>
+  <p><em>б) <img align="absmiddle" width="105" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image180.gif"> (т.к. <img align="absmiddle" width="25" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image182.gif"> более высокого порядка  роста, чем <img align="absmiddle" width="28" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image092_0000.gif">), таким образом, при <img align="absmiddle" width="56" height="16" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image063_0002.gif"> подынтегральная  функция не ограничена сверху, значит, исследуемый интеграл <strong>расходится</strong>.</em></p>
+  <p><em>в) На промежутке от <img align="absmiddle" width="24" height="24" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image186.gif"> до <img align="absmiddle" width="28" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image188.gif">: <img align="absmiddle" width="104" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image190.gif">, поэтому:</em><br>
+      <em><img align="absmiddle" width="97" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image192.gif">, значит, по признаку сравнения, исследуемый интеграл <strong>расходится</strong> вместе с интегралом <img align="absmiddle" width="47" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image194.gif">.</em></p>
+  <p><em>г) На промежутке <img align="absmiddle" width="49" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image145_0002.gif">:</em><br>
+      <em><img align="absmiddle" width="71" height="21" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image196_0000.gif">, следовательно:</em><br>
+      <em><img align="absmiddle" width="135" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image198_0000.gif">, таким образом, интеграл </em><img align="absmiddle" width="64" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image200_0000.gif"> <em>сходится вместе с интегралом <img align="absmiddle" width="47" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image202_0000.gif">.</em><br>
+      <em>И поскольку <img align="absmiddle" width="61" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image204_0000.gif"> – сходится (обычный  определённый интеграл), то <strong>сходится</strong> и весь исследуемый интеграл: <img align="absmiddle" width="209" height="52" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image206_0000.gif">.</em></p>
+  <p><em>д) <strong>Способ первый</strong>. Использование признака  сравнения. На промежутке <img align="absmiddle" width="52" height="23" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image208_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="96" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image210_0000.gif"></em><br>
+      <em><img align="absmiddle" width="76" height="27" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image212_0000.gif">, значит:</em><br>
+      <em><img align="absmiddle" width="83" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image214_0000.gif">, то есть, исследуемый интеграл <strong>расходится</strong> вместе с интегралом <img align="absmiddle" width="35" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image216.gif">.</em></p>
+  <p><strong><em>Способ второй</em></strong><em>. Прямое  вычисление. Перед нами <strong><a href="tablica_integralov.pdf" target="_blank">табличный</a></strong> «длинный» логарифм:</em><br>
+      <em><img align="absmiddle" width="513" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image218.gif">, таким образом, исследуемый интеграл <strong>расходится</strong>.</em></p>
+  <p><em>Пример 7. <strong>Решение</strong>:</em><br>
+      <em>а) Сравним  предложенный интеграл с расходящимся интегралом <img align="absmiddle" width="35" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image040_0001.gif">. Используем предельный признак сравнения:</em><br>
+      <em><img align="absmiddle" width="431" height="80" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image221.gif"> (т.к. <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image032_0001.gif"> более высокого порядка  роста, чем <img align="absmiddle" width="28" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image092_0001.gif">). В результате получено конечное число, отличное от нуля,  значит, исследуемый интеграл <strong>расходится</strong> вместе с интегралом <img align="absmiddle" width="35" height="51" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image040_0002.gif">.</em></p>
+  <p><em>б) Поскольку косинус  ограничен: <img align="absmiddle" width="91" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image225.gif">, то <img align="absmiddle" width="103" height="19" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image227.gif"> и:</em><br>
+      <em><img align="absmiddle" width="207" height="45" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image229.gif"> (*)</em><br>
+      <em>Исследуем сходимость интеграла <img align="absmiddle" width="117" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image231.gif"> (множитель-константа не влияет на сходимость или расходимость, и поэтому  его сразу выносим). Старшая степень знаменателя равна 3, старшая степень  числителя равна <img align="absmiddle" width="16" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image233.gif">, их разность:</em><br>
+      <em><img align="absmiddle" width="67" height="41" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image235.gif">, поэтому сравнивать будем со сходящимся интегралом <img align="absmiddle" width="45" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image237.gif">. Используем предельный признак сравнения:</em><br>
+      <em><img align="absmiddle" width="597" height="87" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image239.gif"></em><br>
+      <em>делим числитель и  знаменатель на <img align="absmiddle" width="13" height="15" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image032_0002.gif"> в старшей степени:</em><br>
+      <em><img align="absmiddle" width="420" height="91" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image242.gif"> – получено конечное  число, отличное от нуля, значит, интеграл <img align="absmiddle" width="13" height="17" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image244.gif"> сходится вместе с интегралом <img align="absmiddle" width="45" height="49" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image237_0000.gif"> и, в силу неравенства  (*) (по «обычному» признаку сравнения), исследуемый интеграл <strong>сходится</strong> вместе с интегралом <img align="absmiddle" width="13" height="17" src="s/kak_issledovat_shodimost_nesobstvennogo_integrala_clip_image244_0000.gif">.</em>  </p>
+  </div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

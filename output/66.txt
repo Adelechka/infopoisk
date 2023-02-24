@@ -1,0 +1,1030 @@
+<html>
+<head>
+<title>Интегрирование иррациональных функций (корней). Примеры решений
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="интегрирование, иррациональные функции, корни, биномиальные интегралы, легко, подробно, доступно">
+<meta name="Description" content="В ваших интегралах корни? Разберёмся в них легко и бесплатно">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Интегрирование корней (иррациональных функций).
+<br>
+Примеры решений</h1>
+  
+  <br>
+  <p>Вот и пробил час интегралов от корней, они вас заждались! С  моей точки зрения интегрирование иррациональных функций следует изучать уже при  некоторых знаниях и навыках решения неопределенного интеграла, поскольку  интегралы от корней, во-первых, встречаются реже, чем другие типы интегралов, а  во-вторых, некоторые из них – самые настоящие крепкие орешки. Таким образом, если  Вы чайник, и за плечами всего десяток прорешанных интегралов, да и с <strong><a href="metod_zameny_peremennoi.html">методом замены переменной в неопределенном  интеграле</a></strong> не очень, то лучше начать со статьи <strong><a href="integraly_primery_reshenij.html">Неопределенный интеграл. Примеры решений</a></strong>. Хотя, не пугаемся, не  разбегаемся – простейшие примеры с квадратными корнями, думаю, будут понятны  широкому кругу студентов. Весь материал я постараюсь изложить максимально  подробно и максимально просто.
+  <p>На уроке мы разберем простейшие неопределенные интегралы от  иррациональных функций, чуть более громоздкие (с разными корнями), и закончится  повествование биномиальными интегралами, кои уже являются немного дебрями  интегралов, где преподаватель-волк частенько кушает зайцев. </p>
+  <p>Итак, прошу любить и жаловать первый параграф</p>
+  <br>
+  <h2><strong>Интегралы от  корней. Типовые методы и приемы решения</strong></h2>
+  <p>Вспоминаем счастливые школьные годы. Пыонеры на уроках математики,  приступая к изучению корней, в первую очередь знакомятся с квадратным корнем.  Мы пойдем тем же путем.</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="79" height="45" src="f/integrirovanie_kornei_clip_image002.gif"></p>
+  <p>Анализируя подынтегральную функцию, приходишь к печальному  выводу, что она совсем не напоминает табличные интегралы. Вот если бы всё это  добро находилось в числителе – было бы просто. Или бы корня внизу не было. Или  многочлена. Никакие <strong><a href="integrirovanie_drobei.html">методы  интегрирования дробей</a></strong> тоже не помогают. Что делать?</p>
+  <p><strong>Основной приём  решения иррациональных интегралов – это замена переменной, которая избавит нас  от ВСЕХ корней в подынтегральной функции</strong>.</p>
+  <p>В нашем примере корень <strong>всего  один</strong> и напрашивается его прямая замена <img align="absmiddle" width="47" height="24" src="f/integrirovanie_kornei_clip_image555.gif">. Мысль верная! При этом можно сразу возвести обе части в  квадрат и использовать модифицированную замену  <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image004.gif">, где <img align="absmiddle" width="33" height="19" src="f/integrirovanie_kornei_clip_image556.gif"> <em>(т. к. корень чётный)</em>. В результате подстановки <img align="absmiddle" width="87" height="27" src="f/integrirovanie_kornei_clip_image557.gif"> – корень пропадает <em>(модуль тут не нужен, ибо «тэ» положительное)</em>.</p>
+  <p>Если бы в подынтегральной функции вместо квадратного корня у  нас находился <img align="absmiddle"  width="25" height="24" src="f/integrirovanie_kornei_clip_image010.gif">, то мы бы провели замену <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image012.gif">. Если бы там был <img align="absmiddle"  width="25" height="24" src="f/integrirovanie_kornei_clip_image014.gif"> – то <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image016.gif"> и так далее. Обращаю внимание, что при <em>чётном</em> корне <img align="absmiddle" width="33" height="19" src="f/integrirovanie_kornei_clip_image556.gif">, а при <em>нечётном</em> – «тэ»  может быть любого знака, и при чистовом оформлении примеров я буду подразумевать это  по умолчанию.</p>
+  <p>Хорошо, <img align="absmiddle"  width="25" height="24" src="f/integrirovanie_kornei_clip_image018.gif"> у нас превратится в <img align="absmiddle"  width="51" height="27" src="f/integrirovanie_kornei_clip_image008_0000.gif">. Что произойдет с многочленом <img align="absmiddle"  width="45" height="21" src="f/integrirovanie_kornei_clip_image020.gif">? Сложностей нет: если <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image004_0000.gif">, то <img align="absmiddle"  width="108" height="24" src="f/integrirovanie_kornei_clip_image023.gif">.</p>
+  <p>Осталось выяснить, во что превратится дифференциал <img align="absmiddle"  width="20" height="19" src="f/integrirovanie_kornei_clip_image025.gif">. Делается это так:</p>
+  <p>Берем нашу замену <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image004_0001.gif"> и <strong>навешиваем дифференциалы на обе части</strong>:</p>
+  <p><img align="absmiddle"  width="83" height="24" src="f/integrirovanie_kornei_clip_image027.gif"><br>
+    (распишу максимально подробно)<br>
+  <img align="absmiddle"  width="99" height="24" src="f/integrirovanie_kornei_clip_image029.gif"><br>
+  <img align="absmiddle"  width="63" height="19" src="f/integrirovanie_kornei_clip_image031.gif"></p>
+  <p>Как видите, замена получилась своеобразной, и её техническое  оформление отличается от «классического» способа, который мы рассмотрели на  уроке <strong><a href="metod_zameny_peremennoi.html">Метод замены переменной в неопределенном  интеграле</a></strong>.  </p>
+  <p>Чистовое оформление решения должно выглядеть примерно так:</p>
+  <p><img align="absmiddle"  width="113" height="45" src="f/integrirovanie_kornei_clip_image033.gif"></p>
+  <p>Проведем замену: <img align="absmiddle"  width="121" height="21" src="f/integrirovanie_kornei_clip_image035.gif"></p>
+  <p><img align="absmiddle"  width="433" height="93" src="f/integrirovanie_kornei_clip_image037.gif"><br>
+    <br>
+    (1) Проводим подстановку после замены (как, что и куда, уже  рассмотрено).</p>
+  <p>(2) Выносим константу за пределы интеграла. Числитель и  знаменатель сокращаем на <img align="absmiddle"  width="9" height="16" src="f/integrirovanie_kornei_clip_image039.gif">.</p>
+  <p>(3) Получившийся интеграл является табличным, готовим его  для интегрирования, выделяя квадрат</p>
+  <p>(4) Интегрируем по таблице, используя формулу <img align="absmiddle"  width="163" height="41" src="f/integrirovanie_kornei_clip_image041.gif">.</p>
+  <p>(5) Проводим обратную замену. Как это делается? Вспоминаем,  от чего плясали: если <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image004_0002.gif">, то <img align="absmiddle"  width="47" height="24" src="f/integrirovanie_kornei_clip_image043.gif">.</p>
+  <p><strong>Внимание!</strong> Для  изучения дальнейших примеров нужно владеть материалом первого  параграфа урока <strong><a href="integrirovanie_drobei.html">Интегрирование некоторых  дробей</a></strong>.</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="59" height="44" src="f/integrirovanie_kornei_clip_image045.gif"></p>
+  <p>Это пример для самостоятельного решения. Полное решение и  ответ в конце урока.</p>
+  <p>Как-то так получилось, что в примерах 1, 2 «голый» числитель  с одиноким дифференциалом <img align="absmiddle"  width="20" height="19" src="f/integrirovanie_kornei_clip_image025_0000.gif">. Что же. Исправим ситуацию.</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="75" height="45" src="f/integrirovanie_kornei_clip_image048.gif"></p>
+  <p>Предварительный анализ подынтегральной функции опять  показывает, что лёгкого пути нет. А поэтому нужно избавляться от корня.</p>
+  <p><img align="absmiddle"  width="109" height="45" src="f/integrirovanie_kornei_clip_image050.gif"></p>
+  <p>Проведем замену: <img align="absmiddle"  width="63" height="21" src="f/integrirovanie_kornei_clip_image052.gif"></p>
+  <p><strong>За <img align="absmiddle"  width="16" height="21" src="f/integrirovanie_kornei_clip_image006_0000.gif"> обозначаем ВСЁ  выражение под корнем</strong>. Замена из предыдущих примеров <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image004_0003.gif"> здесь не годится  (точнее, сделать-то её можно, но это не избавит нас от корня).</p>
+    <p>
+    Навешиваем дифференциалы на обе части:<br>
+      <img align="absmiddle"  width="107" height="24" src="f/integrirovanie_kornei_clip_image055.gif"><br>
+      <img align="absmiddle"  width="123" height="24" src="f/integrirovanie_kornei_clip_image057.gif"><br>
+      <img align="absmiddle"  width="63" height="19" src="f/integrirovanie_kornei_clip_image059.gif"></p>
+  <p>С числителем разобрались. Что делать с <img align="absmiddle"  width="47" height="21" src="f/integrirovanie_kornei_clip_image061.gif"> в знаменателе?<br>
+    Берем нашу замену <img align="absmiddle"  width="63" height="21" src="f/integrirovanie_kornei_clip_image052_0000.gif"> и выражаем из неё: <img align="absmiddle"  width="64" height="21" src="f/integrirovanie_kornei_clip_image063.gif"><br>
+    Если <img align="absmiddle"  width="64" height="21" src="f/integrirovanie_kornei_clip_image063_0000.gif">, то <img align="absmiddle"  width="159" height="21" src="f/integrirovanie_kornei_clip_image066.gif"></p>
+  <p><img align="absmiddle"  width="573" height="104" src="f/integrirovanie_kornei_clip_image068.gif"><br>
+    (1) Проводим подстановку в  соответствии с выполненной заменой.</p>
+  <p>(2) Причесываем числитель.  Константу здесь я предпочел не выносить за знак интеграла (можно делать и так,  ошибкой не будет)</p>
+  <p>(3) Раскладываем числитель в сумму. Еще раз настоятельно  рекомендую ознакомиться с первым параграфом урока <strong><a href="integrirovanie_drobei.html">Интегрирование некоторых дробей</a></strong>. Канители с разложением числителя в  сумму в иррациональных интегралах будет предостаточно, очень важно отработать  это прием.</p>
+  <p>(4) Почленно делим числитель на знаменатель.</p>
+  <p>(5) Используем свойства линейности неопределенного  интеграла. Во втором интеграле выделяем квадрат <img align="absmiddle"  width="41" height="25" src="f/integrirovanie_kornei_clip_image070.gif"> для последующего  интегрирования по таблице.</p>
+  <p>(6) Интегрируем по таблице. Первый интеграл совсем простой,  во втором используем табличную формулу высокого логарифма <img align="absmiddle"  width="171" height="45" src="f/integrirovanie_kornei_clip_image072.gif">.</p>
+  <p>(7) Проводим обратную замену. Если мы проводили замену <img align="absmiddle"  width="63" height="21" src="f/integrirovanie_kornei_clip_image052_0001.gif">, то, обратно: <img align="absmiddle"  width="69" height="24" src="f/integrirovanie_kornei_clip_image074.gif"></p>
+  <p><u>Пример 4</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="87" height="44" src="f/integrirovanie_kornei_clip_image076.gif"></p>
+  <p>Это пример для самостоятельного решения, если вы  невнимательно проработали предыдущие примеры, то допустите ошибку! Полное  решение и ответ в конце урока.</p>
+  <p>Принципиально так же решаются интегралы с несколькими <strong>одинаковыми</strong> корнями, например <img align="absmiddle"  width="60" height="48" src="f/integrirovanie_kornei_clip_image078.gif">, <img align="absmiddle"  width="91" height="49" src="f/integrirovanie_kornei_clip_image080.gif"> и т.д. А что делать,  если в подынтегральной функции корни <strong>разные</strong>?</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="129" height="51" src="f/integrirovanie_kornei_clip_image082.gif"></p>
+  <p>Вот и пришла расплата за голые числители. Когда встречается  такой интеграл, обычно становится страшно. Но страхи напрасны, после проведения  подходящей замены подынтегральная функция упрощается. Задача состоит в  следующем: провести удачную замену, чтобы сразу избавиться от ВСЕХ корней.</p>
+  <p>Когда даны разные корни удобно придерживаться следующей  схемы решения. Сначала выписываем на черновике подынтегральную функцию, при  этом все корни представляем в виде <img align="absmiddle"  width="20" height="33" src="f/integrirovanie_kornei_clip_image084.gif">: <img align="absmiddle"  width="80" height="68" src="f/integrirovanie_kornei_clip_image086.gif">. Нас будут интересовать <strong>знаменатели</strong> степеней:<br>
+      <img align="absmiddle"  width="146" height="119" src="f/integrirovanie_kornei_clip_image088.jpg"><br>
+    Записываем эти знаменатели: 2, 3, 3.<br>
+    Теперь нужно найти <em>наименьшее  общее кратное</em> чисел 2, 3, 3 – такое число, чтобы оно делилось и на 2 и на 3  (в данном случае), кроме того, это число должно быть как можно меньше.</p>
+  <p>Очевидно, что наименьшим общим кратным является число 6. Оно  делится и на 2 и на 3, кроме того, меньше шестерки ничего не придумать.</p>
+  <p>Как многие уже догадались, замена в рассматриваемом  интеграле будет следующей: <img align="absmiddle" width="47" height="24" src="f/integrirovanie_kornei_clip_image558.gif">, при этом удобнее использовать модифицированный вариант,  возведя обе части в 6-ю степень: <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image090.gif">  и имея в виду, что <img align="absmiddle" width="33" height="19" src="f/integrirovanie_kornei_clip_image556.gif"> <em>(т. к. корень чётный)</em>.</p>
+ 
+  <p>Оформляем решение:<br>
+      <img align="absmiddle"  width="164" height="51" src="f/integrirovanie_kornei_clip_image092.gif"></p>
+  <p>Проведем замену:<img align="absmiddle"  width="128" height="21" src="f/integrirovanie_kornei_clip_image094.gif"></p>
+  <p><img align="absmiddle"  width="475" height="144" src="f/integrirovanie_kornei_clip_image096.gif"></p>
+  <p>(1) Производим подстановку.</p>
+  <p>(2) Избавляемся от корней. Выносим константу за знак  интеграла. Сокращаем числитель и знаменатель на <img align="absmiddle"  width="15" height="21" src="f/integrirovanie_kornei_clip_image098.gif">.</p>
+  <p>(3) Сокращаем числитель и знаменатель еще на <img align="absmiddle"  width="9" height="16" src="f/integrirovanie_kornei_clip_image039_0000.gif">.</p>
+  <p>(4) Раскладываем числитель в сумму (как это сделать, уже  неоднократно упоминалось).</p>
+  <p>(5) Почленно делим числитель на  знаменатель.</p>
+  <p>(6) Интегрируем по таблице. При этом константу я снова  «прилепил» к каждому из трех слагаемых (можно этого и не делать, момент  несущественный).</p>
+  <p>(7) Проводим обратную замену. Если <img align="absmiddle"  width="40" height="21" src="f/integrirovanie_kornei_clip_image090_0000.gif">, то, обратно: <img align="absmiddle"  width="47" height="24" src="f/integrirovanie_kornei_clip_image101.gif">. В ходе обратной замены некоторые корни лучше сразу  сократить (обычно это делается устно). В рассмотренном примере сокращение  корней встретилось в первом слагаемом: <img align="absmiddle"  width="104" height="27" src="f/integrirovanie_kornei_clip_image103.gif"></p>
+  <p>Как видите, особых сложностей нет, несмотря на то, что  сначала интеграл показался трудным и страшным.</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="57" height="48" src="f/integrirovanie_kornei_clip_image105.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <br>
+  <h2><strong>Интегрирование биномиальных  интегралов</strong></h2>
+  <p>Так называемый биномиальный интеграл имеет следующий вид: <img align="absmiddle"  width="112" height="29" src="f/integrirovanie_kornei_clip_image107.gif">. Такой интеграл берётся в трёх случаях.</p>
+  <p><strong>1) Случай первый</strong>.  Самый лёгкий.<br>
+      <strong>Если степень <img align="absmiddle"  width="16" height="17" src="f/integrirovanie_kornei_clip_image109.gif"> – целое число</strong>.</p>
+  <p>Например: <img align="absmiddle"  width="75" height="49" src="f/integrirovanie_kornei_clip_image111.gif"></p>
+  <p>Представим интеграл в стандартном виде (это лучше делать на  черновике):<br>
+      <img align="absmiddle"  width="193" height="49" src="f/integrirovanie_kornei_clip_image113.gif"><br>
+    Мы видим, что степень <img align="absmiddle"  width="48" height="21" src="f/integrirovanie_kornei_clip_image115.gif"> – целая, а, значит,  действительно имеет место первый случай. На самом деле биномиальный интеграл  первого типа решается практически так же, как интегралы в примерах 5, 6,  поэтому приводить почти такие же решения особого смысла нет – я просто покажу,  какую замену здесь нужно провести.<br>
+    Смотрим на знаменатели дробей:<br>
+  <img align="absmiddle"  width="191" height="75" src="f/integrirovanie_kornei_clip_image117.jpg"><br>
+    Записываем знаменатели: 2, 5. Находим наименьшее общее  кратное этих чисел. Очевидно, это 10: оно делится и на 2 и на 5, кроме того –  десятка самая маленькая в этом смысле.<br>
+    После замены <img align="absmiddle"  width="44" height="21" src="f/integrirovanie_kornei_clip_image119.gif"> все корни  гарантировано пропадут. Повторюсь, примеров для первого случая не будет, так  как они очень похожи на недавно разобранные интегралы.</p>
+  <p><strong>2) Случай второй </strong></p>
+  <p><img align="absmiddle"  width="112" height="29" src="f/integrirovanie_kornei_clip_image107_0000.gif"><br>
+      <strong>Если <img align="absmiddle"  width="40" height="41" src="f/integrirovanie_kornei_clip_image121.gif"> – целое число, то  нужно провести замену в виде <img align="absmiddle"  width="80" height="21" src="f/integrirovanie_kornei_clip_image123.gif">, где <img align="absmiddle"  width="19" height="19" src="f/integrirovanie_kornei_clip_image125.gif"> – знаменатель дроби <img align="absmiddle"  width="16" height="17" src="f/integrirovanie_kornei_clip_image109_0000.gif">.</strong></p>
+  <p>Спокойствие, только спокойствие, сейчас во всём разберемся.</p>
+  <p><u>Пример 7</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="79" height="47" src="f/integrirovanie_kornei_clip_image128.gif"></p>
+  <p>Представим интеграл в стандартном виде <img align="absmiddle"  width="112" height="29" src="f/integrirovanie_kornei_clip_image107_0001.gif">:<br>
+      <img align="absmiddle"  width="193" height="47" src="f/integrirovanie_kornei_clip_image130.gif">. Вообще говоря, формально правильнее было записать <img align="absmiddle"  width="115" height="40" src="f/integrirovanie_kornei_clip_image132.gif">, но перестановка слагаемых в скобках не играет никакой роли.</p>
+  <p>Выписываем степени:<br>
+      <img align="absmiddle"  width="48" height="19" src="f/integrirovanie_kornei_clip_image134.gif">, <img align="absmiddle"  width="37" height="19" src="f/integrirovanie_kornei_clip_image136.gif">, <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138.gif"><br>
+    Сразу проверяем, не относится ли наш интеграл к первому  случаю?<br>
+  <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138_0000.gif"> – целое? Нет.<br>
+    Проверяем второй случай:<br>
+  <img align="absmiddle"  width="147" height="41" src="f/integrirovanie_kornei_clip_image141.gif"> – целое, значит у нас  второй случай<br>
+    Согласно правилу для второго случая, нужно провести замену в виде <strong><img align="absmiddle"  width="80" height="21" src="f/integrirovanie_kornei_clip_image123_0000.gif"></strong>, где <img align="absmiddle"  width="19" height="19" src="f/integrirovanie_kornei_clip_image125_0000.gif"> – знаменатель дроби <img align="absmiddle"  width="16" height="17" src="f/integrirovanie_kornei_clip_image109_0001.gif">. В рассматриваемом примере <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138_0001.gif">, и знаменатель этой дроби равен «двойке». Таким образом,  чтобы гарантировано избавиться от корня, используем конструкцию <img align="absmiddle"  width="67" height="21" src="f/integrirovanie_kornei_clip_image144.gif">. Заметьте, что фактически здесь мы меняем  корень <img align="absmiddle"  width="73" height="27" src="f/integrirovanie_kornei_clip_image149.gif">, но <strong>во избежание  путаницы я рекомендую придерживаться следующего алгоритма</strong>, оформляем  решение:</p>
+  
+    <p><img align="absmiddle"  width="113" height="47" src="f/integrirovanie_kornei_clip_image146.gif"></p>
+  <p>Проведем замену в виде <img align="absmiddle"  width="67" height="21" src="f/integrirovanie_kornei_clip_image144_0000.gif">. <br>
+    Теперь нужно выяснить, во что превратится <strong>оставшаяся часть</strong> подынтегрального  выражения <img align="absmiddle"  width="23" height="41" src="f/integrirovanie_kornei_clip_image151.gif"><br>
+    Берем нашу замену <img align="absmiddle"  width="67" height="21" src="f/integrirovanie_kornei_clip_image144_0001.gif"> и <strong>навешиваем</strong> дифференциалы на <strong>обе</strong> части:<br>
+  <img align="absmiddle"  width="127" height="96" src="f/integrirovanie_kornei_clip_image153.gif"><br>
+    Но вот, незадача, у нас <img align="absmiddle"  width="28" height="19" src="f/integrirovanie_kornei_clip_image155.gif">, а нам нужно выразить <img align="absmiddle"  width="23" height="41" src="f/integrirovanie_kornei_clip_image151_0000.gif">.<br>
+    Умножаем обе части на <img align="absmiddle"  width="23" height="41" src="f/integrirovanie_kornei_clip_image157.gif">:<br>
+  <img align="absmiddle"  width="115" height="41" src="f/integrirovanie_kornei_clip_image159.gif"><br>
+    Таким образом: <img align="absmiddle"  width="60" height="41" src="f/integrirovanie_kornei_clip_image161.gif">. Уже лучше, но хотелось бы выразить <img align="absmiddle"  width="23" height="41" src="f/integrirovanie_kornei_clip_image163.gif"> <strong>только через <img align="absmiddle"  width="9" height="16" src="f/integrirovanie_kornei_clip_image039_0001.gif"></strong>, а в правой части <img align="absmiddle"  width="25" height="41" src="f/integrirovanie_kornei_clip_image166.gif"> – «икс» в квадрате  внизу. Что делать? Вспоминаем нашу замену <img align="absmiddle"  width="67" height="21" src="f/integrirovanie_kornei_clip_image144_0002.gif"> и выражаем из неё  нужный нам <img align="absmiddle"  width="68" height="21" src="f/integrirovanie_kornei_clip_image168.gif">.<br>
+    Окончательно: <img align="absmiddle"  width="111" height="41" src="f/integrirovanie_kornei_clip_image170.gif">. Головоломно, но, увы, другие алгоритмы еще запутаннее.</p>
+  <p>Собственно, всё готово, продолжаем решение:</p>
+  <p><img align="absmiddle"  width="391" height="83" src="f/integrirovanie_kornei_clip_image172.gif"></p>
+  <p>(1) Проводим подстановку согласно замене.</p>
+  <p>(2) Записываем компактно числитель.</p>
+  <p>(3) Раскладываем знаменатель в сумму.</p>
+  <p>(4) Почленно делим числитель на знаменатель.</p>
+  <p>(5) Интегрируем по таблице.</p>
+  <p>(6) Проводим обратную замену: если <img align="absmiddle"  width="67" height="21" src="f/integrirovanie_kornei_clip_image144_0003.gif">, то <img align="absmiddle"  width="73" height="27" src="f/integrirovanie_kornei_clip_image174.gif"></p>
+  <p><u>Пример 8</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="67" height="48" src="f/integrirovanie_kornei_clip_image176.gif"></p>
+  <p>Это пример для самостоятельного решения. Полное решение и  ответ в конце урока.</p>
+  <p><strong>3) Случай третий</strong>. Самый сложный</p>
+  <p><img align="absmiddle"  width="112" height="29" src="f/integrirovanie_kornei_clip_image107_0002.gif"><br>
+      <strong>Если <img align="absmiddle"  width="65" height="41" src="f/integrirovanie_kornei_clip_image178.gif"> – целое число, то нужно  провести замену в виде <img align="absmiddle"  width="76" height="41" src="f/integrirovanie_kornei_clip_image180.gif">, где <img align="absmiddle"  width="19" height="19" src="f/integrirovanie_kornei_clip_image125_0001.gif"> – знаменатель дроби <img align="absmiddle"  width="16" height="17" src="f/integrirovanie_kornei_clip_image109_0002.gif">.</strong></p>
+  <p><u>Пример 9</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="81" height="47" src="f/integrirovanie_kornei_clip_image182.gif"></p>
+  <p>Представим интеграл в стандартном виде <img align="absmiddle"  width="112" height="29" src="f/integrirovanie_kornei_clip_image107_0003.gif">:<br>
+      <img align="absmiddle"  width="201" height="47" src="f/integrirovanie_kornei_clip_image184.gif">. </p>
+  <p>Выписываем степени и коэффициенты:<br>
+      <img align="absmiddle"  width="49" height="19" src="f/integrirovanie_kornei_clip_image186.gif">, <img align="absmiddle"  width="37" height="19" src="f/integrirovanie_kornei_clip_image136_0000.gif">, <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138_0002.gif">, <img align="absmiddle"  width="37" height="19" src="f/integrirovanie_kornei_clip_image189.gif">, <img align="absmiddle"  width="35" height="19" src="f/integrirovanie_kornei_clip_image191.gif"></p>
+  <p>1) Не относится ли наш интеграл к первому случаю?<br>
+      <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138_0003.gif"> – целое? Нет.</p>
+  <p>2) Проверяем второй случай:<br>
+      <img align="absmiddle"  width="136" height="41" src="f/integrirovanie_kornei_clip_image193.gif"> – целое? Нет.</p>
+  <p>3) <img align="absmiddle"  width="237" height="41" src="f/integrirovanie_kornei_clip_image195.gif"> – целое! Значит, у нас  третий случай.</p>
+  <p>Согласно правилу для третьего  случая, необходимо провести замену в виде <strong><img align="absmiddle"  width="76" height="41" src="f/integrirovanie_kornei_clip_image180_0000.gif"></strong>, где <img align="absmiddle"  width="19" height="19" src="f/integrirovanie_kornei_clip_image125_0002.gif"> – знаменатель дроби <img align="absmiddle"  width="16" height="17" src="f/integrirovanie_kornei_clip_image109_0003.gif">. В рассматриваемом примере <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138_0004.gif">, и знаменатель этой дроби равен опять же «двойке». Коэффициенты  (будьте внимательны) <img align="absmiddle"  width="37" height="19" src="f/integrirovanie_kornei_clip_image189_0000.gif">, <img align="absmiddle"  width="35" height="19" src="f/integrirovanie_kornei_clip_image191_0000.gif"></p>
+  <p>Таким образом, чтобы гарантировано избавиться от корня,  нужно провести замену в виде <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image200.gif">.</p>
+  <p>Оформляем решение:</p>
+  <p><img align="absmiddle"  width="116" height="47" src="f/integrirovanie_kornei_clip_image202.gif"></p>
+  <p>Проведем замену в виде <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image200_0000.gif">.</p>
+  <p>Разбираемся с корнем. Это труднее, чем в предыдущих случаях.<br>
+    Сначала из нашей «заготовки» <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image200_0001.gif"> нужно выразить «икс  квадрат»:<br>
+  <img align="absmiddle"  width="159" height="41" src="f/integrirovanie_kornei_clip_image206.gif"><br>
+    Теперь подставляем <img align="absmiddle"  width="71" height="41" src="f/integrirovanie_kornei_clip_image208.gif"> под корень:<br>
+  <img align="absmiddle"  width="365" height="51" src="f/integrirovanie_kornei_clip_image210.gif">, обращаю ваше внимание, что вверху после извлечения корня модуль при «тэ» не нужен <em>(не вдаваясь в подробности, это особенность рассматриваемых задач)</em>. </p>
+  <p>На втором этапе выясняем, во что превратится <strong>оставшаяся часть</strong> подынтегрального  выражения <img align="absmiddle"  width="23" height="41" src="f/integrirovanie_kornei_clip_image212.gif">. Берем нашу «заготовку» <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image200_0002.gif"> и навешиваем  дифференциалы на обе части:</p>
+  <p><img align="absmiddle"  width="161" height="268" src="f/integrirovanie_kornei_clip_image214.gif"></p>
+  <p>Опять проблема, в правой части у нас есть «икс», а нам нужно  всё выразить через «тэ».<br>
+    Берем ранее найденное выражение <img align="absmiddle"  width="71" height="41" src="f/integrirovanie_kornei_clip_image208_0000.gif"> и выражаем <img align="absmiddle"  width="139" height="49" src="f/integrirovanie_kornei_clip_image216.gif"><br>
+    Окончательно:<br>
+  <img align="absmiddle"  width="291" height="45" src="f/integrirovanie_kornei_clip_image218.gif"></p>
+  <p>В итоге мы выразили через «тэ» и <img align="absmiddle"  width="55" height="27" src="f/integrirovanie_kornei_clip_image220.gif"> и <img align="absmiddle"  width="23" height="41" src="f/integrirovanie_kornei_clip_image222.gif">, и всё готово для продолжения решения:</p>
+  <p><img align="absmiddle"  width="500" height="203" src="f/integrirovanie_kornei_clip_image224.gif"></p>
+  <p>(1) Проводим подстановку согласно замене. </p>
+  <p>(2) Упрощаем выражение.</p>
+  <p>(3) Меняем знак в знаменателе и выносим минус за пределы  интеграла (можно было не делать, но так удобнее).</p>
+  <p>(4) Проводим обратную замену. В третьем случае биномиального  интеграла это тоже труднее. Если изначальная замена была в виде <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image200_0003.gif">, то <img align="absmiddle"  width="240" height="48" src="f/integrirovanie_kornei_clip_image226.gif">.</p>
+  <p>(5) Избавляемся от четырехэтажности в логарифме.</p>
+  <p><u>Пример 10</u></p>
+  <p>Найти неопределенный интеграл<br>
+      <img align="absmiddle"  width="81" height="49" src="f/integrirovanie_kornei_clip_image228.gif"></p>
+  <p>Да что такое, опять числитель голый… Честное слово,  не нарочно получилось =)</p>
+  <p>Это пример для самостоятельного решения. Подсказка: здесь <img align="absmiddle"  width="41" height="19" src="f/integrirovanie_kornei_clip_image230.gif"><br>
+    Полное решение и ответ только для выживших студентов.</p>
+  <p>Что делать, если биномиальный интеграл <img align="absmiddle"  width="112" height="29" src="f/integrirovanie_kornei_clip_image107_0004.gif"> не подходит ни под  один из рассмотренных трех случаев? Это грустный четвертый случай. Такой  интеграл является неберущимся.</p>
+  <p>Почти всё рассмотрено. Есть другие разновидности  интегралов с корнями, например, когда корень является аргументом какой-либо  функции. Или под корнем находится дробь. Найти такие примеры можно на странице <strong><a href="slozhnye_integraly.html">Сложные интегралы</a></strong>.</p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>:</em></p>
+  <p><em><img align="absmiddle"  width="93" height="44" src="f/integrirovanie_kornei_clip_image232.gif"></em><br>
+      <em>Проведем замену: </em><img align="absmiddle"  width="121" height="21" src="f/integrirovanie_kornei_clip_image234.gif"><br>
+      <em><img align="absmiddle"  width="533" height="80" src="f/integrirovanie_kornei_clip_image236.gif"></em>  </p>
+  <p><em>Пример 4: <strong>Решение</strong>:</em><br>
+      <em><img align="absmiddle"  width="121" height="44" src="f/integrirovanie_kornei_clip_image238.gif"></em><br>
+      <em>Проведем замену: <img align="absmiddle"  width="69" height="21" src="f/integrirovanie_kornei_clip_image240.gif">. Навешиваем дифференциалы на обе части:</em><br>
+      <em><img align="absmiddle"  width="112" height="24" src="f/integrirovanie_kornei_clip_image242.gif"></em><br>
+      <em><img align="absmiddle"  width="128" height="24" src="f/integrirovanie_kornei_clip_image244.gif"></em><br>
+      <em><img align="absmiddle"  width="167" height="41" src="f/integrirovanie_kornei_clip_image246.gif"></em><br>
+      <em>Вот почему  дифференциалы нужно именно <strong>НАВЕШИВАТЬ</strong> на обе части и добросовестно раскрывать эти дифференциалы. Немало чайников здесь  формально напишет <img align="absmiddle"  width="68" height="21" src="f/integrirovanie_kornei_clip_image248.gif"> и допустит ошибку.</em><br>
+      <em><img align="absmiddle"  width="609" height="123" src="f/integrirovanie_kornei_clip_image250.gif"></em></p>
+  <p><em>Пример 6: <strong>Решение</strong>:</em></p>
+  <p><em><img align="absmiddle"  width="92" height="48" src="f/integrirovanie_kornei_clip_image252.gif"></em><br>
+      <em>Замена: </em><img align="absmiddle"  width="128" height="21" src="f/integrirovanie_kornei_clip_image254.gif"></p>
+  <p><em><img align="absmiddle"  width="516" height="205" src="f/integrirovanie_kornei_clip_image256.gif"></em><br>
+      <em><strong>Примечание</strong>: на самом деле данное решение не совсем рационально. Перед  тем, как раскладывать числитель в сумму, лучше было поменять у знаменателя знак  и сразу вынести минус за пределы интеграла: <img align="absmiddle"  width="120" height="44" src="f/integrirovanie_kornei_clip_image258.gif"> – в таком виде  подбирать числитель значительно проще.</em></p>
+  <p><em>Пример 8: <strong>Решение</strong>:</em><br>
+      <em><img align="absmiddle"  width="101" height="48" src="f/integrirovanie_kornei_clip_image260.gif"></em></p>
+  <p><em><img align="absmiddle"  width="108" height="40" src="f/integrirovanie_kornei_clip_image262.gif">, <img align="absmiddle"  width="40" height="19" src="f/integrirovanie_kornei_clip_image264.gif">, <img align="absmiddle"  width="37" height="19" src="f/integrirovanie_kornei_clip_image136_0001.gif">, <img align="absmiddle"  width="53" height="41" src="f/integrirovanie_kornei_clip_image266.gif"></em><br>
+      <em>1) <img align="absmiddle"  width="43" height="41" src="f/integrirovanie_kornei_clip_image138_0005.gif"> – целое? Нет.</em><br>
+      <em>2) <img align="absmiddle"  width="137" height="41" src="f/integrirovanie_kornei_clip_image268.gif"> – целое, значит у нас  второй случай.</em><br>
+      <em>Проведём замену в виде <img align="absmiddle"  width="69" height="21" src="f/integrirovanie_kornei_clip_image270.gif">, фактически меняем корень: </em><em><img align="absmiddle"  width="77" height="27" src="f/integrirovanie_kornei_clip_image272.gif"></em>.<br>
+      <em><img align="absmiddle"  width="57" height="21" src="f/integrirovanie_kornei_clip_image274.gif"></em><br>
+      <em><img align="absmiddle"  width="113" height="69" src="f/integrirovanie_kornei_clip_image276.gif"></em><br>
+      <em><img align="absmiddle"  width="108" height="21" src="f/integrirovanie_kornei_clip_image278.gif"></em><br>
+      <em><img align="absmiddle"  width="81" height="21" src="f/integrirovanie_kornei_clip_image280.gif"></em><br>
+      <em>Если <img align="absmiddle"  width="69" height="21" src="f/integrirovanie_kornei_clip_image270_0000.gif">, то <img align="absmiddle"  width="71" height="21" src="f/integrirovanie_kornei_clip_image283.gif"></em><br>
+      <em>Окончательно: <img align="absmiddle"  width="163" height="24" src="f/integrirovanie_kornei_clip_image285.gif"></em></p>
+  <p><em><img align="absmiddle"  width="349" height="93" src="f/integrirovanie_kornei_clip_image287.gif"></em></p>
+  <p><em>Пример 10: <strong>Решение</strong>:</em></p>
+  <p><em><img align="absmiddle"  width="116" height="49" src="f/integrirovanie_kornei_clip_image289.gif"><br>
+      <img align="absmiddle"  width="105" height="40" src="f/integrirovanie_kornei_clip_image291.gif"><br>
+      <img align="absmiddle"  width="41" height="19" src="f/integrirovanie_kornei_clip_image230_0000.gif">, <img align="absmiddle"  width="37" height="19" src="f/integrirovanie_kornei_clip_image136_0002.gif">, <img align="absmiddle"  width="53" height="41" src="f/integrirovanie_kornei_clip_image294.gif">, <img align="absmiddle"  width="45" height="19" src="f/integrirovanie_kornei_clip_image296.gif">, <img align="absmiddle"  width="33" height="19" src="f/integrirovanie_kornei_clip_image298.gif"></em></p>
+  <p><em>1) <img align="absmiddle"  width="53" height="41" src="f/integrirovanie_kornei_clip_image294_0000.gif"> – целое? Нет.<br>
+    2) <img align="absmiddle"  width="113" height="41" src="f/integrirovanie_kornei_clip_image301.gif"> – целое? Нет.<br>
+    3) <img align="absmiddle"  width="223" height="41" src="f/integrirovanie_kornei_clip_image303.gif"> – целое! <br>
+    Замена в виде: <img align="absmiddle"  width="76" height="41" src="f/integrirovanie_kornei_clip_image180_0001.gif">, в данном случае:<br>
+    <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image305.gif"></em></p>
+  <p><em>Разбираемся с корнем. Из <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image305_0000.gif">:<br>
+      <img align="absmiddle"  width="159" height="41" src="f/integrirovanie_kornei_clip_image308.gif"><br>
+    Тогда:<br>
+    <img align="absmiddle"  width="521" height="60" src="f/integrirovanie_kornei_clip_image310.gif"></em></p>
+  <p><em>Оставшаяся часть подынтегрального выражения: <img align="absmiddle"  width="43" height="19" src="f/integrirovanie_kornei_clip_image312.gif"></em></p>
+  <p><em><img align="absmiddle"  width="116" height="155" src="f/integrirovanie_kornei_clip_image314.gif"><br>
+    Чему равно <img align="absmiddle"  width="19" height="21" src="f/integrirovanie_kornei_clip_image316.gif">? <br>
+    <img align="absmiddle"  width="281" height="49" src="f/integrirovanie_kornei_clip_image318.gif"><br>
+    Окончательно:<br>
+    <img align="absmiddle"  width="263" height="49" src="f/integrirovanie_kornei_clip_image320.gif"></em></p>
+  <p><em><img align="absmiddle"  width="377" height="96" src="f/integrirovanie_kornei_clip_image322.gif"><br>
+    Обратная замена. Если <img align="absmiddle"  width="69" height="41" src="f/integrirovanie_kornei_clip_image305_0001.gif">, то <img align="absmiddle"  width="231" height="48" src="f/integrirovanie_kornei_clip_image324.gif"><br>
+    <img align="absmiddle"  width="333" height="67" src="f/integrirovanie_kornei_clip_image326.gif"></em></p>
+  </div>
+  <p>Вы выполнили проверку, может, где ошибочка вышла ;)</p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

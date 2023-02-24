@@ -1,0 +1,1035 @@
+<html>
+<head>
+<title>Ортогональное преобразование квадратичной формы</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="квадратичные формы, привести методом ортогонального преобразования, к каноническому виду, примеры решений, привести уравнение линии второго порядка, с помощью квадратичных форм, ортогонального преобразования">
+<meta name="Description" content="Подробные примеры решений и их геометрический смысл">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Ортогональное преобразование квадратичной формы</strong></h1>
+  
+  <br>
+  <p>На этом уроке мы продолжим приводить <strong><a href="kvadratichnye_formy.html">квадратичную форму</a></strong> <em>(1-е занятие)</em> к <strong><a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">каноническому виду</a></strong> <em>(2-е  занятие)</em>, и помимо нового метода приведения, рассмотрим геометрический  смысл темы и важное практическое приложение – о том, как привести <strong><a href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">линию второго порядка</a></strong> к<strong> <a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">каноническому виду</a></strong> с помощью  ортогонального преобразования квадратичной формы.</p>
+  <p>Сначала расскажу суть метода в общем  виде. Ничего страшного, если что-то будет не понятно – всё разберём на  конкретных примерах.</p>
+  <p>Любую <strong><a href="kvadratichnye_formy.html">квадратичную форму</a></strong> <img align="absmiddle" width="123" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image002.gif"> с <strong><a href="mnozhestva.html">действительными</a></strong> <em>(как мы  оговорили)</em> коэффициентами <img align="absmiddle" width="195" height="123" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image004.gif"> можно привести к  каноническому виду:</p>
+  <p><img align="absmiddle" width="329" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image006.gif">, где <img align="absmiddle" width="101" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image008.gif"> – <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">собственные числа</a></strong> матрицы<strong> </strong><img align="absmiddle" width="16" height="17" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image010.gif"> <em>(тоже действительные)</em>.</p>
+  <p>Такое приведение осуществляется с  помощью <strong><a href="linejnye_preobrazovanija.html">линейного преобразования</a></strong> (замен):<br>
+      <img align="absmiddle" width="184" height="96" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image012.gif">, коэффициенты которого <em>(<strong>по столбцам!</strong>)</em> – есть координаты  соответствующих <em>ортонормированных</em> <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">собственных векторов</a></strong> матрицы <img align="absmiddle" width="16" height="17" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image010_0000.gif">:</p>
+  <p><img align="absmiddle" width="264" height="99" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image014.gif"></p>
+  <p>Данные векторы <em>нормированы</em> (имеют единичную длину) и попарно <em>ортогональны</em> (грубо говоря, перпендикулярны); отсюда и название –  метод ортогонального преобразования. </p>
+  <p>Напоминаю <strong><a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">распространённую матричную запись</a></strong> <img align="absmiddle" width="48" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image016.gif">, где:<br>
+      <img align="absmiddle" width="124" height="99" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image018.gif"> и <img align="absmiddle" width="157" height="99" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image020.gif">  – матрица  ортогонального преобразования.</p>
+  <p>Посмотрим, как работает метод в  простейшем случае:</p>
+  <p><u>Пример 10</u></p>
+  <p>Это не опечатка – пример уже  десятый!</p>
+  <p>Привести квадратичную форму к  каноническому виду методом ортогонального преобразования<br>
+      <img align="absmiddle" width="171" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image022.gif"></p>
+  <p>Найти матрицу соответствующего  преобразования.</p>
+  <p><strong>Решение</strong>:  запишем <strong><a href="kvadratichnye_formy.html">матрицу формы</a></strong> <img align="absmiddle" width="101" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image024.gif"> и из уравнения <img align="absmiddle" width="107" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image026.gif"> найдём её <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">собственные числа</a></strong>:<br>
+      <img align="absmiddle" width="189" height="73" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image028.gif"></p>
+  <p>Очевидно, что <img align="absmiddle" width="95" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image030.gif">, таким образом:</p>
+  <p><img align="absmiddle" width="232" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image032.gif"> – квадратичная форма <img align="absmiddle" width="171" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image022_0000.gif"> в каноническом виде.</p>
+  <p>Найдём соответствующее линейное  преобразование. Для этого нужно отыскать <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">собственные  векторы</a></strong> матрицы <img align="absmiddle" width="16" height="17" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image010_0001.gif">:</p>
+  <p>1) Если <img align="absmiddle" width="76" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image035.gif">, то получаем <strong><a href="odnorodnye_sistemy_lineinyh_uravnenij.html">систему  линейных уравнений</a></strong>:<br>
+      <img align="absmiddle" width="103" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image037.gif">, откуда следует, что <img align="absmiddle" width="43" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image039.gif">.</p>
+  <p>Полагая <img align="absmiddle" width="64" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image041.gif">, запишем первый собственный вектор: <img align="absmiddle" width="53" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image043.gif"> – <strong>координаты удобно записывать именно в столбец!</strong> Сразу вычислим длину  вектора (скоро потребуется):<br>
+      <img align="absmiddle" width="125" height="31" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image045.gif"></p>
+  <p>2) Если <img align="absmiddle" width="69" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image047.gif">, то имеем систему:<br>
+      <img align="absmiddle" width="103" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image049.gif">, из которой следует, что <img align="absmiddle" width="52" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image051.gif"></p>
+  <p>Пусть <img align="absmiddle" width="37" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image053.gif">, тогда <img align="absmiddle" width="48" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image055.gif"> и <img align="absmiddle" width="68" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image057.gif"> – второй собственный  вектор. Его длина:<br>
+      <img align="absmiddle" width="148" height="31" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image059.gif"></p>
+  <p><strong>Если  матрица формы имеет <u>различные</u> собственные числа, то соответствующие  собственные векторы попарно ортогональны</strong>. Убедимся в справедливости этого  утверждения для нашей пары, вычислив их <strong><a href="skaljarnoe_proizvedenie_vektorov.html">скалярное произведение</a></strong>:<br>
+      <img align="absmiddle" width="284" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image061.gif"></p>
+  <p>Поскольку длины векторов <img align="absmiddle" width="37" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image063.gif"> не равны единице, то  их нужно <em>нормировать</em>, т.е. найти <em>коллинеарные</em> им векторы <img align="absmiddle" width="35" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image065.gif"> единичной длины. Для  этого каждую координату собственного вектора делим на его длину:</p>
+  <p>– координаты <img align="absmiddle" width="53" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image043_0000.gif"> на  <img align="absmiddle" width="171" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image067.gif">;<br>
+    – координаты <img align="absmiddle" width="68" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image057_0000.gif"> на  <img align="absmiddle" width="184" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image069.gif">.</p>
+  <p>Такую задачу мы решали в курсе <strong><a href="vektory_dlya_chainikov.html">аналитической геометрии</a></strong> на уроке… да,  на уроке <strong><a href="uravnenie_ploskosti.html">Уравнение плоскости</a></strong> <em>(Пример 5)</em>, но сейчас речь идёт,  подчёркиваю, о векторах в их <strong><a href="linejnye_preobrazovanija.html">алгебраическом  смысле</a></strong>.</p>
+  <p>Проверим, что длины полученных  векторов действительно равны единице:<br>
+      <img align="absmiddle" width="475" height="53" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image071.gif">, ч.т.п.</p>
+  <p>Теперь <u>последовательно</u> помещаем координаты векторов <img align="absmiddle" width="133" height="51" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image073.gif"> в <u>столбцы</u> матрицы: <img align="absmiddle" width="200" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image075.gif"> – это и есть матрица выполненного  ортогонального преобразования, в <u>строках</u> которой находятся «игрековые»  коэффициенты линейных замен: <img align="absmiddle" width="127" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image077.gif">.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="143" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image079.gif">, <img align="absmiddle" width="120" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image081.gif"></p>
+  <p>Полученный результат можно проверить:</p>
+  <p>1) непосредственной подстановкой <img align="absmiddle" width="127" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image077_0000.gif"> в форму <img align="absmiddle" width="97" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image083.gif">:<br>
+      <img align="absmiddle" width="500" height="123" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image085.gif"></p>
+  <p>2) либо с помощью <strong><a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">знакомой формулы</a></strong>:<br>
+      <img align="absmiddle" width="421" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image087.gif"> – получив «каноничную»  матрицу.</p>
+  <p><strong><em>Справка</em></strong><em>: матрица ортогонального преобразования квадратичной формы относится к  классу так называемых <strong><a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%82%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0" target="_blank" rel="nofollow">ортогональных  матриц</a> </strong>(Вики), которые встречаются не только в этой теме. Ортогональная  матрица обладает рядом интересных свойств, в частности, её определитель равен  +1 либо –1, а <strong><a href="deistviya_s_matricami.html">транспонированная матрица</a></strong> совпадает с <strong><a href="kak_naiti_obratnuyu_matricu.html">обратной матрицей</a></strong>.</em></p>
+  
+  <p>А сейчас обратим внимание на <strong>следующий момент</strong>: канонический вид <img align="absmiddle" border="0" width="191" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image089.gif"> и алгоритм решения  никак не регламентируют <u>порядок расположения</u> собственных чисел, и поэтому  <strong>форму можно привести к такому виду не  единственным способом</strong>. Так, если в прорешанном примере перечислить  собственные числа в другом порядке: <img align="absmiddle" border="0" width="95" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image091.gif"> (никто ж не запрещает),  то получится другой, тоже канонический вид <img align="absmiddle" border="0" width="133" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image093.gif">. При этом нормированные собственные векторы меняются  местами:  <img align="absmiddle" border="0" width="169" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image095.gif"> и матрица линейного  преобразования будет другой: <img align="absmiddle" border="0" width="120" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image097.gif">. В <u>строках</u> этой матрицы находятся «игрековые»  коэффициенты соответствующих линейных замен:<br>
+      <img align="absmiddle" border="0" width="137" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image099.gif"></p>
+  <p>Желающие могут выполнить прямую  подстановку в  <img align="absmiddle" border="0" width="97" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image083_0000.gif"> и «на выходе» получить <img align="absmiddle" border="0" width="57" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image101.gif">.</p>
+  <p>Теперь рассмотрим эту же  квадратичную форму в геометрической «ипостаси». Для понимания следующего  примера нужно ориентироваться (хотя бы в общих чертах) в <strong><a href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">линиях второго порядка</a></strong>:</p>
+  <p><u>Пример 11</u></p>
+  <p>С помощью теории квадратичных форм  привести уравнение линии второго порядка к каноническому виду</p>
+  <p><img align="absmiddle" border="0" width="111" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image103.gif"></p>
+  <p>Иными словами, нам нужно выяснить,  какую линию задаёт это уравнение <em>(<strong><a href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">эллипс</a></strong>, <strong><a href="giperbola_i_parabola.html">гиперболу</a></strong>, <strong><a href="giperbola_i_parabola.html">параболу</a></strong> или  какую-то другую)</em> и записать его в каноническом виде. В курсе <strong><a href="vektory_dlya_chainikov.html">аналитической геометрии</a></strong> мы рассмотрели <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">«традиционные» методы приведения</a></strong>, и вот  сейчас познакомимся с ещё одним способом.</p>
+  <p>Начало <strong>решения</strong> практически совпадает с предыдущей задачей, с той поправкой,  что там фигурировали переменные <img align="absmiddle" border="0" width="37" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image105.gif"> и <img align="absmiddle" border="0" width="40" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image107.gif">, а в геометрии обычно используют <img align="absmiddle" border="0" width="29" height="17" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image109.gif"> <em>(«старые» переменные)</em> и <img align="absmiddle" border="0" width="36" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image111.gif"> <em>(«новые» переменные – штрихи здесь не имеют никакого отношения к <strong><a href="kak_naiti_proizvodnuju.html">производным</a></strong>)</em>.</p>
+  <p>Итак, на первом шаге рассматриваем  квадратичную форму <img align="absmiddle" border="0" width="88" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image113.gif">, записываем её матрицу и находим её собственные числа. После  чего возникает недавний вопрос – <u>в каком порядке</u> их следует перечислить: <img align="absmiddle" border="0" width="95" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image030_0000.gif"> или <img align="absmiddle" border="0" width="95" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image091_0000.gif">? Когда мы просто приводили форму к каноническому виду, это  не имело значения. Но вот тут имеет.</p>
+  <p>В первом случае у нас получится  уравнение <img align="absmiddle" border="0" width="120" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image116.gif">, во втором: <img align="absmiddle" border="0" width="108" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image118.gif">. Оба уравнения задают <strong><a href="giperbola_i_parabola.html">гиперболу</a></strong>,  однако канонический вид имеет только второе уравнение. Таким образом, нас  устраивает «комплект» <img align="absmiddle" border="0" width="95" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image091_0001.gif">, но НЕ ФАКТ, что подойдет найденное преобразование <img align="absmiddle" border="0" width="120" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image097_0000.gif">.</p>
+  <p>Дело в том, что ортонормированные  собственные векторы можно выбрать ещё тремя способами: <img align="absmiddle" border="0" width="109" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image120.gif"> или <img align="absmiddle" border="0" width="59" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image122.gif">, и если бы мы просто приводили форму к каноническому виду,  то опять же – нас устроил бы любой из 4 вариантов. Но не сейчас.</p>
+  <p>По той причине, что линейные  преобразования должны соответствовать формулам <strong><a href="perehod_k_novomu_bazisu.html">формулами поворота</a></strong> <img align="absmiddle" border="0" width="136" height="45" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image124.gif"> <strong><a href="grafiki_i_svoistva_funkcij.html">декартовой системы координат</a></strong> <img align="absmiddle" border="0" width="39" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image126.gif"> на угол «фи». Этот  факт справедлив только в том случае, если определитель матрицы преобразования  равен «плюс» единице: <img align="absmiddle" border="0" width="41" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image128.gif">.</p>
+  <p>Проверяем: <img align="absmiddle" border="0" width="353" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image130.gif">, таким образом, нам повезло, и преобразование <img align="absmiddle" border="0" width="129" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image132.gif"> действительно подходит  под шаблон <img align="absmiddle" border="0" width="136" height="45" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image124_0000.gif">.</p>
+  <p>Значениям <img align="absmiddle" border="0" width="165" height="43" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image135.gif"> соответствует <strong><a href="trigonometricheskie_tablicy.pdf" target="_blank">табличный</a></strong> угол <img align="absmiddle" border="0" width="27" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image137.gif">, но привычнее, конечно, говорить об угле <img align="absmiddle" border="0" width="55" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image139.gif">.</p>
+  <p>Таким образом, поворачивая систему <img align="absmiddle" border="0" width="39" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image126_0000.gif"> на 45 градусов по  часовой стрелке, мы переходим от уравнения <img align="absmiddle" border="0" width="111" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image103_0000.gif"> в старой системе  координат к каноническому уравнению <img align="absmiddle" border="0" width="108" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image118_0000.gif"> в новой системе  координат <img align="absmiddle" border="0" width="45" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image141.gif">:<br>
+      <img align="absmiddle" border="0" width="264" height="254" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image143.jpg"><br>
+    Наклоните голову вправо на 45  градусов и убедитесь, что в «красной» системе координат гипербола действительно  имеет канонический вид.</p>
+  <p>Кроме того, нас устроило бы ещё одно  преобразование: <img align="absmiddle" border="0" width="104" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image145.gif">. Легко видеть, что его определитель равен «плюс» единице и  формулам <img align="absmiddle" border="0" width="129" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image147.gif"> соответствует поворот  системы <img align="absmiddle" border="0" width="39" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image126_0001.gif"> на <img align="absmiddle" border="0" width="25" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image149.gif"> против часовой стрелки.  В этом случае оси <img align="absmiddle" border="0" width="64" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image151.gif"> будут «смотреть» в  противоположные стороны и гипербола тоже окажется в каноническом положении.  Желающие могут повернуть голову влево на 135 градусов и приобщиться к  прекрасному :)</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" border="0" width="108" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image118_0001.gif"></p>
+  <p>Что произойдёт, если квадратичную  форму <img align="absmiddle" border="0" width="89" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image153.gif"> приводить к  каноническому виду <strong><a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">методом Лагранжа</a></strong>?  В общем случае будут получаться другие гиперболы. Но гиперболы! И вообще –  любое <em>невырожденное</em> линейное преобразование  данной формы будет приводить нас к уравнениям гипербол, и только к ним – как я  отмечал в конце предыдущего урока, такое преобразование не меняет СУЩНОСТИ  формы.</p>
+  <p>Таким образом, метод Лагранжа – это  «быстрый» способ узнать, что это за линия, но вот сохранение её размеров нам  гарантирует лишь ортогональное преобразование. </p>
+  <p><strong>Ортогональное  линейное преобразование переводит ортонормированный базис в другой ортонормированный  базис и сохраняет размеры объектов</strong>. Это справедливо для пространства любой  размерности, и, кроме того, применимо не только к квадратичным формам – <strong><a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%82%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" target="_blank" rel="nofollow">ортогональному преобразованию</a></strong> <em>(Вики)</em> посвящена отдельная тема высшей  алгебры, и интересующихся я отсылаю к соответствующим источникам информации.</p>
+  <p>Следующий пример для  самостоятельного решения:</p>
+  <p><u>Пример 12</u></p>
+  <p>Привести квадратичную форму к  каноническому виду методом ортогонального преобразования. <br>
+      <img align="absmiddle" border="0" width="133" height="26" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image155.gif"></p>
+  <p>Решить задачу двумя способами  (переставляя собственные числа) и записать матрицы соответствующих линейных преобразований. </p>
+  <p>После чего мы продолжим банкет  родственной геометрической задачей:</p>
+  <p><u>Пример 13</u></p>
+  <p><img align="absmiddle" border="0" width="260" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image157.gif"></p>
+  <p>Данную линию мы уже <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">приводили к каноническому виду</a></strong> <em>(Пример 1)</em> и сейчас сделаем то же самое,  используя новый метод.</p>
+  <p>Надеюсь все прорешали предыдущее задание,  поскольку начало решения будет совпадать с точностью до обозначений, и нам  осталось выбрать подходящее преобразование:<br>
+      <img align="absmiddle" border="0" width="276" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image159.gif"><br>
+    или<br>
+  <img align="absmiddle" border="0" width="276" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image161.gif"></p>
+  <p>Очевидно, здесь получится уравнение  эллипса <img align="absmiddle" border="0" width="169" height="44" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image163.gif">, и чтобы выдерживалось неравенство полуосей, нам подойдёт  МЕНЬШИЙ коэффициент при переменной «икс штрих», то есть, следует выбрать первый  вариант:<br>
+      <img align="absmiddle" border="0" width="276" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image159_0000.gif"></p>
+  <p>В своём образце решения я сразу  выбрал подходящее преобразование<br>
+      <img align="absmiddle" border="0" width="143" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image166.gif">, определяющее <a href="perehod_k_novomu_bazisu.html">поворот</a> на угол <img align="absmiddle" border="0" width="173" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image168.gif">, но у вас мог получиться и любой другой их трёх оставшихся  случаев (в зависимости от выбора собственных векторов).</p>
+  <p>Преобразование <img align="absmiddle" border="0" width="117" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image170.gif"> тоже приемлемо  (поворот примерно на <img align="absmiddle" border="0" width="33" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image172.gif">), а вот <img align="absmiddle" border="0" width="105" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image174.gif"> и <img align="absmiddle" border="0" width="105" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image176.gif"> непригодны, так как не  соответствуют формулам <img align="absmiddle" border="0" width="136" height="45" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image124_0001.gif">.</p>
+  <p>Итак, в результате замен <img align="absmiddle" border="0" width="143" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image166_0000.gif"> исходное уравнение <img align="absmiddle" border="0" width="260" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image157_0000.gif"> преобразуется к виду:</p>
+  <p><img align="absmiddle" border="0" width="469" height="91" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image180.gif"></p>
+  <p>Данное уравнение задаёт тот же самый  эллипс в системе <img align="absmiddle" border="0" width="45" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image141_0000.gif"> <em>(зелёный  цвет)</em>, которая  получена поворотом системы <img align="absmiddle" border="0" width="39" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image126_0002.gif"> на угол <img align="absmiddle" border="0" width="173" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image168_0000.gif">:<br>
+      <img align="absmiddle" border="0" width="277" height="167" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image183.jpg"><br>
+    Осталось провести <strong><a href="perehod_k_novomu_bazisu.html">параллельный перенос координатных осей</a></strong>.  Выделяем полные квадраты:<br>
+  <img align="absmiddle" border="0" width="555" height="252" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image185.gif"></p>
+  <p>И в результате замен <img align="absmiddle" border="0" width="197" height="44" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image187.gif"> получаем каноническое  уравнение эллипса в «красной» системе <img align="absmiddle" border="0" width="49" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image189.gif">:<br>
+      <img align="absmiddle" border="0" width="147" height="69" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image191.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" border="0" width="108" height="44" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image193.gif"></p>
+  <p>Но для решения этой задачи, конечно,  выгоднее <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">метод инвариантов</a></strong>. </p>
+  <p>Самостоятельно решите <em>Пример 3</em> того же урока, которому была  посвящена целая мыльная опера с несколькими чертежами:</p>
+  <p><u>Пример 14</u></p>
+  <p><img align="absmiddle" width="201" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image002_0000.gif"> – привести уравнение  линии к каноническому виду с помощью ортогонального преобразования квадратичной  формы.</p>
+  <p>Следует отметить, что здесь нас  устроит всего лишь одно преобразование из четырёх, поскольку перед нами <strong><a href="giperbola_i_parabola.html">парабола</a></strong>, и в каноническом положении  она «смотрит» в одну, строго определённую сторону.</p>
+  <p>Краткое решение и ответ в конце  урока. Любопытно, что тут решение, наоборот – получилось заметно проще, чем <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">«классическим» геометрическим методом</a></strong>.  Ну и конечно, подарок, если нужно выполнить только один поворот, как в Примере 11.</p>
+  <p>Кстати, как быстро и даже устно  определить тип линии? Если <strong><a href="kak_vychislit_opredelitel.html">определитель</a></strong> <strong><a href="kvadratichnye_formy.html">матрицы формы</a></strong> <img align="absmiddle" width="116" height="51" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image004_0000.gif">, то перед нами линия <strong><em>эллиптического</em></strong> типа <em>(<em>эллипс, мнимый эллипс или пара  мнимых пересекающихся прямых</em>)</em>,  если <img align="absmiddle" width="44" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image006_0000.gif"> – то <strong><em>гиперболического</em></strong> <em>(гипербола или пара пересекающихся прямых)</em>, и если <img align="absmiddle" width="44" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image008_0000.gif"> – то <strong><em>параболического</em></strong> <em>(парабола, пара параллельных (мнимых или обычных) или пара совпавших  прямых)</em>.</p>
+  <p>На этой позитивной ноте перейдём к  квадратичным формам трёх переменных:</p>
+  <p><u>Пример 15</u></p>
+  <p>Привести квадратичную форму к  каноническому виду методом ортогонального преобразования </p>
+  <p><img align="absmiddle" width="243" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image010_0002.gif"></p>
+  <p>Найти соответствующее преобразование</p>
+  <p><strong>Решение</strong> начинается точно так же: запишем матрицу формы <img align="absmiddle" width="128" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image012_0000.gif"> и найдём её  собственные числа:<br>
+      <img align="absmiddle" width="169" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image014_0000.gif"><br>
+    определитель раскрою по 1-й строке:<br>
+  <img align="absmiddle" width="417" height="72" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image016_0000.gif"><br>
+    напоминаю полезный технический приём  – в первом слагаемом, где нам светит «лямбда в кубе», не нужно спешить  раскрывать скобки:<br>
+  <img align="absmiddle" width="375" height="101" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image018_0000.gif"><br>
+    решив <strong><a href="goryachie_formuly.pdf" target="_blank">квадратное уравнение</a></strong>, раскладываем трёхчлен на множители:<br>
+  <img align="absmiddle" width="225" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image020_0000.gif"><br>
+    таким образом, нам удалось  избавиться от <strong><a href="uravnenija_v_vysshei_matematike.html">многочлена 3-й степени</a></strong>,  отыскание корней которого – есть непростая задача. И теперь такой задачи нет:<br>
+  <img align="absmiddle" width="207" height="99" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image022_0001.gif"></p>
+  <p>Порядок собственных чисел не имеет  значения, и поэтому я выберу вариант:<br>
+      <img align="absmiddle" width="137" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image024_0000.gif"> – чтобы красивее  записать канонический вид:</p>
+  <p><img align="absmiddle" width="104" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image026_0000.gif"> </p>
+  <p>Найдём ортогональное линейное  преобразование. Сложность задачи состоит в том, что <strong>если среди собственных чисел есть кратные, то ортогональность найденных  собственных векторов <u>не гарантирована</u></strong>, и в «неудачном» случае  нам придётся предпринять меры по их <em>ортогонализации</em>.  Впрочем, не будем торопить события:</p>
+  <p>1-2) Если <img align="absmiddle" width="76" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image028_0000.gif">, то получаем систему:<br>
+      <img align="absmiddle" width="123" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image030_0001.gif">, которая фактически состоит из одного уравнения.</p>
+  <p>Выберем в качестве <strong><a href="odnorodnye_sistemy_lineinyh_uravnenij.html">базисной</a></strong> переменную «альфа» и выразим  её через свободные переменные: <img align="absmiddle" width="75" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image032_0000.gif">. Запишем <strong><a href="odnorodnye_sistemy_lineinyh_uravnenij.html">общее  решение</a> </strong>в столбец:<br>
+      <img align="absmiddle" width="63" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image034.gif"></p>
+  <p>Теперь нам нужно найти <strong><a href="odnorodnye_sistemy_lineinyh_uravnenij.html">векторы фундаментальной системы</a></strong>. Для  значений <img align="absmiddle" width="77" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image036.gif"> получаем:<br>
+      <img align="absmiddle" width="57" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image038.gif"> – первый вектор  фундаментальной системы;<br>
+    и для <img align="absmiddle" width="77" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image040.gif">:<br>
+  <img align="absmiddle" width="68" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image042.gif"> – второй вектор.</p>
+  <p>Легко видеть, что оба вектора  удовлетворяют системе (уравнению <img align="absmiddle" width="75" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image032_0001.gif">) и, естественно, являются собственными. Вычислим их <strong><a href="skaljarnoe_proizvedenie_vektorov.html">скалярное произведение</a></strong>:</p>
+  <p><img align="absmiddle" width="232" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image044.gif">, значит, данные векторы НЕ ортогональны, что нас не устраивает. </p>
+  <p>Поэтому эту пару векторов следует <em>ортогонализовать</em>. Поскольку любая <em>линейная комбинация</em> векторов  фундаментальной системы <strong>тоже</strong> является решением системы (уравнения <img align="absmiddle" width="75" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image032_0002.gif">), то рассмотрим вектор <img align="absmiddle" width="65" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image046.gif">, где <img align="absmiddle" width="16" height="17" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image048.gif"> – <em>пока ёщё</em> неизвестный числовой коэффициент, и составим следующее  скалярное произведение, которое должно быть равно нулю:<br>
+      <img align="absmiddle" width="125" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image050.gif"></p>
+  <p>по <strong><a href="skaljarnoe_proizvedenie_vektorov.html">свойствам скалярного произведения</a></strong>:<br>
+      <img align="absmiddle" width="137" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image052.gif"><br>
+    откуда выражаем и находим:<br>
+  <img align="absmiddle" width="319" height="47" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image054.gif"></p>
+  <p>Таким образом, в качестве первого  собственного вектора выбираем:<br>
+      <img align="absmiddle" width="219" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image056.gif"><br>
+    и в качестве второго:<br>
+  <img align="absmiddle" width="99" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image058.gif"><br>
+    Как на ладони видно:<br>
+  <img align="absmiddle" width="267" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image060.gif"> – что полученные  векторы действительно ортогональны</p>
+  <p>С третьим собственным вектором всё  прозрачно:</p>
+  <p>3) Если <img align="absmiddle" width="77" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image062.gif">, то получаем систему:<br>
+      <img align="absmiddle" width="125" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image064.gif"> из 2-го уравнения  выразим <img align="absmiddle" width="76" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image066.gif">– подставим в 1-е и 3-е уравнения:<br>
+    <img align="absmiddle" width="372" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image068.gif"></p>
+  <p>Пусть <img align="absmiddle" width="277" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image070.gif"><br>
+    Таким образом, третий собственный  вектор: <img align="absmiddle" width="69" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image072.gif">. Не забываем о проверке – устно или на черновике подставляем  его координаты в каждое уравнение системы.</p>
+  <p>И проверяем, ортогонален ли он ранее  найденным векторам <img align="absmiddle" width="136" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image074.gif">:<br>
+      <img align="absmiddle" width="369" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image076.gif"></p>
+  <p>Отлично. Осталось вычислить длины  векторов и при необходимости их нормировать:<br>
+      <img align="absmiddle" width="371" height="245" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image078.gif"></p>
+  <p>Таким образом, матрица  ортогонального преобразования:<br>
+      <img align="absmiddle" width="200" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image080.gif"></p>
+  <p>Запишем <strong>ответ</strong>: <img align="absmiddle" width="104" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image026_0001.gif"> и преобразование в  виде прямых замен:<br>
+      <img align="absmiddle" width="179" height="133" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image082.gif"></p>
+  <p>Но подставлять всё это в <img align="absmiddle" width="243" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image010_0003.gif"> что-то не хочется :)  Однако, проверка нужна, и мне проще воспользоваться <strong><a href="files/kalkulyator.matprofi.ru.zip">матричным калькулятором</a></strong>:<br>
+      <img align="absmiddle" width="632" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image084.gif"><br>
+    Засёк для интереса время, «забивка» матриц и вычисления  заняли ровно 2 минуты.</p>
+  <p>И здесь есть ещё один интересный  момент. В рассмотренной задаче векторы фундаментальной системы можно выбрать  бесчисленным количеством способов, и поэтому мы можем построить бесконечно  много ортогональных преобразований, которые приводят форму к виду <img align="absmiddle" width="104" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image026_0002.gif">. Но так бывает, конечно, не всегда.</p>
+  <p>В заключение статьи кратко расскажу  о геометрическом смысле ортогонального преобразования формы трёх переменных.  Даже добавлять константу не буду:</p>
+  <p><img align="absmiddle" width="237" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image086.gif"> – данное уравнение  определяет некоторую <strong><a href="poverhnosti.html">поверхность второго  порядка</a></strong> в «школьном» базисе <img align="absmiddle" width="55" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image088.gif">. Что это за поверхность – скажет разве что вундеркинд. </p>
+  <p>Проведённое ортогональное  преобразование осуществляет переход к другому ортонормированному базису <img align="absmiddle" width="68" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image090.gif"> – ТАКОМУ, в котором  данная поверхность имеет канонический вид:</p>
+  <p><img align="absmiddle" width="169" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image092.gif"> – откуда сразу понятно,  что это <strong><a href="poverhnosti.html">коническая поверхность</a></strong>, причём,  ортогональное преобразование <u>сохранило её размеры</u>. Кстати, перед нами <strong><a href="poverhnosti.html">конус вращения</a></strong>, и теперь стало ясно,  почему существует бесконечно много пригодных ортогональных преобразований: связку  векторов <img align="absmiddle" width="35" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image094.gif"> мы можем «повернуть в горизонтальной плоскости»  как угодно, и во всех полученных базисах <img align="absmiddle" width="68" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image090_0000.gif"> коническая поверхность  будет иметь канонический вид.</p>
+  <p>Саму же разновидность поверхности  можно выяснить быстрее – <strong><a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">методом  Лагранжа</a></strong>, но он в общем случае будет «показывать» нам конусы других  размеров.</p>
+  <p>И задача для самостоятельного  решения, тоже с кратными собственными числами, ибо с разными получится как-то  совсем скучно:</p>
+  <p><u>Пример 16</u></p>
+  <p>Найти ортогональные линейные замены,  приводящие форму к каноническому виду<br>
+      <img align="absmiddle" width="161" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image096.gif"></p>
+  <p>Не пропускайте, это несколько другой  тип ;) Да и вычислений заметно меньше.</p>
+  <p>Для квадратичных форм четырёх и  бОльшего количества переменных задача ортогонального преобразования решается по  аналогии. Но в учебной практике такие примеры редкость ввиду их вычислительной  сложности, и поэтому я завершаю эту увлекательную тему.</p>
+  <p>Квадратичные формы – держат нас в  форме!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример  12. <strong>Решение</strong>:<strong> </strong>запишем матрицу формы <img align="absmiddle" width="92" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image098.gif"> и найдём её  собственные числа:</em><br>
+      <em><img align="absmiddle" width="159" height="123" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image100.gif"></em><br>
+      <em>Решим <strong><a href="goryachie_formuly.pdf" target="_blank">квадратное уравнение</a></strong>:</em><br>
+      <em><img align="absmiddle" width="223" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image102.gif"></em><br>
+      <em><img align="absmiddle" width="233" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image104.gif"> – собственные числа,  таким образом:</em><br>
+      <em><img align="absmiddle" width="81" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image106.gif"> – форма <img align="absmiddle" width="133" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image108.gif">  – в каноническом  виде.</em></p>
+  <p><em>Найдём  собственные векторы, их длины и при необходимости выполним нормирование: </em></p>
+  <p><em>1)  Если <img align="absmiddle" width="75" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image110.gif">, то:</em><br>
+      <em><img align="absmiddle" width="199" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image112.gif">, пусть <img align="absmiddle" width="128" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image114.gif"></em><br>
+      <em>Таким  образом: <img align="absmiddle" width="65" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image116_0000.gif"> </em><br>
+      <em><img align="absmiddle" width="176" height="31" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image118_0002.gif">. </em><br>
+      <em>Разделим  каждую координату на длину: <img align="absmiddle" width="88" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image120_0000.gif"></em></p>
+  <p><em>2)  Если <img align="absmiddle" width="79" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image122_0000.gif">, то:</em><br>
+      <em><img align="absmiddle" width="201" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image124_0002.gif">, пусть <img align="absmiddle" width="117" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image126_0003.gif"></em><br>
+      <em>Таким  образом: <img align="absmiddle" width="57" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image128_0000.gif"></em><br>
+      <em><img align="absmiddle" width="275" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image130_0000.gif"></em></p>
+  <p><em>Таким  образом, матрица линейного преобразования:</em><br>
+      <em><img align="absmiddle" width="132" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image132_0000.gif"></em></p>
+  <p><em>Выполним  проверку прямой подстановкой <img align="absmiddle" width="149" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image134.gif"> в <img align="absmiddle" width="133" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image108_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="616" height="183" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image137_0000.gif"></em><br>
+      <em><img align="absmiddle" width="275" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image139_0000.gif">, что и требовалось проверить.</em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="81" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image106_0000.gif">,  <img align="absmiddle" width="105" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image142.gif">, в случае перестановки собственных чисел:</em><br>
+      <em><img align="absmiddle" width="81" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image144.gif">, <img align="absmiddle" width="132" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image146.gif"></em><br>
+      <br>
+      <em>Пример  14.<strong> Решение</strong>: запишем матрицу <img align="absmiddle" width="96" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image148.gif"> квадратичной формы и  найдём её собственные числа:</em><br>
+      <em><img align="absmiddle" width="108" height="101" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image150.gif"></em><br>
+      <em>так  как каноничная парабола определяется уравнением <img align="absmiddle" width="84" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image152.gif">, то нам нужно перечислить собственные числа в следующем  порядке:</em><br>
+      <em><img align="absmiddle" width="88" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image154.gif"></em></p>
+  <p><em>Таким  образом, квадратичная форма преобразуется к виду:</em><br>
+      <em><img align="absmiddle" width="288" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image156.gif">.</em></p>
+  <p><em>Найдём  собственные векторы и при необходимости выполним их нормирование:</em></p>
+  <p><em>1)  Если <img align="absmiddle" width="68" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image158.gif">, то:</em><br>
+      <em><img align="absmiddle" width="169" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image160.gif">, пусть <img align="absmiddle" width="209" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image162.gif"></em><br>
+      <em><img align="absmiddle" width="257" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image164.gif"></em><br>
+      <em>2)  Если <img align="absmiddle" width="71" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image166_0001.gif">, то:</em><br>
+      <em><img align="absmiddle" width="179" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image168_0001.gif">, пусть <img align="absmiddle" width="233" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image170_0000.gif"></em><br>
+      <strong><em>Примечание</em></strong><em>: вектор <img align="absmiddle" width="37" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image172_0000.gif"> в пару к <img align="absmiddle" width="16" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image174_0000.gif"> не годится, т.к.  линейное преобразование не будет соответствовать формулам поворота.</em><br>
+      <em><img align="absmiddle" width="295" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image176_0000.gif"></em></p>
+  <p><em>Таким  образом, матрица линейного преобразования:</em><br>
+      <em><img align="absmiddle" width="92" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image178.gif">, которое по формулам <img align="absmiddle" width="241" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image180_0000.gif"> приводит уравнение к  виду:</em><br>
+      <em><img align="absmiddle" width="585" height="45" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image182.gif"></em><br>
+      <em>Однако,  после раскрытия скобок, выясняется, что знак при переменной <img align="absmiddle" width="17" height="19" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image184.gif"> не приведёт нас каноническому  виду <img align="absmiddle" width="84" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image152_0000.gif">.</em></p>
+  <p><em>И  поэтому нужно выбрать другое преобразование, определитель которого <img align="absmiddle" width="41" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image187_0000.gif">. Этому критерию подходит пара  ортонормированных векторов <img align="absmiddle" width="95" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image189_0000.gif">, <img align="absmiddle" width="96" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image191_0000.gif">, задающая преобразование <img align="absmiddle" width="132" height="85" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image193_0000.gif"> с поворотом <img align="absmiddle" width="252" height="88" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image195.gif"> на  <img align="absmiddle" width="61" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image197.gif"> рад. (–135  градусов) (это угол <strong><a href="trigonometricheskie_tablicy.pdf" target="_blank">табличный</a></strong>: значениям <img align="absmiddle" width="176" height="43" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image199.gif"> соответствует <img align="absmiddle" width="25" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image201.gif"> или <img align="absmiddle" width="37" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image203.gif"> рад.</em>)</p>
+  <p><em>Таким  образом, данное преобразование приводит нас к уравнению:</em><br>
+      <em><img align="absmiddle" width="368" height="181" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image205.gif"></em><br>
+      <em>избавимся  от иррациональности в знаменателях, домножив числители и знаменатели на <img align="absmiddle" width="25" height="23" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image207.gif">:</em><br>
+      <em><img align="absmiddle" width="183" height="53" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image209.gif"></em><br>
+      <em>«собираем»  полный квадрат при переменной <img align="absmiddle" width="17" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image211.gif">:</em><br>
+      <em><img align="absmiddle" width="117" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image213.gif"> и проводим замены <img align="absmiddle" width="84" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image215.gif">.</em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="76" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image217.gif"></em></p>
+  <p><em>Пример  16. <strong>Решение</strong> запишем матрицу формы <img align="absmiddle" width="148" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image219.gif"> и найдём её  собственные числа:</em><br>
+      <em><img align="absmiddle" width="159" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image221.gif"></em><br>
+      <em>определитель  выгодно раскрыть по 3-й строке или 3-му столбцу:</em><br>
+      <em><img align="absmiddle" width="195" height="153" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image223.gif"></em><br>
+      <em><img align="absmiddle" width="131" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image225.gif"> – собственные числа,  таким образом:</em></p>
+  <p><em><img align="absmiddle" width="67" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image227.gif"> – форма <img align="absmiddle" width="161" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image096_0000.gif"> в каноническом виде.</em></p>
+  <p><em>Найдём  собственные векторы:</em></p>
+  <p><em>1-2)  Если <img align="absmiddle" width="76" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image229.gif">, то получаем систему:</em><br>
+      <em><img align="absmiddle" width="152" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image231.gif">, из которой очевиден собственный вектор <img align="absmiddle" width="56" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image233.gif">.</em><br>
+      <em>Второй  вектор найдём для <img align="absmiddle" width="37" height="21" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image235.gif"> из соотношения <img align="absmiddle" width="71" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image237.gif">.</em><br>
+      <em>Пусть <img align="absmiddle" width="260" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image239.gif"></em><br>
+      <em><img align="absmiddle" width="299" height="25" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image241.gif"></em></p>
+  <p><em>3)  Если <img align="absmiddle" width="69" height="24" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image243.gif">, то:</em><br>
+      <em><img align="absmiddle" width="295" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image245.gif"> </em><br>
+      <em>Пусть <img align="absmiddle" width="239" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image247.gif"></em><br>
+      <em>Проверим,  что полученный вектор ортогонален двум первым векторам:</em><br>
+      <em><img align="absmiddle" width="405" height="53" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image249.gif"></em></p>
+  <p><em>Первый  вектор уже имеет единичную длину, поэтому:</em><br>
+      <em><img align="absmiddle" width="84" height="75" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image251.gif"></em><br>
+      <em>другие  векторы нужно нормировать:</em><br>
+      <em><img align="absmiddle" width="451" height="155" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image253.gif"></em></p>
+  <p><em>Таким  образом, матрица ортогонального преобразования:</em><br>
+      <em><img align="absmiddle" width="164" height="80" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image255.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="156" height="115" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image257.gif"></em></p>
+  <p><em>Проверим  результат прямой подстановкой в форму <img align="absmiddle" width="161" height="27" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image096_0001.gif">:</em><br>
+      <em><img align="absmiddle" width="605" height="155" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image259.gif"></em><br>
+      <em>сгруппируем  вместе и приведём подобные слагаемые:</em><br>
+      <em><img align="absmiddle" width="549" height="48" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image261.gif"></em><br>
+      <em><img align="absmiddle" width="341" height="41" src="s/metod_ortogonalnogo_preobrazovaniya_kf_clip_image263.gif">, что и требовалось проверить.</em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

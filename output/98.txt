@@ -1,0 +1,990 @@
+<html>
+<head>
+<title>Определенный интеграл. Примеры решений
+
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="определенный интеграл, примеры, просто, подробно, пошагово">
+<meta name="Description" content="Секреты определенного интеграла в 9 примерах с пошаговыми комментариями. Доступно для чайника, полезно - для студента-отличника">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Определенный интеграл. Примеры решений</strong></h1>
+  
+  <br>
+  <p>И снова здравствуйте. На данном  уроке мы подробно разберем такую замечательную вещь, как определенный интеграл.  На этот раз вступление будет кратким. Всё. Потому что снежная метель за окном. 
+  <p> Для того чтобы научиться решать определенные  интегралы необходимо:</p>
+  <p>1) Уметь <u>находить</u> неопределенные интегралы.</p>
+  <p>2) Уметь <u>вычислить</u> определенный  интеграл.</p>
+  <p>Как видите, для того чтобы  освоить определенный интеграл, нужно достаточно хорошо ориентироваться в  «обыкновенных» неопределенных интегралах. Поэтому если вы только-только  начинаете погружаться в интегральное исчисление, и чайник еще совсем не закипел,  то лучше начать с урока <strong><a href="integraly_primery_reshenij.html">Неопределенный  интеграл. Примеры решений</a></strong>. Кроме того, есть <a href="http://mathprofi.com/knigi_i_kursy/" target="_blank">pdf-курсы</a> для<strong> сверхбыстрой подготовки</strong>  – если у вас в запасе буквально день, пол дня.</p>
+  <p>В общем виде определенный  интеграл записывается так:<br>
+      <img align="absmiddle"  width="60" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image002.gif"><br>
+    <br>
+    Что прибавилось по сравнению с  неопределенным интегралом? Прибавились <em>пределы  интегрирования</em>. </p>
+  <p><em>Нижний предел интегрирования</em> стандартно обозначается буквой <img align="absmiddle"  width="13" height="15" src="f/opredelennye_integraly_primery_reshenij_clip_image004.gif">.<br>
+      <em>Верхний предел интегрирования</em> стандартно обозначается буквой <img align="absmiddle"  width="13" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image006.gif">.<br>
+    Отрезок <img align="absmiddle"  width="35" height="23" src="f/opredelennye_integraly_primery_reshenij_clip_image008.gif"> называется <em>отрезком интегрирования</em>.</p>
+  <p>Прежде чем мы перейдем к практическим  примерам, небольшое faq по определенному интегралу.</p>
+  <p><strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое определенный интеграл?</a></strong> Считаю немного преждевременным рассказать про разбиения  отрезка и предел интегральных сумм, поэтому пока я скажу, что определенный интеграл – это ЧИСЛО. Да-да,  самое что ни на есть обычное число.</p>
+  <p><strong>Есть ли у определенного интеграла геометрический смысл?</strong> Есть. И очень хороший. Самая популярная задача – <a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">вычисление площади с  помощью определенного интеграла</a>.</p>
+  <p><strong>Что значит решить определенный интеграл?</strong> Решить определенный  интеграл – это значит, найти число.</p>
+  <p><strong>Как решить определенный интеграл? </strong>С помощью знакомой со школы  <a href="chto_takoe_integral_teorija_dlja_chainikov.html">формулы Ньютона-Лейбница</a>:</p>
+  <p><img align="absmiddle"  width="219" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image010.gif"></p>
+  <p>Формулу лучше переписать на  отдельный листочек, она должна быть перед глазами на протяжении всего урока.</p>
+  <p>Этапы решения определенного  интеграла следующие:</p>
+  <p>1) Сначала находим первообразную функцию <img align="absmiddle"  width="41" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image012.gif"> (неопределенный  интеграл). Обратите внимание, что константа <img align="absmiddle"  width="16" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image014.gif"> в определенном  интеграле <strong>не добавляется</strong>. Обозначение <img align="absmiddle"  width="16" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image016.gif">является чисто  техническим, и вертикальная палочка не несет никакого математического смысла,  по сути – это просто отчёркивание. Зачем нужна сама запись <img align="absmiddle"  width="53" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image018.gif">?  Подготовка для  применения формулы Ньютона-Лейбница.</p>
+  <p>2) Подставляем значение верхнего  предела в первообразную функцию: <img align="absmiddle"  width="36" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image020.gif">.</p>
+  <p>3) Подставляем значение нижнего  предела в первообразную функцию: <img align="absmiddle"  width="36" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image022.gif">.</p>
+  <p>4) Рассчитываем (без ошибок!)  разность <img align="absmiddle"  width="81" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image024.gif">, то есть, находим число.</p>
+  <p>Готово.</p>
+  <p><strong>Всегда ли существует определенный интеграл?</strong> Нет, не всегда.</p>
+  <p>Например, интеграла <img align="absmiddle"  width="39" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image026.gif"> не существует,  поскольку отрезок интегрирования <img align="absmiddle"  width="52" height="23" src="f/opredelennye_integraly_primery_reshenij_clip_image028.gif"> не входит в <a href="oblast_opredeleniya.html">область  определения</a> подынтегральной функции (значения под квадратным корнем не могут  быть отрицательными). А вот менее очевидный пример: <img align="absmiddle"  width="51" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image030.gif">. Здесь на отрезке интегрирования <img align="absmiddle"  width="44" height="23" src="f/opredelennye_integraly_primery_reshenij_clip_image036.gif"> <strong> <a href="grafiki_i_svoistva_funkcij.html">тангенс</a></strong> терпит <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">бесконечные  разрывы</a></strong> в точках <img align="absmiddle"  width="53" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image032.gif">, <img align="absmiddle"  width="43" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image034.gif">, и поэтому такого определённого интеграла тоже не существует. Кстати, кто еще не прочитал методический материал <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и основные свойства элементарных  функций</a></strong> – самое время сделать это сейчас. Будет здорово помогать на  протяжении всего курса высшей математики.  </p>
+  <p>Для того <strong>чтобы определенный интеграл вообще существовал, достаточно чтобы  подынтегральная функция была <a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывной</a> на отрезке интегрирования</strong>.</p>
+  <p>Из вышесказанного следует первая  важная рекомендация: перед тем, как приступить к решению ЛЮБОГО определенного  интеграла, нужно убедиться в том, что подынтегральная функция <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a> на отрезке интегрирования</strong>.  По студенческой молодости у меня неоднократно бывал казус, когда я подолгу  мучался с нахождением трудной первообразной, а когда наконец-то ее находил, то  ломал голову еще над одним вопросом: «что за ерунда получилась?». В упрощенном  варианте ситуация выглядит примерно так:</p>
+    <p>
+  <img align="absmiddle"  width="111" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image038.gif">???! Нельзя подставлять отрицательные числа под корень! Что  за фигня?! Изначальная невнимательность.</p>
+  <p>Если для решения (в контрольной  работе, на зачете, экзамене) Вам предложен интеграл вроде <img align="absmiddle"  width="39" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image026.gif"> или <img align="absmiddle"  width="51" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image030_0000.gif">, то нужно дать ответ, что данного определённого интеграла не существует и  обосновать – почему.</p>
+  <p><strong><em>! Примечание</em></strong><em>: в последнем случае слово «определённого»  опускать нельзя, т.к. интеграл с точечными разрывами разбивается на несколько, в  данном случае на 3 несобственных интеграла, и формулировка «данного интеграла  не существует» становится некорректной.</em></p>
+  <p><strong>Может ли определенный интеграл быть равен отрицательному числу?</strong> Может. И отрицательному числу. И нулю. Может даже получиться бесконечность, но  это уже будет <strong><a href="nesobstvennye_integraly.html">несобственный интеграл</a></strong>,  коим отведена отдельная лекция. </p>
+  <p><strong>Может ли нижний предел интегрирования быть больше верхнего предела  интегрирования? </strong>Может, и такая ситуация реально встречается на практике.</p>
+  <p><img align="absmiddle"  width="69" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image040.gif"> –  интеграл преспокойно вычисляется по формуле  Ньютона-Лейбница. </p>
+  <p>Без чего не обходится высшая  математика? Конечно же, без всевозможных свойств. Поэтому рассмотрим некоторые  <a href="chto_takoe_integral_teorija_dlja_chainikov.html">свойства определенного интеграла</a>.</p>
+  <p><strong>В определенном интеграле можно переставить верхний и нижний предел,  сменив при этом знак</strong>:<br>
+    <br>
+  <img align="absmiddle"  width="141" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image042.gif"></p>
+  <p>Например, в определенном  интеграле перед интегрированием <img align="absmiddle"  width="69" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image040_0000.gif"> целесообразно поменять  пределы интегрирования на «привычный» порядок:</p>
+  <p><img align="absmiddle"  width="239" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image044.gif"> – в таком виде  интегрировать  значительно удобнее.</p>
+  <p>Как и для <a href="integraly_primery_reshenij.html">неопределенного  интеграла</a>, для определенного интеграла справедливы <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">свойства линейности</a></strong>:</p>
+  <p><img align="absmiddle"  width="237" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image046.gif"></p>
+  <p><img align="absmiddle"  width="257" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image048.gif"> – это справедливо не  только для двух, но и для любого количества функций.</p>
+  <p>В определенном интеграле можно  проводить <strong><a href="metod_zameny_peremennoi.html">замену переменной  интегрирования</a></strong>, правда, по сравнению с неопределенным интегралом тут есть  своя специфика, о которой мы еще поговорим.</p>
+  <p>Для определенного интеграла  справедлива <strong><a href="integrirovanie_po_chastyam.html">формула интегрирования по  частям</a></strong>:<br>
+      <img align="absmiddle"  width="127" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image050.gif"></p>
+  <p><u>Пример 1</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="52" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image052.gif"></p>
+  <p>Решение:<br>
+    <img align="absmiddle"  width="451" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image054.gif">  </p>
+  <p>(1) Выносим константу за знак  интеграла.</p>
+  <p>(2) Интегрируем по таблице с  помощью самой популярной формулы <img align="absmiddle"  width="117" height="44" src="f/opredelennye_integraly_primery_reshenij_clip_image056.gif">. Появившуюся константу <img align="absmiddle"  width="15" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image058.gif"> целесообразно отделить  от <img align="absmiddle"  width="19" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image060.gif"> и вынести за скобку.  Делать это не обязательно, но желательно – зачем лишние вычисления?</p>
+  <p>(3) Используем формулу Ньютона-Лейбница <img align="absmiddle"  width="217" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image062.gif">. Сначала подставляем в <img align="absmiddle"  width="19" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image060_0000.gif"> верхний предел, затем  – нижний предел. Проводим дальнейшие вычисления и получаем окончательный ответ.</p>
+  <p><u>Пример 2</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="40" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image065.gif"></p>
+  <p>Это пример для самостоятельно  решения, решение и ответ в конце урока.</p>
+  <p>Немного усложняем задачу:</p>
+  <p><u>Пример 3</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="109" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image067.gif"></p>
+  <p>Решение:<br>
+      <img align="absmiddle"  width="497" height="112" src="f/opredelennye_integraly_primery_reshenij_clip_image069.gif"></p>
+  
+  <p>(1) Используем свойства  линейности определенного интеграла.</p>
+  <p>(2) Интегрируем по таблице, при  этом все константы выносим – они не будут участвовать в подстановке верхнего и  нижнего предела.</p>
+  <p>(3) Для каждого из трёх слагаемых  применяем формулу Ньютона-Лейбница:<br>
+      <img align="absmiddle"  width="147" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image071.gif"><br>
+    СЛАБОЕ ЗВЕНО в определенном  интеграле – это ошибки вычислений и часто встречающаяся ПУТАНИЦА В ЗНАКАХ.  Будьте внимательны! Особое внимание заостряю на третьем слагаемом: <img align="absmiddle"  width="189" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image073.gif"> – первое место в  хит-параде ошибок по невнимательности, очень часто машинально пишут <img align="absmiddle"  width="189" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image075.gif"> (особенно, когда  подстановка верхнего и нижнего предела проводится устно и не расписывается так  подробно). Еще раз внимательно изучите вышерассмотренный пример.</p>
+  <p>Следует заметить, что  рассмотренный способ решения определенного интеграла – не единственный. При  определенном опыте, решение можно значительно сократить. Например, я сам привык  решать подобные интегралы так:</p>
+  <p><img align="absmiddle"  width="315" height="96" src="f/opredelennye_integraly_primery_reshenij_clip_image077.gif"></p>
+  <p>Здесь я устно использовал правила  линейности, устно проинтегрировал по таблице. У меня получилась всего одна  скобка с отчёркиванием пределов: <img align="absmiddle"  width="113" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image079.gif"> (в отличие от трёх  скобок в первом способе). И в «целиковую» первообразную функцию, я сначала  подставил сначала 4, затем –2, опять же выполнив все действия в уме. </p>
+  <p>Какие недостатки у короткого способа  решения? Здесь всё не очень хорошо с точки зрения рациональности вычислений, но  лично мне всё равно – обыкновенные дроби я считаю на <a href="files/drobovik.xls">калькуляторе</a>.<br>
+    Кроме того, существует повышенный  риск допустить ошибку в вычислениях, таким образом,  студенту-чайнику лучше использовать первый  способ, при «моём» способе решения точно где-нибудь потеряется знак.</p>
+  <p>Однако несомненными преимуществами  второго способа является быстрота решения, компактность записи и тот факт, что  первообразная <img align="absmiddle"  width="81" height="44" src="f/opredelennye_integraly_primery_reshenij_clip_image081.gif"> находится в одной  скобке. </p>
+  <p><strong>Совет: перед тем, как использовать формулу Ньютона-Лейбница, полезно  провести проверку: а сама-то первообразная найдена правильно?</strong></p>
+  <p>Так, применительно к  рассматриваемому примеру: перед тем, как в первообразную функцию  <img align="absmiddle"  width="81" height="44" src="f/opredelennye_integraly_primery_reshenij_clip_image081_0000.gif"> подставлять верхний и  нижний пределы, желательно на черновике проверить, а правильно ли вообще найден  неопределенный интеграл? Дифференцируем:<br>
+    <img align="absmiddle"  width="456" height="57" src="f/opredelennye_integraly_primery_reshenij_clip_image083.gif"></p>
+  <p>Получена исходная подынтегральная  функция, значит, неопределенный интеграл найден верно. Теперь можно и формулу  Ньютона-Лейбница применить.</p>
+  <p><strong>Такая проверка будет не лишней при вычислении любого определенного  интеграла</strong>.</p>
+  <p><u>Пример 4</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="116" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image085.gif"></p>
+  <p>Это пример для самостоятельно  решения. Попробуйте решить его коротким и подробным способом.</p>
+  <br>
+  <h2><strong>Замена переменной в определенном интеграле</strong></h2>
+  <p>Для определенного интеграла  справедливы все типы замен, что и для неопределенного интеграла. Таким образом,  если с заменами у Вас не очень, следует внимательно ознакомиться с уроком <strong><a href="metod_zameny_peremennoi.html">Метод замены в неопределенном интеграле</a></strong>. </p>
+  <p>В этом параграфе нет ничего страшного или сложного.  Новизна состоит в вопросе, <strong>как поменять  пределы интегрирования при замене</strong>.</p>
+  <p>В примерах я постараюсь привести  такие типы замен, которые еще нигде не встречались на сайте.</p>
+  <p><u>Пример 5</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="76" height="52" src="f/opredelennye_integraly_primery_reshenij_clip_image087.gif"></p>
+  <p>Главный вопрос здесь вовсе не в  определенном интеграле, а в том, как правильно провести замену. Смотрим в <strong><a href="tablica_integralov.pdf">таблицу интегралов</a></strong> и прикидываем, на  что у нас больше всего похожа подынтегральная функция? Очевидно, что на длинный  логарифм:  <img align="absmiddle"  width="207" height="45" src="f/opredelennye_integraly_primery_reshenij_clip_image089.gif">. Но есть одна неувязочка, в табличном интеграле под корнем <img align="absmiddle"  width="19" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image091.gif">, а в нашем – «икс» в четвёртой степени. Из рассуждений  следует и идея замены – неплохо бы нашу четвертую степень как-нибудь превратить  в квадрат. Это реально.</p>
+  <p>Сначала готовим наш интеграл к  замене:</p>
+  <p><img align="absmiddle"  width="215" height="55" src="f/opredelennye_integraly_primery_reshenij_clip_image093.gif"></p>
+  <p>Из вышеуказанных соображений  совершенно естественно напрашивается замена: <img align="absmiddle"  width="40" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image095.gif"><br>
+    Таким образом, в знаменателе  будет всё хорошо: <img align="absmiddle"  width="59" height="27" src="f/opredelennye_integraly_primery_reshenij_clip_image097.gif">.<br>
+    Выясняем, во что превратится  оставшаяся часть <img align="absmiddle"  width="28" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image099.gif"> подынтегрального  выражения, для этого находим дифференциал <img align="absmiddle"  width="19" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image101.gif">:</p>
+  <p><img align="absmiddle"  width="145" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image103.gif"> </p>
+  <p>По сравнению с заменой в  неопределенном интеграле у нас добавляется дополнительный этап.</p>
+  <p><strong>Находим новые пределы интегрирования</strong>.</p>
+  <p>Это достаточно просто. Смотрим на  нашу замену <img align="absmiddle"  width="40" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image095_0000.gif"> и старые пределы  интегрирования <img align="absmiddle"  width="37" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image105.gif">, <img align="absmiddle"  width="48" height="24" src="f/opredelennye_integraly_primery_reshenij_clip_image107.gif">.</p>
+  <p>Сначала подставляем в выражение  замены <img align="absmiddle"  width="40" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image095_0001.gif"> нижний предел  интегрирования, то есть, ноль:</p>
+  <p><img align="absmiddle"  width="68" height="24" src="f/opredelennye_integraly_primery_reshenij_clip_image109.gif"></p>
+  <p>Потом подставляем в выражение  замены <img align="absmiddle"  width="40" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image095_0002.gif"> верхний предел  интегрирования, то есть, корень из трёх:<br>
+      <img align="absmiddle"  width="92" height="25" src="f/opredelennye_integraly_primery_reshenij_clip_image111.gif"></p>
+  <p>Готово. И всего-то лишь…</p>
+  <p>Продолжаем решение.</p>
+  <p><img align="absmiddle"  width="484" height="96" src="f/opredelennye_integraly_primery_reshenij_clip_image113.gif"></p>
+  <p>(1) В соответствии с заменой <strong>записываем новый интеграл с новыми  пределами интегрирования</strong>. </p>
+  <p>(2) Это простейший табличный  интеграл, интегрируем по таблице. Константу <img align="absmiddle"  width="16" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image115.gif"> лучше оставить за  скобками (можно этого и не делать), чтобы она не мешалась в дальнейших  вычислениях. Справа отчеркиваем линию с указанием новых пределов интегрирования <img align="absmiddle"  width="15" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image117.gif"> – это подготовка для  применения формулы Ньютона-Лейбница.</p>
+  <p>(3) Используем формулу  Ньютона-Лейбница <img align="absmiddle"  width="219" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image010_0000.gif">.</p>
+  <p>Ответ стремимся записать в  максимально компактном виде, здесь я использовал свойства логарифмов.</p>
+  <p>Ещё одно отличие от  неопределенного интеграла состоит в том, что, после того, как мы провели  замену, <strong>никаких обратных замен проводить  не надо</strong>.</p>
+  <p>А сейчас пара примеров для  самостоятельного решения. Какие замены проводить – постарайтесь догадаться  самостоятельно.</p>
+  <p><u>Пример 6</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="84" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image119.gif"></p>
+  <p><u>Пример 7</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="47" height="59" src="f/opredelennye_integraly_primery_reshenij_clip_image121.gif"></p>
+  <p>Это примеры для самостоятельного  решения. Решения и ответы в конце урока.</p>
+  <p>И в заключение параграфа пара важных моментов, разбор  которых появился благодаря посетителям сайта. Первый из них касается <strong>правомерности замены</strong>. <strong>В некоторых случаях её проводить нельзя!</strong> Так, Пример 6, казалось бы, разрешим с помощью <strong><a href="integraly_ot_trigonometricheskih_funkcij.html">универсальной тригонометрической подстановки</a></strong> <img align="absmiddle" width="56" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image751.gif">, однако верхний предел интегрирования <em>(«пи»)</em> не входит в <strong><a href="oblast_opredeleniya.html">область определения</a></strong> этого тангенса и поэтому данная подстановка нелегальна! Таким образом, <strong>функция-«замена» <img align="absmiddle" width="56" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image752.gif"> должна быть <a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a> <u>во всех</u> точках отрезка <img align="absmiddle"  width="35" height="23" src="f/opredelennye_integraly_primery_reshenij_clip_image008.gif"> интегрирования</strong>.</p>
+  <p>В другом электронном письме поступил следующий  вопрос: «А нужно ли менять пределы интегрирования, когда мы  подводим функцию под знак дифференциала?». Сначала я хотел «отмахнуться от ерунды» и автоматически  ответить «конечно, нет», но затем задумался о причине появления такого вопроса  и вдруг обнаружил, что информации-то<em> </em>не хватает. А ведь она, пусть и очевидна, но очень важнА:</p>
+  <p> <strong>Если мы подводим функцию под знак дифференциала, то менять пределы интегрирования не нужно</strong>!  Почему? Потому что в этом случае <u>нет фактического перехода к новой  переменной</u>. Например:<br>
+      <img align="absmiddle" width="281" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image700.gif"></p>
+  <p>И здесь подведение гораздо  удобнее академичной  замены <img align="absmiddle" width="43" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image701.gif"> с последующей  «росписью» новых пределов интегрирования. Таким образом, <strong>если определённый интеграл не очень сложен, то всегда старайтесь  подвести функцию под знак дифференциала</strong>! Это быстрее, это компактнее, и это обыденно – в чём вы убедитесь ещё десятки раз!</p>
+  <p>Большое спасибо за ваши письма!</p>
+  <br>
+  <h2><strong>Метод интегрирования по частям в определенном интеграле</strong></h2>
+  <p>Здесь новизны еще меньше. Все выкладки  статьи <strong><a href="integrirovanie_po_chastyam.html">Интегрирование по частям в  неопределенном интеграле</a></strong> в полной мере справедливы и для определенного  интеграла.<br>
+    Плюсом идёт только одна деталь, в  формуле интегрирования по частям добавляются пределы интегрирования:</p>
+  <p><img align="absmiddle"  width="127" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image123.gif"></p>
+  <p>Формулу Ньютона-Лейбница здесь  необходимо применить дважды: для произведения  <img align="absmiddle"  width="20" height="15" src="f/opredelennye_integraly_primery_reshenij_clip_image125.gif"> и, после того, как мы  возьмем интеграл <img align="absmiddle"  width="37" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image127.gif">.</p>
+  <p>Тип интеграла для примера я опять подобрал такой, который еще  нигде не встречался на сайте. Пример не самый простой, но очень и очень  познавательный.</p>
+  <p><u>Пример 8</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="68" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image129.gif"></p>
+  <p>Решаем.<br>
+      <img align="absmiddle"  width="103" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image131.gif"></p>
+  <p>Интегрируем по частям:<br>
+      <img align="absmiddle"  width="236" height="105" src="f/opredelennye_integraly_primery_reshenij_clip_image133.gif"></p>
+  <p>У кого возникли трудности с  интегралом <img align="absmiddle"  width="57" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image135.gif">, загляните на урок <strong><a href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы  от тригонометрических функций</a></strong>, там он подробно разобран.</p>
+  <p><img align="absmiddle"  width="547" height="148" src="f/opredelennye_integraly_primery_reshenij_clip_image137.gif"></p>
+  <p>(1) Записываем решение в соответствии с формулой  интегрирования по частям.</p>
+  <p>(2) Для произведения <img align="absmiddle"  width="67" height="21" src="f/opredelennye_integraly_primery_reshenij_clip_image139.gif">применяем формулу Ньютона-Лейбница. Для оставшегося интеграла  используем свойства линейности, разделяя его на два интеграла. <strong>Не путаемся в знаках!</strong></p>
+  <p>(3) Берем два оставшихся интеграла. Интеграл <img align="absmiddle"  width="48" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image141.gif"> также разобран на  уроке <strong><a href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических  функций</a></strong> </p>
+  <p>(4) Применяем формулу Ньютона-Лейбница для двух найденных  первообразных.</p>
+  <p>Далее ответ доводится «до ума». Повторюсь, будьте ПРЕДЕЛЬНО  ВНИМАТЕЛЬНЫ при подстановках и заключительных вычислениях. Здесь допускают  ошибки чаще всего.</p>
+  <p>Если честно, я недолюбливаю формулу <img align="absmiddle"  width="127" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image050_0000.gif"> и, по возможности, …  обхожусь вообще без нее! Рассмотрим второй способ решения, с моей точки зрения  он более рационален.</p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="68" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image129_0000.gif"></p>
+  <p><strong>На первом этапе я  нахожу неопределенный интеграл</strong>:<br>
+      <img align="absmiddle"  width="99" height="29" src="f/opredelennye_integraly_primery_reshenij_clip_image144.gif"></p>
+  <p>Интегрируем по частям:</p>
+  <p><img align="absmiddle"  width="236" height="85" src="f/opredelennye_integraly_primery_reshenij_clip_image146.gif"></p>
+  <p><img align="absmiddle"  width="388" height="75" src="f/opredelennye_integraly_primery_reshenij_clip_image148.gif"><br>
+    Первообразная функция найдена. Константу <img align="absmiddle"  width="16" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image014_0000.gif"> в данном случае  добавлять не имеет смысла. </p>
+  <p>В чём преимущество такого похода? Не нужно «таскать за  собой» пределы интегрирования, действительно, замучаться можно десяток раз  записывать мелкие значки пределов интегрирования</p>
+  <p><strong>На втором этапе я  провожу проверку</strong> (обычно на черновике).</p>
+  <p>Тоже логично. Если я неправильно нашел первообразную  функцию, то неправильно решу и определенный интеграл. Это лучше выяснить  немедленно, дифференцируем ответ:</p>
+  <p><img align="absmiddle"  width="455" height="145" src="f/opredelennye_integraly_primery_reshenij_clip_image151.gif"></p>
+  <p>Получена исходная подынтегральная функция, значит,  первообразная функция найдена верно.</p>
+  <p><strong>Третий этап –  применение формулы Ньютона-Лейбница</strong>:<br>
+    <img align="absmiddle" width="576" height="96" src="f/opredelennye_integraly_primery_reshenij_clip_image153.gif""></p>
+  <p>И здесь есть существенная выгода! В «моём» способе решения  гораздо меньший риск запутаться в подстановках и вычислениях – формула  Ньютона-Лейбница применяется всего лишь один раз. Если чайник решит подобный  интеграл по формуле <img align="absmiddle"  width="127" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image050_0001.gif"> (первым способом), то  стопудово где-нибудь допустит ошибку.</p>
+  <p><strong>Рассмотренный  алгоритм решения можно применить для любого определенного интеграла</strong>.</p>
+  <p>Уважаемый студент, распечатай и сохрани:</p>
+  <p><strong>Что делать, если дан  определенный интеграл, который кажется сложным или не сразу понятно, как  его решать?</strong></p>
+  <p>1) Сначала находим неопределенный интеграл (<a href="chto_takoe_integral_teorija_dlja_chainikov.html">первообразную  функцию</a>). Если на первом же этапе случился облом, дальше рыпаться с Ньютоном и Лейбницем бессмысленно.  Путь только один – повышать свой уровень знаний и навыков в решении <strong><a href="integraly_primery_reshenij.html">неопределенных интегралов</a></strong>.</p>
+  <p>2) Проверяем найденную первообразную функцию  <a href="kak_naiti_proizvodnuju.html">дифференцированием</a>. Если она найдена неверно, третий шаг будет напрасной тратой  времени.</p>
+  <p>3) Используем формулу Ньютона-Лейбница. Все вычисления  проводим ПРЕДЕЛЬНО ВНИМАТЕЛЬНО  –  тут самое слабое звено задания.</p>
+  <p>И, на закуску, интеграл для самостоятельного решения.</p>
+  <p><u>Пример 9</u></p>
+  <p>Вычислить определенный интеграл<br>
+      <img align="absmiddle"  width="92" height="52" src="f/opredelennye_integraly_primery_reshenij_clip_image156.gif"></p>
+  <p>Решение и ответ где-то рядом.</p>
+  <p>Следующий рекомендуемый урок по теме – <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь фигуры с помощью определенного интеграла?</a> </strong>Там  речь пойдет о геометрическом смысле определенного интеграла. Дополнительные  материалы по определенному интегралу также можно найти в статье <strong><a href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы вычисления определенных  интегралов</a></strong>. Данный урок содержит ряд очень важных технических приёмов и позволит  существенно повысить навыки вычисления определенного интеграла.</p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>:</em></p>
+  <p><img align="absmiddle"  width="379" height="49" src="f/opredelennye_integraly_primery_reshenij_clip_image158.gif"></p>
+  <p><em>Пример 4: <strong>Решение</strong>:</em><br>
+      <img align="absmiddle"  width="303" height="96" src="f/opredelennye_integraly_primery_reshenij_clip_image160.gif"></p>
+  <p><em>Пример 6: <strong>Решение</strong>:</em></p>
+  <p><em><img align="absmiddle"  width="119" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image162.gif"></em><br>
+      <em>Проведем замену переменной: <img align="absmiddle"  width="268" height="19" src="f/opredelennye_integraly_primery_reshenij_clip_image164.gif">,</em><br>
+      <em>Новые переделы интегрирования:</em><br>
+      <em><img align="absmiddle"  width="96" height="67" src="f/opredelennye_integraly_primery_reshenij_clip_image166.gif"></em><br>
+      <em><img align="absmiddle"  width="492" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image168.gif"></em></p>
+  <p><em>Примечания: В  рассмотренном интеграле – как раз тот случай, когда уместно применить свойство  определенного интеграла </em><img align="absmiddle"  width="141" height="51" src="f/opredelennye_integraly_primery_reshenij_clip_image042_0000.gif"><em>. </em><br>
+      <em>Если не совсем  понятно, почему из арктангенса можно вынести минус, рекомендую обратиться к  методическому материалу <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и  свойства элементарных функций</a></strong>. </em></p>
+  <p><em>Пример 7: <strong>Решение</strong>:</em><br>
+      <em><img align="absmiddle"  width="47" height="59" src="f/opredelennye_integraly_primery_reshenij_clip_image121_0000.gif"></em><br>
+      <em>Замена: <img align="absmiddle"  width="199" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image171.gif"></em><br>
+      <em>Новые пределы  интегрирования:</em><br>
+      <em><img align="absmiddle"  width="116" height="41" src="f/opredelennye_integraly_primery_reshenij_clip_image173.gif"></em><br>
+      <em><img align="absmiddle"  width="308" height="52" src="f/opredelennye_integraly_primery_reshenij_clip_image175.gif"></em></p>
+  <p><em>Пример 9: <strong>Решение</strong>:</em><br>
+      <em><img align="absmiddle"  width="127" height="52" src="f/opredelennye_integraly_primery_reshenij_clip_image177.gif"></em><br>
+      <em>Интегрируем по частям:</em><br>
+      <em><img align="absmiddle"  width="213" height="120" src="f/opredelennye_integraly_primery_reshenij_clip_image179.gif"></em>      <br>
+      <em><img align="absmiddle"  width="553" height="96" src="f/opredelennye_integraly_primery_reshenij_clip_image181.gif"></em></p>
+  <p>Вы точно их прорешали и получили такие ответы? ;-) И на  старуху бывает порнуха.</p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

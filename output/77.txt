@@ -1,0 +1,1101 @@
+<html>
+<head>
+<title>Двойные интегралы для чайников
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="двойные интегралы, для чайников, понятие двойного интеграла, область интегрирования, порядок обхода, как изменить порядок обхода, примеры, подробно, просто, доступно, два способа обхода области, перейти к обратным функциям, двойной интеграл, вычислить площадь с помощью двойного интеграла">
+<meta name="Description" content="Вводный курс для начинающих. Научитесь решать двойные интегралы совершенно бесплатно!">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Двойные интегралы для чайников</h1>
+  
+  <br>
+  <p>Данный урок открывает обширную тему кратных интегралов, с  которыми студенты обычно сталкиваются на втором курсе. Двойными и тройными  интегралами можно запугать обывателя не хуже, чем <strong><a href="differencialnye_uravnenija_primery_reshenii.html">дифференциальными уравнениями</a></strong>, поэтому сразу же разберёмся с  вопросом: сложно или нет? Конечно, некоторым будет сложно, и, если честно, я  немного слукавил с названием статьи – для того, чтобы научиться решать двойные  интегралы, необходимо обладать некоторыми навыками. Во-первых, если речь идёт  об интегралах, то, очевидно, придётся интегрировать. Логично. Следовательно, для  освоения примеров нужно уметь находить <strong><a href="integraly_primery_reshenij.html">неопределённые  интегралы</a></strong> и вычислять <strong><a href="opredelennye_integraly_primery_reshenij.html">определённые  интегралы</a></strong> хотя бы на среднем уровне. Хорошая новость состоит в том, что  сами по себе интегралы в большинстве случаев достаточно просты.
+  <p>Кому придётся туговато? Понятное дело. Тем, кто много пил  пиво в течение первых семестров. Однако нормальных студентов тоже обнадёжу – на  сайте есть все материалы, чтобы восполнить пробелы или недопонимание. Просто  вам придётся потратить больше времени. Ссылки на темы, которые следует изучить  или повторить, будут прилагаться по ходу статьи.</p>
+  <p>На вводном уроке поэтапно и подробно будут разобраны  следующие базовые моменты:</p>
+  <p><strong>– Понятие двойного  интеграла</strong></p>
+  <p><strong>– Область  интегрирования. Порядок обхода области интегрирования. Как изменить порядок  обхода?</strong></p>
+  <p><strong>– Как вычислить  площадь плоской фигуры с помощью двойного интеграла?</strong></p>
+  <p>После того, как вы ХОРОШО поймёте все азы, можно будет  перейти к статье <strong><a href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной  интеграл? Примеры решений</a></strong>. Кроме того, существует распространенная задача о  <strong><a href="dvoinye_integraly_v_poljarnyh_koordinatah.html">вычислении двойного интеграла в полярных координатах</a></strong> и типовое приложение о <strong><a href="centr_tjazhesti_ploskoi_figury.html">нахождении центра тяжести  плоской ограниченной фигуры</a></strong>.</p>
+  <p><strong>Для желающих освоить  тему в максимально сжатые сроки</strong> есть компактный pdf-курс <a href="http://mathprofi.com/knigi_i_kursy/">Кратные и  криволинейные интегралы</a> <em>(3-й семестр)</em>.</p>
+  <p>И мы немедленно приступаем. Начнём с насущного вопроса – что это такое?</p>
+  <br>
+  <h2><strong>Понятие двойного  интеграла</strong></h2>
+  <p>Двойной интеграл в общем виде записывается следующим  образом:<br>
+      <img align="absmiddle" width="99" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image002.gif"></p>
+  <p>Разбираемся в терминах и обозначениях:<br>
+      <img align="absmiddle" width="27" height="29" src="g/dvoinye_integraly_dlya_chainikov_clip_image004.gif">– значок двойного интеграла;<br>
+      <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006.gif"> – область  интегрирования (плоская фигура);<br>
+      <img align="absmiddle" width="52" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image008.gif"> – подынтегральная <a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">функция  двух переменных</a>, часто она довольно простая;<br>
+      <img align="absmiddle" width="44" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image010.gif"> – значки  дифференциалов.</p>
+  <h3><strong>Что значит вычислить  двойной интеграл?</strong></h3>
+  <p>Вычислить двойной интеграл – это значит <strong>найти ЧИСЛО</strong>. Самое обычное число:<br>
+    <img align="absmiddle" width="221" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image012.gif"><br>
+    И крайне желательно найти его правильно =)</p>
+  <p>Результат (число <img align="absmiddle" width="16" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image014.gif">) может быть отрицательным. И ноль тоже запросто может получиться.  Специально остановился на данном моменте, поскольку немало студентов испытывают  беспокойство, когда ответ получается «шото вроде как странный».</p>
+  <p>Многие помнят, что «обычный» <strong><a href="opredelennye_integraly_primery_reshenij.html">определённый интеграл</a></strong> – тоже число. Здесь всё так же. У двойного  интеграла существует и отличный геометрический смысл, но об этом позже, всему  своё время.</p>
+  <h3><strong>Как вычислить двойной  интеграл?</strong></h3>
+  <p>Для того чтобы вычислить двойной интеграл, его нужно  свести к так называемым <em>повторным  интегралам</em>. Сделать это можно <u>двумя способами</u>. Наиболее  распространён следующий способ:<br>
+      <img align="absmiddle" width="215" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image016.gif"></p>
+  <p>Вместо знаков вопроса необходимо расставить пределы  интегрирования. Причём одиночные знаки вопроса <img align="absmiddle" width="12" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image018.gif"> у внешнего интеграла –  это <u>числа</u>, а двойные знаки вопроса <img align="absmiddle" width="19" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image020.gif"> у внутреннего  интеграла – это <u>функции</u> одной переменной <img align="absmiddle" width="61" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image022.gif">, зависящие от «икс». </p>
+  <p><strong>Откуда взять пределы  интегрирования? </strong>Они зависят от того, какая в условии задачи дана область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0000.gif">. Область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0001.gif"> представляет собой  обычную плоскую фигуру, с которой вы неоднократно сталкивались, например, при <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">вычислении площади плоской фигуры</a></strong> или <strong><a href="obyem_tela_vrashenija.html">вычислении объема тела вращения</a></strong>. Очень  скоро вы узнаете, как правильно расставлять пределы интегрирования.</p>
+  <p>После того, как переход к повторным интегралам осуществлён,  следуют непосредственно вычисления: сначала берётся внутренний интеграл <img align="absmiddle" width="77" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image026.gif">, а потом – внешний. Друг за другом. Отсюда и название –  повторные интегралы.</p>
+  <p>Грубо говоря, задача сводится к вычислению двух определённых  интегралов. Как видите всё не так сложно и страшно, и если вы совладали с  «обыкновенным» определённым интегралом, что мешает разобраться с двумя  интегралами?!</p>
+  <p>Второй способ перехода к повторным интегралам встречается несколько  реже:<br>
+      <img align="absmiddle" width="212" height="49" src="g/dvoinye_integraly_dlya_chainikov_clip_image028.gif"><br>
+    Что поменялось? Поменялся порядок интегрирования: теперь  внутренний интеграл берётся по «икс», а внешний – по «игрек». Пределы  интегрирования, обозначенные звёздочками – <strong>будут  другими!</strong> Одиночные звёздочки внешнего интеграла – это <u>числа</u>, а  двойные звёздочки внутреннего интеграла – это <u>обратные функции</u> <img align="absmiddle" width="60" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image030.gif">, зависящие от «игрек».</p>
+  <p>Какой бы мы ни выбрали способ перехода к повторным  интегралам, <strong>окончательный ответ  обязательно получится один и тот же</strong>:<br>
+      <img align="absmiddle" width="244" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image032.gif"></p>
+  <p>Пожалуйста, <strong>запомните  это важное свойство</strong>, которое можно использовать, в том числе, для проверки  решения.</p>
+  <h3><strong>Алгоритм решения  двойного интеграла:</strong></h3>
+  <p>Систематизируем информацию: в каком порядке нужно решать  рассматриваемую задачу?</p>
+  <p>1) Выполнить чертёж. <strong>Без него решить задачу практически невозможо</strong>. За исключением каких-то совсем простых случаев и за  исключением вундеркиндов, умеющих играть в шахматы «вслепую». На чертеже следует изобразить область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0002.gif">, которая представляет собой плоскую фигуру. Чаще всего  фигура незамысловата и ограничена какими-нибудь <a href="uravnenie_pryamoi_na_ploskosti.html">прямыми</a>, <a href="giperbola_i_parabola.html">параболами</a>,  <a href="giperbola_i_parabola.html">гиперболами</a> и т.д. Грамотную и быструю технику построения графиков можно  освоить на уроках <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и  основные свойства элементарных функций</a></strong>, <a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Геометрические преобразования графиков</a>. </p>
+  <p>2) Расставить пределы интегрирования и перейти к повторным  интегралам. </p>
+  <p>3) Взять внутренний интеграл</p>
+  <p>4) Взять внешний интеграл и получить ответ (число).</p>
+  <br>
+  <h2><strong>Область  интегрирования. Порядок обхода области интегрирования.<br>
+      Как изменить порядок  обхода?</strong></h2>
+  <p>В данном параграфе мы рассмотрим важнейший вопрос – как  перейти к повторным интегралам и правильно расставить пределы интегрирования.  Как было сказано выше, сделать это можно так:<br>
+      <img align="absmiddle" width="212" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image034.gif"><br>
+    И так:<br>
+  <img align="absmiddle" width="212" height="49" src="g/dvoinye_integraly_dlya_chainikov_clip_image028_0000.gif"></p>
+  <p>На практике эта вроде бы несложная задача вызывает  наибольшие затруднения, и студенты часто путаются в расстановке пределов  интегрирования. Рассмотрим конкретный пример:</p>
+  <p><u>Пример 1</u></p>
+  <p>Дан двойной интеграл <img align="absmiddle" width="99" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image002_0000.gif"> с областью  интегрирования <img align="absmiddle" width="157" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image037.gif">. Перейти к повторным интегралам и расставить пределы  интегрирования двумя способами.</p>
+  <p><strong>Решение:</strong> Изобразим  область интегрирования на чертеже: <br>
+      <img align="absmiddle" width="309" height="221" src="g/dvoinye_integraly_dlya_chainikov_clip_image039.jpg" alt="Область интегрирования"></p>
+  <p>Обычная плоская фигура и ничего особенного.</p>
+  <p>Теперь я выдам каждому из вас орудие труда – <s>палку-копалку</s>  лазерную указку. Задача состоит в том, чтобы просканировать лучом лазера каждую  точку заштрихованной области:<br>
+      <img align="absmiddle" width="308" height="222" src="g/dvoinye_integraly_dlya_chainikov_clip_image041.jpg" alt="Порядок обхода области. Первый способ"> </p>
+  <p>Луч лазера проходит область интегрирования <strong>строго снизу вверх</strong>, то есть указку вы  ВСЕГДА держите <strong>ниже</strong> плоской фигуры.  Луч входит в область через ось абсцисс, которая задаётся уравнением <img align="absmiddle" width="37" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image043.gif"> и выходит из области  через параболу <img align="absmiddle" width="44" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image045.gif"> (красная стрелка).  Чтобы просветить всю область, вам нужно <strong>строго  слева направо</strong> провести указкой вдоль оси <img align="absmiddle" width="28" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image047.gif"> от 0 до 1 (зелёная стрелка). </p>
+  <p>Итак, что получилось:<br>
+    «игрек» изменяется от 0 до <img align="absmiddle" width="19" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image049.gif">;<br>
+    «икс» изменяется от 0 до 1.</p>
+  <p>В задачах вышесказанное записывают в виде неравенств:<br>
+      <img align="absmiddle" width="68" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image051.gif"></p>
+  <p>Данные неравенства называют <strong>порядком обхода области интегрирования </strong>или просто<strong> порядком интегрирования</strong></p>
+  <p>После того, как мы разобрались с порядком обхода, можно  перейти от двойного интеграла к повторным интегралам:<br>
+      <img align="absmiddle" width="213" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image053.gif"></p>
+  <p>Половина задачи решена. Теперь необходимо перейти к  повторным интегралам вторым способом. Для этого следует найти обратные функции.  Кто ознакомился со вторым параграфом урока <strong><a href="obyem_tela_vrashenija.html">Объем  тела вращения</a></strong>, тому будет легче. Смотрим на функции, которыми задается  область <img align="absmiddle" width="153" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image055.gif">. Если совсем просто, то перейти к обратным функциям, это  значит – выразить «иксы» через «игреки». Единственной функцией, где есть <u>и  «икс» и «игрек»</u>, является <img align="absmiddle" width="44" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image057.gif">.</p>
+  <p>Если <img align="absmiddle" width="44" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image057_0000.gif">, то <img align="absmiddle" width="60" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image059.gif">, причём:<br>
+    обратная функция <img align="absmiddle" width="51" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image061.gif"> задает правую ветку  параболы;<br>
+    обратная функция <img align="absmiddle" width="60" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image063.gif"> задает левую ветку  параболы.</p>
+  <p>Нередко возникают сомнения, вот, к примеру, функция <img align="absmiddle" width="51" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image061_0000.gif"> определяет левую или  правую ветвь параболы? Сомнения развеять очень просто: возьмите какую-нибудь  точку параболы, например, <img align="absmiddle" width="33" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image066.gif"> (с правой ветви) и  подставьте её координаты в любое уравнение, например,  в то же уравнение <img align="absmiddle" width="51" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image061_0001.gif">:<br>
+      <img align="absmiddle" width="44" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image069.gif"><br>
+    Получено верное равенство, значит, функция <img align="absmiddle" width="51" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image061_0002.gif"> определяет именно  правую ветвь параболы, а не левую.</p>
+  <p>Более того, <strong>данную  проверку</strong> (мысленно или на черновике) <strong>желательно  проводить всегда</strong>, после того, как вы перешли к обратным функциям. Времени  займет всего ничего, а от ошибки убережёт наверняка!</p>
+  <p>Обходим область интегрирования вторым способом:<br>
+      <img align="absmiddle" width="308" height="218" src="g/dvoinye_integraly_dlya_chainikov_clip_image072.jpg" alt="Порядок обхода области. Второй способ"></p>
+  <p>Теперь лазерную указку держим <strong>слева</strong> от области интегрирования. Луч лазера проходит область <strong>строго слева направо</strong>. В данном случае он  входит в область через ветвь параболы <img align="absmiddle" width="51" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image061_0003.gif"> и выходит из области  через прямую, которая задана уравнением <img align="absmiddle" width="35" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image075.gif"> (красная стрелка).  Чтобы просканировать лазером всю область, нужно провести указкой вдоль оси <img align="absmiddle" width="27" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image077.gif"><strong>строго снизу вверх</strong> от 0 до 1 (зеленая стрелка).</p>
+  <p>Таким образом:<br>
+    «икс» изменяется от <img align="absmiddle" width="27" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image079.gif"> до 1;<br>
+    «игрек» изменяется от 0 до 1.</p>
+  <p>Порядок обхода области следует записать в виде неравенств:<br>
+      <img align="absmiddle" width="72" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image081.gif"></p>
+  <p>И, следовательно, переход к повторным интегралам таков:<br>
+      <img align="absmiddle" width="215" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image083.gif"></p>
+  <p><strong>Ответ</strong> можно записать  следующим образом:<br>
+      <img align="absmiddle" width="331" height="55" src="g/dvoinye_integraly_dlya_chainikov_clip_image085.gif"></p>
+  <p>Еще раз напоминаю, что окончательный результат вычислений не  зависит от того, какой порядок обхода области мы выбрали (поэтому поставлен знак  равенства). Но, до конечного результата ещё далеко, сейчас наша задача – лишь правильно  расставить пределы интегрирования.</p>
+  <p><u>Пример 2</u></p>
+  <p>Дан двойной интеграл <img align="absmiddle" width="99" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image002_0001.gif"> с областью  интегрирования <img align="absmiddle" width="169" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image087.gif">. Перейти к повторным интегралам и расставить пределы  интегрирования двумя способами.</p>
+  <p>Это пример для самостоятельного решения. Грамотно постройте  чертёж и <strong>строго соблюдайте направления  обхода</strong> (откуда и куда светить лазерной указкой). Примерный образец  чистового оформления в конце урока.</p>
+  <p>Чаще всего типовое задание встречается немного в другой формулировке:</p>
+  <p><u>Пример 3</u></p>
+  <p>Построить область интегрирования и изменить порядок  интегрирования<br>
+      <img align="absmiddle" width="113" height="55" src="g/dvoinye_integraly_dlya_chainikov_clip_image089.gif"></p>
+  <p><strong>Решение: </strong>По  условию дан первый способ обхода области. Решение опять начинается с чертежа.  Здесь область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0003.gif"> не лежит на блюдечке с  голубой каёмочкой, но построить её не составляет особого труда. Сначала  «снимаем» функции с пределов интегрирования: <img align="absmiddle" width="61" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image092.gif">, <img align="absmiddle" width="81" height="28" src="g/dvoinye_integraly_dlya_chainikov_clip_image094.gif">. Функция <img align="absmiddle" width="61" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image092_0000.gif">, понятно, задаёт <a href="uravnenie_pryamoi_na_ploskosti.html">прямую</a>, но что задаёт функция <img align="absmiddle" width="81" height="28" src="g/dvoinye_integraly_dlya_chainikov_clip_image094_0000.gif">?  Давайте её немного  преобразуем:<br>
+      <img align="absmiddle" width="272" height="28" src="g/dvoinye_integraly_dlya_chainikov_clip_image096.gif"> – <a href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">окружность</a> с центром  в начале координат радиуса 2. Функция же <img align="absmiddle" width="81" height="28" src="g/dvoinye_integraly_dlya_chainikov_clip_image094_0001.gif"> задаёт верхнюю  полуокружность (не забываем, что если есть сомнения, то всегда можно подставить  точку лежащую на верхней или нижней полуокружности).</p>
+  <p>Смотрим на пределы внешнего интеграла: «икс» изменяется от  –2  до 0. </p>
+  <p>Выполним чертёж:<br>
+      <img align="absmiddle" width="312" height="306" src="g/dvoinye_integraly_dlya_chainikov_clip_image098.jpg" alt="Область интегрирования. Окружность и прямая"><br>
+    Для наглядности я указал стрелками первый способ обхода  области, который соответствует повторным интегралам условия: <img align="absmiddle" width="113" height="55" src="g/dvoinye_integraly_dlya_chainikov_clip_image089_0000.gif">.</p>
+  <p>Теперь нужно изменить порядок обхода области, для этого  перейдем к обратным функциям (выразим «иксы» через «игреки»):<br>
+      <img align="absmiddle" width="141" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image100.gif"><br>
+    Недавно мы преобразовали функцию <img align="absmiddle" width="81" height="28" src="g/dvoinye_integraly_dlya_chainikov_clip_image094_0002.gif"> к <a href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">уравнению окружности</a> <img align="absmiddle" width="76" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image102.gif">, далее выражаем «икс»: <img align="absmiddle" width="168" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image104.gif"><br>
+    В результате получаем две обратные функции:<br>
+  <img align="absmiddle" width="81" height="29" src="g/dvoinye_integraly_dlya_chainikov_clip_image106.gif"> – определяет правую  полуокружность;<br>
+  <img align="absmiddle" width="89" height="29" src="g/dvoinye_integraly_dlya_chainikov_clip_image108.gif"> – определяет левую  полуокружность.<br>
+    Опять же, если возникают сомнения, возьмите любую точку  окружности и выясните, где лево, а где право.</p>
+  <p>Изменим порядок обхода области:<br>
+      <img align="absmiddle" width="320" height="319" src="g/dvoinye_integraly_dlya_chainikov_clip_image110.jpg" alt="Как изменить порядок обхода области"></p>
+  <p>Согласно второму способу обхода, лазерный луч <strong>входит</strong> в область <strong>слева</strong> через левую полуокружность <img align="absmiddle" width="89" height="29" src="g/dvoinye_integraly_dlya_chainikov_clip_image108_0000.gif"> и <strong>выходит справа</strong> через прямую <img align="absmiddle" width="61" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image113.gif"> (красная стрелка). В  то же время лазерная указка проводится вдоль оси ординат <strong>снизу вверх</strong> от 0 до 2 (зелёная стрелка).</p>
+  <p>Таким образом, порядок обхода области:<br>
+      <img align="absmiddle" width="141" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image115.gif"></p>
+  <p>В общем-то, можно записать <strong>ответ:</strong> <br>
+      <img align="absmiddle" width="241" height="60" src="g/dvoinye_integraly_dlya_chainikov_clip_image117.gif"></p>
+  <p><u>Пример 4</u></p>
+  <p>Построить область интегрирования и изменить порядок  интегрирования<br>
+      <img align="absmiddle" width="113" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image119.gif"></p>
+  <p>Это пример для самостоятельного решения. Пример не очень  сложный, но обратите внимание, что порядок обхода изначально задан вторым  способом! Что делать в подобных случаях? Во-первых, возникает трудность с  чертежом, поскольку чертить график обратной функции наподобие <img align="absmiddle" width="80" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image121.gif"> непривычно даже мне  самому. Я рекомендую следующий порядок действий: сначала из <img align="absmiddle" width="80" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image121_0000.gif"> получаем «обычную»  функцию (выражаем «игрек» через «икс»). Далее строим график этой «обычной»  функции (всегда можно построить хотя бы поточечно). Аналогично поступаем с  более простой линейной функцией: из <img align="absmiddle" width="68" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image124.gif"> выражаем «игрек» и  проводим прямую.</p>
+  <p>Анализируем исходные пределы интегрирования: входим слева в  область через <img align="absmiddle" width="80" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image121_0001.gif"> и выходим через <img align="absmiddle" width="68" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image124_0000.gif">. При этом все дела происходят в «игрековой» полосе от –1 до  0. После того, как вы определили на чертеже область интегрирования, сменить  порядок обхода не составит особого труда. Примерный образец оформления решения  в конце урока.</p>
+  <p>Похожий пример я еще разберу подробнее чуть позже.</p>
+  <p>Даже если вы всё отлично поняли, пожалуйста, <strong>не торопитесь переходить непосредственно к  <a href="kak_vychislit_dvoinoi_integral.html">вычислениям двойного интеграла</a></strong>. Порядок обхода – вещь коварная, и очень  важно немного набить руку на данной задаче, тем более, я еще не всё рассмотрел!</p>
+  <p>В предыдущих четырёх примерах область интегрирования находилась  целиком в 1-й, 2-й, 3-й и 4-й координатных четвертях. Всегда ли это так?  Нет, естественно. </p>
+  <p><u>Пример 5</u></p>
+  <p>Изменить порядок интегрирования <br>
+      <img align="absmiddle" width="108" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image126.gif"></p>
+  <p><strong>Решение:</strong> Выполним  чертёж, при этом, график функции <img align="absmiddle" width="60" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image128.gif"> фактически представляет  собой кубическую параболу, просто она «лежит на боку»:<br>
+      <img align="absmiddle" width="270" height="269" src="g/dvoinye_integraly_dlya_chainikov_clip_image130.jpg" alt="Наиболее выгодный порядок обхода области"><br>
+    Порядок обхода области, который соответствует повторным  интегралам <img align="absmiddle" width="108" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image126_0000.gif">, обозначен стрелками. Обратите внимание, что в ходе  выполнения чертежа прорисовалась еще одна ограниченная фигура (левее оси  ординат). Поэтому следует быть внимательным при определении области  интегрирования – за область можно ошибочно принять не ту фигуру.</p>
+  <p>Перейдем к обратным функциям:<br>
+      <img align="absmiddle" width="115" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image133.gif"> – нужная нам правая  ветвь параболы;<br>
+      <img align="absmiddle" width="203" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image135.gif"></p>
+  <p>Изменим порядок обхода области. Как вы помните, при втором  способе обхода, область нужно сканировать лазерным лучом слева направо. Но тут  наблюдается интересная вещь:<br>
+      <img align="absmiddle" width="231" height="337" src="g/dvoinye_integraly_dlya_chainikov_clip_image137.jpg" alt="Как разделить область интегрирования на две части"></p>
+  <p>Как поступать в подобных случаях? В таких случаях следует  разделить область интегрирования на две части и для каждой из частей составить свои  повторные интегралы:<br>
+    <br>
+    1) Если «игрек» изменяется от –1 до 0 (зеленая стрелка), то  луч входит в область через кубическую параболу <img align="absmiddle" width="53" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image139.gif"> и выходит через прямую <img align="absmiddle" width="35" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image141.gif"> (красная стрелка).  Поэтому порядок обхода области будет следующим: <br>
+  <img align="absmiddle" width="77" height="48" src="g/dvoinye_integraly_dlya_chainikov_clip_image143.gif"><br>
+    И соответствующие повторные интегралы:<br>
+  <img align="absmiddle" width="108" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image145.gif"></p>
+  <p>2) Если «игрек» изменяется от 0 до 1 (коричневая стрелка),  то луч входит в область через ветвь параболы <img align="absmiddle" width="51" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image061_0004.gif"> и выходит через ту же  прямую <img align="absmiddle" width="35" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image141_0000.gif"> (малиновая стрелка).  Следовательно, порядок обхода области будет следующим: <br>
+      <img align="absmiddle" width="72" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image081_0000.gif"><br>
+    И соответствующие повторные интегралы:<br>
+  <img align="absmiddle" width="105" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image149.gif"></p>
+  <p>У определенных и кратных интегралов есть весьма удобное  свойство <em>аддитивности</em>, то есть, их  можно сложить, что в данном случае и следует сделать:<br>
+      <img align="absmiddle" width="224" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image151.gif"> – а вот и наш обход  области вторым способом в виде суммы двух интегралов.</p>
+  <p><strong>Ответ</strong> записываем  так:<br>
+      <img align="absmiddle" width="343" height="55" src="g/dvoinye_integraly_dlya_chainikov_clip_image153.gif"></p>
+  <p>Какой порядок обхода выгоднее? Конечно тот, который был дан  в условии задачи – вычислений будет в два раза меньше!</p>
+  <p><u>Пример 6</u></p>
+  <p>Изменить порядок интегрирования <br>
+      <img align="absmiddle" width="111" height="55" src="g/dvoinye_integraly_dlya_chainikov_clip_image155.gif"></p>
+  <p>Это пример для самостоятельного решения. В нём присутствуют  полуокружности, разборки с которыми были подробно рассмотрены в Примере 3.  Примерный образец оформления решения в конце урока.</p>
+  <p>А сейчас обещанная задача, когда изначально задан второй  способ обхода области:</p>
+  <p><u>Пример 7</u></p>
+  <p>Изменить порядок интегрирования <br>
+      <img align="absmiddle" width="224" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image157.gif"></p>
+  <p><strong>Решение: </strong>Когда  порядок обхода задан вторым способом, то перед построением чертежа  целесообразно перейти к «обычным» функциям. В данном примере присутствуют два  пациента для преобразования: <img align="absmiddle" width="47" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image159.gif"> и <img align="absmiddle" width="67" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image161.gif">.<br>
+    С линейной функцией всё просто: <img align="absmiddle" width="105" height="41" src="g/dvoinye_integraly_dlya_chainikov_clip_image163.gif"></p>
+  <p>График функции <img align="absmiddle" width="67" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image161_0000.gif"> представляется собой   <a href="giperbola_i_parabola.html">параболу</a> с претензией на каноничность.</p>
+  <p> Выразим «игрек» через «икс»:<br>
+    <img align="absmiddle" width="155" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image165.gif"><br>
+    Получаем две ветви параболы: <img align="absmiddle" width="76" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image167.gif"> и <img align="absmiddle" width="83" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image169.gif">. Какую из них выбрать? Проще всего сразу выполнить чертёж. И даже если вы крепко позабыли материал аналитической геометрии о  <a href="giperbola_i_parabola.html">параболе</a>, то всё равно  обе ветви можно построить поточечно:<br>
+        <img align="absmiddle" width="309" height="304" src="g/dvoinye_integraly_dlya_chainikov_clip_image171.jpg" alt="Обход области интегрирования, состоящей из двух частей"></p>
+  <p>Еще раз обращаю внимание на тот факт, что на данном чертеже  получилось несколько плоских фигур, и очень важно выбрать нужную фигуру! В  выборе искомой фигуры как раз помогут пределы интегрирования исходных  интегралов:<br>
+      <img align="absmiddle" width="224" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image157_0000.gif">, при этом не забывайте, что обратная функция <img align="absmiddle" width="67" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image161_0001.gif"> задаёт <strong>всю</strong> параболу.</p>
+  <p>Стрелочки, которыми обозначен обход фигуры, в точности  соответствуют пределам интегрирования интегралов <img align="absmiddle" width="224" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image157_0001.gif">.</p>
+  <p>Довольно быстро вы научитесь проводить такой анализ мысленно  и находить нужную область интегрирования. </p>
+  <p>Когда фигура найдена, заключительная часть решения, в  общем-то, очень проста, меняем порядок обхода области:<br>
+      <img align="absmiddle" width="311" height="306" src="g/dvoinye_integraly_dlya_chainikov_clip_image175.jpg" alt="Обход области интегрирования рациональным способом"><br>
+    Обратные функции уже найдены, и требуемый порядок обхода  области:<br>
+  <img align="absmiddle" width="101" height="61" src="g/dvoinye_integraly_dlya_chainikov_clip_image177.gif"></p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="347" height="65" src="g/dvoinye_integraly_dlya_chainikov_clip_image179.gif"></p>
+  <p>Заключительный пример параграфа для самостоятельного  решения:</p>
+  <p><u>Пример 8</u></p>
+  <p>Изменить порядок интегрирования <br>
+      <img align="absmiddle" width="227" height="49" src="g/dvoinye_integraly_dlya_chainikov_clip_image181.gif"></p>
+  <p>Полное решение и ответ в конце урока.</p>
+  <br>
+  <h2><strong>Как вычислить площадь  плоской фигуры с помощью двойного интеграла?</strong></h2>
+  <p>Начинаем рассматривать собственно процесс вычисления  двойного интеграла <img align="absmiddle" width="99" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image002_0002.gif"> и знакомиться с его  геометрическим смыслом. </p>
+  <p>Двойной интеграл <img align="absmiddle" width="51" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image184.gif"> численно равен площади  плоской фигуры <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0004.gif"> (области  интегрирования). Это простейший вид двойного интеграла, когда <a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">функция двух  переменных</a> равна единице: <img align="absmiddle" width="73" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image187.gif">.</p>
+  <p>Сначала рассмотрим задачу в общем виде. Сейчас вы немало  удивитесь, насколько всё действительно просто! Вычислим площадь плоской фигуры <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0005.gif">, ограниченной линиями <img align="absmiddle" width="203" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image190.gif">. Для определённости считаем, что <img align="absmiddle" width="81" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image192.gif"> на отрезке <img align="absmiddle" width="36" height="23" src="g/dvoinye_integraly_dlya_chainikov_clip_image194.gif">. Площадь данной фигуры численно равна:<br>
+      <img align="absmiddle" width="77" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image196.gif"></p>
+  <p>Изобразим область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0006.gif"> на чертеже:<br>
+      <img align="absmiddle" width="281" height="314" src="g/dvoinye_integraly_dlya_chainikov_clip_image199.jpg" alt="Как вычислить площадь плоской фигуры с помощью двойного интеграла"></p>
+  <p>Выберем первый способ обхода области:<br>
+      <img align="absmiddle" width="107" height="43" src="g/dvoinye_integraly_dlya_chainikov_clip_image201.gif"></p>
+  <p>Таким образом: <img align="absmiddle" width="149" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image203.gif"></p>
+  <p>И сразу важный технический приём: <strong>повторные интегралы можно считать по отдельности</strong>. Сначала  внутренний интеграл, затем – внешний интеграл. Данный способ настоятельно  рекомендую начинающим в теме чайникам. </p>
+  <p>1) Вычислим внутренний интеграл, при этом интегрирование  проводится по переменной «игрек»:<br>
+      <img align="absmiddle" width="188" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image205.gif"></p>
+  <p>Неопределённый интеграл тут простейший, и далее используется  банальная формула Ньютона-Лейбница, с той лишь разницей, что <strong>пределами интегрирования являются не числа,  а функции</strong>. Сначала подставили в «игрек» (первообразную функцию) верхний  предел, затем – нижний предел</p>
+  <p>2) Результат, полученный в первом пункте необходимо  подставить во внешний интеграл:<br>
+      <img align="absmiddle" width="116" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image207.gif"></p>
+  <p>Более компактная запись всего решения выглядит так:<br>
+      <img align="absmiddle" width="371" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image209.gif"></p>
+  <p>Полученная формула <img align="absmiddle" width="141" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image211.gif"> – это в точности  рабочая формула для вычисления площади плоской фигуры с помощью «обычного»  определённого интеграла! Смотрите урок <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Вычисление  площади с помощью определенного интеграла</a></strong>, там она на каждом шагу!</p>
+  <p>То есть, <strong>задача вычисления  площади с помощью двойного интеграла <u>мало чем отличается</u> от <a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">задачи  нахождения площади с помощью определённого интеграла</a>!</strong> Фактически это одно и  тоже!</p>
+  <p>Соответственно, никаких трудностей возникнуть не должно! Я  рассмотрю не очень много примеров, так как вы, по сути, неоднократно  сталкивались с данной задачей.</p>
+  <p><u>Пример 9</u></p>
+  <p>С помощью двойного интеграла  вычислить площадь плоской фигуры <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0007.gif">, ограниченной линиями <img align="absmiddle" width="65" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image214.gif">, <img align="absmiddle" width="61" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image216.gif"></p>
+  <p><strong>Решение: </strong>Изобразим область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0008.gif"> на чертеже:<br>
+      <img align="absmiddle" width="315" height="269" src="g/dvoinye_integraly_dlya_chainikov_clip_image218.jpg" alt="Площадь фигуры по формуле двойного интеграла"></p>
+  <p>Площадь фигуры вычислим с помощью двойного интеграла по  формуле:<br>
+      <img align="absmiddle" width="77" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image196_0000.gif"></p>
+  <p>Выберем следующий порядок   обхода области:<br>
+      <img align="absmiddle" width="112" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image221.gif"><br>
+    Здесь и далее я не буду останавливаться на том, как выполнять  обход области, поскольку в первом параграфе были приведены очень подробные  разъяснения.</p>
+  <p>Таким образом:<br>
+      <img align="absmiddle" width="151" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image223.gif"></p>
+  <p>Как я уже отмечал, начинающим лучше вычислять повторные  интегралы по отдельности, этого же метода буду придерживаться и я:</p>
+  <p>1) Сначала с помощью формулы Ньютона-Лейбница разбираемся с  внутренним интегралом:<br>
+      <img align="absmiddle" width="281" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image225.gif"></p>
+  <p>2) Результат, полученный на первом шаге, подставляем во  внешний интеграл:<br>
+      <img align="absmiddle" width="531" height="93" src="g/dvoinye_integraly_dlya_chainikov_clip_image227.gif"></p>
+  <p>Пункт 2 – фактически нахождение площади плоской фигуры с  помощью определённого интеграла.</p>
+  <p><strong>Ответ: </strong><img align="absmiddle" width="91" height="41" src="g/dvoinye_integraly_dlya_chainikov_clip_image229.gif"><strong> </strong></p>
+  <p>Вот такая вот глупая и наивная задача. </p>
+  <p>Любопытный пример для самостоятельного решения:</p>
+  <p><u>Пример 10</u></p>
+  <p>С помощью двойного интеграла  вычислить площадь плоской фигуры <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0009.gif">, ограниченной линиями <img align="absmiddle" width="43" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image231.gif">, <img align="absmiddle" width="37" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image233.gif">, <img align="absmiddle" width="37" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image235.gif"></p>
+  <p>Примерный образец чистового оформления решения в конце  урока.</p>
+  <p>В Примерах 9-10 значительно выгоднее использовать первый  способ обхода области, любознательные читатели, кстати, могут изменить порядок  обхода и вычислить площади вторым способом. Если не допустите ошибку, то,  естественно, получатся те же самые значения площадей.</p>
+  <p>Но в ряде случаев более эффективен второй способ обхода  области, и в заключение курса молодого ботана рассмотрим ещё пару примеров на  эту тему:</p>
+  <p><u>Пример 11</u></p>
+  <p>С помощью двойного интеграла,  вычислить площадь плоской фигуры <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0010.gif">, ограниченной линиями <img align="absmiddle" width="77" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image237.gif">, <img align="absmiddle" width="92" height="41" src="g/dvoinye_integraly_dlya_chainikov_clip_image239.gif"></p>
+  <p><strong>Решение:</strong> нас с нетерпением ждут две <a href="giperbola_i_parabola.html">параболы</a>, которые  лежат на боку.</p>
+  <p>Как проще всего сделать чертёж?</p>
+  <p>Представим параболу <img align="absmiddle" width="77" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image237_0000.gif"> в виде двух функций:<br>
+      <img align="absmiddle" width="83" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image241.gif"> – верхняя ветвь и <img align="absmiddle" width="92" height="25" src="g/dvoinye_integraly_dlya_chainikov_clip_image243.gif"> – нижняя ветвь.</p>
+  <p>Аналогично, представим параболу <img align="absmiddle" width="92" height="41" src="g/dvoinye_integraly_dlya_chainikov_clip_image239_0000.gif"> в виде верхней <img align="absmiddle" width="99" height="47" src="g/dvoinye_integraly_dlya_chainikov_clip_image245.gif"> и нижней <img align="absmiddle" width="108" height="47" src="g/dvoinye_integraly_dlya_chainikov_clip_image247.gif"> ветвей.</p>
+  <p>Далее рулит поточечное построение графиков, в результате чего  получается вот такая причудливая фигура:<br>
+      <img align="absmiddle" width="384" height="380" src="g/dvoinye_integraly_dlya_chainikov_clip_image249.jpg" alt="Площадь фигуры по формуле двойного интеграла через обратные функции"></p>
+  <p>Площадь фигуры вычислим с помощью двойного интеграла по  формуле:<br>
+      <img align="absmiddle" width="77" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image196_0001.gif"></p>
+  <p>Что будет, если мы выберем первый способ обхода области?  Во-первых, данную область придётся разделить на две части. А во-вторых, мы  будем наблюдать сию печальную картину: <img align="absmiddle" width="243" height="80" src="g/dvoinye_integraly_dlya_chainikov_clip_image251.gif">. Интегралы, конечно, не сверхсложного уровня, но… существует  старая математическая присказка: кто с корнями дружен, тому зачёт не нужен.</p>
+  <p>Поэтому из недоразумения, которое дано в условии, выразим  обратные функции:<br>
+      <img align="absmiddle" width="291" height="85" src="g/dvoinye_integraly_dlya_chainikov_clip_image253.gif"><br>
+    Обратные функции в данном примере обладают тем  преимуществом, что задают сразу всю параболу целиком без всяких там <s>листьев,  желудей</s> веток и корней.</p>
+  <p>Согласно второму способу, обход области будет следующим:<br>
+      <img align="absmiddle" width="132" height="67" src="g/dvoinye_integraly_dlya_chainikov_clip_image255.gif"></p>
+  <p>Таким образом:<br>
+      <img align="absmiddle" width="155" height="67" src="g/dvoinye_integraly_dlya_chainikov_clip_image257.gif"><br>
+    Как говорится, ощутите разницу.</p>
+  <p>1) Расправляемся с внутренним интегралом:<br>
+      <img align="absmiddle" width="433" height="67" src="g/dvoinye_integraly_dlya_chainikov_clip_image259.gif"></p>
+  <p>Результат подставляем во внешний интеграл:</p>
+  <p>2)<br>
+      <img align="absmiddle" width="604" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image261.gif"></p>
+  <p>Интегрирование по переменной «игрек» не должно смущать, была  бы буква «зю» – замечательно бы проинтегрировалось и по ней. Хотя кто прочитал  второй параграф урока <strong><a href="obyem_tela_vrashenija.html">Как вычислить  объем тела вращения</a></strong>, тот уже не испытывает ни малейшей неловкости с  интегрированием по «игрек».</p>
+  <p>Также обратите внимание на первый шаг: подынтегральная  функция <img align="absmiddle" width="60" height="44" src="g/dvoinye_integraly_dlya_chainikov_clip_image263.gif"> является чётной, а  отрезок интегрирования симметричен относительно нуля. Поэтому отрезок можно  споловинить, а результат – удвоить. Данный приём подробно закомментирован на  уроке <strong><a href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы вычисления  определённого интеграла</a></strong>.</p>
+  <p>Что добавить…. Всё!</p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="91" height="41" src="g/dvoinye_integraly_dlya_chainikov_clip_image265.gif"></p>
+  <p>Для проверки своей техники интегрирования можете попробовать  вычислить <img align="absmiddle" width="243" height="80" src="g/dvoinye_integraly_dlya_chainikov_clip_image251_0000.gif">. Ответ должен получиться точно таким же.</p>
+  <p><u>Пример 12</u></p>
+  <p>С помощью двойного интеграла,  вычислить площадь плоской фигуры <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0011.gif">, ограниченной линиями <img align="absmiddle" width="193" height="41" src="g/dvoinye_integraly_dlya_chainikov_clip_image268.gif"></p>
+  <p>Это пример для самостоятельного решения. Интересно отметить,  что если вы попробуете использовать первый способ обхода области, то фигуру  придётся разделить уже не на две, а на три части! И, соответственно, получится  три пары повторных интегралов. Бывает и такое.</p>
+  <p>Мастер класс подошел к завершению, и пора переходить на  гроссмейстерский уровень – <strong><a href="kak_vychislit_dvoinoi_integral.html">Как вычислить  двойной интеграл? Примеры решений</a></strong>. Постараюсь во второй статье так не  маньячить =) </p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение: </strong>Изобразим область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0012.gif"> на чертеже:</em><br>
+      <em><img align="absmiddle" width="264" height="307" src="g/dvoinye_integraly_dlya_chainikov_clip_image271.jpg"></em><br>
+      <em>Выберем следующий  порядок обхода области:</em><br>
+      <em><img align="absmiddle" width="83" height="43" src="g/dvoinye_integraly_dlya_chainikov_clip_image273.gif"></em><br>
+      <em>Таким образом: <img align="absmiddle" width="216" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image275.gif"></em><br>
+      <em>Перейдём к обратным  функциям: <img align="absmiddle" width="136" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image277.gif"></em><br>
+      <em>Изменим порядок обхода  области:</em><br>
+      <em><img align="absmiddle" width="81" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image279.gif"></em><br>
+      <em>Таким образом: <img align="absmiddle" width="217" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image281.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="335" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image283.gif"></em></p>
+  <p><em>Пример 4: <strong>Решение:</strong> Перейдём к прямым функциям:</em><br>
+      <em><img align="absmiddle" width="153" height="21" src="g/dvoinye_integraly_dlya_chainikov_clip_image285.gif"></em><br>
+      <em><img align="absmiddle" width="489" height="27" src="g/dvoinye_integraly_dlya_chainikov_clip_image287.gif"></em><br>
+      <em>Выполним чертёж:</em><br>
+      <em><img align="absmiddle" width="311" height="307" src="g/dvoinye_integraly_dlya_chainikov_clip_image289.jpg"></em><br>
+      <em>Изменим порядок обхода  области:</em><br>
+      <em><img align="absmiddle" width="131" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image291.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="236" height="53" src="g/dvoinye_integraly_dlya_chainikov_clip_image293.gif"></em></p>
+  <p><em>Пример 6: <strong>Решение:</strong> Выполним чертеж:</em><br>
+      <em><img align="absmiddle" width="307" height="222" src="g/dvoinye_integraly_dlya_chainikov_clip_image295.jpg"></em></p>
+  <p><em>Перейдем к обратным  функциям:</em><br>
+      <em><img align="absmiddle" width="96" height="19" src="g/dvoinye_integraly_dlya_chainikov_clip_image297.gif"></em><br>
+      <em><img align="absmiddle" width="179" height="29" src="g/dvoinye_integraly_dlya_chainikov_clip_image299.gif"></em><br>
+      <em>Изменим порядок  интегрирования, разделив область интегрирования на две части. При этом порядок  обхода области:</em><br>
+      <em>1) <img align="absmiddle" width="63" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image301.gif">, 2) <img align="absmiddle" width="104" height="56" src="g/dvoinye_integraly_dlya_chainikov_clip_image303.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="348" height="56" src="g/dvoinye_integraly_dlya_chainikov_clip_image305.gif"></em></p>
+  <p><em>Пример 8: <strong>Решение:</strong> Изобразим область  интегрирования на чертеже: </em><br>
+      <em><img align="absmiddle" width="312" height="304" src="g/dvoinye_integraly_dlya_chainikov_clip_image307.jpg"></em><br>
+      <em>Перейдём к обратным  функциям:</em><br>
+      <em><img align="absmiddle" width="232" height="64" src="g/dvoinye_integraly_dlya_chainikov_clip_image309.gif"></em><br>
+      <em>Изменим порядок обхода  области: </em><br>
+      <em><img align="absmiddle" width="109" height="64" src="g/dvoinye_integraly_dlya_chainikov_clip_image311.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="347" height="63" src="g/dvoinye_integraly_dlya_chainikov_clip_image313.gif"></em></p>
+  <p><em>Пример 10: <strong>Решение: </strong>Изобразим  область <img align="absmiddle" width="17" height="17" src="g/dvoinye_integraly_dlya_chainikov_clip_image006_0013.gif"> на чертеже:</em><br>
+      <em><img align="absmiddle" width="257" height="283" src="g/dvoinye_integraly_dlya_chainikov_clip_image315.jpg"></em><br>
+      <em>Площадь фигуры  вычислим с помощью двойного интеграла по формуле:</em><br>
+      <em><img align="absmiddle" width="77" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image196_0002.gif"></em><br>
+      <em>Выберем следующий  порядок  обхода области:</em><br>
+      <em><img align="absmiddle" width="67" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image317.gif"></em><br>
+      <em>Таким образом: <img align="absmiddle" width="144" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image319.gif"></em><br>
+      <em>1) <img align="absmiddle" width="133" height="52" src="g/dvoinye_integraly_dlya_chainikov_clip_image321.gif"></em><br>
+      <em>2) <img align="absmiddle" width="277" height="51" src="g/dvoinye_integraly_dlya_chainikov_clip_image323.gif"></em><br>
+      <strong><em>Ответ: </em></strong><em><img align="absmiddle" width="67" height="24" src="g/dvoinye_integraly_dlya_chainikov_clip_image325.gif"></em><strong></strong></p>
+  <p><em>Пример 12: <strong>Решение:</strong> Изобразим данную фигуру на  чертеже:</em><br>
+      <em><img align="absmiddle" width="307" height="308" src="g/dvoinye_integraly_dlya_chainikov_clip_image327.jpg"></em></p>
+  <p><em>Площадь фигуры  вычислим с помощью двойного интеграла по формуле:</em><br>
+      <em><img align="absmiddle" width="77" height="39" src="g/dvoinye_integraly_dlya_chainikov_clip_image196_0003.gif"></em><br>
+      <em>Перейдём к обратным  функциям:</em><br>
+      <em><img align="absmiddle" width="136" height="69" src="g/dvoinye_integraly_dlya_chainikov_clip_image329.gif"></em><br>
+      <em>Порядок обхода  области:</em><br>
+      <em><img align="absmiddle" width="87" height="69" src="g/dvoinye_integraly_dlya_chainikov_clip_image331.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="147" height="64" src="g/dvoinye_integraly_dlya_chainikov_clip_image333.gif"></em><br>
+      <em>1) <img align="absmiddle" width="163" height="67" src="g/dvoinye_integraly_dlya_chainikov_clip_image335.gif"></em><br>
+      <em>2)</em><br>
+      <em><img align="absmiddle" width="444" height="93" src="g/dvoinye_integraly_dlya_chainikov_clip_image337.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="209" height="45" src="g/dvoinye_integraly_dlya_chainikov_clip_image339.gif"></em></p></div>
+ 
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

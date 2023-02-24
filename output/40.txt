@@ -1,0 +1,923 @@
+<html>
+<head>
+<title>Относительная частота события и статистическое определение вероятности</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="относительная частота события, статистическое определение вероятности, статистическая вероятность, примеры решений, задачи с решениями, вероятность и закономерность, отклонение относительной частоты от вероятности">
+<meta name="Description" content="Простой пример: Штирлиц пошёл в лес за грибами. Найти вероятность того, что он найдёт…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Относительная частота события<br>и статистическое определение вероятности</strong><br>
+  </h1>
+  
+ <br>
+  <p>Сегодня мы завершаем изучение первого раздела <strong><a href="teorija_verojatnostei.html">теории вероятностей</a></strong>, который посвящён  основным подходам к определению вероятности, теоремам сложения и умножения  событий, а также их основным следствиям. В учебной литературе <strong><em>статистическое  определение вероятности</em></strong> обычно рассматривается в первой же главе, но  вот мне показалось удачным отложить этот вопрос на заключительный урок по теме.  Давайте вспомним, с чего всё начиналось:</p>
+  <p>Вероятность наступления события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002.gif"> в некотором испытании  – есть отношение <img align="absmiddle" width="68" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image004.gif">, где:</p>
+  <p><img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006.gif"> – общее число всех <u>равновозможных</u>, <u>элементарных</u> исходов этого испытания, которые образуют <u>полную группу  событий</u>;</p>
+  <p><img align="absmiddle" width="17" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image008.gif"> – количество элементарных  исходов, благоприятствующих событию <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0000.gif">.</p>
+  <p>О некоторых недостатках <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классического  определения вероятности</a></strong> заходила речь в статье <strong><a href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическое определение вероятности</a></strong>, но это только верхушка  айсберга, и сейчас данный вопрос получит интереснейшее продолжение. Начнём  опять же с бесхитростных примеров <strong><a href="teorija_verojatnostei.html">1-го  урока по теории вероятностей</a></strong>:</p>
+  <p><img align="absmiddle" width="72" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image010.gif"> –  вероятность того, что в результате броска  монеты <strong>выпадет</strong> «орёл»;<br>
+      <img align="absmiddle" width="69" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image012.gif"> – вероятность того,  что в результате броска игральной кости <strong>выпадет</strong> 5 очков;<br>
+      <img align="absmiddle" width="107" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image014.gif"> – вероятность того,  что из колоды <strong>будет извлечена</strong> трефа</p>
+  <p>Внимательный читатель заметил, что все комментарии о  вероятностях сформулированы в <strong>будущем  времени</strong>. И это не случайность – <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классическое  определение</a></strong>, как правило, оценивает вероятность <strong>ДО</strong> проведения испытаний и даже без их фактического проведения. То есть, монета ещё  не подброшена, а вероятность появления орла мы уже прекрасно знаем. Можно дать  зарок никогда не брать в руки кубик либо колоду карт, однако, вероятности  событий <img align="absmiddle" width="44" height="24" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image016.gif"> беспроблемно  рассчитываются и без этого.</p>
+  <p><strong><em>Примечание</em></strong><em>: однако, в отсутствии информации о результате испытания фразу «Вероятность того, что монета <strong>упала</strong> орлом» (например) всё же нельзя  признать некорректной. То есть классическое определение может оценивать вероятность и после реального  опыта.</em></p>
+  <p>Почему такое возможно? Такое возможно потому, что <strong>все</strong> элементарные исходы известны и  подсчитаны заранее:</p>
+  <p><em>орёл и решка</em> –  итого 2 элементарных исхода;<br>
+      <em>1, 2, 3, 4, 5, 6</em> –  6 элементарных исходов;<br>
+      <em>6, 7, 8, 9, 10, В, Д,  К, Т каждой масти</em> – всего 36 карт.</p>
+  <p>Кроме того, для применения <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классического определения вероятности</a></strong> необходима <u>равновозможность</u> элементарных исходов <em>(см. определение)</em>.  Равновозможность выпадения граней монеты либо кубика обуславливается симметрией  и несмещённым центром тяжести, колода же карт должна быть полной, некраплёной и  хорошо перемешанной.</p>
+  <p>И всё было бы ладно, но в реальной жизни подобные модели  встречаются нечасто. В большинстве ситуаций элементарные исходы перечислить  затруднительно или невозможно, и ещё труднее обосновать их равновозможность.  Простой пример:</p>
+  <p><em>Штирлиц пошёл в лес за  грибами. Найти вероятность того, что он найдёт подберёзовик.</em></p>
+  <p>Совершенно понятно, что все грибы в лесу <em>(общее количество элементарных исходов)</em> пересчитать практически невозможно, а значит, классическое определение  вероятности не срабатывает. И даже если группа разведчиков учтёт все грибы в  небольшой роще, классифицирует их по видам, то препятствием станет  неравновозможность исходов. Почему? Поляна мухоморов намного заметнее, чем замаскировавшиеся  подберёзовики. …Таааак, кто это там на задней парте предложил покрасить в один  цвет? =)</p>
+  <p>Кстати, каверзная задачка на счёт равновозможности была в  конце урока о <strong><a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">теоремах Лапласа</a></strong>.  Краткая суть состоит в следующем: если в городе проживает примерно равное  количество мужчин и женщин <em>(которых  подсчитать значительно проще =))</em>, то это ещё не значит, что вероятность  встретить на улице мужчину либо женщину равна 1/2.</p>
+  <p>Вновь обратим внимание на шаблонные формулировки  стандартных задач:</p>
+  <p>«Стрелок попадает в мишень с вероятностью 0,8»;<br>
+    «Вероятность изготовления бракованной детали на данном  станке составляет 0,05».</p>
+  <p>Возникает вопрос, откуда взялись эти значения? И ответ здесь один: данные вероятности могли  получиться <strong>только на основе ранее проведённых  опытов</strong>.</p>
+  <h3><strong>Относительная частота  события и статистическая вероятность</strong></h3>
+  <p><strong><em>Относительной частотой</em></strong> события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0001.gif"> называют отношение  числа испытаний <img align="absmiddle" width="17" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image008_0000.gif">, в которых данное событие появилось, к общему числу <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006_0000.gif"> фактически проведённых  испытаний:<br>
+      <img align="absmiddle" width="72" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image023.gif">, или короче: <img align="absmiddle" width="47" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image025.gif"></p>
+  <p><strong><em>Относительная частота</em></strong> наряду с <strong><em>вероятностью</em></strong> является  одним из ключевых понятий тервера, но если <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классическое</a></strong> либо <strong><a href="geometricheskoe_opredelenie_verojatnosti.html">геометрическое определение вероятности</a> </strong>не требуют проведения испытаний, то относительная частота рассчитывается  исключительно ПОСЛЕ опытов на основе фактически полученных данных. </p>
+  <p>В том случае, если серии испытаний проводятся в <u>неизменных  условиях</u>, то относительная частота обнаруживает свойство <strong><em>устойчивости</em></strong>,  то есть колеблется около определённого значения. </p>
+  <p>Пусть некий профессиональный стрелок произвёл 100 выстрелов  по мишени и попал 83 раза. Тогда относительная частота поражения цели составит: <img align="absmiddle" width="100" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image027.gif">.</p>
+  <p>Предположим, что тот же самый стрелок в точно такой же  «форме» и в приблизительно таких же условиях снова провёл серию из 100  выстрелов. Вероятно ли, что он снова попадёт 83 раза? Не очень. Но количество  попаданий вряд ли будет сильно отличаться от предыдущего результата. Пусть, например,  стрелок попал 79 раз. Тогда относительная частота поражения цели составит: <img align="absmiddle" width="101" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image029.gif">.</p>
+  <p>В третьей серии из 100 выстрелов, проведённой при похожих  обстоятельствах, данный стрелок попал 81 раз, <img align="absmiddle" width="99" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image031.gif"> и т.д.</p>
+  <p>Иногда могут случаться блестящие серии более 90 попаданий,  иногда «провалы», но среднее количество попаданий будет варьироваться около  80. И когда количество фактически проведённых испытаний станет достаточно  большим, то речь зайдёт о <strong><em>статистической вероятности</em></strong>. Если в  одинаковых (примерно одинаковых) условиях проведено достаточно много испытаний,  то за <strong><em>статистическую вероятность события</em></strong> принимают относительную  частоту данного события либо близкое число. </p>
+  <p>Предположим, что на протяжении нескольких лет наш спортсмен,  сохраняя стабильный уровень подготовки, совершил 10000 выстрелов и попал 8037  раз. Относительная частота поражения цели составит: <img align="absmiddle" width="133" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image033.gif"> и за статистическую  вероятность его результативности целесообразно принять <img align="absmiddle" width="51" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image035.gif">, которая становится теоретической оценкой, например, перед грядущими  соревнованиями.</p>
+  <p>Представьте, что во время лекции этот профессионал зашёл с  винтовкой в аудиторию и прицелился. Теперь вам должен стать окончательно понятен  смысл фразы <em>«Стрелок попадает в мишень с  вероятностью 0,8»</em>  =) =)</p>
+  <p>Именно так собирается богатая спортивная статистика в  различных видах спорта.</p>
+  <p>Аналогичная история с утверждением <em>«Вероятность изготовления бракованной детали на данном станке равна 0,05»</em>.  Эту оценку невозможно получить с помощью <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классического  определения вероятности</a></strong> – она следует только из практики! Если на станке  произведены десятки тысяч деталей и на каждую, скажем, тысячу выпущенных  деталей, приходится в среднем 50 бракованных, то в качестве статистической вероятности  брака принимается значения <img align="absmiddle" width="59" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image037.gif">.</p>
+  <p>В Задаче 2 урока <strong><a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная  и интегральная теоремы Лапласа</a></strong> фигурировала вероятность рождения мальчика <img align="absmiddle" width="59" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image039.gif">. Откуда взялось данное число? Из многолетнего подсчёта  фактически рождённых детей в определённом регионе. В указанной статье мы  выяснили, что это вовсе не значит, что среди 100 новорожденных будет ровно 52  мальчика. В следующей сотне рождённых их может оказаться, например, 45, и  относительная частота <img align="absmiddle" width="101" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image041.gif"> будет далека от  истины. Но если рассмотреть выборку в тысячи и десятки тысяч младенцев, то <img align="absmiddle" width="16" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image043.gif"> отклонится от <img align="absmiddle" width="59" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image039_0000.gif"> совсем-совсем  незначительно. <strong>И это уже не случайность</strong>.  Как известно, такое соотношение новорожденных сложилось эволюционно – по  причине бОльшей смертности мужчин.</p>
+  <p>В учебном пособии <em>В.Е.  Гмурмана</em> есть весьма удачный пример, в котором продемонстрировано, как при  подбрасывании монеты относительная частота появления орла приближается к своей  вероятности <img align="absmiddle" width="43" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image045.gif"> <em>(полученной по <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классическому  определению</a></strong>)</em>:<br>
+      <img align="absmiddle" width="472" height="137" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image047.jpg"><br>
+    Какой можно сделать вывод? С увеличением количества независимых  испытаний <strong>случайность превращается в закономерность</strong>.  Однако следует помнить, что порядок выпадения орлов непредсказуем, о чём я  подробно рассказывал на уроке <strong><a href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые  испытания и формула Бернулли</a></strong>.</p>
+  <p>Вернёмся к европейской рулетке с 18 красными, 18 чёрными  секторами и 1 зеро. В самом примитивном варианте игры: ставим на «красное» или «чёрное»,  и если шарик остановился на секторе другого цвета (вероятность <img align="absmiddle" width="108" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image049.gif">) – ставка проигрывается. В случае успеха – удваиваемся  (вероятность <img align="absmiddle" width="111" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image051.gif">).</p>
+  <p>В отдельно взятом сеансе игры отдельно взятый человек может  выиграть, причём выиграть по-крупному. <strong>Это  случайность</strong>. Но, совершая миллионы оборотов, рулетка на протяжении веков  приносит неизменную прибыль владельцам казино. И это – <strong>закономерность</strong>. Существует байка о том, что крупный выигрыш не отдадут,  а если и отдадут, то «вы с ним не дойдёте до дома». Чистая «киношная» фантазия.  Да, кому-то повезло, но сколько проиграется?! К тому же человек, посещающий  подобные заведения, с большой вероятностью придёт снова и «сольёт» ещё больше. А чтобы он вернулся, казино, скорее наоборот – создаст максимальный комфорт  и безопасность для «счастливчика».</p>
+  <p>Другой, во многом условный, пример: пусть в некой  лотерее приняло участие <img align="absmiddle" width="76" height="19" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image053.gif"> билетов, из которых <img align="absmiddle" width="79" height="19" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image055.gif"> выиграли хоть какой-то  приз. Таким образом, относительная частота выигрыша составила: <img align="absmiddle" width="157" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image057.gif">. Поскольку билетов продано очень много, то с большой  вероятностью можно утверждать, что в будущем при сопоставимых объемах продаж доля  выигравших билетов будет примерно такой же, и за статистическую вероятность  выигрыша удобно принять значение <img align="absmiddle" width="51" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image059.gif">. </p>
+  <p>Организатор лотереи знает, что из миллиона проданных билетов  выиграют около 300 тысяч с небольшим отклонением. <strong>И это закономерность</strong>. Но всем участникам лотереи достаётся…. –  правильно, <strong>случайность</strong>! То есть,  если вы купите 10 билетов, то это ещё не значит, что выиграют 3 билета. Так, например, выигрыш только по одному билету –  есть событие очень даже вероятное, по <strong><a href="nezavisimye_ispytanija_i_formula_bernulli.html">формуле Бернулли</a></strong>:<br>
+      <img align="absmiddle" width="297" height="25" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image063.gif"></p>
+  <p>А если учесть тот факт, что львиная доля выигрышей – сущая мелочь, то картина вырисовывается совсем унылая, ибо <a href="teorija_verojatnostei.html">маловозможные события не происходят</a>. Ситуацию спасают  красочные телевизионные розыгрыши и различные психологические трюки.</p>
+  <p>Желающие могут самостоятельно исследовать вероятность  выигрыша в различные лотереи – вся статистика есть в свободном доступе. Особо рекомендую подсчитать вероятность крупного  выигрыша.</p>
+  <p>Практическая часть урока будет тесно связана с только что  изложенным материалом:</p>
+  <br>
+  <h2><strong>Вероятность  отклонения относительной частоты от вероятности</strong></h2>
+  <p>Вероятность того, что в <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006_0001.gif"> <strong><a href="nezavisimye_ispytanija_i_formula_bernulli.html">независимых испытаниях</a></strong> относительная частота <img align="absmiddle" width="47" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image025_0000.gif"> события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0002.gif"> отклонится от  вероятности <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image061_0000.gif"> <em>(появления данного события в каждом испытании)</em> не более чем на <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image069.gif">, приблизительно равна:<br>
+      <img align="absmiddle" width="185" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image071.gif">, где <img align="absmiddle" width="145" height="52" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image073.gif"> – <strong><a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">функция Лапласа</a></strong>.</p>
+  <p>Собственно, эта формула и выведена из <strong><a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">интегральной теоремы Лапласа</a></strong>.</p>
+  <p>Итак, расклад следующий: в распоряжении имеется вероятность <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image061_0001.gif"> наступления события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0003.gif">, которая предварительно получена с помощью  классического/геометрического определения или посредством серьёзной  статистической оценки. Планируется провести <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006_0002.gif"> независимых испытаний,  в которых событие <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0004.gif"> может наступить  некоторое количество раз, причём значение <img align="absmiddle" width="17" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image008_0001.gif">, разумеется, предсказать нельзя. Полученная относительная  частота <img align="absmiddle" width="47" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image025_0001.gif"> может оказаться как  больше, так и меньше вероятности <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image061_0002.gif"> (поэтому нужен знак  модуля).</p>
+  <p>Требуется найти вероятность того, что в серии из <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006_0003.gif"> независимых испытаний,  расхождение между относительной частотой и теоретической вероятностью <img align="absmiddle" width="48" height="45" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image078.gif">, будет не больше, чем заранее заданное число, например, не  больше, чем <img align="absmiddle" width="56" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image080.gif"> (один процент).</p>
+  <p>Начнём с самых маленьких :=)</p>
+  <p><u>Задача 1</u></p>
+  <p>В некотором регионе в результате многолетнего  статистического исследования установлена вероятность рождения мальчика <img align="absmiddle" width="59" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image039_0001.gif">. С какой вероятностью можно утверждать, что среди следующей тысячи  новорожденных, относительная частота появления мальчика отклонится от  соответствующей вероятности не более чем на 0,02?</p>
+  <p><strong>Решение</strong>:  используем формулу <img align="absmiddle" width="185" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image071_0000.gif"></p>
+  <p>По условию: <img align="absmiddle" width="204" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image084.gif"></p>
+  <p>Таким образом: <br>
+      <img align="absmiddle" width="489" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image086.gif"> – искомая вероятность. </p>
+  <p>Напоминаю, что значения функции Лапласа можно найти по  соответствующей таблице или с помощью <strong><a href="files/terver.xls">расчётного  макета</a></strong> <em>(пункт 5)</em>.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="53" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image088.gif"></p>
+  <p>Каков смысл полученного результата? Если рассмотреть  достаточно много групп по 1000 новорожденных в каждой, то примерно в 79,6%  этих групп доля мальчиков будет находиться в пределах:<br>
+      <img align="absmiddle" width="209" height="127" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image090.gif"></p>
+  <p>Или, умножая все три части на тысячу: от 500 до 540  мальчиков.</p>
+  <p>На самом деле рассмотренная задача эквивалентна следующей: <em>«Найти вероятность того, что среди 1000  новорожденных будет от 500 до 540 мальчиков, если вероятность рождения мальчика  равна 0,52»</em>. А эта задача как раз и решается через известную вам <strong><a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">интегральную теорему Лапласа</a></strong>.</p>
+  <p>Посмотрим на правую часть формулы <img align="absmiddle" width="185" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image071_0001.gif"> и проанализируем, как  при прочих равных условиях рассматриваемая вероятность зависит от размера  выборки?</p>
+  <p>При росте «эн», дробь <img align="absmiddle" width="39" height="51" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image093.gif"> будет увеличиваться,  а, как вы знаете, <img align="absmiddle" width="103" height="29" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image095.gif">. То есть, вероятность отклонения <img align="absmiddle" width="73" height="45" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image097.gif"> рано или поздно  приблизится к единице. И это неудивительно – как неоднократно показано в  предыдущих примерах, при росте <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006_0004.gif"> относительная частота  события <img align="absmiddle" width="47" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image025_0002.gif"> всё ближе и ближе  стремится к вероятности <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image061_0003.gif"> данного события, а  значит, при достаточно большом количестве испытаний разница <img align="absmiddle" width="48" height="45" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image078_0000.gif"> практически достоверно  будет не больше наперёд заданного числа <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image069_0000.gif">.</p>
+  <p>Наоборот – при уменьшении «эн» дробь <img align="absmiddle" width="39" height="51" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image093_0000.gif"> тоже будет  уменьшаться, следовательно, значение <img align="absmiddle" width="67" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image104.gif"> будет приближаться к  нулю <img align="absmiddle" width="71" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image106.gif">. Нетрудно понять, что при слишком малой выборке <strong><a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">теорема Лапласа</a></strong> работать перестанет. И  действительно – ведь все <img align="absmiddle" width="44" height="19" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image108.gif"> детей в семье могут  вообще оказаться девочками. Такое бывает.</p>
+  <p>Пара задач для самостоятельного решения:</p>
+  <p><u>Задача 2</u></p>
+  <p>Производится некоторый опыт, в котором случайное событие <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0005.gif"> может появиться с  вероятностью 0,6. Опыт повторяют в неизменных условиях <img align="absmiddle" width="28" height="19" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image111.gif"> раз. Определить  вероятность того, что в 800 независимых испытаниях относительная частота  появления события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0006.gif"> отклонится от вероятности  не более чем: а) на 0,05, б) на 0,03</p>
+  <p>Условие сформулировано в общем виде, как оно чаще всего и  бывает. Ещё раз повторим суть задания: проводится <img align="absmiddle" width="53" height="19" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image114.gif"> опытов, в результате  чего событие <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0007.gif"> наступит <img align="absmiddle" width="17" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image008_0002.gif"> раз – сколько именно,  предугадать невозможно. Относительная частота составит <img align="absmiddle" width="115" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image117.gif">. С другой стороны, известна вероятность  <img align="absmiddle" width="51" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image119.gif"> события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0008.gif">, которая установлена ранее с помощью классического/геометрического  определения или путём сбора солидной статистики. Требуется найти вероятность того, что относительная  частота отклонится от вероятности, не более чем на <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image121.gif">: <img align="absmiddle" width="112" height="45" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image123.gif"> В чём смысл? С  найденной вероятностью <img align="absmiddle" width="249" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image125.gif"> можно утверждать, что  относительная частота будет заключена в следующих пределах:<br>
+      <img align="absmiddle" width="187" height="127" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image127.gif"><br>
+    Или в абсолютном количестве появлений события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0009.gif">:<br>
+  <img align="absmiddle" width="167" height="43" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image129.gif"></p>
+  <p>Надо сказать, что границы достаточно вольные и вероятность <img align="absmiddle" width="13" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image131.gif"> должна получиться большой.  Если же наперёд заданная точность составит <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image133.gif">, то промежуток сократится: <img align="absmiddle" width="117" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image135.gif">, и, понятно, что вероятность <img align="absmiddle" width="163" height="48" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image137.gif"> данного события будет  меньше.</p>
+  <p>Следующий пример для самых мудрых участников лотереи :)</p>
+  <p><u>Задача 3</u></p>
+  <p>Вероятность выигрыша в лотерею равна 0,3. Продано 600000  билетов. Найти вероятность того, что относительная частота выигрыша отклонится  от вероятности выигрыша не более чем на <img align="absmiddle" width="64" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image139.gif">.</p>
+  <p>Иными словами, требуется найти вероятность того, что  относительная частота выигрыша будет находиться в пределах: <img align="absmiddle" width="157" height="41" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image141.gif"> (то есть выиграют от <img align="absmiddle" width="192" height="23" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image143.gif"> до <img align="absmiddle" width="192" height="23" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image145.gif"> билетов).</p>
+  <p>Эта информация очень важнА для корректного распределения  призового фонда. Но, повторюсь, пример достаточно условный,  т.к. не учитывает правила и ограничения той или иной лотереи.</p>
+  <p>Краткое решение и ответы в конце урока.</p>
+  <p>На практике не менее популярна и обратная задача:</p>
+  <h3><strong>Как определить,  сколько нужно провести испытаний <img align="absmiddle" width="24" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image147.gif"></strong><br>
+      <strong>чтобы с заранее  заданной вероятностью <img align="absmiddle" width="13" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image131_0000.gif"> обеспечить желаемую  точность <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image069_0001.gif">?</strong></h3>
+  <p>В предыдущем примере получена довольно высокая вероятность <img align="absmiddle" width="13" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image131_0001.gif"> того, что количество  выигравших билетов окажется в достаточно узком интервале: <img align="absmiddle" width="41" height="19" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image151.gif"> билетов <img align="absmiddle" width="56" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image153.gif"> относительно <strong><a href="nezavisimye_ispytanija_i_formula_bernulli.html">наивероятнейшего</a></strong> количества <img align="absmiddle" width="176" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image155.gif">.</p>
+  <p>Но, конечно же, хочется, чтобы вероятность <img align="absmiddle" width="13" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image131_0002.gif"> была побольше:</p>
+  <p><u>Задача 4</u></p>
+  <p>Вероятность выигрыша в лотерею равна 0,3. Сколько билетов  должно участвовать в розыгрыше, чтобы с вероятностью не меньшей чем <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image157.gif">, можно было ожидать, что относительная частота выигрыша  отклонится от теоретической вероятности не более чем на <img align="absmiddle" width="64" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image139_0000.gif">?</p>
+  <p><strong>Решение</strong>: используем  ту же формулу <img align="absmiddle" width="209" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image160.gif">.</p>
+  <p>В нашем распоряжении находятся следующие величины:<br>
+      <img align="absmiddle" width="309" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image162.gif"></p>
+  <p>По условию, требуется найти такое количество билетов <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image006_0005.gif">, чтобы с вероятностью <u>не меньшей</u> чем <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image157_0000.gif"> разница <img align="absmiddle" width="48" height="45" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image078_0001.gif"> составила не более чем <img align="absmiddle" width="64" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image166.gif">. Ну, а коль скоро с вероятностью «не меньшей», то задачу  следует разрулить через нестрогое неравенство:<br>
+      <img align="absmiddle" width="99" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image168.gif"></p>
+  <p>Подставляем известные значения:<br>
+      <img align="absmiddle" width="151" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image170.gif"></p>
+  <p>Делим обе части на два:<br>
+      <img align="absmiddle" width="151" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image172.gif"></p>
+  <p>По <em>таблице значений  функции <img align="absmiddle" width="37" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image174.gif"></em> либо с помощью <strong><a href="files/terver.xls">расчётного макета</a></strong> <em>(пункт 5*)</em> по известному значению функции <em><img align="absmiddle" width="88" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image176.gif"></em> находим  соответствующий аргумент: <em><img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image178.gif"></em>. Таким образом:<br>
+      <img align="absmiddle" width="115" height="49" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image180.gif"></p>
+  <p>Возведём обе части в квадрат:<br>
+      <img align="absmiddle" width="152" height="56" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image182.gif"><br>
+      <img align="absmiddle" width="143" height="44" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image184.gif"></p>
+  <p>И финальный штрих:<br>
+      <img align="absmiddle" width="111" height="64" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image186.gif"></p>
+  <p><strong>Ответ</strong>: для того,  чтобы с вероятностью не меньшей чем <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image157_0001.gif">, можно было ожидать, что <img align="absmiddle" width="99" height="45" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image188.gif">, в розыгрыше должно участвовать <strong>не менее 1397844 билетов</strong>.</p>
+  <p>Но это ещё нужно столько продать =) Или же аппетит <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image157_0002.gif"> придётся поубавить.  Или пожертвовать точностью, то есть увеличить <img align="absmiddle" width="13" height="15" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image069_0002.gif">.</p>
+  <p>Представим ответ в абсолютных значениях:<br>
+      <img align="absmiddle" width="244" height="107" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image191.gif"></p>
+  <p>То есть, в 99% аналогичных розыгрышей количество выигравших  билетов будет заключено в пределах от <img align="absmiddle" width="85" height="23" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image193.gif"> до <img align="absmiddle" width="85" height="23" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image195.gif">.</p>
+  <p>Кстати, выполним проверку, решив прямую задачу:<br>
+      <img align="absmiddle" width="560" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image197.gif">, что и требовалось проверить.</p>
+  <p>Заключительная миниатюра для самостоятельного решения:</p>
+  <p><u>Задача 5</u></p>
+  <p>Проводится некоторый опыт, в котором случайное событие <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0010.gif"> может появиться с  вероятностью 0,4. Определить, сколько опытов нужно провести, чтобы с вероятностью  большей, чем 0,9 можно было ожидать отклонения относительной частоты появления  события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0011.gif"> от <img align="absmiddle" width="52" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image199.gif"> не более чем на 0,05</p>
+  <p>Не ленимся ;-) Ответ в таких задачах следует округлять до <u>бОльшего</u> натурального значения! Краткое решение и ответ внизу страницы.</p>
+  <p>Первый цикл уроков по <strong><a href="teorija_verojatnostei.html">теории  вероятностей</a></strong> подошёл к концу и даже начал плавно переходить в <strong><a href="matematicheskaya_statistika.html">математическую статистику</a></strong>, так, <strong>если в рассмотренной задаче значение  <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image061_0003.gif">  не известно</strong>, то это уже  <strong><a href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">статистическая задача об оценке этой вероятности</a></strong>. </p>
+  <p>И я уже  хотел поставить традиционное пожелание «Везения в главном», но вдруг  задумался…. Имеет ли в нашей жизни значение случайность? Безусловно! Нет, я не  преуменьшаю значение системной и упорной работы, после которой следуют <em>закономерные</em> результаты. Однако и  везение играет немаловажную роль: встретить хороших друзей, встретить «своего»  человека, найти деятельность по душе и т.д. – всё это нередко происходит  благодаря случаю….</p>
+  <p>Жду вас снова и до скорых встреч!</p>
+  <p><u>Решения и ответы</u>:<u></u></p><div id="primer">
+  <p><em>Задача 2: <strong>Решение</strong>:<strong> </strong>используем формулу <img align="absmiddle" width="185" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image071_0002.gif">. </em><br>
+      <em>В данной задаче: <img align="absmiddle" width="284" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image202.gif"></em></p>
+  <p><em>а) Если  <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image204.gif">, то:</em><br>
+      <em><img align="absmiddle" width="475" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image206.gif"> – вероятность, того,  что при 800 испытаниях относительная частота появления события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0012.gif"> отклонится от  вероятности данного события не более чем на 0,05.</em></p>
+  <p><em>Это событие является  практически достоверным.</em></p>
+  <p><em>б) Если  <img align="absmiddle" width="57" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image133_0000.gif">, то:</em><br>
+      <em><img align="absmiddle" width="475" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image209.gif"> – вероятность, того,  что при 800 испытаниях относительная частота появления события <img align="absmiddle" width="16" height="17" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image002_0013.gif"> отклонится от  вероятности данного события не более чем на 0,03.</em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="171" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image211.gif"></em></p>
+  <p><em>Задача 3: <strong>Решение</strong>: используем формулу <img align="absmiddle" width="185" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image071_0003.gif">. </em><br>
+      <em>В данной задаче: <img align="absmiddle" width="329" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image214.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="529" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image216.gif"> – вероятность, того,  что относительная частота выигрыша отклонится от теоретической вероятности не  более чем на 0,001.</em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="53" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image218.gif"></em></p>
+  <p><em>Задача 5: <strong>Решение</strong>: используем формулу <img align="absmiddle" width="211" height="53" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image220.gif">. </em><br>
+      <em>В данном случае: <img align="absmiddle" width="295" height="21" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image222.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="139" height="328" src="n/statisticheskoe_opredelenie_verojatnosti_clip_image224.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: необходимо  произвести не менее 259 опытов.</em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

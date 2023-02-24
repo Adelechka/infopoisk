@@ -1,0 +1,906 @@
+<html>
+<head><title>Коэффициент асимметрии и коэффициент эксцесса</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="асимметрия, эксцесс, коэффициента асимметрии, коэффициент эксцесса, формулы, примеры решений, как вычислить, подробно, вычисление к экселе">
+<meta name="Description" content="Понятие, формулы и примеры решений с рациональными вычислениями и подробными комментариями">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">7. Асимметрия и эксцесс эмпирического распределения</h1>
+  
+ <br>
+  <p>В предыдущих статьях мы познакомились с <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">показателями центральной тенденции</a></strong> и <strong><a href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">вариации</a></strong>, и сейчас рассмотрим ещё пару характеристик статистической  совокупности. Для тех, кто зашёл с поисковика и хочет изучить тему с азов,  сразу ссылка на организационный урок: <strong><a href="matematicheskaya_statistika.html">Математическая  статистика для «чайников»</a></strong>, там же, в конце, список всех статей курса. И до  статьи 7-й – как рукой подать, после чего будет небольшой и очень приятый экзамен.</p>
+  <p>Итак, что такое асимметрия и эксцесс? Говоря простым языком,  это показатели, характеризующие геометрическую форму распределения. Асимметрия  характеризует <em>меру скошенности</em> графика влево / вправо, а эксцесс –  <em>меру </em>его <em>высоты</em>. </p>
+  <p>Данные показатели рассчитываются как для <em>эмпирических</em>, так и для <em>теоретических</em> распределений, которые мы  изучили в курсе <strong><a href="teorija_verojatnostei.html">теории вероятностей</a></strong>,  и за «эталон» симметрии принято <strong><a href="normalnoe_raspredelenie_veroyatnostei.html">нормальное  распределение</a></strong>:<br>
+      <img align="absmiddle" width="538" height="120" src="s/asimmetriya_i_excess_clip_image002.jpg"><br>
+    Очевидно, что любое нормальное распределение строго  симметрично относительно своего центра, следовательно, его асимметрия равна  нулю. Данный график кажется пологим, но <strong><a href="normalnoe_raspredelenie_veroyatnostei.html">стандартное  отклонение</a> </strong><img align="absmiddle" width="16" height="15" src="s/asimmetriya_i_excess_clip_image004.gif"> в данном примере  достаточно велико (см. на синие точки) и на самом деле такая высота  «гармонична». Поэтому эксцесс нормального распределения (любого) принимают за  «отправную» нулевую точку.</p>
+  <p>Почему именно <strong><a href="normalnoe_raspredelenie_veroyatnostei.html">нормальное  распределение</a></strong>? Потому что философское – обязательно прочитайте эту  интереснейшую статью по ссылке, если ещё не успели этого сделать!</p>
+  <p>В теории вероятностей существуют строгие формулы для  вычисления <strong><em>коэффициентов асимметрии</em></strong> <img align="absmiddle" width="19" height="24" src="s/asimmetriya_i_excess_clip_image006.gif"> и <strong><em>эксцесса</em></strong> <img align="absmiddle" width="20" height="24" src="s/asimmetriya_i_excess_clip_image008.gif"> <em>(будут ниже)</em>, но на практике мне такие задачи не встречались. И поэтому  я сразу перехожу к статистике и распределениям <em>эмпирическим</em>, т.к. здесь таких задач как раз выше крыши. С  положительным эксцессом, если выразиться тематически :)</p>
+  <p>Начнём с асимметрии. Асимметрия характеризует <em>меру скошенности</em> <strong><a href="diskretnyi_variacionnyi_ryad.html">полигона</a></strong> или <strong><a href="intervalnyi_variacionnyi_ryad.html">гистограммы</a></strong> влево / вправо относительно самого высокого участка, и во многих случаях для  «прикидки» асимметрии достаточно взглянуть на<strong> </strong>соответствующие чертежи. Так, например, посмотрим на полигон  частот из <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Примера 8</a></strong>:<br>
+      <img align="absmiddle" width="538" height="350" src="s/asimmetriya_i_excess_clip_image010.jpg"><br>
+    И, в принципе, тут всё видно – пациент скорее симметричен,  чем асимметричен :) </p>
+  <p>Простейшим критерием симметрии является равенство <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#s">средней</a></strong>, <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#mo">моды</a></strong> и <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#me">медианы</a></strong>: но в  жизни такого идеального совпадения, конечно, не бывает (даже тело человека  немного асимметрично), и поэтому у «почти симметричных» распределений эти  показатели должны располагаться очень близко друг к другу. И в самом деле, как  мы вычислили в <em>Примере 8</em>: <img align="absmiddle" width="188" height="24" src="s/asimmetriya_i_excess_clip_image012.gif">.</p>
+  <p>Обратите внимание, что рассматриваемые распределения имеют  единственную модальную вершину, и далее речь пойдёт только о таких  распределениях.</p>
+  <p><em>Правосторонняя  асимметрия</em> характеризуется удлинённым правым «хвостом», смотрим на <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#ismome">гистограмму Примера 10</a></strong>:<br>
+    <img align="absmiddle" width="525" height="337" src="s/asimmetriya_i_excess_clip_image014.jpg">    <br>
+    Простейшим признаком правосторонней асимметрии является тот  факт, что <img align="absmiddle" width="51" height="24" src="s/asimmetriya_i_excess_clip_image016.gif">, и это неудивительно – ведь справа находится значительное  количество <em>вариант</em>, и поэтому <em>средняя</em> <img align="absmiddle" width="15" height="17" src="s/asimmetriya_i_excess_clip_image018.gif"> смещена вправо. И  поэтому английский статистик <strong><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%80%D1%81%D0%BE%D0%BD,_%D0%9A%D0%B0%D1%80%D0%BB" target="_blank" rel="nofollow">Карл Пирсон</a></strong>,  который ещё не раз нас порадует своими методами, предложил следующую формулу  для расчёта <strong><em>коэффициента асимметрии</em></strong>:</p>
+  <p><img align="absmiddle" width="85" height="41" src="s/asimmetriya_i_excess_clip_image020.gif">, где <img align="absmiddle" width="16" height="15" src="s/asimmetriya_i_excess_clip_image004_0000.gif"> – <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#sko">среднее квадратическое отклонение</a></strong> статистической совокупности. Что  тоже логично, ведь у разных распределений – разный «разброс» значений и разные представления  о мере асимметрии.</p>
+  <p><em>Левостороння  асимметрия</em>, наоборот, характеризуются удлинённым левый «хвостом» и  неравенством <img align="absmiddle" width="51" height="24" src="s/asimmetriya_i_excess_clip_image023.gif">,…. картинки быстро не нашлось, поэтому просто разверну  чертёж в графическом редакторе:<br>
+      <img align="absmiddle" width="368" height="318" src="s/asimmetriya_i_excess_clip_image025.jpg"><br>
+    Из формулы <img align="absmiddle" width="85" height="41" src="s/asimmetriya_i_excess_clip_image020_0000.gif"> следует, что в  левостороннем случае коэффициент асимметрии отрицателен (т.к. <img align="absmiddle" width="51" height="24" src="s/asimmetriya_i_excess_clip_image023_0000.gif">), а в правостороннем – положителен (<img align="absmiddle" width="51" height="24" src="s/asimmetriya_i_excess_clip_image016_0000.gif">), и чем больше <img align="absmiddle" width="20" height="24" src="s/asimmetriya_i_excess_clip_image028.gif"> <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong> – тем сильнее скос распределения.</p>
+  <p>Недостаток формулы Пирсона состоит в том, что она описывает  лишь центральную часть распределения и практически не учитывает «периферию». И,  чтобы вас не томить, сразу продвинутая формула, которая охватывает все варианты,  для определённости запишу её для <strong><a href="matematicheskaya_statistika.html">выборочной  совокупности</a></strong> объёма <img align="absmiddle" width="13" height="15" src="s/asimmetriya_i_excess_clip_image030.gif">: </p>
+  <p><img align="absmiddle" width="57" height="45" src="s/asimmetriya_i_excess_clip_image032.gif">, где <img align="absmiddle" width="21" height="25" src="s/asimmetriya_i_excess_clip_image034.gif"> – куб <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#sko">стандартного выборочного отклонения</a></strong>, а <img align="absmiddle" width="21" height="24" src="s/asimmetriya_i_excess_clip_image036.gif"> – так называемый <em>центральный эмпирический момент третьего  порядка</em>. Для несгруппированной статической совокупности он рассчитывается  так:<br>
+      <img align="absmiddle" width="117" height="64" src="s/asimmetriya_i_excess_clip_image038.gif"> (<img align="absmiddle" width="17" height="24" src="s/asimmetriya_i_excess_clip_image040.gif"> – <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#s">выборочная средняя</a></strong>),<br>
+    а для сформированного вариационного ряда – так:<br>
+  <img align="absmiddle" width="139" height="64" src="s/asimmetriya_i_excess_clip_image042.gif">, где <img align="absmiddle" width="16" height="24" src="s/asimmetriya_i_excess_clip_image044.gif"> – <em>варианты</em> <strong><a href="diskretnyi_variacionnyi_ryad.html">дискретного ряда</a></strong> или середины <em>частичных интервалов</em><strong> <a href="intervalnyi_variacionnyi_ryad.html">интервального ряда</a></strong>, а <img align="absmiddle" width="16" height="24" src="s/asimmetriya_i_excess_clip_image046.gif"> – соответствующие  частоты.</p>
+  <p>Смысл знаков тот же самый: если <img align="absmiddle" width="44" height="24" src="s/asimmetriya_i_excess_clip_image048.gif">, то распределение скошено вправо, если <img align="absmiddle" width="44" height="24" src="s/asimmetriya_i_excess_clip_image050.gif"> – то влево. При этом  принята следующая условная градация: если полученное значение <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong> меньше, чем 0,25, то асимметрия  незначительна, если <img align="absmiddle" width="104" height="27" src="s/asimmetriya_i_excess_clip_image052.gif">, то умеренная, и если <img align="absmiddle" width="60" height="27" src="s/asimmetriya_i_excess_clip_image054.gif">, то существенная. </p>
+  <p>И чем МЕНЬШЕ по модулю <img align="absmiddle" width="20" height="24" src="s/asimmetriya_i_excess_clip_image028_0000.gif"><strong>, тем рассматриваемое эмпирическое  распределение БЛИЖЕ к <a href="normalnoe_raspredelenie_veroyatnostei.html">нормальному распределению</a> с параметрами </strong><img align="absmiddle" width="96" height="24" src="s/asimmetriya_i_excess_clip_image057.gif">.</p>
+  <p>Справочно формулы <strong><a href="teorija_verojatnostei.html">теории  вероятностей</a></strong>: асимметрия случайной  величины рассчитывается по «родственной» формуле <img align="absmiddle" width="57" height="41" src="s/asimmetriya_i_excess_clip_image059.gif">, где <img align="absmiddle" width="16" height="15" src="s/asimmetriya_i_excess_clip_image004_0001.gif"> – среднее  квадратическое отклонение, а <img align="absmiddle" width="148" height="30" src="s/asimmetriya_i_excess_clip_image062.gif"> – <em>центральный теоретический момент 3-го порядка</em>. Для <strong><a href="sluchainaya_velichina.html">дискретной случайной величины</a></strong> он  рассчитывается так: <img align="absmiddle" width="152" height="26" src="s/asimmetriya_i_excess_clip_image064.gif">, а для <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">непрерывной</a> </strong>–  через интеграл: <img align="absmiddle" width="177" height="48" src="s/asimmetriya_i_excess_clip_image066.gif">.</p>
+  <p>Теперь об эксцессе замолвим слово. Он характеризует высоту и  очень коварный. В том смысле, что глаза будут часто обманывать. Так, например, вернёмся к <em>Примеру 7</em> статьи <strong><a href="intervalnyi_variacionnyi_ryad.html">Интервальный вариационный ряд</a></strong>, единственное, я рассмотрю равные интервалы, как это  на самом деле было в оригинальной задаче:<br>
+    <img align="absmiddle" width="503" height="338" src="s/asimmetriya_i_excess_clip_image068.jpg">    <br>
+    Ну видно же – гистограмма серьёзно вытянута вверх.  Но это только кажется. Дело в том, что <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#sko">стандартное  отклонение</a></strong> <img align="absmiddle" width="20" height="24" src="s/asimmetriya_i_excess_clip_image070.gif"> данной выборки  невелико, и для сего небольшого рассеяния такая высота ДАЖЕ МАЛА. МалА – по  сравнению с «эталонным» нормальным распределением с параметрами <img align="absmiddle" width="96" height="24" src="s/asimmetriya_i_excess_clip_image057_0000.gif">. </p>
+  <p>Поэтому аналитика и ещё раз аналитика. <strong><em>Коэффициент эксцесса</em></strong> эмпирического распределения рассчитывается по формуле:</p>
+  <p><img align="absmiddle" width="80" height="45" src="s/asimmetriya_i_excess_clip_image072.gif">, где <img align="absmiddle" width="21" height="23" src="s/asimmetriya_i_excess_clip_image074.gif"> – <em>центральный эмпирический момент четвёртого  порядка</em>:<br>
+      <img align="absmiddle" width="119" height="64" src="s/asimmetriya_i_excess_clip_image076.gif"> – для  несгруппированных данных, и<br>
+      <img align="absmiddle" width="140" height="64" src="s/asimmetriya_i_excess_clip_image078.gif"> – для сформированного  вариационного ряда.</p>
+  <p>Для случайных величин из тервера формула схожа: <img align="absmiddle" width="80" height="47" src="s/asimmetriya_i_excess_clip_image080.gif">, где <img align="absmiddle" width="154" height="26" src="s/asimmetriya_i_excess_clip_image082.gif"> – для <strong><a href="sluchainaya_velichina.html">дискретной</a></strong>, и <img align="absmiddle" width="177" height="48" src="s/asimmetriya_i_excess_clip_image084.gif"> – для <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">непрерывной случайной величины</a></strong>.</p>
+  <p>Если <img align="absmiddle" width="45" height="24" src="s/asimmetriya_i_excess_clip_image086.gif">, то эмпирическое распределение является более высоким («островершинным»)  – относительно «эталонного» нормального распределения с параметрами <img align="absmiddle" width="96" height="24" src="s/asimmetriya_i_excess_clip_image057_0001.gif">. Если же <img align="absmiddle" width="45" height="24" src="s/asimmetriya_i_excess_clip_image088.gif"> – то более низким и  пологим. И чем больше <img align="absmiddle" width="21" height="24" src="s/asimmetriya_i_excess_clip_image090.gif"> <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong>, тем «аномальнее» высота в ту или иную сторону. </p>
+  <p>В примере выше, как ни странно, <img align="absmiddle" width="45" height="24" src="s/asimmetriya_i_excess_clip_image088_0000.gif">, и сейчас мы убедимся в этом аналитически:</p>
+  <p><u>Пример 19</u></p>
+  <p>Итак, сто пачек чая из <em>Примера  7</em> (<img align="absmiddle" width="16" height="24" src="s/asimmetriya_i_excess_clip_image044_0000.gif"> – середины  равных интервалов):<br>
+      <img align="absmiddle" width="205" height="138" src="s/asimmetriya_i_excess_clip_image093.jpg"></p>
+  <p>и нам требуется вычислить коэффициенты асимметрии и эксцесса </p>
+  <p><strong>Решение</strong>:  поскольку в формулах асимметрии и эксцесса фигурирует <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#sko">стандартное отклонение</a></strong>, то сначала нужно рассчитать <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#s">выборочную среднюю</a></strong> и <strong><a href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html#d">дисперсию</a></strong>.</p>
+  <p>Вычислим произведения <img align="absmiddle" width="27" height="24" src="s/asimmetriya_i_excess_clip_image095.gif">, их сумму и <img align="absmiddle" width="175" height="45" src="s/asimmetriya_i_excess_clip_image097.gif"> грамм – средний вес  пачки чая. Дисперсию здесь сподручнее найти не <a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#fd">по формуле</a>, а <strong><a href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html#d">по определению</a></strong>: <img align="absmiddle" width="139" height="45" src="s/asimmetriya_i_excess_clip_image099.gif">. Для этого рассчитаем произведения <img align="absmiddle" width="75" height="25" src="s/asimmetriya_i_excess_clip_image101.gif"> и сразу <img align="absmiddle" width="156" height="25" src="s/asimmetriya_i_excess_clip_image103.gif">:<br>
+      <img align="absmiddle" width="558" height="142" src="s/asimmetriya_i_excess_clip_image105.jpg"></p>
+  <p>Ловкость рук и никаких трудностей, вы удивитесь, как всё  быстро:</p>
+  <p><iframe width="640" height="360" src="https://www.youtube.com/embed/jSuzZQWVfAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <p>Собственно, финальные расчёты:<br>
+      <img align="absmiddle" width="216" height="75" src="s/asimmetriya_i_excess_clip_image107.gif"><br>
+    здесь правильнее, конечно, отклонение <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#sko">поправить</a></strong>, но обычно этим пренебрегают.</p>
+  <p>Центральные моменты 3-го и 4-го порядков:<br>
+    <img align="absmiddle" width="251" height="91" src="s/asimmetriya_i_excess_clip_image109.gif"></p>
+  <p>И, наконец, коэффициенты. Вычислим коэффициент асимметрии:<br>
+      <img align="absmiddle" width="196" height="45" src="s/asimmetriya_i_excess_clip_image111.gif">, то есть, распределение обладает существенной правосторонней  асимметрией, что, кстати, хорошо было видно по чертежу. </p>
+  <p>Вычислим коэффициент эксцесса:<br>
+      <img align="absmiddle" width="228" height="45" src="s/asimmetriya_i_excess_clip_image113.gif"> – вот оно как!  Оказывается, распределение не то что выше, а заметно ниже, чем нормальное  распределение с параметрами <img align="absmiddle" width="193" height="24" src="s/asimmetriya_i_excess_clip_image115.gif"></p>
+  <p><strong>Ответ</strong>:<strong> </strong><img align="absmiddle" width="153" height="24" src="s/asimmetriya_i_excess_clip_image117.gif"></p>
+  <p>Вот такой вот у нас получился эксекас :) </p>
+  <p>Помимо геометрических форм, эти коэффициенты позволяют  «прикинуть», насколько близка к нормальному (или другому) распределению не только выборочная,  но и <u>вся генеральная совокупность</u>. Это <a href="kriteriy_soglasiya.html">одна из важнейших задач статистики</a>,  которую мы разберём в разделе <strong><a href="statisticheskie_gipotezy.html">Статистические  гипотезы</a></strong>.</p>
+  <p>Ну а сейчас я предлагаю вам небольшое экзаменационное  задание по первым семи урокам. Оно типично для студенческой практики – дана  статистическая совокупность,  и требуется  выполнить много-много чего. Внимательно проверьте, всё ли вы усвоили, всё ли  умеете:</p>
+  <p><u>Пример 20</u></p>
+  <p>В результате эксперимента получены данные, записанные в виде  статистического ряда:<br>
+      <img align="absmiddle" width="609" height="222" src="s/asimmetriya_i_excess_clip_image119.jpg"><br>
+    …это ещё ерунда :) </p>
+  <p>И сразу обратите внимание, что в условии речь идёт о результатах  эксперимента, а значит, перед нами выборочная совокупность, т.к. теоретически  опыты можно повторять бесконечное количество раз.</p>
+  <p><u>Задание 9</u></p>
+  <p><strong><a href="files/u/statistika_zadanie_9.xls">Выполнить в Экселе  следующие действия</a></strong> (числа и макет уже там):</p>
+  <p>1) Составить <strong><a href="intervalnyi_variacionnyi_ryad.html" target="_blank">интервальный  вариационный ряд</a></strong>, состоящий из 9 равных интервалов. <strong><a href="https://youtu.be/0gKcKmEtPB8"target="_blank">Видео в помощь</a></strong>.</p>
+  <p>2) Построить <strong><a href="intervalnyi_variacionnyi_ryad.html" target="_blank">гистограмму  относительных частот</a></strong> и <strong><a href="intervalnyi_variacionnyi_ryad.html" target="_blank">эмпирическую  функцию распределения</a></strong>.</p>
+  <p>3) Найти <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#ismome" target="_blank">моду</a> </strong>и<strong> <a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#ismome" target="_blank">медиану</a></strong>.</p>
+  <p>4) Вычислить <strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#ismome" target="_blank">выборочную  среднюю</a></strong><a href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html#d" target="_blank">,<strong> дисперсию</strong></a>, <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#sko" target="_blank">среднее квадратическое отклонение</a></strong> и <strong><a href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html#kv" target="_blank">коэффициент вариации</a></strong>.</p>
+  <p>5) Вычислить коэффициенты асимметрии и эксцесса, сделать  выводы.</p>
+  <p>Не тушуйтесь – я с вами! Краткое решение для сверки внизу  страницы.</p>
+  <p>И на этом, как вы правильно догадались, дело не  заканчивается, поэтому <strong>сохраните файл с  решением!</strong> Типовая задача содержит больше пунктов, и после изучения <strong><a href="kriteriy_soglasiya.html">гипотезы о законе распределения генеральной совокупности</a></strong>, выполняем  следующие задания:</p>
+  <p>6) По найденным характеристикам сделать вывод о форме  эмпирического ряда распределения.</p>
+  <p>7) Построить нормальную кривую по опытным данным на графике  гистограммы.</p>
+  <p>8) Произвести оценку степени близости теоретического  распределения эмпирическому ряду с помощью критерия согласия Пирсона на уровне значимости 0,05.</p>
+  <p>Но о <a href="statisticheskie_gipotezy.html">статистических гипотезах</a> чуть позже. На следующем уроке речь пойдёт о <strong><a href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">статистических оценках и доверительных интервалах</a></strong>.</p>
+  <p>До скорых встреч!</p>
+  <p><u>Решения и ответы:</u></p>
+  <em><p>Пример 20. <strong>Решение</strong>:</p>
+  <p><strong>1)</strong> По  статистическим данным находим: <img align="absmiddle" width="60" height="23" src="s/asimmetriya_i_excess_clip_image121.gif">, <img align="absmiddle" width="63" height="24" src="s/asimmetriya_i_excess_clip_image123.gif">.<br>
+    Вычислим размах вариации: <img align="absmiddle" width="181" height="24" src="s/asimmetriya_i_excess_clip_image125.gif"> ед.<br>
+    По условию, выборку следует разделить на <img align="absmiddle" width="37" height="19" src="s/asimmetriya_i_excess_clip_image127.gif"> равных интервалов,  таким образом, длина частичного интервала:<br>
+  <img align="absmiddle" width="145" height="41" src="s/asimmetriya_i_excess_clip_image129.gif"> ед.<br>
+    Разметим интервалы и подсчитаем частоты <img align="absmiddle" width="16" height="24" src="s/asimmetriya_i_excess_clip_image046_0000.gif"> по каждому интервалу,  после чего убедимся, что объём выборки <img align="absmiddle" width="99" height="27" src="s/asimmetriya_i_excess_clip_image132.gif">. Вычислим относительные частоты <img align="absmiddle" width="51" height="41" src="s/asimmetriya_i_excess_clip_image134.gif"> и относительные  накопленные частоты <img align="absmiddle" width="20" height="24" src="s/asimmetriya_i_excess_clip_image136.gif">:<br>
+  <img align="absmiddle" width="253" height="249" src="s/asimmetriya_i_excess_clip_image138.jpg"></p>
+  <p><strong>2)</strong> Построим  гистограмму относительных частот. Поскольку длина частичного интервала <img align="absmiddle" width="35" height="19" src="s/asimmetriya_i_excess_clip_image900.gif">, то плотности относительных частот <img align="absmiddle" width="23" height="41" src="s/asimmetriya_i_excess_clip_image901.gif"> совпадают с  соответствующими частотами <img align="absmiddle" width="19" height="24" src="s/asimmetriya_i_excess_clip_image902.gif">:</p>
+  </em>
+  <p><img align="absmiddle" width="563" height="342" src="s/asimmetriya_i_excess_clip_image903.jpg"></p>
+  <p><em>Построим эмпирическую функцию распределения:<br>
+      <img align="absmiddle" width="578" height="369" src="s/asimmetriya_i_excess_clip_image142.jpg">  
+  </em></p>
+  <em>
+      <p><strong>3)</strong> Моду вычислим  по формуле <img align="absmiddle" width="253" height="45" src="s/asimmetriya_i_excess_clip_image144.gif">, в данном случае:<br>
+        <img align="absmiddle" width="49" height="24" src="s/asimmetriya_i_excess_clip_image146.gif"> – нижняя граница  модального интервала;<br>
+        <img align="absmiddle" width="35" height="19" src="s/asimmetriya_i_excess_clip_image148.gif"> – длина модального  интервала;<br>
+        <img align="absmiddle" width="55" height="23" src="s/asimmetriya_i_excess_clip_image150.gif"> – частота модального  интервала;<br>
+        <img align="absmiddle" width="64" height="23" src="s/asimmetriya_i_excess_clip_image152.gif"> – частота предыдущего  интервала;<br>
+      <img align="absmiddle" width="64" height="23" src="s/asimmetriya_i_excess_clip_image154.gif"> – частота следующего  интервала.</p>
+      <p>Таким образом:<br>
+      <img align="absmiddle" width="376" height="44" src="s/asimmetriya_i_excess_clip_image156.gif"> ед.</p>
+      <p>Медиану вычислим по формуле <img align="absmiddle" width="156" height="48" src="s/asimmetriya_i_excess_clip_image158.gif">, в данном случае:<br>
+        <img align="absmiddle" width="52" height="19" src="s/asimmetriya_i_excess_clip_image160.gif"> – объём выборочной  совокупности;<br>
+        половину вариант содержит интервал <img align="absmiddle" width="52" height="21" src="s/asimmetriya_i_excess_clip_image162.gif">и <img align="absmiddle" width="49" height="24" src="s/asimmetriya_i_excess_clip_image146_0000.gif"> – его нижняя граница;<br>
+        <img align="absmiddle" width="35" height="19" src="s/asimmetriya_i_excess_clip_image148_0000.gif"> – длина медианного  интервала;<br>
+        <img align="absmiddle" width="52" height="24" src="s/asimmetriya_i_excess_clip_image166.gif"> – частота медианного  интервала;<br>
+      <img align="absmiddle" width="168" height="25" src="s/asimmetriya_i_excess_clip_image168.gif"> – накопленная частота предыдущего  интервала.</p>
+      <p>Таким образом:<br>
+      <img align="absmiddle" width="269" height="41" src="s/asimmetriya_i_excess_clip_image170.gif"> ед.</p>
+      <p>4) Найдём середины <img align="absmiddle" width="16" height="24" src="s/asimmetriya_i_excess_clip_image044_0001.gif"> интервалов, произведения <img align="absmiddle" width="27" height="24" src="s/asimmetriya_i_excess_clip_image095_0000.gif"> и вычислим выборочную  среднюю <img align="absmiddle" width="179" height="45" src="s/asimmetriya_i_excess_clip_image174.gif"> ед., после чего  заполним оставшуюся часть таблицы и рассчитаем остальные показатели:<br>
+        <img align="absmiddle" width="497" height="250" src="s/asimmetriya_i_excess_clip_image176.jpg"><br>
+        Выборочная дисперсия:<br>
+        <img align="absmiddle" width="253" height="45" src="s/asimmetriya_i_excess_clip_image178.gif">, <br>
+        выборочное среднее квадратическое отклонение:<br>
+        <img align="absmiddle" width="200" height="28" src="s/asimmetriya_i_excess_clip_image180.gif"> ед.,<br>
+        коэффициент вариации:<br>
+      <img align="absmiddle" width="267" height="45" src="s/asimmetriya_i_excess_clip_image777.gif">  </p>
+      <p>5) Вычислим центральные эмпирические моменты 3-го и 4-го  порядков:<br>
+        <img align="absmiddle" width="261" height="91" src="s/asimmetriya_i_excess_clip_image182.gif"><br>
+        коэффициент асимметрии:<br>
+        <img align="absmiddle" width="191" height="45" src="s/asimmetriya_i_excess_clip_image184.gif"><br>
+        и коэффициент эксцесса:<br>
+      <img align="absmiddle" width="237" height="45" src="s/asimmetriya_i_excess_clip_image186.gif"> </p>
+      <p>Таким образом, выборочная совокупность практически  симметрична, но несколько ниже, чем нормальное распределение с параметрами <img align="absmiddle" width="208" height="24" src="s/asimmetriya_i_excess_clip_image188.gif">.</p>
+  </em>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

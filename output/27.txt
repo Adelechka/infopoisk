@@ -1,0 +1,1059 @@
+<html>
+<head>
+<title>Квадратичные формы – держат нас в форме!</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="квадратичные формы для чайников, примеры решений, формула квадратичной формы, коэффициенты квадратичной формы, матрица квадратичной формы, знакоопределенность квадратичной формы, положительно определенные, отрицательно определенные, неположительно, неотрицательно, критерий сильвестра, исследовать форму на знакоопределенность">
+<meta name="Description" content="Приветствую вас на своём новом уроке, и для незамедлительной разминки мы наденем форму в полосочку…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Квадратичные формы.<br>Знакоопределённость форм. Критерий Сильвестра</h1>
+  
+  <br>
+  <p>Прилагательное «квадратичный» сразу наталкивает на мысль,  что что-то здесь связано с квадратом (второй степенью), и очень скоро мы узнаем  это «что-то» и что такое форма. Прямо скороговоркой получилась :) </p>
+  <p>Приветствую вас на своём новом уроке, и в качестве незамедлительной  разминки мы рассмотрим форму <s>в полосочку</s> <em>линейную</em>. <strong>Линейной формой</strong> <em><img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002.gif"> переменных</em> называют <em>однородный</em> многочлен 1-й  степени:</p>
+  <p><img align="absmiddle" width="312" height="24" src="s/kvadratichnye_formy_clip_image004.gif">, где:</p>
+  <p><img align="absmiddle" width="100" height="24" src="s/kvadratichnye_formy_clip_image006.gif"> – какие-то конкретные  числа<strong>*</strong> <em>(предполагаем, что хотя бы одно из них отлично от нуля)</em>, а <img align="absmiddle" width="99" height="24" src="s/kvadratichnye_formy_clip_image008.gif"> – переменные, которые  могут принимать произвольные значения.</p>
+  <p><strong><em>*</em></strong><em> В рамках данной темы  будем рассматривать только <strong><a href="mnozhestva.html">действительные  числа</a></strong></em>.</p>
+  <p>С термином «однородный» мы уже сталкивались на уроке об <strong><a href="odnorodnye_sistemy_lineinyh_uravnenij.html">однородных системах линейных уравнений</a></strong>,  и в данном случае он подразумевает, что у многочлена нет приплюсованной  константы <img align="absmiddle" width="17" height="24" src="s/kvadratichnye_formy_clip_image010.gif">.</p>
+  <p>Например: <img align="absmiddle" width="124" height="23" src="s/kvadratichnye_formy_clip_image012.gif"> – линейная форма двух  переменных</p>
+  <p>Теперь форма квадратичная. <strong>Квадратичной формой</strong> <em><img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0000.gif"> переменных</em> называют <em>однородный</em> многочлен 2-й  степени, <strong>каждое слагаемое которого</strong> содержит либо квадрат переменной, либо <u>парное</u> произведение переменных. Так,  например, квадратичная форма двух переменных <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image014.gif"> имеет следующий вид:</p>
+  <p><img align="absmiddle" width="221" height="24" src="s/kvadratichnye_formy_clip_image016.gif"> </p>
+  <p><strong>Внимание!</strong> Это  стандартная запись, и что-то менять в ней не нужно! Несмотря на «страшный» вид,  тут всё просто – двойные подстрочные индексы констант сигнализируют о том, какие  переменные входят в то или иное слагаемое:<br>
+      <em><img align="absmiddle" width="21" height="23" src="s/kvadratichnye_formy_clip_image018.gif"> – в этом слагаемом  находится  произведение <img align="absmiddle" width="16" height="23" src="s/kvadratichnye_formy_clip_image020.gif"> и <img align="absmiddle" width="16" height="23" src="s/kvadratichnye_formy_clip_image020_0000.gif"> (квадрат);</em><br>
+      <em><img align="absmiddle" width="23" height="23" src="s/kvadratichnye_formy_clip_image022.gif"> – здесь произведение <img align="absmiddle" width="40" height="23" src="s/kvadratichnye_formy_clip_image024.gif">;</em><br>
+      <em><img align="absmiddle" width="21" height="23" src="s/kvadratichnye_formy_clip_image026.gif"> – и здесь произведение <img align="absmiddle" width="39" height="23" src="s/kvadratichnye_formy_clip_image028.gif">.</em></p>
+  <p>Далее будем полагать, что хотя бы одна из констант не равна  нулю, и вот, пожалуйста, «неполный» пример: <img align="absmiddle" width="148" height="24" src="s/kvadratichnye_formy_clip_image030.gif">, в котором:</p>
+  <p><img align="absmiddle" width="155" height="23" src="s/kvadratichnye_formy_clip_image032.gif"> – сразу упреждаю  грубую ошибку, когда теряют «минус» у коэффициента, не понимая, что он  относится к слагаемому: <img align="absmiddle" width="168" height="24" src="s/kvadratichnye_formy_clip_image034.gif"></p>
+  <p>Иногда встречается «школьный» вариант оформления в духе <img align="absmiddle" width="181" height="24" src="s/kvadratichnye_formy_clip_image036.gif">, но то лишь иногда. Кстати, заметьте, что константы <img align="absmiddle" width="51" height="21" src="s/kvadratichnye_formy_clip_image038.gif"> нам тут вообще ни о  чем не говорят, и поэтому запомнить «лёгкую запись» труднее. Особенно, когда  переменных больше.</p>
+  <p>И квадратичная форма трёх переменных содержит уже шесть  членов:</p>
+  <p><img align="absmiddle" width="423" height="25" src="s/kvadratichnye_formy_clip_image040.gif"></p>
+  <p>…почему в «смешанных» слагаемых ставятся множители-«двойки»?  Это удобно, и скоро станет понятно, почему.</p>
+  <p>Далее ситуация начинает усугубляться:</p>
+  <p><img align="absmiddle" width="401" height="51" src="s/kvadratichnye_formy_clip_image042.gif"></p>
+  <p>и усугублять мы её дальше не будем, т.к. формы с бОльшим  количеством переменных встречаются довольно редко.</p>
+  <p>Однако общую формулу запишем, её удобно оформить  «простынёй»:</p>
+  <p><img align="absmiddle" width="303" height="173" src="s/kvadratichnye_formy_clip_image044.gif"><br>
+    – внимательно изучаем каждую  строчку – ничего страшного тут нет!</p>
+  <p>Квадратичная форма содержит <img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0001.gif"> слагаемых с квадратами  переменных и <img align="absmiddle" width="21" height="25" src="s/kvadratichnye_formy_clip_image047.gif"> слагаемых с их парными  произведениями <em>(см. <strong><a href="formuly_kombinatoriki.pdf" target="_blank">комбинаторную формулу сочетаний</a></strong>)</em>. Больше ничего – никаких  «одиноких иксов» и никакой приплюсованной константы (тогда уже получится не  квадратичная форма, а <em>неоднородный</em> многочлен 2-й степени).</p>
+  <h3>Матричная запись  квадратичной формы</h3>
+  <p>Как на счёт <strong><a href="deistviya_s_matricami.html">матриц</a></strong>?  :) Знаю, знаю, соскучились. В практических задачах широко распространенная  матричная запись квадратичных форм. Объяснения опять начну с формы <em>линейной</em>, например, от трёх переменных:  <img align="absmiddle" width="204" height="24" src="s/kvadratichnye_formy_clip_image049.gif">. Её можно записать, как произведение двух матриц:</p>
+  <p><img align="absmiddle" width="215" height="75" src="s/kvadratichnye_formy_clip_image051.gif"></p>
+  <p>И действительно, выполняя <strong><a href="deistviya_s_matricami.html">матричное умножение</a></strong>, получаем матрицу «один на один»: <img align="absmiddle" width="256" height="75" src="s/kvadratichnye_formy_clip_image053.gif">, единственный элемент которой можно эквивалентно записать  вне матрицы: <img align="absmiddle" width="112" height="24" src="s/kvadratichnye_formy_clip_image055.gif">.</p>
+  <p>Легко понять, что линейная форма «эн» переменных  записывается в виде:<br>
+      <img align="absmiddle" width="311" height="123" src="s/kvadratichnye_formy_clip_image057.gif"></p>
+  <p>Квадратичная форма представима в виде <strong>произведения уже трёх матриц</strong>:</p>
+  <p><img align="absmiddle" width="192" height="25" src="s/kvadratichnye_formy_clip_image059.gif">, где:<br>
+    <br>
+  <img align="absmiddle" width="59" height="123" src="s/kvadratichnye_formy_clip_image061.gif"> – столбец переменных; </p>
+  <p><img align="absmiddle" width="171" height="25" src="s/kvadratichnye_formy_clip_image063.gif"> – его <strong><a href="deistviya_s_matricami.html">транспонированная</a></strong> строка;</p>
+  <p><img align="absmiddle" width="196" height="123" src="s/kvadratichnye_formy_clip_image065.gif"> – <strong>матрица квадратичной формы</strong>.</p>
+  <p>Это так называемая <em>симметрическая</em> матрица, на <em>главной диагонали</em> которой  расположены коэффициенты <img align="absmiddle" width="119" height="24" src="s/kvadratichnye_formy_clip_image067.gif"> при квадратах  неизвестных, а симметрично относительно неё  – «смешанные» коэффициенты, причём, строго на  «своих местах» <em>(например, <img align="absmiddle" width="21" height="24" src="s/kvadratichnye_formy_clip_image069.gif"> – в 1-й строке, 3-м  столбце и 1-м столбце, 3-й строке)</em>.</p>
+  <p><strong><a href="kak_vychislit_opredelitel.html">Определитель</a></strong> <img align="absmiddle" width="20" height="27" src="s/kvadratichnye_formy_clip_image071.gif"> называют <strong>дискриминантом</strong> квадратичной формы, а <strong><a href="rang_matricy.html">ранг матрицы</a></strong> <img align="absmiddle" width="16" height="17" src="s/kvadratichnye_formy_clip_image073.gif"> – <strong>рангом</strong> квадратичной формы.</p>
+  <p>Если <strong><a href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">перемножить три матрицы</a></strong> <img align="absmiddle" width="56" height="21" src="s/kvadratichnye_formy_clip_image075.gif">, то получится в точности длинная «простыня» из предыдущего  параграфа, но разворачивать её мы, конечно, не будем, а посмотрим, как это  происходит в элементарном случае <img align="absmiddle" width="221" height="24" src="s/kvadratichnye_formy_clip_image016_0000.gif">. Согласно общей формуле, матричная  запись данной формы имеет следующий вид:</p>
+  <p><img align="absmiddle" width="243" height="51" src="s/kvadratichnye_formy_clip_image078.gif"></p>
+  <p>И в самом деле:<br>
+      <img align="absmiddle" width="324" height="51" src="s/kvadratichnye_formy_clip_image080.gif"><br>
+    далее:<br>
+  <img align="absmiddle" width="480" height="51" src="s/kvadratichnye_formy_clip_image082.gif"><br>
+  <img align="absmiddle" width="373" height="24" src="s/kvadratichnye_formy_clip_image084.gif">, в чём и требовалось убедиться.</p>
+  <p>Как вариант, сначала можно было перемножить правые матрицы,  и затем первую матрицу умножить на полученный результат.</p>
+  <p>Вам понравилось так же, как и мне? Ну тогда пример для  самостоятельного решения =)</p>
+  <p><u>Пример 1</u></p>
+  <p>Записать квадратичную форму в матричном виде и выполнить  проверку. Определить дискриминант и ранг формы.</p>
+  <p><img align="absmiddle" width="107" height="24" src="s/kvadratichnye_formy_clip_image086.gif"></p>
+  <p>…что-то смущает? ;) Краткое решение и ответ в конце урока!  Статьи об <strong><a href="kak_vychislit_opredelitel.html">определителе</a></strong> и <strong><a href="rang_matricy.html">ранге</a></strong> матрицы – в помощь.</p>
+  <p>После чего разберём аналогичную задачу с формой трёх  переменных:</p>
+  <p><u>Пример 2</u></p>
+  <p>Записать матрицу квадратичной формы, найти её ранг и  дискриминант</p>
+  <p><img align="absmiddle" width="193" height="25" src="s/kvadratichnye_formy_clip_image088.gif"></p>
+  <p><strong>Решение</strong>: сбросим  тяжёлую ношу лишних формул, и будем ориентироваться на сами члены:</p>
+  <p>– слагаемое <img align="absmiddle" width="27" height="24" src="s/kvadratichnye_formy_clip_image090.gif"> дважды содержит 1-ю  переменную, поэтому <img align="absmiddle" width="45" height="23" src="s/kvadratichnye_formy_clip_image092.gif">;</p>
+  <p>– из аналогичных соображений определяем <img align="absmiddle" width="115" height="24" src="s/kvadratichnye_formy_clip_image094.gif"> и сразу записываем  результаты на главную диагональ симметрической матрицы: <img align="absmiddle" width="107" height="75" src="s/kvadratichnye_formy_clip_image096.gif">.</p>
+  <p>Так как в слагаемое <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image098.gif"> входят 1-я и 2-я  переменная, то <img align="absmiddle" width="47" height="23" src="s/kvadratichnye_formy_clip_image100.gif"> <em>(не забываем поделить на 2)</em> и данный коэффициент занимает свои  законные места: <img align="absmiddle" width="107" height="75" src="s/kvadratichnye_formy_clip_image102.gif">.</p>
+  <p>Поскольку в форме отсутствует член с произведением <img align="absmiddle" width="28" height="24" src="s/kvadratichnye_formy_clip_image104.gif"> (а точнее,  присутствует с нулевым множителем: <img align="absmiddle" width="45" height="24" src="s/kvadratichnye_formy_clip_image106.gif">), то <img align="absmiddle" width="47" height="24" src="s/kvadratichnye_formy_clip_image108.gif">, и на холст отправляются два нуля: <img align="absmiddle" width="96" height="75" src="s/kvadratichnye_formy_clip_image110.gif">.</p>
+  <p>И, наконец, из слагаемого <img align="absmiddle" width="39" height="24" src="s/kvadratichnye_formy_clip_image112.gif"> определяем <img align="absmiddle" width="45" height="24" src="s/kvadratichnye_formy_clip_image114.gif">, после чего картина завершена: <br>
+      <img align="absmiddle" width="121" height="75" src="s/kvadratichnye_formy_clip_image116.gif"> – матрица квадратичной  формы. Вот так-то оно бывает – мы не только не испугались «страшных  обозначений» <img align="absmiddle" width="19" height="25" src="s/kvadratichnye_formy_clip_image118.gif">, но и заставили их работать на себя!</p>
+  <p>По условию не требовалось записывать матричное уравнение,  однако науки ради:<br>
+      <img align="absmiddle" width="289" height="75" src="s/kvadratichnye_formy_clip_image120.gif"></p>
+  <p>Желающие могут <strong><a href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">перемножить  три матрицы</a></strong>, в результате чего должна получиться исходная квадратичная форма.</p>
+  <p>Теперь определим <strong>ранг</strong> формы. Он равен <strong><a href="rang_matricy.html">рангу матрицы</a></strong> <img align="absmiddle" width="16" height="17" src="s/kvadratichnye_formy_clip_image073_0000.gif">. Так как в матрице есть хотя бы один ненулевой элемент,  например, <img align="absmiddle" width="65" height="23" src="s/kvadratichnye_formy_clip_image123.gif">, то ранг <em>не меньше</em> единицы. Теперь вычислим <strong><a href="rang_matricy.html">минор</a></strong> <img align="absmiddle" width="204" height="48" src="s/kvadratichnye_formy_clip_image125.gif">, значит, ранг <em>не  меньше</em> двух. И осталось проверить минор 3-го порядка, т.е. определитель  всей матрицы. Здесь я <strong><a href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">ко второму столбцу  прибавлю третий</a></strong> и <strong><a href="kak_vychislit_opredelitel.html">раскрою  определитель по 3-й строке</a></strong>:<br>
+      <img align="absmiddle" width="431" height="75" src="s/kvadratichnye_formy_clip_image127.gif">, значит, <img align="absmiddle" width="84" height="21" src="s/kvadratichnye_formy_clip_image129.gif"><strong></strong></p>
+  <p>Если не очень понятно, что к чему, обязательно изучите  статью о <strong><a href="rang_matricy.html">ранге матрицы</a></strong> – это  довольно замысловатая задачка, и перед нами оказался лишь простой случай, когда <em>угловые миноры</em> не равны нулю.</p>
+  <p>Дискриминант квадратичной формы получен автоматом.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="93" height="75" src="s/kvadratichnye_formy_clip_image131.gif">, ранг равен трём, дискриминант <img align="absmiddle" width="44" height="27" src="s/kvadratichnye_formy_clip_image133.gif"></p>
+  <p>Следующее задание для самостоятельного решения:</p>
+  <p><u>Пример 3</u></p>
+  <p>Восстановить квадратичную форму по её матрице<br>
+      <img align="absmiddle" width="139" height="96" src="s/kvadratichnye_formy_clip_image135.gif"></p>
+  <p>При этом не нужно вспоминать никаких формул! Решение почти  устное:</p>
+  <p>– сначала смотрим на главную диагональ и записываем  слагаемые с квадратами переменных;</p>
+  <p>– затем анализируем симметричные элементы 1-й строки (или  1-го столбца), и записываем все слагаемые, в которые входит 1-я переменная (не  забывая удвоить коэффициенты);</p>
+  <p>– далее смотрим на оставшиеся симметричные элементы 2-й  строки <em>(справа от диагонали)</em> либо  2-го столбца <em>(ниже диагонали)</em> и  записываем соответствующие парные произведения   (с удвоенными коэффициентами!).</p>
+  <p>– и, наконец, анализируем правую нижнюю пару симметричных  чисел.</p>
+  <p>Подробное решение и ответ в конце урока.</p>
+  <br>
+  <h2>Знакоопределённость  квадратичной формы. Критерий Сильвестра</h2>
+  <p>До сих пор мы рассматривали «внешнее устройство» форм и  пришло время изучить их функциональное назначение. Да, по существу, они  работают, как функции. Вернёмся к простенькой <em>линейной</em> форме <img align="absmiddle" width="124" height="23" src="s/kvadratichnye_formy_clip_image012_0000.gif">.</p>
+  <p>Как отмечалось в начале урока, переменные <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image014_0000.gif"> могут принимать  произвольные действительные значения <em>(мы  ограничились ими)</em>, и каждой такой паре соответствует определённое значение <img align="absmiddle" width="60" height="23" src="s/kvadratichnye_formy_clip_image139.gif">, например:</p>
+  <p><img align="absmiddle" width="212" height="21" src="s/kvadratichnye_formy_clip_image141.gif"><br>
+      <img align="absmiddle" width="137" height="21" src="s/kvadratichnye_formy_clip_image143.gif">, и так далее.</p>
+  <p>Говоря языком науки, перед нами <em>скалярная</em> функция <em>векторного</em> аргумента, в которой каждому <em>вектору</em> <img align="absmiddle" width="59" height="51" src="s/kvadratichnye_formy_clip_image145.gif"> ставится в  соответствие определённое число <img align="absmiddle" width="60" height="23" src="s/kvadratichnye_formy_clip_image147.gif">. Обращаю ваше внимание, что сейчас идёт речь не о <strong><a href="vektory_dlya_chainikov.html">геометрическом векторе</a></strong>, а о векторе в  его <strong><a href="linejnye_preobrazovanija.html">алгебраическом понимании</a></strong>.</p>
+  <p>В зависимости от значений <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image149.gif"> рассматриваемая форма  может принимать как положительные, так и отрицательные значения, и то же самое  касается любой линейной формы <img align="absmiddle" width="312" height="24" src="s/kvadratichnye_formy_clip_image004_0000.gif">  – если хотя бы один  из её коэффициентов отличен от нуля, то она может оказаться как положительной,  так и отрицательной (в зависимости от значений <img align="absmiddle" width="99" height="24" src="s/kvadratichnye_formy_clip_image008_0000.gif">).</p>
+  <p>Такая форма называется <strong>знакопеременной</strong>.  И если с линейной формой всё прозрачно, то с формой квадратичной дела обстоят куда  более интересно:</p>
+  <p><img align="absmiddle" width="101" height="23" src="s/kvadratichnye_formy_clip_image151.gif"> </p>
+  <p>Совершенно понятно, что данная форма может принимать  значения любого знака, таким образом, <strong>квадратичная  форма тоже может быть знакопеременной</strong>.</p>
+  <p>А может и не быть:</p>
+  <p><img align="absmiddle" width="157" height="24" src="s/kvadratichnye_formy_clip_image153.gif"> – всегда, если только <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image014_0001.gif"> одновременно не равны  нулю.</p>
+  <p><img align="absmiddle" width="172" height="24" src="s/kvadratichnye_formy_clip_image156.gif"> – для любого <em>вектора</em> <img align="absmiddle" width="59" height="51" src="s/kvadratichnye_formy_clip_image145_0000.gif">, кроме нулевого <img align="absmiddle" width="28" height="48" src="s/kvadratichnye_formy_clip_image158.gif">.</p>
+  <p><strong>И вообще, </strong>если  для любого <em>ненулевого</em> вектора <img align="absmiddle" width="59" height="123" src="s/kvadratichnye_formy_clip_image160.gif">, <img align="absmiddle" width="147" height="24" src="s/kvadratichnye_formy_clip_image162.gif">, то квадратичную форму называют <strong>положительно определённой</strong>; если же <img align="absmiddle" width="147" height="24" src="s/kvadratichnye_formy_clip_image164.gif"> – то <strong>отрицательно определённой</strong>. </p>
+  
+  <p>И всё бы было хорошо, но определённость  квадратичной формы виднА лишь в простых примерах, и эта видимость теряется уже при небольшом  усложнении:<br>
+      <img align="absmiddle" width="183" height="41" src="s/kvadratichnye_formy_clip_image182.gif"> – ?</p>
+  <p>Можно предположить, что форма определена положительно, но  так ли это на самом деле? Вдруг существуют значения <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image014_0002.gif">, при которых она меньше нуля?</p>
+  <p>На этот счёт существует <strong>теорема</strong>:  если ВСЕ <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">собственные числа</a></strong> матрицы  квадратичной формы положительны<strong>*</strong>, то  она определена положительно. Если все отрицательны – то отрицательно. </p>
+  <p><strong><em>*</em></strong><em> В теории доказано, что все  собственные числа  действительной симметрической матрицы <strong><a href="mnozhestva.html">действительны</a></strong></em></p>
+  <p>Запишем матрицу вышеприведённой формы:<br>
+      <img align="absmiddle" width="100" height="48" src="s/kvadratichnye_formy_clip_image185.gif"> и из уравнения <img align="absmiddle" width="135" height="48" src="s/kvadratichnye_formy_clip_image187.gif"> найдём её <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">собственные значения</a></strong>:</p>
+  <p><img align="absmiddle" width="140" height="111" src="s/kvadratichnye_formy_clip_image189.gif"></p>
+  <p>Решаем старое доброе <strong><a href="goryachie_formuly.pdf" target="_blank">квадратное  уравнение</a></strong>:<br>
+      <img align="absmiddle" width="103" height="19" src="s/kvadratichnye_formy_clip_image191.gif"><br>
+      <img align="absmiddle" width="231" height="45" src="s/kvadratichnye_formy_clip_image193.gif">, значит, форма <img align="absmiddle" width="183" height="41" src="s/kvadratichnye_formy_clip_image182_0000.gif"> определена  положительно, т.е. при любых ненулевых значениях <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image014_0003.gif"> она больше нуля.</p>
+  <p>Рассмотренный метод вроде бы  рабочий, но есть одно большое НО. Уже для матрицы «три на три» искать  собственные числа – есть занятие долгое и неприятное; с высокой вероятностью  получится многочлен 3-й степени с иррациональными корнями.</p>
+  <p>Как быть? Существует более простой путь!</p>
+  <h3><strong>Критерий Сильвестра</strong></h3>
+  <p>Нет, не Сильвестра Сталлоне :) Сначала напомню, что такое <em>угловые миноры</em> матрицы. Это <strong><a href="kak_vychislit_opredelitel.html">определители</a></strong> <img align="absmiddle" width="100" height="24" src="s/kvadratichnye_formy_clip_image196.gif"> которые «разрастаются»  из её левого верхнего угла:<br>
+      <img align="absmiddle" width="208" height="148" src="s/kvadratichnye_formy_clip_image198.jpg"><br>
+    и последний из них в точности равен определителю матрицы.</p>
+  <p>Теперь, собственно, <strong>критерий</strong>:</p>
+  <p>1) Квадратичная форма определена <strong>положительно</strong> тогда и только тогда, когда ВСЕ её угловые миноры  больше нуля: <img align="absmiddle" width="197" height="24" src="s/kvadratichnie_formy_clip_image002.gif">.</p>
+  <p>2) Квадратичная форма определена <strong>отрицательно</strong> тогда и только тогда, когда её угловые миноры  знакочередуются, при этом 1-й минор меньше нуля: <img align="absmiddle" width="149" height="24" src="s/kvadratichnie_formy_clip_image002_0000.gif">, <img align="absmiddle" width="44" height="24" src="s/kvadratichnie_formy_clip_image004.gif">, если <img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0001.gif"> – чётное или <img align="absmiddle" width="44" height="24" src="s/kvadratichnie_formy_clip_image008.gif">, если <img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0001.gif"> – нечётное.</p>
+  <p>Если в 1-й или 2-й последовательности есть нулевые миноры, то это два особых случая, которые я  разберу чуть позже, после того, как мы перещёлкаем более распространённые  примеры. При любой другой комбинации плюсов-минусов <em>(и опционально нулей)</em> форма<strong> знакопеременна</strong>. </p>
+  <p>Проанализируем угловые миноры матрицы <img align="absmiddle" width="100" height="48" src="s/kvadratichnye_formy_clip_image185_0000.gif">:</p>
+  <p><img align="absmiddle" width="63" height="23" src="s/kvadratichnye_formy_clip_image200.gif">, и это сразу говорит нам о том, что форма не определена  отрицательно (отпал пункт 2).</p>
+  <p><img align="absmiddle" width="191" height="48" src="s/kvadratichnye_formy_clip_image202.gif"></p>
+  <p><strong>Вывод</strong>: все  угловые миноры больше нуля, значит, форма <img align="absmiddle" width="183" height="41" src="s/kvadratichnye_formy_clip_image182_0001.gif"> определена  положительно.</p>
+  <p>Есть разница с методом собственных чисел? ;)</p>
+  <p> Запишем матрицу формы <img align="absmiddle" width="149" height="24" src="s/kvadratichnye_formy_clip_image204.gif"> из <em>Примера 1</em>:<br>
+      <img align="absmiddle" width="60" height="48" src="s/kvadratichnye_formy_clip_image206.gif"></p>
+  <p>первый её угловой минор <img align="absmiddle" width="41" height="23" src="s/kvadratichnye_formy_clip_image208.gif">, а второй <img align="absmiddle" width="183" height="48" src="s/kvadratichnye_formy_clip_image210.gif">, откуда следует, что форма знакопеременна, т.е. в  зависимости от значений <img align="absmiddle" width="37" height="23" src="s/kvadratichnye_formy_clip_image014_0004.gif">, может принимать как положительные, так и отрицательные  значения. Впрочем, это и так очевидно.</p>
+  <p>Возьмём форму <img align="absmiddle" width="287" height="25" src="s/kvadratichnye_formy_clip_image213.gif"> и её матрицу из <em>Примера 2</em>:<br>
+      <img align="absmiddle" width="95" height="75" src="s/kvadratichnye_formy_clip_image215.gif"></p>
+  <p>тут вообще без озарения не разобраться. Но с критерием  Сильвестра нам всё нипочём:<br>
+      <img align="absmiddle" width="65" height="23" src="s/kvadratichnye_formy_clip_image217.gif">, следовательно, форма точно не отрицательна.</p>
+  <p><img align="absmiddle" width="203" height="48" src="s/kvadratichnye_formy_clip_image219.gif">, и точно не положительна <em>(т.к. все угловые миноры должны быть положительными)</em>.</p>
+  <p><strong>Вывод</strong>: форма  знакопеременна. </p>
+  <p>Разминочные примеры для самостоятельного решения:</p>
+  <p><u>Пример 4 </u></p>
+  <p>Исследовать квадратичные формы на знакоопределенность</p>
+  <p>а) <img align="absmiddle" width="124" height="24" src="s/kvadratichnye_formy_clip_image261.gif"></p>
+  <p>б) <img align="absmiddle" width="217" height="25" src="s/kvadratichnye_formy_clip_image263.gif"></p>
+  <p>В этих примерах всё гладко (см. конец урока), но  на самом деле для выполнения такого задания <strong>критерия Сильвестра может оказаться не достаточно</strong>.</p>
+  <p>Дело в том, что существуют «краевые» случаи, а  именно: если для любого <em>ненулевого</em> вектора <img align="absmiddle" width="176" height="24" src="s/kvadratichnye_formy_clip_image166.gif">, то форма определена <strong>неотрицательно</strong>,  если  <img align="absmiddle" width="147" height="24" src="s/kvadratichnye_formy_clip_image168.gif"> – то <strong>неположительно</strong>. У этих форм существуют <em>ненулевые</em> векторы <img align="absmiddle" width="59" height="123" src="s/kvadratichnye_formy_clip_image160.gif">, при которых <img align="absmiddle" width="147" height="24" src="s/kvadratichnye_formy_clip_image172.gif">.</p>
+  <p>Здесь можно привести такой «баян»:<br>
+      <img align="absmiddle" width="171" height="24" src="s/kvadratichnye_formy_clip_image174.gif"></p>
+  <p>Выделяя <strong><a href="goryachie_formuly.pdf" target="_blank">полный  квадрат</a></strong>, сразу видим <em>неотрицательность</em> формы: <img align="absmiddle" width="161" height="24" src="s/kvadratichnye_formy_clip_image176.gif">, причём, она равна нулю и при любом векторе с равными  координатами, например: <img align="absmiddle" width="137" height="24" src="s/kvadratichnye_formy_clip_image178.gif">.</p>
+  <p>«Зеркальный» пример <em>неположительно</em> определённой формы:<br>
+      <img align="absmiddle" width="289" height="24" src="s/kvadratichnye_formy_clip_image180.gif"><br>
+  и ещё более тривиальный пример:<br>
+    <img align="absmiddle" width="272" height="24" src="s/kvadratichnie_formy_clip_image002_0001.gif"> – здесь форма равна нулю  при любом векторе <img align="absmiddle" width="55" height="48" src="s/kvadratichnie_formy_clip_image004_0000.gif">, где <img align="absmiddle" width="16" height="15" src="s/kvadratichnie_formy_clip_image006.gif"> – произвольное число.</p>
+  <p><strong>Как выявить  неотрицательность или неположительнось формы? </strong></p>
+  <p>Для этого нам потребуется понятие <strong><em>главных миноров</em></strong> матрицы. Главный  минор – это минор, составленный из элементов, которые стоят на пересечении  строк и столбцов с одинаковыми номерами. Так, у матрицы <img align="absmiddle" width="72" height="51" src="s/kvadratichnie_formy_clip_image008_0000.gif"> существуют два главных  минора 1-го порядка:<br>
+      <img align="absmiddle" width="52" height="23" src="s/kvadratichnie_formy_clip_image010.gif"> (элемент находится на  пересечении 1-й строки и 1-го столбца);<br>
+      <img align="absmiddle" width="56" height="23" src="s/kvadratichnie_formy_clip_image012.gif"> (элемент находится на  пересечении 2-й строки и 2-го столбца),</p>
+  <p>и один главный  минор  2-го порядка:<br>
+      <img align="absmiddle" width="101" height="51" src="s/kvadratichnie_formy_clip_image014.gif"> – составлен из  элементов 1-й, 2-й строки и 1-го, 2-го столбца.</p>
+  <p>У матрицы «три на три» <img align="absmiddle" width="105" height="75" src="s/kvadratichnie_formy_clip_image016.gif"> главных миноров семь,  и тут уже придётся помахать бицепсами:<br>
+      <img align="absmiddle" width="193" height="24" src="s/kvadratichnie_formy_clip_image018.gif"> – три минора 1-го  порядка, <br>
+    три минора 2-го порядка:<br>
+  <img align="absmiddle" width="100" height="51" src="s/kvadratichnie_formy_clip_image020.gif">  – составлен из  элементов 1-й, 2-й строки и 1-го, 2-го столбца;<br>
+  <img align="absmiddle" width="100" height="51" src="s/kvadratichnie_formy_clip_image022.gif">  – составлен из элементов  1-й, 3-й строки и 1-го, 3-го столбца;<br>
+  <img align="absmiddle" width="103" height="51" src="s/kvadratichnie_formy_clip_image024.gif">  – составлен из элементов  2-й, 3-й строки и 2-го, 3-го столбца, <br>
+    и один минор 3-го порядка:<br>
+  <img align="absmiddle" width="143" height="75" src="s/kvadratichnie_formy_clip_image026.gif"> – составлен из  элементов 1-й, 2-й, 3-й строки и 1-го, 2-го и 3-го столбца.<br>
+  <u>Задание на понимание</u>: записать все главные миноры  матрицы <img align="absmiddle" width="140" height="99" src="s/kvadratichnie_formy_clip_image028.gif">.<br>
+    Сверяемся в конце урока и продолжаем.</p>
+  <p><strong>Критерий  Шварценеггера</strong>:</p>
+  <p>1) Ненулевая* квадратичная форма определена <strong>неотрицательно</strong> тогда и только тогда,  когда ВСЕ её главные миноры <em>неотрицательны</em> (больше либо равны нулю).</p>
+  <p><em>* У нулевой  (вырожденной) квадратичной формы все коэффициенты равны нулю</em>.</p>
+  <p>2) Ненулевая квадратичная форма с матрицей  <img align="absmiddle"  width="35" height="15" src="s/kvadratichnie_formy_clip_image030.gif"> определена <strong>неположительно </strong>тогда и только тогда,  когда её:<br>
+    – главные миноры 1-го порядка <em>неположительны</em> (меньше либо равны нулю);<br>
+    – главные миноры 2-го порядка <em>неотрицательны</em>;<br>
+    – главные миноры 3-го порядка <em>неположительны</em> (пошлО чередование);<br>
+    …<br>
+    – главный минор <img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0001.gif">-го  порядка <em>неположителен</em>, если <img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0001.gif"> – нечётное либо <em>неотрицателен</em>, если <img align="absmiddle" width="13" height="15" src="s/kvadratichnye_formy_clip_image002_0001.gif"> – чётное.</p>
+  <p>Если хотя бы один минор противоположного знака, то форма  знакопеременна.</p>
+  <p>Посмотрим, как работает критерий в вышеприведённых примерах:<br>
+      <img align="absmiddle" width="171" height="24" src="s/kvadratichnie_formy_clip_image036.gif"></p>
+  <p>Составим матрицу <img align="absmiddle" width="69" height="48" src="s/kvadratichnie_formy_clip_image038.gif"> формы, и <strong>в первую очередь</strong> вычислим угловые  миноры – а вдруг она определена положительно или отрицательно?<br>
+      <img align="absmiddle" width="153" height="75" src="s/kvadratichnie_formy_clip_image040.gif"></p>
+  <p>Полученные значения не удовлетворяют критерию Сильвестра, однако  второй минор<strong> не отрицателен</strong>, и это  вызывает надобность проверить 2-й критерий <em>(в  случае <img align="absmiddle" width="43" height="23" src="s/kvadratichnie_formy_clip_image042.gif"> 2-й критерий будет не  выполнен автоматически, т.е. сразу делается вывод о знакопеременности формы)</em>.</p>
+  <p>Главные миноры 1-го порядка:<br>
+      <img align="absmiddle" width="147" height="23" src="s/kvadratichnie_formy_clip_image044.gif"> – положительны,<br>
+    главный минор 2-го порядка:<br>
+  <img align="absmiddle" width="145" height="48" src="s/kvadratichnie_formy_clip_image046.gif"> – не отрицателен.</p>
+  <p>Таким образом, ВСЕ главные миноры не отрицательны, значит,  форма <strong>неотрицательна</strong>.</p>
+  <p>Запишем матрицу <img align="absmiddle" width="60" height="48" src="s/kvadratichnie_formy_clip_image048.gif"> формы <img align="absmiddle" width="101" height="24" src="s/kvadratichnie_formy_clip_image050.gif">, для которой, очевидно, не выполнен критерий Сильвестра. Но  и противоположных знаков мы тоже не получили (т.к. оба угловых минора равны  нулю). Поэтому проверяем выполнение критерия неотрицательности / неположительности.  Главные миноры 1-го порядка:<br>
+      <img align="absmiddle" width="160" height="23" src="s/kvadratichnie_formy_clip_image052.gif">  – не положительны,<br>
+    главный минор 2-го порядка:<br>
+  <img align="absmiddle" width="136" height="48" src="s/kvadratichnie_formy_clip_image054.gif"> – не отрицателен.</p>
+  <p>Таким образом, по критерию Шварценеггера (пункт 2), форма  определена неположительно.</p>
+  <p>Теперь во всеоружии разберём более занятную задачку:</p>
+  <p><u>Пример 5 </u></p>
+  <p>Исследовать квадратичную форму на знакоопределенность<br>
+      <img align="absmiddle" width="297" height="25" src="s/kvadratichnye_formy_clip_image221.gif"></p>
+  <p>Данную форму украшает орден «альфа», который может равняться  любому действительному числу. Но это ж только веселее будет, <strong>решаем</strong>.</p>
+  <p>Сначала запишем матрицу формы, наверное, многие уже  приноровились это делать устно: на <em>главную  диагональ</em> ставим коэффициенты при квадратах, а на симметричные места –  споловиненные коэффициенты соответствующих «смешанных» произведений:<br>
+      <img align="absmiddle" width="97" height="75" src="s/kvadratichnye_formy_clip_image223.gif"></p>
+  <p>Вычислим угловые миноры:<br>
+      <img align="absmiddle" width="149" height="75" src="s/kvadratichnye_formy_clip_image225.gif"><br>
+    третий определитель я раскрою по 3-й строке:<br>
+    <img align="absmiddle" width="501" height="75" src="s/kvadratichnye_formy_clip_image227.gif"></p>
+  <p>Кстати, в силу симметрии, по 3-му столбцу он  раскрывается точно так же.</p>
+  <p>Дальнейшее решение удобно разбить на 2 пункта:</p>
+  <p>1) Выясним, существуют ли значения «альфа», при которых  форма определена положительно или неотрицательно. Согласно критерию Сильвестра,  условию положительности формы соответствует следующая <strong><a href="lineinye_neravenstva.html">система линейных неравенств</a></strong>:<br>
+      <img align="absmiddle" width="180" height="75" src="s/kvadratichnye_formy_clip_image229.gif"></p>
+  <p>В соответствии с поставленной задачей, сначала разберёмся со  2-м неравенством:<br>
+      <img align="absmiddle" width="57" height="19" src="s/kvadratichnye_formy_clip_image231.gif"><br>
+    умножим обе его части на <img align="absmiddle" width="28" height="41" src="s/kvadratichnye_formy_clip_image233.gif">, сменив у неравенства знак:<br>
+  <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image235.gif">, что противоречит первому неравенству системы.</p>
+  <p>Таким образом, система <strong><a href="lineinye_neravenstva.html">несовместна</a></strong>,  а значит, форма не может быть положительно определённой  ни при каких «альфа», из чего логически и автоматически следует, что она не  может быть и неотрицательной.</p>
+  <p>2) Проведём исследование на отрицательность /  неположительнось. По Сильвестру, условию отрицательности формы соответствует следующая <strong><a href="lineinye_neravenstva.html">система линейных неравенств</a></strong>:<br>
+      <img align="absmiddle" width="180" height="75" src="s/kvadratichnye_formy_clip_image237.gif"></p>
+  <p>Второе неравенство уже решено: <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image239.gif">, и оно не противоречит первому. И третье неравенство тоже  «вписалось в рамки»: <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image241.gif">.<br>
+    Таким образом, имеем совместную систему:<br>
+  <img align="absmiddle" width="61" height="115" src="s/kvadratichnye_formy_clip_image243.gif"><br>
+    из которой следует, что форма определена отрицательно при <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image245.gif">. Например, если <img align="absmiddle" width="49" height="19" src="s/kvadratichnye_formy_clip_image247.gif">: <br>
+  <img align="absmiddle" width="295" height="25" src="s/kvadratichnye_formy_clip_image249.gif"> – то при любом <em>ненулевом</em>  векторе <img align="absmiddle" width="59" height="75" src="s/kvadratichnye_formy_clip_image251.gif"> данная форма будет  строго отрицательна.</p>
+  <p>Осталось исследовать «пограничный» случай. Если <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image253.gif">, то:<br>
+      <img align="absmiddle" width="275" height="135" src="s/kvadratichnye_formy_clip_image255.gif"><br>
+    Последнее значение не удовлетворяет 2-му пункту критерия  Сильвестра, однако оно равно нулю, что позволяет предположить неположительнось  формы. Запишем матрицу <img align="absmiddle" width="120" height="75" src="s/kvadratichnie_formy_clip_image002_0002.gif"> формы и проверим  критерий Шварценеггера. Главные миноры первого порядка:<br>
+    <img align="absmiddle" width="265" height="41" src="s/kvadratichnie_formy_clip_image004_0001.gif"> – отлично, все миноры  неположительны, поэтому проверка продолжается.</p>
+  <p>Рассчитываем миноры 2-го порядка. Если хотя бы один из них  окажется отрицательным, то форма будет знакопеременной:<br>
+      <img align="absmiddle" width="289" height="152" src="s/kvadratichnie_formy_clip_image006_0000.gif">  <br>
+    Нет, все миноры неотрицательны, и минор 3-го порядка уже  рассчитан:<br>
+  <img align="absmiddle" width="204" height="75" src="s/kvadratichnie_formy_clip_image008_0001.gif"></p>
+  <p>Таким образом, по критерию Шварценеггера (пункт 2), имеет место  неположительнось формы, иными словами, <img align="absmiddle" width="325" height="41" src="s/kvadratichnye_formy_clip_image257.gif">, причём, нулю она равна и при некоторых <em>ненулевых</em> значениях <img align="absmiddle" width="59" height="24" src="s/kvadratichnye_formy_clip_image259.gif">.</p>
+  <p><strong>Ответ</strong>: при <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image245_0000.gif"> форма определена  отрицательно, при  <img align="absmiddle" width="53" height="41" src="s/kvadratichnye_formy_clip_image253_0000.gif"> неположительно, в  остальных случаях форма знакопеременна.</p>
+  <p>И творческое задание для самостоятельного решения:</p>
+  <p><u>Пример 5*</u></p>
+  <p>Исследовать квадратичную форму на знакоопределенность<br>
+      <img align="absmiddle" width="260" height="25" src="s/kvadratichnie_formy_clip_image002_0003.gif"></p>
+  <p>И в заключение статьи хочу выразить благодарность Сергею  Хохлову, некогда ст. преподавателю МПГУ – за важные замечания и интересные  дополнительные примеры, а также Арнольду Шварценеггеру, который сыграл в  непривычном для себя амплуа и помог мне ярче объяснить материал :)</p>
+  <p>Как сказал актёр, I’ll be back, и я жду вас на следующем уроке – о <strong><a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">каноническом виде квадратичной  формы</a></strong>.</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 1.<strong> Решение</strong>: сначала приведём подобные  слагаемые:</em><br>
+      <em><img align="absmiddle" width="196" height="24" src="s/kvadratichnye_formy_clip_image265.gif"></em><br>
+      <em>Квадратичная форма  двух переменных имеет вид <img align="absmiddle" width="149" height="24" src="s/kvadratichnye_formy_clip_image267.gif">, в данном случае: <img align="absmiddle" width="155" height="23" src="s/kvadratichnye_formy_clip_image269.gif">. Запишем форму в матричном виде:</em><br>
+      <em><img align="absmiddle" width="169" height="101" src="s/kvadratichnye_formy_clip_image271.gif"></em></p>
+  <p><em>Проверка:</em><br>
+      <em><img align="absmiddle" width="548" height="101" src="s/kvadratichnye_formy_clip_image273.gif"></em><br>
+      <em>что и требовалось  проверить.</em></p>
+  <p><em>Вычислим дискриминант  формы:</em><br>
+      <img align="absmiddle" width="160" height="48" src="s/kvadratichnye_formy_clip_image275.gif"><br>
+      <em>Поскольку  <img align="absmiddle" width="44" height="27" src="s/kvadratichnye_formy_clip_image277.gif">, то ранг формы равен двум.</em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="156" height="51" src="s/kvadratichnye_formy_clip_image279.gif">, <img align="absmiddle" width="52" height="27" src="s/kvadratichnye_formy_clip_image281.gif">, ранг формы равен двум.</em></p>
+  <p><em>Пример 3. <strong>Решение</strong>: симметрическая матрица 4*4  определяет квадратичную форму 4 переменных. Коэффициенты главной диагонали <img align="absmiddle" width="211" height="24" src="s/kvadratichnye_formy_clip_image283.gif">, следовательно:</em><br>
+      <em><img align="absmiddle" width="87" height="24" src="s/kvadratichnye_formy_clip_image285.gif"></em></p>
+  <p><em>Симметричные  коэффициенты 1-й строки: <img align="absmiddle" width="153" height="24" src="s/kvadratichnye_formy_clip_image287.gif">, таким образом:</em><br>
+      <em><img align="absmiddle" width="184" height="25" src="s/kvadratichnye_formy_clip_image289.gif"></em></p>
+  <p><em>Оставшиеся  симметричные элементы 2-й строки: <img align="absmiddle" width="97" height="24" src="s/kvadratichnye_formy_clip_image291.gif">, и:</em><br>
+      <em><img align="absmiddle" width="233" height="25" src="s/kvadratichnye_formy_clip_image293.gif"></em></p>
+  <p><em>И, наконец, <img align="absmiddle" width="56" height="24" src="s/kvadratichnye_formy_clip_image295.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="289" height="25" src="s/kvadratichnye_formy_clip_image297.gif"></em></p>
+  <p><em>Пример 4. <strong>Решение</strong>:</em></p>
+  <p><em>а) запишем матрицу  формы:</em><br>
+      <em><img align="absmiddle" width="73" height="48" src="s/kvadratichnye_formy_clip_image299.gif"></em><br>
+      <em>и вычислим её угловые  миноры:</em><br>
+      <em><img align="absmiddle" width="201" height="75" src="s/kvadratichnye_formy_clip_image301.gif"></em></p>
+  <p><em>Таким образом, по критерию Сильвестра, форма определена <strong>отрицательно</strong>.</em></p>
+  <p><em>б) запишем матрицу  формы:</em><br>
+    <em><img align="absmiddle" width="109" height="75" src="s/kvadratichnye_formy_clip_image303.gif"></em>  <br>
+      <em>и вычислим её угловые  миноры:</em><br>
+      <em><img align="absmiddle" width="600" height="149" src="s/kvadratichnye_formy_clip_image305.gif"></em>  </p>
+  <p><strong><em>Вывод</em></strong><em>: форма <strong>знакопеременна</strong>.</em></p>
+  <p><em><u>Задание</u> <strong>на понимание</strong>: у данной матрицы четыре  главных минора 1-го порядка:</em><br>
+    <em><img align="absmiddle" width="269" height="24" src="s/kvadratichnie_formy_clip_image002_0004.gif">,</em><br>
+    <em>шесть главных миноров  2-го порядка:</em><br>
+    <em><img align="absmiddle" width="331" height="152" src="s/kvadratichnie_formy_clip_image004_0002.gif"></em><br>
+    <em>четыре главных минора  3-го порядка:</em><br>
+    <em><img align="absmiddle" width="459" height="149" src="s/kvadratichnie_formy_clip_image006_0001.gif"></em><br>
+    <em>и один главный минор  4-го порядка, равный определителю матрицы.</em></p>
+  <p><em>Пример 5*. <strong>Решение</strong>: запишем матрицу формы <img align="absmiddle" width="72" height="75" src="s/kvadratichnie_formy_clip_image008_0002.gif"> и вычислим её угловые  миноры:</em><br>
+      <em><img align="absmiddle" width="115" height="149" src="s/kvadratichnie_formy_clip_image010_0000.gif"></em><br>
+      <em>Таким образом, форма  не удовлетворяет критерию Сильвестра, однако, может оказаться неотрицательной  (т.к. <img align="absmiddle" width="41" height="23" src="s/kvadratichnie_formy_clip_image012_0000.gif"> и остальные миноры  нулевые). Для этого все главные миноры должны быть неотрицательны. Главные  миноры 1-го порядка:</em><br>
+      <em><img align="absmiddle" width="232" height="24" src="s/kvadratichnie_formy_clip_image014_0000.gif">.</em><br>
+      <em>Вычислим главные  миноры 2-го порядка:</em><br>
+      <em> <img align="absmiddle" width="197" height="51" src="s/kvadratichnie_formy_clip_image016_0000.gif"></em><br>
+      <em><img align="absmiddle" width="268" height="51" src="s/kvadratichnie_formy_clip_image018_0000.gif"> – среди главных  миноров встретился отрицательный, следовательно, форма не удовлетворяет  критерию неотрицательности.</em></p>
+  <p><strong><em>Ответ</em></strong><em>: форма знакопеременна.</em></p>
+  </div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

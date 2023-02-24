@@ -1,0 +1,1068 @@
+<html>
+<head>
+<title>Задачи на теоремы сложения и умножения вероятностей</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="теорема сложения вероятностей событий, теорема умножения вероятностей событий, задачи с решениями, сложение вероятностей несовместных событий, независимые события, умножение вероятностей независимых событий, примеры решений, подробно, с объяснениями">
+<meta name="Description" content="Бесплатный и подробный решебник по теории вероятностей">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Теоремы сложения и умножения вероятностей.<br>
+      Зависимые и независимые события</strong><br>
+  </h1>
+  
+ <br>
+  <p>Заголовок выглядит страшновато, но в действительности всё  очень просто. На данном уроке мы познакомимся с теоремами сложения и умножения вероятностей  событий, а также разберём типовые задачи, которые наряду с <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">задачей на классическое определение вероятности</a></strong> обязательно встретятся  или, что вероятнее, уже встретились на вашем пути. Для эффективного изучения  материалов этой статьи необходимо знать и понимать базовые термины <strong><a href="teorija_verojatnostei.html">теории вероятностей</a></strong> и уметь выполнять  простейшие арифметические действия. Как видите, требуется совсем немного, и поэтому  жирный плюс в активе практически гарантирован. Но с другой стороны, вновь  предостерегаю от поверхностного отношения к практическим примерам – тонкостей  тоже хватает. В добрый путь:</p>
+  <p><strong>Теорема сложения  вероятностей несовместных событий</strong>: вероятность появления одного из двух <strong>несовместных</strong> событий <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image002.gif"> или <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004.gif"> <em>(без разницы какого)</em>,  равна  сумме вероятностей этих событий:</p>
+  <p><img align="absmiddle" width="161" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image006.gif"></p>
+  <p>Аналогичный факт справедлив и для бОльшего количества несовместных  событий, например, для трёх несовместных событий <img align="absmiddle" width="33" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image008.gif"> и <img align="absmiddle" width="16" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image010.gif">:</p>
+  <p><img align="absmiddle" width="236" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image012.gif"></p>
+  <p>Теорема-мечта =) Однако, и такая мечта подлежит  доказательству, которое можно найти, например, в учебном пособии В.Е. Гмурмана. </p>
+  <p>Давайте сразу вспомним <strong><a href="teorija_verojatnostei.html">алгебру  событий</a></strong>: сложение событий означает появление <strong>хотя бы одного</strong> из суммируемых событий, и, поскольку события в  данном случае НЕсовместны, то <strong>одного  и только одного</strong> из этих событий (безразлично какого).</p>
+  <p>Следует отметить, что для <u>совместных</u> событий  равенство <img align="absmiddle" width="161" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image006_0000.gif"> будет <strong>неверным</strong>, не случайно чуть выше я  немного сыронизировал  на счёт простоты.  Теорема сложения вероятностей совместных событий имеет гораздо меньшее значение  практики <br><em>(и более того, может запутать  «чайника»)</em>, поэтому о ней чуть позже. </p>
+  <p>А сейчас возьмём в руки уже знакомое и безотказное орудие  <s>труда</s> учёбы – игральный кубик с <strong><a href="teorija_verojatnostei.html">полной  группой событий</a></strong> <img align="absmiddle" width="135" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image014.gif">, которые состоят в том, что при его броске выпадут 1, 2, 3, 4, 5  и 6 очков соответственно.</p>
+  <p>Рассмотрим событие <img align="absmiddle" width="27" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image016.gif"> – в результате броска  игральной кости выпадет не менее пяти очков. Данное событие состоит в двух несовместных  исходах: <img align="absmiddle" width="91" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image018.gif"> <em>(выпадет 5 <strong>или</strong> 6 очков)</em>.  По теореме сложения вероятностей несовместных событий:<br>
+      <img align="absmiddle" width="285" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image020.gif"> – вероятность того,  что в результате броска игральной кости выпадет не менее пяти очков.</p>
+  <p>Рассмотрим событие <img align="absmiddle" width="153" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image022.gif">, состоящее в том, что выпадет не более 4 очков и найдем  его вероятность. По теореме сложения вероятностей несовместных событий:<br>
+      <img align="absmiddle" width="477" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image024.gif"></p>
+  <p>По той же теореме, вероятность того, что выпадет нечётное  число очков:<br>
+      <img align="absmiddle" width="365" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image026.gif"> и так далее.</p>
+  <p>С помощью рассматриваемой теоремы можно решить некоторые  задачи, которые нам встретились на практикуме по <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классическому определению вероятности</a></strong>. Не поленюсь, кратко  перескажу решение 13-го примера вышеуказанного урока:</p>
+  <p><em>«Студент знает ответы  на 25 экзаменационных вопросов из 60. Какова вероятность сдать экзамен, если  для этого необходимо ответить не менее чем на 2 из 3 вопросов?»</em></p>
+  <p>В той задаче мы сначала нашли <img align="absmiddle" width="25" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image028.gif"> <em>(количество всех возможных <strong><a href="formuly_kombinatoriki.pdf" target="_blank">сочетаний</a> </strong>трёх вопросов)</em>, затем вычислили <img align="absmiddle" width="91" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image030.gif"> количество  благоприятствующих исходов и вероятность <img align="absmiddle" width="121" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image032.gif"> того, что студент  сдаст экзамен.</p>
+  <p>Но здесь вместо <strong><a href="zadachi_po_kombinatorike_primery_reshenij.html">правила  сложений комбинаций</a></strong> в ходу и другая схема рассуждений. Рассмотрим два несовместных события:<br>
+    <br>
+  <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image002_0000.gif"> – студент ответит на два  вопроса из трёх;<br>
+  <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0000.gif"> – студент ответит на  все три вопроса. </p>
+  <p>Возможно, некоторые читатели ещё не до конца осознали <strong>суть</strong> несовместности. Вдумаемся ещё раз:  студент не может ответить на 2 вопроса из 3 <strong>и в то же самое время</strong> ответить на все 3 вопроса. Таким образом,  события <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image002_0001.gif"> и <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0001.gif"> – несовместны.</p>
+  <p>Теперь, пользуясь <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классическим  определением</a></strong>, найдём их вероятности:</p>
+  <p><img align="absmiddle" width="189" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image036.gif"></p>
+  <p>Факт успешной сдачи экзамена выражается суммой <img align="absmiddle" width="41" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image038.gif"> <em>(ответ на 2 вопроса из 3 <strong>или</strong> на все вопросы)</em>. По теореме сложения вероятностей несовместных событий:<br>
+      <img align="absmiddle" width="269" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image040.gif"> – вероятность того,  что студент сдаст экзамен.</p>
+  <p>Этот способ решения совершенно равноценен, выбирайте, какой больше  нравится. </p>
+  <p>Разминаемся в подсобке:</p>
+  <p><u>Задача 1</u></p>
+  <p>Магазин получил продукцию в ящиках с четырех оптовых  складов: четыре с 1-го, пять со 2-го, семь с 3-го и четыре с 4-го. Случайным  образом выбран ящик для продажи. Какова вероятность того, что это будет ящик с  первого или третьего склада.</p>
+  <p><strong>Решение</strong>:<strong> </strong>всего получено магазином: 4 + 5 + 7 +  4 = 20 ящиков.<strong></strong></p>
+  <p>В данной задаче удобнее воспользоваться «быстрым» способом  оформления без расписывания событий большими латинскими буквами. По  классическому определению:<br>
+      <img align="absmiddle" width="91" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image042.gif">  – вероятность того,  что для продажи будет выбран ящик с 1-го склада;<br>
+      <img align="absmiddle" width="99" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image044.gif">  – вероятность того,  что для продажи будет выбран ящик с 3-го склада.</p>
+  <p>Бесконечных «хвостов» после запятой тут нет и не ожидается,  поэтому можно работать с десятичными дробями – компактнее будет запись.</p>
+  <p>По теореме сложения несовместных событий:<br>
+      <img align="absmiddle" width="199" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image046.gif"> – вероятность того,  что для продажи будет выбран ящик с первого или третьего склада.</p>
+  <p><strong>Ответ</strong>: 0,55</p>
+  <p>Безусловно, задача разрешима и чисто через <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">классическое определение вероятности</a></strong> путём непосредственного подсчёта кол-ва благоприятствующих исходов (4 + 7 = 11),  но рассмотренный способ ничем не хуже. И даже чётче. </p>
+  <p>Ещё один товар на соседнем стеллаже:</p>
+  <p><u>Задача 2</u></p>
+  <p>В коробке 10 красных и 6 синих пуговиц. Наудачу извлекаются две  пуговицы. Какова вероятность того, что они будут одноцветными?</p>
+  <p>Аналогично – здесь можно использовать <strong><a href="zadachi_po_kombinatorike_primery_reshenij.html">комбинаторное правило суммы</a></strong>, но мало ли … вдруг кто-то его запамятовал,  а то и вовсе проехал мимо с песнями. Тогда на помощь придёт теорема сложения вероятностей  несовместных событий! Решение и ответ в конце статьи (оформлено в «ускоренном»  стиле) </p>
+  <p><strong>Внимание! </strong>Если у  вас возникло <strong>хоть какое-то</strong> недопонимание  по вышеизложенному материалу, то настоятельно рекомендую обратиться к  предыдущим урокам курса. Ибо не знать азов <strong><a href="zadachi_po_kombinatorike_primery_reshenij.html">комбинаторики</a></strong> и не уметь решать <strong><a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">типовые задачи на  К.О.В.</a></strong> – совсем скверно( В тяжёлом случае следует начать с <strong><a href="teorija_verojatnostei.html">основ теории вероятностей</a></strong>.</p>
+  <p>Знакомимся с новыми, до сих пор не встречавшимися понятиями:</p>
+  <br>
+  <h2><strong>Зависимые и  независимые события</strong></h2>
+  <p>Начнём с независимых событий. События являются <strong><em>независимыми</em></strong>,  если вероятность наступления <strong>любого из  них</strong> <u>не зависит</u> от появления/непоявления остальных событий  рассматриваемого множества (во всех возможных комбинациях). …Да чего тут вымучивать  общие фразы:</p>
+  <p><strong>Теорема умножения вероятностей  независимых событий</strong>: вероятность совместного появления независимых событий <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image002_0002.gif"> и <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0002.gif"> равна произведению  вероятностей этих событий: <br>
+      <img align="absmiddle" width="139" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image048.gif"></p>
+  <p>Вернёмся к простейшему примеру 1-го урока, в котором  подбрасываются две монеты и следующим событиям:</p>
+  <p><img align="absmiddle" width="17" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image050.gif"> – на 1-й монете  выпадет орёл;<br>
+      <img align="absmiddle" width="20" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image052.gif"> – на 2-й монете  выпадет орёл.</p>
+  <p>Найдём вероятность события <img align="absmiddle" width="33" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image054.gif"> (на 1-й монете  появится орёл <strong>и</strong> на 2-й монете  появится орёл <em>– вспоминаем, как читается <strong><a href="teorija_verojatnostei.html">произведение событий</a></strong>!)</em>. Вероятность  выпадения орла на одной монете никак не зависит от результата броска другой  монеты, следовательно, события <img align="absmiddle" width="17" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image050_0000.gif"> и <img align="absmiddle" width="20" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image052_0000.gif"> независимы. По теореме  умножения вероятностей независимых событий:<br>
+      <img align="absmiddle" width="229" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image056.gif"></p>
+  <p>Аналогично:<br>
+      <img align="absmiddle" width="229" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image058.gif"> – вероятность того,  что на 1-й монете выпадет решка <strong>и</strong> на  2-й решка;<br>
+      <img align="absmiddle" width="229" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image060.gif"> – вероятность того,  что на 1-й монете появится орёл <strong>и</strong> на  2-й решка;<br>
+      <img align="absmiddle" width="229" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image062.gif"> – вероятность того,  что на 1-й монете появится решка <strong>и</strong> на 2-й орёл.</p>
+  <p>Заметьте, что события <img align="absmiddle" width="145" height="22" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image064.gif"> образуют <strong><a href="teorija_verojatnostei.html">полную группу</a></strong> и сумма их вероятностей  равна единице: <img align="absmiddle" width="383" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image066.gif">.</p>
+  <p>Теорема умножения очевидным образом распространяется и на  бОльшее количество независимых событий, так, например, если события <img align="absmiddle" width="52" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image068.gif"> независимы, то  вероятность их совместного наступления равна: <img align="absmiddle" width="192" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image070.gif">. Потренируемся на конкретных примерах:</p>
+  <p><u>Задача 3</u></p>
+  <p>В каждом из трех ящиков имеется по 10 деталей. В первом  ящике 8 стандартных деталей, во втором – 7, в третьем – 9. Из каждого ящика  наудачу извлекают по одной детали. Найти вероятность того, что все детали  окажутся стандартными.</p>
+  <p><strong>Решение</strong>: вероятность  извлечения стандартной или нестандартной детали из любого ящика не зависит от  того, какие детали будут извлечены из других ящиков, поэтому в задаче речь идёт  о независимых событиях. Рассмотрим следующие независимые события:</p>
+  <p><img align="absmiddle" width="17" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image072.gif"> – из 1-го ящика  извлечена стандартная деталь;<br>
+      <img align="absmiddle" width="19" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image074.gif"> – из 2-го ящика  извлечена стандартная деталь;<br>
+      <img align="absmiddle" width="19" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image076.gif"> – из 3-го ящика  извлечена стандартная деталь.</p>
+  <p>По классическому определению:<br>
+      <img align="absmiddle" width="363" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image078.gif"> – соответствующие  вероятности.</p>
+  <p>Интересующее нас событие <em>(из  1-го ящика будет извлечена стандартная деталь <strong>и</strong> из 2-го стандартная <strong>и</strong> из 3-го стандартная)</em> выражается произведением <img align="absmiddle" width="45" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image080.gif">.</p>
+  <p>По теореме умножения вероятностей независимых событий:</p>
+  <p><img align="absmiddle" width="353" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image082.gif">  – вероятность того, что из трёх ящиков будет  извлечено по одной стандартной детали.</p>
+  <p><strong>Ответ</strong>: 0,504</p>
+  <p>После бодрящих упражнений с ящиками нас поджидают не менее  интересные урны:</p>
+  <p><u>Задача 4</u></p>
+  <p>В трех урнах имеется по 6 белых и по 4 черных шара. Из  каждой урны извлекают наудачу по одному шару. Найти вероятность того, что: а)  все три шара будут белыми; б) все три шара будут одного цвета. </p>
+  <p>Опираясь на полученную информацию, догадайтесь, как  разобраться с пунктом «бэ» ;-) Примерный образец решения оформлен в академичном  стиле с подробной росписью всех событий.</p>
+  <p><strong>Зависимые события</strong>.  Событие <img align="absmiddle" width="19" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image084.gif"> называют <strong><em>зависимым</em></strong>,  если его вероятность <img align="absmiddle" width="40" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image086.gif"> <u>зависит</u> от  одного или бОльшего количества событий, которые уже произошли. За примерами  далеко ходить не надо – достаточно до ближайшего магазина:</p>
+  <p><img align="absmiddle" width="19" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image084_0000.gif"> – завтра в 19.00 в  продаже будет свежий хлеб.</p>
+  <p>Вероятность этого события зависит от множества других  событий: завезут ли завтра свежий хлеб, раскупят ли его до 7 вечера или нет и  т.д. В зависимости от различных обстоятельств данное событие может быть как  достоверным <img align="absmiddle" width="61" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image088.gif">, так и невозможным <img align="absmiddle" width="64" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image090.gif">. Таким образом, событие <img align="absmiddle" width="19" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image084_0001.gif"> является <strong>зависимым</strong>.</p>
+  <p>Хлеба… и, как требовали римляне, зрелищ:</p>
+  <p><img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0003.gif"> – на экзамене студенту  достанется простой билет.  </p>
+  <p>Если идти не самым первым, то событие <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0004.gif"> будет зависимым,  поскольку его вероятность <img align="absmiddle" width="37" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image093.gif"> будет зависеть от того, какие  билеты уже вытянули однокурсники. </p>
+  <h3><strong>Как определить  зависимость/независимость событий?</strong></h3>
+  <p>Иногда об этом прямо сказано в условии задачи, но  чаще всего приходится проводить самостоятельный анализ. Какого-то однозначного ориентира тут нет, и  факт зависимости либо независимости событий вытекает из естественных логических  рассуждений. </p>
+  <p>Чтобы не валить всё в одну кучу, <strong><a href="zavisimye_sobytija.html">задачам на зависимые события</a></strong> я выделю следующий урок, а пока мы  рассмотрим наиболее распространённую на практике связку теорем:</p>
+  <br>
+  <h2><strong>Задачи на теоремы  сложения вероятностей несовместных</strong><br>
+      <strong>и умножения вероятностей  независимых событий</strong></h2>
+  <p>Этот тандем, по моей субъективной оценке, работает примерно в  80% задач по рассматриваемой теме. Хит хитов и самая настоящая классика теории  вероятностей:</p>
+  <p><u>Задача 5</u></p>
+  <p>Два стрелка сделали по одному выстрелу в мишень. Вероятность  попадания для первого стрелка равна 0,8, для второго – 0,6. Найти вероятность  того, что:</p>
+  <p>а) только один стрелок попадёт в мишень;<br>
+    б) хотя бы один из стрелков попадёт в мишень. </p>
+  <p><strong>Решение</strong>: вероятность  попадания/промаха одного стрелка, очевидно, не зависит от результативности  другого стрелка. </p>
+  <p>Рассмотрим события:<br>
+      <img align="absmiddle" width="17" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image095.gif"> – 1-й стрелок попадёт  в мишень;<br>
+      <img align="absmiddle" width="20" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image097.gif"> – 2-й стрелок попадёт  в мишень.</p>
+  <p>По условию: <img align="absmiddle" width="169" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image099.gif">.</p>
+  <p>Найдём вероятности противоположных событий <img align="absmiddle" width="41" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image101.gif"> – того, что  соответствующие стрелки промахнутся:<br>
+      <img align="absmiddle" width="212" height="51" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image103.gif"></p>
+  <p>а) Рассмотрим событие: <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0005.gif"> – только один стрелок  попадёт в мишень. Данное событие состоит в двух несовместных исходах:</p>
+  <p>1-й стрелок попадёт <strong>и </strong>2-й промахнётся <br>
+    <strong>или</strong> <br>
+    1-й  промахнётся <strong>и</strong> 2-й попадёт. </p>
+  <p>На языке <strong><a href="teorija_verojatnostei.html">алгебры  событий</a></strong> этот факт запишется следующей формулой: <br>
+      <img align="absmiddle" width="105" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image106.gif"></p>
+  <p>Сначала используем теорему сложения вероятностей несовместных  событий, затем – теорему умножения вероятностей независимых событий:<br>
+    <img align="absmiddle" width="496" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image108.gif"><br>
+  <img align="absmiddle" width="256" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image110.gif"> – вероятность того,  что будет только одно попадание.</p>
+  <p>б) Рассмотрим событие: <img align="absmiddle" width="16" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image010_0000.gif"> – хотя бы один из  стрелков попадёт в мишень.</p>
+  <p>Прежде всего, ВДУМАЕМСЯ – что значит условие «ХОТЯ БЫ  ОДИН»? В данном случае это означает, что попадёт или 1-й стрелок (2-й промахнётся) <strong>или</strong> 2-й (1-й промахнётся) <strong>или</strong> оба стрелка сразу – итого 3  несовместных исхода.</p>
+  <p><strong>Способ первый</strong>:  учитывая готовую вероятность предыдущего пункта, событие <img align="absmiddle" width="16" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image010_0001.gif"> удобно представить в виде суммы следующих  несовместных событий: </p>
+  <p>попадёт кто-то один <em>(событие <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0006.gif">, состоящее в свою очередь из 2 несовместных исходов)</em> <strong>или </strong><br>
+    попадут оба  стрелка – обозначим данное событие буквой <img align="absmiddle" width="17" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image114.gif">. </p>
+  <p>Таким образом: <img align="absmiddle" width="71" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image116.gif"></p>
+  <p>По теореме умножения вероятностей независимых событий:<br>
+      <img align="absmiddle" width="313" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image118.gif"> – вероятность того,  что 1-й стрелок попадёт <strong>и</strong> 2-й  стрелок попадёт.</p>
+  <p>По теореме сложения вероятностей несовместных событий:<br>
+      <img align="absmiddle" width="344" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image120.gif">  – вероятность хотя бы  одного попадания по мишени.</p>
+  <p><strong>Способ второй</strong>:  рассмотрим противоположное событие: <img align="absmiddle" width="17" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image122.gif"> – оба стрелка  промахнутся.</p>
+  <p>По теореме умножения вероятностей независимых событий:<br>
+      <img align="absmiddle" width="315" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image124.gif"></p>
+  <p>В результате: <img align="absmiddle" width="216" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image126.gif"></p>
+  <p>Особое внимание обратите на второй способ – в общем случае  он более рационален.</p>
+  <p>Кроме того, существует альтернативный, третий путь решения,  основанный на умолчанной выше теореме сложения совместных событий. </p>
+  <p><strong>! </strong>Если вы знакомитесь  с материалом впервые, то во избежание путаницы, следующий абзац лучше  пропустить.</p>
+  <p><strong><em>Способ третий</em></strong><em>: события <img align="absmiddle" width="41" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image128.gif"> совместны, а значит,  их сумма <img align="absmiddle" width="49" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image130.gif"> выражает событие «хотя  бы один стрелок попадёт в мишень» (см. <strong><a href="teorija_verojatnostei.html">алгебру  событий</a></strong>). По <strong><a href="formuly_teorii_veroyatnostey.pdf" target="_blank">теореме сложения  вероятностей совместных событий</a></strong> и теореме умножения вероятностей  независимых событий: </em><br>
+      <em><img align="absmiddle" width="461" height="45" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image132.gif"></em></p>
+  <p>Выполним проверку: события  <img align="absmiddle" width="36" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image134.gif"> и <img align="absmiddle" width="17" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image114_0000.gif"> <em>(0, 1 и 2 попадания соответственно)</em> образуют полную группу, поэтому  сумма их вероятностей должна равняться единице:<br>
+      <img align="absmiddle" width="288" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image137.gif">, что и требовалось проверить.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="112" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image139.gif"></p>
+  <p>При основательном изучении теории вероятностей вам  встретятся десятки задач милитаристского содержания, и, что характерно, после  этого никого не захочется пристрелить  – задачи почти подарочные. А почему бы  не упростить ещё и шаблон?  Cократим запись:</p>
+  <p><strong>Решение</strong>: по  условию: <img align="absmiddle" width="55" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image141.gif">, <img align="absmiddle" width="57" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image143.gif"> – вероятность  попадания соответствующих стрелков. Тогда вероятности их промаха:<br>
+      <img align="absmiddle" width="167" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image145.gif"></p>
+  <p>а) По теоремам сложения вероятностей несовместных и  умножения вероятностей независимых событий:<br>
+      <img align="absmiddle" width="371" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image147.gif"> – вероятность того,  что только один стрелок попадёт в мишень.</p>
+  <p>б) По теореме умножения вероятностей независимых событий:<br>
+      <img align="absmiddle" width="165" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image149.gif"> – вероятность того,  что оба стрелка промахнутся.</p>
+  <p>Тогда: <img align="absmiddle" width="168" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image151.gif"> – вероятность того, что  хотя бы один из стрелков попадёт в мишень.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="112" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image139_0000.gif"></p>
+  <p>Всё! </p>
+  <p>На практике можно пользоваться любым вариантом оформления.  Конечно же, намного чаще идут коротким путём, но не нужно забывать и 1-й способ  – он хоть и длиннее, но зато содержательнее – в нём понятнее, <em>что, почему и зачем</em> складывается и умножается.  В ряде случаев уместен гибридный стиль, когда прописными буквами удобно  обозначить лишь некоторые события.  </p>
+  <p>Похожие задачи для самостоятельного решения:</p>
+  <p><u>Задача 6</u></p>
+  <p>Для сигнализации о возгорании установлены два независимо  работающих дат­чика. Вероятности того, что при возгорании датчик сработает, для  первого и второго датчиков соответственно равны 0,5 и 0,7. Найти вероятность  того, что при пожаре:</p>
+  <p>а) оба датчика откажут;<br>
+    б) оба датчика сработают.<br>
+    в) Пользуясь <strong><a href="teorija_verojatnostei.html">теоремой  сложения вероятностей событий, образующих полную группу</a></strong>, найти вероятность  того, что при пожаре сработает только один датчик. Проверить результат прямым  вычислением этой вероятности <em>(с помощью  теорем сложения и умножения)</em>. </p>
+  <p>Здесь независимость работы устройств непосредственно  прописана в условии, что, кстати, является важным уточнением. Образец решения  оформлен в академичном стиле.</p>
+  <p>Как быть, если в похожей задаче даны одинаковые вероятности,  например, 0,9 и 0,9?  Решать нужно точно  так же! <em>(что, собственно, уже продемонстрировано в примере с двумя монетами)</em></p>
+  <p><u>Задача 7</u></p>
+  <p>Вероятность поражения цели первым стрелком при одном  выстреле равна 0,8. Вероятность того, что цель не поражена после выполнения  первым и вторым стрелками по одному выстрелу равна 0,08. Какова вероятность поражения  цели вторым стрелком при одном выстреле?</p>
+  <p>А это небольшая головоломка,  которая оформлена коротким способом. Условие можно переформулировать более  лаконично, но переделывать оригинал не буду – на практике приходится вникать и  в более витиеватые измышления. </p>
+  <p>Знакомьтесь – он самый, который настрогал для вас немереное  количество деталей =):</p>
+  <p><u>Задача 8</u></p>
+  <p>Рабочий обслуживает три станка. Вероятность того, что в  течение смены первый станок потребует настройки, равна 0,3, второй – 0,75,  третий – 0,4. Найти вероятность того, что в течение смены:</p>
+  <p>а) все станки потребуют настройки;<br>
+    б) только один станок потребует настройки;<br>
+    в) хотя бы один станок потребует настройки.</p>
+  <p><strong>Решение</strong>: коль  скоро в условии ничего не сказано о едином технологическом процессе, то работу  каждого станка следует считать не зависимой от работы других станков. </p>
+  <p>По аналогии с Задачей №5, здесь можно ввести в рассмотрение  события <img align="absmiddle" width="64" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image153.gif">, состоящие в том, что соответствующие станки потребуют  настройки в течение смены, записать вероятности <img align="absmiddle" width="269" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image155.gif">, найти вероятности противоположных событий <img align="absmiddle" width="65" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image157.gif"> и т.д. Но с тремя  объектами так оформлять задачу уже не очень хочется – получится долго и нудно.  Поэтому здесь заметно выгоднее использовать «быстрый» стиль:</p>
+  <p>По условию: <img align="absmiddle" width="181" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image159.gif"> – вероятности того,  что в течение смены соответствующие станки потребуют настойки. Тогда  вероятности того, что они не потребуют внимания:<br>
+      <img align="absmiddle" width="183" height="72" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image161.gif"></p>
+  <p>...Один из читателей обнаружил тут прикольную  опечатку, даже исправлять не буду =)</p>
+  <p>а) По теореме умножения вероятностей независимых событий:<br>
+      <img align="absmiddle" width="232" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image163.gif"> – вероятность того,  что в течение смены все три станка потребуют настройки.</p>
+  <p>б) Событие «В течение смены только один станок потребует  настройки» состоит в трёх несовместных исходах:</p>
+  <p>1) 1-й станок <u>потребует</u> внимания <strong>и</strong> 2-й станок <em>не потребует</em> <strong>и</strong> 3-й станок <em>не потребует</em> <br>
+      <strong>или</strong>:<br>
+    2) 1-й станок <em>не  потребует</em> внимания <strong>и</strong> 2-й станок <u>потребует</u> <strong>и</strong> 3-й станок <em>не потребует</em><br>
+  <strong>или</strong>:<br>
+    3) 1-й станок <em>не  потребует</em> внимания <strong>и</strong> 2-й станок <em>не потребует</em> <strong>и</strong> 3-й станок <u>потребует</u>.</p>
+  <p>По теоремам сложения вероятностей несовместных и умножения  вероятностей независимых событий:<br>
+      <img align="absmiddle" width="507" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image165.gif"><br>
+      <img align="absmiddle" width="191" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image167.gif"> – вероятность того,  что в течение смены только один станок потребует настройки.</p>
+  <p>Думаю, сейчас вам должно быть понятно, откуда взялось  выражение <img align="absmiddle" width="157" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image169.gif"></p>
+  <p>в) Вычислим вероятность <img align="absmiddle" width="236" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image171.gif"> того, что станки не  потребуют настройки, и затем – вероятность противоположного события:<br>
+      <img align="absmiddle" width="229" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image173.gif"> – того, что хотя бы  один станок потребует настройки.<br>
+    <br>
+  <strong>Ответ</strong>: <img align="absmiddle" width="181" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image175.gif"></p>
+  <p>Пункт «вэ» можно решить и через сумму <img align="absmiddle" width="160" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image177.gif">, где <img align="absmiddle" width="28" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image179.gif"> – вероятность того,  что в течение смены только два станка потребуют настройки. Это событие в свою  очередь включает в себя 3 несовместных исхода, которые расписываются по  аналогии с пунктом «бэ». Постарайтесь самостоятельно найти вероятность <img align="absmiddle" width="28" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image179_0000.gif">, чтобы проверить всю задачу с помощью равенства <img align="absmiddle" width="164" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image181.gif">.</p>
+  <p>Далее… …правильно догадываетесь – любимая тема =):</p>
+  <p><u>Задача 9</u></p>
+  <p>Из трех орудий произвели залп по цели. Вероятность попадания  при одном выстреле только из первого орудия равна 0,7, из второго – 0,6, из  третьего – 0,8. Найти вероятность того, что: 1) хотя бы один снаряд попадет в  цель; 2) только два снаряда попадут в цель; 3) цель будет поражена не менее  двух раз.</p>
+  <p>Решение и ответ в конце урока. </p>
+  <p>И снова о совпадениях: в том случае, если по условию два или  даже все значения исходных вероятностей совпадают (например, 0,7; 0,7 и 0,7),  то следует придерживаться точно такого же алгоритма решения.</p>
+  <p>В заключение статьи разберём ещё одну распространённую головоломку:</p>
+  <p><u>Задача 10</u></p>
+  <p>Стрелок попадает в цель с одной и той же вероятностью при  каждом выстреле. Какова эта вероятность, если вероятность хотя бы одного  попадания при трех выстрелах равна 0,973.</p>
+  <p><strong>Решение</strong>:  обозначим через <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image183.gif"> – вероятность  попадания в мишень при каждом выстреле.<br>
+    и через <img align="absmiddle" width="60" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image185.gif"> – вероятность промаха  при каждом выстреле.</p>
+  <p>И таки распишем события:<br>
+      <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image002_0003.gif"> – при 3 выстрелах  стрелок попадёт в мишень хотя бы один раз;<br>
+      <img align="absmiddle" width="17" height="20" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image188.gif"> – стрелок 3 раза  промахнётся.</p>
+  <p>По условию <img align="absmiddle" width="88" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image190.gif">, тогда вероятность противоположного события:<br>
+      <img align="absmiddle" width="231" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image192.gif"></p>
+  <p>С другой стороны, по теореме умножения вероятностей независимых  событий:<br>
+      <img align="absmiddle" width="109" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image194.gif"></p>
+  <p>Таким образом:<br>
+      <img align="absmiddle" width="72" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image196.gif"><br>
+      <img align="absmiddle" width="113" height="27" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image198.gif"> – вероятность промаха  при каждом выстреле.</p>
+  <p>В результате:<br>
+      <img align="absmiddle" width="149" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image200.gif"> – вероятность  попадания при каждом выстреле.</p>
+  <p><strong>Ответ</strong>: 0,7</p>
+  <p>Просто и изящно.</p>
+  <p>В рассмотренной задаче можно поставить дополнительные  вопросы о вероятности только одного попадания, только двух попаданий и  вероятности трёх попаданий по мишени. Схема решения будет точно такой же, как и  в двух предыдущих примерах:<br>
+      <img align="absmiddle" width="153" height="77" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image202.gif"></p>
+  <p>Однако принципиальное содержательное отличие состоит в том,  что здесь имеют место <strong><a href="nezavisimye_ispytanija_i_formula_bernulli.html">повторные  независимые испытания</a></strong>, которые выполняются последовательно, независимо друг  от друга и с одинаковой вероятностью исходов.</p>
+  <p>Несмотря на кажущуюся шаблонность примеров, целесообразно  ознакомиться с <strong><a href="files/sbornik_zadach_na_teoremy_slozhenija_i_umnozhenija_verojatnostej.pdf" target="_blank">дополнительными задачами  на теоремы сложения и умножения вероятностей</a></strong>, которые на самом деле  достаточно разнообразны. Кроме того, в предложенном файле прорешаны более  трудные задачи с «четырьмя участниками».</p>
+  <p>На следующем уроке мы разберём <strong><a href="zavisimye_sobytija.html">задачи с зависимыми событиями</a></strong>, а затем важнейшие следствия  рассмотренных теорем – <strong><a href="formula_polnoj_verojatnosti_formuly_bajesa.html">формулу полной  вероятности</a></strong>, <a href="formula_polnoj_verojatnosti_formuly_bajesa.html">формулы Байеса</a></strong> и <a href="nezavisimye_ispytanija_i_formula_bernulli.html">формулу  Бернулли</a>, касающуюся независимых испытаний.<br>
+    <br>
+    Везения в главном!</p>
+  <p><u>Решения и ответы</u>:</p><div id="primer">
+  <p><em>Задача 2: <strong>Решение</strong>:<strong> </strong>всего: 10 + 6 = 16 пуговиц в коробке.</em><br>
+      <em><img align="absmiddle" width="175" height="45" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image204.gif"> способами можно  извлечь 2 пуговицы из коробки;</em><br>
+      <em><img align="absmiddle" width="155" height="45" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image206.gif"> способами можно  извлечь 2 красные пуговицы;</em><br>
+      <em><img align="absmiddle" width="145" height="45" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image208.gif"> способами можно  извлечь 2 синие пуговицы.</em><br>
+      <em>По классическому  определению:</em><br>
+      <em><img align="absmiddle" width="131" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image210.gif"> – вероятность того,  что из коробки будут извлечены две красные пуговицы;</em><br>
+      <em><img align="absmiddle" width="129" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image212.gif"> – вероятность того,  что из коробки  будут извлечены две синие  пуговицы.</em><br>
+      <em>По теореме сложения вероятностей  несовместных событий:</em><br>
+      <em><img align="absmiddle" width="163" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image214.gif"> – вероятность того,  что из коробки будут извлечены две одноцветные пуговицы.</em><br>
+      <strong><em>Ответ</em></strong><em>: 0,5</em></p>
+  <p><em>Задача 4: <strong>Решение</strong>: рассмотрим события: <img align="absmiddle" width="65" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image216.gif"> – из 1-й, 2-й и 3-й  урны соответственно будет извлечён белый шар. По классическому определению вероятности:</em><br>
+      <em> <img align="absmiddle" width="219" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image218.gif"></em><br>
+      <em>Тогда вероятности  извлечения чёрного шара из соответствующих урн равны:</em><br>
+      <em><img align="absmiddle" width="241" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image220.gif"></em></p>
+  <p><em>а) Рассмотрим событие: <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0007.gif"> – из каждой урны будет  извлечено по 1 белому шару.</em><br>
+      <em>Данное событие  выражается в виде произведения <img align="absmiddle" width="75" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image223.gif"> (из 1-й урны будет  извлечён БШ <strong>и</strong> из 2-й урны будет  извлечён БШ <strong>и</strong> из 3-й урны будет  извлечён БШ).</em><br>
+      <em>По теореме умножения  вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="409" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image225.gif"></em></p>
+  <p><em>б) Рассмотрим событие <img align="absmiddle" width="16" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image010_0002.gif"> – из каждой урны будет  извлечено по 1 чёрному шару.</em><br>
+      <em>По теореме умножения  вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="411" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image228.gif"></em><br>
+      <em>Рассмотрим событие <img align="absmiddle" width="17" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image114_0001.gif"> – все три шара будут  одного цвета. Данное событие состоит в двух несовместных исходах: <img align="absmiddle" width="71" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image231.gif"> (будут извлечены 3  белых <strong>или</strong> 3 чёрных шара)</em><br>
+      <em>По теореме сложения  вероятностей несовместных событий:</em><br>
+      <em><img align="absmiddle" width="359" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image233.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="120" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image235.gif"></em></p>
+  <p><em>Задача 6: <strong>Решение</strong>:<strong> </strong>рассмотрим следующие события:</em><br>
+      <em><img align="absmiddle" width="17" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image095_0000.gif"> – при возгорании  сработает 1-й датчик;</em><br>
+      <em><img align="absmiddle" width="20" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image097_0000.gif"> – при возгорании  сработает 2-й датчик.</em><br>
+      <em>По условию: <img align="absmiddle" width="169" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image237.gif"></em><br>
+      <em>Вычислим вероятности  противоположных событий:</em><br>
+      <em><img align="absmiddle" width="212" height="51" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image239.gif"></em></p>
+  <p><em>а) Рассмотрим событие: <img align="absmiddle" width="16" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image004_0008.gif"> – при пожаре оба  датчика откажут. </em><br>
+      <em>По теореме умножения  вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="309" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image242.gif"></em></p>
+  <p><em>б) Рассмотрим событие: <img align="absmiddle" width="16" height="19" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image010_0003.gif"> – при пожаре оба  датчика сработают. </em><br>
+      <em>По теореме умножения  вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="312" height="23" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image245.gif"></em></p>
+  <p><em>в) Рассмотрим событие: <img align="absmiddle" width="17" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image114_0002.gif"> – при пожаре сработает  только один датчик.</em><br>
+      <em>События <img align="absmiddle" width="55" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image248.gif"> образуют полную  группу, следовательно:</em><br>
+      <em><img align="absmiddle" width="495" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image250.gif"></em><br>
+      <em>Проверим результат с  помощью прямого вычисления. Событие <img align="absmiddle" width="17" height="17" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image114_0003.gif"> состоит в 2  несовместных исходах: 1-й датчик сработает <strong>и</strong> 2-й откажет <strong>или</strong> 1-й откажет <strong>и</strong> 2-й сработает. Таким образом: <img align="absmiddle" width="107" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image252.gif">.</em><br>
+      <em>По теоремам сложения  вероятностей несовместных и умножения вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="496" height="48" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image254.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="165" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image256.gif"></em></p>
+  <p><em>Задача 7: <strong>Решение</strong>: по условию: <img align="absmiddle" width="51" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image258.gif"> – вероятность  поражения цели первым стрелком при одном выстреле. Тогда вероятность его  промаха:</em><br>
+      <em><img align="absmiddle" width="145" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image260.gif"></em><br>
+      <em>Обозначим через <img align="absmiddle" width="40" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image262.gif"> – вероятности  попадания и промаха 2-го стрелка.</em><br>
+      <em>По теореме умножения  вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="51" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image264.gif"> – вероятность того,  что оба стрелка промахнутся.</em><br>
+      <em>По условию <img align="absmiddle" width="52" height="20" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image266.gif">, таким образом:</em><br>
+      <em><img align="absmiddle" width="185" height="41" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image268.gif"></em><br>
+      <em>В результате: <img align="absmiddle" width="152" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image270.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: 0,6</em></p>
+  <p><em>Задача 9: <strong>Решение</strong>: по условию <img align="absmiddle" width="173" height="24" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image272.gif">  – вероятности  попадания в цель из соответствующих орудий. Тогда соответствующие вероятности  промаха:</em><br>
+      <em><img align="absmiddle" width="168" height="72" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image274.gif"></em></p>
+  <p><em>1) По теореме  умножения вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="228" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image276.gif"> – вероятность того,  что будет три промаха.</em><br>
+      <em>Тогда: <img align="absmiddle" width="228" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image278.gif"> – вероятность того,  что хотя бы один снаряд попадет в цель.</em></p>
+  <p><em>2) Событие «только два  снаряда попадут в цель» состоит в трёх несовместных исходах:</em><br>
+      <em>попадание из 1-го <strong>и</strong> 2-го орудий <strong>и</strong> промах из 3-го <strong>или</strong></em><br>
+      <em>попадание из 1-го <strong>и</strong> промах из 2-го <strong>и</strong> попадание из 3-го орудия <strong>или</strong></em><br>
+      <em>промах из 1-го <strong>и</strong> попадание из 2-го <strong>и</strong> 3-го орудий.</em><br>
+      <em>По теоремам сложения вероятностей  несовместных и умножения вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="489" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image280.gif"> </em><br>
+      <em><img align="absmiddle" width="203" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image282.gif"> – вероятность того,  что только два снаряда попадут в цель.</em></p>
+  <p><em>3) По теореме  умножения вероятностей независимых событий:</em><br>
+      <em><img align="absmiddle" width="232" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image284.gif"> – вероятность того,  что все три снаряда попадут в цель.</em><br>
+      <em>По теореме сложения  вероятностей несовместных событий:</em><br>
+      <em><img align="absmiddle" width="271" height="25" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image286.gif"> – вероятность того,  что цель будет поражена не менее двух раз</em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="199" height="21" src="n/teoremy_slozhenija_i_umnozhenija_verojatnostei_clip_image288.gif"></em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1065 @@
+<html>
+<head>
+<title>Как найти функцию комплексной переменной по действительной или мнимой части?
+
+
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="как найти функцию комплексной переменной, по действительной части, по мнимой части, примеры решений, подробно, пошагово, доступно, условия коши-римана, как найти комплексную функцию, в соответствии с начальным условием">
+<meta name="Description" content="Подробно разобранные примеры для чайников">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Как найти функцию комплексной переменной<br>
+по известной действительной или мнимой части?
+
+</h1>
+  
+  <br>
+  <p>Рассмотрим еще одну распространенную задачу комплексного  анализа: <strong>нахождение функции комплексной  переменной по известной действительной или мнимой части</strong>. Для её освоения <u>необходимо</u> ознакомиться с заданиями урока <strong><a href="funkcii_kompleksnoi_peremennoi.html">функция  комплексной переменной</a></strong>, где были даны азы темы, поэтому если вы только начинаете  разбираться с комплексными функциями, то начните с вышеуказанной статьи.
+  <p>Сначала вернёмся к задаче предыдущего урока: дана функция  комплексной переменной <img align="absmiddle"  width="63" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image002.gif">. Требуется найти действительную <img align="absmiddle"  width="49" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004.gif"> и мнимую <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006.gif"> части функции и  проверить условия Коши-Римана. Найти производную <img align="absmiddle"  width="39" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image008.gif">. Ну, или производную в точке, фантазия математических злодеев  здесь бедновата. </p>
+  <p>Коротко повторим алгоритм решения данной задачи: на первом  этапе следует выполнить подстановку <img align="absmiddle"  width="65" height="20" src="g/kak_naiti_kompleksnuju_funkciju_clip_image010.gif">. Сразу же напоминаю две наиболее ходовые формулы: <br>
+      <img align="absmiddle"  width="248" height="51" src="g/kak_naiti_kompleksnuju_funkciju_clip_image012.gif"><br>
+    В результате функция комплексной переменной должна быть  представлена в виде:<br>
+  <img align="absmiddle"  width="168" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image014.gif"></p>
+  <p>Далее идёт проверка условий Коши-Римана. По сути, необходимо  найти четыре <strong><a href="chastnye_proizvodnye_primery.html">частных производных</a></strong> и  убедиться в справедливости равенств:<br>
+      <img align="absmiddle"  width="68" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image016.gif"></p>
+  <p>В практических примерах условия Коши-Римана выполняются в  99,9% случаев, а значит, с лёгким сердцем можно взять производную <img align="absmiddle"  width="39" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image008_0000.gif">.</p>
+  <p>Зачем я всё это повторил заново? Дело в том, что сейчас нам  предстоит рассмотреть <strong>обратную задачу</strong>,  которая формулируется примерно так:</p>
+  <p>Дана действительная <img align="absmiddle"  width="49" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0000.gif"> часть функции  комплексной переменной <img align="absmiddle"  width="63" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image002_0000.gif">. Требуется найти мнимую часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0000.gif"> функции. Найти саму  функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018.gif">, используя некоторое <em>начальное  условие</em>.</p>
+  <p>Алгоритм решения будет раскручиваться в обратном  направлении:</p>
+  <p>1) Используя условия Коши-Римана, находим мнимую часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0001.gif">. Очень хорошо, если вы разобрались с <strong><a href="differencialnye_uravnenija_v_polnyh_differencialah.html">дифференциальными уравнениями в полных дифференциалах</a></strong>, так как  хитросплетения первого этапа будут точно такими же, как в тех диффурах. </p>
+  <p>2) Теперь и действительная и мнимая части известны, поэтому составляем  функцию <img align="absmiddle"  width="168" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image014_0000.gif">. Дальнейшие действия будут направлены на то, чтобы все «иксы»  и «игреки» превратить в «зеты». В частности, наиболее распространенные формулы  будут работать в обратном направлении:<br>
+      <img align="absmiddle"  width="247" height="73" src="g/kak_naiti_kompleksnuju_funkciju_clip_image021.gif"></p>
+  <p>То есть, из каши <img align="absmiddle"  width="119" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image023.gif"> с помощью раскрытия  скобок, перегруппировки слагаемых и т.д. следует выуживать жирные куски масла.  Например, составить выражение <img align="absmiddle"  width="147" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image025.gif"> и превратить его в <img align="absmiddle"  width="17" height="20" src="g/kak_naiti_kompleksnuju_funkciju_clip_image027.gif">.</p>
+  <p>3) На завершающем этапе будет получена функция <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0000.gif">, в которой есть только комплексная переменная «зет» и константы.  Используя начальное условие, окончательно уточняем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0001.gif">. Действие несложное, более подробно вернёмся к нему в  практических примерах.</p>
+  <p>Многие догадались, что существует и зеркальная задача: когда  по условию дана мнимая часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0002.gif">, а требуется найти действительную часть <img align="absmiddle"  width="49" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0001.gif">. Алгоритм решения практически тот же самый – с помощью  условий Коши-Римана находим действительную часть <img align="absmiddle"  width="49" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0002.gif">, и понеслась нелёгкая.</p>
+  <p>Обе задачи встречаются одинаково часто, и я постараюсь  максимально детально разобрать оба случая.</p>
+  <p><u>Пример 1</u></p>
+  <p>Дана действительная часть <img align="absmiddle"  width="153" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image030.gif"> функции комплексной  переменной. Найти мнимую часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0003.gif"> данной функции и  составить функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0002.gif">, удовлетворяющую начальному условию <img align="absmiddle"  width="59" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image032.gif">.</p>
+  <p><strong>Решение:</strong> <br>
+    1) Сначала найдем мнимую часть функции <em><img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0003.gif"></em>. В распоряжении у нас есть действительная часть. А что с  неё взять, кроме <strong><a href="chastnye_proizvodnye_primery.html">частных производных</a></strong>?<br>
+  <img align="absmiddle"  width="281" height="88" src="g/kak_naiti_kompleksnuju_funkciju_clip_image035.gif"></p>
+  <p>Вспоминаем условия Коши-Римана:<br>
+      <img align="absmiddle"  width="68" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image016_0000.gif"><br>
+    В целях решения данной задачи равенства удобнее переписать в  другом порядке:<br>
+  <img align="absmiddle"  width="68" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image038.gif"></p>
+  <p>В соответствии с первым условием:<br>
+      <img align="absmiddle"  width="100" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image040.gif"><br>
+    В соответствии со вторым условием:<br>
+  <img align="absmiddle"  width="209" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image042.gif"> – обратите внимание на  смену знака.</p>
+  <p>В результате у нас протянулся мостик в виде двух частных  производных к неизвестной мнимой части:<br>
+      <img align="absmiddle"  width="88" height="88" src="g/kak_naiti_kompleksnuju_funkciju_clip_image044.gif"></p>
+  <p>Следующий этап полностью совпадает с решением <strong><a href="differencialnye_uravnenija_v_polnyh_differencialah.html">дифференциального уравнения в полных  дифференциалах</a></strong>, то есть по двум частным производным необходимо восстановить  общий интеграл <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0004.gif"> (мнимую часть). Не  сильно хочется, но хотя бы один раз вновь всё пропишу подробно:<br>
+      <img align="absmiddle"  width="64" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image046.gif"> – работаем с этой  производной;<br>
+      <img align="absmiddle"  width="88" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image048.gif"> – про эту производную  пока забываем.</p>
+  <p>Поскольку <img align="absmiddle"  width="64" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image046_0000.gif">, то общий интеграл <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0005.gif"> восстанавливаем <em>частным интегрированием</em> по «игрек»:<br>
+      <img align="absmiddle"  width="288" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image051.gif">, где <img align="absmiddle"  width="33" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image053.gif"> неизвестная функция,  зависящая только от «икс». </p>
+  <p>Напоминаю, что при частном интегрировании по «игрек» – «икс»  считается константой, поэтому <img align="absmiddle"  width="33" height="19" src="g/kak_naiti_kompleksnuju_funkciju_clip_image055.gif"> можно вынести за знак  интеграла. Для самопроверки всегда полезно найти частную производную: <img align="absmiddle"  width="253" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image057.gif">  (функция <img align="absmiddle"  width="33" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image053_0000.gif"> зависит только от  «икс», поэтому её производная по «игрек» равна нулю).</p>
+  <p>Теперь от нашей недоделанной мнимой части <img align="absmiddle"  width="139" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image059.gif"> берём частную  производную по «икс»:<br>
+      <img align="absmiddle"  width="223" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image061.gif"> – и результат  приравниваем к «забытой» частной производной:<br>
+      <img align="absmiddle"  width="148" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image063.gif"><br>
+    После взаимоуничтожения членов получаем:<br>
+  <img align="absmiddle"  width="61" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image065.gif"><br>
+    Восстанавливаем функцию <img align="absmiddle"  width="33" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image053_0001.gif"> интегрированием:<br>
+  <img align="absmiddle"  width="244" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image067.gif"></p>
+  <p>Подставляем найденную функцию <img align="absmiddle"  width="92" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image069.gif"> в недоделанную мнимую  часть <img align="absmiddle"  width="139" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image059_0000.gif">. В итоге, после всех манипуляций:<br>
+      <img align="absmiddle"  width="152" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image072.gif"> – мнимая часть функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0004.gif"></p>
+  <p>2) Действие второе. Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0005.gif">:</p>
+  <p><img align="absmiddle"  width="268" height="177" src="g/kak_naiti_kompleksnuju_funkciju_clip_image074.gif"></p>
+  <p>(1) Подставляем действительную часть <img align="absmiddle"  width="153" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image030_0000.gif">, которая была дана в условии и найденную мнимую часть <img align="absmiddle"  width="152" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image072_0000.gif">.</p>
+  <p>(2) Раскрываем скобки.</p>
+  <p>(3) Выполняем перегруппировку слагаемых, для удобства я  заключил их в скобки. В целях перегруппировки нужно проанализировать, что в  ближайшей перспективе может получиться? Так, например, смотрим на слагаемое <img align="absmiddle"  width="31" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image076.gif">, и в голову приходит мысль, что тут будет фигурировать  формула <img align="absmiddle"  width="192" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image078.gif">, поэтому, и собираем вместе слагаемые, которые очевидно  будут относиться к данной формуле. </p>
+  <p>(4) Проводим вынесение за скобки некоторых множителей,  учитывая, что в нашей функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0006.gif"> всё дело явно сведётся  к двум формулам: <img align="absmiddle"  width="195" height="45" src="g/kak_naiti_kompleksnuju_funkciju_clip_image080.gif">.<br>
+    При этом всегда можно сделать проверку, раскрыв скобки,  например:<br>
+  <img align="absmiddle"  width="133" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image082.gif">.</p>
+  <p>(5) Используя две вышеуказанные формулы, получаем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0007.gif"></p>
+  <p>Обратите внимание, что в функции <img align="absmiddle"  width="140" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image084.gif"> присутствует только  комплексная переменная «зет» и константы. Если остался какой-нибудь мусор с  «иксами», «игреками», значит, вы допустили ошибку где-то выше.</p>
+  <p>3) Третий этап короткий. Найдём значение константы <img align="absmiddle"  width="16" height="19" src="g/kak_naiti_kompleksnuju_funkciju_clip_image086.gif">. В соответствии с начальным условием <img align="absmiddle"  width="59" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image032_0000.gif">:<br>
+      <img align="absmiddle"  width="263" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image088.gif"></p>
+  <p>В соответствии с условием в ответе следует записать мнимую  часть и саму функцию, естественно, с учётом найденного значения константы <img align="absmiddle"  width="16" height="19" src="g/kak_naiti_kompleksnuju_funkciju_clip_image086_0000.gif">:</p>
+  <p><strong>Ответ: </strong><img align="absmiddle"  width="127" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image091.gif">, <img align="absmiddle"  width="109" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image093.gif"></p>
+  <p>Да, конечно, задача не из самых элементарных, но с другой  стороны, весьма логично – конструировать гораздо труднее, чем разрушать. По этой  причине несложно сделать проверку:</p>
+  <p>Сначала проверяем выполнение начального условия <img align="absmiddle"  width="59" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image032_0001.gif">:<br>
+      <img align="absmiddle"  width="143" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image095.gif"> – начальное условие  выполнено.</p>
+  <p>Второй этап проверки – представить найденную функцию <img align="absmiddle"  width="109" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image093_0000.gif"> в виде <img align="absmiddle"  width="168" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image014_0001.gif">, иными словами, в точности решить задачу, которая подробно  разобрана на уроке <strong><a href="funkcii_kompleksnoi_peremennoi.html">функция комплексной  переменной</a></strong>.</p>
+  <p>Творческий пример для самостоятельного решения:</p>
+  <p><u>Пример 2</u></p>
+  <p>Дана действительная часть <img align="absmiddle"  width="113" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image097.gif"> функции комплексной  переменной. Найти мнимую часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0006.gif"> данной функции и  составить функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0008.gif">, удовлетворяющую начальному условию <img align="absmiddle"  width="59" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image099.gif">.</p>
+  <p>Примерный образец чистового оформления и ответ в конце  урока.</p>
+  <p>Не отходя от кассы, рассмотрим зеркальную задачу, когда  известна мнимая часть функции. Алгоритм, как уже упоминалось, будет очень  похожим:</p>
+  <p><u>Пример 3</u></p>
+  <p>Дана мнимая часть <img align="absmiddle"  width="228" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image101.gif"> функции комплексной  переменной. Найти действительную часть <img align="absmiddle"  width="49" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0003.gif"> и функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0009.gif">, удовлетворяющую начальному условию <img align="absmiddle"  width="72" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image104.gif">.</p>
+  <p><strong>Решение:</strong> <br>
+    1) Найдем действительную часть функции <em><img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0010.gif"></em>. </p>
+  <p>Так как <img align="absmiddle"  width="228" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image101_0000.gif">, то:<br>
+      <img align="absmiddle"  width="331" height="88" src="g/kak_naiti_kompleksnuju_funkciju_clip_image107.gif"></p>
+  <p>Согласно условиям Коши-Римана:<br>
+      <img align="absmiddle"  width="144" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image109.gif"> – работаем с этой  производной.<br>
+      <img align="absmiddle"  width="316" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image111.gif"> – про эту пока  забываем.</p>
+  <p><em>Примечание: в отличие  от Примеров 1,2 условия Коши-Римана применяются в «обычном» виде, то есть  переписывать их в другом порядке  – не  нужно. </em></p>
+  <p><em>Также напоминаю, что  без разницы, с какой производной начинать. Можно было «забыть» о первой производной,  а пляску начинать со второй – получилось бы совершенно равноценное решение.  Впрочем, этот момент хорошо показан в статье <strong><a href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a></strong>.</em></p>
+  <p>Едем дальше:</p>
+  <p>Поскольку <img align="absmiddle"  width="112" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image113.gif">, то действительная часть восстанавливается частным  интегрированием по «икс». А если интегрируем по «икс», то «игрек» считается  константой:<br>
+      <img align="absmiddle"  width="312" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image115.gif">, где <img align="absmiddle"  width="33" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image117.gif"> – неизвестная функция,  зависящая только от «игрек».</p>
+  <p>Для проверки можно мысленно или на черновике найти частную  производную:<br>
+      <img align="absmiddle"  width="380" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image119.gif">, что и требовалось проверить.</p>
+  <p>Берём недоделанную действительную часть <img align="absmiddle"  width="187" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image121.gif"> и находим частную  производную по «игрек»:<br>
+      <img align="absmiddle"  width="311" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image123.gif"> – результат  приравниваем к «забытой» частной производной:<br>
+      <img align="absmiddle"  width="239" height="27" src="g/kak_naiti_kompleksnuju_funkciju_clip_image125.gif"></p>
+  <p>Таким образом, после упрощений:<br>
+      <img align="absmiddle"  width="88" height="27" src="g/kak_naiti_kompleksnuju_funkciju_clip_image127.gif"><br>
+    Интегрированием восстанавливаем функцию <img align="absmiddle"  width="33" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image117_0000.gif">:<br>
+  <img align="absmiddle"  width="183" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image130.gif"></p>
+  <p>В результате:<br>
+      <img align="absmiddle"  width="208" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image132.gif"> – действительная часть  функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0011.gif">.</p>
+  <p>2) Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0012.gif">:</p>
+  <p><img align="absmiddle"  width="415" height="177" src="g/kak_naiti_kompleksnuju_funkciju_clip_image134.gif"></p>
+  <p>(1) Подставляем мнимую часть и найденную действительную  часть.</p>
+  <p>(2) Раскрываем скобки.</p>
+  <p>(3) Снова выполняем перегруппировку слагаемых. Анализируя  слагаемые, видим, что среди них есть слагаемые с кубами, а значит, дело  сведётся к формуле <img align="absmiddle"  width="247" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image136.gif">. Поэтому в первой скобке группируем слагаемые, которые явно  относятся к данной формуле. Аналогично – замечаем среди слагаемых слагаемые с  квадратами, и во второй скобке группируем слагаемые, чтобы далее  воспользоваться формулой <img align="absmiddle"  width="195" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image138.gif">.</p>
+  <p>(4) Проводим вынесение за скобки множителей, чтобы внутри  осталось, то, что нужно. При этом полезно мысленно или черновике сделать  проверку, раскрыв скобки <img align="absmiddle"  width="181" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image140.gif"> и <img align="absmiddle"  width="116" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image142.gif">.</p>
+  <p>(5) Запаковываем функцию.</p>
+  <p>В итоге получена функция <img align="absmiddle"  width="179" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image144.gif">, в которой присутствует только комплексная переменная «зет»  и константы.</p>
+  <p>3) В соответствии с начальным условием <img align="absmiddle"  width="72" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image104_0000.gif">:<br>
+      <img align="absmiddle"  width="349" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image146.gif"></p>
+  <p><strong>Ответ: </strong><img align="absmiddle"  width="180" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image148.gif">, <img align="absmiddle"  width="153" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image150.gif"></p>
+  <p>Готово. Примеры с кубами встречаются достаточно часто,  поэтому два примера для самостоятельного решения:</p>
+  <p><u>Пример 4</u></p>
+  <p>Дана мнимая часть <img align="absmiddle"  width="188" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image152.gif"> функции комплексной  переменной. Найти действительную часть <img align="absmiddle"  width="49" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0004.gif"> и искомую функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0013.gif">, удовлетворяющую начальному условию <img align="absmiddle"  width="73" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image154.gif">.</p>
+  <p>Этот пример можно решить по шаблону только что разобранного  примера. Примерный образец чистового оформления задания в конце урока.</p>
+  <p><u>Пример 5</u></p>
+  <p>Для заданной функции <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image156.gif"> найти сопряженную  функцию <img align="absmiddle"  width="47" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image158.gif"> и функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0014.gif"> при известном значении <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image160.gif">.<br>
+      <img align="absmiddle"  width="261" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image162.gif"></p>
+  <p>Для полного счастья пример, где дана действительная часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image156_0000.gif">, здесь целесообразно придерживаться алгоритма Примеров  № 1-2. Единственное отличие будет состоять в том, что появится «зет» в кубе. </p>
+  <p>Также обратите внимание на формулировку условия, она немного  другая, но не меняет смысла задачи. Полное решение и ответ в конце урока.</p>
+  <p>В большинстве случаев вам встретится что-нибудь из уже  рассмотренных заданий с квадратами да кубами, но время от времени попадаются  более занятные примеры на формулы Эйлера, о которых шла речь в статье <strong><a href="funkcii_kompleksnoi_peremennoi.html">функция комплексной переменной</a></strong>. <br>Вот  они<s>, вот они</s>:<br>
+      <img align="absmiddle"  width="132" height="48" src="g/kak_naiti_kompleksnuju_funkciju_clip_image164.gif"></p>
+  <p>Коль скоро мы рассматриваем обратную задачу, то данные  формулы тоже будут применяться в обратном направлении:<br>
+      <img align="absmiddle"  width="131" height="48" src="g/kak_naiti_kompleksnuju_funkciju_clip_image166.gif"></p>
+  <p>Еще два, причём, не самых простых примера из реальных  контрольных работ студентов:</p>
+  <p><u>Пример 6</u></p>
+  <p>Для заданной функции <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image156_0001.gif"> найти сопряженную  функцию <img align="absmiddle"  width="47" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image158_0000.gif"> и функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0015.gif"> при заданном начальном  условии.<br>
+      <img align="absmiddle"  width="277" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image168.gif"></p>
+  <p><strong>Решение:</strong> Первый  пункт алгоритма обкатан и стандартен:</p>
+  <p>1) Найдем мнимую часть функции <em><img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0016.gif"></em>. <br>
+    Так как <img align="absmiddle"  width="161" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image170.gif">, то:<br>
+  <img align="absmiddle"  width="576" height="88" src="g/kak_naiti_kompleksnuju_funkciju_clip_image172.gif"></p>
+  <p>В соответствии с условиями Коши-Римана (а когда дана  действительная часть, их нужно сначала переписать в другом виде – см. Примеры  № 1, 2):<br>
+      <img align="absmiddle"  width="161" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image174.gif"> – работаем с этой  производной;<br>
+      <img align="absmiddle"  width="291" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image176.gif"> – про эту производную  пока забываем.</p>
+  <p>Поскольку <img align="absmiddle"  width="125" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image178.gif">, то:<br>
+      <img align="absmiddle"  width="449" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image180.gif"></p>
+  <p>Найдём частную производную по «икс»:<br>
+      <img align="absmiddle"  width="324" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image182.gif"> – результат  приравниваем к «забытой» частной производной:<br>
+      <img align="absmiddle"  width="231" height="25" src="g/kak_naiti_kompleksnuju_funkciju_clip_image184.gif"><br>
+    Ликвидируем противоположные члены и восстанавливаем функцию <img align="absmiddle"  width="33" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image053_0002.gif">:<br>
+  <img align="absmiddle"  width="191" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image187.gif"></p>
+  <p>В результате:<br>
+      <img align="absmiddle"  width="169" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image189.gif"> – мнимая часть функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0017.gif"></p>
+  <p>2) Второй пункт будет куда веселее. Составим функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image018_0018.gif">:</p>
+  <p><img align="absmiddle"  width="284" height="203" src="g/kak_naiti_kompleksnuju_funkciju_clip_image191.gif"></p>
+  <p>(1) Подставляем действительную и мнимую части.</p>
+  <p>(2) Раскрываем скобки.</p>
+  <p>(3) Выполняем перегруппировку слагаемых, при этом выносим <img align="absmiddle"  width="17" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image193.gif"> за скобку. </p>
+  <p>(4) В скобках необходимо организовать конструкцию <img align="absmiddle"  width="92" height="19" src="g/kak_naiti_kompleksnuju_funkciju_clip_image195.gif">, чтобы воспользоваться формулой Эйлера. Немного подумав,  догадываемся, что нужно вынести за скобку мнимую единицу.</p>
+  <p>(5) Используем формулу Эйлера <img align="absmiddle"  width="125" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image197.gif">, при этом <img align="absmiddle"  width="64" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image199.gif"></p>
+  <p>(6) По школьному правилу действий со степенями подводим  экспоненты под единый показатель. Попутно в показателе раскрываем скобки <img align="absmiddle"  width="53" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image201.gif"></p>
+  <p>(7) В показателе экспоненты проводим окончательную упаковку: <img align="absmiddle"  width="67" height="20" src="g/kak_naiti_kompleksnuju_funkciju_clip_image203.gif"></p>
+  <p>В результате получена вполне симпатичная функция <img align="absmiddle"  width="135" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image205.gif">, в которой присутствуют только комплексная переменная «зет»  и константы.</p>
+  <p>3) Найдём значение константы <img align="absmiddle"  width="16" height="19" src="g/kak_naiti_kompleksnuju_funkciju_clip_image086_0001.gif">… кто-нибудь еще помнит об этом маленьком третьем этапе? =).  В соответствии с начальным условием <img align="absmiddle"  width="89" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image207.gif">:<br>
+      <img align="absmiddle"  width="355" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image209.gif"><br>
+    Таким образом: <img align="absmiddle"  width="40" height="19" src="g/kak_naiti_kompleksnuju_funkciju_clip_image211.gif"></p>
+  <p><strong>Ответ: </strong><img align="absmiddle"  width="143" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image213.gif">, <img align="absmiddle"  width="104" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image215.gif"></p>
+  <p>Погорячился я со сложностью, на самом деле пример был  довольно прост. Но ничего страшного, я привык исполнять обещания, держите:</p>
+  <p><u>Пример 7</u></p>
+  <p>Для заданной функции <img align="absmiddle"  width="47" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image002_0001.gif"> найти сопряженную  функцию <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0005.gif"> и функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0007.gif"> при заданном начальном  условии.<br>
+      <img align="absmiddle"  width="272" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image008_0001.gif"></p>
+  <p>В предложенном примере дана  мнимая часть функции, поэтому придерживаемся алгоритма Примеров № 3, 4. Задание  технически сложное, потребуются хорошие навыки нахождения <strong><a href="chastnye_proizvodnye_primery.html">частных производных</a></strong>, а на втором этапе нужно будет догадаться, как  распутать клубок и применить формулу Эйлера. Однако пример взят из реальной  контрольной работы студента заочного отделения. Полное решение и ответ в конце  урока.</p>
+  <p>На уроке <strong><a href="funkcii_kompleksnoi_peremennoi.html">функция комплексной переменной</a></strong> также были рассмотрены формулы для  синуса и косинуса:<br>
+      <img align="absmiddle"  width="256" height="45" src="g/kak_naiti_kompleksnuju_funkciju_clip_image010_0000.gif"></p>
+  <p>Но обратной задачи по этим  формулам мне ни разу не встречалось. Тем не менее, я воодушевился предыдущим  примером, на лице появилась добрая улыбка, а душа прям таки требует рассказать  вам ещё какую-нибудь гадость. Поэтому в заключение разберу любопытный пример,  который не так давно встретился в моей практике.</p>
+  <p><u>Пример 8</u></p>
+  <p>Восстановить функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0008.gif"> по известной мнимой  части <img align="absmiddle"  width="153" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image012_0000.gif"> и значению <img align="absmiddle"  width="56" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image014_0002.gif">.</p>
+  <p>Условие опять немного  перефразировано.</p>
+  <p><strong>Решение:</strong> <br>
+    1) Найдем действительную часть функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0009.gif">.<br>
+    Нарезаем частные производные от <img align="absmiddle"  width="47" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image002_0002.gif">:<br>
+  <img align="absmiddle"  width="565" height="208" src="g/kak_naiti_kompleksnuju_funkciju_clip_image017.gif"></p>
+  <p>В соответствии с условиями Коши-Римана:<br>
+      <img align="absmiddle"  width="183" height="47" src="g/kak_naiti_kompleksnuju_funkciju_clip_image019.gif"> – работаем с этой  производной;<br>
+      <img align="absmiddle"  width="193" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image021_0000.gif"> – про эту пока  забываем.</p>
+  <p>Если <img align="absmiddle"  width="148" height="47" src="g/kak_naiti_kompleksnuju_funkciju_clip_image023_0000.gif">, то:<br>
+      <img align="absmiddle"  width="217" height="47" src="g/kak_naiti_kompleksnuju_funkciju_clip_image025_0000.gif"><br>
+    …и на этом этапе стандартного алгоритма я крепко задумался.  Превратил мысленно «игреки» в константы, и пришёл к выводу, что интеграл,  конечно, берётся…. Но является довольно сложным с неприятным и долгим решением.  Кстати, похожие штуковины рассмотрены в статье <strong><a href="slozhnye_integraly.html">Сложные интегралы</a></strong>.</p>
+  <p>Что делать? Есть другая возможность!<br>
+      <img align="absmiddle"  width="183" height="47" src="g/kak_naiti_kompleksnuju_funkciju_clip_image027_0000.gif"> – про эту производную  пока забываем;<br>
+      <img align="absmiddle"  width="193" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image021_0001.gif"> – работаем с этой производной.</p>
+  <p>То есть, восстановление действительной части пытаемся начать  с другой частной производной, вдруг интеграл проще получится?</p>
+  <p>Если  <img align="absmiddle"  width="157" height="45" src="g/kak_naiti_kompleksnuju_funkciju_clip_image029.gif">, то:<br>
+    <img align="absmiddle"  width="493" height="47" src="g/kak_naiti_kompleksnuju_funkciju_clip_image031.gif"></p>
+  <p>И действительно, интеграл получился намного более простым!  Здесь я использовал <strong><a href="metod_zameny_peremennoi.html">метод подведения  функции под знак дифференциала</a></strong> (не забывайте, что «икс» – константа!).</p>
+  <p>Находим частную производную по «икс» от недоделанной  действительной части:<br>
+    <img align="absmiddle"  width="633" height="104" src="g/kak_naiti_kompleksnuju_funkciju_clip_image033.gif"></p>
+  <p>Приравниваем результат к «забытой» частной производной:<br>
+      <img align="absmiddle"  width="276" height="96" src="g/kak_naiti_kompleksnuju_funkciju_clip_image035_0000.gif"></p>
+  <p>Страшные дроби благополучно исчезли и:<br>
+      <img align="absmiddle"  width="191" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image037.gif"><br>
+    Таким образом: <img align="absmiddle"  width="171" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image039.gif"> – действительная часть  функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0010.gif">. </p>
+  <p>2) Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0011.gif">:<br>
+      <img align="absmiddle"  width="251" height="251" src="g/kak_naiti_kompleksnuju_funkciju_clip_image041.gif"></p>
+  <p>(1) Поставляем действительную и мнимую части.</p>
+  <p>(2) Знаменатели дробей одинаковы, поэтому оформляем дроби  под единым знаменателем.</p>
+  <p>(3) Раскладываем знаменатель на множители при помощи формулы  разности квадратов: <img align="absmiddle"  width="151" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image043.gif">. Конечно, это не совсем очевидно, особенно для чайника. И  для  сомневающихся читателей выполню  проверку: <br>
+      <img align="absmiddle"  width="516" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image045.gif"></p>
+  <p>(4) Сокращаем дробь на <img align="absmiddle"  width="60" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image047.gif">.</p>
+  <p>(5) Упаковываем функцию: <img align="absmiddle"  width="67" height="20" src="g/kak_naiti_kompleksnuju_funkciju_clip_image049.gif">. </p>
+  <p>Готово: <img align="absmiddle"  width="109" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image051_0000.gif"></p>
+  <p>3) В соответствии с начальным условием: <img align="absmiddle"  width="236" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image053_0003.gif"><br>
+    Таким образом: <img align="absmiddle"  width="83" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image055_0000.gif"> – искомая функция.</p>
+  <p><strong>Ответ:</strong> <img align="absmiddle"  width="144" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image057_0000.gif">, <img align="absmiddle"  width="83" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image055_0001.gif"></p>
+  <p>Вот так вот иногда бывает. Казалось бы, такая простенькая  функция <img align="absmiddle"  width="83" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image060.gif">, а сколько приключений! Никогда не нужно теряться – если  дверь закрыта, пробуйте залезть в форточку! И не забывайте, я в доле =)</p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение:</strong> </em><br>
+      <em>1) Найдём мнимую часть <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image062.gif">. Частные производные от действительной части: </em><br>
+      <em><img align="absmiddle"  width="160" height="88" src="g/kak_naiti_kompleksnuju_funkciju_clip_image064.gif"></em><br>
+      <em>В соответствии с  условиями Коши-Римана:</em><br>
+      <em><img align="absmiddle"  width="195" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image066.gif"></em><br>
+      <em>Поскольку <img align="absmiddle"  width="65" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image068.gif">, то:</em><br>
+      <em><img align="absmiddle"  width="200" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image070.gif"></em><br>
+      <em><img align="absmiddle"  width="247" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image072_0001.gif"> </em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle"  width="91" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image074_0000.gif"></em><br>
+      <em><img align="absmiddle"  width="203" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image076_0000.gif"></em><br>
+      <em>В результате:</em><br>
+      <em><img align="absmiddle"  width="168" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image078_0000.gif"> – мнимая часть функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0012.gif"></em><br>
+      <em>2) Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0013.gif">:</em><br>
+      <em><img align="absmiddle"  width="233" height="175" src="g/kak_naiti_kompleksnuju_funkciju_clip_image081.gif"></em>      <br>
+      <em>3) В соответствии с  начальным условием <img align="absmiddle"  width="59" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image083.gif">:</em><br>
+      <em><img align="absmiddle"  width="260" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image085.gif"></em>      <br>
+      <strong><em>Ответ: </em></strong><em><img align="absmiddle"  width="141" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image087.gif">, <img align="absmiddle"  width="95" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image089.gif"></em></p>
+  <p><em>Пример 4: <strong>Решение:</strong> Найдем действительную часть  функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0014.gif">. </em><br>
+      <em>Так как <img align="absmiddle"  width="188" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image091_0000.gif">, то:</em><br>
+      <em><img align="absmiddle"  width="284" height="88" src="g/kak_naiti_kompleksnuju_funkciju_clip_image093_0001.gif"></em><br>
+      <em>В соответствии с  условиями Коши-Римана:</em><br>
+      <em><img align="absmiddle"  width="159" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image095_0000.gif"> </em><br>
+      <em>Поскольку <img align="absmiddle"  width="125" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image097_0000.gif">, то:</em><br>
+      <em><img align="absmiddle"  width="340" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image099_0000.gif"></em><br>
+      <em>Найдём частную  производную по «игрек»:</em><br>
+      <em><img align="absmiddle"  width="308" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image101_0001.gif"> </em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle"  width="153" height="51" src="g/kak_naiti_kompleksnuju_funkciju_clip_image103.gif"></em><br>
+      <em><img align="absmiddle"  width="61" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image105.gif"></em><br>
+      <em>В результате:</em><br>
+      <em><img align="absmiddle"  width="189" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image107_0000.gif"> – действительная часть  функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0015.gif">.</em><br>
+      <em>Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0016.gif">:</em><br>
+      <em><img align="absmiddle"  width="336" height="175" src="g/kak_naiti_kompleksnuju_funkciju_clip_image109_0000.gif"></em><br>
+      <em>В соответствии с  начальным условием <img align="absmiddle"  width="73" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image111_0000.gif">:</em><br>
+      <em><img align="absmiddle"  width="327" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image113_0000.gif"></em><br>
+      <strong><em>Ответ: </em></strong><em><img align="absmiddle"  width="164" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image115_0000.gif">, <img align="absmiddle"  width="132" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image117_0001.gif"></em></p>
+  <p><em>Пример 5: <strong>Решение:</strong> Найдем мнимую часть функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0017.gif">.</em><br>
+      <em>Вычислим частные  производные от <img align="absmiddle"  width="48" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image004_0006.gif">:</em><br>
+      <em><img align="absmiddle"  width="516" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image120.gif"></em><br>
+      <em>В соответствии с  условиями Коши-Римана:</em><br>
+      <em><img align="absmiddle"  width="177" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image122.gif"></em><br>
+      <em>Так как <img align="absmiddle"  width="121" height="44" src="g/kak_naiti_kompleksnuju_funkciju_clip_image124.gif">, то:</em><br>
+      <em><img align="absmiddle"  width="331" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image126.gif"></em><br>
+      <em><img align="absmiddle"  width="279" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image128.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle"  width="115" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image130_0000.gif"></em><br>
+      <em><img align="absmiddle"  width="139" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image132_0000.gif"></em><br>
+      <em>В результате: <img align="absmiddle"  width="181" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image134_0000.gif"> – мнимая часть функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0018.gif">.</em><br>
+      <em>Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0019.gif">:</em><br>
+      <em><img align="absmiddle"  width="308" height="149" src="g/kak_naiti_kompleksnuju_funkciju_clip_image136_0000.gif"></em><br>
+      <em>В соответствии с  начальным условием: <img align="absmiddle"  width="173" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image138_0000.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle"  width="155" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image140_0000.gif">, <img align="absmiddle"  width="117" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image142_0000.gif"> – искомая функция.</em></p>
+  <p><em>Пример 7: <strong>Решение:</strong> Найдем действительную часть  функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0020.gif">. </em><br>
+      <em>Так как <img align="absmiddle"  width="188" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image144_0000.gif">, то:</em><br>
+      <em><img align="absmiddle"  width="412" height="139" src="g/kak_naiti_kompleksnuju_funkciju_clip_image146_0000.gif"></em><br>
+      <em>В соответствии с  условиями Коши-Римана:</em><br>
+      <em><img align="absmiddle"  width="501" height="91" src="g/kak_naiti_kompleksnuju_funkciju_clip_image148_0000.gif"> </em><br>
+      <em>Поскольку <img align="absmiddle"  width="227" height="41" src="g/kak_naiti_kompleksnuju_funkciju_clip_image150_0000.gif">, то:</em><br>
+      <em><img align="absmiddle"  width="573" height="56" src="g/kak_naiti_kompleksnuju_funkciju_clip_image152_0000.gif"></em><br>
+      <em>Примечание: Интеграл <img align="absmiddle"  width="177" height="29" src="g/kak_naiti_kompleksnuju_funkciju_clip_image154_0000.gif"> <strong><a href="integrirovanie_po_chastyam.html">берётся по частям</a></strong>.</em><br>
+      <em>Найдём частную  производную по «игрек»:</em><br>
+      <em><img align="absmiddle"  width="555" height="72" src="g/kak_naiti_kompleksnuju_funkciju_clip_image156_0002.gif"> </em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle"  width="460" height="53" src="g/kak_naiti_kompleksnuju_funkciju_clip_image158_0001.gif"></em><br>
+      <em>В результате:</em><br>
+      <em><img align="absmiddle"  width="224" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image160_0000.gif"> – действительная часть  функции <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0021.gif">.</em><br>
+      <em>Найдем функцию <img align="absmiddle"  width="35" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image006_0022.gif">:</em><br>
+      <em><img align="absmiddle"  width="349" height="227" src="g/kak_naiti_kompleksnuju_funkciju_clip_image162_0000.gif"></em><br>
+      <em>В соответствии с  начальным условием <img align="absmiddle"  width="59" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image164_0000.gif">:</em><br>
+      <em><img align="absmiddle"  width="168" height="21" src="g/kak_naiti_kompleksnuju_funkciju_clip_image166_0000.gif"></em><br>
+      <strong><em>Ответ: </em></strong><em><img align="absmiddle"  width="197" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image168_0000.gif">, <img align="absmiddle"  width="71" height="24" src="g/kak_naiti_kompleksnuju_funkciju_clip_image170_0000.gif"></em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

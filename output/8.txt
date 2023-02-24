@@ -1,0 +1,1096 @@
+<html>
+<head>
+<title>Свойства определителя. Понижение порядка определителя
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="свойства определителя, методы вычисления определителя, как лучше разложить определитель, транспонирование определителя, перестановка строк, перестановка столбцов, вынесение множителя, пропорциональные строки, пропорциональные столбцы, примеры решений, подробно, как понизить порядок определителя, четвёртого порядка, пятого порядка, понижение порядка, элементарные преобразования строк, столбцов">
+<meta name="Description" content="Учимся решать определители правильно и быстро! Примеры с подробными объяснениями.">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Свойства определителя. Понижение порядка определителя</strong></h1>
+  
+  <br>
+  <p>На втором уроке мы узнаем основные свойства определителя, а  также научимся приёмам их эффективного вычисления. Если вы слабо ориентируетесь  в теме, пожалуйста, начните с одной из древнейших статей сайта – <strong><a href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a></strong> Она поможет  не только чайникам, но даже тем, кто впервые услышал слово «определитель».  Минуло два года с тех пор, когда на сайте было всего десять страничек, и вот,  после моего долгого-долгого путешествия в мир матана, всё возвращается на круги  своя.   
+  <p>Представьте, что вам нужно вычислить определитель третьего  порядка, разложив его по элементам строки (столбца). Хотя чего тут представлять  – нужно же =) Над ним можно сидеть 5 минут, а можно 2-3 минуты. Или даже в  районе одной минуты. Время, которое вы потратите, зависит не только от вашего  опыта, но и от знаний свойств определителей. Не редкость, когда процесс решения  вполне реально сократить до считанных секунд, а иногда и сразу увидеть  результат! «Ерунда, чего экономить на спичках, и так всё решим», – скажут  некоторые. Допустим. И не допустим оплошностей ;-) Но как быть с достаточно распространённым  на практике определителем 4-го порядка? Воевать с этим перцем придётся уже 10-20  минут. И это будет даже не бой, а бойня, поскольку очень велика вероятность  вычислительной ошибки, которая «завернёт» вас на второй круг решения. А если  определитель пятого порядка? Спасёт только понижение порядка определителя. Да,  такие примеры тоже встречаются в контрольных работах. </p>
+  <p>Материалы данной страницы позволят значительно улучшить вашу  технику решения определителей и упростят дальнейшее освоение высшей математики. </p>
+  <br>
+  <h2><strong>Эффективные методы  вычисления определителя</strong></h2>
+  <p>В первую очередь коснёмся не свойств определителя, а как раз  методов его рационального вычисления. Эти приёмы решения лежат на поверхности и  понятны многим, но всё-таки остановимся на них подробнее. Предполагается, что  читатель уже умеет достаточно уверенно раскрывать определитель третьего  порядка. Как известно, данный определитель можно раскрыть 6 стандартными способами:  по любой строке или любому столбцу. Казалось бы, без разницы, ведь ответ  получится один и тот же. <strong>Но все ли  способы одинаково легкИ?</strong> Нет. В большинстве случаев есть <u>менее выгодные  пути</u> и <u>более выгодные пути</u> решения.</p>
+  <p>Рассмотрим определитель <img align="absmiddle"  width="116" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image002.gif">, который я обильно покрыл татуировками ещё на первом уроке. В  той статье мы подробно, с картинками разложили его по первой строке. Первая  строка – это хорошо и академично, однако нельзя ли быстрее  достичь результата? В определителе есть ноль,  и, раскрывая его по второй строке либо по второму столбцу, вычислений заметно  поубавится!</p>
+  <p>Разложим определитель по второму столбцу:<br>
+      <img align="absmiddle"  width="317" height="91" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image004.gif"></p>
+  <p>На практике нулевые элементы игнорируются, и запись решения принимает  более компактный вид:<br>
+      <img align="absmiddle"  width="467" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image006.gif"></p>
+  <p><u>Задание 1</u></p>
+  <p>Раскройте данный определитель по второй строке, используя  укороченную запись. </p>
+  <p>Решение в конце урока.</p>
+  <p>Если в строке (либо столбце) два нуля, то это вообще  настоящий подарок. Рассмотрим определитель <img align="absmiddle"  width="76" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image008.gif">. Здесь два нуля в третьей строке, по ней и раскрываем:</p>
+  <p><img align="absmiddle"  width="273" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image010.gif"></p>
+  <p>Вот и всё решение!</p>
+  <p>Особый случай, когда определитель имеет так называемый <em>ступенчатый</em> или <em>треугольный вид</em>, например: <img align="absmiddle"  width="76" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image012.gif"> – в таком определителе  все числа, расположенные ниже <em>главной  диагонали</em>, равны нулю.</p>
+  <p>Разложим его по первому столбцу:<br>
+      <img align="absmiddle"  width="368" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image014.gif"></p>
+  <p>В практических заданиях удобно руководствоваться следующим  правилом – <strong>ступенчатый определитель  равен произведению чисел его главной диагонали</strong>:<br>
+      <img align="absmiddle"  width="183" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image016.gif"></p>
+  <p>Аналогичный принцип справедлив и для ступенчатых определителей  других порядков, например:<br>
+      <img align="absmiddle"  width="220" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image018.gif"></p>
+  <p>Треугольные определители появляются в некоторых задачах  линейной алгебры, и их решение чаще всего оформляют именно так.</p>
+  <p>А если в строке (столбце) определителя находятся <strong>одни нули</strong>? Ответ, думаю, понятен. Мы  ещё вернёмся к этому вопросу в свойствах определителя.</p>
+  <p>Теперь представим, что долгожданные баранки не положены в  новогодний подарок. Так давайте же распотрошим нехорошего Санта-Клауса! </p>
+  <p><img align="absmiddle"  width="87" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image020.gif"></p>
+  <p>Здесь нет нулей, но всё равно существует способ облегчить  себе жизнь. Данный определитель оптимальнее разложить по третьему столбцу,  поскольку там самые маленькие числа. При этом запись решения принимает весьма  лаконичный вид:<br>
+      <img align="absmiddle"  width="571" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image022.gif"></p>
+  <p>Резюмируя параграф, сформулируем золотое правило вычислений:</p>
+  <h3><strong>Определитель выгоднее  раскрывать по ТОЙ строке (столбцу), где:</strong></h3>
+  <p><strong>1) нулей побольше</strong>;<br>
+      <strong>2) числа поменьше</strong>.</p>
+  <p>Естественно, это справедливо и для определителей высших  порядков. </p>
+  <p>Небольшой пример для закрепления материала:</p>
+  <p><u>Задание 2</u></p>
+  <p>Вычислить определитель, раскрыв его по строке либо столбцу,  используя при этом наиболее рациональный способ</p>
+  <p><img align="absmiddle"  width="69" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image024.gif"></p>
+  <p>Это пример для самостоятельного решения, оптимальное решение  и ответ – в конце урока.</p>
+  <p>И ещё один важный совет: не комплексуйте! Не нужно  «зацикливаться» на традиционном разложении по первой строке либо первому  столбцу. Как короче – так и решайте!</p>
+  <br>
+  <h2><strong>Свойства определителя</strong></h2>
+  <p>Насчитывается порядка десяти свойств определителя (смотрите  учебники, справочники), однако реальное прикладное значение имеют только  некоторые из них. И сейчас я попытаюсь в подробной и доступной форме поделиться  практическим опытом использования данных свойств.</p>
+  <p>Рассмотрим старых знакомых первого урока: матрицу <img align="absmiddle"  width="113" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image026.gif"> и её определитель <img align="absmiddle"  width="145" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image028.gif">.</p>
+  <p>На всякий случай повторю элементарное различие между  понятиями: <strong><a href="deistviya_s_matricami.html">матрица</a> – это таблица  элементов</strong>, а<strong> <a href="kak_vychislit_opredelitel.html">определитель</a> – это  число</strong>.<strong> </strong></p>
+  <h3><strong>При транспонировании  матрицы величина её определителя не меняется</strong></h3>
+  <p>Транспонируем матрицу:<br>
+      <img align="absmiddle"  width="121" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image030.gif"></p>
+  <p><strong><em>Примечание</em></strong><em>: действие  подробно разобрано на уроке <strong><a href="deistviya_s_matricami.html">Действия с  матрицами</a></strong>.</em></p>
+  <p>Согласно свойству, определитель транспонированной матрицы  равен тому же значению: <img align="absmiddle"  width="153" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image032.gif">. Желающие могут убедиться в этом самостоятельно.</p>
+  <p>В ходу и более простецкая формулировка данного свойства:  если транспонировать определитель, то его величина не изменится. </p>
+  <p>Запишем оба определителя рядышком и проанализируем один  важный момент:<br>
+      <img align="absmiddle"  width="337" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image034.gif"></p>
+  <p>В результате транспонирования первая строка стала первым  столбцом, вторая строка – вторым столбцом, третья строка – третьим столбцом.  Строки стали столбцами, а результат не изменился. Из чего следует важный факт: <strong>строки и столбцы определителя равноправны</strong>.  Иными словами, если какое-нибудь свойство справедливо для строки, то  аналогичное свойство справедливо и для столбца! В действительности с этим мы  уже давно столкнулись – ведь определитель можно раскрыть как по строке, так равноправно  и по столбцу. </p>
+  <p>Не нравятся числа в строках? Транспонируйте определитель!  Возникает только один вопрос, зачем? Практический смысл рассмотренного свойства  невелик, но его полезно закинуть в багаж знаний, чтобы лучше понимать другие  задачи высшей математики. Например, сразу становится ясно, почему при <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">исследовании векторов на компланарность</a> </strong>их  координаты можно записать как в строки определителя, так и в столбцы. </p>
+  <h3><strong>Если две строки (или  два столбца) определителя поменять местами,</strong><br>
+      <strong>то определитель  сменит знак</strong></h3>
+  <p><strong><em>! Помните</em></strong><em>, речь идёт об  определителе! В самой матрице переставлять ничего нельзя!</em></p>
+  <p>Сыграем в кубик-рубик с определителем <img align="absmiddle"  width="116" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image002_0000.gif">.</p>
+  <p>Поменяем первую и третью строку местами:<br>
+    <img align="absmiddle"  width="136" height="75" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image037.gif"></p>
+  <p>Определитель сменил знак. </p>
+  <p>Теперь в полученном определителе переставим вторую и третью  строки:<br>
+    <img align="absmiddle"  width="127" height="75" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image039.gif">  </p>
+  <p>Определитель ещё раз изменил знак. </p>
+  <p>Переставим второй и третий столбец:<br>
+    <img align="absmiddle"  width="136" height="75" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image041.gif">  </p>
+  <p>То есть, <strong>любая парная  перестановка строк (столбцов) влечёт изменение знака определителя на  противоположный</strong>.</p>
+  <p>Игры играми, но на практике такие действия лучше <u>не  использовать</u>. Толку от них особого нет, а вот запутаться и допустить ошибку  несложно. Однако приведу одну из немногих ситуаций, когда в этом действительно  есть смысл. Предположим, что в ходе решения некоторого примера у вас  нарисовался определитель со знаком «минус»:<br>
+      <img align="absmiddle"  width="69" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image043.gif"></p>
+  <p>Раскроем его, скажем, по первой строке:<br>
+      <img align="absmiddle"  width="488" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image045.gif"></p>
+    
+    <p>Очевидное неудобство состоит в том, что пришлось выполнять  лишние реверансы – ставить большие скобки, а затем их раскрывать (кстати,  крайне не рекомендую выполнять подобные действия «за один присест» устно).</p>
+  <p>Чтобы избавиться от «минуса», рациональнее поменять местами  любые две строки или любые два столбца. Переставим, например, первую и вторую  строки:<br>
+      <img align="absmiddle"  width="161" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image047.gif"></p>
+  <p>Теперь впереди помех нет, можно ехать дальше. Заядлых  гонщиков ждёт кирпич: 29. </p>
+  <p>Выглядит стильно, но в большинстве случаев с отрицательным  знаком целесообразнее разбираться другим способом (читайте дальше).</p>
+  <p>Рассмотренное действие опять же помогает лучше понять,  например, некоторые свойства <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">векторного  произведения векторов</a></strong> или смешанного произведения векторов.</p>
+  <p>А вот это уже более интересно:</p>
+  <h3><strong>Из строки (столбца) определителя  можно вынести общий множитель </strong></h3>
+  <p><strong><em>!!! Внимание!</em></strong><em> В правиле  речь идёт об <strong>ОДНОЙ</strong> строке или об <strong>ОДНОМ</strong> столбце определителя. Пожалуйста,  не путайте с <strong><a href="deistviya_s_matricami.html">матрицами</a></strong>, в матрице  множитель выносится/вносится у <strong>ВСЕХ</strong> чисел сразу.</em></p>
+  <p>Начнём с частного случая правила – вынесения «минус единицы»  или просто «минуса».</p>
+  <p>Встречаем очередного пациента: <img align="absmiddle"  width="88" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image049.gif">. </p>
+  <p>В данном определителе слишком много минусов и неплохо бы  сократить их количество. </p>
+  <p>Вынесем –1 из первой строки:<br>
+      <img align="absmiddle"  width="331" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image051.gif"></p>
+  <p>Или короче: <br>
+      <img align="absmiddle"  width="187" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image053.gif"></p>
+  <p>Минус перед определителем, как уже демонстрировалось – не  есть удобно. Смотрим на вторую строку определителя и замечаем, что минусов там  тоже многовато. </p>
+  <p>Вынесем «минус» из второй строки:<br>
+      <img align="absmiddle"  width="367" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image055.gif"></p>
+  <p>Что можно сделать ещё? Все числа второго столбца делятся на  4 без остатка. Вынесем 4 из второго столбца:<br>
+      <img align="absmiddle"  width="359" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image057.gif"></p>
+  <p>Справедливо и обратное правило – <strong>множитель можно</strong> не только вынести, но и <strong>внести</strong>, причём, в ЛЮБУЮ строку или в ЛЮБОЙ столбец определителя. </p>
+  <p>Ради шутки умножим на 4 третью строку определителя:<br>
+      <img align="absmiddle"  width="165" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image059.gif"></p>
+  <p>Дотошные умы могут убедиться в равенстве исходного <img align="absmiddle"  width="88" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image049_0000.gif"> и полученного <img align="absmiddle"  width="73" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image061.gif"> определителей (верный  ответ: –216).</p>
+  <p>На практике часто выполняют внесение минуса. Рассмотрим  определитель <img align="absmiddle"  width="89" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image063.gif">. Отрицательный знак перед определителем можно внести в ЛЮБУЮ  строку или в ЛЮБОЙ столбец. Самым лучшим кандидатом является третий столбец, в  него и внесём минус:<br>
+      <img align="absmiddle"  width="177" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image065.gif"></p>
+  <p>Также замечаем, что все числа первого столбца делятся на 2  без остатка, но стОит ли выносить «двойку»? Если вы собираетесь понижать  порядок определителя (о чём пойдет речь в заключительном разделе), то,  безусловно, стОит. Но если раскрывать определитель по строке (столбцу), то  «двойка» впереди только удлинит запись решения.</p>
+  <p>Однако если множитель велик, например, 13, 17 и т.п., то  его, конечно, по-любому выгоднее вынести. Познакомимся с маленьким монстром: <img align="absmiddle"  width="72" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image067.gif">. Из первой строки вынесем –11, из второй строки вынесем –7:<br>
+      <img align="absmiddle"  width="296" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image069.gif"></p>
+  <p>Вы скажете, вычисления и так быстро щёлкаются на обычном  калькуляторе? Это правда. Но, во-первых, его может не оказаться под рукой, а  во-вторых, если дан определитель 3-го или 4-го порядка с большими числами, то и  стучать по кнопкам уже не сильно захочется.</p>
+  <p><u>Задание 3</u></p>
+  <p>Вычислить определитель с помощью вынесения множителей из  строк и столбцов <img align="absmiddle"  width="95" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image071.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <p>Ещё пара полезных правил:</p>
+  <h3><strong>Если две строки  (столбца) определителя пропорциональны <br>
+    (как частный случай – одинаковы), то  данный определитель равен нулю</strong></h3>
+  <p>Здесь пропорциональны соответствующие элементы первой и  второй строки:<br>
+      <img align="absmiddle"  width="91" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image073.gif"></p>
+  <p>Иногда говорят, что строки определителя <em>линейно зависимы</em>. Так как при транспонировании величина  определителя не меняется, то из линейной зависимости строк следует и линейная  зависимость столбцов.</p>
+  <p>В пример можно вложить геометрический смысл – если считать,  что в строках записаны координаты <strong><a href="vektory_dlya_chainikov.html">векторов</a></strong> пространства, то первые два вектора с пропорциональными координатами будут  коллинеарны, а значит, все три вектора – <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">линейно  зависимы</a></strong>, то есть компланарны.</p>
+  <p>В следующем примере пропорциональны три столбца (и, к слову,  три строки тоже):<br>
+      <img align="absmiddle"  width="105" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image075.gif"></p>
+  <p>Здесь второй и третий столбец одинаковы, это частный случай  – когда коэффициент пропорциональности равен единице </p>
+  <p>Перечисленные свойства вполне можно использовать на  практике. Но помните, повышенный уровень знаний иногда наказуем ;-) Поэтому,  возможно, лучше раскрывать такие определители обычным способом (зная наперёд,  что получится ноль).</p>
+  <p>Следует отметить, что <strong>обратное  в общем случае неверно</strong> – если определитель равен нулю, то из этого <strong>ещё не следует</strong>, что его строки  (столбцы) пропорциональны. То есть линейная зависимость строк/столбцов может  быть и не явной.</p>
+  <p>Существуют и более очевидный признак, когда сразу можно  сказать, что определитель нулевой:</p>
+  <h3><strong>Определитель с нулевой  строкой (столбцом) равен нулю</strong></h3>
+  <p>Пример: <img align="absmiddle"  width="88" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image077.gif"></p>
+  <p>«Любительская» проверка элементарна, раскроем определитель  по первому столбцу:<br>
+      <img align="absmiddle"  width="345" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image079.gif"></p>
+  <p>Впрочем, результат не изменится, если раскрыть определитель  по любой строке или любому столбцу.</p>
+  <p>Выжимаем второй стакан апельсинового сока:</p>
+  <h3><strong>Какие свойства  определителей полезно знать?</strong></h3>
+  <p><strong>1) Величина  определителя не меняется при транспонировании</strong>. Свойство запоминаем.</p>
+  <p><strong>2) Любая парная  перестановка строк (столбцов) меняет знак определителя на противоположный</strong>. Свойство  тоже запоминаем и стараемся не использовать во избежание путаницы.</p>
+  <p><strong>3) Из строки  (столбца) определителя можно вынести множитель (и внести его обратно)</strong>.  Используем там, где это выгодно.</p>
+  <p><strong>4) Если строки  (столбцы) определителя пропорциональны, то он равен нулю. Определитель с  нулевой строкой (столбцом) равен нулю.</strong></p>
+  <p>На протяжении урока неоднократно наблюдалась элементарная  закономерность – чем больше в строке (столбце) нулей, тем легче вычислить  определитель. Возникает вопрос, а нельзя ли нули организовать специально с  помощью какого-нибудь преобразования? Можно! Познакомимся ещё с одним очень  мощным свойством:</p>
+  <br>
+  <h2><strong>Понижение порядка  определителя</strong></h2>
+  <p>Очень хорошо, если вы уже разобрались с <strong><a href="metod_gaussa_dlya_chainikov.html">методом Гаусса</a></strong> и имеете опыт решения <strong><a href="kak_reshit_sistemu_uravnenii.html">систем линейных уравнений</a></strong> этим способом. Фактически  сформулированное ниже свойство дублирует одно из <em>элементарных преобразований</em>.</p>
+  <p>Чтобы нагулять аппетит раздавим маленького лягушонка:<br>
+      <img align="absmiddle"  width="107" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image081.gif"></p>
+  <h3><strong>К строке определителя  можно прибавить другую строку, умноженную на ненулевое число. При этом величина  определителя не изменится</strong></h3>
+  <p>Пример: в определителе <img align="absmiddle"  width="45" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image083.gif"> получим ноль слева  вверху. </p>
+  <p>Для этого вторую строку <u>мысленно либо на черновике</u> умножим на 3: (–3, 6) и <strong>к первой строке  прибавим вторую строку, умноженную на 3</strong>:<br>
+      <img align="absmiddle"  width="64" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image085.gif"></p>
+  <p>Результат записываем <strong>в  первую строку</strong>:<br>
+      <img align="absmiddle"  width="100" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image087.gif"></p>
+  <p>Проверка: <img align="absmiddle"  width="109" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image089.gif"></p>
+  <p>Теперь в том же определителе <img align="absmiddle"  width="45" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image083_0000.gif"> получим ноль справа  внизу. Для этого <strong>ко второй строке  прибавим первую строку, умноженную (мысленно) на –2 </strong><em>(смотрим и считаем снизу вверх</em>):<br>
+      <img align="absmiddle"  width="75" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image091.gif"></p>
+  <p>Результат записываем <strong>во  вторую строку</strong>:<br>
+      <img align="absmiddle"  width="168" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image093.gif"></p>
+  <p><strong>Обратите внимание</strong>:  при элементарном преобразовании меняется <strong>ТА </strong>строка, к которой прибавля<strong>ЮТ</strong>.</p>
+  <p>Сформулируем зеркальное правило для столбцов:</p>
+  <h3><strong>К столбцу определителя  можно прибавить другой столбец, умноженный на ненулевое число. При этом  величина определителя не изменится</strong></h3>
+  <p>Возьмём за лапки животное <img align="absmiddle"  width="45" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image083_0001.gif"> и, используя данное  преобразование, получим ноль слева вверху. Для этого мысленно либо на черновике  умножим второй столбец на –3: <img align="absmiddle"  width="23" height="43" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image095.gif"> и <strong>к первому столбцу прибавим второй столбец, умноженный на –3</strong>:<br>
+      <img align="absmiddle"  width="89" height="43" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image097.gif"></p>
+  <p>Результат запишем <strong>в  первый столбец</strong>:<br>
+      <img align="absmiddle"  width="167" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image099.gif"></p>
+  <p>И, наконец, в определителе <img align="absmiddle"  width="45" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image083_0002.gif"> получим ноль справа  внизу. Для этого <strong>ко второму столбцу  прибавим первый столбец, умноженный (мысленно) на 2 </strong><em>(смотрим и считаем справа налево</em>):<br>
+      <img align="absmiddle"  width="63" height="43" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image101.gif"></p>
+  <p>Результат помещаем <strong>во  второй столбец</strong>:<br>
+      <img align="absmiddle"  width="164" height="45" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image103.gif"></p>
+  <p>При элементарном преобразовании меняется <strong>ТОТ</strong> столбец, к которому прибавля<strong>ЮТ</strong>.</p>
+  <p>Постарайтесь качественно переварить нижеследующий пример.</p>
+  <p>Отправим в суп подросшее земноводное: <br>
+      <img align="absmiddle"  width="91" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image105.gif"></p>
+  <p>Задача состоит в том, чтобы <strong>с помощью элементарных преобразований понизить порядок определителя</strong> до второго порядка. </p>
+  <p>С чего начать? Сначала в определителе нужно выбрать  число-«мишень». В качестве «мишени» почти всегда выступает единица либо –1.  Смотрим на определитель и замечаем, что здесь даже выбор есть. Пусть  числом-«мишенью» будет элемент <img align="absmiddle"  width="43" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image107.gif">:<br>
+      <img align="absmiddle"  width="112" height="81" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image109.jpg"></p>
+  <p><strong><em>Примечание</em></strong><em>: смысл двойных  подстрочных индексов можно узнать в статье <strong><a href="pravilo_kramera_matrichnyi_metod.html">Правило  Крамера. Матричный метод</a></strong>. В данном случае индексы элемента <img align="absmiddle"  width="21" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image111.gif"> говорят нам о том, что  он располагается во второй строке, третьем столбце.</em></p>
+  <p>Идея состоит в том, чтобы получить два нуля в третьем  столбце:<br>
+      <img align="absmiddle"  width="109" height="82" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image113.jpg"></p>
+  <p>Либо получить два нуля во второй строке:<br>
+      <img align="absmiddle"  width="109" height="79" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image115.jpg"></p>
+  <p>Во второй строке числа поменьше (не забываем золотое  правило), поэтому выгоднее взять именно её. А третий столбец с числом-«мишенью»  останется неизменным:<br>
+      <img align="absmiddle"  width="164" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image117.gif"></p>
+  <p><strong>Ко второму столбцу  прибавляем третий столбец</strong>: <br>
+      <img align="absmiddle"  width="79" height="65" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image119.gif"></p>
+  <p>Тут и умножать ничего не пришлось.</p>
+  <p>Результат записываем во второй столбец:<br>
+      <img align="absmiddle"  width="175" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image121.gif"></p>
+  <p><strong>К первому столбцу  прибавляем третий столбец, умноженный (мысленно) на –2</strong>: <br>
+      <img align="absmiddle"  width="80" height="65" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image123.gif"><br>
+    Результат записываем в первый столбец, раскладываем определитель  по второй строке:<br>
+    <img align="absmiddle" width="349" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image125.gif">  </p>
+  <p>Как мы понизили порядок определителя? Получили два нуля во  второй строке.</p>
+  <p>Решим пример вторым способом, организуем нули в третьем  столбце:<br>
+      <img align="absmiddle"  width="109" height="82" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image113_0000.jpg"></p>
+  <p>Вторая строка с числом-«мишенью» останется неизменной:<br>
+      <img align="absmiddle"  width="167" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image127.gif"></p>
+  <p>К первой строке прибавим вторую  строку, умноженную (мысленно) на –4:<br>
+      <img align="absmiddle"  width="128" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image129.gif"></p>
+  <p>Результат записываем в первую строку:<br>
+      <img align="absmiddle"  width="177" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image131.gif"></p>
+  <p>К третьей строке прибавим вторую  строку, умноженную (мысленно) на 3 <em>(смотрим  и считаем снизу вверх)</em>:<br>
+      <img align="absmiddle"  width="125" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image133.gif"></p>
+  <p>Результат записываем в третью строку, определитель  раскрываем по третьему столбцу:<br>
+    <img align="absmiddle" width="340" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image135.gif">  </p>
+  <p>Заметьте, что <strong>нет  никакой необходимости переставлять строки или столбцы</strong>. Элементарные  преобразования прекрасно работают как слева направо, так и справа налево. Как  сверху вниз, так и снизу вверх.</p>
+  <p><u>Задание 4</u></p>
+  <p>Вычислить тот же определитель <img align="absmiddle"  width="91" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image105_0000.gif">, выбрав в качестве числа-«мишени» элемент <img align="absmiddle"  width="53" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image137.gif">. Понизить его порядок двумя способами: получив нули во  второй строке и получив нули во втором столбце.</p>
+  <p>Это пример для самостоятельного решения. Полное решение и  краткие комментарии в конце урока.</p>
+  <p>Иногда в определителе отсутствует  единица либо –1, например: <img align="absmiddle"  width="79" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image139.gif">. В этом случае «мишень» следует организовать с помощью  дополнительного элементарного преобразования. Сделать это можно чаще всего  несколькими способами. Например: к первой строке прибавим вторую строку,  умноженную –1:<br>
+      <img align="absmiddle"  width="127" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image141.gif"></p>
+  <p>Результат записываем в первую  строку:<br>
+      <img align="absmiddle"  width="179" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image143.gif"></p>
+  <p><strong><em>! Внимание</em></strong><em>: <strong>НЕ НУЖНО</strong> из первой строки <strong>вычитать</strong> вторую строку, это значительно  увеличивает вероятность ошибки. Только складываем! Поэтому к первой строке  прибавляем вторую строку, умноженную –1. Именно так!</em></p>
+  <p>Единица получена, чего и требовалось достичь. Далее можно  получить два нуля в первой строке либо в первом столбце. Желающие могут довести  решение до конца (верный ответ: –176).</p>
+  <p>Стоит отметить, что готовая «мишень» чаще всего присутствует  в исходном определителе, а уж для определителя 4-го порядка и выше  дополнительное преобразование крайне маловероятно.</p>
+  <p>Порубим на гуляш несколько крупных жаб:</p>
+  <p><u>Задача</u></p>
+  <p>Решить систему линейных уравнений по формулам Крамера<br>
+      <img align="absmiddle"  width="149" height="91" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image145.gif"></p>
+  <p>Ничего страшного, если вы ещё не успели ознакомиться с <strong><a href="pravilo_kramera_matrichnyi_metod.html">методом Крамера</a></strong>, в этом случае можно  просто посмотреть, как понижается порядок у определителя «четыре на четыре». Да  и само правило станет понятно, если чуть-чуть вникнуть в ход решения.</p>
+  <p><strong>Решение</strong>: сначала  вычислим <em>главный определитель</em> системы:<br>
+      <img align="absmiddle"  width="143" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image147.gif"></p>
+  <p>Есть возможность пойти стандартным путём, разложив данный  определитель по строке либо столбцу. Вспоминая алгоритм первого урока, и,  используя придуманную мной  матрицу  знаков <img align="absmiddle"  width="93" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image149.gif">, раскроем определитель, например, по «классической» первой  строке:<br>
+      <img align="absmiddle"  width="551" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image151.gif"></p>
+  <p>Не вижу вашего энтузиазма =) Безусловно, можно посидеть  минут десять и аккуратно-внимательно родить правильный ответ. Но беда в том,  что в дальнейшем предстоит вычислить ещё 4 определителя четвёртого порядка.  Поэтому единственный разумный выход – понизить порядок определителя.</p>
+  <p>Единиц в определителе много, и наша задача выбрать лучший  вариант. Вспоминаем золотое правило: в строке (столбце) нулей должно быть  побольше, и числа – поменьше. По этой причине вполне подходит вторая строка  либо четвёртый столбец. Четвёртый столбец выглядит привлекательнее, причём, там  есть две единицы. В качестве «мишени» выбираем элемент <img align="absmiddle"  width="43" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image153.gif">:<br>
+      <img align="absmiddle"  width="134" height="100" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image155.jpg"></p>
+  <p>Первая строка не изменится. И вторая тоже – там уже  необходимый ноль:<br>
+      <img align="absmiddle"  width="244" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image157.gif"></p>
+  <p>К третьей строке прибавим первую  строку, умноженную на –1 <em>(смотрим и считаем  снизу вверх</em>):<br>
+      <img align="absmiddle"  width="168" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image159.gif"></p>
+  <p><strong><em>! Внимание ещё раз</em></strong><em>: <strong>Не нужно</strong> из третьей строки <strong>вычитать</strong> первую строку. Только  складываем!</em></p>
+  <p>Результат записываем в третью строку:<br>
+      <img align="absmiddle"  width="267" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image161.gif"></p>
+  <p>К четвёртой строке прибавим первую строку, умноженную на 3 <em>(смотрим и считаем снизу вверх</em>):<br>
+      <img align="absmiddle"  width="163" height="109" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image163.gif"></p>
+  <p>Результат записываем в четвёртую строку:<br>
+      <img align="absmiddle"  width="577" height="137" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image165.gif"></p>
+  <p>(1) Раскрываем определитель по четвёртому столбцу. Не  забываем, что к элементу <img align="absmiddle"  width="43" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image153_0000.gif"> нужно добавить «минус»  (см. матрицу знаков).</p>
+  <p>(2) Порядок определителя понижен до 3-го. В принципе, его  можно разложить по строке (столбцу), но лучше отработаем свойства определителя.  Вносим минус во вторую строку.</p>
+  <p>(3) Ко второй строке прибавим первую строку, умноженную на  3. К третьей строке прибавим первую строку, умноженную на 7.</p>
+  <p>(4) Раскрываем определитель по второму столбцу, тем самым  ещё понижая его порядок до двух.</p>
+  <p>Заметьте, как сократилось решение! Главное, немного «набить  руку» на элементарных преобразованиях, и такая возможность представится прямо  сейчас. К тому же в вашем распоряжении есть калькулятор, который считает  определители (в частности, его можно найти на странице <strong><a href="matematicheskie_formuly.html">Математические формулы и таблицы</a></strong>). С помощью калькулятора легко  контролировать выполняемые действия. Получили определитель <img align="absmiddle"  width="112" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image167.gif"> на первом шаге – и  сразу проверили, равен ли он исходному определителю.</p>
+  
+  <p>Итак, <img align="absmiddle"  width="77" height="17" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image169.gif">, значит, система имеет единственное решение.</p>
+  <p>Вычислим определитель <img align="absmiddle"  width="155" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image171.gif">.</p>
+  <p>Появился ещё один ноль и очень вкусно выглядит третья  строка. При этом в качестве «мишени» выгоднее выбрать элемент <img align="absmiddle"  width="53" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image173.gif">, получив нули в третьей строке:<br>
+      <img align="absmiddle"  width="142" height="101" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image175.jpg"></p>
+  <p>Тут даже умножать ничего не надо:<br>
+    Ко второму столбцу прибавим третий столбец: <img align="absmiddle"  width="72" height="87" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image177.gif">. <br>
+    И к 4-му столбцу прибавим третий столбец: <img align="absmiddle"  width="73" height="87" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image179.gif"><em>(смотрим и считаем  справа налево</em>)</p>
+  <p>Решаем дальше:<br>
+      <img align="absmiddle"  width="601" height="137" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image181.gif"></p>
+  <p>(1) Раскрываем определитель по третьей строке. Порядок  определителя понижен до трёх.</p>
+  <p>(2) Вносим «минус» в первый столбец.</p>
+  <p>(3) Ко второй строке прибавим первую строку, умноженную на  3. К третьей строке прибавим первую строку, умноженную на 5.</p>
+  <p>(4) Раскрываем определитель по второму столбцу, понижая  порядок определителя до двух.</p>
+  <p>По <strong><a href="pravilo_kramera_matrichnyi_metod.html">формулам Крамера</a></strong>:<br>
+      <img align="absmiddle"  width="124" height="39" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image183.gif"></p>
+  <p>Вычислим определитель <img align="absmiddle"  width="155" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image185.gif">.</p>
+  <p>Так получается, что в рассматриваемых определителях у нас  есть нули, в произвольной же задаче их может и не быть. Поэтому для  разнообразия оставим нули в покое и раскроем определитель не очень выгодным способом.  Выберем элемент <img align="absmiddle"  width="43" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image187.gif"> и получим нули в  первой строке:<br>
+      <img align="absmiddle"  width="138" height="99" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image189.jpg"></p>
+  <p>Поехали:<br>
+      <img align="absmiddle"  width="637" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image191.gif"><br>
+    (1) К первому столбцу прибавим третий столбец, умноженный на  –3. Ко второму столбцу прибавим третий столбец, умноженный на 8. К четвёртому столбцу  прибавим третий столбец, умноженный на –1.</p>
+  <p>(2) Раскрываем определитель по первой строке. Порядок  определителя понижен до трёх.</p>
+  <p>(3) Ко второму столбцу прибавим первый столбец, умноженный  на 5. К третьему столбцу прибавим первый столбец, умноженный на –2.</p>
+  <p>(4) Раскрываем определитель по первой строке. Порядок  определителя понижен до двух.</p>
+  <p>(5) Столбцы определителя пропорциональны, значит, он равен  нулю.</p>
+  <p>По <strong><a href="pravilo_kramera_matrichnyi_metod.html">формулам Крамера</a></strong>:<br>
+      <img align="absmiddle"  width="119" height="39" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image193.gif"></p>
+  <p><u>Задание 5</u></p>
+  <p>Самостоятельно вычислить определители <img align="absmiddle"  width="336" height="89" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image195.gif"> <br>и найти <img align="absmiddle"  width="37" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image197.gif"></p>
+  <p>Концовка решения и ответ на дне страницы. Ваш путь решения  может отличаться от моего пути решения, важно, чтобы совпали ответы. </p>
+  <p>Выбор строки или столбца для преобразований нередко обусловлен  не только числами, но и удобством решения с субъективной точки зрения. Кому-то  удобнее решать по строкам, а кому-то по столбцам. У чайников особенно популярен  выбор «мишени» в первой строке, поскольку процесс будет напоминать <strong><a href="metod_gaussa_dlya_chainikov.html">метод Гаусса</a></strong>. </p>
+  <p>Замечательный получается у нас <strong><a href="kompleksnye_chisla_dlya_chainikov.html">комплексный</a></strong> обед, и пришло время десерта:<br>
+      <img align="absmiddle"  width="116" height="112" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image199.gif"></p>
+  <p>Это уже даже не жаба, это сам Годзилла. Возьмём заготовленный стакан  апельсинового сока и посмотрим, как понижается порядок определителя. Алгоритм,  думаю, понятен: с пятого порядка понижаем до четвёртого, с четвёртого – до  третьего и с третьего – до второго:</p>
+  <p><img align="absmiddle"  width="595" height="319" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image201.gif"></p>
+  <p>(1) К первой, третьей, четвертой  и пятой строкам прибавим вторую строку.</p>
+  <p>(2) Раскрываем определитель по  3-му столбцу. Порядок определителя понизился до четырёх.</p>
+  <p>(3) Из 4-го столбца выносим 2.  Первую строку умножаем на –1, и чтобы определитель не изменился, ставим перед  ним «минус». Данное преобразование выполнено в целях упростить дальнейшие  вычисления.</p>
+  <p>(4) Ко второй и третьей строкам  прибавим первую строку. К четвертой строке прибавим первую строку, умноженную  на 3.</p>
+  <p>(5) Раскрываем определитель по  4-му столбцу. Порядок понижен до трёх.</p>
+  <p>(6) Раскрываем определитель по  2-му столбцу. Порядок понижен до двух.</p>
+  <p>(7) Выносим «минус» из 1-го столбца. </p>
+  <p>Всё вышло проще, чем казалось, у всех монстров есть слабые  места!</p>
+  <p>Неутомимые читатели могут попробовать решить определитель  пятого порядка каким-нибудь другим способом, благо, единиц в нём тьма.</p>
+  <p>Заходите, завтра в меню крокодилы!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Задание 1: <strong>Решение</strong>:</em><br>
+      <em><img align="absmiddle"  width="505" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image203.gif"></em></p>
+  <p><em>Задание 2: <strong>Решение</strong>: определитель выгоднее  вычислить по третьей строке:</em><br>
+      <em><img align="absmiddle"  width="387" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image205.gif"></em><br>
+      <em>Разложение по первому  столбцу менее рационально – там числа больше, и вычисления чуть более  громоздкие.</em></p>
+  <p><em>Задание 3: <strong>Решение</strong>: </em><br>
+      <em><img align="absmiddle"  width="436" height="140" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image207.gif"></em></p>
+  <p><em>(1) Из первой строки  вынесли 13, из второй строки вынесли 2, из третьей строки вынесли 5.</em><br>
+      <em>(2) Из второго столбца  вынесли –7.</em><br>
+      <em>(3) Разложили  определитель по первому столбцу.</em></p>
+  <p><em>Задание 4: <strong>Решение</strong>: Понизим порядок определителя,  получив нули во второй строке:</em><br>
+    <em><img align="absmiddle" width="340" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image209.gif"></em>  <br>
+      <em>К первому столбцу  прибавили второй столбец, умноженный на 2. К третьему столбцу прибавили второй  столбец. Определитель раскрыли по второй строке.</em></p>
+  <p><em>Понизим порядок  определителя, получив нули во втором столбце:</em><br>
+    <em><img align="absmiddle" width="337" height="68" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image211.gif"></em>  <br>
+      <em>К первой строке  прибавили вторую строку, умноженную на –2. К третьей строке прибавили вторую  строку, умноженную на 2. Определитель раскрыли по второму столбцу.</em></p>
+  <p><em>Задание 5: <strong>Решение</strong>:</em><br>
+    <em><img align="absmiddle"  width="521" height="137" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image213.gif"></em>  <br>
+      <em>(1) К первой строке  прибавим третью строку, умноженную на 3. Ко второй строке прибавим третью  строку, умноженную на 5. К 4-й строке прибавим третью строку, умноженную на 2.</em><br>
+      <em>(2) Раскрываем  определитель по первому столбцу.</em><br>
+      <em>(3) Ко второму столбцу  прибавим третий столбец, умноженный на 9. К первому столбцу прибавим третий  столбец.</em><br>
+      <em>(4) Раскрываем  определитель по третьей строке.</em><br>
+      <em><img align="absmiddle"  width="123" height="39" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image215.gif"></em></p>
+  <p><em><img align="absmiddle"  width="519" height="159" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image217.gif"></em><br>
+      <em>(1) К первому столбцу  прибавим второй столбец. К третьему столбцу прибавим второй столбец</em><br>
+      <em>(2) Раскрываем  определитель по третьей строке.</em><br>
+      <em>(3) Вносим «минус» в  первую строку.</em><br>
+      <em>(4) Ко второй строке  прибавим первую строку, умноженную на 6. К третьей строке прибавим первую  строку</em><br>
+      <em>(5) Раскрываем  определитель по первому столбцу.</em><br>
+      <em><img align="absmiddle"  width="128" height="39" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image219.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="184" height="21" src="i/svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya_clip_image221.gif"></em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,897 @@
+<html>
+<head>
+<title>Показательное распределение вероятностей</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="показательный закон распределения, экспоненциальное распределение вероятностей, примеры решения, закон распределения с экспонентной, вычислить математическое ожидание и дисперсию с экспонентой">
+<meta name="Description" content="Ну вот, теперь избушка повернулась к нам передом, а к лесу задом, и стало понятно, что…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Показательное распределение вероятностей</strong><br>
+  </h1>
+  <br>
+ 
+  <p>Продолжаем изучать особые виды распределений <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">непрерывной случайной величины</a></strong>. <em>Показательным</em> или <em>экспоненциальным</em> называют распределение, которое характеризуется  следующей <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">функцией плотности</a></strong>:<br>
+    <img align="absmiddle" width="183" height="48" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image002.gif">, где <img align="absmiddle" width="39" height="19" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image004.gif"></p>
+  <p>Убедимся в том, что перед нами не «подделка». Поскольку <img align="absmiddle" width="60" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image006.gif"> и <strong><a href="nesobstvennye_integraly.html">несобственный интеграл</a></strong>:<br>
+      <img align="absmiddle" width="631" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image008.gif">, то функция <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image010.gif"> действительно задаёт  закон распределения НСВ. </p>
+  <p>Большим достоинством показательного распределения является  тот факт, что оно определяется всего лишь одним параметром. Всего лишь одним,  Карл! …нет, лучше, конечно, вообще отсутствие параметров, но дальше их  количество будет только возрастать =)</p>
+  <p>Как-то так получилось, что во всех примерах статьи о <strong><a href="ravnomernoe_raspredelenie_veroyatnostei.html">равномерном распределении</a></strong> мы начинали с  функции <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image010_0000.gif">, и поэтому для разнообразия зайдём в лес с другой стороны:</p>
+  <p><u>Задача</u></p>
+  <p>Непрерывная случайная величина <img align="absmiddle" width="19" height="17" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image013.gif"> задана своей <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">функцией распределения</a></strong>:<br>
+      <img align="absmiddle" width="163" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image015.gif"></p>
+  <p>Требуется:</p>
+  <p>1) определить коэффициент <img align="absmiddle" width="16" height="17" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image017.gif">;<br>
+    2) найти плотность распределения  вероятностей <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image010_0001.gif">;<br>
+    3) схематично построить графики  функций <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image020.gif"> и <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image010_0002.gif">;<br>
+    4) вычислить математическое  ожидание и дисперсию <img align="absmiddle" width="19" height="17" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image013_0000.gif">;<br>
+    5) определить вероятность того,  что <img align="absmiddle" width="19" height="17" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image013_0001.gif"> примет значение из  интервала <img align="absmiddle" width="48" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image023.gif">.</p>
+  <p>Одним словом, обычная задача на <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">НСВ</a></strong> <s>бессмысленная и беспощадная</s>.</p>
+  <p><strong>Решаем</strong>: </p>
+  <p>1) В силу <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">непрерывности  функции распределения</a></strong>:<br>
+      <img align="absmiddle" width="265" height="24" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image025.gif"> – при этом <strong>и только при этом значении</strong> предложенная  функция задаёт закон распределения   непрерывной случайной величины:<br>
+      <img align="absmiddle" width="151" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image027.gif"></p>
+  <p>Пока, кстати, мы не знаем, что это за закон, ведь вверху я  привёл другое определение.</p>
+  <p>2) Найдём функцию плотности распределения:<br>
+      <img align="absmiddle" width="181" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image029.gif"><br>
+    надеюсь, все в ладах с <strong><a href="proizvodnaya_slozhnoi_funkcii.html">производной  сложной функции</a></strong>: <img align="absmiddle" width="193" height="24" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image031.gif">.</p>
+  <p>Ну вот, теперь избушка повернулась к нам передом, а к лесу  задом. Поскольку данная функция имеет вид <img align="absmiddle" width="183" height="48" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image002_0000.gif">, то случайная величина <img align="absmiddle" width="19" height="17" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image013_0002.gif"> распределена  показательно. Даже образцово-показательно, т.к. значение <img align="absmiddle" width="36" height="19" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image034.gif"> наиболее приятно.</p>
+  <p>3) Условие допускает схематическое построение графиков, но зачем  занижать планку? Даже при их ручном построении не составляет никакого труда  найти пару дополнительных точек и проявить маломальскую аккуратность.</p>
+  <p>Вычислим пару значений <img align="absmiddle" width="409" height="24" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image036.gif"> и простенький <strong><a href="predely_primery_reshenii.html">предел</a></strong> <img align="absmiddle" width="197" height="31" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image038.gif">. Таким образом, <strong><a href="uravnenie_pryamoi_na_ploskosti.html">прямая</a></strong> <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image040.gif"> является <strong><a href="asimptoty_grafika_funkcii.html">горизонтальной асимптотой</a></strong> для графика <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image020_0000.gif"> при <img align="absmiddle" width="56" height="16" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image043.gif">:<br>
+      <img align="absmiddle" width="450" height="177" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image045.jpg"><br>
+    Показательное распределение нашло широкое применение в прикладных  задачах, и пока чертёж «не уехал вверх» я приведу конкретный пример. Пусть переменная «икс»  обозначает <em>время</em> и в момент времени <img align="absmiddle" width="37" height="19" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image049.gif"> начинает  эксплуатироваться некий прибор, например, обычная лампочка. Случайная величина <img align="absmiddle" width="19" height="17" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image013_0003.gif"> – <em>время  работы лампочки до  перегорания</em>. Тогда функция <img align="absmiddle" width="113" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image052.gif"> описывает вероятность  того, что лампочка проработает МЕНЬШЕ, чем прошедшее время <img align="absmiddle" width="13" height="15" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image054.gif">. И по понятным причинам при увеличении <img align="absmiddle" width="13" height="15" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image054_0000.gif"> эта вероятность  стремится к единице, что хорошо иллюстрирует вышеприведённый график.</p>
+  <p>Кстати, о чём идёт речь в 5-м пункте условия? В контексте  рассматриваемого примера, нам нужно найти <img align="absmiddle" width="101" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image056.gif"> – вероятность того,  что лампочка проработает более 2 тыс. часов <em>(значения,  естественно, условные)</em>. Давайте сразу и вычислим эту вероятность:<br>
+      <img align="absmiddle" width="448" height="24" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image058.gif"></p>
+  <p>Ситуацию наглядно иллюстрирует чертёж ПЛОТНОСТИ  распределения вероятностей:<br>
+      <img align="absmiddle" width="450" height="167" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image059.jpg"><br>
+    Площадь между графиком <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image010_0003.gif"> и осью абсцисс равна  единице <em>(проверено в начале статьи)</em>,  и значительная часть этой площади (а именно, <img align="absmiddle" width="45" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image062.gif">) сосредоточена на промежутке от 0 до 2.</p>
+  <p>Применительно к «электрическому» примеру, <strong><a href="opredelennye_integraly_primery_reshenij.html">определённый интеграл</a></strong> <img align="absmiddle" width="60" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image064.gif"> равен вероятности  того, что лампочка проработает от 0 до <img align="absmiddle" width="13" height="18" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image066.gif"> тыс. часов. В  частности, как раз:<br>
+      <img align="absmiddle" width="466" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image068.gif">.</p>
+  <p>И, наверное, все поняли, что несобственный интеграл <img align="absmiddle" width="63" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image070.gif"> – есть вероятность  того, что лампочка проработает более <img align="absmiddle" width="13" height="18" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image066.gif"> тыс. часов, и <em>Пункт 5</em> можно решить вторым способом:<br>
+    <img align="absmiddle" width="647" height="49" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image072.gif">
+  <br>
+    4) Вычислим <strong><a href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">математическое  ожидание</a></strong> и <strong><a href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">дисперсию</a></strong>. </p>
+  <p>Здесь есть короткий путь, и есть универсальный. Начнём с общей  формулы математического ожидания, которая приводит нас к следующему  несобственному интегралу:<br>
+    <img align="absmiddle" width="196" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image074.gif">    </p>
+  <p>Сначала удобно найти <strong><a href="integraly_primery_reshenij.html">неопределенный интеграл</a></strong>:<br>
+      <img align="absmiddle" width="91" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image076.gif"></p>
+  <p>Вспоминаем <strong><a href="integrirovanie_po_chastyam.html">интегрирование по частям</a></strong>:<br>
+      <img align="absmiddle" width="147" height="79" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image078.gif"></p>
+  <p><img align="absmiddle" width="377" height="41" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image080.gif">, произвольную константу приплюсовывать не надо, т.к.  она всё равно сократится:</p>
+  <p><img align="absmiddle" width="431" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image082.gif"></p>
+  <p>Дробь <img align="absmiddle" width="67" height="41" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image084.gif"> по той причине, что  знаменатель <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого порядка роста</a></strong>,  чем числитель. </p>
+  <p>…вот видите, как нам пригодился математический анализ, а вы  всё говорили «зачем это нужно, зачем это нужно» =)</p>
+  <p>Дисперсию вычислим по формуле:<br>
+    <img align="absmiddle" width="203" height="49" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image086.gif">  </p>
+  <p>И из избушки на курьих ножках  появляется следующий интеграл:<br>
+      <img align="absmiddle" width="153" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image088.gif"></p>
+  <p>Как и в случае с матожиданием,  сначала проясним первообразную:<br>
+      <img align="absmiddle" width="97" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image090.gif"></p>
+  <p>По канонам жанра тут нужно дважды <strong><a href="integrirovanie_po_chastyam.html">интегрировать по частям</a></strong>, но решение облегчается тем, что после 1-го  применения формулы <img align="absmiddle" width="116" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image092.gif"> мы сталкиваемся с  только что решённым интегралом:<br>
+      <img align="absmiddle" width="144" height="48" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image094.gif"></p>
+  <p><img align="absmiddle" width="424" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image096.gif"></p>
+  <p>Таким образом, несобственный  интеграл:<br>
+      <img align="absmiddle" width="483" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image098.gif"></p>
+  <p>Здесь <img align="absmiddle" width="107" height="44" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image100.gif"> по той же самой  причине – <strong><a href="metody_resheniya_predelov_neopredelennosti.html">порядок роста</a></strong>.</p>
+  <p>И, наконец, дисперсия:<br>
+      <img align="absmiddle" width="157" height="24" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image102.gif"></p>
+  <p>«Наконец», потому что Пункт 5)  уже разобран вместе с его ламповым смыслом =) </p>
+  <p>Пункты решения можно переставлять, т.к. они бывают  расположены неудобно, а иногда и совершенно несуразно. </p>
+  <p>Готово.</p>
+  <p>Показательное распределение нашло широкое применение в <em>теории надёжности</em>, и этой теме даже  посвящены отдельные главы учебного пособия В.Е. Гмурмана. Помимо лампочек и  более грустных примеров существуют и другие приложения. Так, например, в <strong><a href="raspredelenie_i_formula_puassona.html">простейшем потоке событий</a></strong>, время ожидания  каждого последующего события распределено по экспоненциальному закону. Проанализируйте  работу диспетчера такси самостоятельно.</p>
+  <p>И для самостоятельного решения я предлагаю вам не только  интересное, но ещё и крайне полезное <u>Задание:</u></p>
+  <p>1) Дать определение показательного распределения вторым  способом, с помощью функции распределения.</p>
+  <p>В начале статьи я привёл формулировку через плотность <img align="absmiddle" width="243" height="48" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image104.gif">, и теперь ваша очередь – <strong><a href="nepreryvnaya_sluchaynaya_velichina.html">найдите функцию</a></strong> <img align="absmiddle" width="36" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image020_0001.gif"> и запишите грамотный  ответ на поставленный вопрос.</p>
+  <p>2) Вывести формулы математического ожидания и дисперсии. </p>
+  <p>Фактически тут нужно решить задачу в общем виде.</p>
+  <p>3) Записать закон распределения для <img align="absmiddle" width="39" height="19" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image107.gif"> и вычислить <img align="absmiddle" width="47" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image109.gif">  и <img align="absmiddle" width="43" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image111.gif">.</p>
+  <p>Полученными формулами можно пользоваться и на практике, но с  оглядкой. Будьте готовы к тому, что вас попросят привести подробные выкладки.</p>
+  <p>Дополнительных примеров с показательным распределением <a href="files/zadachi_nsv.pdf" target="_blank">совсем немного</a>. Впрочем, мы только что охватили все возможные случаи  =) Вот она, мощь одного параметра. </p>
+  <p>Да, в сводном <strong><a href="formuly_teorii_veroyatnostey.pdf" target="_blank">справочнике  по теории вероятностей</a></strong>, конечно, приведены  все частные формулы, но очень важно, чтобы вы умели получать их самостоятельно,  исходя из общих определений. Это один из основополагающих принципов изучения  математики, который красной нитью проходит через все её разделы.</p>
+  <p>Ну а сейчас пришло время зажечь новые огни  и перейти к кульминационной статье под  названием <strong><a href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение  вероятностей</a></strong>.</p>
+  <p>Интересного чтения!</p>
+  <p><u>Решение задания:</u></p>
+  <p><em>1) Составим функцию <img align="absmiddle" width="111" height="49" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image113.gif">:</em><br>
+      <em>– На интервале <img align="absmiddle" width="121" height="21" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image115.gif"> и <img align="absmiddle" width="88" height="49" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image117.gif">.</em><br>
+      <em>– На промежутке <img align="absmiddle" width="147" height="24" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image119.gif">, следовательно:</em><br>
+      <em><img align="absmiddle" width="557" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image121.gif"></em></p>
+  <p><em>Показательным называют  распределение, которое характеризуется функцией:</em><br>
+      <em><img align="absmiddle" width="272" height="48" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image123.gif">, где <img align="absmiddle" width="39" height="19" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image004_0000.gif"></em></p>
+  <p><em>2) Вычислим математическое ожидание:</em><br>
+      <em><img align="absmiddle" width="211" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image125.gif"> </em></p>
+  <p><em>Сначала найдём неопределённый интеграл:</em><br>
+    <em><img align="absmiddle" width="105" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image127.gif"></em>  </p>
+  <p><em>Интегрируем по частям:</em><br>
+      <em><img align="absmiddle" width="165" height="79" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image129.gif"></em></p>
+  <p><em><img align="absmiddle" width="523" height="45" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image131.gif"></em></p>
+  <p><em>Таким образом:</em><br>
+    <em><img align="absmiddle" width="628" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image133.gif"></em>  </p>
+  <p><em>Дисперсию вычислим по  формуле:</em><br>
+      <em><img align="absmiddle" width="203" height="49" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image086.gif"></em></p>
+  <p><em>В данном случае:</em><br>
+      <em><img align="absmiddle" width="169" height="51" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image135.gif"></em></p>
+  <p><em>Сначала найдём неопределенный интеграл:</em><br>
+      <em><img align="absmiddle" width="112" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image137.gif"></em></p>
+  <p><em>Интегрируем по частям:</em><br>
+      <em><img align="absmiddle" width="165" height="83" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image139.gif"></em></p>
+  <p><em><img align="absmiddle" width="201" height="29" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image141.gif"></em></p>
+  <p><em>чтобы воспользоваться уже известным интегралом, умножим и разделим на  «лямбда»:</em><br>
+      <br>
+      <em><img align="absmiddle" width="521" height="45" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image143.gif"></em></p>
+  <p><em>Несобственный интеграл:</em><br>
+      <em><img align="absmiddle" width="428" height="99" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image145.gif"></em></p>
+  <p><em>Таким образом, дисперсия:</em><br>
+      <em><img align="absmiddle" width="224" height="49" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image147.gif"></em></p>
+  <p><em>3) Запишем показательный закон для <img align="absmiddle" width="39" height="19" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image107_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="196" height="48" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image150.gif"></em></p>
+  <p><em>Вычислим математическое ожидание и дисперсию:</em><br>
+    <em><img align="absmiddle" width="253" height="41" src="s/pokazatelnoe_raspredelenie_veroyatnostei_clip_image152.gif"></em>  </p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,871 @@
+<html>
+<head><title>Дискретный вариационный ряд. Полигон частот и эмпирическая функция распределения</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="дискретный вариационный ряд, составить вариационный ряд, варианты, частоты, относительные частоты, примеры решений, полигон частот, как построить, эмпирическая функция распределения, как построить в excel, примеры, теоретическая функция распределения">
+<meta name="Description" content="Практикум с подробными примерами, чертежами и техникой рациональных вычислений">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">2. Дискретный вариационный ряд.<br>
+    Полигон частот и эмпирическая функция распределения
+  </h1>
+  
+ <br>
+  <p>На вводном уроке по <strong><a href="matematicheskaya_statistika.html">математической  статистике</a></strong> мы узнали, что такое математическая статистика, и теперь обо  всём подробнее. Далее для удобства я буду нумеровать статьи и постараюсь делать  их не слишком длинными. Потому что всё действительно просто, и главное, здесь  научиться рациональной технике вычислений, на которую и будет сделан особый  упор.</p>
+  <p><em>Интервальные</em> и <em>дискретные</em> <em>вариационные ряды</em> почти сразу же встретились в предыдущей статье, и  мы начинаем с дискретного случая, когда количественная <strong><em>эмпирическая</em></strong> величина <img align="absmiddle" width="19" height="17" src="s/diskretnyi_variacionnyi_ryad_clip_image002.gif"> может принимать лишь отдельные  изолированные значения.</p>
+  <p>…что-то не понятно по терминам? Срочно изучать первый урок! <em>(ссылка выше)</em></p>
+  <p><strong>Дискретный  вариационный ряд </strong>– это упорядоченное по возрастанию <em>(как правило)</em> множество <em>вариант</em> <img align="absmiddle" width="99" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image004.gif"> (значений величины <img align="absmiddle" width="19" height="17" src="s/diskretnyi_variacionnyi_ryad_clip_image002_0000.gif">) и соответствующих им <em>частот</em> либо <strong><em>относительных  частот</em></strong>.</p>
+  <p>Частоты <em>выборочной  совокупности</em> обозначают через <img align="absmiddle" width="100" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image006.gif">, частоты <em>генеральной  совокупности</em> – через <img align="absmiddle" width="117" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image008.gif">. И сразу разбираемся с новым термином. <em>Относительные частоты</em> рассчитываются по  формулам:</p>
+  <p><img align="absmiddle" width="251" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image010.gif">, где <img align="absmiddle" width="155" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image012.gif"> – <em>объем</em> выборки, при этом, сумма всех относительных частот: <img align="absmiddle" width="163" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image014.gif">.</p>
+  <p>Аналогично для совокупности генеральной:<br>
+      <img align="absmiddle" width="272" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image016.gif">, где <img align="absmiddle" width="179" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image018.gif"> – её <em>объем</em>, и, очевидно: <img align="absmiddle" width="167" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image020.gif"></p>
+  <p>И тут вспоминается <strong><em><a href="matematicheskaya_statistika.html">Пример 2</a></em></strong> об оценках по матанализу в  группе из <img align="absmiddle" width="51" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image022.gif"> студентов:<br>
+      <img align="absmiddle" width="248" height="61" src="s/diskretnyi_variacionnyi_ryad_clip_image024.jpg"><br>
+    – пожалуйста, пример дискретного вариационного ряда, где <em>варианты</em> <img align="absmiddle" width="16" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image026.gif"> – это оценки, а <em>частоты</em> <img align="absmiddle" width="20" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image028.gif"> – количество  студентов, получивших ту или иную оценку.</p>
+  <p>Для разминки найдём относительные частоты:<br>
+      <img align="absmiddle" width="575" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image030.gif"></p>
+  <p>и непременно проконтролируем, что: <img align="absmiddle" width="295" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image032.gif">.</p>
+  <p>Все вычисления обычно проводят на калькуляторе либо в  Экселе, а результаты заносят в таблицу, при этом, <strong>в статистике данные чаще располагают не в строках, а в столбцах</strong>:<br>
+      <img align="absmiddle" width="153" height="150" src="s/diskretnyi_variacionnyi_ryad_clip_image034.jpg"><br>
+    Такое расположение обусловлено тем, что количество <em>вариант</em> может быть достаточно велико, и  они просто не вместятся в строчку. Не редкость, когда их 10-20, а бывает, и  100-200, что тоже и неоднократно встречалось в моей практике. И это не какие-то  супер-пупер расчёты, а учебные задачи!</p>
+  <p>После сей позитивной новости продолжаем :)</p>
+  <p>Откуда берутся дискретные вариационные ряды? Такие ряды появляются в результате учёта <em>дискретной характеристики</em> статистической совокупности, причём, <em>варианты</em> ряда не отличаются большим  разнообразием. Например, оценки (коих не так много) в примере выше.</p>
+  <p>И сейчас мы примем непосредственное участие в этом  процессе:</p>
+  <p><u>Пример 4</u></p>
+  <p>По результатам <strong><a href="matematicheskaya_statistika.html">выборочного  исследования</a></strong> рабочих цеха были установлены их квалификационные разряды: 4,  5, 6, 4, 4, 2, 3, 5, 4, 4, 5, 2, 3, 3, 4, 5, 5, 2, 3, 6, 5, 4, 6, 4, 3.  Требуется: </p>
+  <p>– составить вариационный ряд и построить <strong><em>полигон  частот</em></strong>;<br>
+    – найти относительные частоты и построить <strong><em>эмпирическую  функцию распределения</em></strong>.</p>
+  <p>Чего томиться? – вся тема урока в одной задаче!</p>
+  <p><strong>Решение</strong>: в  условии прямо сказано о том, что перед нами <em>выборка</em> из генеральной совокупности (всех рабочих цеха), и первое, что логично сделать  – подсчитать её <em>объем</em>, т.е.  количество рабочих. В данном случае это легко сделать устно: <img align="absmiddle" width="45" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image036.gif">.</p>
+  <p>Квалификационные разряды – есть величина <em>дискретная</em>, и поэтому нам предстоит  составить дискретный вариационный ряд <em>(обратите  внимание, что в условии ничего не сказано о характере ряда)</em>.</p>
+  <p>Как это сделать?</p>
+  <p>Если у вас под рукой нет вычислительных программ, то вручную <em>(Эксель разберём ниже)</em>. При этом  оптимальным может быть следующий алгоритм: сначала окидываем взглядом все числа  и определяем среди них минимальное (примерно) и максимальное (примерно). В  данном случае ориентировочный диапазон – от 1 до 7. Записываем их в столбец на  черновике и обводим в кружочки. Далее начинаем вычёркивать карандашом числа из  исходного списка:<br>
+      <img align="absmiddle" width="444" height="27" src="s/diskretnyi_variacionnyi_ryad_clip_image038.jpg"><br>
+    и делать около соответствующих кружков засечки:<br>
+  <img align="absmiddle" width="68" height="163" src="s/diskretnyi_variacionnyi_ryad_clip_image040.jpg"></p>
+  <p>После того, как все числа будут вычеркнуты, подсчитываем  количество засечек в каждой строке:<br>
+      <img align="absmiddle" width="158" height="167" src="s/diskretnyi_variacionnyi_ryad_clip_image042.jpg"><br>
+    И обязательно проверяем, получается ли у нас в сумме объём  выборки <img align="absmiddle" width="13" height="15" src="s/diskretnyi_variacionnyi_ryad_clip_image044.gif">:<br>
+  <img align="absmiddle" width="135" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image046.gif">, отлично, искомый ряд составлен, заносим полученные значения  в таблицу на чистовик:<br>
+  <img align="absmiddle" width="76" height="243" src="s/diskretnyi_variacionnyi_ryad_clip_image048.jpg"><br>
+    …ну что же, вполне и вполне логично – рабочих средней  квалификации <strong><a href="normalnoe_raspredelenie_veroyatnostei.html">много</a></strong>, а учеников и  мастеров – мало. Полученные результаты позволяют достаточно точно судить об  уровне квалификации всего цеха (если, конечно, выборка <em><a href="matematicheskaya_statistika.html">представительна</a></em>)</p>
+  <p>Построенный вариационный ряд также называют <strong><em>статистическим  распределением выборки</em></strong>, причём, этот термин применИм не только для  дискретного, но и для <strong><a href="intervalnyi_variacionnyi_ryad.html">интервального ряда</a></strong>,  который мы рассмотрим на следующем уроке. </p>
+  <p>Построим полигон частот. Это статистический аналог <strong><a href="funkcia_raspredeleniya_dsv.html">многоугольника распределения</a></strong> <a href="funkcia_raspredeleniya_dsv.html"><strong>дискретной случайной величины</strong></a> (кто  изучал). Полигон частот – это <em>ломаная</em>,  соединяющая соседние точки <img align="absmiddle" width="48" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image050.gif">:<br>
+      <img align="absmiddle" width="287" height="329" src="s/diskretnyi_variacionnyi_ryad_clip_image052.jpg"><br>
+    …эх, ностальгия. Но, пятилетку-другую, думается, так решать ещё  будут.</p>
+  <p>Теперь современный способ:</p>
+  <p><u>Задание 1</u></p>
+  <p><strong><a href="files/u/statistika_zadanie_1.xls">Самостоятельно решить  данную задачу в Экселе</a></strong> (прямо в открывшемся файле). </p>
+  <p>Решаем! – исходные данные с пошаговой инструкцией  прилагаются.</p>
+  <p>Вторая часть задачи. Найдём относительные частоты <img align="absmiddle" width="51" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image054.gif">, для этого каждую частоту <img align="absmiddle" width="16" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image056.gif"> делим на <img align="absmiddle" width="45" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image036_0000.gif"> и результат заносим в  дополнительный столбец, далее я перехожу к электронной версии:<br>
+      <img align="absmiddle" width="154" height="172" src="s/diskretnyi_variacionnyi_ryad_clip_image059.jpg"><br>
+    – обязательно проверяем, что сумма относительных частот  равна единице!</p>
+  <p>Иногда требуется построить <strong><em>полигон относительных частот</em></strong>.  Как вы правильно догадываетесь – это ломаная, соединяющая соседние точки <img align="absmiddle" width="49" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image061.gif">. Но такое задание больше характерно для <strong><a href="intervalnyi_variacionnyi_ryad.html">интервального вариационного ряда</a></strong>.</p>
+  <p>А теперь посмотрим на относительные частоты и задумаемся, на  что они похожи? …Правильно, на вероятности. Так, например, можно сказать, что <img align="absmiddle" width="64" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image063.gif"> – есть <em>примерная</em> вероятность того, что наугад  выбранный рабочий цеха будет иметь 4-й разряд. «Примерная» – по той причине, что  перед нами выборка. </p>
+  <p>А вот если учесть ВСЕХ рабочих цеха (всю генеральную  совокупность), то рассчитанные относительные частоты <img align="absmiddle" width="119" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image065.gif"> – и есть  в точности эти вероятности.</p>
+  <p>Построим <strong><em>эмпирическую функцию распределения</em></strong> <img align="absmiddle" width="43" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image067.gif">. Это статистический аналог <strong><a href="funkcia_raspredeleniya_dsv.html">функции распределения</a></strong> из тервера. Данная функция определяется, как  отношение:</p>
+  <p><img align="absmiddle" width="75" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image069.gif">, где <img align="absmiddle" width="19" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image071.gif"> – количество вариант  СТРОГО МЕНЬШИХ, чем <img align="absmiddle" width="13" height="15" src="s/diskretnyi_variacionnyi_ryad_clip_image073.gif">, <br>
+    при этом «икс» «пробегает» все значения от «минус» до «плюс»  бесконечности.</p>
+  <p>И процесс пошёл: </p>
+  <p>Очевидно, что на интервале <img align="absmiddle" width="152" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image075.gif">, и, кроме того, функция равна нулю ещё и в точке <img align="absmiddle" width="65" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image077.gif">. Почему? Потому, что значение <img align="absmiddle" width="43" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image079.gif"> определяет количество  вариант, которые СТРОГО меньше двух, а это количество равно нулю.</p>
+  <p>На промежутке <img align="absmiddle" width="251" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image081.gif"> – и опять обратите  внимание, что значение <img align="absmiddle" width="41" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image083.gif"> не учитывает рабочих  3-го разряда, т.к. речь идёт о вариантах, которые СТРОГО меньше трёх.</p>
+  <p>На промежутке <img align="absmiddle" width="389" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image085.gif">  и далее процесс  продолжается по принципу накопления частот:</p>
+  <p>– если <img align="absmiddle" width="60" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image087.gif">, то <img align="absmiddle" width="389" height="41" src="s/diskretnyi_variacionnyi_ryad_clip_image089.gif">;</p>
+  <p>– если <img align="absmiddle" width="60" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image091.gif">, то <img align="absmiddle" width="375" height="25" src="s/diskretnyi_variacionnyi_ryad_clip_image093.gif">;</p>
+  <p>– и, наконец, если <img align="absmiddle" width="73" height="19" src="s/diskretnyi_variacionnyi_ryad_clip_image095.gif">, то <img align="absmiddle" width="425" height="25" src="s/diskretnyi_variacionnyi_ryad_clip_image097.gif"> – и в самом деле, для  ЛЮБОГО «икс» из интервала <img align="absmiddle" width="55" height="21" src="s/diskretnyi_variacionnyi_ryad_clip_image099.gif"> ВСЕ частоты  расположены СТРОГО левее этого «икс».</p>
+  <p>Накопленные относительные частоты удобно записывать в отдельный  столбец таблицы, при этом алгоритм вычислений очень прост: сначала сносим слева  1-е значение <em>(красная стрелка)</em>, а  каждое следующее получаем как сумму предыдущего и относительной частоты из  текущего левого столбца <em>(зелёные  обозначения)</em>:<br>
+      <img align="absmiddle" width="203" height="171" src="s/diskretnyi_variacionnyi_ryad_clip_image101.jpg"><br>
+    Вот, кстати, ещё один довод за вертикальную ориентацию  данных – справа по надобности можно приписывать дополнительные столбцы.</p>
+  <p>Саму функцию принято записывать в кусочном виде:<br>
+      <img align="absmiddle" width="213" height="144" src="s/diskretnyi_variacionnyi_ryad_clip_image103.gif"></p>
+  <p>а её график представляет собой ступенчатую фигуру:<br>
+      <img align="absmiddle" width="409" height="253" src="s/diskretnyi_variacionnyi_ryad_clip_image105.jpg"></p>
+  <p>Эмпирическая функция распределения <strong><em><a href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">не  убывает</a></em></strong>  и принимает значения из  промежутка <img align="absmiddle"  width="87" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image300.gif">, и если у вас вдруг получится  не так, то ищите  ошибку.</p>
+  <p>И сейчас мы автоматизируем процесс; видео, к сожалению, не вписалось по ширине, посему смотрим его на Ютубе:</p>
+  <p><img align="absmiddle" src="images/video.jpg" border="0">&nbsp; <a href="https://youtu.be/DTGxY4jqg3k" target="_blank">Как построить эмпирическую функцию распределения?</a></p>
+  <p>Эмпирическая функция распределения <img align="absmiddle" width="43" height="24" src="s/diskretnyi_variacionnyi_ryad_clip_image107.gif"> строится по выборке и приближает <strong><em>теоретическую  функцию распределения</em></strong> <img align="absmiddle" width="36" height="21" src="s/diskretnyi_variacionnyi_ryad_clip_image109.gif">. Легко догадаться, что последняя образуется на основании  исследования всей генеральной совокупности, но если рабочих в цехе ещё  пересчитать можно, то звёзды на небе – уже вряд ли. Вот поэтому и важнА именно эмпирическая функция, и ещё важнее, чтобы выборка была <em>репрезентативна</em>, дабы приближение было хорошим.</p>
+  <p>Миниатюрная задача для закрепления материала:</p>
+  <p><u>Пример 5</u></p>
+  <p>Дано статистическое распределение выборки<br>
+      <img align="absmiddle" width="245" height="62" src="s/diskretnyi_variacionnyi_ryad_clip_image111.jpg"></p>
+  <p>Составить эмпирическую функцию распределения, выполнить  чертёж</p>
+  <p><u>Задание 2</u></p>
+  <p>Самостоятельно <strong><a href="files/u/statistika_zadanie_2.xls">решить  Пример 5 в Экселе</a></strong>, все числа и обозначения уже там.</p>
+  <p>Свериться с образцом можно ниже. По поводу красоты чертежа  сильно не запаривайтесь, главное, чтобы было правильно – этого обычно  достаточно для зачёта.</p>
+  <p>И я жду вас на третьем уроке, где речь пойдёт об <strong><a href="intervalnyi_variacionnyi_ryad.html">интервальном вариационном ряде</a></strong>.</p>
+  <p><u>Решения и ответы:</u></p>
+  <p><em>Пример 5. <strong>Решение:</strong> заполним расчётную таблицу:</em><br>
+      <em><img align="absmiddle" width="189" height="140" src="s/diskretnyi_variacionnyi_ryad_clip_image113.jpg"></em></p>
+  <p><em>Составим эмпирическую  функцию распределения:</em><br>
+      <em><img align="absmiddle" width="235" height="120" src="s/diskretnyi_variacionnyi_ryad_clip_image115.gif"></em></p>
+  <p><em>Выполним чертёж:</em><br>
+      <em><img align="absmiddle" width="460" height="300" src="s/diskretnyi_variacionnyi_ryad_clip_image117.jpg"></em></p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

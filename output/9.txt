@@ -1,0 +1,890 @@
+<html>
+<head>
+<title>Метод прямоугольников – безошибочно и быстро!</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="метод прямоугольников, правых прямоугольников, левых прямоугольников, средних прямоугольников, примеры решений, формулы метода прямоугольников">
+<meta name="Description" content="Читаем, решаем и смотрим кино! …о чём? Об интегралах, конечно =)">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Метод прямоугольников</strong></h1>
+  
+  <br>
+  <p>Метод прямоугольников – это, пожалуй, самый простой метод <em>приближённого вычисления</em> <strong><a href="opredelennye_integraly_primery_reshenij.html">определённого интеграла</a></strong>. И парадокс  состоит в том, что по этой причине <em>(видимо)</em> он довольно редко встречается на практике. Неудивительно, что данная статья  появилась на свет через несколько лет после того, как я рассказал о более  распространённых <strong><a href="formula_simpsona_metod_trapecij.html">методах трапеции и  Симпсона</a></strong>, где упомянул о прямоугольниках лишь вскользь. Однако на  сегодняшний день раздел об <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">интегралах</a></strong> практически завершён и поэтому настало время закрыть этот маленький пробел.  Читаем, вникаем и смотрим видео! ….о чём? Об интегралах, конечно =) 
+  <p>Постановка задачи уже была озвучена на указанном выше уроке,  и сейчас мы быстренько актуализируем материал:</p>
+  <p>Рассмотрим интеграл <img align="absmiddle" width="40" height="49" src="b/metod_prjamougolnikov_clip_image002.gif">. Он неберущийся. Но с другой стороны, подынтегральная  функция <img align="absmiddle" width="77" height="41" src="b/metod_prjamougolnikov_clip_image004.gif"> <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a></strong> на отрезке <img align="absmiddle" width="32" height="23" src="b/metod_prjamougolnikov_clip_image006.gif">, а значит, <em>конечная  площадь</em> существует. Как её вычислить? Приближённо. И сегодня, как вы  догадываетесь – методом прямоугольников.</p>
+  <p>Разбиваем промежуток интегрирования на 5, 10, 20 или бОльшее  количество равных <em>(хотя это не  обязательно)</em> отрезков, чем больше – тем точнее будет приближение. На каждом  отрезке строим прямоугольник, одна из сторон которого лежит на оси <img align="absmiddle" width="28" height="19" src="b/metod_prjamougolnikov_clip_image008.gif">, а противоположная – пересекает график подынтегральной  функции. Вычисляем площадь полученной ступенчатой фигуры, которая и будет  приближённой оценкой площади <img align="absmiddle" width="65" height="49" src="b/metod_prjamougolnikov_clip_image010.gif"> <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">криволинейной трапеции</a> </strong><em>(заштрихована  на 1-м рисунке)</em>.</p>
+  <p>Очевидно, что прямоугольники можно построить многими  способами, но стандартно рассматривают 3 модификации:</p>
+  <p>1) метод левых прямоугольников;<br>
+    2) метод правых прямоугольников;<br>
+    3) метод средних прямоугольников.</p>
+  <p>Оформим дальнейшие выкладки в рамках «полноценного» задания:</p>
+  <p><u>Пример 1</u></p>
+  <p>Вычислить определённый интеграл <img align="absmiddle" width="40" height="49" src="b/metod_prjamougolnikov_clip_image002_0000.gif"> приближённо:<br>
+    а) методом левых прямоугольников;<br>
+    б) методом правых прямоугольников.<br>
+  <br>
+    Промежуток интегрирования разделить на <img align="absmiddle" width="37" height="19" src="b/metod_prjamougolnikov_clip_image013.gif"> равных отрезков, результаты  вычислений округлять до 0,001</p>
+  <p><strong>Решение</strong>: признАюсь  сразу, я специально выбрал такое малое значение <img align="absmiddle" width="13" height="15" src="b/metod_prjamougolnikov_clip_image015.gif"> – из тех соображений,  чтобы всё было видно на чертеже – за что пришлось поплатиться точностью  приближений.</p>
+  <p>Вычислим <em>шаг</em> разбиения <em>(длину каждого промежуточного отрезка)</em>:<br>
+      <img align="absmiddle" width="148" height="41" src="b/metod_prjamougolnikov_clip_image017.gif"></p>
+  <p>Метод <em>левых  прямоугольников </em>получил своё называние из-за того, <br>
+      <img align="absmiddle" width="365" height="262" src="b/metod_prjamougolnikov_clip_image019.jpg" alt="Метод левых прямоугольников"><br>
+    что <em>высОты</em><strong> </strong>прямоугольников на промежуточных  отрезках равны <em>значениям функции</em> <strong>в левых</strong> концах данных отрезков:<br>
+  <img align="absmiddle" width="683" height="44" src="b/metod_prjamougolnikov_clip_image021.gif"><br>
+    Ни в коем случае не забываем, что округление следует  проводить до трёх знаков после запятой – <strong>это  существенное требование условия</strong>, и «самодеятельность» здесь чревата  пометкой «оформите задачу, как следует».</p>
+  <p>Вычислим площадь ступенчатой фигуры, которая равна сумме  площадей прямоугольников: <br>
+      <img align="absmiddle" width="412" height="96" src="b/metod_prjamougolnikov_clip_image023.gif"><br>
+    Таким образом, площадь <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">криволинейной  трапеции</a></strong>: <img align="absmiddle" width="92" height="49" src="b/metod_prjamougolnikov_clip_image025.gif">. Да, приближение чудовищно грубое <em>(завышение хорошо видно на чертеже)</em>, но и пример, повторюсь, демонстрационный.  Совершенно понятно, что, рассмотрев бОльшее количество промежуточных отрезков  (измельчив разбиение), ступенчатая фигура будет гораздо больше похожа на  криволинейную трапецию, и мы получим лучший результат.</p>
+  <p>При использовании «правого» метода <em>высОты</em> прямоугольников равны <em>значениям  функции</em> <strong>в правых</strong> концах промежуточных  отрезков:<br>
+      <img align="absmiddle" width="361" height="258" src="b/metod_prjamougolnikov_clip_image027.jpg" alt="Метод правых прямоугольников"><br>
+    Вычислим недостающее значение <img align="absmiddle" width="127" height="41" src="b/metod_prjamougolnikov_clip_image029.gif"> и площадь ступенчатой  фигуры:<br>
+  <img align="absmiddle" width="416" height="72" src="b/metod_prjamougolnikov_clip_image031.gif"><br>
+  <img align="absmiddle" width="132" height="21" src="b/metod_prjamougolnikov_clip_image033.gif"> – тут, что и следовало  ожидать, приближение сильно занижено:<br>
+  <img align="absmiddle" width="91" height="49" src="b/metod_prjamougolnikov_clip_image035.gif"></p>
+  <p>Запишем формулы в общем виде. Если функция <img align="absmiddle" width="36" height="21" src="b/metod_prjamougolnikov_clip_image037.gif"> непрерывна на отрезке <img align="absmiddle" width="35" height="23" src="b/metod_prjamougolnikov_clip_image039.gif">, и он разбит на <img align="absmiddle" width="13" height="15" src="b/metod_prjamougolnikov_clip_image015_0000.gif"> равных частей: <img align="absmiddle" width="276" height="24" src="b/metod_prjamougolnikov_clip_image042.gif">, то определённый интеграл <img align="absmiddle" width="61" height="51" src="b/metod_prjamougolnikov_clip_image044.gif"> можно вычислить  приближенно по формулам:<br>
+      <img align="absmiddle" width="327" height="51" src="b/metod_prjamougolnikov_clip_image046.gif"> – левых  прямоугольников;<br>
+      <img align="absmiddle" width="313" height="51" src="b/metod_prjamougolnikov_clip_image048.gif"> – правых  прямоугольников;<br>
+      <em>(формула в следующей  задаче)</em> – средних прямоугольников,<br>
+    где <img align="absmiddle" width="64" height="41" src="b/metod_prjamougolnikov_clip_image050.gif"> – шаг разбиения.<br>
+    <br>
+    В чём их формальное различие? В первой формуле нет слагаемого <img align="absmiddle" width="41" height="24" src="b/metod_prjamougolnikov_clip_image052.gif">, а во второй - <img align="absmiddle" width="41" height="24" src="b/metod_prjamougolnikov_clip_image054.gif"></p>
+  <p>На практике рассчитываемые значения <img align="absmiddle" width="40" height="24" src="b/metod_prjamougolnikov_clip_image056.gif"> удобно заносить в  таблицу:<br>
+      <img align="absmiddle" width="439" height="75" src="b/metod_prjamougolnikov_clip_image058.jpg"><br>
+    а сами вычисления проводить в Экселе. И быстро, и без ошибок:</p>
+	<p><iframe width="640" height="360" src="https://www.youtube.com/embed/gIKhN_FfyvE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> </p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="229" height="49" src="b/metod_prjamougolnikov_clip_image060.gif"></p>
+  <p>Наверное, вы уже поняли, в чём состоит метод средних  прямоугольников:</p>
+  <p><u>Пример 2</u></p>
+  <p>Вычислить приближенно определенный интеграл <img align="absmiddle" width="40" height="49" src="b/metod_prjamougolnikov_clip_image002_0001.gif"> методом  прямоугольников с точностью до 0,01. Разбиение промежутка интегрирования начать  с <img align="absmiddle" width="37" height="19" src="b/metod_prjamougolnikov_clip_image013_0000.gif"> отрезков.</p>
+  <p><strong>Решение</strong>: во-первых,  обращаем внимание, что интеграл нужно вычислить <strong>с точностью до 0,01</strong>. Что подразумевает такая формулировка?</p>
+  <p>Если в предыдущей задаче требовалось <strong>прОсто округлить </strong>результаты до 3 знаков после запятой <em>(а уж насколько они будут правдивы – не  важно)</em>, то здесь найденное приближённое значение площади <img align="absmiddle" width="84" height="49" src="b/metod_prjamougolnikov_clip_image063.gif"> должно отличаться от  истины <img align="absmiddle" width="65" height="49" src="b/metod_prjamougolnikov_clip_image010_0000.gif"> не более чем на <img align="absmiddle" width="56" height="21" src="b/metod_prjamougolnikov_clip_image066.gif">.</p>
+  <p>И во-вторых, в условии задачи не сказано, какую модификацию  метода прямоугольников использовать для решения. И действительно, какую? </p>
+  <h3><strong>По умолчанию всегда  используйте метод средних прямоугольников</strong></h3>
+  <p>Почему? А он при прочих равных условиях <em>(том же самом разбиении)</em> даёт гораздо более точное приближение. Это  строго обосновано в теории, и это очень хорошо видно на чертеже:<br>
+      <img align="absmiddle" width="370" height="264" src="b/metod_prjamougolnikov_clip_image068.jpg" alt="Метод средних прямоугольников"><br>
+    В качестве высот прямоугольников здесь принимаются <em>значения функции</em>, вычисленные <strong>в серединах</strong> промежуточных отрезков, и в  общем виде формула приближённых вычислений запишется следующим образом:<br>
+  <img align="absmiddle" width="453" height="51" src="b/metod_prjamougolnikov_clip_image070.gif">, где <img align="absmiddle" width="64" height="41" src="b/metod_prjamougolnikov_clip_image050_0000.gif"> – шаг стандартного  «равноотрезочного» разбиения <img align="absmiddle" width="276" height="24" src="b/metod_prjamougolnikov_clip_image042_0000.gif">.</p>
+  <p>Следует отметить, что формулу средних прямоугольников можно  записать несколькими способами, но чтобы не разводить путаницу, я остановлюсь  на единственном варианте, который вы видите выше.</p>
+  <p>Вычисления, как и в предыдущем примере, удобно свести в  таблицу. Длина промежуточных отрезков, понятно, та же самая: <img align="absmiddle" width="49" height="21" src="b/metod_prjamougolnikov_clip_image073.gif"> – и очевидно, что  расстояние между серединами отрезков равно этому же числу. Поскольку требуемая  точность вычислений составляет <img align="absmiddle" width="56" height="21" src="b/metod_prjamougolnikov_clip_image066_0000.gif">, то значения <img align="absmiddle" width="69" height="45" src="b/metod_prjamougolnikov_clip_image075.gif"> нужно округлять «с запасом»  – 4-5 знаками после запятой:<br>
+      <img align="absmiddle" width="486" height="134" src="b/metod_prjamougolnikov_clip_image077.jpg"><br>
+    Вычислим площадь ступенчатой фигуры:<br>
+  <img align="absmiddle" width="503" height="25" src="b/metod_prjamougolnikov_clip_image079.gif"></p>
+  <p>Давайте посмотрим, как автоматизировать этот процесс:</p>
+  <p><iframe width="640" height="360" src="https://www.youtube.com/embed/9pv7siwtNks?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+  <p>Таким образом, по формуле средних прямоугольников:<br>
+      <img align="absmiddle" width="100" height="49" src="b/metod_prjamougolnikov_clip_image081.gif"></p>
+  <p>Как оценить точность приближения? Иными словами, насколько  далёк результат от истины <em>(площади <img align="absmiddle" width="15" height="19" src="b/metod_prjamougolnikov_clip_image083.gif"> криволинейно трапеции)</em>?  Для оценки погрешности существует специальная формула, однако, на практике её  применение зачастую затруднено, и поэтому мы будем использовать «прикладной»  способ: </p>
+  <p>Вычислим более точное приближение <img align="absmiddle" width="23" height="25" src="b/metod_prjamougolnikov_clip_image085.gif"> – с удвоенным  количеством отрезков разбиения: <img align="absmiddle" width="44" height="19" src="b/metod_prjamougolnikov_clip_image087.gif">. Алгоритм решения точно такой же: <img align="absmiddle" width="148" height="41" src="b/metod_prjamougolnikov_clip_image089.gif">. </p>
+  <p>Найдём середину первого промежуточного отрезка <img align="absmiddle" width="148" height="41" src="b/metod_prjamougolnikov_clip_image091.gif"> и далее приплюсовываем  к полученному значению по 0,3. Таблицу можно оформить «эконом-классом», но  комментарий о том, что <img align="absmiddle" width="9" height="17" src="b/metod_prjamougolnikov_clip_image093.gif"> изменяется от 0 до 10  – всё же лучше не пропускать:<br>
+      <img align="absmiddle" width="422" height="179" src="b/metod_prjamougolnikov_clip_image095.jpg"><br>
+    В Экселе вычисления проводятся «в один ряд» <em>(кстати, потренируйтесь)</em>, а вот в  тетради таблицу, скорее всего, придётся сделать двухэтажной (если у вас,  конечно, не сверхмелкий почерк).</p>
+  <p>Вычислим суммарную площадь десяти прямоугольников:<br>
+      <img align="absmiddle" width="660" height="48" src="b/metod_prjamougolnikov_clip_image097.gif"><br>
+    Таким образом, более точное приближение:<br>
+  <img align="absmiddle" width="100" height="49" src="b/metod_prjamougolnikov_clip_image099.gif"></p>
+  <p>Теперь находим<a href="goryachie_formuly.pdf" target="_blank"> <strong>модуль</strong></a> разности между двумя приближениями:<br>
+    <img align="absmiddle" width="224" height="28" src="b/metod_prjamougolnikov_clip_image101.gif"></p>
+  <p>Как я уже отмечал в статье <strong><a href="formula_simpsona_metod_trapecij.html">Приближённое вычисление определенных интегралов</a></strong>, на практике  довольно часто встречается упрощённый подход: поскольку разность <img align="absmiddle" width="52" height="28" src="b/metod_prjamougolnikov_clip_image103.gif"> <strong>больше</strong> требуемой точности <img align="absmiddle" width="56" height="21" src="b/metod_prjamougolnikov_clip_image066_0001.gif">, то снова удваиваем количество отрезков, находим <img align="absmiddle" width="21" height="24" src="b/metod_prjamougolnikov_clip_image105.gif"> и разность <img align="absmiddle" width="57" height="28" src="b/metod_prjamougolnikov_clip_image107.gif">, которая, очевидно, уже «уложится» в нашу точность: <img align="absmiddle" width="81" height="28" src="b/metod_prjamougolnikov_clip_image109.gif">.</p>
+  <p>Однако существует более эффективный путь решения, основанный  на применении <em>правила Рунге</em>, которое утверждает,  что при использовании метода <u>средних</u> прямоугольников мы ошибаемся в  оценке определённого интеграла менее чем на  <img align="absmiddle" width="65" height="39" src="b/metod_prjamougolnikov_clip_image111.gif"> <em>(<strong>!</strong> для методов правых и  левых прямоугольников правило использовать <strong>нельзя!</strong>)</em>.</p>
+  <p>В нашем случае: <img align="absmiddle" width="216" height="39" src="b/metod_prjamougolnikov_clip_image113.gif">, то есть требуемая точность на самом деле достигнута, и  необходимость в вычислении <img align="absmiddle" width="21" height="24" src="b/metod_prjamougolnikov_clip_image105_0000.gif"> отпадает.</p>
+  <p>Округляем наиболее точное приближение <img align="absmiddle" width="81" height="24" src="b/metod_prjamougolnikov_clip_image115.gif"> до двух знаков после  запятой и записываем <strong>ответ</strong>: <img align="absmiddle" width="84" height="49" src="b/metod_prjamougolnikov_clip_image117.gif"> с точностью до 0,01</p>
+  <p>Ещё раз – что это значит? Это значит, что площадь <img align="absmiddle" width="65" height="49" src="b/metod_prjamougolnikov_clip_image010_0001.gif"> криволинейной трапеции  гарантированно отличается от найденного приближённого значения 2,59 не более  чем на 0,01.</p>
+  <p>В Примере 2 урока <strong><a href="formula_simpsona_metod_trapecij.html">метод  трапеций и метод Симпсона</a></strong> я вычислил приближённое значение этого же  интеграла методом трапеций. Любознательные читатели могут сравнить полученные  здесь и там результаты.</p>
+  <p>Вернемся ещё к одному маленькому нюансу, который выпал из  поля зрения в самом начале урока: обязательно ли в рассматриваемом задании  интеграл должен быть неберущимся? Конечно, нет. Приближённые методы вычисления  прекрасно работают и для берущихся<strong> <a href="opredelennye_integraly_primery_reshenij.html">определённых интегралов</a></strong>. Заключительный школьный, а точнее, техникумовский пример  для самостоятельного решения:</p>
+  <p><u>Пример 3</u></p>
+  <p>Вычислить интеграл <img align="absmiddle" width="32" height="49" src="b/metod_prjamougolnikov_clip_image119.gif"> приближённо на <img align="absmiddle" width="35" height="18" src="b/metod_prjamougolnikov_clip_image121.gif"> отрезках разбиения:</p>
+  <p>1) методом левых прямоугольников;<br>
+    2) методом правых прямоугольников;<br>
+    3) методом средних прямоугольников.</p>
+  <p>Вычислить более точное значение интеграла с помощью <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">формулы Ньютона-Лейбница</a></strong>. Для каждого  из трёх случаев найти абсолютную погрешность. Вычисления округлять до 4  знаков после запятой.</p>
+  <p>Не нужно пугаться такого развёрнутого условия – всё элементарно  «перещёлкивается» в Экселе. Напоминаю, что абсолютная погрешность – это <strong><a href="goryachie_formuly.pdf" target="_blank">модуль</a></strong> разности между точным и  приближённым значением. Кстати, обратите внимание на принципиальную разницу:  если в предыдущих примерах речь шла лишь об <em>оценке</em> погрешности, то здесь нам будут известны <em>конкретные  значения</em> этих погрешностей <em>(т.к.  интеграл берётся, и мы достоверно знаем 4 верных цифры после запятой)</em>.</p>
+  <p>Краткое решение и ответ уже, наверное, показались на вашем  экране.</p>
+  <p>И, завершая эту небольшую статью, хочу отметить, что иногда  метод прямоугольников ошибочно называют «плохим», «неточным» и т.п. Ничего  подобного! Если уж на то пошло, его корректнее назвать «медленным» методом.  Иными словами, чтобы достигнуть определённой точности – нужно рассмотреть  бОльшее количество отрезков разбиения по сравнению с более эффективными <strong><a href="formula_simpsona_metod_trapecij.html">методом трапеций</a></strong> и ещё более «быстрым» <strong><a href="formula_simpsona_metod_trapecij.html">методом Симпсона</a></strong>. </p>
+  <p>Которые я и предлагаю вам изучить!</p>
+  <p><em>Пример 3: <strong>Решение</strong>: вычислим шаг разбиения: </em><img align="absmiddle" width="157" height="41" src="b/metod_prjamougolnikov_clip_image123.gif"><br>
+      <em>Заполним расчётную  таблицу:</em><br>
+      <em><img align="absmiddle" width="584" height="159" src="b/metod_prjamougolnikov_clip_image125.jpg"></em><br>
+      <em>Вычислим интеграл  приближённо методом:</em><br>
+      <em>1) левых  прямоугольников:</em><br>
+      <em><img align="absmiddle" width="479" height="49" src="b/metod_prjamougolnikov_clip_image127.gif">;</em><br>
+      <em>2) правых  прямоугольников:</em><br>
+      <em><img align="absmiddle" width="515" height="49" src="b/metod_prjamougolnikov_clip_image129.gif">;</em><br>
+      <em>3) средних  прямоугольников:</em><br>
+      <em><img align="absmiddle" width="565" height="49" src="b/metod_prjamougolnikov_clip_image131.gif">.</em></p>
+  <p><em>Вычислим интеграл  более точно по формуле Ньютона-Лейбница:</em><br>
+      <em><img align="absmiddle" width="424" height="49" src="b/metod_prjamougolnikov_clip_image133.gif"></em><br>
+      <em>и соответствующие  абсолютные погрешности вычислений:</em><br>
+      <em><img align="absmiddle" width="204" height="80" src="b/metod_prjamougolnikov_clip_image135.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="279" height="21" src="b/metod_prjamougolnikov_clip_image137.gif"></em><br>
+      <em><img align="absmiddle" width="417" height="49" src="b/metod_prjamougolnikov_clip_image139.gif"></em></p>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

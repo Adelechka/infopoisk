@@ -1,0 +1,1054 @@
+<html>
+<head>
+<title>Как найти предел последовательности? Подробные примеры решений</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="предел последовательности, числовая последовательность, примеры последовательностей, как найти предел последовательности, примеры решений, как решить, методы решения числовых последовательностей">
+<meta name="Description" content="Основы математического анализа для чайников – осваиваем практику и разбираемся в теории. Доступный и бесплатный курс обучения.">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Числовая последовательность.<br>Как найти предел последовательности?</strong></h1>
+  
+  <br>
+  <p>На данном уроке мы узнаем много  интересного из жизни участников большого сообщества под названием <s>Вконтакте</s> <strong>числовые последовательности</strong>. Рассматриваемая  тема относится не только к курсу математического анализа, но и затрагивает  основы <em>дискретной математики</em>. Кроме  того, материал потребуется для освоения других разделов вышки, в частности, в  ходе изучения <strong><a href="ryady_dlya_chajnikov.html">числовых рядов</a></strong> и <strong><a href="funkcionalnye_i_stepennye_ryady.html">функциональных рядов</a></strong>. Можно банально  сказать, что это важно, можно ободряюще сказать, что это просто, можно сказать  ещё много дежурных фраз, однако сегодня первая, необыкновенно ленивая учебная  неделя, поэтому меня жутко ломает сочинять первый абзац =) Уже в сердцАх сохранил  файл и собрался спать, как вдруг… голову озарила идея чистосердечного признания,  которое невероятно облегчило душу и подтолкнуло к дальнейшему стуку пальцами по  клавиатуре.
+  <p>Отвлечёмся от летних  воспоминаний, и заглянем в этот увлекательный и позитивный мир новой социальной  сети:</p>
+  <h3><strong>Понятие числовой последовательности</strong></h3>
+  <p>Сначала задумаемся над самим  словом: а что такое последовательность? Последовательность – это когда что-то  расположено за чем-то. Например, последовательность действий,  последовательность времён года. Или когда кто-то расположен за кем-то. Например,  последовательность людей в очереди, последовательность слонов на тропе к  водопою.</p>
+  <p>Немедленно проясним характерные  признаки последовательности. Во-первых, <em>члены  последовательности</em> располагаются <strong>строго  в определённом порядке</strong>. Так, если  двух  человек в очереди поменять местами, то это уже будет <strong>другая</strong> последовательность. Во-вторых, каждому <em>члену последовательности</em> можно присвоить порядковый номер:<br>
+      <img align="absmiddle" width="121" height="21" src="k/predel_posledovatelnosti_clip_image002.gif"></p>
+  <p>С числами всё аналогично. Пусть <strong>каждому</strong> натуральному значению <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image004.gif"> <strong>по некоторому правилу</strong> поставлено в соответствие действительное  число <img align="absmiddle" width="19" height="24" src="k/predel_posledovatelnosti_clip_image006.gif">. Тогда говорят, что задана числовая последовательность <img align="absmiddle" width="151" height="24" src="k/predel_posledovatelnosti_clip_image008.gif">. </p>
+  <p>Да, в математических задачах в  отличие от жизненных ситуаций последовательность почти всегда содержит <em>бесконечно много</em> чисел.</p>
+  <p>При этом:<br>
+      <img align="absmiddle" width="16" height="23" src="k/predel_posledovatelnosti_clip_image010.gif"> называют <em>первым членом</em> последовательности;<br>
+      <img align="absmiddle" width="17" height="23" src="k/predel_posledovatelnosti_clip_image012.gif"> – <em>вторым членом</em> последовательности;<br>
+      <img align="absmiddle" width="17" height="24" src="k/predel_posledovatelnosti_clip_image014.gif"> – <em>третьим членом</em> последовательности;<br>
+    …<br>
+  <img align="absmiddle" width="17" height="24" src="k/predel_posledovatelnosti_clip_image016.gif"> – <em>энным</em> или <strong>общим членом</strong> последовательности;<br>
+    …</p>
+  <p>На практике последовательность обычно  задаётся <u>формулой общего члена</u>, например: <br>
+      <img align="absmiddle" width="52" height="24" src="k/predel_posledovatelnosti_clip_image018.gif"> – последовательность  положительных чётных чисел:<br>
+      <img align="absmiddle" width="157" height="237" src="k/predel_posledovatelnosti_clip_image020.gif"></p>
+  <p>Таким образом, запись <img align="absmiddle" width="52" height="24" src="k/predel_posledovatelnosti_clip_image018_0000.gif"> однозначно определяет  все члены последовательности – это и есть то правило (формула), по которому  натуральным значениям <img align="absmiddle" width="121" height="21" src="k/predel_posledovatelnosti_clip_image002_0000.gif"> в соответствие  ставятся числа <img align="absmiddle" width="151" height="24" src="k/predel_posledovatelnosti_clip_image008_0000.gif">. Поэтому последовательность часто коротко обозначают общим  членом, причём вместо «икс» могут использоваться другие латинские буквы,  например:</p>
+  <p>Последовательность положительных  нечётных чисел <img align="absmiddle" width="73" height="24" src="k/predel_posledovatelnosti_clip_image022.gif">:<br>
+      <img align="absmiddle" width="252" height="237" src="k/predel_posledovatelnosti_clip_image024.gif"></p>
+  <p>Ещё одна распространённая  последовательность <img align="absmiddle" width="47" height="41" src="k/predel_posledovatelnosti_clip_image026.gif">:<br>
+      <img align="absmiddle" width="217" height="41" src="k/predel_posledovatelnosti_clip_image028.gif"></p>
+  <p>Как, наверное, многие подметили,  переменная «эн» играет роль своеобразного счётчика.</p>
+  <p>На самом деле с числовыми  последовательностями мы имели дело ещё в средних классах школы. Вспомним <em>арифметическую прогрессию</em>. Определение  переписывать не буду, коснёмся самой сути на конкретном примере. Пусть <img align="absmiddle" width="59" height="23" src="k/predel_posledovatelnosti_clip_image030.gif"> – первый член, а <img align="absmiddle" width="39" height="19" src="k/predel_posledovatelnosti_clip_image032.gif"> – <em>шаг</em> арифметической прогрессии. Тогда:<br>
+      <img align="absmiddle" width="169" height="23" src="k/predel_posledovatelnosti_clip_image034.gif"> – второй член данной  прогрессии;<br>
+      <img align="absmiddle" width="163" height="24" src="k/predel_posledovatelnosti_clip_image036.gif"> – третий член данной  прогрессии;<br>
+      <img align="absmiddle" width="153" height="24" src="k/predel_posledovatelnosti_clip_image038.gif"> – четвертый;<br>
+      <img align="absmiddle" width="144" height="24" src="k/predel_posledovatelnosti_clip_image040.gif"> – пятый;<br>
+    …<br>
+    И, очевидно, энный член задаётся <em>рекуррентной</em> формулой <img align="absmiddle" width="85" height="24" src="k/predel_posledovatelnosti_clip_image042.gif"> </p>
+  <p><strong><em>Примечание</em></strong><em>: в рекуррентной формуле каждый следующий  член выражается через предыдущий член или даже через целое множество предыдущих  членов.</em></p>
+  <p>Полученная формула малопригодна  на практике – чтобы добраться, скажем, до <img align="absmiddle" width="27" height="24" src="k/predel_posledovatelnosti_clip_image044.gif">, нужно перебрать все предыдущие члены. И в математике выведено  более удобное выражение энного члена арифметической прогрессии: <img align="absmiddle" width="112" height="24" src="k/predel_posledovatelnosti_clip_image046.gif">. В нашем случае:<br>
+      <img align="absmiddle" width="279" height="24" src="k/predel_posledovatelnosti_clip_image048.gif"></p>
+  <p>Подставьте в формулу <img align="absmiddle" width="81" height="24" src="k/predel_posledovatelnosti_clip_image050.gif"> натуральные номера <img align="absmiddle" width="69" height="21" src="k/predel_posledovatelnosti_clip_image052.gif"> и проверьте  правильность построенной выше числовой последовательности.</p>
+  <p>Аналогичные выкладки можно  провести для <em>геометрической прогрессии</em>,  энный член которой задаётся формулой <img align="absmiddle" width="79" height="25" src="k/predel_posledovatelnosti_clip_image054.gif">, где <img align="absmiddle" width="15" height="23" src="k/predel_posledovatelnosti_clip_image056.gif"> – первый член <img align="absmiddle" width="52" height="23" src="k/predel_posledovatelnosti_clip_image058.gif">, а <img align="absmiddle" width="13" height="17" src="k/predel_posledovatelnosti_clip_image060.gif"> – <em>знаменатель</em> прогрессии <img align="absmiddle" width="48" height="21" src="k/predel_posledovatelnosti_clip_image062.gif">. В заданиях по матану первый член частенько равен единице. </p>
+  <p>Примеры:</p>
+  <p>прогрессия <img align="absmiddle" width="57" height="25" src="k/predel_posledovatelnosti_clip_image064.gif"> задаёт  последовательность <img align="absmiddle" width="123" height="21" src="k/predel_posledovatelnosti_clip_image066.gif">;<br>
+    прогрессия <img align="absmiddle" width="141" height="25" src="k/predel_posledovatelnosti_clip_image068.gif"> задаёт последовательность <img align="absmiddle" width="169" height="24" src="k/predel_posledovatelnosti_clip_image070.gif">;<br>
+    прогрессия <img align="absmiddle" width="119" height="49" src="k/predel_posledovatelnosti_clip_image072.gif"> задаёт  последовательность <img align="absmiddle" width="189" height="41" src="k/predel_posledovatelnosti_clip_image074.gif">;<br>
+    прогрессия <img align="absmiddle" width="188" height="49" src="k/predel_posledovatelnosti_clip_image076.gif"> задаёт  последовательность <img align="absmiddle" width="181" height="41" src="k/predel_posledovatelnosti_clip_image078.gif">.</p>
+  <p><em>Надеюсь, все знают, что –1 в нечётной степени равно  –1, а в чётной – единице. </em></p>
+  <p>Прогрессию называют <em>бесконечно убывающей</em>, если <img align="absmiddle" width="68" height="21" src="k/predel_posledovatelnosti_clip_image080.gif"> (последние два случая).</p>
+  <p>Давайте добавим в свой список  двух новых друзей, один из которых только что постучался в матрицу монитора:</p>
+  <p>Последовательность <img align="absmiddle" width="68" height="25" src="k/predel_posledovatelnosti_clip_image082.gif"> на математическом  жаргоне называют «мигалкой»: <br>
+      <img align="absmiddle" width="131" height="21" src="k/predel_posledovatelnosti_clip_image084.gif"></p>
+  <p>Таким образом, <strong>члены последовательности могут повторяться</strong>.  Так, в рассмотренном примере последовательность состоит из двух бесконечно  чередующихся чисел. </p>
+  <p>А бывает ли так, что  последовательность состоит из одинаковых чисел? Конечно. Например, <img align="absmiddle" width="43" height="24" src="k/predel_posledovatelnosti_clip_image086.gif"> задаёт бесконечное  количество «троек». Для эстетов есть случай, когда в формуле всё же формально  фигурирует «эн»: <img align="absmiddle" width="47" height="25" src="k/predel_posledovatelnosti_clip_image088.gif"></p>
+  <p><a href="formuly_kombinatoriki.pdf" target="_blank">Факториал</a>: <img align="absmiddle" width="49" height="24" src="k/predel_posledovatelnosti_clip_image090.gif"> <br>
+    Всего лишь свёрнутая запись  произведения:<br>
+  <img align="absmiddle" width="377" height="311" src="k/predel_posledovatelnosti_clip_image092.gif"></p>
+  <p>Отнюдь не графомания, пригодится  для задач ;-) Рекомендую осмыслить-запомнить и даже переписать в тетрадь. …Пришёл  тут в голову один вопрос: а почему никто не создаёт такие полезные граффити?  Едет себе человек в поезде, смотрит в окно и изучает факториалы. Панки отдыхают  =)</p>
+  <p>Возможно, некоторым читателям всё-таки  ещё не до конца понятно, как расписать члены последовательности, зная общий  член. Тот редкий случай, когда контрольный выстрел возвращает к жизни:</p>
+  <p>Разберёмся с последовательностью <img align="absmiddle" width="132" height="44" src="k/predel_posledovatelnosti_clip_image094.gif">.</p>
+  <p>Сначала подставим в энный член  значение <img align="absmiddle" width="35" height="19" src="k/predel_posledovatelnosti_clip_image096.gif"> и внимательно проведём  вычисления:<br>
+      <img align="absmiddle" width="256" height="44" src="k/predel_posledovatelnosti_clip_image098.gif"></p>
+  <p>Далее подставим в общий член <img align="absmiddle" width="37" height="19" src="k/predel_posledovatelnosti_clip_image100.gif">:<br>
+      <img align="absmiddle" width="208" height="44" src="k/predel_posledovatelnosti_clip_image102.gif"></p>
+  <p>Потом подставим следующий номер <img align="absmiddle" width="36" height="19" src="k/predel_posledovatelnosti_clip_image104.gif">:<br>
+      <img align="absmiddle" width="320" height="44" src="k/predel_posledovatelnosti_clip_image106.gif"></p>
+  <p>Четвёрку:<br>
+      <img align="absmiddle" width="325" height="44" src="k/predel_posledovatelnosti_clip_image108.gif"></p>
+  <p>Чего уж, теперь и отличную  отметку не зазорно заработать:<br>
+      <img align="absmiddle" width="236" height="44" src="k/predel_posledovatelnosti_clip_image110.gif"></p>
+  <p>и так далее… пока разогреется  самый последний чайник!</p>
+  
+  <h3><strong>Понятие предела последовательности. Простейшие примеры</strong></h3>
+  <p>Для лучшего осмысления нижеследующей  информации желательно ПОНИМАТЬ, что такое <strong><a href="predely_primery_reshenii.html">предел  функции</a></strong>. Конечно, в стандартном курсе математического анализа сначала  рассматривают предел последовательности и только потом предел функции, но дело  в том, что о самой сущности предела я уже подробно рассказывал. Более того, в  теории числовая последовательность считается частным случаем функции, и людям,  которые знакомы с пределом функции, будет заметно веселее.</p>
+  <p>Впрочем, дальше могут читать  все-все-все, однако если у вас возникнет непонимание или недопонимание  чего-либо, то, пожалуйста, начните с <strong><a href="predely_primery_reshenii.html">пределов  функций</a></strong>.</p>
+  <p>Пригласим на танец незамысловатую  подругу <img align="absmiddle" width="81" height="44" src="k/predel_posledovatelnosti_clip_image112.gif">:<br>
+      <img align="absmiddle" width="183" height="41" src="k/predel_posledovatelnosti_clip_image114.gif"></p>
+  <p>Что происходит, когда «эн»  увеличивается до бесконечности? Очевидно, что члены последовательности будут <em>бесконечно близко</em> приближаться к нулю.  Это и есть предел данной последовательности, который записывается следующим  образом: <br>
+      <img align="absmiddle" width="99" height="44" src="k/predel_posledovatelnosti_clip_image116.gif"></p>
+  <p>Если предел последовательности  равен нулю, то её называют <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">бесконечно  малой</a></strong>.</p>
+  <p>В теории математического анализа даётся  <strong><a href="predely_po_koshi.html">строгое определение предела последовательности</a></strong> через так называемую эпсилон-окрестность.  Этому определению будет посвящёна следующая статья,  а пока что разберём его смысл: </p>
+  <p>Изобразим на числовой прямой  члены последовательности <img align="absmiddle" width="81" height="44" src="k/predel_posledovatelnosti_clip_image112_0000.gif"> и симметричную  относительно нуля (предела) <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image118.gif">-окрестность:<br>
+      <img align="absmiddle" width="470" height="107" src="k/predel_posledovatelnosti_clip_image120.jpg" alt="Предел последовательности"><br>
+    Теперь зажмите синюю окрестность  рёбрами ладоней и начинайте её уменьшать, стягивая к пределу (красной точке).  Число <img align="absmiddle" width="37" height="19" src="k/predel_posledovatelnosti_clip_image122.gif"> является пределом  последовательности, если ДЛЯ ЛЮБОЙ заранее выбранной <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image118_0000.gif">-окрестности  <em>(сколь угодно малой)</em> внутри неё окажется <em>бесконечно много</em> членов последовательности,  а ВНЕ неё – лишь <em>конечное</em> число  членов (либо вообще ни одного). То есть эпсилон-окрестность может быть  микроскопической, да и того меньше, но «бесконечный хвост» последовательности  рано или поздно обязан <u>полностью</u> зайти в данную окрестность.</p>
+  <p>Есть даже такая задача – <strong><a href="predely_po_koshi.html">доказать предел последовательности,  пользуясь определением</a></strong>.</p>
+  <p>Последовательность <img align="absmiddle" width="47" height="41" src="k/predel_posledovatelnosti_clip_image125.gif"> тоже бесконечно малА: <img align="absmiddle" width="64" height="41" src="k/predel_posledovatelnosti_clip_image127.gif"> с той разницей, что её  члены не прыгают туда-сюда, а подбираются к пределу исключительно справа.</p>
+  <p>Естественно, предел может быть  равен и любому другому конечному числу, элементарный пример:<br>
+    <img align="absmiddle" width="124" height="53" src="k/predel_posledovatelnosti_clip_image129.gif"></p>
+  <p>Здесь дробь стремится к нулю, и  соответственно, предел равен «двойке».</p>
+  <p>Если у последовательности <img align="absmiddle" width="19" height="24" src="k/predel_posledovatelnosti_clip_image006_0000.gif"> <strong>существует конечный предел</strong> <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image132.gif">, то она называется <strong>сходящейся</strong> (в частности, <strong>бесконечно малой</strong> при <img align="absmiddle" width="37" height="19" src="k/predel_posledovatelnosti_clip_image122_0000.gif">). В противном случае – <strong>расходящейся</strong>,  при этом возможны два варианта: либо предела вовсе не существует, либо он  бесконечен. В последнем случае последовательность называют <strong>бесконечно большой</strong>. Пронесёмся галопом по примерам первого  параграфа:</p>
+  <p>Последовательности <img align="absmiddle" width="139" height="24" src="k/predel_posledovatelnosti_clip_image135.gif"> являются <em>бесконечно  большими</em>, поскольку их члены уверенным ходом продвигаются к «плюс бесконечности»:<br>
+      <img align="absmiddle" width="159" height="59" src="k/predel_posledovatelnosti_clip_image137.gif"></p>
+  <p>Арифметическая прогрессия с  первым членом <img align="absmiddle" width="59" height="23" src="k/predel_posledovatelnosti_clip_image030_0000.gif"> и шагом <img align="absmiddle" width="39" height="19" src="k/predel_posledovatelnosti_clip_image032_0000.gif"> тоже бесконечно великА:<br>
+      <img align="absmiddle" width="167" height="29" src="k/predel_posledovatelnosti_clip_image140.gif"></p>
+  <p>К слову, расходится и любая  арифметическая прогрессия, за исключением случая с нулевым шагом – когда к  конкретному числу <img align="absmiddle" width="16" height="23" src="k/predel_posledovatelnosti_clip_image142.gif"> бесконечно добавляется <img align="absmiddle" width="39" height="19" src="k/predel_posledovatelnosti_clip_image144.gif">. Предел такой последовательности существует и совпадает с  первым членом. </p>
+  <p>У последовательностей <img align="absmiddle" width="91" height="25" src="k/predel_posledovatelnosti_clip_image146.gif"> схожая судьба:<br>
+      <img align="absmiddle" width="117" height="61" src="k/predel_posledovatelnosti_clip_image148.gif"></p>
+  <p>Любая бесконечно убывающая  геометрическая прогрессия, как ясно уже из названия, <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">бесконечно малА</a></strong>:<br>
+      <img align="absmiddle" width="89" height="85" src="k/predel_posledovatelnosti_clip_image150.gif"></p>
+  <p>Если знаменатель геометрической  прогрессии <img align="absmiddle" width="35" height="21" src="k/predel_posledovatelnosti_clip_image152.gif">, то последовательность бесконечно великА:<br>
+      <img align="absmiddle" width="81" height="31" src="k/predel_posledovatelnosti_clip_image154.gif"></p>
+  <p>Если же <img align="absmiddle" width="45" height="21" src="k/predel_posledovatelnosti_clip_image156.gif">, например, <img align="absmiddle" width="68" height="25" src="k/predel_posledovatelnosti_clip_image158.gif">, то предела <img align="absmiddle" width="61" height="31" src="k/predel_posledovatelnosti_clip_image160.gif"> вообще не существует,  так как члены <img align="absmiddle" width="169" height="24" src="k/predel_posledovatelnosti_clip_image070_0000.gif">без устали прыгают то к «плюс бесконечности», то к «минус  бесконечности». А здравый смысл и теоремы матана подсказывают, что если что-то  куда-то и стремится, то это заветное место единственно.</p>
+  <p>После небольшого разоблачения <img align="absmiddle" width="169" height="31" src="k/predel_posledovatelnosti_clip_image162.gif"> становится понятно,  что в безудержных метаниях виновата «мигалка», которая, кстати, расходится и  сама по себе.<br>
+    Действительно, для  последовательности <img align="absmiddle" width="68" height="25" src="k/predel_posledovatelnosti_clip_image164.gif"> легко подобрать <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image118_0001.gif">-окрестность, которая, скажем, зажимает только число –1. В  результате бесконечное количество членов последовательности («плюс единиц») останутся  вне данной окрестности. Но по определению, «бесконечный хвост»  последовательности с определённого момента (натурального номера) должен <strong>полностью</strong> заходить в ЛЮБУЮ <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image118_0002.gif">-окрестность своего предела. Вывод: предела <img align="absmiddle" width="60" height="31" src="k/predel_posledovatelnosti_clip_image166.gif"> не существует.</p>
+  <p>Факториал <img align="absmiddle" width="49" height="24" src="k/predel_posledovatelnosti_clip_image090_0000.gif"> является <em>бесконечно  большой</em> последовательностью:<br>
+      <img align="absmiddle" width="71" height="29" src="k/predel_posledovatelnosti_clip_image169.gif"></p>
+  <p>Причём, растёт он как на дрожжах,  так, <img align="absmiddle" width="25" height="19" src="k/predel_posledovatelnosti_clip_image171.gif"> представляет собой  число, у которого более 100 цифр (разрядов)! Почему именно 70? На нём просит  пощады мой инженерный микрокалькулятор.</p>
+  <p>С контрольным выстрелом всё чуть  сложнее, и мы как раз подошли к практической части лекции, в которой разберём  боевые примеры:</p>
+  <br>
+  <h2><strong>Как найти предел последовательности?</strong></h2>
+  <p>А вот сейчас необходимо уметь решать  пределы функций, как минимум, на уровне двух базовых уроков: <strong><a href="predely_primery_reshenii.html">Пределы. Примеры решений</a></strong> и <strong><a href="zamechatelnye_predely.html">Замечательные пределы</a></strong>. Потому что многие  методы решения будут похожи. Но, прежде всего, проанализируем принципиальные отличия  предела последовательности от предела функции:<br>
+      <img align="absmiddle" width="229" height="45" src="k/predel_posledovatelnosti_clip_image173.gif"></p>
+  <p>В пределе последовательности  «динамическая» переменная «эн» может стремиться<strong> только к «плюс бесконечности»</strong> – в сторону увеличения натуральных  номеров <img align="absmiddle" width="121" height="21" src="k/predel_posledovatelnosti_clip_image002_0001.gif">. <br>
+  В пределе функции «икс» может быть направлен куда угодно – к  «плюс/минус бесконечности» либо к произвольному действительному числу.</p>
+  <p>Последовательность <em>дискретна</em> (прерывна), то есть состоит из  отдельных изолированных членов. Раз, два, три, четыре, пять, вышел зайчик  погулять. Для аргумента же функции характерна непрерывность, то есть «икс» плавно, без приключений стремится к  тому или иному значению. И, соответственно, значения функции будут так же  непрерывно приближаться к своему пределу.</p>
+  <p>По причине <em>дискретности</em> в пределах последовательностей встречаются свои  фирменные вещи, такие как факториалы, «мигалки», прогрессии и т.п. И сейчас я постараюсь разобрать пределы,  которые свойственны именно для последовательностей. </p>
+  <p>Начнём с прогрессий:</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="144" height="45" src="k/predel_posledovatelnosti_clip_image002_0002.gif"></p>
+  <p><strong>Решение</strong>: нечто похожее на бесконечно убывающую геометрическую  прогрессию, но она ли это? Для ясности распишем несколько первых членов:<br>
+      <img align="absmiddle" width="137" height="213" src="k/predel_posledovatelnosti_clip_image004_0000.gif"></p>
+  <p>Так как <img align="absmiddle" width="48" height="15" src="k/predel_posledovatelnosti_clip_image006_0001.gif">, то речь идёт о <strong>сумме</strong> членов бесконечно убывающей геометрической прогрессии, которая рассчитывается  по формуле <img align="absmiddle" width="63" height="44" src="k/predel_posledovatelnosti_clip_image008_0001.gif">.  </p>
+  <p>Оформляем решение:</p>
+  <p><img align="absmiddle" width="179" height="45" src="k/predel_posledovatelnosti_clip_image010_0000.gif"></p>
+  <p>Используем формулу суммы  бесконечно убывающей геометрической прогрессии: <img align="absmiddle" width="63" height="44" src="k/predel_posledovatelnosti_clip_image008_0002.gif">. В данном случае: <img align="absmiddle" width="43" height="41" src="k/predel_posledovatelnosti_clip_image013.gif"> – первый член, <img align="absmiddle" width="40" height="41" src="k/predel_posledovatelnosti_clip_image015.gif"> – знаменатель  прогрессии.</p>
+  <p>Главное, совладать с <strong><a href="goryachie_formuly.pdf" target="_blank">четырёхэтажностью дроби</a></strong>:</p>
+  <p><img align="absmiddle" width="175" height="80" src="k/predel_posledovatelnosti_clip_image017.gif"></p>
+  <p>Есть. </p>
+  <p><u>Пример 2</u></p>
+  <p>Написать первые четыре члена  последовательности и найти её предел<br>
+      <img align="absmiddle" width="147" height="41" src="k/predel_posledovatelnosti_clip_image019.gif"></p>
+  <p>Это пример для самостоятельного  решения. Для устранения неопределённости <img align="absmiddle" width="19" height="41" src="k/predel_posledovatelnosti_clip_image021.gif"> в числителе потребуется  применить формулу суммы <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image023.gif"> первых членов  арифметической прогрессии:<br>
+      <img align="absmiddle" width="104" height="41" src="k/predel_posledovatelnosti_clip_image025.gif">, где <img align="absmiddle" width="16" height="23" src="k/predel_posledovatelnosti_clip_image027.gif"> – первый, а <img align="absmiddle" width="19" height="24" src="k/predel_posledovatelnosti_clip_image029.gif"> – энный член  прогрессии.</p>
+  <p>Поскольку в пределах  последовательностей «эн» всегда стремится к «плюс бесконечности», то  неудивительно, что неопределённость <img align="absmiddle" width="19" height="41" src="k/predel_posledovatelnosti_clip_image021_0000.gif"> – одна из самых  популярных. <strong><br>
+  И многие примеры решаются  точно так же, как пределы функций</strong>!</p>
+  <p><img align="absmiddle" width="396" height="44" src="k/predel_posledovatelnosti_clip_image031.gif"></p>
+  <p>Как вычислить эти пределы?  Смотрите Примеры № 1-3 урока <strong><a href="predely_primery_reshenii.html">Пределы.  Примеры решений</a></strong>. </p>
+  <p>А может быть что-нибудь посложнее  наподобие <img align="absmiddle" width="200" height="51" src="k/predel_posledovatelnosti_clip_image033.gif">?  Ознакомьтесь с  Примером № 3 статьи <strong><a href="metody_resheniya_predelov_neopredelennosti.html">Методы решения  пределов</a></strong>.</p>
+  <p>С формальной точки зрения разница  будет лишь в одной букве – там «икс», а здесь «эн».<br>
+    Приём тот же – числитель и  знаменатель надо разделить на «эн» в старшей степени.</p>
+  <p>Также в пределах  последовательностей достаточно распространена неопределённость <img align="absmiddle" width="40" height="13" src="k/predel_posledovatelnosti_clip_image035.gif">. Как решать пределы вроде  <img align="absmiddle" width="204" height="35" src="k/predel_posledovatelnosti_clip_image037.gif"> можно узнать из  Примеров № 11-13 той же статьи.</p>
+  <p>Чтобы разобраться с пределом <img align="absmiddle" width="99" height="49" src="k/predel_posledovatelnosti_clip_image039.gif">, обратитесь к Примеру № 7 урока <strong><a href="zamechatelnye_predely.html">Замечательные пределы</a></strong> (второй замечательный предел справедлив и для  дискретного случая). Решение снова будет как под копирку с различием в  единственной букве.</p>
+  <p>Следующие четыре примера (№ 3-6)  тоже «двулики», но на практике почему-то больше характерны для пределов  последовательностей, чем для пределов функций:</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="151" height="44" src="k/predel_posledovatelnosti_clip_image041.gif"></p>
+  <p><strong>Решение</strong>: сначала полное решение, потом пошаговые комментарии:<br>
+      <img align="absmiddle" width="579" height="131" src="k/predel_posledovatelnosti_clip_image043.gif"></p>
+  <p>(1) В числителе дважды используем формулу <img align="absmiddle" width="201" height="24" src="k/predel_posledovatelnosti_clip_image045.gif">.</p>
+  <p>(2) Приводим подобные слагаемые в числителе.</p>
+  <p>(3) Для устранения неопределённости делим числитель и  знаменатель на <img align="absmiddle" width="19" height="21" src="k/predel_posledovatelnosti_clip_image047.gif"> («эн» в старшей  степени).</p>
+  <p>Как видите, ничего сложного.</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="124" height="47" src="k/predel_posledovatelnosti_clip_image049.gif"></p>
+  <p>Это пример для самостоятельного  решения, <strong><a href="goryachie_formuly.pdf" target="_blank">формулы сокращенного умножения</a></strong> в помощь.</p>
+  <p>В пределах с <em>показательными</em> последовательностями применяется похожий метод  деления числителя и знаменателя:</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="103" height="44" src="k/predel_posledovatelnosti_clip_image051.gif"></p>
+  <p><strong>Решение</strong> оформим  по той же схеме:<br>
+      <img align="absmiddle" width="567" height="89" src="k/predel_posledovatelnosti_clip_image053.gif"></p>
+  <p>(1) Используя <strong><a href="goryachie_formuly.pdf" target="_blank">свойства  степеней</a></strong>, вынесем из показателей всё лишнее, оставив там только «эн».</p>
+  <p>(2) Смотрим, какие показательные последовательности есть в  пределе: <img align="absmiddle" width="40" height="24" src="k/predel_posledovatelnosti_clip_image055.gif"> и выбираем  последовательность с <strong>наибольшим</strong> основанием: <img align="absmiddle" width="19" height="20" src="k/predel_posledovatelnosti_clip_image057.gif">. В целях устранения неопределённости делим числитель и знаменатель  на <img align="absmiddle" width="19" height="20" src="k/predel_posledovatelnosti_clip_image057_0000.gif">.</p>
+  <p>(3) В числителе и знаменателе проводим почленное деление.  Поскольку <img align="absmiddle" width="36" height="49" src="k/predel_posledovatelnosti_clip_image059.gif"> является бесконечно  убывающей геометрической прогрессией <img align="absmiddle" width="128" height="21" src="k/predel_posledovatelnosti_clip_image061.gif">, то она стремится к нулю. И тем более к нулю стремится  константа, делённая на растущую прогрессию: <img align="absmiddle" width="53" height="41" src="k/predel_posledovatelnosti_clip_image063.gif">. Делаем соответствующие пометки и записываем ответ.</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="120" height="44" src="k/predel_posledovatelnosti_clip_image065.gif"></p>
+  <p>Это пример для самостоятельного решения. </p>
+  <p>Как-то незаслуженно остался в забвении стильный почерк,  присущий только пределу последовательности. Пора исправить ситуацию:</p>
+  <p><u>Пример 7</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="147" height="44" src="k/predel_posledovatelnosti_clip_image067.gif"></p>
+  <p><strong>Решение</strong>: чтобы  избавиться от «вечного соперника» <img align="absmiddle" width="19" height="41" src="k/predel_posledovatelnosti_clip_image021_0001.gif"> нужно расписать  факториалы в виде произведений. Но прежде, чем приступить к математическому  граффити, рассмотрим конкретный пример, например: <img align="absmiddle" width="116" height="19" src="k/predel_posledovatelnosti_clip_image069.gif">.</p>
+  <p>Последним множителем в произведении идёт шестёрка. Что нужно  сделать, чтобы получить предыдущий множитель? Вычесть единицу: 6 – 1 = 5. Чтобы  получить множитель, который располагается ещё дальше, нужно из пятёрки ещё раз  вычесть единичку: 5 – 1 = 4. И так далее.</p>
+  <p>Не беспокойтесь, это не урок в первом классе коррекционной  школы, на самом деле <strong>мы знакомимся с  важным и универсальным алгоритмом</strong> под названием «<strong>как разложить любой факториал</strong>». Давайте разделаемся с самым  злостным флудером нашего чата: <img align="absmiddle" width="57" height="21" src="k/predel_posledovatelnosti_clip_image071.gif"></p>
+  <p>Очевидно, что последним множителем в произведении будет <img align="absmiddle" width="55" height="21" src="k/predel_posledovatelnosti_clip_image073.gif">. </p>
+  <p>Как получить предыдущий множитель? Вычесть единицу: <img align="absmiddle" width="120" height="19" src="k/predel_posledovatelnosti_clip_image075.gif"></p>
+  <p>Как достать прадедушку? Ещё раз вычесть единицу: <img align="absmiddle" width="117" height="19" src="k/predel_posledovatelnosti_clip_image077.gif">.</p>
+  <p>Ну и ещё на один шаг продвинемся вглубь: <img align="absmiddle" width="95" height="19" src="k/predel_posledovatelnosti_clip_image079.gif"></p>
+  <p>Таким образом, наше чудовище распишется следующим образом:<br>
+      <img align="absmiddle" width="303" height="21" src="k/predel_posledovatelnosti_clip_image081.gif"></p>
+  <p>С факториалами числителя всё проще, так, мелкие хулиганы.</p>
+  <p>Оформляем решение:<br>
+      <img align="absmiddle" width="403" height="184" src="k/predel_posledovatelnosti_clip_image083.gif"></p>
+  <p>(1) Расписываем факториалы</p>
+  <p>(2) В числителе ДВА слагаемых. Выносим за скобки всё, что  можно вынести, в данном случае это произведение <img align="absmiddle" width="129" height="21" src="k/predel_posledovatelnosti_clip_image085.gif">. Квадратные скобки, как я где-то пару раз говорил,  отличаются от круглых скобок только своей квадратностью.</p>
+  <p>(3) Сокращаем числитель и знаменатель на <img align="absmiddle" width="129" height="21" src="k/predel_posledovatelnosti_clip_image085_0000.gif">…. …хммм, флуда тут и впрямь много.</p>
+  <p>(4) Упрощаем числитель</p>
+  <p>(5) Сокращаем числитель и знаменатель на <img align="absmiddle" width="43" height="19" src="k/predel_posledovatelnosti_clip_image087.gif">. Тут в известной степени повезло. В общем случае вверху и  внизу получаются заурядные многочлены, после чего приходится выполнять  стандартное действие – делить числитель и знаменатель на «эн» в старшей  степени.</p>
+  <p>Более подготовленные студенты, которые легко раскладывают  факториалы в уме, могут решить пример значительно быстрее. На первом шаге делим  почленно числитель на знаменатель и мысленно выполняем сокращения:<br>
+      <img align="absmiddle" width="372" height="101" src="k/predel_posledovatelnosti_clip_image089.gif"></p>
+  <p>Но способ с разложением всё-таки более основателен и  надёжен.</p>
+  <p><u>Пример 8</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="133" height="44" src="k/predel_posledovatelnosti_clip_image091.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <p>Желающие набить руку на рассмотренных типах пределов могут обратиться  к сборнику Кузнецова. Около 150 прорешанных примеров можно найти <a href="https://yandex.ru/search/?lr=21&text=%D1%80%D0%B5%D1%88%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2%D0%B0%20%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8B" target="_blank">здесь &gt;&gt;&gt;</a>  (задачи № 2-6).</p>
+  <p>Как и в любом обществе, среди числовых последовательностей  попадаются экстравагантные личности.</p>
+  <p><strong>Теорема</strong>:  произведение ограниченной последовательности на бесконечно малую  последовательность – есть бесконечно малая последовательность.</p>
+  <p>Если вам не очень понятен термин «ограниченность»,  пожалуйста, изучите статью <strong><a href="grafiki_i_svoistva_funkcij.html">об  элементарных функциях и графиках</a></strong>.</p>
+  <p>Аналогичная теорема справедлива, кстати, и для функций:  произведение ограниченной функции на бесконечно малую функцию – есть бесконечно  малая функция.</p>
+  <p><u>Пример 9</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="73" height="41" src="k/predel_posledovatelnosti_clip_image093.gif"></p>
+  <p><strong>Решение</strong>:  последовательность <img align="absmiddle" width="47" height="21" src="k/predel_posledovatelnosti_clip_image095.gif"> – ограничена: <img align="absmiddle" width="100" height="21" src="k/predel_posledovatelnosti_clip_image097.gif">, а последовательность  <img align="absmiddle" width="23" height="41" src="k/predel_posledovatelnosti_clip_image099.gif"> – бесконечно малА,  значит, по соответствующей теореме:<br>
+      <img align="absmiddle" width="219" height="45" src="k/predel_posledovatelnosti_clip_image101.gif"></p>
+  <p>Просто и со вкусом. Да-да, так и оформляем.</p>
+  <p>А почему бы и нет?</p>
+  <p><u>Пример 10</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="153" height="48" src="k/predel_posledovatelnosti_clip_image103.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <p>Ещё две распространённые ограниченные функции – арктангенс и  арккотангенс: <br>
+    <img align="absmiddle" width="121" height="64" src="k/predel_posledovatelnosti_clip_image105.gif">  </p>
+  <p>Аргументы перечисленных тригонометрических функций  могут быть заполнены знатной абракадаброй, но это не должно приводить в панику  – существенно то, что последовательности ограничены!</p>
+  <p>Иногда в ходе вычисления пределов последовательностей приходится  использовать довольно неожиданные приёмы:</p>
+  <p><u>Пример 11</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="111" height="45" src="k/predel_posledovatelnosti_clip_image107.gif"></p>
+  <p><strong>Решение</strong>: неопределённость <img align="absmiddle" width="32" height="19" src="k/predel_posledovatelnosti_clip_image109.gif"> можно раскрутить двумя  способами. Первый путь –  через <strong><a href="zamechatelnye_predely.html">первый замечательный предел</a></strong>, который  справедлив, как ни странно, и для последовательностей:<br>
+      <img align="absmiddle" width="511" height="171" src="k/predel_posledovatelnosti_clip_image111.gif"></p>
+  <p>(1) Используем формулу <img align="absmiddle" width="81" height="41" src="k/predel_posledovatelnosti_clip_image113.gif">. </p>
+  <p>(2) Избавляемся от косинуса, указывая, что он стремится к  единице.</p>
+  <p>(3) Неопределённость <img align="absmiddle" width="32" height="19" src="k/predel_posledovatelnosti_clip_image109_0000.gif"> не устранена, но  теперь вместо тангенса у нас синус, и появляется возможность организовать 1-й  замечательный предел. Проводим стандартный искусственный приём: делим всё  выражение на <img align="absmiddle" width="44" height="41" src="k/predel_posledovatelnosti_clip_image116_0000.gif"> и, чтобы ничего не  изменилось, домножаем на <img align="absmiddle" width="41" height="19" src="k/predel_posledovatelnosti_clip_image118_0003.gif">.</p>
+  <p>(4) Используем <strong><a href="zamechatelnye_predely.pdf" target="_blank">первый  замечательный предел</a></strong> <img align="absmiddle" width="84" height="41" src="k/predel_posledovatelnosti_clip_image120.gif">, при этом, в качестве <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">бесконечно  малой величины</a></strong> выступает <img align="absmiddle" width="72" height="41" src="k/predel_posledovatelnosti_clip_image122_0001.gif">, которая, понятно, стремится к нулю при <img align="absmiddle" width="48" height="15" src="k/predel_posledovatelnosti_clip_image006_0002.gif">.</p>
+  <p>Дальнейшее просто.</p>
+  <p>Прокатывает и 2-й метод решения – через <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">замечательные эквивалентности</a></strong>:<br>
+      <img align="absmiddle" width="189" height="45" src="k/predel_posledovatelnosti_clip_image125_0000.gif"></p>
+  <p>Заменим бесконечно малую последовательность <strong><a href="zamechatelnye_predely.pdf" target="_blank">эквивалентной</a></strong>:<br>
+      <img align="absmiddle" width="52" height="19" src="k/predel_posledovatelnosti_clip_image127_0000.gif"> при <img align="absmiddle" width="43" height="17" src="k/predel_posledovatelnosti_clip_image129_0000.gif">.<br>
+    В данном случае <img align="absmiddle" width="103" height="41" src="k/predel_posledovatelnosti_clip_image131.gif"></p>
+  <p><img align="absmiddle" width="427" height="84" src="k/predel_posledovatelnosti_clip_image133.gif"></p>
+  <p>Готово.</p>
+  <p><u>Пример 12</u></p>
+  <p>Найти предел последовательности<br>
+      <img align="absmiddle" width="184" height="45" src="k/predel_posledovatelnosti_clip_image135_0000.gif"></p>
+  <p>Это пример для самостоятельного решения. Здесь аргумент  арктангенса также <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">бесконечно мал</a></strong>,  поскольку его знаменатель <strong><a href="metody_resheniya_predelov_neopredelennosti.html">более высокого  порядка роста</a></strong>, чем числитель. Решать, разумеется, значительно выгоднее через <strong><a href="zamechatelnye_predely.pdf" target="_blank">замечательную эквивалентность</a></strong>. </p>
+  <p>Оба рассмотренных примера справедливы и для функций, похожие  пределы также разобраны в Примерах 12-13 урока <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">о бесконечно малых величинах</a></strong>.</p>
+  <p>В заключение урока рассмотрим ещё один важный вопрос:</p>
+  <h3><strong>Как найти предел  знакочередующейся последовательности?</strong></h3>
+  <p>Такая последовательность уже неоднократно встречалась в  статье, например, первая скрипка теоретического параграфа <img align="absmiddle" width="81" height="44" src="k/predel_posledovatelnosti_clip_image137_0000.gif">. </p>
+  <p>Действительно, как аналитически найти предел  знакочередующейся последовательности, если знак то «плюс», то «минус»? </p>
+  <p>И я, наконец-то, заряжаю в свой револьвер тот самый волшебный  патрон:</p>
+  <p><u>Пример 13</u></p>
+  <p>Найти предел последовательности <img align="absmiddle" width="132" height="44" src="k/predel_posledovatelnosti_clip_image139.gif"></p>
+  <p><strong>Решение</strong>: на  первом шаге следует найти предел последовательности <img align="absmiddle" width="23" height="27" src="k/predel_posledovatelnosti_clip_image141.gif">, которая составлена из <strong><a href="goryachie_formuly.pdf" target="_blank">модулей</a></strong> членов. Знак модуля уничтожает возможный минус, поэтому чтобы получить <img align="absmiddle" width="23" height="27" src="k/predel_posledovatelnosti_clip_image141_0000.gif">, нужно попросту <strong>убрать</strong> множитель, обеспечивающий знакочередование. Чаще всего это «мигалка»:<br>
+      <img align="absmiddle" width="79" height="41" src="k/predel_posledovatelnosti_clip_image144_0000.gif"></p>
+  <p>Теперь как ни в чём не бывало, вымучиваем наш обычный  предел:<br>
+      <img align="absmiddle" width="409" height="85" src="k/predel_posledovatelnosti_clip_image146_0000.gif"></p>
+  <p>Получено конечное число. Очевидно, что знакочередование не  поменяет сути – члены последовательности будут «прыгать» вокруг своего предела,  бесконечно близко приближаясь к нему. Собственно, это проиллюстрировано на  единственном рисунке данного урока. </p>
+  <p>Ситуация принципиально такая же, как, например, у более  простых последовательностей <img align="absmiddle" width="168" height="44" src="k/predel_posledovatelnosti_clip_image148_0000.gif">.</p>
+  <p><strong>Ответ</strong>: так как  последовательность является знакочередующейся и <img align="absmiddle" width="69" height="31" src="k/predel_posledovatelnosti_clip_image150_0000.gif">, то <img align="absmiddle" width="205" height="44" src="k/predel_posledovatelnosti_clip_image152_0000.gif">.</p>
+  <p>Если в ходе исследования знакочередующейся  последовательности <img align="absmiddle" width="19" height="24" src="k/predel_posledovatelnosti_clip_image154_0000.gif"> получен бесконечный  результат <img align="absmiddle" width="73" height="31" src="k/predel_posledovatelnosti_clip_image156_0000.gif"> (или если предела нет),  то у последовательности <img align="absmiddle" width="17" height="24" src="k/predel_posledovatelnosti_clip_image158_0000.gif"> <strong>предела не существует вообще</strong>. Такой инцидент напоминает историю с <img align="absmiddle" width="69" height="25" src="k/predel_posledovatelnosti_clip_image160_0000.gif">.</p>
+  <p>Наше увлекательное путешествие в  мир последовательностей подошло к концу и, надеюсь, оно составило достойную  конкуренцию Вконтакте =) =) =) </p>
+  <p>Успехов в учёбе!</p>
+  <p><u>Решения и ответы</u>:</p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>: </em><br>
+      <em><img align="absmiddle" width="153" height="256" src="k/predel_posledovatelnosti_clip_image162_0000.gif"></em><br>
+      <em>Найдём предел последовательности:</em><br>
+      <em><img align="absmiddle" width="212" height="41" src="k/predel_posledovatelnosti_clip_image164_0000.gif"></em><br>
+      <em>Используем формулу суммы <img align="absmiddle" width="13" height="15" src="k/predel_posledovatelnosti_clip_image023_0000.gif"> первых  членов арифметической прогрессии <img align="absmiddle" width="104" height="41" src="k/predel_posledovatelnosti_clip_image025_0000.gif">.</em><br>
+      <em>В данном случае <img align="absmiddle" width="113" height="24" src="k/predel_posledovatelnosti_clip_image167.gif"></em><br>
+      <em><img align="absmiddle" width="324" height="60" src="k/predel_posledovatelnosti_clip_image169_0000.gif"></em></p>
+  <p><em>Пример 4: <strong>Решение</strong>: </em><br>
+      <em><img align="absmiddle" width="601" height="133" src="k/predel_posledovatelnosti_clip_image171_0000.gif"></em></p>
+  <p><em>Пример 6: <strong>Решение</strong>: </em><br>
+      <em><img align="absmiddle" width="565" height="139" src="k/predel_posledovatelnosti_clip_image173_0000.gif"></em></p>
+  <p><em>Пример 8: <strong>Решение</strong>: </em><br>
+      <em><img align="absmiddle" width="480" height="224" src="k/predel_posledovatelnosti_clip_image175.gif"></em></p>
+  <p><em>Пример 10: <strong>Решение</strong>: последовательность <img align="absmiddle" width="88" height="45" src="k/predel_posledovatelnosti_clip_image177.gif"> – ограничена: <img align="absmiddle" width="133" height="45" src="k/predel_posledovatelnosti_clip_image179.gif">, а последовательность <img align="absmiddle" width="88" height="41" src="k/predel_posledovatelnosti_clip_image181.gif">, значит, по соответствующей теореме:</em><br>
+      <em><img align="absmiddle" width="391" height="48" src="k/predel_posledovatelnosti_clip_image183.gif"></em></p>
+  <p><em>Пример 12: <strong>Решение</strong>:</em><br>
+      <em><img align="absmiddle" width="264" height="45" src="k/predel_posledovatelnosti_clip_image185.gif"></em><br>
+      <em>Заменим бесконечно  малую эквивалентной: <img align="absmiddle" width="79" height="19" src="k/predel_posledovatelnosti_clip_image187.gif"> при <img align="absmiddle" width="43" height="17" src="k/predel_posledovatelnosti_clip_image129_0001.gif">.</em><br>
+      <em>В данном примере <img align="absmiddle" width="108" height="41" src="k/predel_posledovatelnosti_clip_image189.gif">.</em><br>
+      <em><img align="absmiddle" width="505" height="141" src="k/predel_posledovatelnosti_clip_image191.gif"></em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1046 @@
+<html>
+<head>
+<title> Интегралы от тригонометрических функций. Примеры решений</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="интегралы тригонометрических функций, подробно, просто, доступно">
+<meta name="Description" content="Подробные примеры решений для чайников">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Интегралы от тригонометрических функций. <br>
+      Примеры решений</strong></h1>
+  
+  <br>
+  <p>На данном уроке мы рассмотрим интегралы от  тригонометрических функций, то есть начинкой интегралов у нас будут  синусы, косинусы, тангенсы и котангенсы в  различных комбинациях. Все примеры будут разобраны подробно, доступно и понятно  даже для чайника.</p>
+  <p>Для успешного изучения интегралов от тригонометрических  функций Вы должны хорошо ориентироваться в простейших интегралах, а также  владеть некоторыми приемами интегрирования. Ознакомиться с этими материалами  можно на лекциях <strong><a href="integraly_primery_reshenij.html">Неопределенный  интеграл. Примеры решений</a></strong> и <strong><a href="metod_zameny_peremennoi.html">Метод  замены переменной в неопределенном интеграле</a></strong>. <br>
+    <br>
+    А сейчас нам потребуются: <em>Таблица интегралов</em>, <em>Таблица  производных</em> и <em>Справочник  тригонометрических формул</em>. Все методические пособия можно найти на странице <strong><a href="matematicheskie_formuly.html">Математические формулы и таблицы</a></strong>.  Рекомендую всё распечатать. Особо заостряю внимание на тригонометрических  формулах, <strong>они должны быть перед глазами</strong> – без этого эффективность работы заметно снизится.</p>
+  <p>Но сначала о том, каких интегралов в данной статье <strong>нет</strong>. Здесь не найдется интегралов вида <img align="absmiddle"  width="71" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image002.gif">, <img align="absmiddle"  width="124" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image004.gif"> – косинус, синус, умноженный на какой-нибудь многочлен (реже что-нибудь с тангенсом или котангенсом). Такие интегралы  интегрируются по частям, и для изучения метода посетите урок <a href="integrirovanie_po_chastyam.html">Интегрирование по частям. Примеры  решений</a>.Также здесь не найдется интегралов с  «арками» – арктангенсом, арксинусом и др.,  они тоже чаще всего интегрируются по частям. </p>
+  <p>При нахождении интегралов от тригонометрических функций  используется ряд методов:</p>
+  <p><strong><a href="integraly_ot_trigonometricheskih_funkcij.html#itf">Использование  тригонометрических формул</a></strong></p>
+  <p><strong><a href="integraly_ot_trigonometricheskih_funkcij.html#ps">Понижение степени  подынтегральной функции</a></strong> (частный случай п.1)</p>
+  <p><strong><a href="integraly_ot_trigonometricheskih_funkcij.html#mz">Метод замены  переменной</a></strong></p>
+  <p><strong><a href="integraly_ot_trigonometricheskih_funkcij.html#utp">Универсальная  тригонометрическая подстановка</a></strong> (частный случай п.3) </p>
+  <p>В рамках урока я постараюсь подробно разобрать все  перечисленные методы и привести примеры решения типовых интегралов. Следует  отметить, что данное разделение по параграфам весьма условно, поскольку очень  часто вышеперечисленные правила используются одновременно.</p>
+  <br><a name="itf"></a>
+  <h2><strong>Использование  тригонометрических формул</strong></h2>
+  <p><u>Пример 1</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="104" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image006.gif"></p>
+  <p>Сначала полное решение, потом  комментарии.<br>
+      <img align="absmiddle"  width="135" height="37" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image008.gif"></p>
+  <p>Используем формулу:<br>
+      <img align="absmiddle"  width="243" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image010.gif"></p>
+  <p><img align="absmiddle"  width="444" height="128" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image012.gif"></p>
+  <p>(1) Мы видим, что в  подынтегральном выражении находится произведение двух функций. К сожалению, в  интегральном исчислении нет удобной формулы для интегрирования произведения: <img align="absmiddle"  width="162" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image014.jpg">, поэтому приходится прибегать к различным  ухищрениям. В данном случае мы прерываем решение значком <img align="absmiddle"  width="23" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image016.gif"> и поясняем, что  используется тригонометрическая формула. Данная формула превращает произведение  в сумму.</p>
+  <p>(2) Используем свойства  линейности неопределенного интеграла – интеграл от суммы равен сумме  интегралов; константу можно (и нужно) вынести за знак интеграла.</p>
+  <p><strong><em>!</em></strong><em> Справка: При работе с тригонометрическими функциями следует помнить,  что:</em></p>
+  <p><em>Косинус – это четная  функция, то есть <img align="absmiddle"  width="107" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image018.gif">, минус исчезает без всяких последствий. В рассматриваемом  примере: <img align="absmiddle"  width="213" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image020.gif"></em></p>
+  <p><em>Синус – функция  нечетная: <img align="absmiddle"  width="113" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image022.gif"> – здесь минус,  наоборот – не пропадает, а выносится.</em></p>
+  <p>(3) Под интегралами у нас сложные функции (косинусы не  просто от <img align="absmiddle"  width="13" height="15" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image024.gif">, а от сложного аргумента). Это простейшие из сложных  функций, интегралы от них удобнее найти методом подведения под знак  дифференциала. Более подробно с данным приёмом можно ознакомиться на уроке <strong><a href="metod_zameny_peremennoi.html">Метод замены переменной в неопределенном  интеграле</a></strong>.<br>
+    <br>
+    (4) Используем табличную формулу <img align="absmiddle"  width="132" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image026.gif">, единственное отличие, вместо «икса» у нас сложное выражение.</p>
+  <p>Готово.</p>
+  <p> <u>Пример 2</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="99" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image028.gif"></p>
+  <p>Это пример для самостоятельного  решения, полное решение и ответ – в конце урока.</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="49" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image030.gif"></p>
+  <p>Классика жанра для тех, кто тонет  на зачёте. Как Вы, наверное, заметили, в таблице интегралов нет интеграла от  тангенса и котангенса, но, тем не менее, такие интегралы найти можно.</p>
+  <p><img align="absmiddle"  width="411" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image032.gif"></p>
+  <p>(1) Используем тригонометрическую  формулу <img align="absmiddle"  width="81" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image034.gif"></p>
+  <p>(2) Подводим функцию под знак  дифференциала.</p>
+  <p>(3) Используем табличный интеграл <img align="absmiddle"  width="100" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image036.gif">.</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="67" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image038.gif"></p>
+  <p>Это пример для самостоятельного решения, полное решение и  ответ – в конце урока.</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="64" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image040.gif"></p>
+  <p>Степени у нас будут потихоньку  повышаться =).<br>
+    Сначала решение:</p>
+  <p><img align="absmiddle"  width="380" height="88" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image042.gif"></p>
+  <p>(1) Используем формулу <img align="absmiddle"  width="89" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image044.gif"></p>
+  <p>(2) Используем основное  тригонометрическое тождество <img align="absmiddle"  width="120" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image046.gif">, из которого следует, что <img align="absmiddle"  width="120" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image048.gif">.</p>
+  
+  <p>(3) Почленно делим числитель на  знаменатель.</p>
+  <p>(4) Используем свойство  линейности неопределенного интеграла.</p>
+  <p>(5) Интегрируем с помощью  таблицы.</p>
+  
+  <p><u>Пример 6</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="65" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image050.gif"></p>
+  <p>Это пример для самостоятельного решения, полное решение и  ответ – в конце урока.</p>
+  <p>Также существуют интегралы от  тангенсов и котангенсов, которые находятся в более высоких степенях. Интеграл от тангенса в кубе рассмотрен на уроке <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь плоской фигуры?</a></strong> Интегралы от тангенса (котангенса) в четвертой и пятой степенях можно раздобыть  на странице <strong><a href="slozhnye_integraly.html">Сложные интегралы</a></strong>.</p>
+  <br><a name="ps"></a>
+  <h2><strong>Понижение степени подынтегральной функции</strong></h2>
+  <p>Данный приём работает, когда  подынтегральные функции нафаршированы синусами и косинусами в <strong>чётных</strong> степенях. Для понижения степени  используют тригонометрические формулы <img align="absmiddle"  width="124" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image052.gif">, <img align="absmiddle"  width="127" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image054.gif"> и <img align="absmiddle"  width="139" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image056.gif">, причем последняя формула чаще используется в обратном  направлении: <img align="absmiddle"  width="140" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image058.gif">.</p>
+  <p><u>Пример 7</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="67" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image060.gif"></p>
+  <p>Решение:<br>
+      <img align="absmiddle"  width="435" height="45" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image062.gif"></p>
+  <p>В принципе, ничего нового здесь  нет, за исключением того, что мы применили формулу <img align="absmiddle"  width="127" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image054_0000.gif"> (понизив степень  подынтегральной функции). Обратите внимание, что я сократил решение. По мере  накопления опыта интеграл от <img align="absmiddle"  width="44" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image064.gif"> можно находить устно,  это экономит время и вполне допустимо при чистовом оформлении заданий. В данном  случае целесообразно не расписывать и правило <img align="absmiddle"  width="164" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image066.gif">, сначала устно берем интеграл от 1, затем – от <img align="absmiddle"  width="44" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image064_0000.gif">.</p>
+  <p><u>Пример 8</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="77" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image068.gif"></p>
+  <p>Это пример для самостоятельного  решения, полное решение и ответ – в конце урока.</p>
+  <p>Таки обещанное повышение степени:</p>
+  <p><u>Пример 9</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="65" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image070.gif"></p>
+  <p>Сначала решение, потом  комментарии:</p>
+  <p><img align="absmiddle"  width="441" height="189" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image072.gif"></p>
+  <p>(1) Готовим подынтегральную функцию для применения формулы <img align="absmiddle"  width="124" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image052_0000.gif">.</p>
+  <p>(2) Собственно применяем формулу.</p>
+  <p>(3) Возводим знаменатель в квадрат и выносим константу за  знак интеграла. Можно было поступить несколько иначе, но, на мой взгляд, так  удобнее.</p>
+  <p>(4) Используем формулу <img align="absmiddle"  width="153" height="24" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image074.gif"></p>
+  <p>(5) В третьем слагаемом снова понижаем степень, но уже с  помощью формулы <img align="absmiddle"  width="127" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image054_0001.gif">.</p>
+  <p>(6) Приводим подобные слагаемые (здесь я почленно разделил <img align="absmiddle"  width="152" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image076.gif"> и выполнил сложение <img align="absmiddle"  width="63" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image078.gif">).</p>
+  <p>(7) Собственно берём интеграл, правило линейности <img align="absmiddle"  width="164" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image080.gif"> и метод подведения  функции под знак дифференциала выполняем устно.</p>
+  <p>(8) Причесываем ответ.</p>
+  <p><strong>! В неопределенном  интеграле нередко ответ можно записать несколькими способами</strong></p>
+  <p>В только что рассмотренном примере окончательный ответ <img align="absmiddle"  width="287" height="45" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image082.gif"> можно было записать  иначе – раскрыть скобки и даже это сделать еще до интегрирования выражения, то  есть вполне допустима следующая концовка примера:</p>
+  <p><img align="absmiddle"  width="485" height="88" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image084.gif"></p>
+  <p>Вполне возможно, что такой вариант даже удобнее, просто я  объяснил так, как сам привык решать). Вот еще один характерный пример для  самостоятельного решения:</p>
+  <p><u>Пример 10</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="104" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image086.gif"></p>
+  <p>Это пример решается двумя  способами, и у Вас могут получиться <strong>два  совершенно разных ответа</strong> (точнее говоря, они будут выглядеть совершенно  по-разному, а с математической точки зрения являться эквивалентными). Скорее  всего, Вы не увидите наиболее рациональный способ и помучаетесь с раскрытием  скобок, использованием других тригонометрических формул. Наиболее эффективное  решение приведено в конце урока.</p>
+  <p>Подытоживая параграф, сделаем вывод: любой интеграл вида <img align="absmiddle"  width="143" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image088.gif">, где <img align="absmiddle"  width="13" height="15" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image090.gif"> и <img align="absmiddle"  width="17" height="15" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image092.gif"> – <strong>чётные</strong> числа, решается методом понижения степени подынтегральной  функции.<br>
+    На практике мне встречались интегралы с 8 и 10 степенями, решать  их <s>ужасный гемор</s> приходилось, понижая степень несколько раз, в результате чего  получались длинные-длинные ответы.</p>
+  <br><a name="mz"></a>
+  <h2><strong>Метод замены  переменной</strong></h2>
+  <p>Как уже упоминалось в статье <strong><a href="metod_zameny_peremennoi.html">Метод замены переменной в неопределенном интеграле</a></strong>, основной  предпосылкой для использования метода замены является тот факт, что в  подынтегральном выражении есть некоторая функция <img align="absmiddle"  width="35" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image094.gif"> и её производная <img align="absmiddle"  width="37" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image096.gif">:<br>
+      <strong><img align="absmiddle"  width="99" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image098.gif"> </strong>(функции <img align="absmiddle"  width="35" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image094_0000.gif">, <img align="absmiddle"  width="37" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image096_0000.gif"> не обязательно  находятся в произведении)</p>
+  <p><u>Пример 11</u></p>
+  <p>Найти неопределенный интеграл.<br>
+      <img align="absmiddle"  width="72" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image100.gif"></p>
+  <p>Смотрим в таблицу производных и  замечаем формулы <img align="absmiddle"  width="96" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image102.gif">, <img align="absmiddle"  width="107" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image104.gif">, то есть, в нашем подынтегральном выражении есть функция и  её производная. Однако мы видим, что при дифференцировании косинус и синус  взаимно превращаются друг в друга, и возникает вопрос: как выполнить замену  переменной и что же  обозначать за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106.gif"> – синус или косинус?!  Вопрос можно решить методом научного тыка: если мы неправильно выполним замену,  то ничего хорошего не получится.</p>
+  <p><strong>Общий ориентир: в похожих случаях за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0000.gif"> нужно обозначить  функцию, которая находится в знаменателе.</strong></p>
+  <p><img align="absmiddle"  width="107" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image108.gif"></p>
+  <p>Прерываем решение и проводим  замену<br>
+      <img align="absmiddle"  width="64" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image110.gif"></p>
+  <p><img align="absmiddle"  width="129" height="92" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image112.jpg"><br>
+    В знаменателе у нас всё хорошо,  всё зависит только от <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0001.gif">, теперь осталось выяснить, во что превратится <img align="absmiddle"  width="60" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image115.gif">.<br>
+    Для этого находим дифференциал <img align="absmiddle"  width="19" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image117.gif">:</p>
+  <p><img align="absmiddle"  width="293" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image119.gif"></p>
+  <p>Или, если короче: <img align="absmiddle"  width="99" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image121.gif"><br>
+    Из полученного равенства по  правилу пропорции выражаем нужное нам выражение:<br>
+  <img align="absmiddle"  width="92" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image123.gif"></p>
+  <p>Итак:<br>
+    <img align="absmiddle"  width="135" height="92" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image125.jpg"><br>
+    Теперь всё подынтегральное  выражение у нас зависит только от <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0002.gif"> и можно продолжать  решение</p>
+  <p><img align="absmiddle"  width="303" height="91" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image127.gif"></p>
+  <p>Готово. Напоминаю, что цель замены – упростить  подынтегральное выражение, в данном случае всё свелось к интегрированию  степенной функции по таблице.</p>
+  <p>Я не случайно так подробно расписал этот пример, это сделано  в целях повторения и закрепления материалов урока <strong><a href="metod_zameny_peremennoi.html">Метод замены переменной в неопределенном интеграле</a></strong>.<strong></strong></p>
+  <p> А сейчас два примера  для самостоятельного решения:</p>
+  <p><u>Пример 12</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="85" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image129.gif"> </p>
+  <p><u>Пример 13</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="72" height="45" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image131.gif"> </p>
+  <p>Полные решения и ответы в конце урока.</p>
+  <p><u>Пример 14</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="148" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image133.gif"> </p>
+  <p>Здесь опять в подынтегральном  выражении находятся синус с косинусом (функция с производной), но уже в  произведении, и возникает дилемма – что же обозначать за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0003.gif">, синус или косинус? </p>
+  <p>Можно попытаться провести замену  методом научного тыка, и, если ничего не получится, то обозначить за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0004.gif"> другую функцию, но есть:</p>
+  <p><strong>Общий ориентир: за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0005.gif"> нужно обозначить ту  функцию, которая, образно говоря, находится в «неудобном положении»</strong>. </p>
+  <p>Мы видим, что в данном примере <s>студент</s>  косинус «мучается» от степени, а синус – свободно так сидит, сам по себе.  </p>
+  <p>Поэтому проведем замену:<br>
+      <img align="absmiddle"  width="224" height="64" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image135.gif"></p>
+  <p>Если у кого остались трудности с  алгоритмом замены переменной и нахождением дифференциала <img align="absmiddle"  width="19" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image117_0000.gif">, то следует вернуться к уроку <strong><a href="metod_zameny_peremennoi.html">Метод замены переменной в неопределенном интеграле</a></strong>.</p>
+  <p><img align="absmiddle"  width="385" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image138.gif"> </p>
+  <p><u>Пример 15</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="69" height="48" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image140.gif"></p>
+  <p>Анализируем подынтегральную  функцию, что нужно обозначить за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0006.gif">?<br>
+    Вспоминаем наши ориентиры:<br>
+    1) Функция, скорее всего,  находится в знаменателе;<br>
+    2) Функция находится в «неудобном  положении».</p>
+  <p>Кстати, эти ориентиры справедливы  не только для тригонометрических функций.</p>
+  <p>Под оба критерия (особенно под  второй) подходит синус, поэтому напрашивается замена <img align="absmiddle"  width="55" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image142.gif">. В принципе, замену можно уже проводить, но сначала неплохо  было бы разобраться, а что делать с <img align="absmiddle"  width="43" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image144.gif">? Во-первых, «отщипываем» один косинус:</p>
+  <p><img align="absmiddle"  width="191" height="48" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image146.gif"></p>
+  <p><img align="absmiddle"  width="52" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image148.gif"> мы резервируем под наш  «будущий» дифференциал <img align="absmiddle"  width="19" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image117_0001.gif"></p>
+  <p>А <img align="absmiddle"  width="44" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image151.gif"> выражаем через синус с  помощью основного тригонометрического тождества:<br>
+      <img align="absmiddle"  width="120" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image048_0000.gif"></p>
+  <p><img align="absmiddle"  width="371" height="48" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image153.gif"></p>
+  <p>Вот теперь замена: <img align="absmiddle"  width="55" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image142_0000.gif"><br>
+      <img align="absmiddle"  width="81" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image156.gif"></p>
+  <p><img align="absmiddle"  width="375" height="96" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image158.gif"> </p>
+  <p>Готово.</p>
+  <p><strong>Общее правило: Если в  подынтегральной функции одна из тригонометрических функций (синус или косинус)  находится в <u>нечетной</u> степени, то нужно от нечетной степени «откусить» одну  функцию, а за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0007.gif"> – обозначить другую  функцию. </strong>Речь идет только об интегралах, где есть косинусы и синусы.</p>
+  <p>В рассмотренном примере в нечетной степени у нас находился  косинус, поэтому мы отщипнули от степени один косинус, а за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0008.gif"> обозначили синус.</p>
+  <p><u>Пример 16</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="104" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image160.gif"></p>
+  <p>Степени идут на взлёт =).<br>
+    Это пример для самостоятельного решения. Полное решение и  ответ в конце урока.</p>
+  <br><a name="utp"></a>
+  <h2><strong>Универсальная  тригонометрическая подстановка</strong></h2>
+  <p>Универсальная тригонометрическая подстановка – это частный  случай метода замены переменной. Её можно попробовать применить, когда «не  знаешь, что делать». Но на самом деле есть некоторые ориентиры для ее  применения. Типичными интегралами, где нужно применить универсальную  тригонометрическую подстановку, являются следующие интегралы: <img align="absmiddle"  width="124" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image162.gif">, <img align="absmiddle"  width="68" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image164.gif">, <img align="absmiddle"  width="80" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image166.gif">, <img align="absmiddle"  width="124" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image168.gif"> и т.д.</p>
+  
+  <p><u>Пример 17</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="159" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image170.gif"></p>
+  <p>Универсальная тригонометрическая подстановка в данном случае  реализуется следующим способом. Проведем замену: <img align="absmiddle"  width="55" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image172.gif">. Я использую не букву <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0009.gif">, а букву <img align="absmiddle"  width="13" height="13" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image175.gif">, это не является каким-то правилом, просто опять же я так  привык решать.</p>
+  <p>Здесь удобнее находить дифференциал <img align="absmiddle"  width="20" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image177.gif">, для этого из равенства <img align="absmiddle"  width="55" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image172_0000.gif">, я выражаю <img align="absmiddle"  width="13" height="15" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image024_0000.gif">:<br>
+    Навешиваю на обе части арктангенс:<br>
+  <img align="absmiddle"  width="139" height="45" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image180.gif"><br>
+    Арктангенс и тангенс взаимно уничтожаются:<br>
+  <img align="absmiddle"  width="73" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image182.gif"><br>
+  <img align="absmiddle"  width="79" height="21" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image184.gif"></p>
+  <p>Таким образом:<br>
+      <img align="absmiddle"  width="169" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image186.gif"></p>
+  <p>На практике можно не расписывать так подробно, а просто  пользоваться готовым результатом: <img align="absmiddle"  width="75" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image188.gif"></p>
+  <p><strong>!</strong> Выражение <img align="absmiddle"  width="75" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image188_0000.gif"> справедливо только в  том случае, если под синусами и косинусами у нас просто «иксы», для интеграла <img align="absmiddle"  width="140" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image191.gif"> (о котором мы еще  поговорим) всё будет несколько иначе!</p>
+  <p>При замене <img align="absmiddle"  width="55" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image172_0001.gif"> синусы и косинусы у  нас превращаются в следующие дроби:<br>
+      <img align="absmiddle"  width="88" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image193.gif">, <img align="absmiddle"  width="89" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image195.gif">, эти равенства основаны на известных тригонометрических  формулах: <img align="absmiddle"  width="111" height="80" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image197.gif">, <img align="absmiddle"  width="113" height="80" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image199.gif"></p>
+  <p>Итак, чистовое оформление может быть таким:</p>
+  <p><img align="absmiddle"  width="159" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image170_0000.gif"></p>
+  <p>Проведем универсальную тригонометрическую подстановку: <img align="absmiddle"  width="55" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image201.gif"><br>
+      <img align="absmiddle"  width="171" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image203.gif"><br>
+      <img align="absmiddle"  width="180" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image205.gif"></p>
+  <p><img align="absmiddle"  width="413" height="235" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image207.gif"></p>
+  <p>(1) Производим в исходный интеграл подстановку: <img align="absmiddle"  width="73" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image209.gif">, <img align="absmiddle"  width="87" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image211.gif">, <img align="absmiddle"  width="89" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image195_0000.gif">.</p>
+  <p>(2) Приводим знаменатель к общему знаменателю.</p>
+  <p>(3) Избавляемся от четырехэтажности дроби, при этом <img align="absmiddle"  width="37" height="20" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image214.gif"> у нас сокращается.  Раскрываем скобки в знаменателе, двойку в числителе выносим за знак интеграла.</p>
+  <p>(4) Приводим подобные слагаемые в знаменателе.</p>
+  <p>(5) Интеграл <img align="absmiddle"  width="84" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image216.gif"> решается <em>методом выделения полного квадрата</em>.  Более подробно с этим методом можно  ознакомиться на уроке <strong><a href="integrirovanie_drobei.html">Интегрирование  некоторых дробей</a></strong>. Разложение <img align="absmiddle"  width="105" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image218.gif"> является подготовкой  для осуществления вышеуказанного приёма</p>
+  <p>(6) Выделяем полный квадрат и готовим интеграл для  интегрирования.</p>
+  <p>(7) Интегрируем по табличной формуле <img align="absmiddle"  width="165" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image220.gif">.</p>
+  <p>(8) Проводим обратную замену, вспоминая, что <img align="absmiddle"  width="55" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image201_0000.gif">.</p>
+  <p>Готово.</p>
+  <p>Рассмотрим похожий интеграл: <img align="absmiddle"  width="140" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image191_0000.gif">, нет, решать мы его не будем =), а просто поймем как  проводить замену.</p>
+  <p>Здесь тоже проводится универсальная тригонометрическая  подстановка: <img align="absmiddle"  width="48" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image223.gif">.<br>
+    Обратите внимание, что аргумент под тангенсом <strong>должен быть</strong> <strong>в два раза меньше</strong>, чем под синусом и косинусом. Формулы <img align="absmiddle"  width="96" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image193_0000.gif">, <img align="absmiddle"  width="99" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image195_0001.gif"> сохраняют статус-кво, а  вот дифференциал будет немного другой (я не зря недавно так подробно его  расписал):</p>
+  <p><img align="absmiddle"  width="48" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image223_0000.gif"><br>
+      <img align="absmiddle"  width="163" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image226.gif"></p>
+  <p>Интеграл <img align="absmiddle"  width="139" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image228.gif"> решается путем замены <img align="absmiddle"  width="63" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image230.gif"> и т.д., всё точно так  же, единственное отличие, дифференциал будет опять немного другой.</p>
+  <p><u>Пример 18</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="79" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image232.gif"></p>
+  <p>Это пример для самостоятельного  решения. Полное решение и ответ в конце урока. </p>
+  <p>С помощью универсальной тригонометрической подстановки  решаются и интегралы вроде такого:</p>
+  <p><u>Пример 19</u></p>
+  <p>Найти неопределенный интеграл.</p>
+  <p><img align="absmiddle"  width="124" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image234.gif"></p>
+  <p>Здесь перед применением универсальной тригонометрической  подстановки необходимо понизить степени в знаменателе при помощи формул <img align="absmiddle"  width="124" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image052_0001.gif">, <img align="absmiddle"  width="127" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image054_0002.gif">. Попробуйте разобраться в данном примере самостоятельно,  полное решение и ответ очень близко!</p>
+  <p>Применение универсальной тригонометрической подстановки  часто приводит к длинным и трудоемким вычислениям. Поэтому на практике  универсальной тригонометрической подстановки стараются избегать (если  возможно). Для этого используют ряд методов и приемов, о которых можно прочитать в статье <a href="slozhnye_integraly.html">Сложные  интегралы</a>. </p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: Решение:</em></p>
+  <p><img align="absmiddle"  width="133" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image236.gif"></p>
+  <p>Используем формулу:<br>
+      <img align="absmiddle"  width="239" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image238.gif"></p>
+  <p><img align="absmiddle"  width="491" height="157" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image240.gif"></p>
+  <p><em>Пример 4: Решение:</em></p>
+  <p><em><img align="absmiddle"  width="456" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image242.gif"></em></p>
+  
+  <p><em>Пример 6: Решение:</em></p>
+  <p><img align="absmiddle"  width="397" height="171" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image244.gif"></p>
+  <p><em>Пример 8: Решение:</em></p>
+  <p><img align="absmiddle"  width="437" height="45" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image246.gif"></p>
+  <p><em>Пример 10: Решение:</em></p>
+  <p><img align="absmiddle"  width="479" height="96" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image248.gif"></p>
+  <p><em>Пример 12: Решение:</em></p>
+  <p><em><img align="absmiddle"  width="120" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image250.gif"></em></p>
+  <p><em>Проведем замену:</em><br>
+      <em> <img align="absmiddle"  width="177" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image252.gif"></em></p>
+  <p><em><img align="absmiddle"  width="341" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image254.gif"></em></p>
+  <p><em>Примечание: здесь  можно было сделать замену <img align="absmiddle"  width="55" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image142_0001.gif">, но гораздо выгоднее обозначить за <img align="absmiddle"  width="9" height="16" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image106_0010.gif"> весь знаменатель.</em></p>
+  <p><em>Пример 13: Решение:</em></p>
+  <p><em><img align="absmiddle"  width="107" height="45" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image258.gif"></em></p>
+  <p><em>Проведем замену:</em><br>
+      <em><img align="absmiddle"  width="260" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image260.gif"></em></p>
+  <p><em><img align="absmiddle"  width="383" height="48" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image262.gif"></em></p>
+  <p><em>Пример 16: Решение:</em></p>
+  <p><em><img align="absmiddle"  width="460" height="29" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image264.gif"></em></p>
+  <p><em>Проведем замену: <img align="absmiddle"  width="271" height="19" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image266.gif"></em></p>
+  <p><em><img align="absmiddle"  width="363" height="75" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image268.gif"></em></p>
+  <p><em>Пример 18: Решение:</em></p>
+  <p><em><img align="absmiddle"  width="113" height="41" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image270.gif"></em></p>
+  <p><em>Проведем универсальную тригонометрическую подстановку:</em><br>
+      <em><img align="absmiddle"  width="319" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image272.gif"></em></p>
+  <p><em><img align="absmiddle"  width="523" height="128" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image274.gif"></em></p>
+  <p><em>Пример 19: Решение:</em></p>
+  <p><em><img align="absmiddle"  width="379" height="167" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image276.gif"></em></p>
+  <p><em>Универсальная тригонометрическая подстановка:</em><br>
+      <em><img align="absmiddle"  width="311" height="44" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image278.gif"></em></p>
+  
+  <p><em><img align="absmiddle"  width="423" height="181" src="f/integraly_ot_trigonometricheskih_funkcij_clip_image280.gif"></em></p></div>
+  <p>Вы выполнили проверку? Может я и ошибся где ;)</p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

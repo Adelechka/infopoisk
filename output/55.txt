@@ -1,0 +1,1065 @@
+<html>
+<head>
+<title>Производная по направлению и градиент функций двух и трёх переменных</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="производная по направлению функции двух переменных, градиент функции, как найти производную по направлению, формула производной по направлению, примеры решений, что такое производная по направлению, смысл производной по направлению и  градиента, производная и градиент функции трёх переменных">
+<meta name="Description" content="Доступная теория и 10 подробно разобранных задач">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Производная по направлению и градиент функции</strong></h1>
+  
+  <br>
+  <p>Уже в начале первой статьи о <strong><a href="chastnye_proizvodnye_primery.html">дифференцировании функции двух переменных</a></strong> я коротко рассказал о  смысле частных производных 1-го порядка и подвёл вас к теме сегодняшнего урока.  Итак, что же такое <strong>производная по  направлению</strong>? На самом деле с данным понятием вы знакомы ещё с 1-го  семестра, поскольку <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">производную</a> </strong><img align="absmiddle" width="17" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image002.gif"><strong> </strong>функции одной переменной смело можно  назвать производной по направлению – ведь она характеризует <em>скорость изменения</em> функции <img align="absmiddle" width="61" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image004.gif"> <u>в направлении оси</u> <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image006.gif">. 
+  <p>И эта суть с учётом бОльшего разнообразия направлений  распространяется на производные функций нескольких переменных, в частности, на  производные функции <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008.gif">. Геометрически <strong><a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">функция  двух переменных</a></strong> чаще всего представляет собой <strong><a href="poverhnosti.html">поверхность</a></strong>, и значения «зет» у нас чётко ассоциируются с высотой.  Таким образом, с позиций геометрии <em>скорость  изменения</em> данной функции – есть <em>скорость  изменения высоты</em>. При этом совершенно понятно, что «негоризонтальная»  поверхность изменчива – в каких-то направлениях  она крутА, в каких-то полога, а где-то таки «равнина». И <strong>производная по направлению</strong> как раз призвана охарактеризовать  «ландшафт местности» <em>(скорость изменения  функции)</em> в различных точках по различным направлениям. В этой связи  возникает первый вопрос:</p>
+  <h3><strong>а КАКИМ СПОСОБОМ  вообще можно задать какое-то конкретное направление?</strong></h3>
+  <p>Вспомним забавную модель урока <strong><a href="predel_funkcii_dvuh_peremennyh.html">Предел функции двух переменных</a></strong>, в которой мы перемещаемся по  комнате в плоскости <img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010.gif"> <strong><a href="grafiki_i_svoistva_funkcij.html">декартовой системы</a> </strong><img align="absmiddle" width="45" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image012.gif">, а прямо над нами «зависло одеяло», заданное функцией <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0000.gif">. Давайте встанем в некоторую точку <img align="absmiddle" width="73" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image014.gif"> <strong><a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">области определения</a></strong>. В зависимости от выбора точки нам доступен <em>бесконечно малый</em> «шажок» в некоторых  или, что вероятнее, во всех направлениях. Направление традиционно обозначается  исходящим из точки <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016.gif"> <em>лучом</em> <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018.gif">, лежащим в плоскости <img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0000.gif">. Сам луч можно определить с помощью угла <em>(между ним и осью <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image006_0000.gif"> либо <img align="absmiddle" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image021.gif">), </em>а ещё лучше – с помощью <strong><a href="vektory_dlya_chainikov.html">вектора</a></strong>.  </p>
+  <p>Вопрос второй: </p>
+  <h3><strong>как узнать скорость изменения  функции </strong><img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0001.gif"><strong> в каком-либо направлении? </strong></h3>
+  <p>С помощью производной по направлению <img align="absmiddle" width="23" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image023.gif">. Как вариант, в обозначении можно использовать букву «эф»: <img align="absmiddle" width="24" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image025.gif">.</p>
+  <p>Если в точке <img align="absmiddle" width="73" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image027.gif"> существует<strong> </strong>производная по направлению луча <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018_0000.gif"> <em>(исходящего из точки <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image029.gif"> и лежащего в плоскости </em><img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0001.gif"><em>)</em>, то её можно  рассчитать по следующей формуле:</p>
+  <p><img align="absmiddle" width="259" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image031.gif">, где:</p>
+  <p><img align="absmiddle" width="131" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image033.gif"> – <strong><a href="chastnye_proizvodnye_primery.html">частные производные 1-го порядка</a></strong> в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image029_0000.gif">; <br>
+      <img align="absmiddle" width="80" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image036.gif">  – <strong><a href="skaljarnoe_proizvedenie_vektorov.html">направляющие  косинусы</a></strong> <em>(координаты <strong><a href="vektory_dlya_chainikov.html">вектора</a></strong> единичной длины)</em>,  однозначно определяющие данное направление. </p>
+  <p><strong><em>Примечание</em></strong><em>:</em><em> Производная по  направлению, конечно же, не обязана существовать во всех возможных направлениях  (представьте, например, «край одеяла»). Со строгими условиями её существования можно  ознакомиться в учебной литературе.</em></p>
+  <p>На практике популярна более компактная запись: <img align="absmiddle" width="232" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image038.gif">. </p>
+  <p><img align="absmiddle" width="23" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image023_0000.gif"> – это ЧИСЛО,  характеризующее скорость изменения функции, причём:</p>
+  <p>– если <img align="absmiddle" width="47" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image041.gif">, то функция <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0002.gif"> в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0000.gif"> по данному направлению   <strong>возрастает</strong>  (поверхность «идёт в гору»);</p>
+  <p>– если <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image044.gif">, то функция <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0003.gif"> в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0001.gif"> по данному направлению <strong>убывает</strong> («склон» поверхности);</p>
+  <p>– если <img align="absmiddle" width="47" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image046.gif">, то функция <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0004.gif"> в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0002.gif"> по данному направлению <strong>постоянна</strong> (поверхность параллельна  плоскости <img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0002.gif">).</p>
+  <p><strong>Геометрический смысл  производной по направлению</strong> по существу напоминает <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">геометрический смысл «обычной» производной</a></strong>. Представьте плоскость,  проходящую через луч «эль» перпендикулярно плоскости <img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0003.gif">. Данная плоскость «высекает» из поверхности <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0005.gif"> <em>пространственную линию</em> <img align="absmiddle" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image051.gif">, которой, очевидно, принадлежит точка <img align="absmiddle" width="200" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image053.gif">. Производная по направлению численно равна тангенсу угла  <img align="absmiddle" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image055.gif"> <strong>между</strong> <u>касательной</u> к <em>линии</em> <img align="absmiddle" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image051_0000.gif"> в точке <img align="absmiddle" width="21" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image057.gif"> <strong>и</strong> <u>плоскостью</u> <img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0004.gif">:<br>
+      <img align="absmiddle" width="61" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image059.gif"></p>
+  <p><strong><em>Примечание</em></strong><em>: также можно  сказать, что </em><img align="absmiddle" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image055_0000.gif"> – <em>это угол <strong>между</strong> касательной к  линии <img align="absmiddle" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image051_0001.gif"> в точке <img align="absmiddle" width="21" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image057_0000.gif"> <strong>и</strong> её ортогональной проекцией на плоскость <img align="absmiddle" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0005.gif">, т.е. направлением луча <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018_0001.gif"> (см. Пример 3, пункт «д»  статьи <strong><a href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи на прямую и  плоскость</a></strong>).</em></p>
+  <p>Более того, само обозначение <img align="absmiddle" width="23" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image023_0001.gif"> символизирует  отношение приращения функции («высоты») к <em>бесконечно  малому</em> «шажку» по направлению луча «эль». Таким образом, чем <img align="absmiddle" width="23" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image023_0002.gif"> больше <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong>, тем больше крутизна  поверхности в данной точке по данному направлению. Крутизну можно выразить  непосредственно через угол:</p>
+  <p><img align="absmiddle" width="112" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image064.gif">, после чего данная характеристика приобретает простой  обывательский смысл <em>(«подъём в гору под  углом 30 градусов» и т.п.)</em>. Впрочем, в геодезии приняты <strong><a href="https://ru.wikipedia.org/wiki/%D0%A3%D0%BA%D0%BB%D0%BE%D0%BD_%28%D0%B3%D0%B5%D0%BE%D0%B4%D0%B5%D0%B7%D0%B8%D1%8F%29" target="_blank" rel="nofollow">другие стандарты</a></strong>.  </p>
+  <p>Как видите, всё очень и очень напоминает <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">производную функции одной переменной</a></strong> –  с тем отличием, что направлений стало гораздо больше, и по одну руку может быть  «скала», а по другую – «пропасть». Кстати, все ли понимают, почему мы делаем  именно <em>бесконечно малые</em> «шаги» по  различным направлениям? Дело в том, что существует поверхности, «рельеф» некоторых  меняется невероятно быстро – на 1 квадратном сантиметре могут запросто  умещаться миллионы «гор» и «ущелий», да и того больше. Поэтому для корректного  описания «местности» и используются бесконечно малые величины   </p>
+  <p>После небольшого экскурса в теорию вернёмся к самой формуле <img align="absmiddle" border="0" width="259" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image031_0000.gif">, из которой выведем скорость изменения функции в двух хорошо  знакомых направлениях.</p>
+  <p>Рассмотрим исходящий из точки <img align="absmiddle" border="0" width="72" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image067.gif"> луч <img align="absmiddle" border="0" width="15" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image069.gif">, параллельный оси <img align="absmiddle" border="0" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image006_0001.gif"> <em>(либо совпавший с ней)</em> и направленный в сторону её острия. Очевидно,  что данный луч однозначно определяется единичным вектором <img align="absmiddle" border="0" width="43" height="23" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image072.gif">. Таким образом, <img align="absmiddle" border="0" width="125" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image074.gif"> <em>(напоминаю, что координаты вектора единичной длины – это и есть соответствующие  направляющие косинусы)</em> и общая формула чудесным образом упрощается:<br>
+      <img align="absmiddle" border="0" width="283" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image076.gif"></p>
+  <p>То есть, <strong><a href="chastnye_proizvodnye_primery.html">частная  производная «по икс»</a></strong> в точке <img align="absmiddle" border="0" width="73" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image014_0000.gif"> характеризует скорость  изменения функции <img align="absmiddle" border="0" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0006.gif"> в направлении острия  оси <img align="absmiddle" border="0" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image006_0002.gif"> <em>(параллельно данной оси)</em>.</p>
+  <p>Самостоятельно проведите рассуждения для луча <img align="absmiddle" border="0" width="57" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image078.gif">  и сделайте вывод о  том, что <img align="absmiddle" border="0" width="103" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image080.gif">.</p>
+  <p>Теоретическая часть урока начинает плавно перетекать в  практику, и первые задачи будут посвящены «трёхмерным аналогам» примеров статьи <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">о смысле производной</a></strong>:</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти производную функции <img align="absmiddle" border="0" width="36" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image082.gif"> в точке <img align="absmiddle" border="0" width="68" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image084.gif"> по направлению вектора <img align="absmiddle" border="0" width="44" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image086.gif"></p>
+  <p>А теперь давайте немного разомнёмся и немного походим по  комнате. Предположим, что под нами <strong><a href="uravnenie_ploskosti.html">плоскость</a></strong> <img align="absmiddle" border="0" width="36" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image082_0000.gif">. Да-да, всё верно – сейчас мы перемещаемся ПО САМОЙ  поверхности. На уроке <strong><a href="predel_funkcii_dvuh_peremennyh.html">Предел функции  двух переменных</a></strong> нам помогал один волшебный персонаж, но сегодня настал  черёд самостоятельно исследовать поверхности – чтобы как следует прочувствовать  тему =)</p>
+  <p>Что с высотой? Очевидно, что в каком бы направлении мы ни  пошли – высота будет оставаться неизменной. Таким образом, сразу понятно, что в  любой точке и по любому направлению скорость изменения функции равна нулю.</p>
+  <p>Однако, несмотря на известный ответ и всю простоту задачи,  со всей ответственностью отнесёмся к её <strong>решению</strong>:</p>
+  <p>Вычислим скорость изменения функции <img align="absmiddle" border="0" width="36" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image082_0001.gif"> по направлению  исходящего из точки <img align="absmiddle" border="0" width="69" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image088.gif"> луча <img align="absmiddle" border="0" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018_0002.gif">, который определяется вектором <img align="absmiddle" border="0" width="44" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image086_0000.gif">. Используем рабочую формулу:<br>
+      <img align="absmiddle" border="0" width="259" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image031_0001.gif"></p>
+  <p>Найдём <strong><a href="chastnye_proizvodnye_primery.html">частные  производные 1-го порядка</a></strong>:<br>
+      <img align="absmiddle" border="0" width="85" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image092.gif"></p>
+  <p>В результате получены две константы, а именно, два нуля. Что  это значит? Это значит, что частные производные равны нулю В ЛЮБОЙ точке <strong><a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">области определения</a> </strong>функции <img align="absmiddle" border="0" width="36" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image082_0002.gif"><em> (вся плоскость <img align="absmiddle" border="0" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0006.gif">)</em>, в частности и в точке <img align="absmiddle" border="0" width="69" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image088_0000.gif">:<br>
+      <img align="absmiddle" border="0" width="85" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image096.gif"></p>
+  <p><strong><em>Примечание</em></strong><em>: формально частные  производные можно расписать в виде <img align="absmiddle" border="0" width="216" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image098.gif"> и выполнить  подстановку координат точки <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image029_0001.gif">:</em><br>
+      <em><img align="absmiddle" border="0" width="184" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image101.gif"></em></p>
+  <p>Полученные результаты подтверждают тот факт, что <em>откуда бы</em> и по <em>какому бы направлению</em> мы ни передвигались – наша высота <img align="absmiddle" border="0" width="36" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image082_0003.gif"> будет сохраняться  постоянной:<br>
+      <img align="absmiddle" border="0" width="179" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image103.gif"></p>
+  <p>В принципе, здесь следует записать ответ, но ради отработки  общего алгоритма решения найдём направляющие косинусы предложенного  направления. По существу, требуется найти <strong><a href="vektory_dlya_chainikov.html">вектор</a></strong> <img align="absmiddle" border="0" width="104" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image105.gif"> единичной длины,  который <strong><em><a href="vektory_dlya_chainikov.html">сонаправлен</a></em></strong> с вектором <img align="absmiddle" border="0" width="44" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image086_0001.gif">. Задача нахождения такого вектора подробно рассмотрена в  самом конце статьи <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное  произведение векторов</a></strong>. Воспользуемся готовой формулой:<br>
+      <img align="absmiddle" border="0" width="287" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image107.gif"></p>
+  <p>Легко проверить, что любой другой <em>ненулевой сонаправленный вектор</em> приводится к этому же «эталону».  Протестируем, например, вектор <img align="absmiddle" border="0" width="52" height="23" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image109.gif">:<br>
+      <img align="absmiddle" border="0" width="367" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image111.gif"></p>
+  <p>К слову, не лишним будет убедиться, что его длина  действительно равна единице:<br>
+    <img align="absmiddle" border="0" width="365" height="56" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image113.gif">  </p>
+  <p>Эквивалентный способ проверки основан на известном равенстве <img align="absmiddle" border="0" width="123" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image115.gif">:<br>
+      <img align="absmiddle" border="0" width="241" height="51" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image117.gif"></p>
+  <p>Собственно, финальный расчёт:<br>
+      <img align="absmiddle" border="0" width="405" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image119.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" border="0" width="47" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image046_0000.gif"></p>
+  <p>Можно использовать обозначение <img align="absmiddle" border="0" width="79" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image122.gif"> либо <img align="absmiddle" border="0" width="67" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image124.gif">, подчёркивая, что производная по направлению найдена именно  в точке <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0003.gif">. Однако упущение невелико, поскольку это и так ясно из  контекста решения.</p>
+  <p>Легко понять, что проведённые выкладки справедливы и для  любой другой «горизонтальной» плоскости, то есть <strong>производная функции <img align="absmiddle" border="0" width="128" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image127.gif"> в любой точке и по  любому направлению равна нулю</strong>. Ну а сейчас самое время покинуть душные  квартиры и выйти склон зелёного холма, где безмятежно пригревает майское  солнышко. …Хотя кто знает, возможно, вы там и находитесь – ведь с развитием  гаджетов люди стали получать знания в самых неожиданных местах =)</p>
+  <p>Но, так или иначе – добро пожаловать на природу:</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти производную функции <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129.gif"> в точке <img align="absmiddle" border="0" width="61" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image131.gif"> по направлению:</p>
+  <p>1) координатных осей <em>(параллельно  им)</em>;<br>
+    2) вектора <img align="absmiddle" border="0" width="49" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image133.gif">;<br>
+    3) вектора <img align="absmiddle" border="0" width="68" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image135.gif">;<br>
+    4) градиента.</p>
+  <p><strong>Решение</strong>: итак,  выберите произвольную точку «зелёного холма» и осмотритесь по сторонам. Теперь  переместитесь в какую-нибудь другую точку <a href="uravnenie_ploskosti.html">плоскости</a>  <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0000.gif"> и снова оцените  «местность»:<br>
+      <img align="absmiddle" border="0" width="394" height="370" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image137.jpg" alt="Производная по направлению характеризует крутизну поверхности в данном направлении"></p>
+    <div id="primer">
+      <p>…кой-какие обозначения я не проставил из эстетических  соображений, ну да ладно, не извращаться же со слоями в Фотошопе…</p>
+      <p>Что можно сказать о «ландшафте»? Во всех своих точках плоскость  имеет постоянный наклон по всем направлениям, то есть, с точки зрения наклона –  без разницы, где мы находимся<em>.</em> Проверим  это аналитически:<br>
+          <img align="absmiddle" border="0" width="119" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image139.gif"></p>
+      <p>Как и в предыдущем примере, производные-константы  подразумевают тот факт, что в ЛЮБОЙ точке <u>плоскости </u><em><u>XOY</u></em>,  а значит и в точке <img align="absmiddle" border="0" width="60" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image141.gif"> <em>(которую я выбрал исключительно для удобства построения чертежа)</em>, эти  значения сохраняются постоянными:<br>
+          <img align="absmiddle" border="0" width="151" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image143.gif"></p>
+      <p>Таким образом:<br>
+          <img align="absmiddle" border="0" width="480" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image145.gif"> – и данный результат как  раз убедительно подтверждает то, что <em>скорость  изменения</em> функции <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0001.gif"> зависит <strong>только</strong> от направления.</p>
+      <p>1) Найдём производную по направлению луча <img align="absmiddle" border="0" width="15" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image069_0000.gif">, совпадающего с положительной полуосью <img align="absmiddle" border="0" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image006_0003.gif">. Тут даже с направляющими косинусами возиться не надо – как  было установлено выше, производная по данному направлению равна частной  производной по «икс» в точке <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0004.gif">:<br>
+          <img align="absmiddle" border="0" width="111" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image150.gif"></p>
+      <p>Для лучшего понимания я изобразил «чёрную дорожку», по  которой мы будем «подниматься вверх по склону» и, исходя из геометрического  смысла производной, очень легко отыскать конкретное значение «чёрного» угла: <img align="absmiddle" border="0" width="173" height="51" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image152.gif">.</p>
+      <p>И ещё раз подчёркиваю независимость выбора исходной точки –  если мы выберем любую другую «начальную точку путешествия» и начнём двигаться в  направлении вектора <img align="absmiddle" border="0" width="11" height="20" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image154.gif">, то «угол подъёма» будет точно таким же.</p>
+      <p>Аналогичная история с положительным направлением <img align="absmiddle" border="0" width="15" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image156.gif"> оси <img align="absmiddle" border="0" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image021_0000.gif">:<br>
+          <img align="absmiddle" border="0" width="121" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image159.gif"><br>
+        Отрицательный знак производной говорит об убывании функции <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0002.gif"> в направлении  координатного вектора <img align="absmiddle" border="0" width="13" height="23" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image161.gif">. Иными словами, тут нас ожидает «желтая дорожка» вниз по  склону под «жёлтым» углом <img align="absmiddle" border="0" width="108" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image163.gif"> градусов.</p>
+      <p>2) Вычислим производную по направлению луча <img align="absmiddle" border="0" width="15" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image165.gif">. Для этого отработанным приёмом найдём единичный вектор <img align="absmiddle" border="0" width="17" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image167.gif">, сонаправленный с вектором <img align="absmiddle" border="0" width="49" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image133_0000.gif">:<br>
+          <img align="absmiddle" border="0" width="288" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image169.gif"> – координаты которого  и являются направляющими косинусами данного направления:<br>
+          <img align="absmiddle" border="0" width="171" height="43" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image171.gif"></p>
+      <p>Да, не забываем о проверке:<br>
+          <img align="absmiddle" border="0" width="297" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image173.gif">,  ч.т.п.</p>
+      <p>По правилам хорошего тона запишем вычисления подробно:<br>
+          <img align="absmiddle" border="0" width="464" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image175.gif"> </p>
+      <p>И действительно, синяя «дорожка» проходит на неизменной  высоте прямо в плоскости <img align="absmiddle" border="0" width="39" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0007.gif">.</p>
+      <p>Аналогично – если мы «выйдем» из любой другой точки  плоскости <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0003.gif"> по направлению того же  вектора <img align="absmiddle" border="0" width="49" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image133_0001.gif">, то наша высота <em>(скорость  изменения функции)</em> будет оставаться постоянной.</p>
+      <p>3) Найдём производную по направлению вектора <img align="absmiddle" border="0" width="68" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image135_0000.gif">:<br>
+          <img align="absmiddle" border="0" width="349" height="96" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image179.gif"></p>
+      <p>Проверим результат с помощью равенства <img align="absmiddle" border="0" width="123" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image115_0000.gif">:<br>
+          <img align="absmiddle" border="0" width="265" height="51" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image181.gif"></p>
+      <p>Вычислим производную по направлению луча <img align="absmiddle" border="0" width="13" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image183.gif">, который «спрятался» под плоскостью <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0004.gif">:<br>
+          <img align="absmiddle" border="0" width="575" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image185.gif"></p>
+      <p>Таким образом, подъём по «оранжевой дороге» осуществляется  под углом <img align="absmiddle" border="0" width="123" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image187.gif"></p>
+      <h2><strong>4) Градиент</strong></h2>
+      <p>Понятие градиента можно сформулировать по-разному. Начнём с  локального определения, а именно, с градиента функции в отдельно взятой точке:</p>
+      <p><strong>Градиентом функции <img align="absmiddle" border="0" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0007.gif"> в точке</strong> <img align="absmiddle" border="0" width="73" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image027_0000.gif"> называется <u>направленный  отрезок</u> <img align="absmiddle" border="0" width="236" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image199.gif">, отложенный от точки <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image029_0004.gif">, который показывает <strong>направление и скорость</strong> <em>наискорейшего роста</em> функции <img align="absmiddle" border="0" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0008.gif"> в <u>данной точке</u>.</p>
+      <p>Если совсем просто, то куда «смотрит» градиент – там и  самый крутой «подъём в гору»</p>
+      <p><strong>Распространённые обозначения</strong>: <img align="absmiddle" border="0" width="80" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image191.gif"> либо <img align="absmiddle" border="0" width="77" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image193.gif">, причём здесь уже нельзя записывать просто <img align="absmiddle" border="0" width="48" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image195.gif"> <em>(точнее, эта запись приобретает  несколько  другой смысл)</em>.</p>
+      <p>В нашем случае: <img align="absmiddle" border="0" width="223" height="23" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image202.gif">. </p>
+      <p><strong>И теперь заостряю внимание</strong>:<strong> </strong>градиент в точке – это<em> </em>вектор <em>несвободный</em>. По той причине, что  характеризует поведение функции именно в <u>данной точке</u>, а не где-то ещё.  Поэтому, <img align="absmiddle" width="81" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image777.gif"> следует отложить  от начала координат. Однако он тоже  оказывается под плоскостью <img align="absmiddle" border="0" width="61" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0005.gif">, и «красный» вектор на чертеже, которым я обозначил общее  направление – это на самом деле градиент в другой точке: <img align="absmiddle" border="0" width="135" height="23" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image204.gif"></p>
+      <h3><strong>Взаимосвязь производной  по направлению с градиентом:</strong></h3>
+      <p>Производная по некоторому направлению <img align="absmiddle" border="0" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018_0003.gif"> в точке <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image029_0005.gif"> – это <strong><a href="skaljarnoe_proizvedenie_vektorov.html">проекция градиента</a></strong> в данной точке на  данное направление:<br>
+          <img align="absmiddle" border="0" width="169" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image208.gif">, откуда, согласно известным геометрическим выкладкам <em>(см. ссылку выше)</em>, получается весьма  полезная практическая формула:</p>
+      <p><img align="absmiddle" border="0" width="177" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image210.gif">, где: </p>
+      <p><img align="absmiddle" border="0" width="85" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image212.gif"> – длина градиента; <br>
+          <img align="absmiddle" border="0" width="140" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image214.gif"> – угол между  градиентом и данным направлением.</p>
+      <p>В свою очередь из этой формулы следует, что производная по  направлению достигает максимального значения при <img align="absmiddle" border="0" width="57" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image216.gif">, то есть когда <img align="absmiddle" border="0" width="165" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image218.gif"> – направление <img align="absmiddle" border="0" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018_0004.gif"> совпадает с  направлением градиента.</p>
+      <p>В нашей задаче производная по направлению градиента:<br>
+          <img align="absmiddle" border="0" width="261" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image221.gif"> и максимальный  «красный» угол подъёма:<br>
+          <img align="absmiddle" border="0" width="99" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image223.gif"></p>
+      <p>Заметьте, что полученный результат – это отличное средство  дополнительного контроля решения: если по другому направлению получился бОльший  угол, то нужно искать ошибку.</p>
+    </div>
+    <p>Как всегда, в лучших своих традициях я аккуратно встроил  теоретический материал в развёрнутое практическое задание, и после увлекательной  прогулки настало время подвести итог:</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" border="0" width="429" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image225.gif"></p>
+  <p>Если что-то осталось недопонятым, то, вероятнее всего, у вас  пробелы в <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">теории производной функции  одной переменной</a></strong> и/или <strong><a href="vektory_dlya_chainikov.html">основах  аналитической геометрии</a></strong>. Особенно много сегодня требуется  геометрических знаний. Спокойствие и только  спокойствие – всё можно наверстать буквально в ближайший час, после чего  вернуться на эту страницу и перечитать начало статьи ещё раз.</p>
+  <p>Ну а мы продолжаем рассматривать тематические задачи, и оставшиеся  примеры будут значительно короче. Но расслабляться ни в коем случае не следует,  поскольку впереди ещё немало нового и интересного материала:</p>
+  <p><u>Пример 3</u></p>
+  <p>Дана функция <img align="absmiddle" border="0" width="121" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image227.gif">, точка <img align="absmiddle" border="0" width="69" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image229.gif"> и вектор <img align="absmiddle" border="0" width="85" height="23" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image231.gif">. Требуется найти:<br>
+    а) производную функции <img align="absmiddle" border="0" width="13" height="13" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image233.gif"> в точке <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0005.gif"> по направлению вектора <img align="absmiddle" border="0" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image236.gif">;<br>
+    б) градиент функции в данной точке.</p>
+  <p>Классика жанра – найти производную по какому-нибудь  направлению и градиент.</p>
+  <p>Закрепляем алгоритм<strong> решения</strong>:</p>
+  <p>а) Обозначим через <img align="absmiddle" border="0" width="9" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image238.gif"> исходящий из точки <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0006.gif"> по направлению вектора <img align="absmiddle" border="0" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image241.gif"> луч и воспользуемся  стандартной формулой:<br>
+      <img align="absmiddle" border="0" width="232" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image243.gif"></p>
+  <p>Найдём <strong><a href="chastnye_proizvodnye_primery.html">частные производные  1-го порядка</a></strong>:<br>
+      <img align="absmiddle" border="0" width="323" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image245.gif"><br>
+    Тут не помешает «прозвонить» равенство <img align="absmiddle" border="0" width="56" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image247.gif">, благо, смешанные производные 2-го порядка отыскиваются с  пол тычка.</p>
+  <p>А вот сейчас наступает действительно ответственный момент – это  «реальное» вычисление частных производных 1-го порядка в точке <img align="absmiddle" border="0" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0007.gif">. Всегда проявляйте ПОВЫШЕНОЕ ВНИМАНИЕ на данном этапе:<br>
+      <img align="absmiddle" border="0" width="355" height="51" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image250.gif"></p>
+  <p><strong><em>Полезный приём</em></strong><em>: несмотря  на кажущееся отсутствие хорошей проверки, я всё-таки придумал небольшое ноу-хау,  которое с высокой эффективностью позволяет избегать вычислительных ошибок. Ухищрение  состоит в следующем: когда вам предложена задача с неприятными и плохо  проверяемыми вычислениями, то сначала СОСРЕДОТОЧЕННО прорешайте её на черновике  и отложите листок в сторону. Далее переключаемся на другие дела, после чего  черновое решение благополучно забывается. Спустя некоторое время (полчаса -  час, а ещё лучше – день) так же ВНИМАТЕЛЬНО оформляем чистовое решение и  сверяемся с черновиком. Почти 100% – ошибка «не пройдёт». </em></p>
+  <p>На очереди нахождение единичного вектора, сонаправленного с  вектором <img align="absmiddle" width="15" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image002_0000.gif">:<br>
+      <img align="absmiddle" width="323" height="93" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image004_0000.gif"><br>
+    Контроль: <img align="absmiddle" width="345" height="49" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image006_0004.gif">, в чём и требовалось убедиться.</p>
+  <p>На завершающем этапе тоже проявляем внимание, правда, здесь  уже гораздо меньше шансов что-то «прозевать»:<br>
+      <img align="absmiddle" width="484" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image008_0009.gif"></p>
+  <p>И конечно, не забываем о геометрическом смысле результата:  отрицательный знак производной сообщает нам об убывании функции в данном  направлении, т.е. при <em>бесконечно малом</em> «шажке» из точки <strong><img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0008.gif"> </strong>по направлению  луча «эль» крутизна «склона» поверхности <img align="absmiddle" width="121" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image012_0000.gif"> составит <img align="absmiddle" width="131" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image014_0001.gif">.</p>
+  <p>Особо подчёркиваю, что в отличие от Примеров № 1, 2 оговорка  о «<em>бесконечно малом  </em>шажке» становится необходима, ибо многие  поверхности – это «не плоскости плоские», а «волны волнистые», и в соседней,  пусть даже <em>очень близкой </em>точке производная  по тому же направлению в общем случае будет другой.</p>
+  <p>Кстати, в условии запросто может спрашиваться НЕ о  производной по направлению, а о крутизне поверхности – и в этом случае расчёт  угла станет обязательным завершающим шагом решения.</p>
+  <p>2) Второй пункт совсем прост:<br>
+      <img align="absmiddle" width="299" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image016_0008.gif"></p>
+  <p>Однако и тут снова следует проявить аккуратность – условие  задачи вполне может запрашивать НЕ градиент, а <em>«наибольшую скорость роста функции в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0009.gif">»</em>. Тогда находим производную по направлению градиента:<br>
+      <img align="absmiddle" width="249" height="47" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image018_0005.gif">, которая и является мерилом этой скорости.</p>
+  <p>А если же требуется найти <em>«наибольшую крутизну поверхности  в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0010.gif">»</em>, то в ответе указываем НЕ градиент и НЕ его длину, а угол <img align="absmiddle" width="67" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image020.gif">.</p>
+  <p>Завершая этот содержательный разбор полётов, расскажу о  более широком понятии градиента. В более широком смысле под градиентом понимают <em>векторную функцию</em> <img align="absmiddle" width="247" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image022.gif">, которая каждой точке <img align="absmiddle" width="41" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image024.gif"> <strong><a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">области определения</a></strong> функции <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image026.gif"> <em>(где существует градиент)</em> ставит в соответствие вектор,  показывающий направление максимального роста функции <img align="absmiddle" width="75" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image026_0000.gif"> в данной точке.</p>
+  <p>Так, например, в нашем случае можно составить векторную  функцию <img align="absmiddle" width="319" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image028.gif"> и для десятка-другого  точек построить целую «карту» направленных отрезков, которая безо всякого  трёхмерного чертежа достаточно хорошо охарактеризует «поведение» поверхности <img align="absmiddle" width="121" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image012_0001.gif"> в интересующих нас  направлениях.</p>
+  <p>Отсюда становится окончательно понятно, почему градиент в  точке – это <strong>несвободный</strong> вектор, отложенный  именно от конкретной точки.</p>
+  <p>Молодцы, что осилили =) ...теперь и <a href="teoriya_polya.html">теория поля</a> будет  нипочём!</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="279" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image030.gif"></p>
+  <p>Пара типовиков для самостоятельного решения:</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="171" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image032.gif"> в точке <img align="absmiddle" width="56" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image034.gif"> по направлению вектора <img align="absmiddle" width="55" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image036_0000.gif"> и максимальную  крутизну поверхности в данной точке.</p>
+  <p>Слишком просто? В простых задачах и ошибаются! …ну что же, сами  виноваты – задачка позанятнее:)))<br>
+    <br>
+  <u>Пример 5</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="277" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image038_0000.gif"> в точке <img align="absmiddle" width="55" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image040.gif"> в направлении,  составляющем угол <img align="absmiddle" width="49" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image042.gif"> с градиентом функции <img align="absmiddle" width="13" height="13" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image044_0000.gif"> в этой точке.</p>
+  <p>Если возникли затруднения, пожалуйста, вернитесь к  вышеизложенному материалу. Примерный образец чистового оформления решений в  конце урока.</p>
+  <p>На практике довольно часто встречаются задания, в которых  направление задаётся другими способами:</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="64" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image046_0001.gif"> в точке <img align="absmiddle" width="60" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image048.gif">:<br>
+    а) в направлении, составляющем угол <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image050.gif"> с положительным  направлением оси <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052.gif">;<br>
+    б) в направлении биссектрисы 2-го координатного угла.</p>
+  <p>То есть, направления заданы через углы. Учимся с ними  разбираться:</p>
+  <p><strong>Решение</strong>: частные  производные в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image054.gif"> понадобятся в обоих  пунктах и поэтому в первую очередь их и найдём:<br>
+      <img align="absmiddle" width="329" height="137" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image056.gif"></p>
+  <p>Ну а что тут такого? Числа как числа.</p>
+  <p>а) Обозначим через <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image058.gif">  луч, исходящий из  точки <img align="absmiddle" width="60" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image048_0000.gif"> и образующий угол <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image050_0000.gif"> с положительным  направлением оси <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0000.gif">. Очевидно, что данный луч лежит в 1-й координатной четверти <em>(правой верхней)</em> и образует угол в <img align="absmiddle" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image061.gif"> с осью <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0001.gif">. Картина очень простая, но если таки мутноватая, выполните  чертёж.</p>
+  <p>Формула производной по направлению, естественно, та же:<br>
+      <img align="absmiddle" width="232" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image064_0000.gif"></p>
+  <p>И главный вопрос – как найти направляющие косинусы? Я  предлагаю следующую цепочку рассуждений, которая мне показалась наиболее  простой:</p>
+  <p>Пусть <strong><a href="uravnenie_pryamoi_na_ploskosti.html">направляющий вектор</a></strong> <img align="absmiddle" width="107" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image066.gif"> луча <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image058_0000.gif"> отложен от начала  координат. Совершенно понятно, что этот вектор тоже наклонен к оси <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0002.gif"> под углом 30 градусов.</p>
+  <p> <strong>Угол <img align="absmiddle" width="16" height="15" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image068.gif"> – это угол между  вектором <img align="absmiddle" width="20" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image070.gif"> и <u>положительной</u> полуосью</strong> <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0003.gif">. То есть, угол <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image050_0001.gif"> сразу «готов к  употреблению» – даже обозначения совпали <em>(в  условии вполне могла быть и другая буква, например, <img align="absmiddle" width="44" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image073.gif">).</em></p>
+  <p><strong>Угол <img align="absmiddle" width="16" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image075.gif"> – это угол между  вектором <img align="absmiddle" width="20" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image070_0000.gif"> и <u>положительной</u> полуосью</strong> <img align="absmiddle" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image078_0000.gif">. С «бетой» никаких проблем: поскольку угол между координатными  осями составляет 90 градусов, то <img align="absmiddle" width="103" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image080_0000.gif"> или <img align="absmiddle" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image082_0004.gif">.</p>
+  <p>Вычислим направляющие косинусы:<br>
+      <img align="absmiddle" width="263" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image084_0000.gif"><br>
+    Впрочем, чего тут вычислять – эти значения вкладывались в  наши головы долгие школьные годы. Но на всякий случай ссылка на <strong><a href="trigonometricheskie_tablicy.pdf" target="_blank">тригонометрическую таблицу</a></strong>. </p>
+  <p>Контроль: <img align="absmiddle" width="311" height="56" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image086_0002.gif"><br>
+    Дотошные естествоиспытатели могут изобразить на чертеже вектор <img align="absmiddle" width="77" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image088_0001.gif"> и воочию убедиться,  что он направлен туда, куда надо.</p>
+  <p>Искомая производная по направлению:<br>
+      <img align="absmiddle" width="559" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image090.gif"></p>
+  <p>…это ещё божий одуванчик, бывает гораздо хуже.</p>
+  <p>б) Вычислим производную в направлении биссектрисы 2-го  координатного угла. Напоминаю, что координатные четверти нумеруются против  часовой стрелки, и очевидно, речь идёт о биссектрисе, которая делит пополам  левую верхнюю четверть.</p>
+  <p>Мало-мальски подготовленные люди легко подберут направляющий  вектор этого направления, напрашивается вектор <img align="absmiddle" width="55" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image092_0000.gif">, и сразу найдут направляющие косинусы:</p>
+  <p> <img align="absmiddle" width="349" height="96" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image094.gif"></p>
+  <p>Такой вариант решения вполне приемлем, однако «подарочный»  угол, кратный 45 градусам, встречается далеко не каждый день, и поэтому мы  отработаем универсальную схему решения. Пусть вектор <img align="absmiddle" width="107" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image066_0000.gif">, задающий биссектрису 2-го координатного угла, отложен от  начала координат <em>(как вы уже поняли, именно  в таком положении проще всего высмотреть нужные углы)</em>:<br>
+      <strong><img align="absmiddle" width="52" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image096_0000.gif"></strong> (угол между  вектором <img align="absmiddle" width="20" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image070_0001.gif"> и положительной (!)  полуосью <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0004.gif">);<br>
+      <strong><img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image098_0000.gif"></strong> (угол между  вектором <img align="absmiddle" width="20" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image070_0002.gif"> и положительной  полуосью <img align="absmiddle" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image078_0001.gif">).<br>
+    Таким образом:<br>
+  <img align="absmiddle" width="293" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image101_0000.gif"></p>
+  <p>Обозначим буквой <img align="absmiddle" width="17" height="15" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image103_0000.gif"> луч, который исходит  из точки <img align="absmiddle" width="60" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image048_0001.gif"> в направлении  биссектрисы 2-го координатного угла. Вычислим производную по данному  направлению:<br>
+      <img align="absmiddle" width="600" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image105_0000.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="253" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image107_0000.gif"></p>
+  <p>На практике так подробно, конечно, расписывать не нужно и  решение следующей задачи поможет вам понять ориентировочный минимум  комментариев:</p>
+  <p><u>Пример 7</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="71" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image109_0000.gif"> в точке <img align="absmiddle" width="69" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image111_0000.gif">:<br>
+    а) в направлении, составляющем угол <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image113_0000.gif"> с положительным  направлением оси <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0005.gif">;<br>
+    б) в направлении биссектрисы 4-го координатного угла.</p>
+  <p>И в заключение этого параграфа хочу отметить, что помимо  геометрии, рассматриваемый математический инструментарий широко применяется в  различных физических задачах – примеров настолько много, что от физики могут  взвыть даже некоторые физики =) <br>
+    В этой связи я сохраню мудрое молчание, …впрочем, ненадолго  =)</p>
+  <br>
+  <h2><strong>Производная по  направлению и градиент функции трёх переменных</strong></h2>
+  <p>Грубо говоря, добавляется одно измерение и одно слагаемое.  Рассмотрим функцию трёх переменных <img align="absmiddle" width="88" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image115_0001.gif"> и точку <img align="absmiddle" width="95" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image117_0000.gif">, принадлежащую её <strong><a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">области  определения</a></strong>. </p>
+  <p>Если в точке <img align="absmiddle" width="95" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image117_0001.gif"> существует производная  по направлению пространственного луча <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image058_0001.gif"> <em>(исходящего из точки <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image054_0000.gif">)</em>, то её можно рассчитать по следующей формуле:</p>
+  <p><img align="absmiddle" width="432" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image121.gif">,  где:</p>
+  <p><img align="absmiddle" width="256" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image123.gif"> – <strong><a href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">частные производные функции трёх переменных</a> </strong>в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image054_0001.gif">;<br>
+      <img align="absmiddle" width="119" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image126.gif">  – <a href="skaljarnoe_proizvedenie_vektorov.html">направляющие  косинусы</a> данного направления <em>(они же  соответствующие координаты направляющего вектора единичной длины)</em>.</p>
+  <p>Градиентом функции <img align="absmiddle" width="88" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image115_0002.gif"> в точке <img align="absmiddle" width="95" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image117_0002.gif"> называется направленный  отрезок <img align="absmiddle" width="319" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image129_0006.gif">, отложенный от точки <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image054_0002.gif">, который указывает направление наибыстрейшего возрастания данной  функции в данной точке.</p>
+  <p>И обещанный физический пример: рассмотрим функцию трёх  переменных <img align="absmiddle" width="85" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image132.gif">, которая характеризует температуру некоего пространственного  тела в каждой его точке <img align="absmiddle" width="53" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image134.gif">. Тогда производная <img align="absmiddle" width="20" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image136.gif"> по тому или иному  направлению <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image058_0002.gif"> в некоторой точке <img align="absmiddle" width="95" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image117_0003.gif"> тела будет показывать <em>скорость нагревания/охлаждения</em> тела в  соответствующих направлениях, а вектор <img align="absmiddle" width="77" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image138.gif"> – указывать  направление наибыстрейшего роста температуры в этой точке. </p>
+  <p>Вот такой вот удачный и понятный пример – не какие-нибудь  плохо представляемые электрические поля.</p>
+  <p>Закрепим формулы несколькими задачами:</p>
+  <p><u>Пример 8</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="149" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image140.gif"> в точке <img align="absmiddle" width="101" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image142.gif"> по направлению вектора <img align="absmiddle" width="73" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image144.gif"></p>
+  <p>Не тушуемся, это пространственный вектор: <img align="absmiddle" width="115" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image146.gif"></p>
+  <p>Алгоритм <strong>решения</strong> остаётся прежним. Вычислим <strong><a href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">частные  производные 1-го порядка</a></strong> в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0011.gif">. Вот уж где точно нужен глаз да глаз:<br>
+      <img align="absmiddle" width="631" height="389" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image149.gif"><br>
+    Найдем направляющие косинусы данного направления:<br>
+  <img align="absmiddle" width="368" height="93" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image151.gif"></p>
+  <p>Контроль: <img align="absmiddle" width="428" height="49" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image153.gif"></p>
+  <p>И завершающий шаг:<br>
+      <img align="absmiddle" width="373" height="91" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image155.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="83" height="49" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image157.gif"></p>
+  <p>Пара символических заданий для самостоятельного решения:</p>
+  <p><u>Пример 9</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="51" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image159_0000.gif"> в точке <img align="absmiddle" width="61" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image161_0000.gif"> по направлению,  составляющему с положительными координатными полуосями равные углы.</p>
+  <p><u>Пример 10</u></p>
+  <p>Найти направление и величину наибыстрейшего возрастания  функции <img align="absmiddle" width="200" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image163_0000.gif"> в точке <img align="absmiddle" width="83" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image165_0000.gif">.</p>
+  <p>Особых комментариев я не оставлял, поскольку всё очень похоже  на примеры 1-й части урока.</p>
+  <p>Аналогичным образом производная по направлению и градиент определяются  и для функций бОльшего количества переменных. </p>
+  <p>Всех поздравляю! –  сегодня мы не только познакомились с новым  материалом, но и обобщили понятие производной, после чего <s>забудем о ней, как о  кошмарном сне</s> можно смело приступать к изучению <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">интегралов</a></strong>, разновидностей коих – великое множество... <br>
+    …чувствую-чувствую, что  взгрустнулось – вот и решил приободрить =)</p>
+  <p>Желаю вам выбора удачных направлений, которые, кстати, далеко  не во всех точках жизни направлены по градиенту.</p>
+  <p>Спасибо за внимание и до скорых встреч!</p>
+  <p><u>Решения и ответы: </u></p><div id="primer">
+  <p><em>Пример 4: <strong>Решение</strong>: вычислим частные производные  1-го порядка в точке <img align="absmiddle" width="56" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image034_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="297" height="99" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image168.gif"></em><br>
+      <em>Найдём направляющие  косинусы:</em><br>
+      <em><img align="absmiddle" width="288" height="96" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image170.gif"></em><br>
+      <em>Искомая производная по  направлению:</em><br>
+      <em><img align="absmiddle" width="464" height="48" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image172.gif"></em><br>
+      <em>Найдём градиент  функции в точке <img align="absmiddle" width="16" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image174.gif"> и вычислим его длину:</em><br>
+      <em><img align="absmiddle" width="272" height="56" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image176.gif"></em><br>
+      <em>Таким образом,  максимальная крутизна поверхности в точке <img align="absmiddle" width="16" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image174_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="117" height="25" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image178.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="195" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image180.gif"></em></p>
+  <p><em>Пример 5: <strong>Решение</strong>: вычислим частные производные  1-го порядка в точке <img align="absmiddle" width="21" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image182.gif">:</em><br>
+      <em><img align="absmiddle" width="595" height="360" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image184.gif"></em><br>
+      <em>Составим градиент  функции в точке <img align="absmiddle" width="55" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image040_0000.gif"> и вычислим его длину:</em><br>
+      <em><img align="absmiddle" width="349" height="96" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image186.gif"></em><br>
+      <em>Искомая производная по  направлению:</em><br>
+      <em><img align="absmiddle" width="393" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image188.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="75" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image190.gif"></em></p>
+  <p><em>Пример 7: <strong>Решение</strong>: вычислим частные производные  1-го порядка в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0012.gif">:</em><br>
+      <em><img align="absmiddle" width="587" height="203" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image193_0000.gif"></em></p>
+  <p><em>а) Вычислим  производную по направлению <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image058_0003.gif">, составляющему угол <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image113_0001.gif"> с положительным  направлением оси <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0006.gif">. Рассмотрим единичный   вектор <img align="absmiddle" width="107" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image066_0001.gif">, определяющий это направление. Очевидно, что <img align="absmiddle" width="95" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image196.gif">. Таким образом:</em><br>
+      <em><img align="absmiddle" width="263" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image198.gif"></em><br>
+      <em>Искомая производная по  направлению:</em><br>
+      <em><img align="absmiddle" width="371" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image200.gif"></em></p>
+  <p><em>б) Рассмотрим  единичный  вектор <img align="absmiddle" width="107" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image066_0002.gif">, определяющий направление биссектрисы 4-го координатного  угла. Очевидно, что его углы с положительными полуосями <img align="absmiddle" width="28" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image052_0007.gif"> и <img align="absmiddle" width="27" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image078_0002.gif"> соответственно равны <img align="absmiddle" width="45" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image204_0000.gif"> (можно взять <img align="absmiddle" width="56" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image206.gif"> – <strong><a href="zadachi_s_pryamoi_na_ploskosti.html">ориентация угла</a></strong> не имеет значения) и <img align="absmiddle" width="52" height="41" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image208_0000.gif">. Таким образом:</em><br>
+      <em><img align="absmiddle" width="293" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image210_0000.gif"></em><br>
+      <em>В результате  производная по данному направлению:</em><br>
+      <em><img align="absmiddle" width="427" height="53" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image212_0000.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="185" height="45" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image214_0000.gif"></em></p>
+  <p><em>Пример 9: <strong>Решение</strong>: вычислим частные производные  1-го порядка в точке <img align="absmiddle" width="17" height="17" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image216_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="179" height="146" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image218_0000.gif"></em><br>
+      <em>Найдём направляющие  косинусы предложенного направления. Используем равенство:</em><br>
+      <em><img align="absmiddle" width="176" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image220.gif"></em><br>
+      <em>Так как <img align="absmiddle" width="68" height="21" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image222.gif">, то:</em><br>
+      <em><img align="absmiddle" width="177" height="93" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image224.gif"></em><br>
+      <em>И поскольку луч <img align="absmiddle" width="9" height="19" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image058_0004.gif"> расположен в 1-м  октанте:</em><br>
+      <em><img align="absmiddle" width="243" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image227_0000.gif"></em><br>
+      <em>Искомая производная по  направлению:</em><br>
+      <em><img align="absmiddle" width="509" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image229_0000.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="63" height="44" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image231_0000.gif"></em></p>
+  <p><em>Пример 10: <strong>Решение</strong>: вычислим частные производные  1-го порядка в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image054_0003.gif">:</em><br>
+      <em><img align="absmiddle" width="447" height="243" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image234.gif"></em><br>
+      <em>Направление  наибыстрейшего роста функции в точке <img align="absmiddle" width="25" height="24" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image010_0013.gif"> задаёт вектор  градиента в данной точке:</em><br>
+      <em><img align="absmiddle" width="419" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image237.gif"></em><br>
+      <em>Вычислим величину  наибыстрейшего роста функции:</em><br>
+      <em><img align="absmiddle" width="348" height="31" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image239.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="295" height="27" src="n/proizvodnaja_po_napravleniju_i_gradient_clip_image241_0000.gif"></em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,964 @@
+<html>
+<head>
+<title>Мода, медиана, генеральная и выборочная средняя</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="генеральная средняя, выборочная средняя, как вычислить, мода, медиана, формулы, примеры решений, дискретного вариационного ряда, интервального вариационного ряда, примеры решений, формулы средней, формула моды, формула медиана">
+<meta name="Description" content="…а средние – это температура по больнице и в палате. Продолжаем наш практический курс занимательной статистики изучением...">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">4. Мода. Медиана. Генеральная и выборочная средняя</h1>
+  <br>
+ 
+  <p>Мода на экране, медиана в треугольнике, а средние – это  температура по больнице и в палате. Продолжаем наш практический курс <strong><a href="matematicheskaya_statistika.html">занимательной статистики</a></strong> <em>(Занятие 1)</em> изучением центральных  характеристик <em>статистической совокупности</em>,  названия которых вы видите в заголовке. И начнём мы с его конца, поскольку о <em>средних величинах</em> речь зашла практически  с первых же абзацев темы. Для подготовленных читателей <strong>оглавление</strong>: </p>
+  <ul><li><strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#s">Генеральная и  выборочная средняя</a></strong> – вычисление по первичным данным и для сформированного дискретного  вариационного ряда;  </li>
+      <li><strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#mo">Мода</a></strong> – определение  и нахождение для дискретного случая;</li>
+      <li><strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#me">Медиана</a></strong> – общее определение,  как найти медиану;</li>
+      <li><strong><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#ismome">Средняя, мода и  медиана интервального вариационного  ряда</a></strong> – вычисление по первичным данным и по готовому ряду. Формулы моды и  медианы,</li>
+	  <li><a href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html#kdp">Квартили, децили, перцентили</a> – коротко о главном.</li>
+	  </ul>
+  <p>ну а «чайникам» лучше ознакомиться с материалом по порядку:</p>
+  <a name="s"></a><p>Итак, пусть исследуется некоторая <em>генеральная совокупность</em> объёма <img align="absmiddle" width="19" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image002.gif">, а именно её числовая характеристика <img align="absmiddle" width="19" height="17" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image004.gif">, не важно, <strong><a href="diskretnyi_variacionnyi_ryad.html">дискретная</a></strong> или <strong><a href="intervalnyi_variacionnyi_ryad.html">непрерывная</a></strong> <em>(Занятия 2, 3</em>).</p>
+  <p><strong><em>Генеральной средней</em></strong> называется <em>среднее арифметическое</em> всех значений этой совокупности:<br>
+      <img align="absmiddle" width="219" height="64" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image006.gif"></p>
+  <p>Если среди чисел <img align="absmiddle" width="16" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image008.gif"> есть одинаковые <em>(что характерно для <strong><a href="diskretnyi_variacionnyi_ryad.html">дискретного ряда</a></strong>)</em>, то формулу можно записать в более компактном  виде:<br>
+      <img align="absmiddle" width="305" height="64" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image010.gif">, где<br>
+      <em>варианта</em> <img align="absmiddle" width="16" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image012.gif"> повторяется <img align="absmiddle" width="20" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image014.gif"> раз;<br>
+    варианта <img align="absmiddle" width="17" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image016.gif"> – <img align="absmiddle" width="23" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image018.gif"> раз;<br>
+    варианта <img align="absmiddle" width="17" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image020.gif"> – <img align="absmiddle" width="21" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image022.gif"> раз;<br>
+    …<br>
+    варианта <img align="absmiddle" width="20" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image024.gif"> – <img align="absmiddle" width="25" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image026.gif"> раз.</p>
+  <p>Живой пример вычисления <em>генеральной  средней </em>встретился в <strong><a href="matematicheskaya_statistika.html">Примере 2</a></strong>,  но чтобы не занудничать, я даже не буду напоминать его содержание. </p>
+  <p>Далее. Как мы помним, обработка всей генеральной  совокупности часто затруднена либо невозможна, и поэтому из неё организуют <strong><a href="matematicheskaya_statistika.html">представительную</a></strong> выборку <em>объема</em> <img align="absmiddle" width="13" height="15" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image028.gif">, и на основании исследования этой выборки делают вывод обо  всей совокупности.</p>
+  <p><strong><em>Выборочной средней</em></strong> называется <em>среднее арифметическое</em> всех значений выборки:<br>
+      <img align="absmiddle" width="213" height="64" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image030.gif"><br>
+    и при наличии одинаковых вариант формула запишется  компактнее:<br>
+  <img align="absmiddle" width="275" height="64" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image032.gif"> – как сумма  произведений вариант <img align="absmiddle" width="16" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image008_0000.gif"> на соответствующие <em>частоты</em> <img align="absmiddle" width="16" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image035.gif">, делённая на объём совокупности.</p>
+  <p>Выборочная средняя <img align="absmiddle" width="17" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image037.gif"> позволяет достаточно  точно оценить истинное значение <img align="absmiddle" width="20" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image039.gif">, чего вполне достаточно для многих исследований. При этом,  чем больше выборка, тем точнее будет эта оценка.</p>
+  <p>Практику начнём, а точнее продолжим, с <strong><a href="diskretnyi_variacionnyi_ryad.html">дискретного вариационного ряда</a></strong> и знакомого условия:</p>
+  <p><u>Пример 8</u></p>
+  <p>По результатам выборочного исследования <img align="absmiddle" width="45" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image041.gif"> рабочих цеха были  установлены их квалификационные разряды: 4, 5, 6, 4, 4, 2, 3, 5, 4, 4, 5, 2, 3,  3, 4, 5, 5, 2, 3, 6, 5, 4, 6, 4, 3.</p>
+  <p>Это числа из <em>Примера 4</em> (см. по ссылке выше), но теперь нам требуется: вычислить выборочную среднюю, и,  не отходя от станка, найти моду и медиану.</p>
+  <p>Как <strong>решать</strong> задачу? Если нам даны <em>первичные данные</em> (исходные необработанные значения), то их можно тупо просуммировать и разделить результат на  объём выборки:<br>
+    <img align="absmiddle" width="271" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image044.gif"> – среднестатистический  квалификационный разряд рабочих цеха.</p>
+  <p>Но во многих задачах требуется составить вариационный ряд <em>(см. <strong><a href="diskretnyi_variacionnyi_ryad.html">Пример  4</a></strong>)</em>:<br>
+      <img align="absmiddle" width="103" height="172" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image046.jpg"><br>
+    – или же этот ряд предложен изначально (что бывает чаще). И  тогда, мы, конечно, используем «цивилизованную» формулу:<br>
+  <img align="absmiddle" width="500" height="107" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image048.gif"></p>
+  <p>Далее. <strong>Мода и медиана</strong>.  Эти понятия тоже вводятся как для генеральной, так и для выборочной совокупности,  и определения я сформулирую в общем виде.</p>
+  <a name="mo"></a><p><strong><em>Мода</em></strong>. Мода <img align="absmiddle" width="25" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image050.gif"> дискретного  вариационного ряда – это <em>варианта</em> с  максимальной частотой. В данном случае <img align="absmiddle" width="80" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image052.gif">. Моду легко отыскать по таблице, и ещё легче на <strong><a href="diskretnyi_variacionnyi_ryad.html">полигоне частот</a></strong> – это абсцисса самой  высокой точки:<br>
+      <img align="absmiddle" width="502" height="327" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image054.jpg"><br>
+    Иногда таковых значений несколько (с одинаковой максимальной  частотой), и тогда модой считают каждое из них.</p>
+  <p>Если все или почти все <em>варианты</em> различны (что характерно для <strong><a href="intervalnyi_variacionnyi_ryad.html">интервального  ряда</a></strong>), то модальное значение определяется несколько другим способом, о  котором во 2-й части урока.</p>
+  <a name="me"></a><p><strong><em>Медиана</em></strong>. Медиана <img align="absmiddle" width="20" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image056.gif"> вариационного ряда<strong>*</strong> – это значение, которая делит его на  две равные части (по количеству вариант).</p>
+  <p><strong><em>*</em></strong><em> не важно, <strong><a href="diskretnyi_variacionnyi_ryad.html">дискретного</a></strong> или <strong><a href="intervalnyi_variacionnyi_ryad.html">интервального</a></strong>, генеральной совокупности или выборочной</em>.</p>
+  <p>Медиану можно отыскать несколькими способами. </p>
+  <p>Если даны первичные данные, то сортируем их по возрастанию  либо убыванию (см.<a href="files/u/statistika_zadanie_1.xls"> <strong>Задание 1</strong></a>) и  находим середину ранжированного ряда: <img align="absmiddle" width="80" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image058.gif">. Почему именно 13-е число? Потому что перед ним находится  12 чисел и после него тоже 12 чисел, таким образом, значение <img align="absmiddle" width="47" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image060.gif"> разделило ряд на две  равные части, а значит, является медианой. Этот номер можно найти аналитически:</p>
+  <p>– если совокупность содержит <strong>нечётное</strong> количество чисел (наш случай), то делим её объём  пополам: <img align="absmiddle" width="92" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image062.gif"> и округляем полученное  значение в бОльшую сторону: 13 – получая тем самым срединный номер.</p>
+  <p>– если совокупность содержит <strong>чётное</strong> количество чисел, например, 20, то делаем то же самое: <img align="absmiddle" width="55" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image064.gif">, и медианное значение здесь рассчитывается как среднее  арифметическое 10-го и следующего числа: <img align="absmiddle" width="91" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image066.gif">.</p>
+  <p>Напоминаю, что изложенная инструкция работает для <u>упорядоченного</u> (по возрастанию либо убыванию) ряда. Но есть и более быстрый путь, где ничего  не нужно сортировать. Это использование стандартной функции Экселя: </p>
+  <p>– забиваем в любую свободную ячейку <strong>=МЕДИАНА(</strong>, выделяем мышью все числа, закрываем скобку <strong>)</strong> и жмём <strong>Enter</strong>. <strong><a href="files/u/k_zadache_8.xls">Попробуйте самостоятельно</a></strong>. Этот способ  удобен, когда вам дано много значений.</p>
+  <p>Следует отметить, что в Экселе существуют и отдельные функции  для вычисления <em>средней (<strong>=СРЗНАЧ</strong>)</em>, <em>моды (<strong>=МОДА</strong>)</em> и ещё много  чего, но я против использования этих функций в учебном курсе, за исключением  случаев, где это действительно целесообразно. …Почему против? Потому что они не  помогают понять суть показателей и, более того, отупляют. Так, <em>среднюю</em> гораздо вразумительнее  рассчитывать следующим образом: </p>
+  <p><strong>=СУММ(</strong>выделяем  мышью диапазон<strong>) / объем совокупности</strong>.  Вычисления рекомендую опробовать лично <em>(ссылка  выше)</em>.</p>
+  <p>Ситуация вторая. Когда составлен либо изначально дан готовый  дискретный ряд. Тут можно поступить «по любительски» – начать отсчитывать  примерно равное количество чисел по краям ряда:<br>
+      <img align="absmiddle" width="143" height="149" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image068.jpg"><br>
+    после чего мысленно либо на черновике их отбрасывать, в  данном случае отбросим по 8 штук сверху и снизу:<br>
+  <img align="absmiddle" width="110" height="50" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image070.jpg"><br>
+    откуда становится ясно, что медианное значение: <img align="absmiddle" width="47" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image072.gif"></p>
+  <p>Второй способ более академичен, находим <strong><a href="diskretnyi_variacionnyi_ryad.html">относительные накопленные частоты</a></strong>:<br>
+      <img align="absmiddle" width="203" height="171" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image074.jpg"><br>
+    и то значение «икса», у которого <img align="absmiddle" width="20" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image076.gif"> «переваливает» за  отметку 0,5 (50% упорядоченной совокупности). Для 3-го разряда успело накопиться <img align="absmiddle" width="65" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image080.gif"> (32% совокупности), а  вот для 4-го – уже <img align="absmiddle" width="65" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image084.gif"> (64%). Таким образом,  отметка в 50% пройдена именно здесь, и, стало быть, <img align="absmiddle" width="47" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image072.gif">.</p>
+  <p>Запишем красивый <strong>ответ</strong>: <img align="absmiddle" width="188" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image088.gif"></p>
+  <p>Полученные значения близки друг к другу, и это говорит о  симметрии вариационного ряда относительно центра, что хорошо видно по полигону  частот <em>(см. чертёж выше)</em>. И с высокой  вероятностью можно утверждать, что примерно так же распределена и вся генеральная  совокупность (все рабочие цеха).</p>
+  <p>И тут возникает следующий закономерный вопрос: а зачем  вообще нужна <em>мода</em> с <em>медианой</em>? – ведь есть <em>средняя</em>.</p>
+  <p>А дело в том, что в ряде случаев среднее значение неудовлетворительно  характеризует центральную тенденцию статистической совокупности:</p>
+  <p><u>Пример 9</u></p>
+  <p>Известны результаты продаж пиджаков в универмаге города:<br>
+      <img align="absmiddle" width="295" height="62" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image090.jpg"><br>
+    где, <img align="absmiddle" width="39" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image092.gif"> – количество пуговиц  на пиджаке, <img align="absmiddle" width="16" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image094.gif"> – число продаж, буква  «эф» – это тоже достаточно популярная буква для обозначения частот, и она не  должна вас смущать при встрече.</p>
+  <p>…ну, а если вам не нравятся пиджаки, то представьте  какие-нибудь шляпки с цветочками :)</p>
+  <p>Также обратим внимание, что в условии задачи ничего не сказано  о том, генеральная ли это совокупность или выборочная, и <strong>в подобной ситуации я не рекомендую ничего додумывать</strong> – <em>среднюю</em> просто обозначаем через <img align="absmiddle" width="15" height="17" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image096.gif">, без подстрочного индекса.</p>
+  <p><u>Задание 4</u></p>
+  <p><strong><a href="files/u/statistika_zadanie_4.xls">Вычислить среднюю</a></strong> – в экселевском файле уже забиты исходные данные и приведена краткая  инструкция. Если под пальцами нет Экселя, то считаем на калькуляторе. Не  ленимся! – заданий я предлагаю немного <em>(у  вас своих хватает :))</em>, но <strong>прорешать  их очень важно! </strong>Краткое решение для сверки в конце урока.</p>
+  <p>…какие мысли на счёт полученного значения <img align="absmiddle" width="15" height="17" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image096_0000.gif">? С такой статистикой магазин разорится. </p>
+  <p>И, конечно, важнейший показатель здесь мода: <img align="absmiddle" width="48" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image098.gif">. Потому что такая мода :) Более того, в прикладных  исследованиях рассматривают несколько модальных значений (вроде даже в Экселе  функция есть), в частности, ещё одной модой можно считать варианту <img align="absmiddle" width="44" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image100.gif">. Но это уже попсовая статистика, которую я не буду развивать  в этом курсе.</p>
+  <p>Ещё хуже (в содержательном плане) ситуация с медианой – <strong>продолжаем решать задачу в Экселе</strong> <em>(ссылка выше)</em> либо в тетради! Особо зоркие  читатели медиану углядят и устно, и в конце урока я привёл способ, который  просто бросился мне в глаза.</p>
+  <p>Теперь надеваем пиджаки / шляпы и возвращаемся на фабрику,  где бухгалтер Петрова вычислила <em>генеральную  среднюю</em> заработную плату рабочих: <img align="absmiddle" width="68" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image102.gif"> денежных единиц. Здесь  мы плавно перешли к интервальному ряду, который целесообразно составлять для  «денежных» показателей. </p>
+  <p>Что будет, если к совокупности добавить руководящий персонал  и директора Петрова? Средняя зарплата немного увеличится: <img align="absmiddle" width="68" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image104.gif">, и это уже будет несколько искажённая картина. </p>
+  <p>А вот если сюда добавить олигарха Петровского, то полученная <em>средняя</em> <img align="absmiddle" width="76" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image106.gif"> вообще вызовет широкое возмущение общественности.</p>
+  <p>Поэтому, если в статистической совокупности есть  «аномальные» отклонения в ту или иную сторону, то в качестве оценки  центрального значения как нельзя лучше подходит медиана, которая в нашем  условном примере будет равна, скажем, <img align="absmiddle" width="68" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image108.gif">. Ниже этой планки зарабатывает ровно половина совокупности и  выше – другая половина, включая Петрова и Петровского. …Главное только, чтобы  они наняли правильного статистика :)</p>
+  <a name="ismome"></a><h2>Как вычислить моду,  медиану и среднюю интервального ряда?</h2>
+  <p>Начнём опять с ситуации, когда нам даны первичные  статические данные:</p>
+  <p><u>Пример 10</u></p>
+  <p>По результатам выборочного исследования цен на ботинки в  магазинах города получены следующие данные (ден. ед.):<br>
+      <img align="absmiddle" width="137" height="207" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image110.jpg"><br>
+    – это в точности числа из <em>Примера 6</em> статьи об <strong><a href="intervalnyi_variacionnyi_ryad.html">интервальном  вариационном ряде</a></strong>.</p>
+  <p>Но теперь нам нужно найти среднюю, моду и медиану.</p>
+  <p><strong>Решение</strong>: чтобы  найти <em>среднюю</em> по первичным данным,  нужно просуммировать все варианты и разделить полученный результат на  объём совокупности:<br>
+      <img align="absmiddle" width="329" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image112.gif"> ден. ед.</p>
+  <p>Эти подсчёты, кстати, займут не так много времени и при  использовании оффлайн калькулятора. Но если есть Эксель, то, конечно, <strong><a href="files/u/k_zadache_10.xls">забиваем в любую свободную ячейку</a></strong> <strong>=СУММ(</strong>, выделяем  мышкой все числа, закрываем скобку <strong>)</strong>,  ставим знак деления <strong>/</strong>, вводим число  30 и жмём <strong>Enter</strong>. Готово.</p>
+  <p>Что касается моды, то её оценка по исходным данным,  становится непригодна. Хоть мы и видим среди чисел одинаковые, но среди них  запросто может найтись пять так шесть-семь вариант с одинаковой максимальной  частотой, например, частотой 2. Кроме того, цены могут быть округлёнными. Поэтому модальное значение рассчитывается по  сформированному интервальному ряду <em>(о чём чуть позже)</em>.</p>
+  <p>Чего не скажешь о медиане: <strong><a href="files/u/k_zadache_10.xls">забиваем в Эксель</a></strong>  <strong>=МЕДИАНА(</strong>, выделяем мышью все числа,  закрываем скобку <strong>)</strong> и жмём <strong>Enter</strong>: <img align="absmiddle" width="57" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image114.gif">. Причём, здесь даже ничего не нужно сортировать. </p>
+  <p>Но в <em>Примере 6</em> была проведена сортировка по возрастанию<em> (вспоминаем и сортируем – ссылка выше)</em>, и это хорошая  возможность повторить формальный алгоритм отыскания медианы. Делим объём выборки  пополам:</p>
+  <p><img align="absmiddle" width="80" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image116.gif">, и поскольку она состоит из чётного количества вариант, то  медиана равна среднему арифметическому 15-й и 16-й варианты <u>упорядоченного</u> (!) вариационного ряда:</p>
+  <p><img align="absmiddle" width="200" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image118.gif"> ден. ед. </p>
+  <p><strong>Ситуация вторая</strong>.  Когда дан готовый интервальный ряд (типичная учебная задача).</p>
+  <p>Продолжаем анализировать тот же пример с ботинками, где по  исходным данным <strong><a href="intervalnyi_variacionnyi_ryad.html">был составлен ИВР</a></strong>. Для  вычисления <em>средней</em> потребуются середины <img align="absmiddle" width="16" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image008_0002.gif"> интервалов:<br>
+      <img align="absmiddle" width="206" height="160" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image120.jpg"><br>
+    – чтобы воспользоваться знакомой формулой дискретного  случая:<br>
+  <img align="absmiddle" width="575" height="64" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image122.gif"><br>
+  <img align="absmiddle" width="307" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image124.gif"> – отличный результат!  Расхождение с более точным значением (<img align="absmiddle" width="45" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image126.gif">), вычисленным по первичным данным, составляет всего 0,04.</p>
+  <p>Здесь мы использовали упомянутый ранее приём – приблизили  <a href="intervalnyi_variacionnyi_ryad.html">интервальный</a> ряд <a href="diskretnyi_variacionnyi_ryad.html">дискретным</a>, и это приближение оказалось весьма эффективным. Впрочем, особой выгоды тут нет, т.к. при современном программном обеспечении не  составляет труда вычислить точное значение даже по очень большому массиву первичных  данных. Но это при условии, что они нам известны ;)</p>
+  <p>С другими центральными показателями всё занятнее.</p>
+  <p>Чтобы найти моду, нужно найти <strong><em>модальный интервал</em></strong> <em>(с максимальной частотой)</em> – в данной  задаче это интервал <img align="absmiddle" width="63" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image128.gif"> с частотой 11, и  воспользоваться следующей страшненькой формулой:<br>
+      <img align="absmiddle" width="253" height="45" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image130.gif">, где:</p>
+  <p><img align="absmiddle" width="55" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image132.gif"> – нижняя граница  модального интервала;<br>
+      <img align="absmiddle" width="105" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image134.gif"> – длина модального  интервала;<br>
+      <img align="absmiddle" width="53" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image136.gif"> – частота модального  интервала;<br>
+      <img align="absmiddle" width="57" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image138.gif"> – частота предыдущего  интервала;<br>
+      <img align="absmiddle" width="57" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image140.gif"> – частота следующего  интервала.</p>
+  <p>Таким образом:<br>
+      <img align="absmiddle" width="472" height="44" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image142.gif"> ден. ед. – как видите,  «модная» цена на ботинки заметно отличается от средней арифметической <img align="absmiddle" width="63" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image144.gif">.</p>
+  <p>Не вдаваясь в геометрию формулы, просто приведу <strong><a href="intervalnyi_variacionnyi_ryad.html">гистограмму относительных частот</a></strong> и отмечу <img align="absmiddle" width="25" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image146.gif">:<br>
+    <img align="absmiddle" width="491" height="315" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image148.jpg">  <br>
+    откуда хорошо видно, что мода смещена относительно центра модального  интервала в сторону левого интервала с бОльшей частотой. Логично.</p>
+  <p>Справочно разберу редкие случаи:</p>
+  <p><em>– если модальный  интервал крайний, то <img align="absmiddle" width="57" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image150.gif"> либо <img align="absmiddle" width="57" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image152.gif">;</em></p>
+  <p><em>– если обнаружатся 2  модальных интервала, которые находятся рядом, например, <img align="absmiddle" width="63" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image128_0000.gif"> и <img align="absmiddle" width="63" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image128_0001.gif">, то рассматриваем модальный интервал <img align="absmiddle" width="63" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image154.gif">, при этом близлежащие интервалы (слева и справа) по  возможности тоже укрупняем в 2 раза.</em></p>
+  <p><em>– если между  модальными интервалами есть расстояние, то применяем формулу к каждому  интервалу, получая тем самым 2 или бОльшее количество мод.</em></p>
+  <p>Вот такой вот депеш мод :)<strong></strong></p>
+  <p>И медиана. Если дан готовый интервальный ряд, то медиана  рассчитывается чуть по менее страшной формуле, но сначала нудно (описка по Фрейду:)) найти <strong><em>медианный  интервал</em></strong> – это интервал, содержащий варианту (либо 2 варианты), которая  делит вариационный ряд на две равные части. </p>
+  <p>Выше я рассказал, как определить медиану, ориентируясь на <em>относительные накопленные частоты </em><img align="absmiddle" width="20" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image076_0000.gif">,  здесь же сподручнее  рассчитать «обычные» накопленные частоты <img align="absmiddle" width="17" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image157.gif">. Вычислительный алгоритм точно такой же – первое значение  сносим слева <em>(красная стрелка)</em>, и  каждое следующее получается как сумма предыдущего с текущей частотой из левого  столбца <em>(зелёные обозначения в качестве  примера)</em>:<br>
+      <img align="absmiddle" width="252" height="162" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image159.jpg"><br>
+    Всем понятен смысл чисел в правом столбце? – это количество  вариант, которые успели «накопиться» на всех «пройденных» интервалах, включая  текущий.</p>
+  <p>Поскольку у нас чётное количество вариант (30 штук), то  медианным будет тот интервал, который содержит 30/2 = 15-ю и 16-ю варианту. И  ориентируясь по накопленным частотам, легко прийти к выводу, что эти варианты  содержатся в интервале <img align="absmiddle" width="63" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image128_0002.gif">.</p>
+  <p>Формула медианы:<br>
+      <img align="absmiddle" width="156" height="48" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image161.gif">, где:<br>
+      <img align="absmiddle" width="45" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image163.gif"> – объём статистической  совокупности;<br>
+      <img align="absmiddle" width="55" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image132_0000.gif"> – нижняя граница  медианного интервала;<br>
+      <img align="absmiddle" width="105" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image134_0000.gif"> – длина медианного  интервала;<br>
+      <img align="absmiddle" width="51" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image165.gif"> – <u>частота</u> медианного интервала;<br>
+      <img align="absmiddle" width="55" height="25" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image167.gif"> – <u>накопленная  частота</u> <strong>предыдущего</strong> интервала.</p>
+  <p>Таким образом:<br>
+      <img align="absmiddle" width="369" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image169.gif"> ден. ед. – заметим,  что медианное значение, наоборот, оказалось смещено правее, т.к. по правую руку  находится значительное количество вариант:<br>
+      <img align="absmiddle" width="496" height="321" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image171.jpg">      <br>
+    И справочно особые случаи:</p>
+  <p><em>– Если медианным  является крайний левый интервал, то <img align="absmiddle" width="55" height="25" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image173.gif">;</em></p>
+  <p><em>– Если вариационный  ряд содержит чётное количество вариант и две средние варианты попали в разные  интервалы, то объединяем эти интервалы, и по возможности удваиваем предыдущий  интервал</em></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="225" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image175.gif"> ден. ед.</p>
+  <p>Здесь центральные показатели оказались заметно отличны друг от  друга, и это говорит об <strong><a href="asimmetriya_i_excess.html">асимметрии</a> </strong>распределения,  которая хорошо видна по гистограмме.</p>
+  <p>И задача для тренировки:</p>
+  <p><u>Пример 11</u></p>
+  <p>Для изучения затрат времени на изготовление одной детали  рабочими завода проведена выборка, в результате которой получено следующее статистическое  распределение:<br>
+      <img align="absmiddle" width="305" height="165" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image177.jpg"><br>
+    …да, тематичная у меня получилась статья :)</p>
+  <p>Найти среднюю, моду и медиану. </p>
+  <p>Это, кстати, уже каноничная «интервальная» задача, в которой  исследуется непрерывная величина – время.</p>
+  <p><u>Задание 5</u></p>
+  <p><strong><a href="files/u/statistika_zadanie_5.xls">Решаем эту задачу в  Экселе</a></strong> – все числа и инструкции уже там. Если нет Экселя, считаем на  калькуляторе, что в данном случае может оказаться даже удобнее. Образец  решения, как обычно, в конце урока.</p>
+ <a name="kdp"></a> <p>Несмотря на разнообразия рассмотренных показателей, их всё  равно бывает не достаточно. Существуют крайне неоднородные совокупности, у  которых варианты «кучкуются» во многих местах, и по этой причине средняя, мода  и медиана неудовлетворительно характеризуют центральную тенденцию.</p>
+  <p>В таких случаях вариационный ряд дробят с помощью <strong><em>квартилей</em></strong>, <strong><em>децилей</em></strong>,  а в <s>упоротых</s> специализированных исследованиях – и с помощью <strong><em>перцентилей</em></strong>.</p>
+  <p><strong>Квартили</strong> <u>упорядоченного</u> вариационного ряда – это варианты <img align="absmiddle" width="67" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image777.gif">, которые делят его на 4 равные (по количеству вариант)  части. Откуда автоматически следует, что 2-я квартиль – есть в точности  медиана: <img align="absmiddle" width="53" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image778.gif">.</p>
+  <p>В тяжёлых случаях проводится разбиение на 10 частей – <strong>децилями</strong> <img align="absmiddle" width="113" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image779.gif"> – это варианты,  который делят упорядоченный вариационный ряд на 10 равных (по количеству  вариант) частей.</p>
+  <p>И в очень тяжелых случаях в ход пускается 99 перцентилей <img align="absmiddle" width="103" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image780.gif">.</p>
+  <p>И после разбиения вариационного ряда каждый участок исследуется  по отдельности – рассчитываются локальные средние показатели, локальные показатели  вариации и т.д.</p>
+  <p>В учебном курсе квартили, децили, перцентили встречаются  редко, и посему я оставляю этот материал (их нахождение) для самостоятельного  изучения.</p>
+  <p>Ну а сейчас мы перейдём к рассмотрению другой группы статистических  показателей – как раз к <strong><a href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">показателям  вариации</a></strong>. </p>
+  <p><u>Решения и ответы:</u></p>
+  <p><em>Пример 9. <strong>Решение</strong>: заполним расчётную таблицу:</em><br>
+      <em><img align="absmiddle" width="280" height="171" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image179.jpg"></em><br>
+      <em>Вычислим среднюю:</em><br>
+      <em><img align="absmiddle" width="168" height="48" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image181.gif"> – две с половиной  пуговицы, Карл!</em><br>
+      <em>По правому столбцу  определяем «иксовое» значение, которое делит совокупность на 2 равные части:</em> <em><img align="absmiddle" width="47" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image183.gif"> (именно здесь  накопленная частота «перевалила» за 0,5).</em></p>
+  <p><em>Кроме того, медиану  легко усмотреть и устно – поскольку половина совокупности равна <img align="absmiddle" width="101" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image185.gif">, а сумма первых двух частот <img align="absmiddle" width="159" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image187.gif">, то совершенно понятно, что 250-й и 251-й пиджак  – двухпуговичные.</em></p>
+  <p><em>Пример 11. <strong>Решение</strong>: поскольку длина внутренних  интервалов равна <img align="absmiddle" width="37" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image191.gif">, то длины крайних интервалов полагаем такими же (см. конец  статьи <strong><a href="intervalnyi_variacionnyi_ryad.html">Интервальный вариационный ряд</a></strong>).  Заполним расчётную таблицу:</em><br>
+      <em><img align="absmiddle" width="340" height="170" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image193.jpg"></em></p>
+  <p><em>Вычислим выборочную  среднюю:</em><br>
+      <em><img align="absmiddle" width="175" height="45" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image195.gif"> мин.</em></p>
+  <p><em>Моду вычислим по  формуле <img align="absmiddle" width="253" height="45" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image130_0000.gif">, в данном случае:</em><br>
+      <em><img align="absmiddle" width="51" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image198.gif"> – нижняя граница  модального интервала;</em><br>
+      <em><img align="absmiddle" width="37" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image191_0000.gif"> – длина модального  интервала;</em><br>
+      <em><img align="absmiddle" width="56" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image201.gif"> – частота модального  интервала;</em><br>
+      <em><img align="absmiddle" width="65" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image203.gif"> – частота  предшествующего интервала;</em><br>
+      <em><img align="absmiddle" width="64" height="23" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image205.gif"> – частота следующего  интервала.</em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="427" height="44" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image207.gif"> мин.</em></p>
+  <p><em>Анализируя накопленные  частоты, приходим к выводу, что медианным является интервал <img align="absmiddle" width="55" height="21" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image209.gif"> (именно он содержит  50-ю и 51-ю варианты, которые делят ряд пополам).</em><br>
+      <em>Медиану вычислим по  формуле <img align="absmiddle" width="156" height="48" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image161_0000.gif">, в данном случае:</em><br>
+      <em><img align="absmiddle" width="51" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image198_0000.gif"> – нижняя граница  медианного интервала;</em><br>
+      <em><img align="absmiddle" width="37" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image191_0001.gif"> – длина этого интервала;</em><br>
+      <em><img align="absmiddle" width="52" height="19" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image214.gif"> – объём статистической  совокупности;</em><br>
+      <em><img align="absmiddle" width="53" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image216.gif"> – частота медианного  интервала;</em><br>
+      <em><img align="absmiddle" width="63" height="25" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image218.gif"> – накопленная частота  предыдущего интервала.</em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="360" height="41" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image220.gif"> мин. </em></p>
+  <p><strong><em>Ответ</em></strong><em>: среднее время  изготовления детали характеризуется следующими центральными характеристиками: <img align="absmiddle" width="233" height="24" src="s/moda_mediana_generalnaya_i_vyborochnaya_srednyaya_clip_image222.gif"></em></p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

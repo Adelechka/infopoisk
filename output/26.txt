@@ -1,0 +1,964 @@
+<html>
+<head>
+<title>Переход к новому базису и к новой системе координат</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="как перейти к новому базису, примеры решений, матрица перехода, старый базис, новый базис, переход к новой системе координат, старые координаты выразить, новые координаты, формулы перехода, ориентация плоскости, преобразование прямоугольной системы координат, параллельный перенос начала координат, поворот координатных осей">
+<meta name="Description" content="Изобразим в прямоугольной системе координат Тузика и отобразим его симметрично относительно оси ординат:">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Переход к новому базису и к новой системе координат</strong></h1>
+  
+  <br>
+  <p>Эта небольшая статья появилась на свет значительно позже  большинства моих уроков по <strong><a href="vektory_dlya_chainikov.html">аналитической  геометрии</a></strong>, и предназначена она для более или менее подготовленных  читателей, которые знакомы с <strong><a href="vektory_dlya_chainikov.html">векторами</a></strong>, <strong><a href="deistviya_s_matricami.html">матрицами</a> </strong>и обладают навыками  решения основных тематических задач. Впрочем, что означает «более или менее  подготовленных»? …Если Вы понимаете, чем отличается <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">базис</a></strong> от <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">системы координат</a></strong> – тогда смело читайте дальше! Потому что будет очень интересно – сегодня мы  станем очевидцами самой настоящей революции в мире векторов! Такие эпохальные  события происходят не каждый день, и поэтому нет ничего удивительного в том,  что задачи <strong>перехода к новому базису</strong> и <strong>перехода к новой системе координат</strong> заметно реже встречаются на практике. Однако, это как раз та тема, которая  вызывает наибольшую путаницу и недопонимание у студентов. Дело осложняется ещё  и тем, что в различных источниках информации используются разные схемы подачи  материала и разные обозначения
+  <p>Но сейчас пришло время <s>окончательно вас запутать</s> «расставить  все точки над i» и  расстановка этих точек начинается с «плоского» случая. Кстати, и буква нужная  сразу вспомнилась. Рассмотрим привычный <em>ортонормированный</em> базис <img align="absmiddle" width="37" height="23" src="b/perehod_k_novomu_bazisu_clip_image002.gif"> и два подопытных  вектора:</p>
+      <p><img align="absmiddle" width="175" height="24" src="b/perehod_k_novomu_bazisu_clip_image004.gif"></p>
+  <p>или: <img align="absmiddle" width="121" height="24" src="b/perehod_k_novomu_bazisu_clip_image006.gif">.</p>
+  <p>Как вы прекрасно знаете, любой другой вектор <img align="absmiddle" width="13" height="17" src="b/perehod_k_novomu_bazisu_clip_image008.gif"> плоскости тоже можно разложить  по базисным векторам: <img align="absmiddle" width="101" height="23" src="b/perehod_k_novomu_bazisu_clip_image010.gif"> <em>(причём единственным образом)</em> и записать коэффициенты этого  разложения (координаты) в скобках: <img align="absmiddle" width="56" height="23" src="b/perehod_k_novomu_bazisu_clip_image012.gif"></p>
+  <p>И всё бы было тихо-спокойно, но мирную жизнь векторов  нарушает появление другого базиса…. Почему он появляется? Так нужно в ряде  задач высшей математики. И не только математики.</p>
+  <p>В качестве демонстрационного базиса можно взять любую пару  неколлинеарных векторов, но для удобства объяснений я рассмотрю следующий <em>ортогональный</em> базис <img align="absmiddle" width="52" height="24" src="b/perehod_k_novomu_bazisu_clip_image014.gif">:</p>
+  <p><img align="absmiddle" width="492" height="277" src="b/perehod_k_novomu_bazisu_clip_image016.jpg" alt="Переход к новому базису"></p>
+<div id="primer"><p>Обратите внимание, что новый базис не является  ортонормированным – длины его векторов отличны от единицы: <img align="absmiddle" width="255" height="29" src="b/perehod_k_novomu_bazisu_clip_image018.gif"></p>
+  <p>Наверное, все понимают происходящие события – когда меняется  власть, то все подстраиваются под эту власть. Таким образом, наша задача  состоит в том, чтобы найти разложения <u>тех же самых векторов</u> по НОВОМУ  базису.</p>
+  <p>На иллюстрации хорошо видно готовые результаты:<br>
+      <img align="absmiddle" width="97" height="24" src="b/perehod_k_novomu_bazisu_clip_image020.gif">, то есть <img align="absmiddle" width="51" height="21" src="b/perehod_k_novomu_bazisu_clip_image022.gif"> – это координаты  вектора «а» в базисе <img align="absmiddle" width="52" height="24" src="b/perehod_k_novomu_bazisu_clip_image014_0000.gif">;<br>
+      <img align="absmiddle" width="108" height="41" src="b/perehod_k_novomu_bazisu_clip_image025.gif"> и <img align="absmiddle" width="56" height="45" src="b/perehod_k_novomu_bazisu_clip_image027.gif"> – есть координаты  вектора «бэ» в новом базисе.</p>
+  <p><strong><em>Примечание</em></strong><em>: заметьте, что  «условные единицы» нового базиса в <img align="absmiddle" width="68" height="25" src="b/perehod_k_novomu_bazisu_clip_image029.gif">  и </em><img align="absmiddle" width="59" height="25" src="b/perehod_k_novomu_bazisu_clip_image031.gif"><em> раз больше единицы исходного базиса.</em></p>
+  <p>Но всё хорошо видно лишь потому, что я подобрал простые  базисы и удобные векторы, и поэтому нам нужно изучить <strong>аналитический метод</strong> <u>перехода от одного базиса к другому</u>.  Очевидно, что для осуществления такого перехода необходимо как-то связать  векторы старого и нового базиса. Первое, что приходит в голову – это разложить  векторы «пришлой власти» по базису <img align="absmiddle" width="37" height="23" src="b/perehod_k_novomu_bazisu_clip_image002_0000.gif">:<br>
+      <img align="absmiddle" width="81" height="51" src="b/perehod_k_novomu_bazisu_clip_image034.gif"><br>
+    …если вам не понятно, откуда берутся все эти разложения –  срочно изучать/повторять «школьные» <strong><a href="vektory_dlya_chainikov.html">действия  с векторами</a></strong>!</p>
+  <p>Коэффициенты разложений напрашивается записать в <strong><a href="deistviya_s_matricami.html">матрицу</a></strong>: <img align="absmiddle" width="60" height="48" src="b/perehod_k_novomu_bazisu_clip_image036.gif">.  Или так: <img align="absmiddle" width="60" height="48" src="b/perehod_k_novomu_bazisu_clip_image777.gif">. …В верном направлении движемся, товарищи! И ту, и другую матрицу называют <strong>матрицей перехода</strong> от  базиса <img align="absmiddle" width="37" height="23" src="b/perehod_k_novomu_bazisu_clip_image002_0001.gif"> к базису <img align="absmiddle" width="52" height="24" src="b/perehod_k_novomu_bazisu_clip_image014_0001.gif">. По техническим причинам чаще встречается 2-й вариант  – когда коэффициенты «укладывают» в столбцы.</p>
+  <p>Но от красивой записи толку мало, и сейчас нам предстоит  разобраться, как связаны между собой координаты <img align="absmiddle" width="36" height="23" src="b/perehod_k_novomu_bazisu_clip_image038.gif"> произвольного вектора <img align="absmiddle" width="13" height="17" src="b/perehod_k_novomu_bazisu_clip_image008_0000.gif"> <em>в старом базисе</em> <img align="absmiddle" width="93" height="23" src="b/perehod_k_novomu_bazisu_clip_image041.gif"> с его соответствующими  координатами <img align="absmiddle" width="36" height="23" src="b/perehod_k_novomu_bazisu_clip_image043.gif"> <em>в новом базисе </em><img align="absmiddle" width="107" height="24" src="b/perehod_k_novomu_bazisu_clip_image045.gif">. </p>
+  <p><strong><em>! </em></strong><em>Штрихи здесь не имеют  никакого отношения к <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">производным</a></strong>!<strong></strong></em></p>
+  <p>Для решения нашей задачи подставим разложения <img align="absmiddle" width="169" height="24" src="b/perehod_k_novomu_bazisu_clip_image047.gif"> во 2-е равенство,  раскроем скобки и перегруппируем слагаемые:<br>
+      <img align="absmiddle" width="575" height="24" src="b/perehod_k_novomu_bazisu_clip_image049.gif"></p>
+  <p>Таким образом, с одной стороны, в нашем распоряжении есть  старое разложение <img align="absmiddle" width="83" height="23" src="b/perehod_k_novomu_bazisu_clip_image051.gif">, но с другой стороны мы получили <img align="absmiddle" width="177" height="23" src="b/perehod_k_novomu_bazisu_clip_image053.gif">. Поскольку разложение вектора по базису <em>единственно</em>, то справедливы следующие равенства:<br>
+      <img align="absmiddle" width="81" height="48" src="b/perehod_k_novomu_bazisu_clip_image055.gif"></p>
+  <p>С помощью полученных соотношений можно найти СТАРЫЕ  координаты, если известны новые. </p>
+  <p>Запишем формулы в виде простейшего <strong><a href="matrichnye_uravneniya_primery_reshenij.html">матричного уравнения</a></strong>:<br>
+      <img align="absmiddle" width="141" height="51" src="b/perehod_k_novomu_bazisu_clip_image057.gif"></p>
+  <p>и выполним проверку, тестируя наши подопытные векторы «а» и  «бэ»:<br>
+      <img align="absmiddle" width="311" height="131" src="b/perehod_k_novomu_bazisu_clip_image059.gif"><br>
+    Что и требовалось проверить. Надеюсь, ни у кого не возникло  проблем с <strong><a href="deistviya_s_matricami.html">матричным умножением</a></strong>.  Хотя, в случае аварийных недоразумений всегда можно подставить новые координаты  в равенства <img align="absmiddle" width="81" height="48" src="b/perehod_k_novomu_bazisu_clip_image055_0000.gif"> и получить те же самые  результаты. </p>
+  <p>Всё хорошо, всё правильно, но нам-то нужно наоборот – из  старых координат получить новые. Давайте присмотримся к нашему <strong><a href="matrichnye_uravneniya_primery_reshenij.html">матричному уравнению</a></strong> <img align="absmiddle" width="141" height="51" src="b/perehod_k_novomu_bazisu_clip_image057_0000.gif">…. В его середине находится матрица с координатами векторов  <img align="absmiddle" width="171" height="24" src="b/perehod_k_novomu_bazisu_clip_image778.gif">, которые записаны в столбцы. И, обозначив <img align="absmiddle" width="217" height="51" src="b/perehod_k_novomu_bazisu_clip_image064.gif">, перепишем уравнение в компактном виде:<br>
+  <img align="absmiddle" width="65" height="19" src="b/perehod_k_novomu_bazisu_clip_image066.gif"></p>
+  <p>Для того чтобы выразить новые координаты через старые,  умножим обе части  на <img align="absmiddle" width="25" height="20" src="b/perehod_k_novomu_bazisu_clip_image068.gif"> слева:</p>
+  <p><img align="absmiddle" width="117" height="73" src="b/perehod_k_novomu_bazisu_clip_image070.gif"></p>
+  <p>В результате ситуация разрешилась самым благоприятным  образом:<br>
+    <img align="absmiddle" width="77" height="21" src="b/perehod_k_novomu_bazisu_clip_image072.gif"></p>
+  <p>Теперь нужно найти <strong><a href="kak_naiti_obratnuyu_matricu.html">обратную  матрицу</a></strong>. Так как векторы базиса <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">линейно  независимы</a></strong>, то <strong><a href="kak_vychislit_opredelitel.html">определитель</a></strong> <img align="absmiddle" width="44" height="27" src="b/perehod_k_novomu_bazisu_clip_image074.gif"> и обратная матрица заведомо  существует. Я не буду подробно расписывать процесс её нахождения <em>(с которым можно ознакомиться по ссылке)</em> и сразу приведу готовый результат:<br>
+     <img align="absmiddle" width="209" height="48" src="b/perehod_k_novomu_bazisu_clip_image076.gif"> – тот редкий случай, когда  дробь целесообразно затолкать в матрицу.</p>
+  <p>Пользуясь уравнением <img align="absmiddle" width="108" height="51" src="b/perehod_k_novomu_bazisu_clip_image078.gif">, вычислим координаты векторов <img align="absmiddle" width="121" height="24" src="b/perehod_k_novomu_bazisu_clip_image006_0000.gif"> в базисе <img align="absmiddle" width="52" height="24" src="b/perehod_k_novomu_bazisu_clip_image014_0002.gif">:<strong></strong><br>
+      <img align="absmiddle" width="356" height="80" src="b/perehod_k_novomu_bazisu_clip_image082.gif">, то есть <img align="absmiddle" width="144" height="24" src="b/perehod_k_novomu_bazisu_clip_image084.gif">;<br>
+      <img align="absmiddle" width="325" height="80" src="b/perehod_k_novomu_bazisu_clip_image086.gif">, то есть <img align="absmiddle" width="85" height="41" src="b/perehod_k_novomu_bazisu_clip_image088.gif">.<br>
+    Желающие могут протестировать другие «сподручные» векторы и  свериться с чертежом.</p>
+  <p>Нетрудно догадаться, что <u>в столбцах</u> полученной  матрицы <img align="absmiddle" width="25" height="20" src="b/perehod_k_novomu_bazisu_clip_image068.gif"> находятся коэффициенты  разложения векторов старого базиса по векторам нового базиса:<br>
+      <img align="absmiddle" width="96" height="83" src="b/perehod_k_novomu_bazisu_clip_image092.gif"><br>
+      <em>(убедитесь по чертежу в  справедливости этих разложений)</em></p>
+  <p>и матрица <img align="absmiddle" width="123" height="48" src="b/perehod_k_novomu_bazisu_clip_image094.gif"> называется <em>(именно  так!)</em> матрицей перехода от базиса <img align="absmiddle" width="52" height="24" src="b/perehod_k_novomu_bazisu_clip_image014_0003.gif"> к базису <img align="absmiddle" width="37" height="23" src="b/perehod_k_novomu_bazisu_clip_image002_0002.gif">.</p>
+  <p>Из статьи о <strong><a href="linejnye_preobrazovanija.html">линейных  преобразованиях</a></strong> вы узнаете <em>(или уже  знаете)</em>, что любой квадратной матрице «два на два» соответствует  определённое преобразование <em>(грубо  говоря, искажение)</em> плоскости, и, как видите, <em>невырожденная</em> матрица «два на два» может иметь и другой геометрический  смысл. Любопытные читатели непременно проанализируют, какие линейные  преобразования задают рассмотренные матрицы.</p></div>
+  <p>Систематизируем алгоритм решения данной задачи: итак, заданы  два <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">произвольных базиса</a></strong> плоскости <img align="absmiddle" width="97" height="23" src="b/perehod_k_novomu_bazisu_clip_image096.gif">, при этом векторы 2-го базиса выражены через векторы 1-го:<br>
+      <img align="absmiddle" width="107" height="48" src="b/perehod_k_novomu_bazisu_clip_image098.gif"></p>
+  <p><strong><em>! Обозначения</em></strong><em>: в данном  контексте двойные подстрочные индексы имеют следующий смысл: 1-я цифра  обозначает <u>номер координаты</u>, 2-я цифра – <u>номер вектора</u>:<strong></strong></em><br>
+      <em><img align="absmiddle" width="21" height="23" src="b/perehod_k_novomu_bazisu_clip_image100.gif"> – 1-я координата 1-го  вектора (вектора <img align="absmiddle" width="17" height="23" src="b/perehod_k_novomu_bazisu_clip_image102.gif">), <img align="absmiddle" width="23" height="23" src="b/perehod_k_novomu_bazisu_clip_image104.gif">– 2-я координата 1-го вектора;</em><br>
+      <em><img align="absmiddle" width="21" height="23" src="b/perehod_k_novomu_bazisu_clip_image106.gif"> – 1-я координата 2-го  вектора (вектора <img align="absmiddle" width="17" height="23" src="b/perehod_k_novomu_bazisu_clip_image108.gif">), <img align="absmiddle" width="23" height="23" src="b/perehod_k_novomu_bazisu_clip_image110.gif">– 2-я координата 2-го вектора.</em><br>
+      <em>Следует отметить, что  в других источниках информации обозначения могут быть другими, я выбрал  вариант, который мне показался наиболее понятным.</em></p>
+  <p>В базисе <img align="absmiddle" width="48" height="23" src="b/perehod_k_novomu_bazisu_clip_image112.gif"> дан вектор <img align="absmiddle" width="56" height="23" src="b/perehod_k_novomu_bazisu_clip_image012_0000.gif">. Требуется найти его координаты <img align="absmiddle" width="36" height="23" src="b/perehod_k_novomu_bazisu_clip_image043_0000.gif"> в базисе <img align="absmiddle" width="47" height="23" src="b/perehod_k_novomu_bazisu_clip_image115.gif">.</p>
+  <p>На первом шаге составляем матричное уравнение, при этом  коэффициенты разложений <img align="absmiddle" width="107" height="48" src="b/perehod_k_novomu_bazisu_clip_image098_0000.gif"> «укладываем» <u>в столбцы</u> матрицы: <img align="absmiddle" width="100" height="51" src="b/perehod_k_novomu_bazisu_clip_image118.gif"> <em>(векторы </em><img align="absmiddle" width="35" height="23" src="b/perehod_k_novomu_bazisu_clip_image120.gif"><em> следует «перебирать» <strong>строго по порядку</strong>!)</em>:</p>
+  <p><img align="absmiddle" width="153" height="51" src="b/perehod_k_novomu_bazisu_clip_image122.gif"> или, если компактнее: <img align="absmiddle" width="59" height="19" src="b/perehod_k_novomu_bazisu_clip_image124.gif"></p>
+  <p>Уравнение, кстати, легко преобразовать в формулы, выражающие  старые координаты через новые. Выполняем матричное умножение:<br>
+    <img align="absmiddle" width="139" height="51" src="b/perehod_k_novomu_bazisu_clip_image128.gif">  <br>
+    Две матрицы равны, если равны их соответствующие элементы:<br>
+    <img align="absmiddle" width="108" height="48" src="b/perehod_k_novomu_bazisu_clip_image130.gif"><br>
+    Читателям, углубленно изучающим математику, рекомендую  вывести эти формулы самостоятельно (по аналогии конкретных рассуждений в  разобранном примере).</p>
+  <p>Но возвращаемся к нашей задаче. Она элементарна! Находим  обратную матрицу <img align="absmiddle" width="25" height="20" src="b/perehod_k_novomu_bazisu_clip_image132.gif"> и, вычисляя  произведение <img align="absmiddle" width="45" height="21" src="b/perehod_k_novomu_bazisu_clip_image134.gif">, получаем координаты вектора <img align="absmiddle" width="13" height="17" src="b/perehod_k_novomu_bazisu_clip_image008_0001.gif"> в базисе <img align="absmiddle" width="47" height="23" src="b/perehod_k_novomu_bazisu_clip_image137.gif">:<br>
+      <img align="absmiddle" width="121" height="51" src="b/perehod_k_novomu_bazisu_clip_image139.gif"> <strong></strong></p>
+  <p>Простота простотой, но в действительности эта задача  вызывает серьёзные затруднения у многих студентов. Связано это, видимо, с не  наглядностью изложения материала. Как правило, в типовом источнике можно увидеть  два «косых» базиса <em>(если чертёж есть  вообще)</em>, и вкупе со всеми этими штрихами <em>(популярный стиль)</em>, непонятными индексами возникает только одно  желание – захлопнуть книгу/закрыть окно. И в демонстрационном примере я  специально рассмотрел два «хороших» базиса – чтобы не наглядный материал  превратить в ненаглядный =)</p>
+  <p>…так чувствуется, вам уже не терпится что-нибудь порешать!  Пространственный случай для самостоятельного изучения:</p>
+  <p><u>Задача 1</u></p>
+  <p>1) В трехмерном пространстве заданы базисы <img align="absmiddle" width="144" height="25" src="b/perehod_k_novomu_bazisu_clip_image141.gif">, причём:<br>
+      <img align="absmiddle" width="475" height="25" src="b/perehod_k_novomu_bazisu_clip_image143.gif"></p>
+  <p>Записать два матричных уравнения, которые связывают  координаты <img align="absmiddle" width="59" height="24" src="b/perehod_k_novomu_bazisu_clip_image145.gif"> вектора <img align="absmiddle" width="15" height="17" src="b/perehod_k_novomu_bazisu_clip_image147.gif"> в базисе <img align="absmiddle" width="68" height="24" src="b/perehod_k_novomu_bazisu_clip_image149.gif"> с его координатами <img align="absmiddle" width="59" height="24" src="b/perehod_k_novomu_bazisu_clip_image151.gif"> в базисе <img align="absmiddle" width="72" height="25" src="b/perehod_k_novomu_bazisu_clip_image153.gif">.</p>
+  <p>2) <img align="absmiddle" width="475" height="25" src="b/perehod_k_novomu_bazisu_clip_image155.gif">.<br>
+    Найти разложение вектора <img align="absmiddle" width="15" height="17" src="b/perehod_k_novomu_bazisu_clip_image157.gif"> по базису <img align="absmiddle" width="72" height="25" src="b/perehod_k_novomu_bazisu_clip_image153_0000.gif"></p>
+  <p>Краткое решение и ответы в конце урока.</p>
+  <p>Следует отметить, что формулировка этой задачи вовсе не  подразумевает, что речь идёт именно о геометрических векторах. Это могут быть  векторы и другой природы. Я очень надеюсь, что на данный момент вы всё-таки почитали  мои статьи по <strong><a href="mnozhestva.html">высшей алгебре</a></strong> и  добрались до статьи о <strong><a href="linejnye_preobrazovanija.html">линейных  преобразованиях</a></strong>, где я обобщил понятие вектора. Однако сейчас у нас на  повестке дня <strong><a href="vektory_dlya_chainikov.html">аналитическая геометрия</a></strong>,  и поэтому я перехожу к рассмотрению второго вопроса:</p>
+  <br>
+  <h2><strong>Переход к новой  системе координат</strong></h2>
+  <p>Это не то же самое, что переход к новому базису! Хотя задача  родственная.</p>
+  <p>Наверняка первый чертёж урока вызвал у вас мысль, что  «чего-то здесь не хватает». И действительно, коль скоро, речь шла о базисах, то  нам было вполне достаточно векторов. А вектор – это <strong><a href="vektory_dlya_chainikov.html">птица свободная</a></strong>, и на иллюстрации их вообще можно было расположить  как угодно. Но во многих случаях существует потребность учесть преобразование<u> </u>координат <u>точек</u>, и по этой причине возникает необходимость  «застолбить» начальную точку отсчёта <em>(начало  координат)</em>, которая в тандеме с базисными векторами порождает <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">аффинную систему координат</a></strong>.</p>
+  <p>Рассмотрим две аффинные системы координат плоскости: <img align="absmiddle" width="152" height="23" src="b/perehod_k_novomu_bazisu_clip_image159.gif">. Первую систему по нестарой памяти назовём <em>старой</em>, вторую – <em>новой</em>, и, как водится, запишем традиционное разложение:<br>
+      <img align="absmiddle" width="225" height="23" src="b/perehod_k_novomu_bazisu_clip_image161.gif"></p>
+  <p>Не углубляясь в книжные рассуждения, я сразу приведу готовые  формулы, позволяющие узнать старые координаты <img align="absmiddle" width="29" height="17" src="b/perehod_k_novomu_bazisu_clip_image163.gif"> произвольной точки <img align="absmiddle" width="21" height="17" src="b/perehod_k_novomu_bazisu_clip_image165.gif"> плоскости, если  известны её новые координаты <img align="absmiddle" width="36" height="21" src="b/perehod_k_novomu_bazisu_clip_image167.gif">:<br>
+      <img align="absmiddle" width="133" height="48" src="b/perehod_k_novomu_bazisu_clip_image169.gif">, где <img align="absmiddle" width="40" height="24" src="b/perehod_k_novomu_bazisu_clip_image171.gif"> – координаты точки <img align="absmiddle" width="20" height="19" src="b/perehod_k_novomu_bazisu_clip_image173.gif"> <u>в старой</u> системе координат.</p>
+  <p>Данные равенства называются <strong>формулами преобразования аффинной системы координат</strong>, и в них легко  просматривается знакомая матрица <img align="absmiddle" width="99" height="51" src="b/perehod_k_novomu_bazisu_clip_image175.gif">. </p>
+  <p>Вернёмся к нашим ненаглядным базисам =), на основе которых  построим две системы координат: <img align="absmiddle" width="133" height="24" src="b/perehod_k_novomu_bazisu_clip_image177.gif">. В качестве начала новой системы координат я выберу точку <img align="absmiddle" width="133" height="24" src="b/perehod_k_novomu_bazisu_clip_image179.gif">:<br>
+      <img align="absmiddle" width="387" height="342" src="b/perehod_k_novomu_bazisu_clip_image181.jpg" alt="Переход к новой системе координат"></p>
+    <div id="primer"><p>Теперь «укладываем» коэффициенты разложений  <img align="absmiddle" width="171" height="24" src="b/perehod_k_novomu_bazisu_clip_image183.gif"> в «столбцы» формул <img align="absmiddle" width="128" height="48" src="b/perehod_k_novomu_bazisu_clip_image185.gif">:</p>
+  <p><img align="absmiddle" width="101" height="45" src="b/perehod_k_novomu_bazisu_clip_image187.gif"></p>
+  <p>Подопытные точки опять же – синие и пушистые =) Пожалуйста,  наклоните голову на 45 градусов влево и убедитесь, что в <u>«оранжевой» системе  координат </u>точка <img align="absmiddle" width="17" height="17" src="b/perehod_k_novomu_bazisu_clip_image189.gif"> имеет координаты <img align="absmiddle" width="33" height="21" src="b/perehod_k_novomu_bazisu_clip_image191.gif">, а точка <img align="absmiddle" width="15" height="17" src="b/perehod_k_novomu_bazisu_clip_image193.gif"> – координаты <img align="absmiddle" width="48" height="21" src="b/perehod_k_novomu_bazisu_clip_image195.gif"> <em>(коричневые пунктирные линии)</em>. Вычислим координаты данных точек в  исходном базисе <img align="absmiddle" width="56" height="23" src="b/perehod_k_novomu_bazisu_clip_image197.gif">:<br>
+      <img align="absmiddle" width="169" height="99" src="b/perehod_k_novomu_bazisu_clip_image199.gif"><br>
+    В чём и требовалось убедиться.</p>
+  <p>Однако здесь опять всё «задом наперёд» – ведь в подавляющем  большинстве случаев новые-то координаты нам как раз не известны. На очереди  знакомая схема действий. Запишем формулы <img align="absmiddle" width="133" height="48" src="b/perehod_k_novomu_bazisu_clip_image169_0000.gif"> в виде <strong><a href="matrichnye_uravneniya_primery_reshenij.html">матричного уравнения</a></strong>:</p>
+  <p><img align="absmiddle" width="195" height="51" src="b/perehod_k_novomu_bazisu_clip_image201.gif"> или, если компактнее: <img align="absmiddle" width="95" height="24" src="b/perehod_k_novomu_bazisu_clip_image203.gif"></p>
+  <p>И с помощью стандартных преобразований выражаем столбец  новых координат:<br>
+      <img align="absmiddle" width="105" height="25" src="b/perehod_k_novomu_bazisu_clip_image205.gif">, где <img align="absmiddle" width="71" height="51" src="b/perehod_k_novomu_bazisu_clip_image207.gif"> – координаты точки <img align="absmiddle" width="16" height="19" src="b/perehod_k_novomu_bazisu_clip_image209.gif"> <u>в новом базисе</u>.  Данный столбец рассчитывается по формуле <img align="absmiddle" width="88" height="25" src="b/perehod_k_novomu_bazisu_clip_image211.gif">.</p>
+  <p>В нашем примере обратная матрица уже найдена в предыдущем  параграфе <img align="absmiddle" width="123" height="48" src="b/perehod_k_novomu_bazisu_clip_image213.gif"> и осталось как раз  узнать этот столбец:<br>
+      <img align="absmiddle" width="447" height="80" src="b/perehod_k_novomu_bazisu_clip_image215.gif"><br>
+    Пожалуйста, снова наклоните голову влево на <img align="absmiddle" width="27" height="19" src="b/perehod_k_novomu_bazisu_clip_image217.gif"> и убедитесь, что <u>в  новой</u> <em>(«оранжевой»)</em> системе  координат точка <img align="absmiddle" width="16" height="19" src="b/perehod_k_novomu_bazisu_clip_image209_0000.gif"> обладает именно  координатами <img align="absmiddle" width="47" height="21" src="b/perehod_k_novomu_bazisu_clip_image219.gif">.</p>
+  <p>Запишем рабочее матричное уравнение <img align="absmiddle" width="209" height="48" src="b/perehod_k_novomu_bazisu_clip_image221.gif"> и рассчитаем  координаты точек <img align="absmiddle" width="99" height="21" src="b/perehod_k_novomu_bazisu_clip_image223.gif"> в новой системе  координат:<br>
+      <img align="absmiddle" width="497" height="163" src="b/perehod_k_novomu_bazisu_clip_image225.gif"></p></div>
+    <p>Рассмотренные формулы работают для произвольных аффинных  систем плоскости, однако в практических задачах особую важность имеет переход  от <em>прямоугольной декартовой системы  координат</em> <img align="absmiddle" width="56" height="23" src="b/perehod_k_novomu_bazisu_clip_image197_0000.gif"> к другой <em>декартовой системе</em> <img align="absmiddle" width="64" height="23" src="b/perehod_k_novomu_bazisu_clip_image227.gif">. Но перед тем, как приступить к изучению этого частного  случая, я расскажу вам о том, о чём многие слышали, но стеснялись спросить:))</p>
+  <h3><strong>Ориентация плоскости</strong></h3>
+  <p>У плоскости может быть две ориентации. Левая. И правая.  Первая ориентация задаётся <em>левоориентированным  базисом</em> и, как следствие, <em>левой</em> системой координат, вторая – соответственно, <em>правоориентированным базисом</em> и <em>правой</em> системой. </p>
+  <p>По сложившейся традиции разбираться будем на пальцах: разверните  ладони вверх и прижмите к ним все пальцы, кроме <em>указательных</em> и <em>больших</em>.  Теперь совместите <em>указательные пальцы</em>. <em>Большие пальцы</em> при этом расположатся <u>по  разные стороны</u>. Наоборот: совместите <em>большие  пальцы</em> – тогда по разные от них стороны окажутся пальцы <em>указательные</em>. Это признак того, что символические  базисы и порождаемые ими системы координат имеют разную ориентацию.</p>
+  <p>Если <em>большой палец</em> символизирует <u>1-й вектор базиса</u>, а <em>указательный  палец</em> – <u>2-й вектор базиса</u> (<em>ладони  развёрнуты вверх)</em>,то базис  правой руки принято считать <em>правоориентированным</em>,  а базис левой руки – <em>левоориентированным</em>. </p>
+  <p>Так, например, наша «школьная» система координат <img align="absmiddle" width="57" height="23" src="b/perehod_k_novomu_bazisu_clip_image229.gif"> является <em>правой</em>.   Как в этом убедиться? Совместите <em>большой  палец</em> <u>правой руки </u>с вектором <img align="absmiddle" width="11" height="20" src="b/perehod_k_novomu_bazisu_clip_image231.gif"> <em>(первым вектором базиса)</em>. Тогда указательный палец будет смотреть в  сторону вектора <img align="absmiddle" width="13" height="23" src="b/perehod_k_novomu_bazisu_clip_image233.gif">, и это признак того, что базис <em>правоориентирован</em>. </p>
+  <p>Вообще, рассматриваемое понятие весьма удачно  характеризует<em> осевая (зеркальная) симметрия</em>, которая  меняет ориентацию плоскости. Изобразим в прямоугольной системе брата нашего  меньшего и отобразим его симметрично относительно оси ординат:<br>
+      <img align="absmiddle" width="324" height="201" src="b/perehod_k_novomu_bazisu_clip_image235.jpg" alt="Зеркальная симметрия меняет ориентацию плоскости"><br>
+    Совершенно понятно, что как ни перемещай, как ни  крути изображения – совместить их не удастся. Это и есть эффект разной ориентации. Обратите  внимание, что 1-й координатный вектор тоже подвергся отражению, и <em>левая</em> система <img align="absmiddle" width="60" height="23" src="b/perehod_k_novomu_bazisu_clip_image237.gif"> задала <em>левую</em> ориентацию плоскости – координатная  ось <img align="absmiddle" width="28" height="19" src="b/perehod_k_novomu_bazisu_clip_image239.gif"> «развернулась» в  противоположную сторону и положительные значения стали отсчитываться справа  налево. И, кстати, ничто не мешает вести отсчёт именно так! Но тут нас  вряд ли поймут – не зря же ориентацию назвали левой =) Хотя чисто «технически»  она ничем не хуже.</p>
+  <p>Если Тузика отобразить симметрично относительно оси <img align="absmiddle" width="28" height="19" src="b/perehod_k_novomu_bazisu_clip_image239_0000.gif">, то получим другую <em>левую</em> систему <img align="absmiddle" width="60" height="23" src="b/perehod_k_novomu_bazisu_clip_image241.gif">, в которой единичный вектор <img align="absmiddle" width="17" height="23" src="b/perehod_k_novomu_bazisu_clip_image243.gif"> смотрит вниз. </p>
+  <p>Взаимную ориентацию двух базисов <em>(а значит и взаимную ориентацию порожденных ими систем координат)</em> можно установить аналитически: если <strong><a href="kak_vychislit_opredelitel.html">определитель</a></strong> <em>матрицы перехода от одного базиса  к другому</em> больше нуля, то базисы  ориентированы одинаково <em>(оба левые или  оба правые)</em>, в противном случае они имеют разную ориентацию. Так, в  демонстрационном примере нашего урока <img align="absmiddle" width="68" height="27" src="b/perehod_k_novomu_bazisu_clip_image245.gif">, значит, базисы <img align="absmiddle" width="96" height="24" src="b/perehod_k_novomu_bazisu_clip_image247.gif"> ориентированы  одинаково. И поскольку «школьный» базис считается <em>правым</em>, то <img align="absmiddle" width="52" height="24" src="b/perehod_k_novomu_bazisu_clip_image249.gif"> – тоже <em>правый</em> (впрочем, это и так очевидно). В Задаче 1 <em>(пункт 2)</em> определитель матрицы перехода отрицателен: <img align="absmiddle" width="75" height="27" src="b/perehod_k_novomu_bazisu_clip_image251.gif">, следовательно, базисы <img align="absmiddle" width="144" height="25" src="b/perehod_k_novomu_bazisu_clip_image141_0000.gif"> задают разную  ориентацию трёхмерного пространства. С этим понятием можно ознакомиться в статье о <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">векторном произведении векторов</a></strong>, ну а сейчас пришло время вернуться в основное  русло урока:</p>
+  <h3><strong>Преобразование  прямоугольных систем координат</strong></h3>
+  <p>На практике наиболее часто приходится осуществлять переход  от одной <em>правой</em> декартовой системы  координат <img align="absmiddle" width="57" height="23" src="b/perehod_k_novomu_bazisu_clip_image229_0000.gif"> к другой <em><u>правой</u></em><strong> </strong>декартовой системе <img align="absmiddle" width="67" height="23" src="b/perehod_k_novomu_bazisu_clip_image254.gif">, и в этом случае общие формулы преобразования координат  принимают следующий вид:</p>
+  <p><img align="absmiddle" width="167" height="48" src="b/perehod_k_novomu_bazisu_clip_image256.gif">, где <img align="absmiddle" width="79" height="23" src="b/perehod_k_novomu_bazisu_clip_image258.gif"> – угол между первыми  координатными векторами <em>(не важно, положительный  или отрицательный)</em>.</p>
+  <p>Данные формулы, в частности используются в ходе <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">приведения уравнения линии 2-го порядка к  каноническому виду</a></strong>. И, несмотря на то, что они выражают старые координаты <img align="absmiddle" width="29" height="17" src="b/perehod_k_novomu_bazisu_clip_image163_0000.gif"> точки <img align="absmiddle" width="21" height="17" src="b/perehod_k_novomu_bazisu_clip_image165_0000.gif"> через новые <img align="absmiddle" width="36" height="21" src="b/perehod_k_novomu_bazisu_clip_image167_0000.gif">, равенства называют <u>формулами перехода <strong>от старой</strong> системы координат к новой</u>.  Объяснение просто: если в какое-либо уравнение вместо «икса» и «игрека»  подставить правые части этих равенств, то, собственно, именно такой переход и  будет осуществлён.</p>
+  <p>В том случае если новая система координат построена на тех  же базисных векторах: <img align="absmiddle" width="60" height="23" src="b/perehod_k_novomu_bazisu_clip_image260.gif">, то речь идёт лишь о параллельном переносе начала координат,  и формулы донельзя упрощаются:<br>
+      <img align="absmiddle" width="72" height="48" src="b/perehod_k_novomu_bazisu_clip_image262.gif"></p>
+  <p>Пусть, например, <img align="absmiddle" width="132" height="24" src="b/perehod_k_novomu_bazisu_clip_image264.gif"> – новое начало:<br>
+      <img align="absmiddle" width="374" height="223" src="b/perehod_k_novomu_bazisu_clip_image266.jpg" alt="Параллельный перенос начала координат"><br>
+    Тогда старые координаты <img align="absmiddle" width="39" height="21" src="b/perehod_k_novomu_bazisu_clip_image268.gif"> точки <img align="absmiddle" width="21" height="17" src="b/perehod_k_novomu_bazisu_clip_image165_0001.gif"> легко получить из  новых: <img align="absmiddle" width="139" height="48" src="b/perehod_k_novomu_bazisu_clip_image271.gif">, <br>
+    а новые – из старых: <img align="absmiddle" width="139" height="48" src="b/perehod_k_novomu_bazisu_clip_image273.gif"></p>
+  <p>Второй частный случай   – это поворот осей с сохранением начала координат:<br>
+      <img align="absmiddle" width="252" height="192" src="b/perehod_k_novomu_bazisu_clip_image275.jpg" alt="Поворот координатных осей"><br>
+    Так как новое начало координат <img align="absmiddle" width="132" height="24" src="b/perehod_k_novomu_bazisu_clip_image277.gif"> совпадает со старым,  то в формулах преобразования координат исчезают свободные члены:<br>
+  <img align="absmiddle" width="139" height="45" src="b/perehod_k_novomu_bazisu_clip_image279.gif"></p>
+  <p>Для самостоятельного решения:</p>
+  <p><u>Задача 2</u></p>
+  <p>Прямоугольная декартова система   координат <img align="absmiddle" width="64" height="23" src="b/perehod_k_novomu_bazisu_clip_image227_0000.gif"> получена из системы <img align="absmiddle" width="57" height="23" src="b/perehod_k_novomu_bazisu_clip_image229_0001.gif"> поворотом на угол <img align="absmiddle" width="16" height="15" src="b/perehod_k_novomu_bazisu_clip_image282.gif">.</p>
+  <p>1) С помощью матричного исчисления вывести формулы,  выражающие новые координаты <img align="absmiddle" width="36" height="21" src="b/perehod_k_novomu_bazisu_clip_image167_0001.gif"> точки <img align="absmiddle" width="21" height="17" src="b/perehod_k_novomu_bazisu_clip_image165_0002.gif"> через её старые координаты <img align="absmiddle" width="29" height="17" src="b/perehod_k_novomu_bazisu_clip_image163_0001.gif">.</p>
+  <p>2) Найти новые координаты точки <img align="absmiddle" width="56" height="21" src="b/perehod_k_novomu_bazisu_clip_image285.gif">, если известно, что угол поворота <img align="absmiddle" width="45" height="41" src="b/perehod_k_novomu_bazisu_clip_image287.gif">.</p>
+  <p>На чертеже выше изображен именно этот легендарный угол, с синуса  и косинуса которого начиналось наше знакомство с тригонометрией. Впрочем, если  что – <strong><a href="trigonometricheskie_tablicy.pdf" target="_blank">тригонометрические таблицы</a></strong> рядом.</p>
+  <p>Краткое решение и ответ в конце урока.</p>
+  <p>В общем случае <em>правая</em> прямоугольная система координат <img align="absmiddle" width="64" height="23" src="b/perehod_k_novomu_bazisu_clip_image227_0001.gif"> получается из системы <img align="absmiddle" width="57" height="23" src="b/perehod_k_novomu_bazisu_clip_image229_0002.gif"> в два шага: </p>
+  <p>1) поворотом координатных осей;<br>
+    2) параллельным переносом начала координат.</p>
+  <p>Ну, или в другом порядке.</p>
+  <p>Следует отметить, что для двух <em>левых</em> декартовых систем работают те же самые формулы<br>
+      <img align="absmiddle" width="167" height="48" src="b/perehod_k_novomu_bazisu_clip_image256_0000.gif"></p>
+  <p>Но вот если одна из прямоугольных систем <em>левая</em>, а другая <em>правая</em>, то в двух местах следует поменять знаки:<br>
+      <img align="absmiddle" width="167" height="48" src="b/perehod_k_novomu_bazisu_clip_image289.gif"><br>
+    Кстати, здесь уже нельзя рассуждать о «чистом повороте»  координатных осей, поскольку с помощью него невозможно «совместить двух  Тузиков». И как раз одна система координат получается из другой в том числе с  помощью зеркальной симметрии.</p>
+  <p>Аналогичные формулы преобразования <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">аффинных систем координат</a></strong> имеют место быть в трёхмерном  пространстве:<br>
+      <img align="absmiddle" width="180" height="72" src="b/perehod_k_novomu_bazisu_clip_image291.gif">, где:</p>
+  <p>где <img align="absmiddle" width="45" height="17" src="b/perehod_k_novomu_bazisu_clip_image293.gif"> – координаты точки <img align="absmiddle" width="21" height="17" src="b/perehod_k_novomu_bazisu_clip_image165_0003.gif"> в аффинной системе <img align="absmiddle" width="85" height="24" src="b/perehod_k_novomu_bazisu_clip_image295.gif">; <br>
+      <img align="absmiddle" width="55" height="21" src="b/perehod_k_novomu_bazisu_clip_image297.gif"> – её координаты в  системе <img align="absmiddle" width="89" height="24" src="b/perehod_k_novomu_bazisu_clip_image299.gif">;<br>
+      <img align="absmiddle" width="61" height="24" src="b/perehod_k_novomu_bazisu_clip_image301.gif"> – координаты начала <img align="absmiddle" width="20" height="19" src="b/perehod_k_novomu_bazisu_clip_image173_0000.gif"> в системе <img align="absmiddle" width="85" height="24" src="b/perehod_k_novomu_bazisu_clip_image295_0000.gif">.</p>
+  <p>Грубо говоря, здесь прибавилась одна координата и принципиальная  схема рассуждений не изменилась. Но разнообразия (тех же поворотов), стало,  безусловно, больше.</p>
+  <p>И, разумеется, рассмотренный математический аппарат работает  для <strong><a href="linejnye_preobrazovanija.html">векторов произвольной природы</a></strong>, в  том числе векторов бОльшей размерности.</p>
+  <p>Любите векторы, и векторы полюбят вас!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Задача 1<strong> Решение</strong>:</em><br>
+      <em>1) Матричное уравнение <img align="absmiddle" width="61" height="17" src="b/perehod_k_novomu_bazisu_clip_image304.gif">, где <img align="absmiddle" width="289" height="75" src="b/perehod_k_novomu_bazisu_clip_image306.gif"> позволяет найти  координаты вектора <img align="absmiddle" width="15" height="17" src="b/perehod_k_novomu_bazisu_clip_image147_0000.gif"> в базисе <img align="absmiddle" width="68" height="24" src="b/perehod_k_novomu_bazisu_clip_image149_0000.gif">, если известны его координаты  в базисе <img align="absmiddle" width="72" height="25" src="b/perehod_k_novomu_bazisu_clip_image153_0001.gif">. Матричное уравнение <img align="absmiddle" width="73" height="20" src="b/perehod_k_novomu_bazisu_clip_image308.gif"> соотносит координаты в  другом порядке</em></p>
+  <p><em>2) Запишем матрицу <img align="absmiddle" width="121" height="75" src="b/perehod_k_novomu_bazisu_clip_image310.gif">. Координаты вектора <img align="absmiddle" width="15" height="17" src="b/perehod_k_novomu_bazisu_clip_image157_0000.gif"> в базисе <img align="absmiddle" width="72" height="25" src="b/perehod_k_novomu_bazisu_clip_image153_0002.gif"> найдём с помощью  матричного уравнения <img align="absmiddle" width="73" height="20" src="b/perehod_k_novomu_bazisu_clip_image308_0000.gif">.</em><br>
+      <em>Обратную матрицу  найдем по формуле:</em><br>
+      <em><img align="absmiddle" width="87" height="47" src="b/perehod_k_novomu_bazisu_clip_image313.gif">, где <img align="absmiddle" width="23" height="24" src="b/perehod_k_novomu_bazisu_clip_image315.gif"> – транспонированная  матрица алгебраических дополнений соответствующих элементов матрицы <img align="absmiddle" width="16" height="17" src="b/perehod_k_novomu_bazisu_clip_image317.gif">.</em><br>
+      <em><img align="absmiddle" width="367" height="99" src="b/perehod_k_novomu_bazisu_clip_image319.gif"></em><br>
+      <em><img align="absmiddle" width="144" height="75" src="b/perehod_k_novomu_bazisu_clip_image321.gif"> – матрица миноров  соответствующих элементов матрицы <img align="absmiddle" width="16" height="17" src="b/perehod_k_novomu_bazisu_clip_image317_0000.gif">.</em><br>
+      <em><img align="absmiddle" width="155" height="75" src="b/perehod_k_novomu_bazisu_clip_image324.gif"> – матрица  алгебраических дополнений.</em><br>
+      <em><img align="absmiddle" width="147" height="75" src="b/perehod_k_novomu_bazisu_clip_image326.gif"> – транспонированная  матрица алгебраических дополнений.</em><br>
+      <em>Таким образом: </em><br>
+      <em><img align="absmiddle" width="303" height="75" src="b/perehod_k_novomu_bazisu_clip_image328.gif"></em><br>
+      <em>В результате:</em><br>
+      <em><img align="absmiddle" width="499" height="75" src="b/perehod_k_novomu_bazisu_clip_image330.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="87" height="24" src="b/perehod_k_novomu_bazisu_clip_image332.gif"></em></p>
+  <p><strong><em>Примечание</em></strong><em>: на самом деле  такую задачу мы уже решали на уроке о <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">линейной  независимости и базисах</a></strong> (см. Примеры 8,9), но недостаток тех решений  состоит в том, что <strong><a href="pravilo_kramera_matrichnyi_metod.html">метод Крамера</a></strong> позволяет найти новые координаты лишь отдельно взятого вектора.</em></p>
+  <p><em>Задача 2 <strong>Решение</strong>:</em><br>
+      <em>1) Запишем формулы в  матричной форме:</em><br>
+      <em><img align="absmiddle" width="189" height="48" src="b/perehod_k_novomu_bazisu_clip_image334.gif"></em><br>
+      <em><img align="absmiddle" width="61" height="17" src="b/perehod_k_novomu_bazisu_clip_image336.gif"></em><br>
+      <em>Выразим новые  координаты через старые: <img align="absmiddle" width="73" height="20" src="b/perehod_k_novomu_bazisu_clip_image338.gif">.</em><br>
+      <em>Обратную матрицу  найдем по формуле:</em><br>
+      <em><img align="absmiddle" width="87" height="47" src="b/perehod_k_novomu_bazisu_clip_image340.gif">, где <img align="absmiddle" width="23" height="24" src="b/perehod_k_novomu_bazisu_clip_image342.gif"> – транспонированная  матрица алгебраических дополнений соответствующих элементов матрицы <img align="absmiddle" width="16" height="17" src="b/perehod_k_novomu_bazisu_clip_image126_0000.gif">.</em><br>
+      <em><img align="absmiddle" width="263" height="48" src="b/perehod_k_novomu_bazisu_clip_image345.gif"></em><br>
+      <em><img align="absmiddle" width="144" height="48" src="b/perehod_k_novomu_bazisu_clip_image347.gif"> – матрица миноров  соответствующих элементов матрицы <img align="absmiddle" width="16" height="17" src="b/perehod_k_novomu_bazisu_clip_image126_0001.gif">.</em><br>
+      <em><img align="absmiddle" width="145" height="48" src="b/perehod_k_novomu_bazisu_clip_image349.gif"> – матрица  алгебраических дополнений.</em><br>
+      <em><img align="absmiddle" width="147" height="48" src="b/perehod_k_novomu_bazisu_clip_image351.gif"> – транспонированная  матрица алгебраических дополнений.</em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="283" height="99" src="b/perehod_k_novomu_bazisu_clip_image353.gif"></em><br>
+      <em>Осуществляя матричное  умножение, получаем искомые формулы:</em><br>
+      <em><img align="absmiddle" width="144" height="45" src="b/perehod_k_novomu_bazisu_clip_image355.gif"></em></p>
+  <p><em>2) Поскольку угол  поворота составляет <img align="absmiddle" width="45" height="41" src="b/perehod_k_novomu_bazisu_clip_image287_0000.gif">, то формулы принимают вид:</em><br>
+      <em><img align="absmiddle" width="244" height="91" src="b/perehod_k_novomu_bazisu_clip_image358.gif"></em><br>
+      <em>Вычислим координаты  точки <img align="absmiddle" width="56" height="21" src="b/perehod_k_novomu_bazisu_clip_image285_0000.gif"> в новой системе  координат:</em><br>
+      <em><img align="absmiddle" width="161" height="91" src="b/perehod_k_novomu_bazisu_clip_image361.gif"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: а) <img align="absmiddle" width="144" height="45" src="b/perehod_k_novomu_bazisu_clip_image355_0000.gif">, б) <img align="absmiddle" width="93" height="25" src="b/perehod_k_novomu_bazisu_clip_image363.gif"></em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,952 @@
+<html>
+<head>
+<title>Эллипс и окружность. Доступный курс аналитической геометрии</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="линии второго порядка, алгебраическая линия, общее уравнение линии 2-го порядка, классификация линий второго порядка, эллипс, каноническое уравнение эллипса, как построить эллипс, примеры решений, определение эллипса, фокусы эллипса, эксцентриситет эллипса, окружность частный случай эллипса, уравнение окружности, как построить окружность, примеры чертежей, подробно, поворот эллипса, параллельный перенос эллипса">
+<meta name="Description" content="Подробные лекции по линиям 2-го порядка с примерами и задачами для чайников">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Линии второго порядка.<br>
+    Эллипс и его каноническое уравнение. Окружность</strong></h1>
+  <br>
+  
+  <p>После основательной проработки <strong><a href="uravnenie_pryamoi_na_ploskosti.html">прямых на плоскости</a></strong> продолжаем изучать геометрию двухмерного мира.  Ставки удваиваются, и я приглашаю вас посетить живописную галерею эллипсов,  гипербол, парабол, которые являются типичными представителями <em>линий второго порядка</em>. Экскурсия уже  началась, и сначала краткая информация обо всей экспозиции на разных этажах  музея: </p>
+  <h3><strong>Понятие  алгебраической линии и её порядка</strong></h3>
+  <p>Линию на плоскости называют <em>алгебраической</em>, если в <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">аффинной  системе координат</a></strong> её уравнение имеет вид <img align="absmiddle" width="77" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image002.gif">, где <img align="absmiddle" width="53" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image004.gif"> – многочлен, состоящий  из слагаемых вида <img align="absmiddle" width="43" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image006.gif">(<img align="absmiddle" width="13" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image008.gif"> – действительное  число, <img align="absmiddle" width="32" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image010.gif">  – целые  неотрицательные числа). </p>
+  <p>Как видите, уравнение алгебраической линии не содержит  синусов, косинусов, логарифмов и прочего функционального бомонда. Только «иксы»  и «игреки» в <u>целых неотрицательных</u> степенях. </p>
+  <p>Далее под словом «линия» по умолчанию будет подразумеваться  алгебраическая линия на плоскости</p>
+  <p><strong>Порядок линии</strong> равен максимальному значению <img align="absmiddle" width="40" height="16" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image012.gif"> входящих в него  слагаемых. </p>
+  <p>По соответствующей теореме, понятие алгебраической линии, а  также её порядок не зависят от выбора <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">аффинной  системы координат</a></strong>, поэтому для лёгкости бытия считаем, что все последующие  выкладки имеют место быть в <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">декартовых координатах </a></strong><img align="absmiddle" width="57" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image014.gif">.</p>
+  <p><strong>Общее уравнение</strong> линии второго порядка имеет вид <img align="absmiddle" width="253" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image016.gif">, где <img align="absmiddle" width="111" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image018.gif"> – произвольные  действительные числа <em>(</em><img align="absmiddle" width="55" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image020.gif"><em> принято записывать с множителем-«двойкой»)</em>,  причём коэффициенты <img align="absmiddle" width="52" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image022.gif"> не равны одновременно нулю.</p>
+  <p>Если <img align="absmiddle" width="95" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image024.gif">, то уравнение упрощается до <img align="absmiddle" width="125" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image026.gif">, и если коэффициенты <img align="absmiddle" width="36" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image028.gif">одновременно не равны  нулю, то это в точности <strong><a href="uravnenie_pryamoi_na_ploskosti.html">общее уравнение  «плоской» прямой</a></strong>, которая представляет собой <em>линию первого порядка</em>.</p>
+  <p>Многие поняли смысл новых терминов, но, тем не менее, в  целях 100%-го усвоения материала сунем пальцы в розетку. Чтобы определить  порядок линии, нужно перебрать <u>все слагаемые</u> её уравнения и у каждого из  них найти <u>сумму степеней</u> входящих переменных.</p> <p>Например:</p>
+    <p>
+    слагаемое <img align="absmiddle" width="33" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image030.gif"> содержит «икс» в 1-й  степени;<br>
+    слагаемое <img align="absmiddle" width="31" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image032.gif"> содержит «игрек» в  1-й степени;<br>
+    в слагаемом <img align="absmiddle" width="17" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image034.gif"> переменные  отсутствуют, поэтому сумма их степеней равна нулю.</p>
+  <p>Далее из полученных чисел выбирается <u>максимальное  значение</u>, в данном случае единица, – это и есть порядок линии. </p>
+  <p>Теперь разберёмся, почему уравнение <img align="absmiddle" width="255" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image036.gif"> задаёт линию <strong>второго</strong> порядка:</p>
+  <p>слагаемое <img align="absmiddle" width="29" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image038.gif"> содержит «икс» во 2-й  степени;<br>
+    у слагаемого <img align="absmiddle" width="48" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image040.gif"> сумма степеней  переменных: 1 + 1 = 2;<br>
+    слагаемое <img align="absmiddle" width="28" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image042.gif"> содержит «игрек» во  2-й степени;<br>
+    все остальные слагаемые – <em>меньшей</em> степени.</p>
+  <p>Максимальное значение: 2</p>
+  <p>Если к нашему уравнению дополнительно приплюсовать, скажем, <img align="absmiddle" width="28" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image044.gif">, то оно уже будет определять <em>линию третьего порядка</em>. Очевидно, что общий вид уравнения линии  3-го порядка содержит «полный комплект» слагаемых, сумма степеней переменных в  которых равна трём:<br>
+      <img align="absmiddle" width="433" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image046.gif">, где коэффициенты <img align="absmiddle" width="80" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image048.gif"> не равны одновременно  нулю.</p>
+  <p>В том случае, если добавить одно или несколько подходящих слагаемых,  которые содержат <img align="absmiddle" width="139" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image050.gif">, то речь уже зайдёт о <em>линии  4-го порядка</em>, и т.д.</p>
+  <p>С алгебраическими линиями 3-го, 4-го и более высоких  порядков нам придется столкнуться ещё не раз, в частности, при знакомстве с <strong><a href="poljarnye_koordinaty.html">полярной системой координат</a></strong>.</p>
+  <p>Однако вернёмся к общему уравнению <img align="absmiddle" width="255" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image036_0000.gif"> и вспомним его  простейшие школьные вариации. В качестве примеров напрашивается парабола <img align="absmiddle" width="44" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image052.gif">, уравнение которой легко привести к общему виду <img align="absmiddle" width="68" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image054.gif">, и гипербола <img align="absmiddle" width="41" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image056.gif"> с эквивалентным  уравнением <img align="absmiddle" width="64" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image058.gif">. Однако не всё так гладко…. </p>
+  <p>Существенный недостаток общего уравнения состоит в том, что  почти всегда не понятно, какую линию оно задаёт. Даже в простейшем случае <img align="absmiddle" width="64" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image058_0000.gif"> не сразу сообразишь,  что это гипербола. Такие расклады хороши только на маскараде, поэтому в курсе  аналитической геометрии рассматривается типовая задача <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">приведения уравнения линии 2-го порядка к каноническому виду</a></strong>. </p>
+  <h3><strong>Что такое  канонический вид уравнения?</strong></h3>
+  <p>Это общепринятый стандартный вид уравнения, когда в  считанные секунды становится ясно, какой геометрический объект оно определяет. Кроме того,  канонический вид очень удобен для решения многих практических заданий. Так,  например, по каноническому уравнению <img align="absmiddle" width="95" height="43" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image060.gif"><strong><a href="uravnenie_pryamoi_na_ploskosti.html">«плоской» прямой</a></strong>, во-первых, сразу понятно, что это прямая, а  во-вторых – элементарно просматривается принадлежащая ей точка <strong><img align="absmiddle" width="65" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image062.gif"></strong> и направляющий  вектор <strong><img align="absmiddle" width="61" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image064.gif"></strong>. </p>
+  <p>Очевидно, что любая <em>линия  1-го порядка</em> представляет собой прямую. На втором же этаже нас ждёт уже не  вахтёр, а гораздо более разнообразная компания из девяти статуй:</p>
+  <h3><strong>Классификация линий  второго порядка</strong></h3>
+  <p>С помощью специального комплекса действий любое уравнение  линии второго порядка приводится к одному из следующих видов:</p>
+  <p><em>(<img align="absmiddle" width="13" height="15" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image066.gif"> и <img align="absmiddle" width="13" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image068.gif"> – положительные  действительные числа)</em></p>
+  <p>1)  <img align="absmiddle" width="137" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image070.gif">  – каноническое уравнение эллипса;</p>
+  <p>2) <img align="absmiddle" width="77" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image072.gif"> – каноническое  уравнение гиперболы;</p>
+  <p>3) <img align="absmiddle" width="124" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image074.gif">  – каноническое  уравнение параболы;</p>
+  <p>4) <img align="absmiddle" width="88" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image076.gif"> – <strong><a href="kompleksnye_chisla_dlya_chainikov.html">мнимый</a></strong> эллипс;</p>
+  <p>5) <img align="absmiddle" width="80" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image078.gif"> – пара пересекающихся  прямых;</p>
+  <p>6) <img align="absmiddle" width="81" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image080.gif"> – пара <strong><a href="kompleksnye_chisla_dlya_chainikov.html">мнимых</a></strong> пересекающихся прямых (с  единственной действительной точкой пересечения в начале координат);</p>
+  <p>7) <img align="absmiddle" width="75" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image082.gif"> – пара параллельных  прямых;</p>
+  <p>8) <img align="absmiddle" width="76" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image084.gif"> – пара <strong><a href="kompleksnye_chisla_dlya_chainikov.html">мнимых</a></strong> параллельных прямых;</p>
+  <p>9) <img align="absmiddle" width="45" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image086.gif"> – пара совпавших  прямых.</p>
+  <p>У ряда читателей может сложиться впечатление неполноты  списка. Например, в пункте № 7 уравнение <img align="absmiddle" width="75" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image082_0000.gif"> задаёт пару <strong><a href="uravnenie_pryamoi_na_ploskosti.html">прямых</a></strong> <img align="absmiddle" width="89" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image088.gif">, параллельных оси <img align="absmiddle" width="28" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image090.gif">, и возникает вопрос: а где же уравнение <img align="absmiddle" width="75" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image092.gif">, определяющее прямые <img align="absmiddle" width="88" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image094.gif">, параллельные оси ординат? Ответ: оно <strong>не считается каноническим</strong>. Прямые <img align="absmiddle" width="88" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image094_0000.gif"> представляют собой тот же самый стандартный случай <img align="absmiddle" width="89" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image088_0000.gif">, повёрнутый на 90 градусов,  и дополнительная запись <img align="absmiddle" width="75" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image092_0000.gif"> в классификации избыточна,  поскольку не несёт ничего принципиально нового. </p>
+  <p>Таким образом, существует девять и только девять различных видов  линий 2-го порядка, но на практике наиболее часто встречаются <strong>эллипс, <a href="giperbola_i_parabola.html">гипербола и парабола</a></strong>. </p>
+  <p>Сначала рассмотрим эллипс. Как  обычно, я акцентирую внимание на тех моментах, которые имеют большое значение  для решения задач, и если вам необходим подробный вывод формул, доказательства  теорем, пожалуйста, обратитесь, например, к учебнику Базылева/Атанасяна либо Александрова.</p>
+  <br>
+  <h2><strong>Эллипс и его  каноническое уравнение</strong></h2>
+  <p>Правописание… пожалуйста, не повторяйте ошибок некоторых  пользователей Яндекса, которых интересует «как построить эллибз», «отличие элипса от  овала» и «эксцентриситет элебса». </p>
+  <p>Каноническое уравнение эллипса имеет вид <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image096.gif">, где <img align="absmiddle" width="28" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image098.gif">  – положительные  действительные числа, причём <img align="absmiddle" width="37" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image100.gif">. Само определение эллипса я сформулирую позже, а пока самое  время отдохнуть от говорильни и решить распространённую задачу:</p>
+  <h3><strong>Как построить эллипс?</strong></h3>
+  <p>Да, вот взять его и просто начертить. Задание встречается  часто, и значительная часть студентов не совсем грамотно справляются с  чертежом:</p>
+  <p><u>Пример 1</u></p>
+  <p>Построить эллипс, заданный уравнением <img align="absmiddle" width="77" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image102.gif"></p>
+  <p><strong>Решение</strong>: сначала  приведём уравнение к каноническому виду:<br>
+      <img align="absmiddle" width="100" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image104.gif"></p>
+  <p>Зачем приводить? Одно из преимуществ канонического  уравнения <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image096_0000.gif"> заключается в том, что  оно позволяет моментально определить <strong>вершины  эллипса</strong>, которые находятся в точках <img align="absmiddle" width="247" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image106.gif">. Легко заметить, что координаты каждой из этих точек  удовлетворяют уравнению <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image096_0001.gif">.</p>
+  <p>В данном случае <img align="absmiddle" width="271" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image108.gif">:<br>
+      <img align="absmiddle" width="407" height="335" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image110.jpg" alt="Каноническое расположение эллипса"><br>
+      <u>Отрезок</u> <img align="absmiddle" width="33" height="23" src="k/linii_4.gif"> называют <strong>большой осью</strong> эллипса;<br>
+  <u>отрезок</u> <img align="absmiddle" width="33" height="23" src="k/linii_5.gif"> – <strong>малой осью</strong>;<br>
+	  <u>число</u> <img align="absmiddle" width="104" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image112.gif"> называют <strong>большой полуосью</strong> эллипса; <br>
+      <u>число</u> <img align="absmiddle" width="104" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image114.gif"> – <strong>малой полуосью</strong>.<br>
+  в нашем примере: <img align="absmiddle" width="89" height="25" src="k/linii_9.gif">. </p>
+  <p>Чтобы быстро представить, как выглядит тот или  иной эллипс достаточно посмотреть на значения «а» и «бэ» его канонического  уравнения.</p>
+  <p>Всё ладно, складно и красиво, но есть один нюанс: я выполнил  чертёж <a href="matematicheskie_formuly.html#gk" target="_blank">с помощью программы</a>. И вы можете выполнить чертёж с помощью какого-либо  приложения. Однако в суровой действительности на столе лежит клетчатый листок  бумаги, и на наших руках водят хороводы мыши. Люди с художественным талантом,  конечно, могут поспорить, но мыши есть и у вас тоже (правда, поменьше). Таки не зря  человечество изобрело линейку, циркуль, транспортир и другие нехитрые  приспособления для черчения.</p>
+  <p>По этой причине нам вряд ли удастся аккуратно начертить  эллипс, зная одни вершины. Ещё куда ни шло, если эллипс небольшой, например, с  полуосями <img align="absmiddle" width="75" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image116.gif">. Как вариант, можно уменьшить масштаб и, соответственно,  размеры чертежа. Но в общем случае крайне желательно найти дополнительные  точки. </p>
+  <p>Существует два подхода к построению эллипса – геометрический  и алгебраический. Построение с помощью циркуля и линейки мне не нравится по  причине не самого короткого алгоритма и существенной загроможденности чертежа. В  случае крайней необходимости, пожалуйста, обратитесь к учебнику, а в реальности  же гораздо рациональнее воспользоваться средствами алгебры. Из уравнения  эллипса <img align="absmiddle" width="77" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image102_0000.gif"> на черновике  быстренько выражаем:<br>
+      <img align="absmiddle" width="112" height="88" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image119.gif"> </p>
+  <p>Далее уравнение распадается на две функции:<br>
+      <img align="absmiddle" width="236" height="47" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image121.gif"> – определяет верхнюю  дугу эллипса;<br>
+      <img align="absmiddle" width="256" height="47" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image123.gif"> – определяет нижнюю  дугу эллипса.</p>
+  <p><strong>Заданный каноническим уравнением  эллипс  симметричен относительно координатных осей, а также относительно начала  координат</strong>. И это отлично – симметрия почти всегда предвестник халявы.  Очевидно, что достаточно разобраться с 1-й координатной четвертью, поэтому нам  потребуется функция <img align="absmiddle" width="127" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image125.gif">. Напрашивается нахождение дополнительных точек с абсциссами <img align="absmiddle" width="113" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image127.gif">. Настукаем три смс-ки на калькуляторе:<br>
+      <img align="absmiddle" width="304" height="133" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image129.gif"><br>
+    Безусловно, приятно и то, что если допущена серьёзная ошибка  в вычислениях, то это сразу выяснится в ходе построения. </p>
+  <p>Отметим на чертеже точки <img align="absmiddle" width="67" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image131.gif"> (красный цвет),  симметричные точки на остальных дугах (синий цвет) и аккуратно соединим линией  всю компанию:<br>
+      <img align="absmiddle" width="402" height="329" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image133.jpg" alt="Построение эллипса алгебраическим методом с помощью дополнительных точек"><br>
+    Первоначальный набросок лучше прочертить тонко-тонко, и  только потом придать нажим карандашу. В результате должен получиться вполне  достойный эллипс. Кстати, не желаете ли узнать, что это за кривая?</p>
+  <br>
+  <h2><strong>Определение эллипса.  Фокусы эллипса и эксцентриситет эллипса</strong></h2>
+  <p>Эллипс – это частный случай овала. Слово «овал» не следует  понимать в обывательском смысле («ребёнок нарисовал овал» и т.п.). Это  математический термин, имеющий развёрнутую формулировку. Целью данного урока не  является рассмотрение теории овалов и различных их видов, которым практически  не уделяется внимания в стандартном курсе аналитической геометрии. И, в  соответствии с более актуальными потребностями, мы сразу переходим к строгому  определению эллипса:</p>
+  <p><strong>Эллипс</strong> – это  множество всех точек плоскости, сумма расстояний до каждой из которых от двух  данных точек <img align="absmiddle" width="40" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image135.gif">, называемых <strong>фокусами</strong> эллипса, – есть величина постоянная, численно равная длине большой  оси этого эллипса: <img align="absmiddle" width="21" height="19" src="k/linii_6.gif">. <br>
+    При этом расстояния между фокусами меньше данного  значения: <img align="absmiddle" width="71" height="27" src="k/linii_7.gif">.</p>
+  <p>Сейчас  станет всё понятнее:<br>
+      <img align="absmiddle" width="403" height="302" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image140.jpg" alt="Иллюстрация определения эллипса"></p>
+    <div id="primer">
+      <p>Представьте, что синяя точка «ездит» по эллипсу. Так вот,  какую бы точку эллипса <img align="absmiddle" width="57" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image142.gif">мы ни взяли, сумма длин  отрезков <img align="absmiddle" width="72" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image144.gif"> всегда будет одной и  той же:<br>
+        <img align="absmiddle" width="171" height="27" src="k/linii_8.gif">      </p>
+  <p>Убедимся, что в нашем примере значение суммы <img align="absmiddle" width="88" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image148.gif"> действительно равно восьми. Мысленно поместите точку «эм» в правую вершину эллипса,  тогда: <img align="absmiddle" width="188" height="27" src="k/linii_11.gif">, что и требовалось проверить.</p>
+  <p>На определении эллипса основан ещё один способ его  вычерчивания. Высшая математика, порой, причина напряжения и стресса, поэтому  самое время провести очередной сеанс разгрузки. Пожалуйста, возьмите ватман  либо большой лист картона и приколотите его к столу двумя гвоздиками. Это будут  фокусы <img align="absmiddle" width="40" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image135_0000.gif">. К торчащим шляпкам гвоздей привяжите зелёную нитку и до  упора оттяните её карандашом. Гриф карандаша окажется в некоторой точке <img align="absmiddle" width="21" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image154.gif">, которая принадлежит эллипсу. Теперь начинайте вести  карандаш по листу бумаги, сохраняя зелёную нить сильно натянутой. Продолжайте  процесс до тех пор, пока не вернётесь в исходную точку… отлично… чертёж можно  сдать на проверку <s>врачу</s> преподавателю =)</p>
+  <h3><strong>Как найти фокусы  эллипса?</strong></h3>
+  <p>В приведённом примере я изобразил «готовенькие» точки  фокуса, и сейчас мы научимся добывать их из недр геометрии.</p>
+  <p>Если эллипс задан каноническим уравнением <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image096_0002.gif">, то его фокусы имеют координаты <img align="absmiddle" width="117" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image157.gif">, где <img align="absmiddle" width="85" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image159.gif"> – это <strong>расстояние  от каждого из фокусов до центра симметрии эллипса</strong>.</p>
+  <p>Вычисления проще пареной репы: <br>
+      <img align="absmiddle" width="233" height="31" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image161.gif"><br>
+      <img align="absmiddle" width="119" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image163.gif"></p>
+  <p><strong>! Со значением «цэ» нельзя отождествлять конкретные координаты  фокусов! </strong>Повторюсь, что <img align="absmiddle" width="85" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image159_0000.gif"> – это <u>РАССТОЯНИЕ от  каждого из фокусов до центра</u> (который в общем случае не  обязан располагаться именно в начале координат). <br>И, следовательно, расстояние  между фокусами <img align="absmiddle" width="69" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image165.gif"> тоже нельзя привязывать  к каноническому положению эллипса. Иными словами, эллипс можно перенести в  другое место и значение <img align="absmiddle" width="20" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image167.gif"> останется неизменным,  в то время как фокусы, естественно, поменяют свои координаты. Пожалуйста,  учитывайте данный момент в ходе дальнейшего изучения темы.</p>
+  <p>Едем дальше:</p>
+  <h3><strong>Эксцентриситет  эллипса и его геометрический смысл</strong></h3>
+  <p>Эксцентриситетом эллипса называют отношение <img align="absmiddle" width="41" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image169.gif">, которое может принимать значения в пределах <img align="absmiddle" width="59" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image171.gif">. </p>
+  <p>В нашем случае: <img align="absmiddle" width="68" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image173.gif"></p>
+  <p>Выясним, как форма эллипса зависит от его эксцентриситета.  Для этого <strong>зафиксируем левую и правую вершины</strong> рассматриваемого эллипса,  то есть, значение большой полуоси <img align="absmiddle" width="37" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image175.gif"> будет оставаться постоянным. Тогда формула эксцентриситета примет вид:    <img align="absmiddle" width="40" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image177.gif">.</p>
+  <p>Начнём приближать значение эксцентриситета к единице. Это  возможно только в том случае, если <img align="absmiddle" width="43" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image179.gif">. Что это значит? …вспоминаем про фокусы <img align="absmiddle" width="117" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image157_0000.gif">. Это значит, что фокусы эллипса будут «разъезжаться» по оси абсцисс к  боковым вершинам. И, поскольку «зелёные отрезки не резиновые», то эллипс  неизбежно начнёт сплющиваться, превращаясь всё в более и более тонкую сосиску,  нанизанную на ось <img align="absmiddle" width="28" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image090_0000.gif">.</p>
+  <p>Таким образом, <strong>чем  ближе значение эксцентриситета эллипса к единице, тем эллипс более продолговат</strong>.</p>
+  <p>Теперь смоделируем противоположный процесс: фокусы эллипса <img align="absmiddle" width="117" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image157_0001.gif"> пошли навстречу друг  другу, приближаясь к центру. Это означает, что значение «цэ»  становится всё меньше и, соответственно, эксцентриситет стремится к нулю: <img align="absmiddle" width="71" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image182.gif">. <br>
+    При этом «зелёным отрезкам» будет, наоборот – «становиться тесно»  и они начнут «выталкивать» линию эллипса вверх и вниз.</p>
+  <p>Таким образом, <strong>чем  ближе значение эксцентриситета к нулю, тем эллипс больше похож на</strong>… смотрим  предельный случай <img align="absmiddle" width="36" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image184.gif">,  когда фокусы успешно воссоединились в начале  координат:</p>
+    </div>
+      <p><img align="absmiddle" width="406" height="368" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image186.jpg" alt="Окружность – частный случай эллипса"></p
+      ><h3><strong>Окружность – это  частный случай эллипса</strong></h3>
+  <p>Действительно, в случае равенства полуосей каноническое  уравнение эллипса <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image096_0003.gif">принимает вид <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image188.gif">, который рефлекторно преобразуется к <img align="absmiddle" width="81" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image190.gif"> – хорошо известному из  школы уравнению окружности с центром в начале координат радиуса «а». </p>
+  <p>На практике чаще используют запись с «говорящей» буквой  «эр»: <img align="absmiddle" width="80" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image192.gif">. Радиусом называют длину отрезка <img align="absmiddle" width="60" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image194.gif">, при этом каждая точка <img align="absmiddle" width="57" height="21" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image142_0000.gif"> окружности удалена от  центра <img align="absmiddle" width="16" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image196.gif"> на расстояние радиуса.</p>
+  <p>Заметьте, что определение эллипса остаётся полностью  корректным: фокусы совпали <img align="absmiddle" width="49" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image198.gif">, и сумма длин совпавших отрезков <img align="absmiddle" width="87" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image200.gif"> для каждой точки  окружности – есть величина постоянная. Так как расстояние между фокусами <img align="absmiddle" width="44" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image202.gif">, то <strong>эксцентриситет <img align="absmiddle" width="41" height="41" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image169_0000.gif"> любой окружности равен  нулю</strong>.</p>
+  <p>Строится окружность легко и быстро, достаточно вооружиться  циркулем. Тем не менее, иногда бывает нужно выяснить координаты некоторых её точек,  в этом случае идём знакомым путём – приводим уравнение <img align="absmiddle" width="80" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image192_0000.gif"> к бодрому матановскому  виду:<br>
+      <img align="absmiddle" width="80" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image205.gif"><br>
+      <img align="absmiddle" width="87" height="28" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image207.gif"> – функция верхней  полуокружности;<br>
+      <img align="absmiddle" width="96" height="28" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image209.gif"> – функция нижней  полуокружности.</p>
+  <p>После чего находим нужные значения, <strong><a href="kak_naiti_proizvodnuju.html">дифференцируем</a></strong>, <strong><a href="integraly_primery_reshenij.html">интегрируем</a></strong> и делаем другие хорошие вещи.</p>
+  <p>Статья, конечно, носит справочный характер, но как на свете  без любви прожить? Творческое задание для самостоятельного решения</p>
+  <p><u>Пример 2</u></p>
+  <p>Составить каноническое уравнение эллипса, если известен один из его фокусов <img align="absmiddle" width="64" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image211.gif"> и малая полуось <img align="absmiddle" width="37" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image213.gif"> (центр находится в начале  координат). Найти вершины, дополнительные точки и изобразить линию на  чертеже. Вычислить эксцентриситет.</p>
+  <p>Решение и чертёж в конце урока</p>
+  <p>Добавим экшена: </p>
+  <br>
+  <h2><strong>Поворот и  параллельный перенос эллипса</strong></h2>
+  <p>Вернёмся к каноническому уравнению  эллипса <img align="absmiddle" width="79" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image096_0004.gif">, а именно, к условию <img align="absmiddle" width="37" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image100_0000.gif">, загадка которого терзает пытливые умы ещё со времён первого  упоминания о данной кривой. Вот мы рассмотрели эллипс <img align="absmiddle" width="100" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image217.gif">, но разве на практике не может встретиться уравнение <img align="absmiddle" width="101" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image219.gif">? Ведь здесь  <img align="absmiddle" width="49" height="24" src="k/linii_12.gif">, однако, это вроде бы как тоже эллипс! </p>
+  <p>Подобное уравнение нечасто, но действительно попадается. И  оно действительно определяет эллипс. Развеем мистику:<br>
+      <img align="absmiddle" width="337" height="326" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image221.jpg" alt="Поворот эллипса на 90 градусов"><br>
+    В результате построения получен наш родной эллипс,  повёрнутый на 90 градусов. То есть, <img align="absmiddle" width="101" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image219_0000.gif"> – это <strong>неканоническая запись</strong> эллипса <img align="absmiddle" width="100" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image217_0000.gif">. <strong>Запись!</strong> –  уравнение <img align="absmiddle" width="101" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image219_0001.gif"> не задаёт какой-то  другой эллипс, поскольку на оси <img align="absmiddle" width="28" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image090_0001.gif"> не существует точек <img align="absmiddle" width="40" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image135_0001.gif"> (фокусов), которые бы  удовлетворяли определению эллипса.</p>
+  <p>Как быть, если такое чудо-яйцо всё-таки встретилось на  жизненном пути? В том случае если вам предложено <strong>построить</strong> эллипс, то, наверное, лучше построить его в нестандартном  виде. С вершинами и дополнительными точками, думаю, трудностей не возникнет. Но  если вам предложено найти фокусы, эксцентриситет и т.д., то <strong>настоятельно рекомендую</strong> начать (или  продолжить после чертежа) решение так:</p>
+  <p>«Повернём эллипс на 90 градусов и перепишем его уравнение <img align="absmiddle" width="101" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image219_0002.gif">  в каноническом виде: <img align="absmiddle" width="100" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image217_0001.gif">» – дальше по обычной схеме.</p>
+  <p><strong><em>! Примечание</em></strong><em>: в теории принято поворачивать  не саму фигуру, а оси! И если от вас требуется именно <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">ПРИВЕСТИ уравнение к каноническому виду</a></strong>, то решение, строго  говоря, следует оформить иначе: «Перейдём к новой прямоугольной системе  координат <img width="37" height="23" align="absmiddle" src="k/linii_1.gif">, повернув координатные оси на 90 градусов против часовой  стрелки, и запишем уравнение эллипса в каноническом виде: <img align="absmiddle" width="101" height="48" src="k/linii_2.gif">».</em></p>
+  <p>Впрочем, эрудиты могут встать на скользкую дорожку путаницы,  модифицировав все расчёты с учётом поворота. Но всё равно не советую. Потому  что ребячество. Ведь эллипс можно повернуть и на другой угол =) Об этом мы ещё  поговорим позже.</p>
+  <p>В практических задачах гораздо чаще встречается <strong>параллельный перенос</strong> эллипса:</p>
+  <p>Уравнение <img align="absmiddle" width="159" height="44" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image224.gif"> задаёт эллипс с  большой полуосью «а», малой полуосью «бэ» и центром симметрии в точке <img align="absmiddle" width="64" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image226.gif">.</p>
+  <p>Изобразим на чертеже эллипс <img align="absmiddle" width="143" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image228.gif">. Согласно формуле: <img align="absmiddle" width="96" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image230.gif">, то есть наш подопытный эллипс «переехал» в точку <img align="absmiddle" width="57" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image232.gif">:<br>
+      <img align="absmiddle" width="433" height="276" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image234.jpg" alt="Параллельный перенос эллипса"><br>
+    Значения <img align="absmiddle" width="128" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image236.gif"> остались прежними, а  вот фокусы, разумеется, мигрировали, и формулы их координат нужно модифицировать поправками на соответствующие сдвиги:</p>
+  <p><img align="absmiddle" width="191" height="173" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image238.gif"></p>
+  <p>Здесь всё обходится значительно проще, чем при  повороте, и если по условию <u>не нужно</u> приводить уравнение к каноническому  виду, то лично я предпочту оставить его в виде <img align="absmiddle" width="143" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image228_0000.gif"> . Что делать, если нужно приводить? «Чайникам» в  большинстве случаев простят фразу: «Осуществим параллельный перенос эллипса в  начало координат и перепишем уравнение <img align="absmiddle" width="143" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image228_0001.gif"> в каноническом виде: <img align="absmiddle" width="100" height="48" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image217_0002.gif">». Но академический подход предполагает параллельный  перенос <strong>не самой фигуры, а системы координат</strong>! Поэтому людям, изучающим высшую математику по профилю и/или углублённо, гораздо лучше  завернуть примерно следующее: «С помощью параллельного переноса исходной системы координат перейдём к  новой прямоугольной системе координат <img align="absmiddle" width="37" height="23" src="k/linii_3.gif"> с началом в точке <img align="absmiddle" width="57" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image232.gif"> и запишем уравнение эллипса в каноническом виде <img align="absmiddle" width="101" height="48" src="k/linii_2.gif">».</p>
+  <p>На самом деле упрощенная версия формулы нам знакома  ещё со школьных времён:</p>
+  <p>Уравнение <img align="absmiddle" width="161" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image240.gif"> задаёт окружность  радиуса <img align="absmiddle" width="12" height="13" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image242.gif"> с центром в точке <img align="absmiddle" width="64" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image226.gif">. </p>
+  <p>Освежая ностальгические воспоминания, изобразим на чертеже  окружность, заданную уравнением <img align="absmiddle" width="140" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image244.gif">:<br>
+      <img align="absmiddle" width="275" height="255" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image246.jpg" alt="Параллельный перенос окружности"><br>
+    В исследовательских целях приведём наше уравнение к общему  виду, выполнив возведение в квадрат и приведение подобных слагаемых:<br>
+  <img align="absmiddle" width="183" height="51" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image248.gif"><br>
+  <img align="absmiddle" width="169" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image250.gif"> – как правило, в таком  обличье оно и встречается в природе.</p>
+  <p>Таким образом, в практических задачах часто предварительно нужно  выполнить обратное действие – <strong>выделить  полные квадраты</strong>. Данный приём подробно разобран на уроках о <strong><a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">геометрических преобразованиях графиков</a></strong> и <strong><a href="integrirovanie_drobei.html">интегрировании дробей</a></strong>. Хотя  следующий простой пример не должен вызвать у вас затруднений даже без отработки  данного метода:</p>
+  <p><u>Пример 3</u></p>
+  <p>Построить график линии, заданной уравнением <img align="absmiddle" width="129" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image252.gif"></p>
+  <p>Решение и чертёж в конце урока.</p>
+  <p>На практике эллипс (как и другие линии) может быть  одновременно повёрнут на любой угол относительно своего канонического положения  и перенесен в любую точку, отличную от начала координат. В таком случае  решается типовая задача <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">приведения  линии 2-го порядка к каноническому виду</a></strong>, к которой я потихоньку начал вас  готовить уже сегодня.</p>
+  <p>Ну а пока самое время перейти ко второй части лекции, где  жертвами станут <strong><a href="giperbola_i_parabola.html">гипербола и парабола</a></strong>.</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>: поскольку фокусы канонически  расположенного эллипса имеют координаты <img align="absmiddle" width="119" height="23" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image254.gif">, то расстояние от каждого из фокусов до начала координат  равно: <img align="absmiddle" width="36" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image256.gif">.</em><br>
+      <em>По условию известно  значение <img align="absmiddle" width="37" height="19" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image213_0000.gif">, из соотношения <img align="absmiddle" width="85" height="27" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image159_0001.gif"> находим:</em><br>
+      <em><img align="absmiddle" width="247" height="80" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image258.gif"></em><br>
+      <em>Запишем каноническое уравнение  эллипса:</em><br>
+      <em><img align="absmiddle" width="109" height="93" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image260.gif"></em><br>
+      <em>Вершины эллипса  расположены в точках <img align="absmiddle" width="288" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image262.gif">.</em><br>
+      <em>Найдём дополнительные  точки:</em><br>
+      <em><img align="absmiddle" width="385" height="147" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image264.gif"></em><br>
+      <em>Выполним чертёж:</em><br>
+      <em><img align="absmiddle" width="380" height="340" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image266.jpg" alt="Найденное каноническое уравнение эллипса и чертёж линии"></em><br>
+      <em>Вычислим  эксцентриситет: <img align="absmiddle" width="167" height="47" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image268.gif"></em></p>
+  <p><em>Пример 3: <strong>Решение</strong>: выделим полный квадрат:</em><br>
+      <em><img align="absmiddle" width="181" height="77" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image270.gif"></em><br>
+      <em><img align="absmiddle" width="112" height="24" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image272.gif"> – окружность радиуса <img align="absmiddle" width="36" height="17" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image274.gif"> с центром в точке <img align="absmiddle" width="48" height="25" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image276.gif">.</em><br>
+      <em>Выполним чертёж:</em><br>
+      <em><img align="absmiddle" width="227" height="242" src="k/linii_vtorogo_poryadka_ellips_i_okruzhnost_clip_image278.jpg" alt="Построение окружности после выделения полного квадрата"></em></p>
+  </div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

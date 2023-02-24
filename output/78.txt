@@ -1,0 +1,969 @@
+<html>
+<head>
+<title>Подробные примеры решений тройных интегралов</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="тройные интегралы, как вычислить тройной интеграл, примеры решений, вычисление тройных интегралов, как определить порядок обхода тела в тройном интеграле, как найти массу тела с помощью тройного интеграла, центр тяжести тела через тройной интеграл, формулы массы и центра тяжести">
+<meta name="Description" content="Вновь прибывшим посетителям рекомендую начать с 1-ой части урока, где мы детально рассмотрели основные понятия и задачу нахождения объема тела…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Примеры решений произвольных тройных интегралов.</strong><br>
+    Физические приложения тройного интеграла</h1>
+  
+ 
+  <br>
+   <p>Во 2-й части урока мы отработаем технику решения  произвольных тройных интегралов <img align="absmiddle" width="133" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image002.gif">, у которых подынтегральная <strong><a href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">функция трёх переменных</a></strong> <img align="absmiddle" width="92" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image004.gif"> в общем случае отлична  от константы и непрерывна в области <img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image006.gif">; а также познакомимся с физическими приложениями тройного  интеграла</p>
+   <p>Вновь прибывшим посетителям рекомендую начать с 1-й части,  где мы рассмотрели основные понятия и <strong><a href="troinye_integraly.html">задачу  нахождения объема тела с помощью тройного интеграла</a></strong>. Остальным же предлагаю  немного повторить <strong><a href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">производные функции  трёх переменных</a></strong>, поскольку в примерах данной статьи мы будем использовать  обратную операцию – <em>частное  интегрирование</em> функции <img align="absmiddle" width="92" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image004_0000.gif">. </p>
+   <p>Кроме того, есть ещё один немаловажный момент: если у Вас  неважное самочувствие, то прочтение этой странички по возможности лучше  отложить. И дело не только в том, что сейчас возрастёт сложность вычислений – у  большинства тройных интегралов нет надёжных способов ручной проверки, поэтому к  их решению крайне нежелательно приступать в утомлённом состоянии. При  пониженном тонусе целесообразно <strong><a href="differencialnye_uravnenija_primery_reshenii.html">порешать  что-нибудь попроще</a></strong> либо просто отдохнуть (я терпелив, подожду =)), чтобы в  другой раз со свежей головой продолжить расправу над тройными интегралами:</p>
+   <p><u>Пример 13</u></p>
+   <p>Вычислить тройной интеграл<br>
+       <img align="absmiddle" width="263" height="64" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image008.gif"></p>
+   <p>На практике тело также обозначают буквой <img align="absmiddle" width="16" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image010.gif">, но это не очень хороший вариант, ввиду того, «вэ» «зарезервировано» под обозначение объёма.</p>
+   <p>Сразу скажу, чего делать НЕ НАДО. Не нужно пользоваться <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">свойством линейности</a></strong> и представлять  интеграл в виде <img align="absmiddle" width="363" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image012.gif">. Хотя, если очень хочется, то можно. В конце концов, есть и  небольшой плюс – запись будет хоть и длинной, но зато менее загромождённой. Но  такой подход всё-таки не стандартен.</p>
+   <p>В алгоритме <strong>решения</strong> новизны будет немного. Сначала нужно разобраться с областью интегрирования. Проекция  тела на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014.gif"> представляет собой до  боли знакомый треугольник:<br>
+       <img align="absmiddle" width="235" height="196" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image016.jpg" alt="Проекция тела на плоскость XOY"><br>
+     Сверху тело ограничено <strong><a href="uravnenie_ploskosti.html">плоскостью</a></strong> <img align="absmiddle" width="60" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image018.gif">, которая проходит через начало координат. Предварительно, к  слову, нужно <strong>обязательно проверить </strong><em>(мысленно либо на черновике)</em>, не «срезает»  ли эта плоскость часть треугольника. Для этого находим её линию пересечения с  координатной плоскостью <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0000.gif">, т.е. решаем простейшую систему: <img align="absmiddle" width="216" height="48" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image020.gif"> – нет, данная <strong><a href="uravnenie_pryamoi_na_ploskosti.html">прямая</a></strong> <em>(на чертеже отсутствует)</em> «проходит мимо», и проекция тела на  плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0001.gif"> действительно  представляет собой треугольник.</p>
+   <p>Не сложен здесь и пространственный чертёж:<br>
+       <img align="absmiddle" width="239" height="239" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image022.jpg" alt="Сверху тело ограничено плоскостью z = x + y"><br>
+     В действительности можно было ограничиться только им,  поскольку проекция очень простая. …Ну, или только чертежом проекции, так как  тело тоже простое =) Однако совсем ничего не чертить, напоминаю – плохой выбор.</p>
+   <p>Выберем следующий <strong><a href="troinye_integraly.html">порядок  обхода тела</a></strong>:<br>
+      <img align="absmiddle" width="85" height="69" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image024.gif"></p>
+   <p>И перейдём к повторным интегралам:<br>
+       <img align="absmiddle" width="313" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image026.gif"></p>
+   <p><strong>Актуализируем  следующее элементарное правило</strong>:</p>
+   <p>Когда функция <img align="absmiddle" width="92" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image004_0001.gif"> интегрируется по  какой-либо переменной, то два других аргумента считаются константами. То есть  принцип точно такой же, как и при нахождении <strong><a href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">частных производных от функции трёх переменных</a></strong>, что естественно.</p>
+   <p>Разбираемся с интегралами: </p>
+   <p>1) <img align="absmiddle" width="587" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image028.gif"></p>
+   <p>(1) При интегрировании по «зет» <img align="absmiddle" width="13" height="15" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image030.gif"> и <img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image032.gif"> считаются константами.  В данном случае присутствует только «игрек», но это не меняет дела. Советую  всегда мысленно либо на черновике выполнять проверку. Найдём частную  производную по «зет»:<br>
+     <img align="absmiddle" width="377" height="57" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image034.gif">, что и требовалось проверить.</p>
+   <p>(2) Теперь используем формулу Ньютона-Лейбница: сначала  ВМЕСТО «зет» подставляем верхний предел интегрирования <img align="absmiddle" width="48" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image036.gif">, затем – нижний предел (ноль). В результате буквы «зет»  остаться не должно!</p>
+   <p>Сносим трофей в следующий интеграл. По существу, решение  свелось к двум переменным и к двойному интегралу:</p>
+   <p><img align="absmiddle" width="552" height="192" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image038.gif"></p>
+   <p>(1) Используем <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">свойство  линейности интеграла</a></strong>, принимая во внимание тот факт, что «игрек» считается  константой. Следует отметить, что не возбраняется оставить интеграл единым,  раскрыть скобки и привести подобные слагаемые, но это менее рациональный способ  (можете попробовать).</p>
+   <p>(2) Используем <strong><a href="metod_zameny_peremennoi.html">метод  подведения под знак дифференциала</a></strong>. Если рассуждения воспринимаются совсем тяжело,  мысленно замените «игрек» каким-нибудь конкретным числом, например, «пятёркой». </p>
+   <p>(3) Интегрируем по «икс» и выполняем проверку:<br>
+       <img align="absmiddle" width="688" height="101" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image040.gif"><br>
+     (4) Используем формулу Ньютона-Лейбница. Сначала ВМЕСТО  «икс» <em>(переменной, по которой проводилось  интегрирование)</em> подставляем <img align="absmiddle" width="35" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image042.gif">, затем – ноль. После подстановок буквы «икс» остаться не  должно!</p>
+   <p>Причёсываем результат и сносим его в последний интеграл, не  теряя находящуюся там константу: </p>
+   <p><img align="absmiddle" width="569" height="96" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image044.gif"></p>
+   <p><strong>Ответ</strong>: <img align="absmiddle" width="167" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image046.gif"></p>
+   <p>Результат безразмерен – просто число и всё.</p>
+   <p>Следующий пример для самостоятельного решения:</p>
+   <p><u>Пример 14</u></p>
+   <p>Вычислить тройной интеграл<br>
+       <img align="absmiddle" width="272" height="67" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image048.gif"></p>
+   <p>Примерный образец оформления задачи в конце урока.</p>
+   <p>До сих пор мы рассматривали два способа решения – это  проецирование на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0002.gif"> и выбор порядка обхода  проекции. Но на самом деле комбинаций больше – тело можно спроецировать на  любую из 3 координатных плоскостей и каждую проекцию обойти 2 путями.  Таким образом, получается 6 способов решения. И логично предположить, что в  общем случае некоторые из них проще, а некоторые – труднее.</p>
+   <p>Наверняка многие обратили внимание, что в Примере № 13 я  выбрал более редкий порядок обхода проекции, хотя ничто не мешало пойти  «обычным» путём. Это не случайность. <br>
+     В результате нахождения интеграла <img align="absmiddle" width="91" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image050.gif"> получена сумма <img align="absmiddle" width="131" height="44" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image052.gif">, в которой чуть выгоднее считать константой именно «игрек»,  что при прочих равных условиях <em>(из  уравнения прямой <img align="absmiddle" width="57" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image054.gif"> одинаково легко  выразить <img align="absmiddle" width="120" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image056.gif">)</em> упрощает решение. А в некоторых задачах выбор порядка  интегрирования и вовсе становится ОЧЕНЬ важным:</p>
+   <p><u>Пример 15</u></p>
+   <p>Вычислить тройной интеграл<br>
+       <img align="absmiddle" width="171" height="88" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image058.gif"></p>
+   <p><strong>Решение</strong>: область  интегрирования ограничена шестью плоскостями и представляет собой <em>прямоугольный параллелепипед</em>:<br>
+       <img align="absmiddle" width="209" height="152" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image060.jpg" alt="Область интегрирования представляет собой прямоугольный параллелепипед"><br>
+     У незамысловатых областей можно не обращать  внимания на проекцию и придерживаться следующего правила: <strong>обход тела осуществляется в направлениях координатных осей</strong>. Пределы  интегрирования здесь очевидны <br>
+  <img align="absmiddle" width="217" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image062.gif"></p>
+   <p>Но вот с порядком обхода не всё так просто. Если выбрать  традиционный путь и сначала интегрировать по «зет», то получается неприятный  интеграл <img align="absmiddle" width="181" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image064.gif">, который нужно <strong><a href="integrirovanie_po_chastyam.html">брать  по частям</a></strong>. Аналогичная история, если интегрировать по «игрек»: <img align="absmiddle" width="184" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image066.gif">, тут даже дважды по частям.</p>
+   <p>Наиболее выгодным путём является первоочередное  интегрирование по «икс», в этом случае переменные <img align="absmiddle" width="29" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image068.gif">, а значит, и множитель <img align="absmiddle" width="35" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image070.gif"> считаются константами:</p>
+   <p><img align="absmiddle" width="476" height="49" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image072.gif"></p>
+   <p>Перед тем, как подставить пределы интегрирования, не  помешает проверка:<br>
+       <img align="absmiddle" width="461" height="25" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image074.gif"> – получена исходная  подынтегральная функция.</p>
+   <p><img align="absmiddle" width="256" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image076.gif"></p>
+   <p>Буква «икс» испарилась, как оно и должно быть.</p>
+   <p>Осталось 2 направления обхода <img align="absmiddle" width="123" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image078.gif">, и следующий интеграл рациональнее взять по «зет» чтобы  множитель <img align="absmiddle" width="23" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image080.gif"> считался константой:</p>
+   <p><img align="absmiddle" width="393" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image082.gif"></p>
+   <p>Промежуточная проверка:<br>
+       <img align="absmiddle" width="487" height="109" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image084.gif"><br>
+     Гуд.</p>
+   <p><img align="absmiddle" width="512" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image086.gif"></p>
+   <p>В качестве дополнительного контроля снова смотрим, исчезла  ли после подстановки переменная, по которой интегрировали («зет»).</p>
+   <p>И, наконец, оставшееся направление обхода <img align="absmiddle" width="61" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image088.gif"> и оставшийся интеграл:</p>
+   <p><img align="absmiddle" width="300" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image090.gif"></p>
+   <p>Проверка: <img align="absmiddle" width="392" height="27" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image092.gif"></p>
+   <p><img align="absmiddle" width="393" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image094.gif"></p>
+   <p><strong>При подстановках  следует проявлять повышенное внимание</strong>, так, например, при подстановке нуля в  выражение <img align="absmiddle" width="100" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image096.gif"> второе слагаемое можно  машинально счесть за ноль.</p>
+   <p>На чистовике, конечно же, не нужно всё расписывать так  подробно, анализ порядка интегрирования и промежуточные проверки осуществляются  мысленно либо на черновике. Решение оформляется стандартно в 3 пункта, но  читатели с хорошим уровнем подготовки могут записать его и «одной строкой»:<br>
+       <img align="absmiddle" width="503" height="176" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image098.gif"></p>
+   <p><strong>Ответ</strong>: <img align="absmiddle" width="183" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image100.gif"></p>
+   <p>Наверное, это понятно, но на всякий случай закомментирую: буквенные  множители-константы следует перемещать справа налево  последовательно и без «перескоков» – до тех пор, пока каждая буква «не встретит  свой интеграл». Условный пример:<br>
+      <img align="absmiddle" width="564" height="49" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image102.gif"></p>
+   <p>Аналогичное задание для самостоятельного решения:</p>
+   <p><u>Пример 16</u></p>
+   <p>Вычислить тройной интеграл<br>
+       <img align="absmiddle" width="167" height="88" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image104.gif"></p>
+   <p>Примерный образец чистового оформления задачи в конце урока.</p>
+   <p>Чем дальше, тем интереснее:</p>
+   <br>
+   <h2><strong>Физические приложения  тройного интеграла</strong></h2>
+   <p>Но сначала разомнёмся физически, тело – в дело =)  Пожалуйста, встаньте и найдите какой-нибудь пакет или мешок. Можно коробку.  Теперь походим по квартире, ну или по улице и наведём порядок. А именно,  наполним тару мусором. …Очень хорошо, молодцы. В результате ваших трудов  получено ограниченное тело <em>неоднородной  плотности</em>. Как говорится, есть бумажка, а есть жестяная крышка. Воздух,  кстати, тоже обладает вполне определённой плотностью. Напоминаю, что физическая  плотность – есть отношение<em> массы</em> к <em>объёму</em>, например, 100 грамм  на кубический метр.</p>
+   <p>Ставим мешок рядышком и читаем дальше. Рассмотрим  неоднородное <em>(переменной плотности)</em> тело <img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image006_0000.gif">. Если известна непрерывная в области <img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image006_0001.gif"> функция <img align="absmiddle" width="67" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image107.gif">  плотности тела, то его масса равна следующему  тройному интегралу:<br>
+       <img align="absmiddle" width="161" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image109.gif"></p>
+   <p>Возможно, не всем понятен смысл функции плотности. Поясняю:  если взять произвольную точку <img align="absmiddle" width="73" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image111.gif">, принадлежащую телу <img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image006_0002.gif">, то значение функции <img align="absmiddle" width="116" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image113.gif"> будет равно плотности  тела в данной точке.</p>
+   <p>Только не стОит находить функцию <img align="absmiddle" width="67" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image115.gif"> для пакета с мусором,  иначе шнобелевская премия обеспечена =) …Хотя, с другой стороны нашлись же  энтузиасты оценить суммарную площадь поверхности индийских слонов и создать  математическую модель пивной пены. </p>
+   <p>Однако разрядились, и хватит. Разберём несколько  тематических задач:</p>
+   <p><u>Пример 17</u></p>
+   <p>Вычислить массу неоднородного тела, ограниченного  поверхностями <img align="absmiddle" width="277" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image117.gif">, если известна функция его плотности <img align="absmiddle" width="105" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image119.gif">.</p>
+   <p><strong>Решение</strong>: искомое  тело ограничено <strong><a href="poverhnosti.html">цилиндром</a></strong> <img align="absmiddle" width="72" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image121.gif"> сбоку, <strong><a href="poverhnosti.html">эллиптическим параболоидом</a></strong> <img align="absmiddle" width="99" height="41" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image123.gif"> – сверху и плоскостью <img align="absmiddle" width="37" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image125.gif"> – снизу. Дополнительные  условия <img align="absmiddle" width="76" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image127.gif"> «загоняют нас» в 1-й  октант, и проекция тела на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0003.gif"> представляет собой  соответствующую «четвертинку» единичного круга:<br>
+       <img align="absmiddle" width="217" height="163" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image130.jpg" alt="Проекция тела представляет собой сектор единичного круга в 1-ой четверти"><br>
+     Аналитическим методом уточним высоту, на которой параболоид  пересекает цилиндр:<br>
+  <img align="absmiddle" width="209" height="51" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image132.gif"> и выполним пространственный  чертёж:<br>
+  <img align="absmiddle" width="217" height="209" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image133.jpg" alt="Сверху тело ограничено эллиптическим параболоидом"><br>
+     Проекция сразу же наводит на мысль о переходе к <strong><a href="troinye_integraly.html">цилиндрической системе координат</a></strong>:<br>
+  <img align="absmiddle" width="349" height="160" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image135.gif"></p>
+   <p>Порядок обхода тела очевиден:<br>
+       <img align="absmiddle" width="69" height="109" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image137.gif"></p>
+   <p>Таким образом:<br>
+     <img align="absmiddle" width="475" height="64" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image139.gif"></p>
+   <p>Вычисления элементарны:<br>
+       <img align="absmiddle" width="365" height="231" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image141.gif"></p>
+   <p><strong>Ответ</strong>: <img align="absmiddle" width="107" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image143.gif"> </p>
+   <p>Следующий пример для самостоятельного решения:</p>
+   <p><u>Пример 18</u></p>
+   <p>Вычислить массу неоднородного тела, ограниченного  поверхностями <img align="absmiddle" width="200" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image145.gif">, если известна функция его плотности <img align="absmiddle" width="115" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image147.gif">.</p>
+   <p>Краткое решение в конце урока </p>
+   <p>И старая песня о главном:</p>
+   <h3><strong>Центр тяжести тела</strong></h3>
+   <p>Подобно тому, как <strong><a href="centr_tjazhesti_ploskoi_figury.html">задача  о вычислении центра тяжести плоской фигуры</a></strong> решалась с помощью <strong><a href="dvoinye_integraly_dlya_chainikov.html">двойного интеграла</a></strong>, задача об отыскании <strong><em>центра  тяжести</em></strong> тела решается аналогичным способом с помощью тройного  интеграла.</p>
+   <p>Что такое центр тяжести тела, довольно удачно объяснил ещё  Архимед. Если тело подвесить на нить за центр тяжести, то оно будет сохранять  равновесие в любом положении (как бы мы его предварительно ни повернули). В  известной степени не реализуемо (таки центр тяжести внутри тела), но зато очень  понятно. И вполне в стиле древнегреческого учёного, который просил дать ему  точку опоры, чтобы с помощью рычага перевернуть Землю.</p>
+   <p>Центр тяжести <strong><img align="absmiddle" width="89" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image149.gif"></strong> неоднородного тела <strong><img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image006_0003.gif"></strong> рассчитывается по  формулам:</p>
+   <p><img align="absmiddle" width="557" height="59" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image152.gif">, где <img align="absmiddle" width="67" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image115_0000.gif"> – функция плотности  тела, а <img align="absmiddle" width="161" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image109_0000.gif"> – масса тела.</p>
+   <p>Если тело однородно (золотое, серебряное, платиновое и  т.д.), то формулы упрощаются. Так как плотность <img align="absmiddle" width="67" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image156.gif"> постоянна, и масса <img align="absmiddle" width="55" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image158.gif">–  есть произведение  плотности на объём, получаем:<br>
+       <img align="absmiddle" width="365" height="59" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image160.gif">, а объём тела рассчитывается <em>(ещё не забыли? =))</em> с помощью тройного интеграла <img align="absmiddle" width="99" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image162.gif">.</p>
+   <p>Для центра тяжести <u>однородного</u> тела справедливы  следующие утверждения:</p>
+   <p>– если у тела есть центр симметрии, то он является центром  тяжести <em>(простейший пример – центр шара)</em>;</p>
+   <p>– если у тела существует линия симметрии, то центр тяжести  обязательно принадлежит данной линии;</p>
+   <p>– если у тела есть плоскость симметрии, то центр тяжести  непременно лежит в этой плоскости.</p>
+   <p>Как видите, практически полная аналогия с <strong><a href="centr_tjazhesti_ploskoi_figury.html">центром тяжести плоской фигуры</a></strong>.</p>
+   <p>Ну и, само собой, не могу не порадовать вас заключительной  задачей:</p>
+   <p><u>Пример 19</u></p>
+   <p>Найти центр тяжести однородного тела, ограниченного  поверхностями <img align="absmiddle" width="133" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image164.gif">, <img align="absmiddle" width="117" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image166.gif">. Выполнить чертежи данного тела и его проекции на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0004.gif">.</p>
+   <p><strong>Решение</strong>: искомое  тело ограничено координатными плоскостями и плоскостью <img align="absmiddle" width="85" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image169.gif">, которую в целях последующего построения удобно <strong><a href="poverhnosti.html">представить в отрезках</a></strong>: <img align="absmiddle" width="91" height="41" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image171.gif">. Выберем «а» за единицу масштаба и выполним трёхмерный  чертёж:<br>
+       <img align="absmiddle" width="228" height="229" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image173.jpg" alt="Тетраэдр и его центр тяжести"><br>
+     На чертеже уже поставлена готовая точка центра тяжести,  однако, пока мы её не знаем.</p>
+   <p>Проекция тела на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0005.gif"> очевидна, но, тем не  менее, напомню, как её найти аналитически – ведь такие простые случаи  встречаются далеко не всегда. Чтобы найти прямую, по которой пересекаются  плоскости <img align="absmiddle" width="173" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image175.gif"> нужно решить систему:<br>
+       <img align="absmiddle" width="93" height="48" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image177.gif"></p>
+   <p>Подставляем значение <img align="absmiddle" width="36" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image179.gif"> в 1-е уравнение: <img align="absmiddle" width="85" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image181.gif"> и получаем уравнение <img align="absmiddle" width="63" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image183.gif"> <strong><a href="uravnenie_pryamoi_na_ploskosti.html">«плоской» прямой</a></strong>:<br>
+       <img align="absmiddle" width="194" height="180" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image184.jpg" alt="Проекция тетраэдра на плоскость XOY"><br>
+     Координаты <strong><img align="absmiddle" width="61" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image186.gif"> </strong>центра тяжести <strong><img align="absmiddle" width="21" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image188.gif"> </strong>тела <img align="absmiddle" width="15" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image006_0004.gif"> вычислим по формулам<br>
+  <img align="absmiddle" width="369" height="59" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image191.gif">, где <img align="absmiddle" width="99" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image162_0000.gif"> – объём тела.</p>
+   <p>Выберем «классический» порядок обхода: <br>
+       <img align="absmiddle" width="108" height="67" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image193.gif"></p>
+   <p>1) Сначала вычислим объём тела. Его, кстати, можно узнать  заранее, пользуясь известной <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">задачей  геометрии об объёме тетраэдра</a></strong>. Объём тетраэдра равен 1/6-й объёма  прямоугольного параллелепипеда, построенного на его трёх смежных рёбрах. В нашем  случае параллелепипед представляет собой куб с ребром «а», и соответственно: <img align="absmiddle" width="101" height="41" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image195.gif"></p>
+   <p>Осталось аккуратно провести чистовые вычисления (желающие  могут потренироваться и выполнить их самостоятельно). В примерах с громоздкими  преобразованиями рекомендую записывать решение столбиком – меньше шансов  запутаться:<br>
+    <img align="absmiddle" width="304" height="403" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image197.gif">   </p>
+   <p>Дело за тремя тройными интегралами. ...А вы, наверное, не так  давно и представить себе не могли, что окажетесь в эпицентре такого кошмара =) </p>
+   <p>2) Вычислим «иксовый» интеграл:</p>
+   <p><img align="absmiddle" width="384" height="403" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image199.gif"></p>
+   <p>Таким образом, «иксовая» координата центра тяжести:</p>
+   <p><img align="absmiddle" width="177" height="83" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image201.gif"></p>
+   <p>Ну что же, выглядит правдоподобно, по крайне мере, мы «попали внутрь тела».</p>
+   <p>Ввиду симметрии тетраэдра две другие координаты должны  получиться такими же. Теперь ошибочный ответ практически исключён!</p>
+   <p>3) Следующая «простыня»:</p>
+   <p><img align="absmiddle" width="377" height="452" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image203.gif"></p>
+   <p>В результате:<br>
+       <img align="absmiddle" width="179" height="83" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image205.gif"></p>
+   <p>4) И заключительный, более короткий интеграл:</p>
+   <p><img align="absmiddle" width="573" height="211" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image207.gif"><br>
+     <br>
+     Отмечаем на чертеже найденную точку центра тяжести и её же  записываем в<br>
+  <strong>ответ</strong>: <img align="absmiddle" width="84" height="45" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image209.gif"></p>
+   <p>Осталось взять мешок с мусором и чувством глубокого  морального удовлетворения выбросить его… нет, в окно не надо =) </p>
+   <p>Что осталось за кадром? В сетку урока не попала редко  встречающая на практике сферическая система координат, в которой положение  любой точки пространства однозначно определяется одним расстоянием и двумя  углами. И до сферических координат у меня таки дошли пальцы в статье <strong><a href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля</a></strong>. </p>
+   <p>Вы постоянно сетовали на простоту примеров, и поэтому я просто не мог  вам не рассказать о <a href="krivolineinye_integraly.html">криволинейных</a> и <a href="poverhnostnye_integraly.html">поверхностных</a> интегралах, а также <a href="teoriya_polya.html">основах  векторного анализа</a>. </p>
+   <p>Желаю успехов!</p>
+   <p><u>Решения и ответы:</u></p><div id="primer">
+   <p><em>Пример 14: <strong>Решение</strong>: изобразим проекцию данного  тела на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0006.gif">:</em><br>
+       <em><img align="absmiddle" width="143" height="152" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image210.jpg" alt="Проекция тела представляет собой треугольник"></em><br>
+       <em>Сверху тело ограничено  эллиптическим параболоидом <img align="absmiddle" width="93" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image212.gif">.</em><br>
+       <em>Выберем следующий  порядок обхода:</em><br>
+       <em><img align="absmiddle" width="117" height="69" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image214.gif"></em><br>
+       <em>Таким образом:</em><br>
+       <em><img align="absmiddle" width="464" height="53" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image216.gif"></em><br>
+       <strong><em>Примечание</em></strong><em>: в «зетовом»  интеграле сумма <img align="absmiddle" width="63" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image218.gif"> считается константой,  поэтому её удобно сразу вынести в следующий интеграл.</em><br>
+       <em><img align="absmiddle" width="605" height="207" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image220.gif"> </em><br>
+       <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="155" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image222.gif"></em></p>
+   <p><em>Пример 16: <strong>Решение</strong>: выполним чертёж:</em><br>
+       <em><img align="absmiddle" width="279" height="210" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image224.jpg" alt="Тело представляет собой прямоугольный параллелепипед, расположенный в 1-м октанте"></em><br>
+       <em>Выберем следующий  порядок обхода тела:</em><br>
+       <em><img align="absmiddle" width="64" height="67" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image226.gif"></em><br>
+       <em>Таким образом:</em><br>
+       <em><img align="absmiddle" width="608" height="296" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image228.gif"></em><br>
+       <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="171" height="39" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image230.gif"></em></p>
+   <p><em>Пример 18: <strong>Решение</strong>: искомое тело ограничено  эллиптическим параболоидом <img align="absmiddle" width="73" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image232.gif"> снизу и конической  поверхностью <img align="absmiddle" width="88" height="29" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image234.gif"> – сверху; параболоид и  конус пересекаются в плоскости <img align="absmiddle" width="35" height="17" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image236.gif"> по окружности <img align="absmiddle" width="72" height="24" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image121_0000.gif"> (выкладки и чертёж –  см. в Примере № 9 страницы <strong><a href="troinye_integraly.html">Тройные  интегралы</a></strong>). Поскольку <img align="absmiddle" width="37" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image239.gif">, то речь идёт о правом (относительно плоскости <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image241.gif">) полупространстве, и проекцией тела на плоскость <img align="absmiddle" width="39" height="19" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image014_0007.gif"> является верхний полукруг  единичного радиуса:</em><br>
+       <em><img align="absmiddle" width="165" height="133" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image242.jpg" alt="Проекция тела на плоскость XOY представляет собой верхний полукруг"></em><br>
+       <em>Массу тела вычислим с  помощью тройного интеграла, используя цилиндрическую систему координат:</em><br>
+       <em><img align="absmiddle" width="341" height="173" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image244.gif"></em><br>
+       <em>Порядок обхода тела:</em><br>
+       <em><img align="absmiddle" width="67" height="72" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image246.gif"></em><br>
+       <em>Таким образом:</em><br>
+       <em><img align="absmiddle" width="571" height="205" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image248.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="109" height="21" src="m/primery_reshenij_proizvolnyh_troinyh_integralov_clip_image250.gif"></em></p></div>
+   <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

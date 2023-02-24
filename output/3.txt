@@ -1,0 +1,974 @@
+<html>
+<head>
+<title>Основы математической логики</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="математическая логика для чайников, элементы математической логики, высказывания, высказывательные формы, высказывание истинно, высказывание ложно, отрицание высказывания, конъюнкция высказывания, дизъюнкция высказывания, импликация, логическое следствие, необходимое условие, достаточное условие, эквиваленция, необходимое и достаточное условие">
+<meta name="Description" content="…если пингвины ходят в носках, то черепахи носят ботинки. А что? –  по таблице оба высказывания истинны!">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Основы математической логики</strong></h1>
+  
+  <br>
+  <p>Второй урок практического курса <strong><a href="mnozhestva.html">высшей алгебры</a></strong> будет посвящён основам математической логики,  которая представляет собой не только отдельный раздел математики, но и имеет  огромное значение при изучении всей вышки <em>(да  и не только вышки)</em>. «Существует и единственно», «из этого следует это»,  «необходимое условие», «достаточность», «тогда и только тогда» – знакомые  обороты, не правда ли? И это не просто «дежурные» штампы, которыми можно  пренебречь – это устойчивые выражения, обладающие <strong>строгим смыслом</strong>, с которым мы и познакомимся в данной статье. Кроме  того, материал будет полезен начинающим изучать непосредственно математическую  логику – я рассмотрю её базу: высказывания и действия над ними, формулы,  основные законы + некоторые практические задачи. И, конечно же, вы узнаете  очень важное, а местами и весьма забавное отличие матлогики от нашей «обычной»  логики. Начинаем закладывать фундамент:
+  <h3><strong>Высказывания и  высказывательные формы</strong></h3>
+  <p><strong>Высказывание</strong> –  это предложение, о котором можно сказать, <em>истинно</em> оно или <em>ложно</em>. Высказывания обычно  обозначают строчными латинскими буквами <img align="absmiddle" width="176" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image002.gif">, а их истинность/ложность единицей и нулём соответственно:</p>
+  <p><img align="absmiddle" width="39" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image004.gif"> – данная запись <em>(не путать с <strong><a href="goryachie_formuly.pdf" target="_blank">модулем</a></strong>!)</em> говорит нам о том, что высказывание <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006.gif"> <em>истинно</em>;<br>
+      <img align="absmiddle" width="40" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image008.gif"> – а эта запись – о  том, что высказывание <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image010.gif"> <em>ложно</em>.</p>
+  <p>Например:</p>
+  <p><em><img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image012.gif"> – черепахи не летают;</em><br>
+      <em><img align="absmiddle" width="13" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image014.gif"> – Луна квадратная;</em><br>
+      <em><img align="absmiddle" width="12" height="13" src="b/osnovy_matematicheskoj_logiki_clip_image016.gif"> – дважды два будет два;</em><br>
+      <em><img align="absmiddle" width="12" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image018.gif"> – пять больше, чем  три.</em></p>
+  <p>Совершенно понятно, что высказывания <img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image012_0000.gif"> и <img align="absmiddle" width="12" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image018_0000.gif"> <em>истинны</em>: <img align="absmiddle" width="92" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image020.gif">, <br>
+    а высказывания <img align="absmiddle" width="13" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image014_0000.gif"> и <img align="absmiddle" width="12" height="13" src="b/osnovy_matematicheskoj_logiki_clip_image016_0000.gif"> – <em>ложны</em>: <img align="absmiddle" width="95" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image022.gif"></p>
+  <p>Разумеется, далеко не все предложения являются  высказываниями. К таковым, в частности относятся вопросительные и побудительные  предложения:</p>
+  <p><em>Вы не подскажете, как  пройти в <strong><a href="http://mathprofi.com/" target="_blank">библиотеку</a></strong>?</em><br>
+      <em>Пойдём в баню!</em></p>
+  <p>Очевидно, что здесь не идёт речи об истине или лжи. Как не  идёт о них речи и в случае неопределённости либо неполной информации:</p>
+  <p><em>Завтра Петя сдаст  экзамен</em> – даже если он всё выучил, то не факт, что сдаст; и наоборот – если  ничего не знает, то может и сдаст «на шару».</p>
+  <p>…да ладно, Петь, не переживай – сдашь =)</p>
+  <p><img align="absmiddle" width="39" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image024.gif"> – а тут мы не знаем,  чему равно «эн», поэтому это тоже не высказывание.</p>
+  <p>Однако последнее предложение можно доопределить до высказывания,  а точнее, до <strong>высказывательной формы</strong>,  указав дополнительную информацию об «эн». Как правило, высказывательные формы  записываются с так называемыми <strong>кванторами</strong>.  Их два:</p>
+  <p><img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image026.gif"> – <strong>квантор общности</strong> <em>(перевёрнутая  буква </em><em>A – от англ. </em><em>All)</em> понимается и читается как «для всех», «для любого (ой) (ых) »;</p>
+  <p><img align="absmiddle" width="13" height="16" src="b/osnovy_matematicheskoj_logiki_clip_image028.gif"> – <strong>квантор существования</strong> <em>(развёрнутая  буква </em><em>E – от англ. </em><em>Exist)</em> понимается и читается как «существует».</p>
+  <p>Примеры:</p>
+  <p><img align="absmiddle" width="109" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image030.gif"> – для любого <strong><a href="mnozhestva.html">натурального числа</a></strong> выполнено неравенство <img align="absmiddle" width="37" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image032.gif">. Данная высказывательная форма <em>ложна</em>, поскольку ей, очевидно, не соответствуют натуральные числа <img align="absmiddle" width="75" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image034.gif">.</p>
+  <p><img align="absmiddle" width="107" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image036.gif"> – а вот это  высказывательная форма уже <em>истинна</em>,  как <em>истинно</em> и, например, такое  утверждение: <br>
+      <img align="absmiddle" width="127" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image038.gif"> …ну а что, разве  существует натуральное число, которое меньше, чем –10?</p>
+  <p>Предостерегаю вас от опрометчивого использования данного  квантора, ибо «для любого» может на поверку оказаться вовсе и «не для любого».</p>
+  <p><strong><em>Внимание!</em></strong><em> Если вам что-то  не понятно в обозначениях, пожалуйста, вернитесь к уроку о <strong><a href="mnozhestva.html">множествах</a></strong>.</em></p>
+  <p><img align="absmiddle" width="108" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image040.gif"> – существует <strong><a href="mnozhestva.html">натуральное число</a></strong>, которое больше двух. <em>Истина</em> …и, главное, не поспоришь =)</p>
+  <p><img align="absmiddle" width="107" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image042.gif"> – <em>Ложь</em> </p>
+  <p>Нередко кванторы «работают в одной упряжке»:</p>
+  <p><img align="absmiddle" width="77" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image044.gif"> – для любого <strong><a href="vektory_dlya_chainikov.html">вектора</a></strong> существует противоположный ему  вектор. Прописная <em>истина</em>, а точнее,  аксиома <em>(утверждение, принимаемое без  доказательства)</em> векторного пространства.</p>
+  <p>Обратите внимание, что квантор существования подразумевает <strong>сам факт</strong> существования объекта (хотя бы  одного), который удовлетворяет определённым характеристикам. Пусть в мире  существуют единственная белая ворона, но существуют же. Более того, в  математике (как школьной, так и высшей) доказывается великое множество теорем  на <strong>существование </strong>и как раз<strong> единственность </strong>чего-либо.  Доказательство такой теоремы состоит из двух частей:</p>
+  <p>1) Существование объекта, удовлетворяющего определённым  критериям. В этой части обосновывается сам факт его существования.</p>
+  <p>2) Единственность данного объекта. Этот пункт доказывается,  как правило, <em>методом от противного</em>,  т.е. предполагается, что существует 2-й объект с точно такими же  характеристиками и далее это предположение опровергается.</p>
+  <p>Школьников, впрочем, стараются  не пугать подобной терминологией, и теорема  часто преподносится в завуалированном виде, например:</p>
+  <p><em>В любой треугольник  можно вписать окружность и, причём только одну</em></p>
+  <p>Кстати, а что такое вообще теорема? Логическую суть этого  страшного слова мы узнаем очень скоро….</p>
+  <br>
+  <h2><strong>Логические операции  (действия над высказываниями)</strong></h2>
+  <p>Подобно тому, как с числами можно проводить арифметические  действия (складывать, умножать и т.д.), к высказываниям тоже применимы свои  операции. Существует три базовых логических операции:</p>
+  <p><strong>отрицание</strong> высказывания;</p>
+  <p><strong>конъюнкция</strong> или  логическое умножение высказываний;</p>
+  <p><strong>дизъюнкция</strong> или  логическое сложение высказываний.</p>
+  <p>По порядку:</p>
+  <h3><strong>1) Отрицание  высказывания </strong></h3>
+  <p>Данной операции соответствует логическая связка <strong>НЕ</strong> и символ <img align="absmiddle" width="16" height="11" src="b/osnovy_matematicheskoj_logiki_clip_image046.gif"></p>
+  <p><strong>Отрицанием</strong> высказывания <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0000.gif"> называется  высказывание <img align="absmiddle" width="25" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image049.gif"> <em>(читается «не а»)</em>, которое <em>ложно</em>,  если <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0001.gif"> истинно, и <em>истинно</em> – если <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0002.gif"> ложно:<br>
+      <strong><img align="absmiddle" width="145" height="77" src="b/osnovy_matematicheskoj_logiki_clip_image051.jpg" alt="Таблица истинности отрицания"></strong><br>
+    Так, например, высказывание <em><img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image012_0001.gif"> – черепахи не летают </em>истинно: <img align="absmiddle" width="40" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image053.gif">, <br>
+    а его отрицание <img align="absmiddle" width="25" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image055.gif"> – <em>черепахи летают <s>если хорошенько пнуть</s></em> – ложно: <img align="absmiddle" width="52" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image057.gif">;</p>
+  <p>высказывание <em><img align="absmiddle" width="12" height="13" src="b/osnovy_matematicheskoj_logiki_clip_image016_0001.gif"> – дважды два будет два</em> ложно: <em><img align="absmiddle" width="40" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image059.gif"></em>,<br>
+    а его отрицание <em><img align="absmiddle" width="24" height="13" src="b/osnovy_matematicheskoj_logiki_clip_image061.gif"> – неверно, что дважды  два будет два</em> – истинно: <img align="absmiddle" width="48" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image063.gif">.</p>
+  <p>Кстати, не нужно смеяться над примером с черепахами ;) <s>садисты</s></p>
+  <p>Удачной физической моделью данной операции является обычная  лампочка и выключатель:</p>
+  <p>свет включен – логическая единица или истина,<br>
+    свет выключили – логический ноль или ложь.</p>
+  <h3><strong>2) Конъюнкция (логическое  умножение высказываний) </strong></h3>
+  <p>Данной операции соответствует логическая связка <strong>И</strong> и символ <img align="absmiddle" width="17" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image065.gif"> либо <img align="absmiddle" width="15" height="13" src="b/osnovy_matematicheskoj_logiki_clip_image067.gif"></p>
+  <p><strong>Конъюнкцией</strong> высказываний <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0003.gif"> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image010_0000.gif"> называют высказывание <img align="absmiddle" width="40" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image070.gif"> <em>(читается «а и бэ»)</em>, которое истинно в том и только том случае,  когда истинны <strong>оба</strong> высказывания <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0004.gif"> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image010_0001.gif">:<br>
+      <img align="absmiddle" width="203" height="122" src="b/osnovy_matematicheskoj_logiki_clip_image072.jpg" alt="Таблица истинности конъюнкции"><br>
+    Данная операция тоже встречается сплошь и рядом. Вернёмся к  нашему герою с первой парты: предположим, что Петя получает допуск к экзамену  по высшей математике, если сдаёт курсовую работу <strong>и</strong> зачёт по теме. Рассмотрим следующие высказывания:<br>
+  <img align="absmiddle" width="19" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image074.gif"> – <em>Петя сдал курсовую работу</em>;<br>
+  <img align="absmiddle" width="20" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image076.gif"> <em>– Петя сдал зачёт</em>.</p>
+  <p>Заметьте, что в отличие от формулировки <em>«Петя завтра сдаст»</em> здесь уже в любой момент времени можно сказать,  истина это или ложь.</p>
+  <p>Высказывание <img align="absmiddle" width="53" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image078.gif"> <em>(суть – Петя  допущен к экзамену)</em> будет истинно в том и только том случае, если он сдал курсовик <img align="absmiddle" width="45" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image080.gif"> <strong>и</strong> зачёт по <img align="absmiddle" width="47" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image082.gif">. Если хоть что-то не сдано <em>(см. три нижних строчки таблицы)</em>, то конъюнкция <img align="absmiddle" width="53" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image078_0000.gif"> – ложна.</p>
+  <p>И очень своевременно пришёл мне в голову отличный  математический пример: знак системы <img align="absmiddle" width="20" height="67" src="b/osnovy_matematicheskoj_logiki_clip_image085.gif"> соединяет входящие в  неё уравнения/неравенства как раз по правилу <strong>И</strong>. Так, например, запись двух линейных уравнений <img align="absmiddle" width="167" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image087.gif"> в <strong><a href="kak_reshit_sistemu_uravnenii.html">систему</a></strong> <img align="absmiddle" width="85" height="48" src="b/osnovy_matematicheskoj_logiki_clip_image089.gif"> подразумевает то, что  мы должны найти ТАКИЕ корни <img align="absmiddle" width="29" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image091.gif"> <em>(если они существуют)</em>, которые удовлетворяют и первому <strong>и</strong> второму уравнению. </p>
+  <p>Рассматриваемая логическая операция распространяется и на  большее количество высказываний. Условно говоря, если в системе 5 уравнений, то  её корни (<em>в случае их существования)</em> должны удовлетворять и 1-му <strong>и</strong> 2-му <strong>и</strong> 3-му <strong>и</strong> 4-му <strong>и</strong> 5-му уравнению  данной системы.</p>
+  <p>И в заключение пункта вновь обратимся к доморощенной  электротехнике: конъюнктивное правило хорошо моделирует выключатель в комнате и  рубильник на электрическом щитке в подъезде (последовательное подключение). Рассмотрим  высказывания:</p>
+  <p><img align="absmiddle" width="15" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image093.gif"> – <em>выключатель в комнате включен</em>;</p>
+  <p><img align="absmiddle" width="17" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image095.gif"> – <em>рубильник в подъезде включен</em>.</p>
+  <p>Наверное, все уже поняли, что конъюнкция читается самым что  ни на есть естественным образом:<br>
+      <img align="absmiddle" width="47" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image097.gif"> – выключатель в  комнате включен <strong>и</strong> рубильник в подъезде  включен.</p>
+  <p>Очевидно, что <img align="absmiddle" width="73" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image099.gif"> тогда и только тогда,  когда <img align="absmiddle" width="99" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image101.gif">. В трёх других случаях <em>(проанализируйте,  каких)</em> цепь разомкнётся и свет погаснет: <img align="absmiddle" width="76" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image103.gif">.</p>
+  <p>Давайте присоединим ещё одно высказывание:<br>
+      <img align="absmiddle" width="16" height="24" src="b/osnovy_matematicheskoj_logiki_clip_image105.gif"> – <em>рубильник на подстанции включен</em>.</p>
+  <p>Аналогично: конъюнкция <img align="absmiddle" width="77" height="24" src="b/osnovy_matematicheskoj_logiki_clip_image107.gif"> будет истинна тогда и  только тогда, когда <img align="absmiddle" width="108" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image109.gif">. Здесь, к слову, уже будет 7 различных вариантов разрыва  цепи.</p>
+  <h3><strong>3) Дизъюнкция  (логическое сложение высказываний) </strong></h3>
+  <p>Этой операции соответствует логическая связка <strong>ИЛИ</strong> и символ <img align="absmiddle" width="15" height="13" src="b/osnovy_matematicheskoj_logiki_clip_image111.gif"></p>
+  <p><strong>Дизъюнкцией</strong> высказываний <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0005.gif"> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image010_0002.gif"> называют высказывание <img align="absmiddle" width="37" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image113.gif"> <em>(читается «а или бэ»)</em>, которое ложно в том и только том случае,  когда ложны оба высказывания <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image006_0006.gif"> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image010_0003.gif">:<br>
+      <img align="absmiddle" width="201" height="122" src="b/osnovy_matematicheskoj_logiki_clip_image115.jpg" alt="Таблица истинности дизъюнкции"><br>
+    Предположим, что в экзаменационном билете по высшей  математике 2 вопроса и студент сдаёт экзамен, если ответит <strong>хотя бы на один</strong> вопрос. Рассмотрим следующие высказывания:<br>
+  <img align="absmiddle" width="19" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image117.gif"> – <em>Петя ответил на 1-й вопрос</em>;<br>
+  <img align="absmiddle" width="20" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image119.gif"> – <em>Петя ответил на 2-й вопрос</em>.</p>
+  <p>Дизъюнктивная запись <img align="absmiddle" width="51" height="23" src="b/osnovy_matematicheskoj_logiki_clip_image121.gif"> читается просто и  понятно: <em>Петя ответил на 1-й <strong>или</strong> 2-й вопрос</em> и подразумевает три  истинных исхода <em>(см. таблицу)</em>. При  этом экзамен Пётр не сдаст <img align="absmiddle" width="97" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image123.gif"> в единственном случае  – если «запорет» оба вопроса:<br>
+      <img align="absmiddle" width="111" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image125.gif"></p>
+  <p>Следует отметить, что союз «или» мы очень часто понимаем как «исключающее или», и, более того – его зачастую так и нужно понимать! Из той же фразы о сдаче экзамена человек, скорее  всего, сделает вывод, что Петя ответил только на 1-й или только на 2-й вопрос. Однако рассматриваемое ИЛИ – это не  обывательское «или».</p>
+  <p>Операция логического сложения также применима для трёх и  бОльшего количества высказываний. Некоторые лояльные преподаватели задают 10-15  вопросов и ставят экзамен, если студент хоть что-то знает = ) Иными словами, логическое ИЛИ скрывает за собой связку <em>«хотя бы на один»</em> (и она вовсе не означает, что СТРОГО на один!).</p>
+  <p>Ну и давайте отвлечёмся от бытового электричества: подавляющее  большинство сайтов Интернета расположены на профессиональных серверах, которые  снабжаются, как правило, двумя блоками питания. В электротехнике это называется  параллельным подключением, которое как раз и моделирует правило ИЛИ – сервер работает,  если исправен <em>хотя бы один</em> блок  питания. Оборудование, кстати, поддерживает «горячую» замену, т.е. сгоревший БП  можно заменить, не выключая сервер. Такая же история с жёсткими дисками – они  дублируются в так называемом <em>RAID-массиве</em>, и более  того, сам Дата-центр, где находятся серверы, обычно запитывается двумя  независимыми электролиниями + дизель-генератор на всякий случай. Эти меры  позволяют обеспечить максимальный аптайм сайтов.</p>
+  <p>И коль скоро речь зашла о компьютерах, то они… базируются на  рассмотренных логических операциях! Это кажется невероятным, но задумаемся – а  что вообще могут «понимать» эти «железки»? А понимать они могут следующее:</p>
+  <p>в проводе есть ток – это <em>логическая  единица</em>;<br>
+    провод обесточен – это <em>логический  ноль</em>.</p>
+  <p>И ВСЁ!</p>
+  <p>Именно данный факт первопричина того, что в основе  измерения объёма информации лежит степень двойки:<br>
+      <img align="absmiddle" width="569" height="24" src="b/osnovy_matematicheskoj_logiki_clip_image135.gif"> и т.д.</p>
+  <p>Простейшим «компьютером» является… обычный выключатель – он  хранит информацию в 1 бит (истину или ложь в указанном выше смысле). Центральный  же процессор современного компьютера насчитывает <em>сотни миллионов (!)</em> транзисторов, и самое сложное программное  обеспечение, самая «навороченная игра» раскладывается на множество нулей и  единиц, которые обрабатываются с помощью элементарных логических операций! </p>
+  <p>И уже следующие две операции, которые мы рассмотрим,  являются <u>не самостоятельными</u>, то есть могут быть выражены через  отрицание, конъюнкцию и дизъюнкцию:</p>
+  <h3><strong>Импликация и  логическое следствие. </strong><br>
+    <strong>Необходимое условие.  Достаточное условие</strong></h3>
+  <p>До боли знакомые обороты: <em>«следовательно», «из этого следует это», «если, то» и т.п.</em></p>
+  <p><strong>Импликацией</strong> высказываний <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0000.gif"> <em>(посылка)</em> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0000.gif"> <em>(следствие)</em> называют высказывание <img align="absmiddle" width="44" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image006_0007.gif">, которое ложно в единственном случае – когда <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0001.gif"> истинно, а <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0001.gif"> – ложно:<br>
+      <img align="absmiddle" width="203" height="118" src="b/osnovy_matematicheskoj_logiki_clip_image008.jpg" alt="Таблица истинности импликации"><br>
+    Фундаментальный смысл операции таков <em>(читаем и просматриваем таблицу сверху вниз)</em>: </p>
+  <p><strong><u>из истины может  следовать только истина</u> и не может следовать ложь</strong>;</p>
+  <p><strong>изо лжи может  следовать всё, что угодно</strong> <em>(две нижние  строчки)</em>, при этом:</p>
+  <p>истинность посылки <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0002.gif"> является <em>достаточным условием</em> для истинности  заключения <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0002.gif">,</p>
+  <p>а истинность заключения <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0003.gif"> – является <em>необходимым условием</em> для истинности  посылки <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0003.gif">.</p>
+  <p>Разбираемся на конкретном примере:</p>
+  <p>Составим импликацию высказываний <img align="absmiddle" width="15" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image011.gif"> – <em>идёт дождь</em> и <img align="absmiddle" width="17" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image013.gif"> – <em>на улице сыро</em>:<br>
+      <img align="absmiddle" width="49" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image015.gif"></p>
+  <p>Если оба высказывания истинны <img align="absmiddle" width="96" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image017.gif">, то само собой истинна и импликация <img align="absmiddle" width="128" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image019.gif"> – <em>если на улице идёт дождь, то на улице сыро</em>. При этом не может быть  такого, чтобы <em>дождь шёл</em> <img align="absmiddle" width="40" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image021.gif">, а <em>на улице было сухо</em> <img align="absmiddle" width="44" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image023.gif">:<br>
+      <img align="absmiddle" width="133" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image025.gif"></p>
+  <p>Если же <em>дождя нет</em> <img align="absmiddle" width="43" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image027.gif">, то <em>на улице может  быть как сухо</em> <img align="absmiddle" width="44" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image023_0000.gif">:<br>
+      <img align="absmiddle" width="68" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image030_0000.gif"></p>
+  <p><em>так и сыро</em> <img align="absmiddle" width="41" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image032_0000.gif">:<br>
+      <img align="absmiddle" width="65" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image034_0000.gif">  <em>(например, по причине того, что растаял снег)</em>.</p>
+  <p>А теперь ВДУМЫВАЕМСЯ в эти «штампованные» слова <em>необходимость</em> и <em>достаточность</em>:</p>
+  <p>Дождь является <strong>достаточным </strong>условием для  того, чтобы на улице было сыро, и с другой стороны, сырость на улице <strong>необходима </strong>для<strong> </strong>предположения о том, что прошёл дождь <em>(ибо если сухо – то дождя точно не было)</em>.</p>
+  <p>Обратная же импликация нелегальна: <img align="absmiddle" width="58" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image002.jpg"> – сырости  на улице ещё <strong>не достаточно</strong> для  обоснования факта дождя, и, кроме того, дождь ведь не является НЕОБХОДИМОЙ  причиной сырости <em>(т.к., например, может пройти  и растаять град)</em>.</p>
+  <p>Вроде бы должно быть понятно, но на всякий случай ещё  несколько примеров:</p>
+  <p><em>– Чтобы научиться  выполнять <strong><a href="deistviya_s_matricami.html">действия с матрицами</a></strong>, <u>необходимо</u> уметь складывать и умножать числа</em>. Но этого, как вы правильно предчувствуете, <em>не достаточно</em>.<br>
+    <br>
+  <em>– Чтобы научиться  выполнять арифметические действия <u>достаточно</u> окончить 9 классов</em>. Но  это не является<em> </em>условием  <em>необходимым</em> – считать может научить и бабушка, причём ещё в детском саду.</p>
+  <p><em>– Чтобы найти площадь  треугольника <u>достаточно</u> знать его сторону и высоту, проведённую к этой  стороне</em>. Однако опять же – это не <em>необходимость</em>,  площадь треугольника можно найти и по трём сторонам (формуле Герона) или,  например, с помощью <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">векторного  произведения</a></strong>.</p>
+  <p><em>– Для допуска к  экзамену по высшей математике Пете <u>необходимо</u> отчитаться по курсовой работе</em>.  Но этого <em>не достаточно</em> – потому что  ещё нужно сдать зачёт.</p>
+  <p><em>– Для того чтобы вся  группа получила  зачёт <u>достаточно</u> занести преподавателю ящик коньяка</em>. И здесь, как нетрудно предположить,  отпадает <em>необходимость</em> что-либо учить  =) Но, обратите внимание, подготовка вовсе не возбраняется ;)</p>
+  <p>Бывают ли условия необходимые и в то же время достаточные?  Конечно! И очень скоро мы до них доберёмся. А сейчас об одном важном принципе матлогики:</p>
+  <p><strong>Математическая логика  формальна</strong></p>
+  <p><strong>Её интересует  истинность или ложность высказываний, но не их содержание</strong>! Так, если мы  составим импликацию <em>Если черепахи не летают,  то дважды два равно четырём</em>, то она будет истинной! Иными словами, любое  истинное высказывание можно обосновать любой истиной <em>(1-я строчка таблицы)</em>, и с точки зрения формальной логики это будет  истина!</p>
+  <p>Но ещё интереснее ситуация с ложным посылом: любой ложью  можно обосновать всё, что угодно – как истину так и ложь:</p>
+  <p><em>– если Луна квадратная,  то <img align="absmiddle" width="36" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image036_0000.gif">;</em><br>
+      <em>– если пингвины ходят в валенках, то черепахи носят шлёпанцы</em>.</p>
+  <p>А что? –  по таблице  оба высказывания истинны!</p>
+  <p>Данные факты получили название <em>парадокс импликации</em>, но в действительности мы, конечно же,  рассматриваем примеры, осмысленные с точки зрения нашей содержательной логики.</p>
+  <p><strong>И ещё один очень  важный момент</strong>: импликацию часто обозначают значком <img align="absmiddle" width="20" height="16" src="b/osnovy_matematicheskoj_logiki_clip_image038_0000.gif"> (тоже читается <em>«следовательно», «из этого следует это»</em>),  который мы также используем в ходе решения задач, доказательств теорем и т.д. И  здесь <strong>речь идёт о совпадении обозначений</strong> – то, что мы используем в «обычных» математических выкладках, строго говоря, не  является импликацией. В чём отличие? Когда мы решаем задачу и пишем, что <img align="absmiddle" width="49" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image040_0000.gif"> <em>(«из а следует бэ»)</em>, то полагаем высказывание <img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image042_0000.gif"> <strong>заведомо истинным</strong>, и более того, выводим из него другую истину <img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image044_0000.gif">. В математической логике это называется <strong>логическим следствием</strong>. Обычно следствие <img align="absmiddle" width="49" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image040_0001.gif"> подлежит обоснованию,  и поэтому при  оформлении работ всегда старайтесь  пояснять, какие аксиомы, теоремы, решённые задачи и т.д. вы использовали для  того или иного вывода.</p>
+  <p>Теорема по своей сути тоже представляет собой логическое  следствие: её условие опирается на <strong>истинные</strong> посылки <img align="absmiddle" width="107" height="24" src="b/osnovy_matematicheskoj_logiki_clip_image046_0000.gif"> <em>(аксиомы, ранее доказанные теоремы и т.д.)</em>. Доказательство же устанавливает  истинность следствия <img align="absmiddle" width="224" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image048.gif">, причём в этом процессе не могут использоваться ложные  рассуждения. </p>
+  <p>Недоказанная теорема называется <em>гипотезой</em>, и варианта тут два: либо она выводит из истины истину и  представляет собой теорему, либо гипотеза невернА, т.е. из множества истинных посылок <img align="absmiddle" width="107" height="24" src="b/osnovy_matematicheskoj_logiki_clip_image046_0001.gif"> следует «не бэ»: <img align="absmiddle" width="235" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image050.gif">. В случае опровержения получается тривиальный вывод  наподобие «<em>гипотеза Ивана Петрова неверная»</em>,  но и это, бывает, дорогого стОит – <strong><a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B5_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B" target="_blank">дерзайте</a></strong>,  уважаемые читатели!</p>
+  <p>Рассмотрим в качестве примера, конечно, не мегатеорему, но  утверждение, которое требует пусть простого, но обоснования. Хотя и его не  будет =) =):</p>
+  <p><img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0004.gif"> <em>– число делится на 4</em>;<br>
+      <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0004.gif"> <em>– число делится на 2</em>.</p>
+  <p>Очевидно, что следствие <img align="absmiddle" width="44" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image054.gif"> <em>истинно</em>, то есть из того, что число делится на 4, следует и его  делимость на 2. И, соответственно, противоположное заключение – есть ложь:<br>
+      <img align="absmiddle" width="84" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image056.gif"></p>
+  <p>При этом ещё раз обращаю внимание, что посылка <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0005.gif"> изначально  постулируется как истина <em>(в отличие от  импликации, где она может быть и ложной)</em>. </p>
+  <p>Для логических следствий также в ходу понятия <em>необходимости</em> и <em>достаточности</em>, скопирую пару строк сверху:</p>
+  <p>истинность посылки <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0006.gif"> – это <em>достаточное условие</em> для истинности  заключения <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0005.gif">,</p>
+  <p>истинность заключения <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0006.gif"> – это <em>необходимое условие</em> для истинности  посылки <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0007.gif">.</p>
+  <p>В нашем случае: </p>
+  <p>Делимость числа на 4 является <u>достаточным</u> условием для того, чтобы оно делилось на 2. И с другой стороны, делимость числа  на 2 является <u>необходимым</u> условием делимости на 4.</p>
+  <p>Следует отметить, что рассмотренный пример можно записать и  в виде импликации:<br>
+      <img align="absmiddle" width="44" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image006_0008.gif"> <em>(пользуясь таблицей, проанализируйте все расклады самостоятельно)</em></p>
+  <p>Однако <strong>в общем случае  «перенос понятий» некорректен</strong>! То есть, если мы ведём разговор о том, что <img align="absmiddle" width="44" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image054_0000.gif">, то это ещё не значит, что будет справедлива импликация <img align="absmiddle" width="44" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image006_0009.gif">. И такой пример я приведу в заключительном пункте.</p>
+  <p>Как уже отмечалось, на практике импликацию часто <strong><u>обозначают</u></strong> значком <img align="absmiddle" width="20" height="16" src="b/osnovy_matematicheskoj_logiki_clip_image038_0001.gif">, но чтобы не возникло путаницы, я намеренно использовал  одиночную стрелку. </p>
+  <p>Да, чуть не забыл – импликацию можно выразить через предыдущие  операции. …Но об этом, пожалуй, во второй части о<strong> <a href="formuly_i_zakony_logiki.html">формулах и законах логики</a></strong>, а то у меня и так неслабый трактат  получился.</p>
+  <h3><strong>Эквиваленция.  Необходимое и достаточное условие</strong></h3>
+  <p>Эквиваленция обозначается значком <img align="absmiddle" width="21" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image067_0000.gif"> и читается «тогда и  только тогда»</p>
+  <p>Наверное, многие догадываются, что это за операция: </p>
+  <p><strong>Эквиваленцией</strong> высказываний <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0008.gif"> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0007.gif"> называют высказывание <img align="absmiddle" width="45" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image069.gif">, которое истинно в том и только том случае, когда  высказывания <img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image002_0009.gif"> и <img align="absmiddle" width="13" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image004_0008.gif"> истинны или ложны  одновременно:<br>
+      <img align="absmiddle" width="203" height="119" src="b/osnovy_matematicheskoj_logiki_clip_image071.jpg" alt="Таблица истинности эквиваленции"><br>
+    Данная операция естественным образом выражается формулой <img align="absmiddle" width="123" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image073.gif"> – <em>«из а следует бэ <strong>и</strong> из бэ  следует а»</em>.</p>
+  <p>Предположим, что Петя вышел на финишную черту сессии, и ему  осталось сдать 3 экзамена:</p>
+  <p><img align="absmiddle" width="13" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image075.gif"> – три экзамена сданы;<br>
+      <img align="absmiddle" width="15" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image077.gif"> – сессия успешно  завершена.</p>
+  <p>Очевидно, что при описанных выше обстоятельствах эти  высказывания <em>эквиваленты</em>:</p>
+  <p><img align="absmiddle" width="47" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image079.gif"> – сессия успешно  завершена тогда и только тогда, когда сдано 3 экзамена.</p>
+  <p>Перед вами пример <strong>необходимого  и достаточного</strong> условия: для того чтобы завершить сессию успешно Пете <strong>необходимо</strong> сдать 3 экзамена <em>(в противном случае сессия будет не сдана)</em> и в то же самое время этого <strong>достаточно</strong> <em>(т.к. больше ничего делать не нужно)</em>.</p>
+  <p>Особенность эквиваленции состоит в том, что имеет место либо <strong>и то и другое</strong>, либо <strong>ничего</strong>, например:</p>
+  <p><em>Петя занимается  штангой тогда и только тогда, когда Маша танцует на столе</em></p>
+  <p>Это значит, что либо Петя занимается штангой и Маша танцует  на столе, либо они оба лежат на диване <s>Пётр, ты заслужил!</s> =) Такие вот дружные Петя  и Маша. Теперь вроде бы похожая фраза без «тогда и только тогда»:</p>
+  <p><em>Петя занимается  штангой, когда Маша танцует на столе</em></p>
+  <p>Но смысл несколько поменялся: здесь можно предположить, что  Петя, бывает, тягает штангу и без Маши, и другой стороны, Маше «до лампочки»,  качается ли во время её танца Петя. </p>
+  <p>Вот в чём сила необходимого и достаточного условия! – оно объединяет  и дисциплинирует =)</p>
+  <p>…хотел я для прикола распределить роли наоборот, но затем  передумал… всё-таки нельзя такое пропагандировать =)</p>
+  <p>К слову, о дисциплине – рациональный подход как раз и  предполагает необходимость и достаточность – когда человек для достижения  какой-либо цели делает ровно столько, сколько нужно, и не больше. Это, конечно,  бывает скучно в обычной жизни, но всячески приветствуется в математических  рассуждениях, которые нас уже заждались:</p>
+  <p><em>Треугольник является  равносторонним тогда и только тогда, когда у него равные углы</em></p>
+  <p>Высказывания <img align="absmiddle" width="9" height="16" src="b/osnovy_matematicheskoj_logiki_clip_image081.gif"> <em>– треугольник равносторонний </em> и <img align="absmiddle" width="13" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image083.gif"> <em>– у него равные углы </em> можно  соотнести эквиваленцией <img align="absmiddle" width="43" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image085_0000.gif">, но на практике мы почти всегда связываем их обоюдоострым  значком <strong>логического следствия</strong> <img align="absmiddle" width="43" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image087_0000.gif">, который тоже читается «тогда и только тогда». Отличие от  эквиваленции такое же:</p>
+  <p>– когда мы утверждаем, что <img align="absmiddle" width="41" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image089_0000.gif">, то <strong>изначально</strong> полагаем высказывание <img align="absmiddle" width="9" height="16" src="b/osnovy_matematicheskoj_logiki_clip_image081_0000.gif"> истиной <em>(и никак не ложью)</em>. И наоборот, запись <img align="absmiddle" width="41" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image092.gif"> подразумевает  безусловную истинность посылки <img align="absmiddle" width="13" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image083_0000.gif">. </p>
+  <p>И в заключение первой части урока вспомним знаменитую  теорему, которую я переформулирую «по-взрослому»:</p>
+  <p>Для того, чтобы треугольник был прямоугольным необходимо и  достаточно, чтобы квадрат одной из его сторон равнялся сумме квадратов двух  других сторон: <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0000.gif"></p>
+  <p>Напоминаю, что сторона <img align="absmiddle" width="12" height="15" src="b/osnovy_matematicheskoj_logiki_clip_image097_0000.gif"> называется гипотенузой <em>(бОльшая сторона, лежащая напротив угла <img align="absmiddle" width="27" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image099_0000.gif">)</em>, а стороны <img align="absmiddle" width="28" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image101_0000.gif"> – катетами.</p>
+  <p>Перепишем теорему в сокращённой  записи:<br>
+      <img align="absmiddle" width="16" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image103_0000.gif"> – треугольник прямоугольный <img align="absmiddle" width="33" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image105_0000.gif"> – выполнено <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0001.gif"></p>
+  <p>Доказательство «теорем такого типа» состоит из 2  частей, у которых тоже есть стандартные названия <em>(наверное, неоднократно сталкивались)</em>:</p>
+  <p>1) <em>Необходимость </em>(условия <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0002.gif">):<br>
+      <img align="absmiddle" width="45" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image108.gif"> – иными словами, тут нужно доказать, что для того, чтобы треугольник  был прямоугольным, <em>необходимо</em> выполнение равенства <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0002.gif">.</p>
+  <p>Данный пункт – это собственно и есть теорема Пифагора,  формулировка которой нам знакома ещё со школы: «Если треугольник прямоугольный,  то <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0003.gif">».</p>
+  <p>2) На втором шаге обосновывается <em>достаточность</em>:<br>
+      <img align="absmiddle" width="45" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image110.gif"> – здесь надо доказать,  что справедливость равенства <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0004.gif"> <em>достаточна</em> для того, чтобы треугольник был прямоугольным.</p>
+  <p>Учащихся опять же такими словами не запугивают, и второй  пункт формулируют в виде обратной теоремы Пифагора: «Если <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0005.gif">, то треугольник прямоугольный».</p>
+  <p>Связей по схеме «тогда и только тогда» в математике очень  много, и я только что привёл стандартную схему их доказательства. И, конечно  же, всегда анализируйте, что означают <em>«необходимо»</em>, <em>«достаточно»</em>, <em>«необходимо и достаточно»</em> в том или ином случае.</p>
+  <p>Следует отметить, что теорему можно рассмотреть с точки  зрения логической операции <img align="absmiddle" width="47" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image112.gif">, но вот запись <img align="absmiddle" width="45" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image114.gif"> <em>(как и обратная запись <img align="absmiddle" width="45" height="17" src="b/osnovy_matematicheskoj_logiki_clip_image116.gif">)</em> становится нелегальной! Почему? Пусть <img align="absmiddle" width="44" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image118.gif"> <em>– треугольник <strong>не</strong> прямоугольный</em>, <img align="absmiddle" width="37" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image120.gif"> <em>– равенство <img align="absmiddle" width="79" height="21" src="b/osnovy_matematicheskoj_logiki_clip_image095_0006.gif"> выполнено</em>. Но  тогда по импликационной таблице получаем <img align="absmiddle" width="127" height="27" src="b/osnovy_matematicheskoj_logiki_clip_image122.gif">, что не соответствует действительности! </p>
+  <p>Но зато записи <img align="absmiddle" width="93" height="19" src="b/osnovy_matematicheskoj_logiki_clip_image124.gif"> совершенно законны,  поскольку логическое следствие отталкивается исключительно от истины!</p>
+  <p>Жду вас во второй части нашего увлекательного урока, где мы  познакомимся с основными <strong><a href="formuly_i_zakony_logiki.html">логическими  формулами и законами</a></strong>, а также порешаем практические задачи. Для решения  задач потребуется пять табличек с этой страницы, поэтому я рекомендую сразу  переписать их на листок – чтобы они были перед глазами.</p>
+  <p>Кроме того, я открою вам секрет успешного изучения  математической логики ;) </p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

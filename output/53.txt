@@ -1,0 +1,1079 @@
+<html>
+<head>
+<title>Метод вариации произвольных постоянных. Примеры решений
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="метод вариации произвольных постоянных, примеры решений, как решить методом вариации произвольных постоянных, алгоритм решения, неоднородное уравнение первого порядка, неоднородное уравнение второго порядка, подробно, доступно, просто, для чайника, варьируя произвольные постоянные, метод вариации произвольной постоянной, произвольных постоянных, в правой части, дробь, логарифм, тангенс, котангенс">
+<meta name="Description" content="Подробные образцы решений с комментариями для дифференциальных уравнений первого и второго порядков">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Метод вариации произвольных постоянных. Примеры решений
+
+
+</strong></h1>
+  
+  <br>
+  <p>Метод вариации произвольных постоянных применяется для  решения неоднородных дифференциальных уравнений. Данный урок предназначен для  тех студентов, кто уже более или менее хорошо ориентируется в теме. Если вы  только-только начинаете знакомиться с ДУ, т.е. являетесь чайником, то  рекомендую начать с первого урока: <strong><a href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные  уравнения первого порядка. Примеры решений</a></strong>. А если уже-уже заканчиваете,  пожалуйста, отбросьте возможное предвзятое мнение, что метод сложный. Потому  что он простой. 
+  <p>В каких случаях применяется метод вариации произвольных  постоянных? </p>
+  <p>1) Метод вариации произвольной постояннОЙ можно использовать  при решении <strong><a href="lineinye_differencialnye_uravnenija.html">линейного неоднородного ДУ  1-го порядка</a></strong>. Коль скоро уравнение первого порядка, то и постоянная  (константа) тоже одна.</p>
+  <p>2) Метод вариации произвольнЫХ постоянных используют для  решения некоторых <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">линейных неоднородных  уравнений второго порядка</a></strong>. Здесь варьируются две постоянные (константы). </p>
+  <p>Логично предположить, что урок будет состоять из двух  параграфов…. Вот написал это предложение, и минут 10 мучительно думал, какую бы  еще умную хрень добавить для плавного перехода к практическим примерам. Но  почему-то мыслей после праздников нет никаких, хотя вроде и не злоупотреблял  ничем. Поэтому сразу примемся за первый параграф.</p>
+  <br>
+  <h2><strong>Метод вариации  произвольной постоянной</strong><br>
+      <strong>для линейного  неоднородного уравнения первого порядка</strong></h2>
+  <p>Перед рассмотрением метода вариации произвольной постоянной  желательно быть знакомым со статьей <strong><a href="lineinye_differencialnye_uravnenija.html">Линейные  дифференциальные уравнения первого порядка</a></strong>. На том уроке мы отрабатывали <strong>первый способ решения</strong> неоднородного ДУ  1-го порядка. Этот первый способ решения, напоминаю, называется <em>метод замены</em> или <em>метод Бернулли</em> (не путать с <strong><a href="differencialnoe_uravnenie_bernulli.html">уравнением  Бернулли</a></strong>!!!) </p>
+  <p>Сейчас мы рассмотрим <strong>второй  способ решения</strong> – метод вариации произвольной постоянной. Я приведу всего  три примера, причем возьму их из вышеупомянутого урока <strong><a href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные ДУ 1-го порядка</a></strong>. Почему так мало? Потому что  на самом деле решение вторым способом будет очень похоже на решение первым  способом. Кроме того, по моим наблюдениям, метод вариации произвольных  постоянных применяется реже метода замены. </p>
+  <p><u>Пример 1</u></p>
+  <p>Найти общее решение дифференциального уравнения <img align="absmiddle"  width="105" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image002.gif"><br>
+    (Диффур из Примера № 2 урока <strong><a href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные ДУ 1-го порядка</a></strong>)</p>
+  <p><strong>Решение:</strong> Данное  уравнение является линейным неоднородным и имеет знакомый вид: <br>
+      <img align="absmiddle"  width="125" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image004.gif"></p>
+  <p>На первом этапе необходимо решить более простое уравнение: <img align="absmiddle"  width="105" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image006.gif"><br>
+    То есть, тупо обнуляем правую часть – вместо <img align="absmiddle"  width="33" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image008.gif"> пишем ноль.<br>
+    Уравнение <img align="absmiddle"  width="105" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image006_0000.gif"> я буду называть <em>вспомогательным уравнением</em>.</p>
+  <p>В данном примере нужно решить следующее вспомогательное уравнение:<br>
+      <img align="absmiddle"  width="80" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image010.gif"></p>
+  <p>Перед нами <strong><a href="differencialnye_uravnenija_primery_reshenii.html">уравнение  с разделяющимися переменными</a></strong>, решение которого (надеюсь) уже не  представляет для вас сложностей:<br>
+    <img align="absmiddle" width="104" height="144" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image012.gif">  </p>
+  <p>Таким образом:<br>
+      <img align="absmiddle"  width="168" height="29" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image014.gif"> – общее решение вспомогательного  уравнения <img align="absmiddle"  width="80" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image010_0000.gif">.</p>
+  <p>На втором шаге <strong>заменим</strong> константу <img align="absmiddle"  width="16" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image016.gif"> некоторой <em>пока ещё</em> неизвестной функцией <img align="absmiddle"  width="13" height="15" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image018.gif">, которая зависит от «икс»:<br>
+      <img align="absmiddle"  width="63" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image020.gif"></p>
+  <p>Отсюда и название метода – варьируем константу <img align="absmiddle"  width="16" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image016_0000.gif">. Как вариант, константа <img align="absmiddle"  width="16" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image016_0001.gif"> может быть некоторой  функцией <img align="absmiddle"  width="13" height="15" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image018_0000.gif">, которую нам предстоит сейчас найти.</p>
+  <p>В <u>исходном</u> неоднородном уравнении <img align="absmiddle"  width="105" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image002_0000.gif"> проведём замену:<br>
+      <img align="absmiddle"  width="63" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image020_0000.gif"></p>
+  <p>По правилу дифференцирования произведения: <br>
+      <img align="absmiddle"  width="473" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image022.gif"></p>
+  <p>Подставим <img align="absmiddle"  width="63" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image020_0001.gif"> и <img align="absmiddle"  width="133" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image025.gif"> в уравнение <img align="absmiddle"  width="105" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image002_0001.gif">:<br>
+      <img align="absmiddle"  width="228" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image027.gif"></p>
+  <p>Контрольный момент – <strong>два  слагаемых в левой части взаимоуничтожаются</strong>. Если этого не происходит, следует  искать ошибку выше.</p>
+  <p><img align="absmiddle"  width="89" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image029.gif"></p>
+  <p>В результате замены получено уравнение с разделяющимися  переменными. Разделяем переменные и интегрируем.</p>
+  <p>Какая благодать, экспоненты тоже сокращаются:<br>
+      <img align="absmiddle"  width="80" height="97" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image031.gif"></p>
+  <p>К найденной функции <img align="absmiddle"  width="13" height="15" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image018_0001.gif"> приплюсовываем  «нормальную» константу <img align="absmiddle"  width="16" height="19" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image034.gif">:<br>
+      <img align="absmiddle"  width="73" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image036.gif"></p>
+  <p>На заключительном этапе вспоминаем про нашу замену: <img align="absmiddle"  width="63" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image020_0002.gif"></p>
+  <p>Функция <img align="absmiddle"  width="13" height="15" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image018_0002.gif"> только что найдена!</p>
+  <p>Таким образом, общее решение:<br>
+      <img align="absmiddle"  width="275" height="51" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image039.gif"></p>
+  <p><strong>Ответ:</strong> общее  решение:<img align="absmiddle"  width="225" height="45" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image041.gif"></p>
+  <p>Если вы распечатаете два способа решения, то легко заметите,  что в обоих случаях мы находили одни и те же интегралы. Отличие лишь в алгоритме  решения.</p>
+  <p>Теперь что-нибудь посложнее, второй пример я тоже  прокомментирую:</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти общее решение дифференциального уравнения <img align="absmiddle"  width="101" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image043.gif"><br>
+    (Диффур из Примера № 8 урока <strong><a href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные ДУ 1-го порядка</a></strong>)</p>
+  <p><strong>Решение:</strong> Приведем  уравнение к виду <img align="absmiddle"  width="125" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image004_0000.gif">:<br>
+      <img align="absmiddle"  width="96" height="51" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image045.gif"></p>
+  <p>Обнулим правую часть и решим вспомогательное уравнение:<br>
+      <img align="absmiddle"  width="80" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image047.gif"></p>
+  <p>Разделяем переменные и интегрируем:<br>
+      <img align="absmiddle"  width="93" height="115" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image049.gif"><br>
+    Общее решение вспомогательного уравнения: <img align="absmiddle"  width="216" height="29" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image051.gif"></p>
+  <p>В неоднородном уравнении проведём замену:<br>
+      <img align="absmiddle"  width="56" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image053.gif"></p>
+  <p>По правилу дифференцирования произведения:<br>
+      <img align="absmiddle"  width="123" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image055.gif"></p>
+  <p>Подставим <img align="absmiddle"  width="56" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image053_0000.gif"> и <img align="absmiddle"  width="123" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image055_0000.gif"> в исходное  неоднородное уравнение <img align="absmiddle"  width="93" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image059.gif">:<br>
+      <img align="absmiddle"  width="191" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image061.gif"></p>
+  <p>Два слагаемых в левой части взаимоуничтожаются, значит, мы на  верном пути:<br>
+      <img align="absmiddle"  width="135" height="133" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image063.gif"></p>
+  <p>Интегрируем по частям. Вкусная буква <img align="absmiddle"  width="13" height="15" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image018_0003.gif"> из формулы  интегрирования по частям у нас уже задействована в решении, поэтому используем,  например, буквы «а» и «бэ»:</p>
+  <p><img align="absmiddle"  width="119" height="29" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image066.gif"></p>
+  <p><img align="absmiddle"  width="360" height="56" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image068.gif"></p>
+  <p><img align="absmiddle"  width="459" height="31" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image070.gif"><br>
+    <br>
+    В итоге: <img align="absmiddle"  width="145" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image072.gif"></p>
+  <p>Теперь вспоминаем проведённую замену:<br>
+      <img align="absmiddle"  width="316" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image074.gif"></p>
+  <p><strong>Ответ:</strong> общее решение: <img align="absmiddle"  width="211" height="29" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image076.gif"></p>
+  <p>И один пример для самостоятельного решения:</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти частное решение  дифференциального уравнения, соответствующее заданному начальному условию.</p>
+  <p><img align="absmiddle"  width="109" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image078.gif">, <img align="absmiddle"  width="53" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image080.gif"><br>
+    <em>(диффур из Примера № 4 статьи <strong><a href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные ДУ 1-го порядка</a></strong>)</em> </p>
+  <p>Решение в конце урока может служить примерным образцом для  чистового оформления задания.</p>
+  <br>
+  <h2><strong>Метод вариации  произвольных постоянных</strong><br>
+      <strong>для линейного  неоднородного уравнения второго порядка</strong><br>
+      <strong>с постоянными  коэффициентами</strong></h2>
+  <p>Часто приходилось слышать мнение, что метод вариации  произвольных постоянных для уравнения второго порядка – штука не из легких. Но  я предполагаю следующее: скорее всего, метод многим кажется трудным, поскольку  встречается не так часто. А в действительности особых сложностей нет – ход  решения чёткий, прозрачный, понятный. И красивый.</p>
+  <p>Для освоения метода желательно уметь решать неоднородные  уравнения второго порядка способом подбора частного решения по виду правой  части. Данный способ подробно рассмотрен в статье <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a></strong>. Вспоминаем, что линейное неоднородное  уравнение второго порядка с постоянными коэффициентами имеет вид:<br>
+      <img align="absmiddle"  width="133" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image100.gif"></p>
+  <p>Метод подбора, который рассматривался на вышеупомянутом  уроке, проходит лишь в ограниченном ряде случаев, когда в правой части <img align="absmiddle"  width="36" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image102.gif"> находятся многочлены,  экспоненты, синусы, косинусы. Но что делать, когда справа, например, дробь,  логарифм, тангенс? В такой ситуации на помощь как раз и приходит метод вариации  постоянных.</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти общее решение дифференциального уравнения второго  порядка<br>
+      <img align="absmiddle"  width="137" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image104.gif"></p>
+  <p><strong>Решение:</strong> В правой части данного уравнения находится дробь, поэтому  сразу можно сказать, что метод подбора частного решения не прокатывает.  Используем метод вариации произвольных постоянных.</p>
+  <p>Ничто не предвещает грозы, начало  решения совершенно обычное:</p>
+  <p>Найдем <strong>общее решение</strong> соответствующего <strong>однородного</strong> уравнения:<br>
+      <img align="absmiddle"  width="112" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image106.gif"></p>
+  <p>Составим и решим  характеристическое уравнение:<br>
+      <img align="absmiddle"  width="99" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image108.gif"><br>
+      <img align="absmiddle"  width="112" height="19" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image110.gif"><br>
+      <img align="absmiddle"  width="125" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image112.gif"> – получены сопряженные  комплексные корни, поэтому общее решение: <img align="absmiddle"  width="461" height="28" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image114.gif"></p>
+  <p>Обратите внимание на запись  общего решения <img align="absmiddle"  width="15" height="17" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image116.gif"> – если есть скобки, то  их раскрываем.</p>
+  <p>Теперь проделываем практически  тот же трюк, что и для уравнения первого порядка: варьируем константы <img align="absmiddle"  width="43" height="25" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image118.gif">, заменяя их неизвестными функциями <img align="absmiddle"  width="83" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image120.gif">. То есть, <strong>общее  решение неоднородного </strong>уравнения будем искать в виде:</p>
+  <p><img align="absmiddle"  width="219" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image122.gif">, где <img align="absmiddle"  width="83" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image120_0000.gif"> – <em>пока ещё</em> неизвестные функции.</p>
+  <p>Далее необходимо решить систему двух  уравнений с двумя неизвестными:</p>
+  <p><img align="absmiddle"  width="180" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image124.gif"></p>
+  <p>Похоже на свалку бытовых отходов,  но сейчас всё рассортируем.</p>
+  <p>В качестве неизвестных выступают  производные функций <img align="absmiddle"  width="83" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image126.gif">. Наша цель – найти производные <img align="absmiddle"  width="83" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image126_0000.gif">, причем найденные производные должны удовлетворять и первому  и второму уравнению системы.</p>
+  <p>Откуда берутся «игреки»? Их  приносит аист. Смотрим на полученное ранее общее решение <img align="absmiddle"  width="216" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image128.gif"> и записываем:</p>
+  <p><img align="absmiddle"  width="88" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image130.gif">, <img align="absmiddle"  width="87" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image132.gif"></p>
+  <p>Найдем производные:<br>
+      <img align="absmiddle"  width="373" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image134.gif"><br>
+      <img align="absmiddle"  width="373" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image136.gif"></p>
+  <p>С левыми частями разобрались. Что  справа? </p>
+  <p><img align="absmiddle"  width="36" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image102_0000.gif"> – это правая часть  исходного уравнения, в данном случае: <img align="absmiddle"  width="85" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image139.gif"></p>
+  <p>Коэффициент <img align="absmiddle"  width="39" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image141.gif"> – это коэффициент при  второй производной:<br>
+      <img align="absmiddle"  width="176" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image143.gif"></p>
+  <p>На практике почти всегда <img align="absmiddle"  width="60" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image145.gif">, и наш пример не исключение.</p>
+  <p>Всё прояснилось, теперь можно  составить систему:<br>
+      <img align="absmiddle"  width="396" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image147.gif"></p>
+  <p>Систему обычно решают <strong><a href="pravilo_kramera_matrichnyi_metod.html">по формулам Крамера</a></strong>, используя  стандартный алгоритм. Единственное отличие состоит в том, что вместо чисел у  нас функции.</p>
+  <p>Найдем главный определитель  системы:<br>
+    <img align="absmiddle"  width="365" height="121" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image149.gif">  </p>
+  <p>Если позабылось, как раскрывается  определитель «два на два», обратитесь к уроку <strong><a href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a></strong> Ссылка ведёт на доску  позора =)</p>
+  <p>Итак: <img align="absmiddle"  width="79" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image151.gif">, значит, система имеет единственное решение.</p>
+  <p>Едем дальше:<br>
+      <img align="absmiddle"  width="416" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image153.gif"></p>
+  <p>Находим производную:<br>
+      <img align="absmiddle"  width="219" height="61" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image155.gif"></p>
+  <p>Но это еще не всё, пока мы нашли  только производную. <br>
+    Сама функция <img align="absmiddle"  width="40" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image157.gif"> восстанавливается  интегрированием:<br>
+  <img align="absmiddle"  width="293" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image159.gif"><br>
+    Здесь добавляем «нормальную»  константу <img align="absmiddle"  width="19" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image161.gif"></p>
+  <p>Разбираемся со второй функцией:<br>
+      <img align="absmiddle"  width="375" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image163.gif"></p>
+  <p><img align="absmiddle"  width="137" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image165.gif"></p>
+  <p><img align="absmiddle"  width="132" height="29" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image167.gif"><br>
+    Здесь добавляем «нормальную»  константу <img align="absmiddle"  width="20" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image169.gif"></p>
+  <p>На заключительном этапе решения  вспоминаем, в каком виде мы искали общее решение неоднородного уравнения? В  таком:<br>
+      <img align="absmiddle"  width="216" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image128_0000.gif"></p>
+  <p>Нужные функции только что  найдены!<br>
+      <img align="absmiddle"  width="132" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image171.gif"><br>
+      <img align="absmiddle"  width="96" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image173.gif"></p>
+  <p>Осталось выполнить подстановку и  записать ответ:</p>
+  <p><strong>Ответ:</strong> общее решение: <img align="absmiddle"  width="424" height="29" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image175.gif"></p>
+  <p>В принципе, в ответе можно было раскрыть скобки. </p>
+  <p>Полная проверка ответа выполняется по стандартной схеме,  которая рассматривалась на уроке <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные  ДУ 2-го порядка</a></strong>. Но проверка будет непростой, поскольку предстоит находить  достаточно тяжелые производные и проводить громоздкую подстановку. Это  неприятная особенность, когда вы решаете подобные диффуры.</p>
+  <p><u>Пример 5</u></p>
+  <p>Решить дифференциальное уравнение методом вариации  произвольных постоянных</p>
+  <p><img align="absmiddle"  width="105" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image177.gif"></p>
+  <p>Это пример для самостоятельного решения. На самом деле в  правой части тоже дробь. Вспоминаем тригонометрическую формулу <img align="absmiddle"  width="89" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image179.gif">, её, к слову, нужно будет применить по ходу решения.</p>
+  <p>Метод вариации произвольных постоянных – наиболее  универсальный метод. Им можно решить любое уравнение, которое решается <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">методом подбора частного решения по виду  правой части</a></strong>. Возникает вопрос, а почему бы и там не использовать метод  вариации произвольных постоянных? Ответ очевиден: подбор частного решения,  который рассматривался на уроке <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные  уравнения второго порядка</a></strong>, значительно ускоряет решение и сокращает запись  – никакого трахча с определителями и интегралами.</p>
+  <p>Рассмотрим два примера с <em>задачей  Коши</em>.</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти частное решение дифференциального уравнения,  соответствующее заданным начальным условиям</p>
+  <p><img align="absmiddle"  width="152" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image181.gif">, <img align="absmiddle"  width="120" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image183.gif"></p>
+  <p><strong>Решение:</strong> Опять дробь и экспонента в интересном месте.<br>
+    Используем метод вариации  произвольных постоянных.</p>
+  <p>Найдем <strong>общее решение</strong> соответствующего <strong>однородного</strong> уравнения:<br>
+      <img align="absmiddle"  width="111" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image185.gif"><br>
+      <img align="absmiddle"  width="99" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image187.gif"><br>
+      <img align="absmiddle"  width="160" height="25" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image189.gif"><br>
+      <img align="absmiddle"  width="188" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image191.gif"> – получены различные  действительные корни, поэтому общее решение: <img align="absmiddle"  width="240" height="28" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image193.gif"></p>
+  <p><strong>Общее решение неоднородного</strong> уравнения ищем в виде: <img align="absmiddle"  width="153" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image195.gif">, где <img align="absmiddle"  width="83" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image120_0001.gif"> – <em>пока ещё</em> неизвестные функции.</p>
+  <p>Составим систему:<br>
+      <img align="absmiddle"  width="180" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image124_0000.gif"></p>
+  <p>В данном случае: <br>
+      <img align="absmiddle"  width="52" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image197.gif">, <img align="absmiddle"  width="55" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image199.gif"><br>
+    Находим производные:<br>
+  <img align="absmiddle"  width="111" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image201.gif">, <img align="absmiddle"  width="112" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image203.gif"></p>
+  <p><img align="absmiddle"  width="100" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image205.gif"><br>
+      <img align="absmiddle"  width="61" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image207.gif"></p>
+  <p>Таким образом:<br>
+      <img align="absmiddle"  width="235" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image209.gif"></p>
+  <p>Систему решим по формулам  Крамера:<br>
+      <img align="absmiddle"  width="405" height="51" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image211.gif">, значит, система имеет единственное решение.</p>
+  <p><img align="absmiddle"  width="321" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image213.gif"></p>
+  <p><img align="absmiddle"  width="228" height="61" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image215.gif"></p>
+  <p>Восстанавливаем функцию <img align="absmiddle"  width="40" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image157_0000.gif"> интегрированием:<br>
+      <img align="absmiddle"  width="544" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image218.gif"><br>
+    Здесь использован <strong><a href="metod_zameny_peremennoi.html">метод подведения функции под знак  дифференциала</a></strong>.</p>
+  <p><img align="absmiddle"  width="313" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image220.gif"></p>
+  <p><img align="absmiddle"  width="297" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image222.gif"></p>
+  <p>Восстанавливаем вторую функцию  интегрированием:<br>
+      <img align="absmiddle"  width="148" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image224.gif"></p>
+  <p>Такой интеграл решается <strong><a href="metod_zameny_peremennoi.html">методом замены переменной</a></strong>:<br>
+      <img align="absmiddle"  width="248" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image226.gif"></p>
+  <p>Из самой замены выражаем:<br>
+      <img align="absmiddle"  width="149" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image228.gif"></p>
+  <p>Таким образом: <br>
+      <img align="absmiddle"  width="131" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image230.gif"></p>
+  <p><img align="absmiddle"  width="205" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image232.gif"></p>
+  <p>Данный интеграл можно найти <strong><a href="integrirovanie_drobei.html">методом выделения полного квадрата</a></strong>, но  в примерах с диффурами я предпочитаю раскладывать дробь <strong><a href="integraly_ot_drobno_racionalnoj_funkcii.html">методом неопределенных коэффициентов</a></strong>:<br>
+      <img align="absmiddle"  width="179" height="119" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image234.gif"></p>
+  <p><img align="absmiddle"  width="531" height="72" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image236.gif"></p>
+  <p>Обе функции найдены:<br>
+      <img align="absmiddle"  width="157" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image238.gif"><br>
+      <img align="absmiddle"  width="181" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image240.gif"></p>
+  <p>В результате, общее решение  неоднородного уравнения:<br>
+      <img align="absmiddle"  width="475" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image242.gif"></p>
+  <p>Найдем частное решение,  удовлетворяющее начальным условиям <img align="absmiddle"  width="120" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image183_0000.gif">.</p>
+  <p>Технически поиск решения  осуществляется стандартным способом, который рассматривался в статье <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные дифференциальные уравнения  второго порядка</a></strong>.</p>
+  <p>Держитесь, сейчас будем находить  производную от найденного общего решения:</p>
+  <p><img align="absmiddle"  width="572" height="80" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image245.gif"></p>
+  <p>Вот такое вот безобразие.  Упрощать его не обязательно, легче сразу составить систему уравнений. В  соответствии с начальными условиями <img align="absmiddle"  width="120" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image183_0001.gif">:</p>
+  <p><img align="absmiddle"  width="453" height="101" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image247.gif"></p>
+  <p>Подставим найденные значения  констант <img align="absmiddle"  width="121" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image249.gif"> в общее решение:<br>
+      <img align="absmiddle"  width="348" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image251.gif"></p>
+  <p>В ответе логарифмы можно немного  запаковать.</p>
+  <p><strong>Ответ:</strong> частное решение: <img align="absmiddle"  width="273" height="48" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image253.gif"></p>
+  <p>Как видите, трудности могут  возникнуть в интегралах и производных, но никак не в самом алгоритме метода  вариации произвольных постоянных. Это не я вас запугал, это всё сборник  Кузнецова! Где собраны ещё «цветочки» – ведь рассмотренный  метод можно использовать и для решения <strong><a href="linejnye_diffury_vysshih_porjadkov.html">ЛНДУ  высших порядков</a></strong>. Вот это уж  жесть, так жесть =)</p>
+  <p>Для расслабления заключительный,  более простой пример для самостоятельного решения:</p>
+  <p><u>Пример 7</u></p>
+  <p>Решить задачу Коши</p>
+  <p><img align="absmiddle"  width="113" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image255.gif">, <img align="absmiddle"  width="123" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image257.gif"></p>
+  <p>Пример несложный, но творческий,  когда составите систему, внимательно на неё посмотрите, прежде чем решать ;-)</p>
+  <p>Конец.</p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 3: <strong>Решение: </strong><img align="absmiddle"  width="88" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image082_0000.gif"><strong></strong></em><br>
+      <em>Данное ДУ является  линейным неоднородным. Используем метод вариации произвольных постоянных. Решим  вспомогательное уравнение:</em><br>
+      <em><img align="absmiddle"  width="69" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image084_0000.gif"></em><br>
+      <em>Разделяем переменные и  интегрируем:</em><br>
+      <em><img align="absmiddle"  width="127" height="173" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image086_0000.gif"></em><br>
+      <em>Общее решение: <img align="absmiddle"  width="147" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image088_0000.gif"></em><br>
+      <em>В неоднородном  уравнении проведем замену:</em><br>
+      <em><img align="absmiddle"  width="201" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image090_0000.gif"></em><br>
+      <em>Выполним подстановку:</em><br>
+      <em><img align="absmiddle"  width="231" height="264" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image092_0000.gif"></em><br>
+      <em>Таким образом, общее  решение:</em><br>
+      <em><img align="absmiddle"  width="208" height="45" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image094_0000.gif"></em>      <br>
+      <em>Найдем частное  решение, соответствующее заданному начальному условию:</em><br>
+      <em><img align="absmiddle"  width="215" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image096_0000.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> частное решение: <img align="absmiddle"  width="53" height="45" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image098_0000.gif"></em></p>
+  <p><em>Пример 5: <strong>Решение:</strong> Используем метод вариации произвольных постоянных.</em><br>
+      <em>Найдем общее решение соответствующего однородного уравнения:</em><br>
+      <em><img align="absmiddle"  width="76" height="45" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image262.gif"></em>      <br>
+      <em><img align="absmiddle"  width="64" height="25" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image264.gif"> – сопряженные  комплексные корни, поэтому общее решение: <img align="absmiddle"  width="289" height="31" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image266.gif">.</em><br>
+      <em>Общее решение неоднородного уравнения ищем в виде: <img align="absmiddle"  width="196" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image268.gif"></em><br>
+      <em>Составим систему:</em><br>
+      <em><img align="absmiddle"  width="180" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image124_0001.gif"></em><br>
+      <em>В данном случае:</em><br>
+      <em><img align="absmiddle"  width="75" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image270.gif">, <img align="absmiddle"  width="73" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image272.gif"></em><br>
+      <em><img align="absmiddle"  width="91" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image274.gif">, <img align="absmiddle"  width="85" height="23" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image276.gif">,</em><br>
+      <em><img align="absmiddle"  width="89" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image278.gif"></em><br>
+      <em><img align="absmiddle"  width="61" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image207_0000.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle"  width="291" height="51" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image280.gif"></em><br>
+      <em>Систему решим по формулам Крамера:</em><br>
+      <em><img align="absmiddle"  width="352" height="48" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image282.gif">, значит, система имеет единственное решение.</em><br>
+      <em><img align="absmiddle"  width="445" height="48" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image284.gif"></em><br>
+      <em><img align="absmiddle"  width="144" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image286.gif"></em><br>
+      <em><img align="absmiddle"  width="247" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image288.gif"></em><br>
+      <em><img align="absmiddle"  width="428" height="48" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image290.gif"></em><br>
+      <em><img align="absmiddle"  width="211" height="61" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image292.gif"></em><br>
+      <em><img align="absmiddle"  width="443" height="155" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image294.gif"></em><br>
+      <em>В результате:</em><br>
+      <em><img align="absmiddle"  width="589" height="131" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image296.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> общее решение: </em><br>
+      <em><img align="absmiddle"  width="397" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image298.gif"></em></p>
+  <p><em>Пример 7: <strong>Решение:</strong> Используем метод вариации произвольных постоянных.</em><br>
+      <em>Найдем общее решение соответствующего однородного уравнения:</em><br>
+      <em><img align="absmiddle"  width="104" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image300.gif"></em><br>
+      <em><img align="absmiddle"  width="97" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image302.gif"></em><br>
+      <em><img align="absmiddle"  width="76" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image304.gif"></em><br>
+      <em><img align="absmiddle"  width="47" height="25" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image306.gif"> – кратные  действительные корни, поэтому общее решение: </em><br>
+      <em><img align="absmiddle"  width="237" height="28" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image308.gif">.</em><br>
+      <em>Общее решение неоднородного уравнения ищем в виде: <img align="absmiddle"  width="151" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image310.gif"></em><br>
+      <em>Составим систему:</em><br>
+      <em><img align="absmiddle"  width="180" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image124_0002.gif"></em><br>
+      <em>В данном случае: </em><br>
+      <em><img align="absmiddle"  width="47" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image312.gif">, <img align="absmiddle"  width="57" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image314.gif"></em><br>
+      <em><img align="absmiddle"  width="47" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image316.gif">, <img align="absmiddle"  width="156" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image318.gif"></em><br>
+      <em><img align="absmiddle"  width="69" height="44" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image320.gif"></em><br>
+      <em><img align="absmiddle"  width="61" height="24" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image207_0001.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle"  width="217" height="67" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image322.gif"></em><br>
+      <em>Кто-то будет мучиться с экспонентами, но счастье – вовремя заметить,  что каждое уравнение можно сократить на <img align="absmiddle"  width="17" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image324.gif">!</em><br>
+      <em><img align="absmiddle"  width="180" height="64" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image326.gif"></em><br>
+      <em>Систему решим по формулам Крамера:</em><br>
+      <em><img align="absmiddle"  width="201" height="48" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image328.gif">, значит, система имеет единственное решение.</em><br>
+      <em><img align="absmiddle"  width="213" height="59" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image330.gif"></em><br>
+      <em><img align="absmiddle"  width="153" height="60" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image332.gif"></em><br>
+      <em><img align="absmiddle"  width="173" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image334.gif"></em><br>
+      <em><img align="absmiddle"  width="115" height="59" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image336.gif"></em><br>
+      <em><img align="absmiddle"  width="148" height="60" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image338.gif"></em><br>
+      <em><img align="absmiddle"  width="155" height="41" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image340.gif"></em><br>
+      <em>В результате общее решение:</em><br>
+      <em><img align="absmiddle"  width="467" height="77" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image342.gif"></em><br>
+      <em>Найдем частное решение, соответствующее начальным условиям <img align="absmiddle"  width="123" height="21" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image257_0000.gif">.</em><br>
+      <em><img align="absmiddle"  width="259" height="45" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image344.gif"></em><br>
+      <em><img align="absmiddle"  width="492" height="101" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image346.gif"></em><br>
+      <em>Подставим найденные значения констант в общее решение:</em><br>
+      <em><img align="absmiddle"  width="209" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image348.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> частное решение: <img align="absmiddle"  width="80" height="27" src="h/metod_variacii_proizvolnyh_postoyannyh_clip_image350.gif"></em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

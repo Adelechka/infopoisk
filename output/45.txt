@@ -1,0 +1,880 @@
+<html>
+<head><title>Как выполнить комбинационную группировку?</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="комбинационная группировка это, как выполнить комбинационную группировку, комбинационная таблица, групповые частоты, пример решения, частоты располагаются по диагонали, корреляционная зависимость">
+<meta name="Description" content="…простите за отступление, Майкл Джексон любил детей, а я люблю котов :) Да и студентов тоже не тяну…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">17. Комбинационная группировка</h1>
+  
+ <br>
+  <p>На предыдущем уроке мы освоили <strong><a href="analiticheskaya_gruppirovka.html">аналитическую группировку</a> </strong>(обязательно к изучению!), и сейчас на  очереди ещё один распространённый способ <strong><a href="gruppirovka_dannyh.html">группировки  данных</a></strong>.</p>
+  <p><strong><em>Комбинационная группировка</em></strong> – это группировка <strong><a href="matematicheskaya_statistika.html">статистической совокупности</a></strong> совместно по  двум или бОльшему количеству признаков. Она позволяет выявить устройство  совокупности и установить взаимосвязи между её признаками.</p>
+  <p>Рассмотрим <strong><a href="matematicheskaya_statistika.html">выборку</a></strong>,  состоящую из <img align="absmiddle" width="52" height="19" src="v/kombinacionnaya_gruppirovka_clip_image002.gif"> котов, среди которых  оказалось 20 грациозных <em>(менее 4 кг)</em>,  50 обычных <em>(4-6 кг)</em> и 30 толстых <em>(более 6 кг)</em>. По существу, перед нами <strong><a href="gruppirovka_dannyh.html">структурная группировка</a></strong> животных по их  массе и это первый признак статической совокупности. Теперь возьмём  какой-нибудь второй признак, например, разделим всех котов на злых и добрых :)  Признак, кстати, качественный, но при желании его можно «оцифровать», рассмотрев  некую экспертную шкалу доброты.</p>
+  <p>В результате исследования выяснилось, что среди тощих котов 14  злых и 6 добрых, среди обычных – 24 злых и 26 добрых и среди толстых  – 7 злых и 23 добрых.</p>
+  <p>Очевидно, что между рассмотренными признаками есть  взаимосвязь. Чем больше масса кота, тем <em>более  вероятно</em>, что он окажется добрым. Ибо с лишним весом, полным желудком и <s>отрезанн…</s> злиться весьма проблематично. Однако и среди толстых котов тоже есть  особи с проблемным характером. Такая <em>нежёсткая</em> зависимость называется…, вспоминаем… – правильно! <em>Корреляционной</em>.</p>
+  <p>Результаты <em>комбинационной  группировки</em> обычно сводят в <strong><em>комбинационную таблицу</em></strong>:<br>
+      <img align="absmiddle" width="340" height="141" src="v/kombinacionnaya_gruppirovka_clip_image004.gif"></p>
+  <p><strong>Внимательно изучаем  таблицу и обозначения!</strong> Это очень, ОЧЕНЬ важно для практики:</p>
+  <div id="primer">
+    <p>1) <em>Признак-фактор</em> <img align="absmiddle" width="19" height="17" src="v/kombinacionnaya_gruppirovka_clip_image006.gif"> (причину) и его  категории располагают в левом столбце <em>(зелёный  цвет)</em>, а <em>признак-результат</em> <img align="absmiddle" width="15" height="17" src="v/kombinacionnaya_gruppirovka_clip_image008.gif"> (следствие) и его  категории – в «шапке» таблицы <em>(жёлтый  цвет)</em>. Встречается и расположение наоборот (что с моей точки зрения удобнее),  но в практических задачах почему-то в ходу первый вариант. Но мы не будем  комплексовать, попробуем и так и так.</p>
+    <p>2) В основной части таблицы <em>(серый цвет)</em> располагаются собственно результаты группировки – <em>совместные групповые частоты</em> <img align="absmiddle" width="19" height="25" src="v/kombinacionnaya_gruppirovka_clip_image010.gif">. Итак, у нас в наличии есть:</p>
+  <p><img align="absmiddle" width="52" height="23" src="v/kombinacionnaya_gruppirovka_clip_image012.gif"> тощих и злых и <img align="absmiddle" width="47" height="23" src="v/kombinacionnaya_gruppirovka_clip_image014.gif"> тощих и добрых котов;<br>
+      <img align="absmiddle" width="56" height="23" src="v/kombinacionnaya_gruppirovka_clip_image016.gif"> обычных и злых и <img align="absmiddle" width="56" height="23" src="v/kombinacionnaya_gruppirovka_clip_image018.gif"> обычных и добрых  котов;<br>
+      <img align="absmiddle" width="47" height="24" src="v/kombinacionnaya_gruppirovka_clip_image020.gif"> толстых и злых и <img align="absmiddle" width="55" height="24" src="v/kombinacionnaya_gruppirovka_clip_image022.gif"> толстых и добрых  котов;</p>
+  <p>Итого 6 групп.</p>
+  <p><strong><em>! Справка</em></strong><em>: первый  подстрочный индекс означает номер строки (рассматриваем серую область), а  второй – номер столбца. Так, значение <img align="absmiddle" width="47" height="23" src="v/kombinacionnaya_gruppirovka_clip_image014_0000.gif"> расположено в 1-й  строке, 2-м столбце, а значение <img align="absmiddle" width="47" height="24" src="v/kombinacionnaya_gruppirovka_clip_image020_0000.gif"> – в 3-й строке, 1-м  столбце.</em></p>
+  <p>Сумма всех групповых частот равна <strong><a href="matematicheskaya_statistika.html">объёму статистической совокупности</a></strong>:<br>
+      <img align="absmiddle" width="491" height="47" src="v/kombinacionnaya_gruppirovka_clip_image024.gif"></p>
+  <p><strong><em>! Справка:</em></strong><em> значок  двойного суммирования работает следующим образом: сначала переменная «и»  принимает значение <img align="absmiddle" width="31" height="19" src="v/kombinacionnaya_gruppirovka_clip_image026.gif"> и переменная «жи»  пробегает все свои значения (от 1 до 2), в результате чего получается сумма <img align="absmiddle" width="53" height="23" src="v/kombinacionnaya_gruppirovka_clip_image028.gif">. Затем первая переменная принимает значение <img align="absmiddle" width="33" height="19" src="v/kombinacionnaya_gruppirovka_clip_image030.gif"> и «жи» снова пробегает  все свои значения: <img align="absmiddle" width="55" height="23" src="v/kombinacionnaya_gruppirovka_clip_image032.gif">. И, наконец, для <img align="absmiddle" width="33" height="19" src="v/kombinacionnaya_gruppirovka_clip_image034.gif"> получаем сумму <img align="absmiddle" width="55" height="24" src="v/kombinacionnaya_gruppirovka_clip_image036.gif">.</em></p>
+  <p>Часто для краткости пишут <img align="absmiddle" width="83" height="27" src="v/kombinacionnaya_gruppirovka_clip_image038.gif"> или даже используют  одинарный значок суммы: <img align="absmiddle" width="64" height="27" src="v/kombinacionnaya_gruppirovka_clip_image040.gif"></p>
+  <p>Заканчиваем разбор таблицы:</p>
+  <p>3) В правом столбце <em>(зелёный  цвет)</em> располагаются суммы частот по строкам (по группам признака-фактора). В нашей  совокупности имеется  <img align="absmiddle" width="49" height="23" src="v/kombinacionnaya_gruppirovka_clip_image042.gif"> тощих, <img align="absmiddle" width="51" height="23" src="v/kombinacionnaya_gruppirovka_clip_image044.gif"> обычных и <img align="absmiddle" width="51" height="24" src="v/kombinacionnaya_gruppirovka_clip_image046.gif"> толстых котов. Итого: <img align="absmiddle" width="255" height="27" src="v/kombinacionnaya_gruppirovka_clip_image048.gif"> котэ.</p>
+  <p>В нижней строке <em>(жёлтый  цвет)</em> подсчитываем суммы по столбцам (по категориям признака-результата):  <img align="absmiddle" width="137" height="23" src="v/kombinacionnaya_gruppirovka_clip_image050.gif"> злых и <img align="absmiddle" width="140" height="23" src="v/kombinacionnaya_gruppirovka_clip_image052.gif"> добрых котов. Итого: <img align="absmiddle" width="207" height="27" src="v/kombinacionnaya_gruppirovka_clip_image054.gif">, в чём и требовалось убедиться.</p>
+  <p>Общая котосумма (объём совокупности) расположена в правом  нижнем углу: <img align="absmiddle" width="52" height="19" src="v/kombinacionnaya_gruppirovka_clip_image002_0000.gif">.</p></div>
+  <p><strong>! Если вы что-то не  очень поняли, ещё раз ВДУМЧИВО перечитайте объяснения</strong>!</p>
+  <p>Может ли в комбинационной группировке быть бОльшее  количество факторов? Легко. Так, в нашем примере можно добавить фактор <img align="absmiddle" width="16" height="17" src="v/kombinacionnaya_gruppirovka_clip_image057.gif"> – жилищные условия  кота (бездомный или домашний). В результате получится трёхмерная комбинационная  группировка с группами:</p>
+  <p>тощие, злые и бездомные коты;<br>
+    тощие, злые и домашние коты;<br>
+    тощие, добрые и бездомные коты;<br>
+    тощие, добрые и домашние коты;<br>
+    обычные, злые и бездомные коты;<br>
+    …<br>
+    и так далее, всего 12 групп. Самостоятельно перечислите и представьте  все остальные семейства – целый мир получится!</p>
+  <p>И, завершая занимательное котоведение, призываю вас не  кастрировать своих (и чужих) котов. И мир станет гармоничнее!  …Простите за лирическое отступление, Майкл Джексон любил детей, а я люблю котов :) Да и  студентов тоже не тяну за хвосты :)</p>
+  <p>Поэтому переходим к стандартным студенческим задачам, в  которых предлагается простейшая <em>двумерная  комбинационная группировка</em>:</p>
+  <p><u>Пример 63</u></p>
+  <p>Имеются выборочные данные о выпуске продукции (млн. руб.) и сумме  прибыли (млн. руб.) по 30 предприятиям:<br>
+      <img align="absmiddle" width="598" height="344" src="v/kombinacionnaya_gruppirovka_clip_image059.jpg"></p>
+  <p>Определить <strong><a href="analiticheskaya_gruppirovka.html">признак-фактор  и признак-результат</a></strong> и высказать предположение о наличии и направлении <em>корреляционной зависимости</em> между  признаками. Выполнить <em>комбинационную  группировку</em>, разбив значения признака-фактора на 5 <strong><a href="gruppirovka_dannyh.html">равных интервалов</a></strong>, а значения признака-результата – на 3 равных интервала.  Сделать выводы.</p>
+  <p><strong>Решение</strong>: числовые данные я взял из <strong><a href="analiticheskaya_gruppirovka.html">Примера 61</a></strong>, и если вы с ним не знакомы,  то срочно навёрстываем упущенное! В той задаче мы выяснили, что <em>признаком-фактором</em> (причиной) является <img align="absmiddle" width="19" height="17" src="v/kombinacionnaya_gruppirovka_clip_image006_0000.gif"> – выпуск продукции, а <em>признаком-результатом</em> (следствием) <img align="absmiddle" width="15" height="17" src="v/kombinacionnaya_gruppirovka_clip_image008_0000.gif"> – прибыль.  При увеличении выпуска продукции, очевидно, растёт <em>средняя</em> прибыль предприятий, таким образом, предполагаемая корреляционная  зависимость – <em>прямая</em> («чем больше,  тем больше»). И снова подчёркиваю нежёсткость этой зависимости: отдельно взятое  предприятие может выпускать много, но сидеть в убытках, и наоборот – есть  предприятия с небольшим объёмом выпуска, но высокой прибылью. Однако  это всё отклонения от общей тенденции.</p>
+  <p>Выполним комбинационную группировку, разбив значения  признака-фактора на 5 <strong><a href="gruppirovka_dannyh.html">равных интервалов</a></strong>,  а значения признака-результата – на 3.</p>
+  <p>Начало решения совпадает с началом Примера 61. Упорядочим предприятия  по возрастанию признака-фактора:<br>
+      <img align="absmiddle" width="599" height="347" src="v/kombinacionnaya_gruppirovka_clip_image063.jpg"></p>
+  <p>О том, как это быстро сделать в Экселе, <strong><a href="https://youtu.be/MS1Z_BVaRY0" target="_blank">есть видео</a></strong>!</p>
+  <p>Далее мы нашли размах вариации <img align="absmiddle" width="196" height="24" src="v/kombinacionnaya_gruppirovka_clip_image065.gif"> млн. руб. и длину  каждого интервала <img align="absmiddle" width="108" height="41" src="v/kombinacionnaya_gruppirovka_clip_image067.gif"> млн. руб., после чего  у нас получилось 5 групп предприятий:<br>
+      <img align="absmiddle" width="649" height="316" src="v/kombinacionnaya_gruppirovka_clip_image069.jpg"></p>
+  <p>Теперь в каждой группе нужно выделить подгруппы, условно  говоря, предприятия с небольшой, средней и высокой прибылью (3 интервала по  условию). Для этого берём <u>исходные</u> значения признака-результата  (прибыли) и сортируем их по возрастанию. Для компактности расположу  упорядоченные значения в три колонки:<br>
+      <img align="absmiddle" width="182" height="226" src="v/kombinacionnaya_gruppirovka_clip_image071.jpg"><br>
+    С простейшей экселевской сортировкой, полагаю, проблем уже  ни у кого нет. А если таки есть, то гляньте, например, <strong><a href="https://youtu.be/qSJJzNIFY-M" target="_blank">тут</a></strong>. Я зануда, в полезном смысле этого слова :)</p>
+  <p>Вычислим размах вариации: <img align="absmiddle" width="221" height="25" src="v/kombinacionnaya_gruppirovka_clip_image073.gif"> млн. руб. и длину  каждого интервала: <img align="absmiddle" width="129" height="48" src="v/kombinacionnaya_gruppirovka_clip_image075.gif">,… ай, как удачно разделилось! В результате получилось три  интервала прибыли: 12,1-14,6; 14,6-17,1 и 17,1-19,6 млн. руб. </p>
+  <p>Теперь в <em>групповой  таблице</em> красными галочками помечаем предприятия 1-го интервала, зелёными –  предприятия 2-го интервала и синими – 3-го интервала:<br>
+      <img align="absmiddle" width="644" height="313" src="v/kombinacionnaya_gruppirovka_clip_image077.jpg"></p>
+  <p>По каждой из 5 групп подсчитываем количество предприятий с  небольшой <em>(красной)</em>, средней <em>(зелёной)</em> и высокой <em>(синей)</em> прибылью. Результаты сведём в <em>комбинационную таблицу</em>, при этом значения признака-фактора удобно  расположить по горизонтали в «шапке» таблицы, а значения признака-результата –  слева по вертикали:<br>
+      <img align="absmiddle" width="428" height="113" src="v/kombinacionnaya_gruppirovka_clip_image079.jpg"><br>
+    <br>
+    Следует заметить, что построение комбинационной группировки  можно автоматизировать (например, в MS Excel), но в простейших учебных примерах проще выполнить ручной  подсчёт частот.</p>
+  <p>Да, всем ли понятны значения (частоты) в серой области?  Частота <img align="absmiddle" width="47" height="23" src="v/kombinacionnaya_gruppirovka_clip_image081.gif"> означает, что у нас  есть два предприятия  с выпуском  продукции 53-65 млн. руб. и невысокой прибылью (12,1-14,6 млн. руб.). Частота <img align="absmiddle" width="48" height="24" src="v/kombinacionnaya_gruppirovka_clip_image083.gif"> означает, что в  выборке четыре предприятия  с выпуском  продукции 77-89 млн. руб. и высокой прибылью (17,1-19,6 млн. руб.).</p>
+  <p>Для самоконтроля подсчитываем суммы по серым столбцам: <img align="absmiddle" width="185" height="23" src="v/kombinacionnaya_gruppirovka_clip_image085.gif"> <img align="absmiddle" width="97" height="24" src="v/kombinacionnaya_gruppirovka_clip_image087.gif">, <img align="absmiddle" width="140" height="24" src="v/kombinacionnaya_gruppirovka_clip_image089.gif">, всего: <img align="absmiddle" width="189" height="27" src="v/kombinacionnaya_gruppirovka_clip_image091.gif"> предприятий. Результаты  заносим в нижнюю строку <em>(см. таблицу  ниже)</em>.</p>
+  <p>И самое интересное – суммы по серым строкам:<br>
+      <img align="absmiddle" width="91" height="23" src="v/kombinacionnaya_gruppirovka_clip_image093.gif"> предприятий с  небольшой прибылью;<br>
+      <img align="absmiddle" width="148" height="23" src="v/kombinacionnaya_gruppirovka_clip_image095.gif"> предприятий со средней  прибылью;<br>
+      <img align="absmiddle" width="112" height="24" src="v/kombinacionnaya_gruppirovka_clip_image097.gif"> предприятий с высокой  прибылью.</p>
+  <p>Всего: <img align="absmiddle" width="173" height="27" src="v/kombinacionnaya_gruppirovka_clip_image099.gif">
+, что и требовалось проверить. Результаты заносим в правый  столбец. Таким образом, итоговая комбинационная таблица выглядит следующим  образом:<br>
+      <img align="absmiddle" width="519" height="141" src="v/kombinacionnaya_gruppirovka_clip_image101.jpg"></p>
+  <p>Сделаем выводы. На основании чего? Смотрим, как  располагаются <em>частоты</em> (числа в серой области).</p>
+  <p>Если частоты имеют  тенденцию располагаться по диагонали <strong>от  левого верхнего до правого нижнего угла</strong>, то между признаками существует <em>прямая корреляционная зависимость</em> («чем  больше, тем больше»). Это наш случай – по таблице хорошо видно, что с  увеличением выпуска продукции растут и прибыли предприятий.</p>
+  <p>Если частоты имеют тенденцию располагаться по диагонали <strong>от левого нижнего до правого верхнего угла</strong>,  то между признаками существует <em>обратная  корреляционная зависимость</em> («чем больше, тем меньше»).</p>
+  <p>И, наконец, если частоты расположены хаотично, без явной  закономерности, то корреляционная зависимость отсутствует либо является слабой.</p>
+  <p>Задание выполнено.</p>
+  <p>И здесь опять возникает вопрос: насколько СИЛЬНО влияет  признак-фактор на признак-результат? Ответ  на этот вопрос дают<strong> <a href="empiricheskie_pokazateli.html">эмпирические показатели</a></strong>,  о которых мы поговорим на следующем уроке, ну а пока аналогичное задание для  самостоятельного решения:</p>
+  <p><u>Пример 64</u></p>
+  <p>Известны <strong><a href="files/u/k_zadache_64.xls">выборочные  данные</a></strong> по 50 предприятиям одной отрасли – дебиторская задолженность (млн.  руб.) и соответствующие дивиденды, начисленные по результатам деятельности  (млн. руб.).</p>
+  <p><strong><em>Справка:</em></strong><em> дебиторская задолженность  – это то, что предприятию должны юридические и физические лица.</em></p>
+  <p>Определить признак-фактор и признак-результат и высказать  предположение о наличии и направлении корреляционной зависимости. Проверить  выдвинутое предположение, выполнив комбинационную группировку, при этом значения  признака-фактора следует разделить на 6 <strong><a href="gruppirovka_dannyh.html">равных  интервалов</a></strong>, а значения признака результата – на 5 групп с <strong><a href="gruppirovka_dannyh.html">одинаковым количеством</a></strong> предприятий в  каждой. Сделать выводы.</p>
+  <p>…Как проверить предположение? Пока что визуально. Строим комбинационную  таблицу и смотрим, по диагонали ли располагаются частоты, и если да, то по  какой. Все расклады приведены в конце предыдущего примера.<br>
+    <br>
+    Решаем <a href="files/u/k_zadache_64.xls">прямо в MS Excel</a>! <strong>И не ленимся – это задачи из реальных  контрольных работ!</strong> Образец для сверки совсем близко, после чего переходим к  рассмотрению <strong><a href="empiricheskie_pokazateli.html">эмпирических показателей</a></strong>,  где речь зайдёт как раз о силе корреляционной зависимости.</p>
+  <p><u>Решения и ответы:</u></p>
+  <p><strong><em>Пример 64.</em></strong><em> <strong>Решение: </strong>чем выше дебиторская  задолженность предприятия, тем меньше у него свободных средств, которые могут  быть направлены на выплату дивидендов, и, соответственно, тем меньше они могут  быть. Таким образом, <img align="absmiddle" width="19" height="17" src="v/kombinacionnaya_gruppirovka_clip_image006_0001.gif">– дебиторская задолженность – признак-фактор, а <img align="absmiddle" width="15" height="17" src="v/kombinacionnaya_gruppirovka_clip_image008_0001.gif"> – начисленные  дивиденды – признак-результат. Предполагаемая корреляционная зависимость <img align="absmiddle" width="15" height="17" src="v/kombinacionnaya_gruppirovka_clip_image008_0002.gif"> от <img align="absmiddle" width="19" height="17" src="v/kombinacionnaya_gruppirovka_clip_image006_0002.gif">– обратная (чем больше задолженность, тем в среднем могут  быть меньше дивиденды).<strong></strong></em></p>
+  <p><em>Проверим выдвинутое  предположение, построив комбинационную группировку. Упорядочим предприятия по  возрастанию признака-фактора (дебиторской задолженности):</em><br>
+      <em><img align="absmiddle" width="640" height="266" src="v/kombinacionnaya_gruppirovka_clip_image103.jpg"></em></p>
+  <p><em>Вычислим размах  вариации: <img align="absmiddle" width="197" height="24" src="v/kombinacionnaya_gruppirovka_clip_image105.gif"> млн. руб. По условию,  значения признака-фактора нужно разбить на <img align="absmiddle" width="43" height="24" src="v/kombinacionnaya_gruppirovka_clip_image107.gif"> интервалов равной  длины, таким образом, длина каждого интервала составит <img align="absmiddle" width="112" height="45" src="v/kombinacionnaya_gruppirovka_clip_image109.gif"> млн. руб. В результате  получаем следующие группы:</em><br>
+      <em><img align="absmiddle" width="671" height="332" src="v/kombinacionnaya_gruppirovka_clip_image111.jpg"></em></p>
+  <p><em>Контроль: <img align="absmiddle" width="237" height="27" src="v/kombinacionnaya_gruppirovka_clip_image113.gif"></em></p>
+  <p><em>Проведём независимую  сортировку дивидендов по возрастанию:</em><br>
+      <em><img align="absmiddle" width="309" height="245" src="v/kombinacionnaya_gruppirovka_clip_image115.jpg"></em></p>
+  <p><em>По условию, значения  признака-результата следуют разбить на 5 групп с равным количеством предприятий  в каждой, что и сделано в вышеприведённой таблице – в каждой группе у нас по <img align="absmiddle" width="53" height="41" src="v/kombinacionnaya_gruppirovka_clip_image117.gif"> предприятий. В  результате получаем 5 интервалов разной длины, при этом внутренние границы  интервалов находим как среднее арифметическое «стыковых» значений:</em><br>
+      <em><img align="absmiddle" width="625" height="41" src="v/kombinacionnaya_gruppirovka_clip_image119.gif"></em><br>
+      <em>В групповой таблице  (см. ниже) ВНИМАТЕЛЬНО отмечаем:</em></p>
+  <p><em>– красным цветом – предприятия  с дивидендами 19,57 - 19,88 млн. руб.;</em><br>
+      <em>– синим цветом –  предприятия с дивидендами 19,88 - 20,095 млн. руб.;</em><br>
+      <em>– зелёным цветом –  предприятия с дивидендами 20,095 - 20,25 млн. руб.;</em><br>
+      <em>– фиолетовым цветом –  предприятия с дивидендами 20,25 - 20,415 млн. руб.;</em><br>
+      <em>– и оранжевым цветом –  предприятия с дивидендами 20,415 - 20,83 млн. руб.</em></p>
+  <p><em><img align="absmiddle" width="624" height="309" src="v/kombinacionnaya_gruppirovka_clip_image121.jpg"></em></p>
+  <p><em>По каждой из 6 групп  подсчитываем количество красных, синих, зелёных, фиолетовых и оранжевых  предприятий, результаты заносим в комбинационную таблицу:</em><br>
+      <em><img align="absmiddle" width="622" height="181" src="v/kombinacionnaya_gruppirovka_clip_image123.jpg"></em></p>
+  <p><em>И <strong>обязательно проверка</strong>: по каждому серому столбцу подсчитываем суммы  и убеждаемся, что получаются корректные значения <img align="absmiddle" width="16" height="24" src="v/kombinacionnaya_gruppirovka_clip_image125.gif"> (нижняя строка). По  каждой серой строке тоже подсчитываем суммы, получая равные значения <img align="absmiddle" width="21" height="25" src="v/kombinacionnaya_gruppirovka_clip_image127.gif"> (правый столбец). Если  где-то что-то «не сходится», значит, допущена ошибка по невнимательности.</em></p>
+  <p><em>Частоты имеют тенденцию  располагаться по диагонали от левого нижнего к правому верхнему углу, что  говорит о наличии обратной корреляционной зависимости <img align="absmiddle" width="15" height="17" src="v/kombinacionnaya_gruppirovka_clip_image008_0003.gif"> – начисленных  дивидендов от <img align="absmiddle" width="19" height="17" src="v/kombinacionnaya_gruppirovka_clip_image006_0003.gif"> – дебиторской  задолженности (чем больше задолженность, тем в среднем меньше дивиденды).</em>  </p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1047 @@
+<html>
+<head>
+<title>Векторы для чайников. Действия с векторами. Координаты вектора.
+
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="векторы, для чайников, аналитическая геометрия, векторы на плоскости, векторы в пространстве, определения вектора, действия с векторами, правила сложения векторов, правило треугольника, умножение вектора на число, подробно, доступно, просто, легко, понятно, координаты вектора, ортонормированный базис, разложение по базису, действия с координатами, составить вектор по двум точкам, длина вектора, примеры решений, образцы решений, задачи, длина отрезка, действия  с в векторами в координатах">
+<meta name="Description" content="Аналитическая геометрия? Легко!">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Векторы для чайников. Действия с векторами.<br>
+Координаты вектора. Простейшие задачи с векторами</h1><br>
+  
+  <p>Наконец-то у меня добрались руки до обширной и долгожданной  темы <strong>аналитической геометрии</strong>. Сначала  немного о данном разделе высшей математики…. Наверняка вам сейчас вспомнился  курс школьной геометрии с многочисленными теоремами, их доказательствами,  чертежами и т.д. Что скрывать, нелюбимый и часто малопонятный предмет для  значительной доли учеников. Аналитическая геометрия, как ни странно, может  показаться более интересной и доступной. Что означает прилагательное  «аналитическая»? На ум сразу приходят два штампованных математических оборота:  «графический метод решения» и «аналитический метод решения». <em>Графический метод</em>, понятно, связан с  построением графиков, чертежей. <em>Аналитический </em>же<em> метод</em> предполагает решение  задач <em>преимущественно</em> посредством алгебраических  действий. В этой связи алгоритм решений практически всех задач аналитической  геометрии  прост и прозрачен, зачастую  достаточно аккуратно применить нужные формулы – и ответ готов! Нет, конечно,  совсем без чертежей тут не обойдется, к тому же для лучшего понимания материала  я постараюсь приводить их сверх необходимости.</p>
+  <p>Открываемый курс уроков по геометрии не претендует на  теоретическую полноту, он ориентирован на решение практических задач. Я включу  в свои лекции только то, что с моей точки зрения, является важным в  практическом плане. Если вам необходима более полная справка по какому-либо  подразделу, рекомендую следующую вполне доступную литературу:</p>
+  <p>1) Вещь, с которой, без шуток, знакомо несколько поколений: <strong>Школьный учебник по геометрии</strong>, авторы – <em>Л.С. Атанасян и Компания</em>. Сия вешалка  школьной раздевалки уже выдержала 20 (!) переизданий, что, конечно, не  является пределом. </p>
+  <p>2) <strong>Геометрия в 2  томах</strong>. Авторы <em>Л.С. Атанасян, Базылев  В.Т</em>. Это литература для высшей школы, вам потребуется <strong>первый том</strong>. Из моего поля зрения могут выпадать редко встречающиеся  задачи, и учебное пособие окажет неоценимую помощь.</p>
+  <p>Из инструментальных средств предлагаю собственную разработку – <strong><a href="matematicheskie_formuly.html#gk" target="_blank" >программный  комплекс</a></strong> по аналитической геометрии, который значительно упростит жизнь и  сэкономит массу времени.</p>
+  <p>Предполагается, что читатель знаком с базовыми  геометрическими понятиями и фигурами: точка, прямая, плоскость, треугольник,  параллелограмм, параллелепипед, куб и т.д. Желательно помнить некоторые  теоремы, хотя бы теорему Пифагора, привет второгодникам)</p>
+  <p>А сейчас мы последовательно рассмотрим: понятие вектора,  действия с векторами, координаты вектора. Далее рекомендую прочитать<strong> важнейшую статью</strong> <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение векторов</a></strong>, а также  <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость векторов.  Базис векторов</a></strong> и <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное  и смешанное произведение векторов</a></strong>. Не лишней будет и локальная задача – <a href="delenie_otrezka_v_dannom_otnoshenii.html">Деление  отрезка в данном отношении</a>. На основе вышеуказанной информации можно  освоить <strong><a href="uravnenie_pryamoi_na_ploskosti.html">уравнение прямой на плоскости</a></strong> с <strong><a href="zadachi_s_pryamoi_na_ploskosti.html">простейшими  примерами решений</a></strong>, что позволит <strong><a href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">научиться  решать задачи по геометрии</a></strong>. Также полезны следующие статьи: <strong><a href="uravnenie_ploskosti.html">Уравнение плоскости в пространстве</a></strong>, <strong><a href="uravnenija_pryamoi_v_prostranstve.html">Уравнения прямой в пространстве</a></strong>, <a href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи на прямую и плоскость</a>, другие разделы аналитической геометрии. Естественно, попутно будут  рассматриваться типовые задания.</p>
+  <p class=classalert>Более того, по материалам сайта создана книга!</p>
+  <p>...да, <a href="http://mathprofi.com/knigi_i_kursy/angem.html">это свершилось</a>! – освойте азы теории и научитесь решать в кратчайшие сроки! Спасибо за поддержку проекта.</p>
+  <br>
+  <h2><strong>Понятие вектора.  Свободный вектор</strong></h2>
+  <p>Сначала повторим школьное определение вектора. <strong>Вектором</strong> называется <u>направленный</u> отрезок, для которого указано его начало и конец:<br>
+      <img align="absmiddle" width="231" height="131" src="d/vektory_dlya_chainikov_clip_image002.jpg" alt="Понятие вектора. Определение вектора"><br>
+    В данном случае началом отрезка является точка <img align="absmiddle" width="16" height="17" src="d/vektory_dlya_chainikov_clip_image004.gif">, концом отрезка – точка <img align="absmiddle" width="16" height="17" src="d/vektory_dlya_chainikov_clip_image006.gif">. Сам вектор обозначен через <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image008.gif">. <strong>Направление</strong> имеет  существенное значение, если переставить стрелку в другой конец отрезка, то  получится вектор <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image010.gif">, и это уже <strong>совершенно  другой вектор</strong>. Понятие вектора удобно отождествлять с движением физического  тела: согласитесь, зайти в двери института или выйти из дверей института – это  совершенно разные вещи. </p>
+  <p>Отдельные точки плоскости, пространства удобно считать так  называемым <em>нулевым вектором</em> <img align="absmiddle" width="13" height="21" src="d/vektory_dlya_chainikov_clip_image012.gif">. У такого вектора конец и начало совпадают.</p>
+  <p><strong><em>!!! Примечание:</em></strong><em> Здесь и  далее можете считать, что векторы лежат в одной плоскости или можете считать, что  они расположены в пространстве – суть излагаемого материала справедлива и для  плоскости и для пространства.</em></p>
+  <p><strong>Обозначения:</strong> Многие  сразу обратили внимание на палочку без стрелочки в обозначении <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image008_0000.gif"> и сказали, там же  вверху еще стрелку ставят! Верно, можно записать со стрелкой: <img align="absmiddle" width="27" height="28" src="d/vektory_dlya_chainikov_clip_image014.gif">, но допустима и <strong>запись <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image008_0001.gif">, которую я буду использовать в дальнейшем</strong>. Почему?  Видимо, такая привычка сложилась из практических соображений, слишком  разнокалиберными и мохнатыми получались мои стрелки в школе и ВУЗе. В учебной  литературе иногда вообще не заморачиваются клинописью, а выделяют буквы жирным  шрифтом: <img align="absmiddle" width="28" height="17" src="d/vektory_dlya_chainikov_clip_image016.gif">, подразумевая тем самым, что это вектор.</p>
+  <p>То была стилистика, а сейчас о способах записи векторов:</p>
+  <p>1) Векторы можно записать двумя большими латинскими буквами:<br>
+      <img align="absmiddle" width="100" height="25" src="d/vektory_dlya_chainikov_clip_image018.gif"> и так далее. При этом  первая буква <strong>обязательно</strong> обозначает точку-начало  вектора, а вторая буква – точку-конец вектора.</p>
+    <p>
+    2) Векторы также записывают маленькими латинскими буквами:<br>
+  <img align="absmiddle" width="63" height="24" src="d/vektory_dlya_chainikov_clip_image020.gif"> В частности, наш  вектор <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image008_0002.gif"> можно для краткости  переобозначить маленькой латинской буквой <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022.gif">.</p>
+  <p><strong>Длиной</strong> или <strong>модулем</strong> ненулевого вектора <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image008_0003.gif"> называется длина  отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image024.gif">. Длина нулевого вектора <img align="absmiddle" width="13" height="21" src="d/vektory_dlya_chainikov_clip_image012_0000.gif"> равна нулю. Логично.</p>
+  <p>Длина вектора обозначается знаком модуля: <img align="absmiddle" width="31" height="32" src="d/vektory_dlya_chainikov_clip_image026.gif">, <img align="absmiddle" width="19" height="27" src="d/vektory_dlya_chainikov_clip_image028.gif"></p>
+  <p>Как находить длину вектора мы узнаем (или повторим, для кого  как) чуть позже.</p>
+  <p>То были элементарные сведения о векторе, знакомые  всем школьникам. В аналитической же геометрии рассматривается так называемый <strong>свободный вектор</strong>.</p>
+  <p>Если совсем просто – <strong>вектор  можно отложить от любой точки</strong>:<br>
+      <img align="absmiddle" width="445" height="249" src="d/vektory_dlya_chainikov_clip_image030.jpg" alt="Равные векторы понимаются как свободный вектор"></p>
+  <p>Такие векторы мы привыкли называть равными (определение  равных векторов будет дано ниже), но чисто с математической точки зрения это  ОДИН И ТОТ ЖЕ ВЕКТОР или <strong>свободный  вектор</strong>. Почему свободный? Потому что в ходе решения задач вы можете  «пристроить» тот или иной «школьный» вектор в ЛЮБУЮ, нужную вам точку плоскости или  пространства. Это очень крутое свойство! Представьте направленный отрезок произвольной длины  и направления – его можно «клонировать» бесконечное количество раз и в любой точке  пространства, по сути, он существует ВЕЗДЕ. Есть такая студенческая присказка:  Каждому лектору в ж**у по вектору. Ведь не просто остроумная рифма, всё  почти корректно – направленный отрезок можно пристроить и туда. Но не спешите  радоваться, чаще страдают сами студенты =)</p>
+  <p>Итак, <strong>свободный  вектор</strong> – это <strong><u>множество</u></strong> одинаковых направленных отрезков. Школьное  определение вектора, данное в начале параграфа: «Вектором называется направленный отрезок…», подразумевает <u>конкретный</u>  направленный отрезок, взятый из данного множества, который привязан к  определённой точке плоскости или пространства.</p>
+  <p>Следует отметить, что с точки зрения физики понятие  свободного вектора в общем случае некорректно, и точка приложения  имеет  значение. Действительно, прямой удар одинаковой силы по носу или по лбу <s>хватит  развивать мой дурацкий пример</s> влёчет разные последствия. Впрочем, <em>несвободные</em> векторы <a href="teoriya_polya.html">встречаются</a> и в курсе вышмата (не ходите туда :)).</p>
+  <p>Далее, если не оговаривается иное, речь пойдёт только о  свободных векторах. </p>
+  <br>
+  <h2><strong>Действия с векторами.  Коллинеарность векторов </strong></h2>
+  <p>В школьном курсе геометрии рассматривается ряд действий и  правил с векторами: <em>сложение по правилу  треугольника, сложение по правилу параллелограмма, правило разности векторов,  умножения вектора на число, скалярное произведение векторов и др.</em> Для  затравки повторим два правила, которые особенно актуальны для решения задач  аналитической геометрии.</p>
+  <h3><strong>Правило сложения векторов  по правилу треугольников</strong></h3>
+  <p>Рассмотрим два произвольных ненулевых вектора <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0000.gif"> и <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032.gif">:<br>
+      <img align="absmiddle" width="181" height="183" src="d/vektory_dlya_chainikov_clip_image034.jpg" alt="Как сложить векторы"></p>
+  <p>Требуется найти сумму данных векторов. В силу того, что все  векторы считаются свободными, отложим вектор <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032_0000.gif"> от <em>конца</em> вектора <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0001.gif">:<br>
+      <img align="absmiddle" width="233" height="139" src="d/vektory_dlya_chainikov_clip_image038.jpg" alt="Сложение векторов по правилу треугольника"></p>
+  <p>Суммой векторов <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0002.gif"> и <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032_0001.gif"> является вектор <img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image040.gif">. Для лучшего понимания правила в него целесообразно вложить  физический смысл: пусть некоторое тело совершило путь по вектору <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0003.gif">, а затем по вектору <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032_0002.gif">. Тогда сумма векторов <img align="absmiddle" width="39" height="21" src="d/vektory_dlya_chainikov_clip_image042.gif"> представляет собой  вектор результирующего перемещения <img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image044.gif"> с началом в точке  отправления и концом в точке прибытия. Аналогичное правило формулируется для  суммы любого количества векторов. Как говорится, тело может пройти свой путь  сильно поддатым по зигзагу, а может и на автопилоте – по результирующему  вектору суммы.</p>
+  <p>Кстати, если вектор <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032_0003.gif"> отложить от <em>начала</em> вектора <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0004.gif">, то получится эквивалентное <em>правило параллелограмма</em> сложения векторов. </p>
+  <h3><strong>Умножение вектора на  число</strong></h3>
+  <p>Сначала о коллинеарности векторов. Два вектора называются <strong>коллинеарными</strong>, если они лежат на одной  прямой или на параллельных прямых. Грубо говоря, речь идёт о параллельных  векторах. Но применительно к ним всегда используют прилагательное  «коллинеарные». </p>
+  <p>Представьте два коллинеарных вектора. Если стрелки данных  векторов направлены в одинаковом направлении, то такие векторы называются <strong>сонаправленными</strong>. Если стрелки смотрят в  разные стороны, то векторы будут <strong>противоположно  направлены</strong>. </p>
+  <p><strong>Обозначения:</strong> коллинеарность векторов записывают привычным значком параллельности: <img align="absmiddle" width="37" height="24" src="d/vektory_dlya_chainikov_clip_image046.gif">, при этом возможна детализация: <img align="absmiddle" width="51" height="21" src="d/vektory_dlya_chainikov_clip_image048.gif"> (векторы сонаправлены)  или <img align="absmiddle" width="51" height="21" src="d/vektory_dlya_chainikov_clip_image050.gif"> (векторы направлены  противоположно).</p>
+  <p><strong>Произведением</strong> ненулевого вектора <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0005.gif"> на число <img align="absmiddle" width="15" height="19" src="d/vektory_dlya_chainikov_clip_image052.gif"> является такой вектор <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032_0004.gif">, длина которого равна <img align="absmiddle" width="41" height="27" src="d/vektory_dlya_chainikov_clip_image055.gif">, причём векторы  <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022_0006.gif"> и <img align="absmiddle" width="15" height="21" src="d/vektory_dlya_chainikov_clip_image032_0005.gif"> сонаправлены при <img align="absmiddle" width="39" height="19" src="d/vektory_dlya_chainikov_clip_image058.gif"> и противоположно  направлены при <img align="absmiddle" width="39" height="19" src="d/vektory_dlya_chainikov_clip_image060.gif">.</p>
+  <p>Правило умножения вектора на число легче понять с помощью  рисунка:<br>
+      <img align="absmiddle" width="304" height="306" src="d/vektory_dlya_chainikov_clip_image062.jpg" alt="Умножение вектора на число"></p>
+  <p>Разбираемся более детально:</p>
+  <p>1) Направление. Если множитель <img align="absmiddle" width="15" height="19" src="d/vektory_dlya_chainikov_clip_image052_0000.gif"> отрицательный,  то вектор <strong>меняет направление</strong> на противоположное.</p>
+  <p>2) Длина. Если множитель заключен в пределах <img align="absmiddle" width="72" height="19" src="d/vektory_dlya_chainikov_clip_image065.gif"> или <img align="absmiddle" width="60" height="19" src="d/vektory_dlya_chainikov_clip_image067.gif">, то длина вектора <u>уменьшается</u>. Так, длина вектора <img align="absmiddle" width="53" height="41" src="d/vektory_dlya_chainikov_clip_image069.gif"> в два раза меньше  длины вектора <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image071.gif">. Если множитель <img align="absmiddle" width="15" height="19" src="d/vektory_dlya_chainikov_clip_image052_0001.gif"> по модулю больше  единицы, то длина вектора <u>увеличивается</u> в <img align="absmiddle" width="15" height="19" src="d/vektory_dlya_chainikov_clip_image052_0002.gif"> раз.</p>
+  <p>3) Обратите внимание, что <strong>все векторы коллинеарны</strong>, при этом один вектор выражен через другой,  например, <img align="absmiddle" width="56" height="19" src="d/vektory_dlya_chainikov_clip_image073.gif">. <strong>Обратное тоже  справедливо</strong>: если один вектор можно выразить через другой, то такие векторы  обязательно  коллинеарны. Таким образом: <strong>если мы умножаем вектор на число, то  получится коллинеарный</strong> (по отношению к исходному) <strong>вектор</strong>. </p>
+  <p>4) Векторы <img align="absmiddle" width="45" height="24" src="d/vektory_dlya_chainikov_clip_image075.gif"> сонаправлены. Векторы <img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image040_0000.gif"> и <img align="absmiddle" width="16" height="21" src="d/vektory_dlya_chainikov_clip_image078.gif"> также сонаправлены.  Любой вектор первой группы противоположно направлен по отношению к любому  вектору второй группы. </p>
+  <h3><strong>Какие векторы  являются равными?</strong></h3>
+  <p><strong>Два вектора равны,  если они сонаправлены и имеют одинаковую длину</strong>. Заметьте, что  сонаправленность подразумевает коллинеарность векторов. Определение будет неточным  (избыточным), если сказать: «Два вектора равны, если они коллинеарны,  сонаправлены и имеют одинаковую длину».</p>
+  <p>С точки зрения понятия свободного вектора, равные векторы –  это один и тот же вектор, о чём уже шла речь в предыдущем параграфе.</p>
+  <br>
+  <h2><strong>Координаты вектора на  плоскости и в пространстве</strong></h2>
+  <p>Первым пунктом рассмотрим векторы на плоскости. Изобразим декартову  прямоугольную систему координат и от начала координат отложим <strong>единичные</strong> векторы <img align="absmiddle" width="11" height="20" src="d/vektory_dlya_chainikov_clip_image080.gif"> и <img align="absmiddle" width="13" height="23" src="d/vektory_dlya_chainikov_clip_image082.gif">:</p>
+  <p><img align="absmiddle" width="337" height="333" src="d/vektory_dlya_chainikov_clip_image084.jpg" alt="Прямоугольная система координат и ортонормированный базис плоскости"></p>
+  <p>Векторы <img align="absmiddle" width="11" height="20" src="d/vektory_dlya_chainikov_clip_image080_0000.gif"> и <img align="absmiddle" width="13" height="23" src="d/vektory_dlya_chainikov_clip_image082_0000.gif"> <strong>ортогональны</strong>. Ортогональны = Перпендикулярны. Рекомендую потихоньку  привыкать к терминам: вместо параллельности и перпендикулярности используем  соответственно слова <em>коллинеарность</em> и <em>ортогональность</em>.   </p>
+  <p><strong>Обозначение:</strong> ортогональность векторов записывают привычным значком перпендикулярности,  например: <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image088.gif">.</p>
+  <p>Рассматриваемые векторы называют <strong>координатными векторами</strong> или <strong>ортами</strong>.  Данные векторы образуют <strong>базис</strong> на  плоскости. Что такое базис, думаю, интуитивно многим понятно, более подробную  информацию можно найти в статье <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость векторов. Базис векторов</a></strong>.<strong> </strong>Простыми словами, базис и начало координат задают всю систему – это своеобразный  фундамент, на котором кипит полная и насыщенная геометрическая жизнь.</p>
+  <p>Иногда построенный базис называют <em>ортонормированным</em> базисом плоскости: «орто» – потому что  координатные векторы ортогональны, прилагательное «нормированный» означает  единичный, т.е. длины векторов базиса равны единице. </p>
+  <p><strong>Обозначение:</strong> базис  обычно записывают в круглых скобках, внутри которых <strong>в строгой последовательности</strong> перечисляются базисные векторы,  например: <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image090.gif">. Координатные векторы <strong>нельзя</strong> переставлять местами.</p>
+  <p><strong>Любой</strong> вектор <img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image092.gif"> плоскости <strong>единственным образом</strong> выражается в виде:<br>
+      <img align="absmiddle" width="101" height="23" src="d/vektory_dlya_chainikov_clip_image094.gif">, где <img align="absmiddle" width="36" height="23" src="d/vektory_dlya_chainikov_clip_image096.gif"> – <strong>числа</strong>, которые называются <strong>координатами  вектора</strong> в данном базисе. А само выражение <img align="absmiddle" width="101" height="23" src="d/vektory_dlya_chainikov_clip_image094_0000.gif"> называется <strong>разложением вектора </strong><img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image092_0000.gif"><strong> по базису</strong> <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image090_0000.gif">.</p>
+  <p>Ужин подан:</p>
+  <p><img align="absmiddle" width="439" height="452" src="d/vektory_dlya_chainikov_clip_image100.jpg" alt="Разложение векторов по базису на плоскости"></p>
+     <div id="primer"><p> <strong>!</strong> ВСЕМ настоятельно  рекомендую прочитать ВСЁ! </p>
+  <p>Начнем с первой буквы алфавита: <img align="absmiddle" width="76" height="23" src="d/vektory_dlya_chainikov_clip_image102.gif">. По чертежу хорошо видно, что при разложении вектора по  базису используются только что рассмотренные:<br>
+    1) правило умножения вектора на число: <img align="absmiddle" width="19" height="20" src="d/vektory_dlya_chainikov_clip_image104.gif"> и <img align="absmiddle" width="21" height="23" src="d/vektory_dlya_chainikov_clip_image106.gif">;<br>
+    2) сложение векторов по правилу треугольника: <img align="absmiddle" width="49" height="23" src="d/vektory_dlya_chainikov_clip_image108.gif">. </p>
+  <p>А теперь мысленно отложите вектор <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image071_0000.gif"> от любой другой точки  плоскости. Совершенно очевидно, что его разложение <img align="absmiddle" width="51" height="23" src="d/vektory_dlya_chainikov_clip_image111.gif"> будет «неотступно  следовать за ним». Вот она, свобода вектора – вектор «всё носит при себе». Это  свойство, разумеется, справедливо для любого вектора. Забавно, что сами  базисные (свободные) векторы <img align="absmiddle" width="27" height="23" src="d/vektory_dlya_chainikov_clip_image113.gif"> не обязательно  откладывать от начала координат, один можно нарисовать, например, слева внизу,  а другой – справа вверху, и от этого ничего не изменится! Правда, делать так не  нужно, поскольку преподаватель тоже проявит оригинальность и нарисует вам «зачтено»  в неожиданном месте.</p>
+  <p>Векторы <img align="absmiddle" width="45" height="21" src="d/vektory_dlya_chainikov_clip_image115.gif">, <img align="absmiddle" width="55" height="23" src="d/vektory_dlya_chainikov_clip_image117.gif"> иллюстрируют в  точности правило умножения вектора на число, вектор <img align="absmiddle" width="45" height="21" src="d/vektory_dlya_chainikov_clip_image115_0000.gif"> сонаправлен с базисным  вектором <img align="absmiddle" width="11" height="20" src="d/vektory_dlya_chainikov_clip_image119.gif">, вектор <img align="absmiddle" width="55" height="23" src="d/vektory_dlya_chainikov_clip_image117_0000.gif"> направлен противоположно  по отношению к базисному вектору <img align="absmiddle" width="13" height="23" src="d/vektory_dlya_chainikov_clip_image122.gif">.  У данных векторов  одна из координат равна нулю, дотошно можно записать так:<br>
+      <img align="absmiddle" width="85" height="24" src="d/vektory_dlya_chainikov_clip_image124.gif"><br>
+      <img align="absmiddle" width="84" height="23" src="d/vektory_dlya_chainikov_clip_image126.gif"><br>
+    А базисные векторы, к слову, так: <img align="absmiddle" width="191" height="23" src="d/vektory_dlya_chainikov_clip_image128.gif"> (по сути, они  выражаются сами через себя).</p>
+  <p>И, наконец: <img align="absmiddle" width="69" height="24" src="d/vektory_dlya_chainikov_clip_image130.gif">, <img align="absmiddle" width="83" height="23" src="d/vektory_dlya_chainikov_clip_image132.gif">. Кстати, что такое вычитание векторов, и почему я не  рассказал о правиле вычитания? Где-то в линейной алгебре, уже не помню где, я  отмечал, что вычитание – это частный случай сложения. Так, разложения векторов  «дэ» и «е» преспокойно записываются в виде суммы: <img align="absmiddle" width="89" height="24" src="d/vektory_dlya_chainikov_clip_image134.gif">, <img align="absmiddle" width="104" height="23" src="d/vektory_dlya_chainikov_clip_image136.gif">. Проследите по чертежу, как чётко в этих ситуациях работает  старое доброе сложение векторов по правилу треугольника. </p>
+  <p>Рассмотренное разложение вида <img align="absmiddle" width="101" height="23" src="d/vektory_dlya_chainikov_clip_image094_0001.gif"> иногда называют  разложением вектора <em>в системе орт</em> (т.е. в системе единичных векторов). Но это не единственный способ записи  вектора, распространён следующий вариант:</p>
+  <p><img align="absmiddle" width="67" height="121" src="d/vektory_dlya_chainikov_clip_image139.gif"> Или со знаком  равенства: <img align="absmiddle" width="83" height="121" src="d/vektory_dlya_chainikov_clip_image141.gif"></p>
+  <p>Сами базисные векторы записываются так: <img align="absmiddle" width="43" height="23" src="d/vektory_dlya_chainikov_clip_image143.gif"> и <img align="absmiddle" width="44" height="23" src="d/vektory_dlya_chainikov_clip_image145.gif"></p>
+  <p>То есть, в круглых скобках указываются координаты вектора. В  практических задачах используются все три варианта записи.</p>
+  <p>Сомневался, говорить ли, но всё-таки скажу: <strong>координаты векторов переставлять нельзя</strong>. <strong>Строго на первом месте</strong> записываем  координату, которая соответствует единичному вектору <img align="absmiddle" width="11" height="20" src="d/vektory_dlya_chainikov_clip_image119_0000.gif">, <strong>строго на втором  месте</strong> записываем координату, которая соответствует единичному вектору <img align="absmiddle" width="13" height="23" src="d/vektory_dlya_chainikov_clip_image122_0000.gif">. Действительно, <img align="absmiddle" width="44" height="21" src="d/vektory_dlya_chainikov_clip_image148.gif"> и <img align="absmiddle" width="48" height="21" src="d/vektory_dlya_chainikov_clip_image150.gif"> – это ведь два разных  вектора. </p></div>
+  <p>С координатами на плоскости разобрались. Теперь рассмотрим  векторы в трехмерном пространстве, здесь практически всё так же! Только добавится  ещё одна координата. Трехмерные чертежи выполнять тяжко, поэтому ограничусь  одним вектором, который для простоты отложу от начала координат:<br>
+      <img align="absmiddle" width="367" height="360" src="d/vektory_dlya_chainikov_clip_image152.jpg" alt="Разложение векторов по базису в пространстве"></p>
+  <p>Перед вами <em>ортонормированный</em> базис <img align="absmiddle" width="55" height="24" src="d/vektory_dlya_chainikov_clip_image154.gif"> трехмерного  пространства и прямоугольная система координат, единичные векторы <img align="absmiddle" width="44" height="24" src="d/vektory_dlya_chainikov_clip_image156.gif"> данного базиса попарно  ортогональны: <img align="absmiddle" width="79" height="24" src="d/vektory_dlya_chainikov_clip_image158.gif"> и <img align="absmiddle" width="41" height="24" src="d/vektory_dlya_chainikov_clip_image160.gif">. Ось <img align="absmiddle" width="28" height="19" src="d/vektory_dlya_chainikov_clip_image162.gif"> наклонена под углом 45  градусов только для того, чтобы складывалось визуальное впечатление  пространства. О том, как правильно выполнять плоские и трехмерные чертежи на  клетчатой бумаге, читайте в самом начале методички <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и свойства функций</a></strong>. </p>
+  <p><strong>Любой</strong> вектор <img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image092_0001.gif"> трехмерного  пространства можно <strong>единственным способом</strong> разложить по ортонормированному базису <img align="absmiddle" width="55" height="24" src="d/vektory_dlya_chainikov_clip_image154_0000.gif">: <br>
+      <img align="absmiddle" width="148" height="25" src="d/vektory_dlya_chainikov_clip_image166.gif">, где <img align="absmiddle" width="56" height="24" src="d/vektory_dlya_chainikov_clip_image168.gif"> – координаты вектора <img align="absmiddle" width="13" height="17" src="d/vektory_dlya_chainikov_clip_image170.gif"> (числа) в данном  базисе.</p>
+  <p>Пример с картинки: <img align="absmiddle" width="109" height="24" src="d/vektory_dlya_chainikov_clip_image172.gif">. Давайте посмотрим, как здесь работают правила действий с  векторами. Во-первых, умножение вектора на число: <img align="absmiddle" width="20" height="20" src="d/vektory_dlya_chainikov_clip_image174.gif"> (красная стрелка), <img align="absmiddle" width="20" height="23" src="d/vektory_dlya_chainikov_clip_image176.gif"> (зеленая стрелка) и <img align="absmiddle" width="23" height="21" src="d/vektory_dlya_chainikov_clip_image178.gif"> (малиновая стрелка).  Во-вторых, перед вами пример сложения нескольких, в данном случае трёх,  векторов: <img align="absmiddle" width="81" height="24" src="d/vektory_dlya_chainikov_clip_image180.gif">.  Вектор суммы <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image071_0001.gif"> начинается в исходной  точке отправления (начало вектора <img align="absmiddle" width="20" height="20" src="d/vektory_dlya_chainikov_clip_image174_0000.gif">) и утыкается в итоговую точку прибытия (конец вектора <img align="absmiddle" width="23" height="21" src="d/vektory_dlya_chainikov_clip_image178_0000.gif">). </p>
+  <p>Все векторы трехмерного пространства, естественно, тоже  свободны, попробуйте мысленно отложить вектор <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image071_0002.gif"> от любой другой точки,  и вы поймёте, что его разложение <img align="absmiddle" width="81" height="24" src="d/vektory_dlya_chainikov_clip_image180_0000.gif">  «останется при нём».</p>
+  <p>Аналогично плоскому случаю, помимо записи <img align="absmiddle" width="109" height="24" src="d/vektory_dlya_chainikov_clip_image172_0000.gif"> широко используются версии   со скобками: <img align="absmiddle" width="64" height="21" src="d/vektory_dlya_chainikov_clip_image186.gif"> либо <img align="absmiddle" width="80" height="21" src="d/vektory_dlya_chainikov_clip_image188.gif">.</p>
+  <p>Если в разложении отсутствует один (или два) координатных  вектора, то вместо них ставятся нули. Примеры:<br>
+    вектор <img align="absmiddle" width="79" height="21" src="d/vektory_dlya_chainikov_clip_image190.gif"> (дотошно <img align="absmiddle" width="119" height="24" src="d/vektory_dlya_chainikov_clip_image192.gif">) – запишем <img align="absmiddle" width="71" height="24" src="d/vektory_dlya_chainikov_clip_image194.gif">;<br>
+    вектор <img align="absmiddle" width="79" height="24" src="d/vektory_dlya_chainikov_clip_image196.gif"> (дотошно <img align="absmiddle" width="116" height="24" src="d/vektory_dlya_chainikov_clip_image198.gif">) – запишем <img align="absmiddle" width="75" height="21" src="d/vektory_dlya_chainikov_clip_image200.gif">;<br>
+    вектор <img align="absmiddle" width="49" height="21" src="d/vektory_dlya_chainikov_clip_image202.gif"> (дотошно <img align="absmiddle" width="127" height="24" src="d/vektory_dlya_chainikov_clip_image204.gif">) – запишем <img align="absmiddle" width="64" height="24" src="d/vektory_dlya_chainikov_clip_image206.gif">.</p>
+  <p>Базисные векторы записываются следующим образом:<br>
+      <img align="absmiddle" width="61" height="73" src="d/vektory_dlya_chainikov_clip_image208.gif"></p>
+  <p>Вот, пожалуй, и все минимальные теоретические знания,  необходимые для решения задач аналитической геометрии. Возможно многовато  терминов и определений, поэтому чайникам рекомендую перечитать и осмыслить  данную информацию ещё раз. Да и любому читателю будет полезно время от времени  обращаться к базовому уроку для лучшего усвоения материала. Коллинеарность,  ортогональность, ортонормированный базис, разложение вектора – эти и другие понятия  будут часто использоваться в дальнейшем. Отмечу, что материалов сайта  недостаточно для сдачи теоретического зачета, коллоквиума по геометрии, так как  все теоремы (к тому же без доказательств) я аккуратно шифрую – в ущерб научному  стилю изложения, но плюсом к вашему пониманию предмета. Для получения  обстоятельной теоретической справки прошу следовать на поклон к профессору  Атанасяну.    </p>
+  <p>А мы переходим к практической части:</p><br>
+  <h2><strong>Простейшие задачи  аналитической геометрии.</strong><br>
+      <strong>Действия с векторами  в координатах</strong></h2>
+  <p>Задания, которые будут рассмотрены, крайне желательно научиться  решать на полном автомате, а формулы <strong>запомнить  наизусть</strong>, даже специально не запоминать, сами запомнятся =) Это  весьма важно, поскольку на простейших элементарных примерах базируются другие  задачи аналитической геометрии, и будет досадно тратить дополнительное время на  поедание пешек. Не нужно застёгивать верхние пуговицы на рубашке, многие вещи знакомы вам со школы.</p>
+  <p>Изложение материала пойдет параллельным курсом – и для  плоскости, и для пространства. По той причине, что все формулы… сами увидите.</p>
+  <h3><strong>Как найти вектор по  двум точкам?</strong></h3>
+  <p>Если даны две точки плоскости <img align="absmiddle" width="60" height="23" src="d/vektory_dlya_chainikov_clip_image002.gif"> и <img align="absmiddle" width="64" height="23" src="d/vektory_dlya_chainikov_clip_image004_0000.gif">, то вектор <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0000.gif"> имеет следующие  координаты:<br>
+      <img align="absmiddle" width="129" height="25" src="d/vektory_dlya_chainikov_clip_image008_0004.gif" alt="Как составить вектор по двум точкам на плоскости"></p>
+  <p>Если даны две точки пространства <img align="absmiddle" width="79" height="23" src="d/vektory_dlya_chainikov_clip_image010_0000.gif"> и <img align="absmiddle" width="84" height="23" src="d/vektory_dlya_chainikov_clip_image012_0001.gif">, то вектор <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0001.gif"> имеет следующие  координаты:<br>
+      <img align="absmiddle" width="177" height="25" src="d/vektory_dlya_chainikov_clip_image014_0000.gif" alt="Как составить вектор по двум точкам в пространстве"></p>
+  <p>То есть, <strong>из координат  конца вектора</strong> нужно вычесть соответствующие координаты <strong>начала вектора</strong>. </p>
+  <p><u>Задание:</u> Для тех же точек запишите формулы нахождения  координат вектора <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image016_0000.gif">. Формулы в конце урока.</p>
+  <p><u>Пример 1 </u></p>
+  <p>Даны две точки плоскости <img align="absmiddle" width="48" height="21" src="d/vektory_dlya_chainikov_clip_image018_0000.gif"> и <img align="absmiddle" width="57" height="21" src="d/vektory_dlya_chainikov_clip_image020_0000.gif">. Найти координаты вектора <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0002.gif"></p>
+  <p><strong>Решение:</strong> по соответствующей  формуле:<br>
+      <img align="absmiddle" width="192" height="25" src="d/vektory_dlya_chainikov_clip_image022_0007.gif"></p>
+  <p>Как вариант, можно было использовать следующую запись: <br>
+      <img align="absmiddle" width="187" height="25" src="d/vektory_dlya_chainikov_clip_image024_0000.gif"></p>
+  <p>Эстеты решат и так: <img align="absmiddle" width="233" height="25" src="d/vektory_dlya_chainikov_clip_image026_0000.gif"></p>
+  <p>Лично я привык к первой версии записи.</p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="69" height="25" src="d/vektory_dlya_chainikov_clip_image028_0000.gif"></p>
+  <p>По условию не требовалось строить чертежа (что характерно  для задач аналитической геометрии), но в целях пояснения некоторых моментов чайникам,  не поленюсь:<br>
+      <img align="absmiddle" width="336" height="233" src="d/vektory_dlya_chainikov_clip_image030_0000.jpg" alt="Координаты точек и координаты векторов"></p>
+  <p>Обязательно нужно понимать <strong>различие между координатами точек и координатами векторов</strong>:</p>
+  <p><strong>Координаты точек</strong> – это обычные координаты в прямоугольной системе координат. Откладывать точки на координатной плоскости, думаю, все  умеют ещё с 5-6 класса. Каждая точка обладает строгим местом на плоскости, и  перемещать их куда-либо нельзя.</p>
+  <p><strong>Координаты же вектора</strong> – это его разложение по базису <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image032_0006.gif">, в данном случае <img align="absmiddle" width="97" height="25" src="d/vektory_dlya_chainikov_clip_image034.gif">. Любой вектор является свободным, поэтому при желании или необходимости  мы легко можем отложить его от какой-нибудь другой точки плоскости (во избежание путаницы переобозначив,  например, через <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022.gif">). Интересно,  что для векторов можно вообще не строить оси, прямоугольную систему координат,  нужен лишь базис, в данном случае ортонормированный базис плоскости <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image032_0007.gif">.</p>
+  <p>Записи координат точек и координат векторов вроде бы схожи: <img align="absmiddle" width="180" height="25" src="d/vektory_dlya_chainikov_clip_image036.gif">, а <strong>смысл координат</strong> абсолютно <strong>разный</strong>, и вам следует  хорошо понимать эту разницу. Данное отличие, разумеется, справедливо и для  пространства.</p>
+  <p>Дамы и господа, набиваем руку:</p>
+  <p><u>Пример 2</u></p>
+  <p>а) Даны точки <img align="absmiddle" width="59" height="21" src="d/vektory_dlya_chainikov_clip_image038.gif"> и <img align="absmiddle" width="59" height="21" src="d/vektory_dlya_chainikov_clip_image040_0001.gif">. Найти векторы <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0003.gif"> и <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image016_0001.gif">.<br>
+    б) Даны точки <img align="absmiddle" width="109" height="21" src="d/vektory_dlya_chainikov_clip_image043.gif"> и <img align="absmiddle" width="48" height="21" src="d/vektory_dlya_chainikov_clip_image045.gif">. Найти векторы <img align="absmiddle" width="56" height="25" src="d/vektory_dlya_chainikov_clip_image047.gif"> и <img align="absmiddle" width="27" height="23" src="d/vektory_dlya_chainikov_clip_image049.gif">.<br>
+    в) Даны точки <img align="absmiddle" width="84" height="21" src="d/vektory_dlya_chainikov_clip_image051.gif"> и <img align="absmiddle" width="87" height="21" src="d/vektory_dlya_chainikov_clip_image053.gif">. Найти векторы <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image055_0000.gif"> и <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image057.gif">.<br>
+    г) Даны точки <img align="absmiddle" width="313" height="24" src="d/vektory_dlya_chainikov_clip_image059.gif">. Найти векторы <img align="absmiddle" width="112" height="27" src="d/vektory_dlya_chainikov_clip_image061.gif">.</p>
+  <p>Пожалуй, достаточно. Это примеры для самостоятельного  решения, постарайтесь ими не пренебрегать, окупится ;-). Чертежи делать не  нужно. Решения и ответы в конце урока.</p>
+  <p><strong>Что важно при решении  задач аналитической геометрии?</strong> Важно быть ПРЕДЕЛЬНО ВНИМАТЕЛЬНЫМ, чтобы не  допустить мастерскую ошибку «два плюс два равно нулю». Сразу извиняюсь, если  где ошибся =)</p>
+  <h3><strong>Как найти длину отрезка?</strong></h3>
+  <p>Длина, как уже отмечалось, обозначается знаком модуля.</p>
+  <p>Если даны две точки плоскости <img align="absmiddle" width="60" height="23" src="d/vektory_dlya_chainikov_clip_image002_0000.gif"> и <img align="absmiddle" width="64" height="23" src="d/vektory_dlya_chainikov_clip_image004_0001.gif">, то длину отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064.gif"> можно вычислить по  формуле <img align="absmiddle" width="195" height="31" src="d/vektory_dlya_chainikov_clip_image066.gif" alt="Формула длины отрезка на плоскости"></p>
+  <p>Если даны две точки пространства <img align="absmiddle" width="79" height="23" src="d/vektory_dlya_chainikov_clip_image010_0001.gif"> и <img align="absmiddle" width="84" height="23" src="d/vektory_dlya_chainikov_clip_image012_0002.gif">, то длину отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0000.gif"> можно вычислить по  формуле <img align="absmiddle" width="268" height="31" src="d/vektory_dlya_chainikov_clip_image068.gif" alt="Формула длины отрезка в пространстве"></p>
+  <p><strong><em>Примечание:</em></strong><em> Формулы  останутся корректными, если переставить местами соответствующие координаты: <img align="absmiddle" width="195" height="31" src="d/vektory_dlya_chainikov_clip_image070.gif"> и <img align="absmiddle" width="268" height="31" src="d/vektory_dlya_chainikov_clip_image072.gif">, но более стандартен первый вариант</em></p>
+  <p><u>Пример 3</u></p>
+  <p>Даны точки <img align="absmiddle" width="57" height="21" src="d/vektory_dlya_chainikov_clip_image074.gif"> и <img align="absmiddle" width="59" height="21" src="d/vektory_dlya_chainikov_clip_image040_0002.gif">. Найти длину отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0001.gif">.</p>
+  <p><strong>Решение:</strong> по  соответствующей формуле:<br>
+      <img align="absmiddle" width="451" height="31" src="d/vektory_dlya_chainikov_clip_image077.gif"></p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="161" height="28" src="d/vektory_dlya_chainikov_clip_image079.gif"></p>
+  <p>Для наглядности выполню чертёж<br>
+      <img align="absmiddle" width="208" height="297" src="d/vektory_dlya_chainikov_clip_image081.jpg" alt="Отрезок на плоскости и его длина"></p>
+  <p>Отрезок <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0002.gif"> – <strong>это не вектор</strong>, и перемещать его куда-либо, конечно, нельзя. Кроме того, если вы выполните чертеж в масштабе: 1  ед. = 1 см (две тетрадные клетки), то полученный ответ <img align="absmiddle" width="96" height="27" src="d/vektory_dlya_chainikov_clip_image083.gif"> можно проверить  обычной линейкой, непосредственно измерив длину отрезка.</p>
+  <p>Да, решение короткое, но в нём есть ещё пара важных моментов,  которые хотелось бы пояснить:</p>
+  <p>Во-первых, в ответе ставим размерность: «единицы». В условии  не сказано, ЧТО это, миллиметры, сантиметры, метры или километры. Поэтому математически  грамотным решением будет общая формулировка: «единицы» – сокращенно «ед.». </p>
+  <p>Во-вторых, повторим школьный материал, который полезен не  только для рассмотренной задачи:</p>
+  <div id="primer">
+  <p>Читаем!!!</p>
+  <p>Обратите внимание на <strong>важный  технический приём</strong> – <strong>вынесение  множителя из-под корня</strong>. В результате вычислений у нас получился результат <img align="absmiddle" width="32" height="24" src="d/vektory_dlya_chainikov_clip_image085.gif"> и хороший  математический стиль предполагает   вынесение множителя из-под корня (если это возможно). Подробнее процесс  выглядит так: <img align="absmiddle" width="135" height="24" src="d/vektory_dlya_chainikov_clip_image087.gif">. Конечно, оставить ответ в виде <img align="absmiddle" width="32" height="24" src="d/vektory_dlya_chainikov_clip_image085_0000.gif"> не будет ошибкой – но  недочетом-то уж точно и весомым аргументом для придирки со стороны  преподавателя. </p>
+  <p>Вот другие распространенные случаи:<br>
+      <img align="absmiddle" width="137" height="160" src="d/vektory_dlya_chainikov_clip_image089.gif" alt="Вынесение множителя из-под корня"></p>
+  <p>Нередко под корнем получается достаточно большое число, например <img align="absmiddle" width="48" height="24" src="d/vektory_dlya_chainikov_clip_image091.gif">. Как быть в таких случаях? На калькуляторе проверяем,  делится ли число на 4: <img align="absmiddle" width="85" height="41" src="d/vektory_dlya_chainikov_clip_image093.gif">. Да, разделилось нацело, таким образом: <img align="absmiddle" width="100" height="19" src="d/vektory_dlya_chainikov_clip_image095.gif">. А может быть, число <img align="absmiddle" width="35" height="19" src="d/vektory_dlya_chainikov_clip_image097.gif"> ещё раз удастся разделить  на 4? <img align="absmiddle" width="77" height="41" src="d/vektory_dlya_chainikov_clip_image099.gif">. Таким образом: <img align="absmiddle" width="109" height="19" src="d/vektory_dlya_chainikov_clip_image101.gif">. У числа <img align="absmiddle" width="28" height="19" src="d/vektory_dlya_chainikov_clip_image103.gif"> последняя цифра  нечетная, поэтому разделить в третий раз на 4 явно не удастся. Пробуем поделить  на девять: <img align="absmiddle" width="63" height="41" src="d/vektory_dlya_chainikov_clip_image105.gif">. В результате:<br>
+      <img align="absmiddle" width="284" height="24" src="d/vektory_dlya_chainikov_clip_image107.gif"> Готово.</p>
+  <p><strong>Вывод:</strong> если под  корнем получается неизвлекаемое нацело число, то пытаемся вынести множитель  из-под корня – на калькуляторе проверяем, делится ли число на: 4, 9, 16, 25,  36, 49 и т.д.<br>
+    <br>
+    В ходе решения различных задач корни встречаются часто,  всегда пытайтесь извлекать множители из-под корня  во избежание более низкой оценки да ненужных  заморочек с доработкой ваших решений по замечанию преподавателя.</p>
+  <p>Давайте заодно повторим возведение корней в квадрат и другие  степени:<br>
+      <img align="absmiddle" width="269" height="141" src="d/vektory_dlya_chainikov_clip_image109.gif" alt="Возведения корня в квадрат"></p>
+  <p>Правила действий со степенями в общем виде можно найти в  школьном учебнике по алгебре, но, думаю, из приведённых примеров всё или почти  всё уже ясно.</p></div>
+  <p>Задание для самостоятельного решения с отрезком в  пространстве:</p>
+  <p><u>Пример 4</u></p>
+  <p>Даны точки <img align="absmiddle" width="73" height="21" src="d/vektory_dlya_chainikov_clip_image111_0000.gif"> и <img align="absmiddle" width="73" height="21" src="d/vektory_dlya_chainikov_clip_image113_0000.gif">. Найти длину отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0004.gif">.</p>
+  <p>Решение и ответ в конце урока.</p>
+  <h3><strong>Как найти длину вектора?</strong></h3>
+  <p>Если дан вектор плоскости <img align="absmiddle" width="56" height="23" src="d/vektory_dlya_chainikov_clip_image115_0001.gif">, то его длина вычисляется по формуле <img align="absmiddle" width="89" height="31" src="d/vektory_dlya_chainikov_clip_image117_0001.gif" alt="Формула длины вектора на плоскости">.</p>
+  <p>Если дан вектор пространства <img align="absmiddle" width="76" height="24" src="d/vektory_dlya_chainikov_clip_image119_0001.gif">, то его длина вычисляется по формуле <img align="absmiddle" width="120" height="31" src="d/vektory_dlya_chainikov_clip_image121.gif" alt="Формула длины вектора в пространстве">.</p>
+  <p>Данные формулы (как и формулы длины отрезка) легко  выводятся с помощью небезызвестной теоремы Пифагора.</p>
+  <p><u>Пример 5</u></p>
+  <p>Даны точки <img align="absmiddle" width="57" height="21" src="d/vektory_dlya_chainikov_clip_image074_0000.gif"> и <img align="absmiddle" width="59" height="21" src="d/vektory_dlya_chainikov_clip_image040_0003.gif">. Найти длину вектора <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0004.gif">.</p>
+  <p>Я взял те же точки, что и в Примере 3.</p>
+  <p><strong>Решение:</strong> Сначала  найдём вектор <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0005.gif">:<br>
+      <img align="absmiddle" width="216" height="25" src="d/vektory_dlya_chainikov_clip_image124_0000.gif"></p>
+  <p>По формуле <img align="absmiddle" width="89" height="31" src="d/vektory_dlya_chainikov_clip_image117_0001.gif"> вычислим длину  вектора:<br>
+      <img align="absmiddle" width="285" height="33" src="d/vektory_dlya_chainikov_clip_image127.gif"></p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="161" height="32" src="d/vektory_dlya_chainikov_clip_image129.gif"></p>
+  <p>Не забываем указывать размерность – «единицы»! Всегда ли,  кстати, нужно рассчитывать приближенное значение (в данном примере 8,94), если  этого не требуется в условии? С моей точки зрения, лишним не будет, отсутствие  приближенного значения тянет на придирку. Округление целесообразно проводить до  2-3 знаков после запятой.</p>
+  <p>Выполним чертеж к задаче:<br>
+      <img align="absmiddle" width="208" height="280" src="d/vektory_dlya_chainikov_clip_image131.jpg" alt="Вектор на плоскости и его длина"></p>
+  <p>В чём принципиальное отличие от Примера 3? Отличие состоит в  том, что <strong>здесь речь идёт о векторе</strong>, а не об отрезке. Вектор можно  переместить в любую точку плоскости, при этом его лучше переобозначить, например, через <img align="absmiddle" width="15" height="17" src="d/vektory_dlya_chainikov_clip_image022.gif">.</p>
+  <p>А в чём сходство Примера 3 и Примера 5? Геометрически  очевидно, что длина отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0005.gif"> равна длине вектора <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0006.gif">. Так же очевидно, что длина вектора <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image016_0002.gif"> будет такой же. По  итогу: <img align="absmiddle" width="112" height="32" src="d/vektory_dlya_chainikov_clip_image135.gif"></p>
+  <p>Задачу 3 можно было решить и вторым способом, повторю  условие: Даны точки <img align="absmiddle" width="57" height="21" src="d/vektory_dlya_chainikov_clip_image074_0001.gif"> и <img align="absmiddle" width="59" height="21" src="d/vektory_dlya_chainikov_clip_image040_0004.gif">. Найти длину отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0006.gif">.</p>
+  <p>Вместо применения формулы <img align="absmiddle" width="195" height="31" src="d/vektory_dlya_chainikov_clip_image066_0000.gif">, поступаем так:<br>
+    1) Находим вектор <img align="absmiddle" width="216" height="25" src="d/vektory_dlya_chainikov_clip_image124_0001.gif">.<br>
+    2) А теперь ссылаемся на то, что длина отрезка <img align="absmiddle" width="27" height="17" src="d/vektory_dlya_chainikov_clip_image064_0007.gif"> равна длине вектора <img align="absmiddle" width="27" height="21" src="d/vektory_dlya_chainikov_clip_image006_0007.gif">:<br>
+  <img align="absmiddle" width="340" height="33" src="d/vektory_dlya_chainikov_clip_image138.gif"></p>
+  <p>Этот способ широко практикуется в ходе решений задач  аналитической геометрии. </p>
+  <p>Вышесказанное справедливо и для пространственного случая</p>
+  <p>Для тренировки:</p>
+  <p><u>Пример 6</u></p>
+  <p>а) Даны точки <img align="absmiddle" width="64" height="21" src="d/vektory_dlya_chainikov_clip_image140.gif"> и <img align="absmiddle" width="80" height="21" src="d/vektory_dlya_chainikov_clip_image142.gif">. Найти длину вектора <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image016_0003.gif">.<br>
+    б) Даны векторы <img align="absmiddle" width="57" height="21" src="d/vektory_dlya_chainikov_clip_image145_0000.gif">, <img align="absmiddle" width="93" height="25" src="d/vektory_dlya_chainikov_clip_image147.gif">, <img align="absmiddle" width="87" height="25" src="d/vektory_dlya_chainikov_clip_image149.gif"> и <img align="absmiddle" width="80" height="24" src="d/vektory_dlya_chainikov_clip_image151.gif">. Найти их длины.</p>
+  <p>Решения и ответы в конце урока.</p>
+  <h3><strong>Действия с векторами  в координатах</strong></h3>
+  <p>В первой части урока мы рассматривали правила сложения  векторов и умножения вектора на число. Но рассматривали их с принципиально-графической  точки зрения. Посмотрим, как данные правила работают аналитически – когда  заданы координаты векторов: </p>
+  <p>1) <strong>Правило сложения  векторов</strong>. Рассмотрим два вектора плоскости <img align="absmiddle" width="73" height="23" src="d/vektory_dlya_chainikov_clip_image153.gif"> и <img align="absmiddle" width="84" height="23" src="d/vektory_dlya_chainikov_clip_image155.gif">. Для того, чтобы сложить векторы,  нужно <strong>сложить их соответствующие  координаты</strong>: <img align="absmiddle" width="161" height="23" src="d/vektory_dlya_chainikov_clip_image157.gif">. Как просто. На всякий случай запишу частный случай –  формулу разности векторов: <img align="absmiddle" width="161" height="23" src="d/vektory_dlya_chainikov_clip_image159.gif">. Аналогичное правило справедливо для суммы любого количества  векторов, добавим например, вектор <img align="absmiddle" width="72" height="23" src="d/vektory_dlya_chainikov_clip_image161.gif"> и найдём сумму трёх  векторов: <img align="absmiddle" width="240" height="23" src="d/vektory_dlya_chainikov_clip_image163.gif"></p>
+  <p>Если речь идёт о векторах в пространстве, то всё точно так  же, только добавится дополнительная координата. Если даны векторы <img align="absmiddle" width="201" height="24" src="d/vektory_dlya_chainikov_clip_image165.gif">, то их суммой является вектор <img align="absmiddle" width="213" height="24" src="d/vektory_dlya_chainikov_clip_image167.gif">.</p>
+  <p>2) <strong>Правило умножения  вектора на число.</strong> Ещё проще! Для того чтобы вектор <img align="absmiddle" width="73" height="23" src="d/vektory_dlya_chainikov_clip_image153_0000.gif"> умножить на число <img align="absmiddle" width="15" height="19" src="d/vektory_dlya_chainikov_clip_image169.gif">, нужно каждую координату данного вектора умножить на  число <img align="absmiddle" width="15" height="19" src="d/vektory_dlya_chainikov_clip_image169_0000.gif">:<br>
+      <img align="absmiddle" width="100" height="23" src="d/vektory_dlya_chainikov_clip_image172_0001.gif">. </p>
+  <p>Для пространственного вектора <img align="absmiddle" width="92" height="24" src="d/vektory_dlya_chainikov_clip_image174_0001.gif"> правило такое же:<br>
+      <img align="absmiddle" width="128" height="24" src="d/vektory_dlya_chainikov_clip_image176_0000.gif"></p>
+  <p>Приведённые факты строго доказываются в курсе аналитической  геометрии.</p>
+  <p><strong><em>Примечание:</em></strong><em> Данные  правила справедливы не только для ортонормированных базисов <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image032_0008.gif">, <img align="absmiddle" width="55" height="24" src="d/vektory_dlya_chainikov_clip_image178_0001.gif"> но и для произвольного  аффинного базиса плоскости или пространства. Более подробно о базисах читайте в  статье <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость  векторов. Базис векторов</a></strong></em>.</p>
+  <p><u>Пример 7</u></p>
+  <p>Даны векторы <img align="absmiddle" width="59" height="21" src="d/vektory_dlya_chainikov_clip_image180_0001.gif"> и <img align="absmiddle" width="48" height="24" src="d/vektory_dlya_chainikov_clip_image182.gif">. Найти <img align="absmiddle" width="76" height="24" src="d/vektory_dlya_chainikov_clip_image184.gif"> и <img align="absmiddle" width="40" height="21" src="d/vektory_dlya_chainikov_clip_image186_0000.gif"></p>
+  <p><strong>Решение</strong> чисто  аналитическое:<br>
+      <img align="absmiddle" width="321" height="73" src="d/vektory_dlya_chainikov_clip_image188_0000.gif"></p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="308" height="24" src="d/vektory_dlya_chainikov_clip_image190_0000.gif"></p>
+  <p>Чертеж в подобных задачах строить не надо, тем не менее,  геометрическая демонстрация будет весьма полезной. Если считать, что векторы  заданы в ортонормированном базисе <img align="absmiddle" width="37" height="23" src="d/vektory_dlya_chainikov_clip_image032_0009.gif">, то графическое решение задачи будет таким: <br>
+      <img align="absmiddle" width="354" height="362" src="d/vektory_dlya_chainikov_clip_image192.jpg" alt="Сложение векторов и умножение вектора на число в координатах"><br>
+    Коль скоро речь идет <strong>только</strong> о векторах в ортонормированном базисе, то оси рисовать не обязательно.  Достаточно начертить базисные векторы, причём, где угодно. Ну, и координатную  сетку для удобства. Строго говоря, ранее я допустил небольшой огрех – в  некоторых чертежах урока тоже можно было не чертить декартову прямоугольную  систему координат. Векторам она не нужна, им нужен базис. Впрочем, лучше всегда  рисуйте, а то напугаете всех своими знаниями =)</p>
+  <p>Как видите, графический способ решения привёл к тем же  результатам, что и аналитический способ решения. Ещё раз заметьте свободу  векторов: любую из трёх «конструкций» можно переместить в любую точку плоскости.</p>
+  <p>Для векторов в пространстве можно провести аналогичные  выкладки. Но там чертежи строить значительно сложнее, поэтому ограничусь  аналитическим решением (на практике, собственно, бОльшего и не надо):</p>
+  <p><u>Пример 8</u></p>
+  <p>Даны векторы <img align="absmiddle" width="76" height="21" src="d/vektory_dlya_chainikov_clip_image194_0000.gif"> и <img align="absmiddle" width="73" height="24" src="d/vektory_dlya_chainikov_clip_image196_0000.gif">. Найти <img align="absmiddle" width="55" height="21" src="d/vektory_dlya_chainikov_clip_image198_0000.gif"> и <img align="absmiddle" width="60" height="21" src="d/vektory_dlya_chainikov_clip_image200_0000.gif"></p>
+  <p><strong>Решение: </strong>Для  действий с векторами справедлив обычный алгебраический приоритет: сначала  умножаем, потом складываем:<br>
+      <img align="absmiddle" width="413" height="123" src="d/vektory_dlya_chainikov_clip_image202_0000.gif"></p>
+  <p><strong>Ответ:</strong> <img align="absmiddle" width="337" height="24" src="d/vektory_dlya_chainikov_clip_image204_0000.gif"></p>
+  <p>И в заключение занятный пример с векторами на плоскости:</p>
+  <p><u>Пример 9</u></p>
+  <p>Даны векторы <img align="absmiddle" width="169" height="24" src="d/vektory_dlya_chainikov_clip_image206_0000.gif">. Найти <img align="absmiddle" width="91" height="41" src="d/vektory_dlya_chainikov_clip_image208_0000.gif"> и <img align="absmiddle" width="111" height="24" src="d/vektory_dlya_chainikov_clip_image210.gif"></p>
+  <p>Это задача для самостоятельного решения.</p>
+  <p>Какой вывод? Многие задачи аналитической геометрии прозрачны  и просты, главное, не допустить вычислительных ошибок. Следующие рекомендуемые  к изучению уроки:</p>
+  <p><strong><a href="skaljarnoe_proizvedenie_vektorov.html">!!! Скалярное произведение векторов</a></strong><br>
+    <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость векторов. Базис векторов</a></strong><br>
+    <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное  и смешанное произведение векторов</a></strong></p>
+  <p>Это, так скажем, вектор-минимум студента =)</p>
+  <p>Любите векторы, и векторы полюбят вас!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Задание: <img align="absmiddle" width="128" height="25" src="d/vektory_dlya_chainikov_clip_image212.gif">, <img align="absmiddle" width="176" height="25" src="d/vektory_dlya_chainikov_clip_image214.gif"></em></p>
+  <p><em>Пример 2: <strong>Решение:</strong></em><br>
+      <em>а) </em><br>
+      <em><img align="absmiddle" width="216" height="51" src="d/vektory_dlya_chainikov_clip_image216.gif"></em><br>
+      <em>б) </em><br>
+      <em><img align="absmiddle" width="199" height="79" src="d/vektory_dlya_chainikov_clip_image218.gif"></em><br>
+      <em>в) </em><br>
+      <em><img align="absmiddle" width="303" height="51" src="d/vektory_dlya_chainikov_clip_image220.gif"></em><br>
+      <em>г)</em><br>
+      <em><img align="absmiddle" width="299" height="80" src="d/vektory_dlya_chainikov_clip_image222.gif"></em></p>
+  <p><em>Пример 4: <strong>Решение:</strong></em><br>
+      <em>По соответствующей  формуле:</em><img align="absmiddle" width="73" height="21" src="d/vektory_dlya_chainikov_clip_image111_0001.gif"> и <img align="absmiddle" width="73" height="21" src="d/vektory_dlya_chainikov_clip_image113_0001.gif"><br>
+      <em><img align="absmiddle" width="557" height="31" src="d/vektory_dlya_chainikov_clip_image224.gif"></em><br>
+      <strong><em>Ответ:</em></strong><img align="absmiddle" width="163" height="28" src="d/vektory_dlya_chainikov_clip_image226.gif"></p>
+  <p><em>Пример 6:</em> <img align="absmiddle" width="64" height="21" src="d/vektory_dlya_chainikov_clip_image140_0000.gif"> и <img align="absmiddle" width="80" height="21" src="d/vektory_dlya_chainikov_clip_image142_0000.gif"><br>
+      <em>а)  <strong>Решение: </strong>найдём вектор <img align="absmiddle" width="25" height="21" src="d/vektory_dlya_chainikov_clip_image016_0004.gif">:<strong></strong></em><br>
+      <em><img align="absmiddle" width="284" height="25" src="d/vektory_dlya_chainikov_clip_image230.gif"></em><br>
+      <em>Вычислим длину  вектора:</em><br>
+      <em><img align="absmiddle" width="341" height="33" src="d/vektory_dlya_chainikov_clip_image232.gif"></em><br>
+      <strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="171" height="32" src="d/vektory_dlya_chainikov_clip_image234.gif"></em></p>
+  <p><em>б) <strong>Решение:</strong></em><br>
+      <em>Вычислим длины  векторов:</em><br>
+      <em><img align="absmiddle" width="361" height="131" src="d/vektory_dlya_chainikov_clip_image236.gif"></em></p>
+  <p><em>Пример 9: <strong>Решение: </strong></em><br>
+      <em><img align="absmiddle" width="528" height="139" src="d/vektory_dlya_chainikov_clip_image238.gif"></em><br>
+      <strong><em>Примечание:</em></strong><em> Перед  выполнением действий можно предварительно раскрыть скобки:</em><br>
+      <em><img align="absmiddle" width="219" height="24" src="d/vektory_dlya_chainikov_clip_image240.gif"></em></p>
+  <p><strong><em>Ответ:</em></strong><em> <img align="absmiddle" width="360" height="41" src="d/vektory_dlya_chainikov_clip_image242.gif"></em></p></div>
+  
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

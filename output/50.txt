@@ -1,0 +1,1082 @@
+<html>
+<head>
+<title>Непрерывность функции и точки разрыва. Примеры решений
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="непрерывность  функции, точки разрыва, первого рода, устранимый разрыв, второго рода, бесконечный разрыв, 1-го 2-го рода, как исследовать функцию на непрерывность, примеры решений, подробно, с чертежами, найти точки разрыва, непрерывность функции в точке, дана функция исследовать на непрерывность">
+<meta name="Description" content="Как исследовать функцию на непрерывность? Бесплатный самоучитель с чертежами и подробными комментариями">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Непрерывность функции. Точки разрыва.<br>Как исследовать функцию на непрерывность?
+</strong></h1>
+  
+  <br>
+  <p><em>Идет бычок, качается, вздыхает на ходу: </em><br>
+    <em>– Ох, доска кончается, сейчас я упаду!</em>
+  <p>На данном уроке мы разберём  понятие непрерывности функции, классификацию точек разрыва и распространённую  практическую задачу <strong>исследования функции  на непрерывность</strong>. Из самого названия   темы многие интуитивно догадываются, о чём пойдёт речь, и думают, что  материал довольно простой. Это правда. Но именно несложные задачи чаще всего  наказывают за пренебрежение и поверхностный подход к их решению. Поэтому  рекомендую очень внимательно изучить статью и уловить все тонкости и  технические приёмы. </p>
+  <p><strong>Что нужно знать и уметь? </strong>Не очень-то и много. Для качественного  усвоения урока необходимо понимать, что такое <strong><a href="predely_primery_reshenii.html">предел функции</a></strong>. Читателям с низким уровнем подготовки достаточно  осмыслить статью <strong><a href="predely_primery_reshenii.html">Пределы функций.  Примеры решений</a></strong> и посмотреть геометрический смысл предела в методичке <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и свойства элементарных функций</a></strong>.  Также желательно ознакомиться с <strong><a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">геометрическими  преобразованиями графиков</a></strong>, поскольку практика в большинстве случаев предполагает  построение чертежа. Перспективы оптимистичны для всех, и даже полный чайник  сумеет самостоятельно справиться с задачей в ближайший час-другой!</p>
+  <br>
+  <h2>Непрерывность функции. Точки разрыва и их классификация</h2>
+  <h3><strong>Понятие непрерывности функции</strong></h3>
+  <p>Рассмотрим некоторую функцию <img align="absmiddle"  width="56" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image002.gif">, непрерывную на всей числовой прямой:<br>
+      <img align="absmiddle"  width="275" height="284" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image004.jpg" alt="Функция непрерывна на всей числовой прямой"><br>
+    Или, говоря лаконичнее, наша  функция непрерывна на <img align="absmiddle"  width="16" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image006.gif"> (множестве  действительных чисел).<strong></strong></p>
+  <p>Каков «обывательский» критерий  непрерывности? Очевидно, что график непрерывной функции можно начертить, не  отрывая карандаша от бумаги.</p>
+  <p>При этом следует чётко отличать  два простых понятия: <strong><a href="oblast_opredeleniya.html">область определения  функции</a></strong> и <strong>непрерывность функции</strong>.  В общем случае <u>это не одно и то же</u>. Например:<br>
+      <img align="absmiddle"  width="273" height="308" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image008.jpg" alt="Функция определена на всей прямой, но разрывна"><br>
+    Данная функция определена на всей  числовой прямой, то есть для <strong>каждого</strong> значения «икс» существует своё значение «игрека» <img align="absmiddle"  width="56" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image002_0000.gif">. В частности, если <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image010.gif">, то   <img align="absmiddle"  width="81" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image012.gif">. Заметьте, что другая точка выколота, ведь по определению  функции, значению аргумента должно соответствовать <strong>единственное</strong> значение функции. Таким образом, <strong><a href="oblast_opredeleniya.html">область определения</a></strong> нашей функции: <img align="absmiddle"  width="68" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014.gif">.</p>
+  <p>Однако <strong>эта функция не является непрерывной на <img align="absmiddle"  width="16" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image006_0000.gif">!</strong>  Совершенно  очевидно, что в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image010_0000.gif"> она терпит <strong>разрыв</strong>. Термин тоже вполне вразумителен  и нагляден, действительно, карандаш здесь по любому придётся оторвать от  бумаги. Немного позже мы рассмотрим классификацию точек разрыва.  </p>
+  <h3><strong>Непрерывность функции в точке и на интервале</strong></h3>
+  <p>В той или иной математической  задаче речь может идти о непрерывности функции в точке, непрерывности функции  на интервале, полуинтервале или непрерывности функции на отрезке. То есть, <strong>не существует «просто непрерывности»</strong> –  функция может быть непрерывной ГДЕ-ТО. И основополагающим «кирпичиком» всего  остального является <strong>непрерывность  функции <u>в точке</u></strong>.</p>
+  <p>Теория математического анализа даёт  определение непрерывности функции в точке с помощью «дельта» и «эпсилон»  окрестностей, но на практике в ходу другое определение, которому мы и уделим  самое пристальное внимание. </p>
+  <p>Сначала вспомним <strong>односторонние пределы</strong>, ворвавшиеся в  нашу жизнь на первом уроке <strong><a href="grafiki_i_svoistva_funkcij.html">о графиках  функций</a></strong>. Рассмотрим будничную ситуацию:<br>
+      <img align="absmiddle"  width="297" height="275" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image018.jpg" alt="Односторонние пределы и общий предел"><br>
+    Если приближаться по оси <img align="absmiddle"  width="27" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image020.gif"> к точке <img align="absmiddle"  width="13" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image022.gif"> <strong>слева</strong> (красная стрелка), то соответствующие значения «игреков» будут  идти по оси <img align="absmiddle"  width="25" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image024.gif"> к точке <img align="absmiddle"  width="16" height="13" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image026.gif"> (малиновая стрелка).  Математически данный факт фиксируется с помощью <strong>левостороннего предела</strong>:<br>
+  <img align="absmiddle"  width="92" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image028.gif"></p>
+  <p>Обратите внимание на запись <img align="absmiddle"  width="61" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image030.gif"> (читается «икс  стремится к ка слева»). «Добавка» «минус ноль» символизирует <em>бесконечно малое отрицательное число</em>, по  сути это и обозначает, что мы подходим к числу <img align="absmiddle"  width="13" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image022_0000.gif"> с левой стороны.</p>
+  <p>Аналогично, если приближаться к  точке «ка» <strong>справа</strong>  (синяя стрелка), то «игреки» придут к тому же  значению <img align="absmiddle"  width="16" height="13" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image026_0000.gif">, но уже по зелёной стрелке, и <strong>правосторонний предел</strong> оформится следующим образом:<br>
+      <img align="absmiddle"  width="92" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image032.gif"></p>
+  <p> «Добавка» <img align="absmiddle"  width="23" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image034.gif"> символизирует <em>бесконечно малое положительное число</em>, и  запись <img align="absmiddle"  width="61" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image036.gif"> читается так: «икс  стремится к ка справа».</p>
+  <p><strong>Если односторонние пределы конечны и равны</strong> (как в нашем случае): <img align="absmiddle"  width="168" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image038.gif">, то будем говорить, что существует ОБЩИЙ предел <img align="absmiddle"  width="81" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image040.gif">. Всё просто, общий предел   – это наш «обычный» <strong><a href="predely_primery_reshenii.html">предел  функции</a></strong>, равный конечному числу.</p>
+  <p>Заметьте, что если функция не  определена при <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image010_0001.gif"> (выколите чёрную точку  на ветке графика), то перечисленные выкладки остаются справедливыми. Как уже  неоднократно отмечалось, в частности, в статье <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">о бесконечно малых функциях</a></strong>, выражения <img align="absmiddle"  width="187" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image042.gif">  означают, что «икс» <em>бесконечно близко</em> приближается  к точке <img align="absmiddle"  width="13" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image022_0001.gif">, при этом <strong>НЕ ИМЕЕТ ЗНАЧЕНИЯ</strong>, определена ли сама функция в данной точке или  нет. Хороший пример встретится в следующем параграфе, когда  анализу подвергнется  функция <img align="absmiddle"  width="77" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image045.gif">.</p>
+  <p><strong>Определение</strong>: функция непрерывна в точке <img align="absmiddle"  width="13" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image047.gif">, если предел функции в данной точке равен значению функции в  этой точке: <img align="absmiddle"  width="99" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image049.gif">.</p>
+  <p>Определение детализируется в следующих  условиях:</p>
+  <p>1) Функция должна быть определена  в точке <img align="absmiddle"  width="13" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image047_0000.gif">, то есть должно существовать значение <img align="absmiddle"  width="33" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image052.gif">.</p>
+  <p>2) Должен существовать общий  предел функции <img align="absmiddle"  width="56" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image054.gif">. Как отмечалось выше, это подразумевает существование и  равенство односторонних пределов: <img align="absmiddle"  width="140" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image056.gif">.</p>
+  <p>3) Предел функции в данной точке  должен быть равен значению функции в этой точке: <img align="absmiddle"  width="99" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image049_0000.gif">.</p>
+  <p><strong><em>!!!</em></strong><em> Рекомендую законспектировать пункты, поскольку они потребуются для  решения практических задач. Далее по тексту они будут отмечаться как Условие  № 1, Условие № 2 и Условие № 3.</em></p>
+  <p>Если нарушено <strong>хотя бы одно</strong> из трёх условий, то функция  теряет свойство непрерывности в точке <img align="absmiddle"  width="13" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image047_0001.gif">.</p>
+  <p><strong>Непрерывность функции на интервале</strong> формулируется остроумно и очень  просто: функция непрерывна на интервале <img align="absmiddle"  width="36" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image059.gif">, если она непрерывна в каждой точке данного интервала.</p>
+  <p>В частности, многие функции  непрерывны на бесконечном интервале <img align="absmiddle"  width="61" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image061.gif">, то есть на множестве действительных чисел <img align="absmiddle"  width="16" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image006_0001.gif">. Это линейная функция, многочлены, экспонента, синус,  косинус и др. И вообще, любая <strong><a href="grafiki_i_svoistva_funkcij.html">элементарная  функция</a></strong> непрерывна на своей <strong><a href="oblast_opredeleniya.html">области  определения</a></strong>, так, например, логарифмическая функция <img align="absmiddle"  width="68" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image063.gif"> непрерывна на  интервале <img align="absmiddle"  width="51" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image065.gif">. Надеюсь, к данному моменту вы достаточно хорошо  представляете, как выглядят графики основных функций. Более подробную  информацию об их непрерывности можно почерпнуть у доброго человека по фамилии  Фихтенгольц.</p>
+  <p>С непрерывностью функции на  отрезке <img align="absmiddle"  width="33" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image067.gif"> и полуинтервалах <img align="absmiddle"  width="69" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image069.gif"> тоже всё несложно, но  об этом уместнее рассказать на уроке <strong><a href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">о  нахождении минимального и максимального значений функции на отрезке</a></strong>, а пока  голову забивать не будем.</p>
+  
+  <h3><strong>Классификация точек разрыва</strong></h3>
+  <p>Увлекательная жизнь функций  богата всякими особенными точками, и точки разрыва лишь одна из страничек их  биографии. </p>
+  <p><strong><em>Примечание</em></strong><em>: на всякий случай остановлюсь на  элементарном моменте: точка разрыва – это всегда <u>отдельно взятая точка</u> –  не бывает «несколько точек разрыва подряд», то есть, нет такого понятия, как  «интервал разрывов».</em></p>
+  <p>Данные точки в свою очередь подразделяются  на две большие группы: <strong>разрывы первого  рода</strong> и <strong>разрывы второго рода</strong>. У  каждого типа разрыва есть свои характерные особенности, которые мы рассмотрим  прямо сейчас:</p>
+    <h3><strong>Точка разрыва первого рода</strong></h3>
+  <p>Если в точке <img align="absmiddle"  width="13" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image047_0002.gif"> нарушено условие непрерывности <strong>и односторонние пределы <u>конечны</u></strong>,  то она называется <strong>точкой разрыва первого  рода</strong>.</p>
+  <p>Начнём с самого оптимистичного  случая. По первоначальной задумке урока я хотел рассказать теорию «в общем  виде», но чтобы продемонстрировать реальность материала, остановился на  варианте с конкретными действующими лицами.</p>
+  <p>Уныло, как фото молодожёнов на  фоне Вечного огня, но нижеследующий кадр общепринят. Изобразим на чертеже  график функции <img align="absmiddle"  width="77" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image071.gif">:<br>
+      <img align="absmiddle"  width="441" height="171" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image073.jpg" alt="График функции синус икс на икс"><br>
+    Данная функция непрерывна на всей  числовой прямой, кроме точки <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075.gif">. И в самом деле, знаменатель же не может быть равен нулю.  Однако в соответствии со смыслом предела – мы можем <em>бесконечно близко</em> приближаться к «нулю»  и слева и справа, то есть, односторонние пределы существуют и, очевидно, совпадают:<br>
+  <img align="absmiddle"  width="164" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image079.gif"> (Условие № 2  непрерывности выполнено).</p>
+  <p>Но функция не определена в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0000.gif">, следовательно, нарушено Условие № 1 непрерывности, и функция <img align="absmiddle"  width="77" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image071_0000.gif"> терпит разрыв в данной  точке.</p>
+  <p>Разрыв такого вида (с  существующим <u>общим пределом</u>) называют <strong>устранимым разрывом</strong>. Почему устранимым? Потому что функцию можно <u>доопределить</u> в точке разрыва:<br>
+      <img align="absmiddle"  width="175" height="59" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image081.gif"></p>
+  <p>Странно выглядит? Возможно. Но такая  запись функции ничему не противоречит! Теперь разрыв устранён и все счастливы:<br>
+      <img align="absmiddle"  width="445" height="149" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image083.jpg" alt="Точку устранимого разрыва можно доопределить до непрерывности функции в данной точке"><br>
+    Выполним формальную проверку:<br>
+    1) <img align="absmiddle"  width="52" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image085.gif"> – функция определена в  данной точке;<br>
+    2) <img align="absmiddle"  width="164" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image079_0000.gif"> – общий предел  существует;<br>
+    3) <img align="absmiddle"  width="99" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image088.gif"> – предел функции в  точке равен значению данной функции в данной точке.</p>
+  <p>Таким образом, все три условия  выполнены, и функция непрерывна в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0001.gif"> по определению  непрерывности функции в точке.</p>
+  <p>Впрочем, ненавистники матана  могут доопределить функцию нехорошим способом, например <img align="absmiddle"  width="175" height="59" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image090.gif">:<br>
+      <img align="absmiddle"  width="450" height="157" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image092.jpg" alt="А так делают творческие личности"><br>
+    Любопытно, что здесь выполнены  первые два условия непрерывности:<br>
+    1) <img align="absmiddle"  width="55" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image094.gif"> – функция определена в  данной точке;<br>
+    2) <img align="absmiddle"  width="164" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image079_0001.gif"> – общий предел  существует.</p>
+  <p>Но третий рубеж не пройден: <img align="absmiddle"  width="99" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image096.gif">, то есть предел функции в точке <strong>не равен</strong> значению данной функции в данной точке.</p>
+  <p>Таким образом, в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0002.gif"> функция терпит разрыв.</p>
+  <p>Второй, более грустный случай  носит название <strong>разрыва первого рода</strong> <strong>со скачком</strong>. А грусть навевают  односторонние пределы, которые <u>конечны и различны</u>. Пример изображён на  втором чертеже урока. Такой разрыв   возникает, как правило, в <strong>кусочно-заданных  функциях</strong>, о которых уже упоминалось в статье <strong><a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">о преобразованиях графиков</a></strong>. </p>
+  <p>Рассмотрим кусочную функцию<strong> </strong><img align="absmiddle"  width="197" height="73" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image098.gif"> и выполним её чертёж.  Как построить график? Очень просто. На полуинтервале <img align="absmiddle"  width="48" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image100.gif"> чертим фрагмент  параболы <img align="absmiddle"  width="80" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image102.gif"> (зеленый цвет), на  интервале <img align="absmiddle"  width="36" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image104.gif"> – отрезок прямой <img align="absmiddle"  width="80" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image106.gif"> (красный цвет) и на полуинтервале <img align="absmiddle"  width="48" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image108.gif"> – прямую <img align="absmiddle"  width="76" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image110.gif"> (синий цвет). </p>
+  <p>При этом в силу неравенства <img align="absmiddle"  width="33" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image112.gif"> значение <img align="absmiddle"  width="33" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image114.gif"> определено для  квадратичной функции <img align="absmiddle"  width="80" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image102_0000.gif"> (зелёная точка), и в  силу неравенства <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image116.gif">, значение <img align="absmiddle"  width="33" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image118.gif"> определено для  линейной функции <img align="absmiddle"  width="76" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image110_0000.gif"> (синяя точка):<br>
+      <img align="absmiddle"  width="322" height="304" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image120.jpg" alt="Кусочно-заданная функция и разрыв первого рода"><br>
+    В самом-самом тяжёлом случае  следует прибегнуть к поточечному построению каждого куска графика (см. первый <strong><a href="grafiki_i_svoistva_funkcij.html">урок о графиках функций</a></strong>).</p>
+  <p>Сейчас нас будет интересовать только  точка <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image122.gif">. Исследуем её на непрерывность:</p>
+  <p>1) <img align="absmiddle"  width="97" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image124.gif"> – функция определена в  данной точке. </p>
+  <p>2) Вычислим односторонние  пределы.</p>
+  <p>Слева у нас красный отрезок  прямой, поэтому левосторонний предел: <img align="absmiddle"  width="156" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image126.gif"></p>
+  <p>Справа – синяя прямая, и правосторонний  предел: <img align="absmiddle"  width="139" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image128.gif"></p>
+  <p>В результате получены <em>конечные числа</em>, причем они <em>не равны</em>. Поскольку односторонние  пределы <u>конечны и различны</u>: <img align="absmiddle"  width="165" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image130.gif">, то наша функция терпит <u>разрыв первого рода со скачком</u>. </p>
+  <p>Логично, что разрыв не устраним –  функцию действительно не доопределить и «не склеить», как в предыдущем примере.</p>
+  <h3><strong>Точки разрыва второго рода</strong></h3>
+  <p>Обычно к данной категории хитро  относят все остальные случаи разрыва. Всё перечислять не буду, поскольку на  практике в 99%-ти процентах задач вам встретится <strong>бесконечный разрыв</strong> – когда левосторонний или правосторонний, а  чаще, оба предела бесконечны.</p>
+  <p>И, конечно же, самая  напрашивающаяся картинка – гипербола в точке ноль. Здесь оба односторонних  предела бесконечны: <img align="absmiddle"  width="176" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image132.gif">, следовательно, функция <img align="absmiddle"  width="57" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image134.gif"> терпит разрыв второго  рода в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0003.gif">.</p>
+  <p>Я стараюсь наполнять свои статьи  максимально разнообразным содержанием, поэтому давайте посмотрим на график  функции <img align="absmiddle"  width="64" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image137.gif">, который ещё не встречался:<br>
+      <img align="absmiddle"  width="348" height="273" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image139.jpg" alt="Разрыв второго рода"><br>
+    Исследуем на непрерывность точку <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0004.gif"> по стандартной схеме:</p>
+  <p>1) Функция не определена в данной  точке, поскольку знаменатель обращается в ноль.</p>
+  <p>Конечно, можно сразу сделать  вывод о том, что функция терпит разрыв в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0005.gif">, но хорошо бы классифицировать характер разрыва, что часто  требуется по условию. Для этого:</p>
+  <p>2) Вычислим односторонние  пределы:<br>
+      <img align="absmiddle"  width="173" height="84" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image141.gif"><br>
+    Напоминаю, что под записью <img align="absmiddle"  width="23" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image143.gif"> понимается <em>бесконечно малое отрицательное число</em>, а  под записью <img align="absmiddle"  width="23" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image145.gif"> – <em>бесконечно малое положительное число</em>. <strong></strong></p>
+  <p>Односторонние пределы бесконечны,  значит, функция <img align="absmiddle"  width="64" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image137_0000.gif"> терпит разрыв 2-го  рода в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0006.gif">. Ось ординат является <strong><a href="asimptoty_grafika_funkcii.html">вертикальной  асимптотой</a></strong> для графика.</p>
+  <p>Не редка ситуация, когда оба  односторонних предела существуют, но бесконечен только один из них, например:<br>
+      <img align="absmiddle"  width="373" height="318" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image147.jpg" alt="Один односторонний предел конечен, а другой бесконечен"><br>
+    Это график функции <img align="absmiddle"  width="73" height="35" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image149.gif">. </p>
+  <p>Исследуем на непрерывность точку <img align="absmiddle"  width="37" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image151.gif">:</p>
+  <p>1) Функция не определена в данной  точке.</p>
+  <p>2) Вычислим односторонние  пределы:<br>
+      <img align="absmiddle"  width="297" height="83" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image153.gif"></p>
+  <p>О методике вычисления таких  односторонних пределов поговорим в двух последних примерах лекции, хотя многие  читатели всё уже увидели и догадались.</p>
+  <p>Левосторонний предел конечен и  равен нулю (в саму точку мы «не заходим»), но правосторонний предел бесконечен  и оранжевая ветка графика бесконечно близко приближается к своей <strong><a href="asimptoty_grafika_funkcii.html">вертикальной асимптоте</a></strong>, заданной  уравнением <img align="absmiddle"  width="37" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image151_0000.gif"> (чёрный пунктир).</p>
+  <p>Таким образом, функция <img align="absmiddle"  width="96" height="35" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image155.gif"> терпит <strong>разрыв второго рода</strong> в точке <img align="absmiddle"  width="37" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image151_0001.gif">.</p>
+  <p>Как и для разрыва 1-го рода, в  самой точке разрыва функция может быть определена. Например, для кусочной  функции <img align="absmiddle"  width="169" height="61" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image157.gif"> смело ставим чёрную  жирную точку в начале координат. Справа же – ветка гиперболы, и правосторонний  предел бесконечен. Думаю, почти все представили, как выглядит этот график.</p>
+  <p>То, чего все с нетерпением ждали:</p>
+  <br>
+  <h2><strong>Как исследовать функцию на непрерывность?</strong></h2>
+  <p>Исследование функции на  непрерывность в точке проводится по уже накатанной рутинной схеме, которая  состоит в проверке трёх условий непрерывности: </p>
+  <p><u>Пример 1</u></p>
+  <p>Исследовать функцию <img align="absmiddle"  width="125" height="44" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image159.gif"> на непрерывность. Определить  характер разрывов функции, если они существуют. Выполнить чертёж.</p>
+  <p><strong>Решение</strong>: </p>
+  <p>1) Под прицел попадает  единственная точка <img align="absmiddle"  width="35" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image161.gif">, в которой функция не определена. </p>
+  <p>2) Вычислим односторонние  пределы:<br>
+      <img align="absmiddle"  width="295" height="83" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image163.gif"><br>
+    Односторонние пределы конечны и  равны.</p>
+  <p>Таким образом, в точке <img align="absmiddle"  width="35" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image161_0000.gif"> функция терпит  устранимый разрыв.</p>
+  <p>Как выглядит график данной  функции? </p>
+  <p>Хочется провести упрощение <img align="absmiddle"  width="188" height="41" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165.gif">, и вроде бы получается обычная парабола. <strong>НО</strong> исходная функция не определена в  точке <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image167.gif">, поэтому обязательна следующая оговорка:<br>
+    <img align="absmiddle"  width="148" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image169.gif"></p>
+  <p>Выполним чертёж:<br>
+      <img align="absmiddle"  width="279" height="267" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image171.jpg" alt="Квадратичная функция с точкой устранимого разрыва"></p>
+  <p><strong>Ответ</strong>: функция непрерывна на всей числовой прямой кроме точки <img align="absmiddle"  width="35" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image161_0001.gif">, в которой она терпит устранимый разрыв.</p>
+  <p>Функцию можно доопределить  хорошим или не очень способом, но по условию этого не требуется.</p>
+  <p>Вы скажете, пример надуманный?  Ничуть. Десятки раз встречалось на практике. Почти все задачи сайта родом из  реальных самостоятельных и контрольных работ.</p>
+  <p>Разделаемся с любимыми модулями:</p>
+  <p><u>Пример 2</u></p>
+  <p>Исследовать функцию <img align="absmiddle"  width="149" height="41" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image173.gif"> на непрерывность.  Определить характер разрывов функции, если они существуют. Выполнить чертёж.</p>
+  <p><strong>Решение</strong>: почему-то студенты боятся и не любят функции с модулем,  хотя ничего сложного в них нет. Таких вещей мы уже немного коснулись на уроке <strong><a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Геометрические преобразования графиков</a></strong>.  Поскольку модуль неотрицателен, то он раскрывается следующим образом: <img align="absmiddle"  width="157" height="45" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image175.gif">, где «альфа» – некоторое выражение. В данном случае <img align="absmiddle"  width="55" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image177.gif">, и наша функция должна расписаться кусочным образом:<br>
+      <img align="absmiddle"  width="351" height="76" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image179.gif"></p>
+  <p>Но дроби обоих кусков предстоит  сократить на <img align="absmiddle"  width="31" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image181.gif">. Сокращение, как и в предыдущем примере, не пройдёт без  последствий. Исходная функция не определена в точке <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image183.gif">, так как знаменатель обращается в ноль. Поэтому в системе  следует дополнительно указать условие <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image185.gif">, и первое неравенство <img align="absmiddle"  width="52" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image187.gif"> сделать строгим:<br>
+      <img align="absmiddle"  width="276" height="73" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image189.gif"></p>
+  <p><strong>Теперь об ОЧЕНЬ ПОЛЕЗНОМ приёме решения</strong>: перед чистовым оформлением  задачи на черновике выгодно сделать чертёж (независимо от того, требуется он по  условию или нет). Это поможет, во-первых, сразу увидеть точки непрерывности и  точки разрыва, а, во-вторых, 100%-но убережёт от ошибок при нахождении односторонних  пределов.</p>
+  <p>Выполним чертёж. В соответствии с  нашими выкладками, слева от точки <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image183_0000.gif"> необходимо начертить  фрагмент параболы <img align="absmiddle"  width="60" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image191.gif"> (синий цвет), а справа  – кусок параболы <img align="absmiddle"  width="83" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image193.gif"> (красный цвет), при  этом функция не определена в самой точке <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image183_0001.gif">:<br>
+      <img align="absmiddle"  width="282" height="356" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image195.jpg" alt="График функции с модулем раскладывается на кусочную функцию"><br>
+    Если есть сомнения, возьмите  несколько значений «икс», подставьте их в функцию <img align="absmiddle"  width="127" height="41" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image197.gif"> (не забывая, что  модуль уничтожает возможный знак «минус») и сверьтесь с графиком.</p>
+  <p>Исследуем функцию на  непрерывность аналитически: </p>
+  <p>1) Функция не определена в точке <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image183_0002.gif">, поэтому сразу можно сказать, что не является в ней  непрерывной. </p>
+  <p>2) Установим характер разрыва, для  этого вычислим односторонние пределы:<br>
+      <img align="absmiddle"  width="303" height="64" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image199.gif"></p>
+  <p>Односторонние пределы конечны и  различны, значит, функция терпит разрыв 1-го рода со скачком в точке <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image183_0003.gif">. Ещё раз заметьте, что при нахождении пределов не  имеет значения, определена функция в точке разрыва или нет.</p>
+  <p>Теперь остаётся перенести чертёж  с черновика (он сделан как бы с помощью исследования ;-)) и завершить задание:</p>
+  <p><strong>Ответ</strong>: функция непрерывна на всей числовой прямой кроме точки <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image183_0004.gif">, в которой она терпит разрыв первого рода со скачком.</p>
+  <p>Иногда требуют дополнительно  указать скачок разрыва. Вычисляется он элементарно – из правого предела нужно  вычесть левый предел: <img align="absmiddle"  width="228" height="29" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image201.gif">, то есть в точке разрыва наша функция прыгнула на 2 единицы  вниз (о чём нам сообщает знак «минус»).</p>
+  <p><u>Пример 3</u></p>
+  <p>Исследовать функцию <img align="absmiddle"  width="119" height="49" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image002_0001.gif"> на непрерывность.  Определить характер разрывов функции, если они существуют. Сделать чертёж.</p>
+  <p>Это пример для самостоятельного  решения, примерный образец решения в конце урока.</p>
+  <p>Перейдём к наиболее популярной и распространённой версии  задания, когда функция состоит из трёх кусков:</p>
+  <p><u>Пример 4</u></p>
+  <p>Исследовать функцию на  непрерывность и построить график функции <img align="absmiddle"  width="204" height="68" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image004.gif">.</p>
+  <p><strong>Решение</strong>: очевидно, что все три части функции непрерывны на соответствующих  интервалах, поэтому осталось проверить только две точки «стыка» между кусками.  Сначала выполним чертёж на черновике, технику построения я достаточно подробно  закомментировал в первой части статьи. Единственное, необходимо аккуратно  проследить за нашими особенными точками: в силу неравенства <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image006_0002.gif"> значение <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image008.gif"> принадлежит прямой <img align="absmiddle"  width="76" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image010_0002.gif"> (зелёная точка), и в  силу неравенство <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image012_0000.gif"> значение <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0000.gif"> принадлежит параболе <img align="absmiddle"  width="80" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image016.gif"> (красная точка):<br>
+      <img align="absmiddle"  width="445" height="308" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image018_0000.jpg" alt="Разрыв 1-го рода со скачком"><br>
+    Ну вот, в принципе, всё понятно  =) Осталось оформить решение.  Для каждой  из двух «стыковых» точек стандартно проверяем 3 условия непрерывности:</p>
+  <p><strong>I)</strong> Исследуем на непрерывность точку <img align="absmiddle"  width="45" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image020_0000.gif"></p>
+  <p>1) <img align="absmiddle"  width="119" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image022_0002.gif"> – функция определена в  данной точке.</p>
+  <p>2) Найдём односторонние пределы:<br>
+      <img align="absmiddle"  width="225" height="61" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image024_0000.gif"><br>
+    Односторонние пределы конечны и  различны, значит, функция <img align="absmiddle"  width="36" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image026_0001.gif"> терпит разрыв 1-го  рода со скачком в точке <img align="absmiddle"  width="45" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image020_0001.gif">.</p>
+  <p>Вычислим скачок разрыва как  разность правого и левого пределов:<br>
+      <img align="absmiddle"  width="211" height="29" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image029.gif">, то есть, график рванул на одну единицу вверх.</p>
+  <p><strong>II)</strong> Исследуем на непрерывность точку <img align="absmiddle"  width="35" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image031.gif"></p>
+  <p>1) <img align="absmiddle"  width="105" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image033.gif"> – функция определена в  данной точке.</p>
+  <p>2) Найдём односторонние пределы:<br>
+      <img align="absmiddle"  width="228" height="61" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image035.gif"></p>
+  <p><img align="absmiddle"  width="141" height="29" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image037.gif">– односторонние пределы конечны и равны, значит, существует общий  предел.</p>
+  <p>3) <img align="absmiddle"  width="116" height="29" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image039.gif"> – предел функции в  точке равен значению данной функции в данной точке.</p>
+  <p>Таким образом, функция <img align="absmiddle"  width="56" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image041.gif"> непрерывна в точке <img align="absmiddle"  width="35" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image031_0000.gif"> по определению  непрерывности функции в точке.</p>
+  <p>На завершающем этапе переносим  чертёж на чистовик, после чего ставим финальный аккорд:</p>
+  <p><strong>Ответ</strong>: функция непрерывна на всей числовой прямой, кроме точки <img align="absmiddle"  width="45" height="19" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image020_0002.gif">, в которой она терпит разрыв первого рода со скачком. </p>
+  <p>Готово. </p>
+  <p><u>Пример 5</u></p>
+  <p>Исследовать функцию на непрерывность и построить её график <img align="absmiddle"  width="200" height="73" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image044.gif">.</p>
+  <p>Это пример для самостоятельного  решения, краткое решение и примерный образец оформления задачи в конце урока.</p>
+  <p>Может сложиться впечатление, что  в одной точке функция обязательно должна быть непрерывной, а в другой –  обязательно должен быть разрыв. На практике это далеко не всегда так. Постарайтесь  не пренебрегать оставшимися примерами – будет несколько интересных и важных  фишек:</p>
+  <p><u>Пример 6</u></p>
+  <p>Дана функция <img align="absmiddle"  width="145" height="107" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image046.gif">. Исследовать функцию на непрерывность в точках <img align="absmiddle"  width="75" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image048.gif">. Построить график.</p>
+  <p><strong>Решение</strong>: и снова сразу выполним чертёж на черновике:<br>
+      <img align="absmiddle"  width="450" height="186" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image050.jpg" alt="Кусочная функция может быть непрерывна на всей числовой прямой"></p>
+  <div id="primer">
+    <p>Особенность данного графика  состоит в том, что при <img align="absmiddle"  width="33" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image052_0000.gif"> кусочная функция  задаётся уравнением оси абсцисс <img align="absmiddle"  width="77" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image054_0000.gif">. Здесь данный участок прорисован зелёным цветом, а в тетради  его обычно жирно выделяют простым карандашом. И, конечно же, не забываем про  наших баранов: значение <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image056_0000.gif"> относится к ветке  тангенса (красная точка), а значение <img align="absmiddle"  width="39" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image058.gif"> принадлежит прямой <img align="absmiddle"  width="75" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image060.gif">.</p>
+    <p>Из чертежа всё понятно – функция  непрерывна на всей числовой прямой, осталось оформить решение, которое  доводится до полного автоматизма буквально после 3-4 подобных примеров:</p>
+    <p><strong>I)</strong> Исследуем на непрерывность точку <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image056_0001.gif"></p>
+    <p>1) <img align="absmiddle"  width="88" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image063_0000.gif"> – функция определена в  данной точке.</p>
+    <p>2) Вычислим  односторонние пределы:<br>
+        <img align="absmiddle"  width="196" height="55" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image065_0000.gif"></p>
+    <p><img align="absmiddle"  width="145" height="29" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image067_0000.gif">, значит, общий предел существует.</p>
+    <p>На всякий пожарный напомню тривиальный факт: предел константы равен самой  константе. В данном случае предел нуля равен самому нулю (левосторонний  предел).</p>
+    <p>Едем дальше:</p>
+    <p>3) <img align="absmiddle"  width="119" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image069_0000.gif"> – предел функции в  точке равен значению данной функции в данной точке.</p>
+    <p>Таким образом, функция <img align="absmiddle"  width="56" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image041_0000.gif"> непрерывна в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image056_0002.gif"> по определению  непрерывности функции в точке.</p>
+    <p><strong>II)</strong> Исследуем на непрерывность точку <img align="absmiddle"  width="39" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image058_0000.gif"></p>
+    <p>1) <img align="absmiddle"  width="60" height="43" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image073.gif"> – функция определена в  данной точке.</p>
+    <p>2) Найдём односторонние пределы:<br>
+        <img align="absmiddle"  width="203" height="88" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image075_0007.gif"></p>
+    <p>И здесь – предел единицы равен  самой единице.</p>
+    <p><img align="absmiddle"  width="148" height="40" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image077_0000.gif"> – общий предел существует.</p>
+    <p>3) <img align="absmiddle"  width="128" height="51" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image079_0002.gif"> – предел функции в  точке равен значению данной функции в данной точке.</p>
+    <p>Таким образом, функция <img align="absmiddle"  width="56" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image041_0001.gif"> непрерывна в точке <img align="absmiddle"  width="39" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image058_0001.gif"> по определению  непрерывности функции в точке.</p>
+    <p>Как обычно, после исследования переносим наш чертёж на  чистовик.</p>
+    <p><strong>Ответ</strong>: функция  непрерывна в точках <img align="absmiddle"  width="75" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image048_0000.gif">. </p>
+    <p>Обратите внимание, что в условии  нас ничего не спрашивали про исследование всей функции на непрерывность, и  хорошим математическим тоном считается формулировать <strong>точный и чёткий</strong> ответ на поставленный вопрос. Кстати, если по  условию не требуется строить график, то вы имеете полное право его и не строить  (правда, потом преподаватель может заставить это сделать).</p>
+  </div>
+  <p>Небольшая математическая  «скороговорка» для самостоятельного решения:</p>
+  <p><u>Пример 7</u></p>
+  <p>Дана функция <img align="absmiddle"  width="141" height="93" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image082.gif">. Исследовать функцию на непрерывность в точках <img align="absmiddle"  width="79" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image084.gif">. Классифицировать точки разрыва, если они есть. Выполнить  чертёж.</p>
+  <p>Постарайтесь правильно  «выговорить» все «слова» =) И график нарисовать поточнее, точность, она везде  лишней не будет ;-)</p>
+  <p>Как вы помните, я рекомендовал незамедлительно выполнять  чертёж на черновике, но время от времени попадаются такие примеры, где не сразу  сообразишь, как выглядит график. Поэтому в ряде случаев выгодно сначала найти  односторонние пределы и только потом на основе исследования изобразить ветви. В  двух заключительных примерах мы, кроме того, освоим технику вычисления  некоторых односторонних пределов:</p>
+  <p><u>Пример 8</u></p>
+  <p>Исследовать на непрерывность функцию <img align="absmiddle"  width="77" height="52" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image086.gif"> и построить её  схематический график.</p><div id="primer">
+  <p><strong>Решение</strong>:  нехорошие точки очевидны: <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image008_0000.gif"> (обращает в ноль  знаменатель показателя) и <img align="absmiddle"  width="33" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image089.gif"> (обращает в ноль  знаменатель всей дроби). Малопонятно, как выглядит график данной функции, а  значит, сначала лучше провести исследование:</p>
+  <p><strong>I) </strong>Исследуем  на непрерывность точку <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image008_0001.gif"></p>
+  <p>1) Функция не определена в данной  точке.</p>
+  <p>2) Найдём односторонние пределы:<br>
+      <img align="absmiddle"  width="360" height="55" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image092.gif"></p>
+  <p>Обратите внимание на <strong>типовой приём вычисления одностороннего  предела</strong>: в функцию вместо «икса» мы подставляем <img align="absmiddle"  width="40" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image094_0000.gif">. В знаменателе никакого криминала: «добавка» «минус ноль» не  играет роли, и получается «четыре». А вот в числителе происходит небольшой  триллер: сначала в знаменателе показателя <img align="absmiddle"  width="61" height="39" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image096_0000.gif"> убиваем –1 и 1, в  результате чего получается <img align="absmiddle"  width="25" height="31" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image098_0000.gif">. Единица, делённая на <em>бесконечно  малое отрицательное число</em>, равна «минус бесконечности», следовательно: <img align="absmiddle"  width="61" height="31" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image100_0000.gif">. И, наконец, «двойка» в <em>бесконечно  большой отрицательной степени</em> равна нулю: <img align="absmiddle"  width="85" height="32" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image102_0001.gif">. Или, если ещё подробнее: <img align="absmiddle"  width="124" height="43" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image104_0000.gif">.</p>
+  <p>Вычислим правосторонний предел:<br>
+      <img align="absmiddle"  width="348" height="55" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image106_0000.gif"></p>
+  <p>И здесь – вместо «икса»  подставляем <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image108_0000.gif">. В знаменателе «добавка» <img align="absmiddle"  width="23" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image110_0001.gif"> снова не играет роли: <img align="absmiddle"  width="149" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image112_0000.gif">. В числителе проводятся аналогичные предыдущему пределу  действия: уничтожаем противоположные числа и делим единицу на<em> бесконечно малое положительное число</em>: <img align="absmiddle"  width="152" height="31" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image114_0000.gif"></p>
+  <p>Правосторонний предел бесконечен,  значит, функция терпит разрыв 2-го рода в точке <img align="absmiddle"  width="41" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image008_0002.gif">.</p>
+  <p><strong>II) </strong>Исследуем  на непрерывность точку <img align="absmiddle"  width="33" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image089_0000.gif"></p>
+  <p>1) Функция не определена в данной  точке.</p>
+  <p>2) Вычислим левосторонний предел:<br>
+      <img align="absmiddle"  width="351" height="55" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image118_0000.gif"></p>
+  <p>Метод такой же: подставляем в  функцию вместо «икса» <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image120.gif">. В числителе ничего интересного – получается конечное  положительно число <img align="absmiddle"  width="24" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image122_0000.gif">. А в знаменателе раскрываем скобки, убираем «тройки», и решающую  роль играет «добавка» <img align="absmiddle"  width="23" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image124_0000.gif">. </p>
+  <p>По итогу, конечное положительное  число, делённое на <em>бесконечно малое  положительное число</em>, даёт «плюс бесконечность»: <img align="absmiddle"  width="60" height="41" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image126_0000.gif">.</p>
+  <p>Правосторонний предел, как брат близнец, за тем лишь  исключением, что в знаменателе выплывает <em>бесконечно  малое отрицательное число</em>: <br>
+      <img align="absmiddle"  width="352" height="55" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image128_0000.gif"></p>
+  <p>Односторонние пределы бесконечны, значит, функция терпит  разрыв 2-го рода в точке <img align="absmiddle"  width="33" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image089_0001.gif">.</p>
+  <p>Таким образом, у нас две точки разрыва, и, очевидно, три  ветки графика. Для каждой ветки целесообразно провести поточечное построение,  т.е. взять несколько значений «икс» и подставить их в <img align="absmiddle"  width="35" height="52" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image130_0000.gif">. Заметьте, что по условию допускается построение <u>схематического</u> чертежа, и такое послабление естественно для ручной работы. Я строю графики с  помощью проги, поэтому не имею подобных затруднений, вот достаточно точная  картинка:</p></div>
+      <p><img align="absmiddle"  width="449" height="456" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image132.jpg" alt="Точки разрыва 2-го рода"></p>
+    <p>Прямые <img align="absmiddle"  width="76" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image134_0000.gif"> являются <strong><a href="asimptoty_grafika_funkcii.html">вертикальными асимптотами</a></strong> для графика  данной функции.</p>
+  <p><strong>Ответ</strong>: функция  непрерывна на всей числовой прямой кроме точек <img align="absmiddle"  width="76" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image134_0001.gif">, в которых она терпит разрывы 2-го рода. </p>
+  <p>Более простая функция для самостоятельного решения:</p>
+  <p><u>Пример 9</u></p>
+  <p>Исследовать на непрерывность функцию <img align="absmiddle"  width="71" height="35" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image136.gif"> и выполнить  схематический чертёж.</p>
+  <p>Примерный образец решения в конце, который подкрался  незаметно. Однако по просьбам учащихся ещё один случай:</p>
+  <p><u>Пример 10</u></p>
+  <p>Исследовать на непрерывность функцию <img align="absmiddle" width="100" height="41" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image002.gif"> в точке <img align="absmiddle" width="43" height="24" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image004.gif">.</p>
+  <p><strong>Решение</strong>, как  обычно, по пунктам, новизна будет в пределах:</p>
+  <p>1) Очевидно, функция не определена в данной точке, ибо знаменатель  обращается в ноль:<br>
+      <img align="absmiddle" width="167" height="21" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image006.gif"></p>
+  <p>2) Вычислим односторонние пределы в точке <img align="absmiddle" width="43" height="24" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image004_0000.gif">:<br>
+      <img align="absmiddle" width="445" height="41" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image008.gif"></p>
+  <p><strong>Справка</strong>: если  основание степени <img align="absmiddle" width="35" height="19" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image010.gif">, то <img align="absmiddle" width="76" height="21" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image012.gif">, а <img align="absmiddle" width="76" height="21" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image014.gif">. И сразу на другой случай жизни: если основание степени <img align="absmiddle" width="59" height="19" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image016.gif">, то наоборот: <img align="absmiddle" width="159" height="24" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image018.gif"></p>
+  <p>Второй односторонний предел:<br>
+      <img align="absmiddle" width="447" height="41" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image020.gif"></p>
+  <p>Односторонние пределы бесконечны и различны по знаку, таким  образом, функция терпит разрыв 2-го рода в точке <img align="absmiddle" width="43" height="24" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image004_0001.gif">.</p>
+  <p>По условию, чертёж не требовался, но мне не сложно, сейчас  только раскопаю шаблоны семилетней давности :) …ого, секунд 20 потребовалось  всего и ещё минуты три на чертёж:<br>
+      <img align="absmiddle" width="341" height="407" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image022.jpg"><br>
+    Вот такое вот нечто…, никогда не думал, что свои шутки буду  пробивать по Поиску, хотел пошутить, да оказалось повтором :) И коль скоро шутки  нет, то факультативное задание для тренировки: найдите пределы этой же функции  на «минус» и «плюс» бесконечности. </p>
+  <p><strong>Ответ:</strong> функция  терпит бесконечный разрыв в точке <img align="absmiddle" width="43" height="24" src="i/nepreryvnost_funkcii_i_tochki_razriva_clip_image004_0002.gif"></p>
+  <p>Спасибо за ваши письма! – они помогают сделать материал более полным и  качественным.  </p>
+  <p>До скорых встреч!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 3: <strong>Решение</strong>:  преобразуем функцию: <img align="absmiddle"  width="116" height="44" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image138.gif">. Учитывая правило раскрытия модуля <img align="absmiddle"  width="151" height="45" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image140.gif"> и тот факт, что <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image142.gif">, перепишем функцию в кусочном виде:</em><br>
+      <em><img align="absmiddle"  width="396" height="99" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image144.gif"></em><br>
+      <em>Исследуем функцию на непрерывность. </em><br>
+      <em>1) Функция не определена в точке <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0001.gif">. </em><br>
+      <em>2) Вычислим односторонние пределы:</em><br>
+      <em><img align="absmiddle"  width="167" height="60" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image147.gif"></em><br>
+      <em>Односторонние пределы конечны и различны, значит, функция терпит разрыв  1-го рода со скачком в точке <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0002.gif">. Выполним чертёж:</em><br>
+      <em><img align="absmiddle"  width="389" height="259" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image150.jpg" alt="В графиках с модулями нет ничего страшного"></em><br>
+      <strong><em>Ответ</em></strong><em>: функция непрерывна на всей числовой прямой кроме точки <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0003.gif">, в которой она терпит разрыв первого рода со скачком. Скачок  разрыва: <img align="absmiddle"  width="219" height="29" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image153_0000.gif"> (две единицы вверх).</em></p>
+  <p><em>Пример 5: <strong>Решение</strong>: каждая из трёх частей функции  непрерывна на своём интервале.</em><br>
+      <strong><em>I)</em></strong><em> Исследуем на непрерывность точку <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image056_0003.gif"></em><br>
+      <em>1) <img align="absmiddle"  width="97" height="24" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image156.gif"> – функция определена в  данной точке.</em><br>
+      <em>2) Вычислим  односторонние пределы:</em><br>
+      <em><img align="absmiddle"  width="215" height="57" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image158.gif"></em><br>
+      <em><img align="absmiddle"  width="143" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image160.gif">, значит, общий предел существует.</em><br>
+      <em>3) <img align="absmiddle"  width="116" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image162.gif"> – предел функции в  точке равен значению данной функции в данной точке.</em><br>
+      <em>Таким образом, функция <img align="absmiddle"  width="56" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image041_0002.gif"> непрерывна в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image056_0004.gif"> по определению  непрерывности функции в точке.</em><br>
+      <strong><em>II)</em></strong><em> Исследуем на непрерывность точку <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165_0000.gif"></em><br>
+      <em>1) <img align="absmiddle"  width="96" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image167_0000.gif"> – функция определена в  данной точке.</em><br>
+      <em>2) Найдём односторонние пределы:</em><br>
+      <em><img align="absmiddle"  width="216" height="55" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image169_0000.gif"></em><br>
+      <em>Односторонние пределы конечны и различны, значит, функция <img align="absmiddle"  width="36" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image026_0002.gif"> терпит разрыв 1-го  рода со скачком в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165_0001.gif">.</em><br>
+      <em>Скачок разрыва: <img align="absmiddle"  width="217" height="28" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image172.gif"> (пять единиц вниз).</em><br>
+      <em>Чертёж можно найти в первой части статьи.</em><br>
+      <strong><em>Ответ</em></strong><em>: функция непрерывна на всей числовой прямой, кроме точки <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165_0002.gif">, в которой она терпит разрыв первого рода со скачком. </em></p>
+  <p><em>Пример 7: <strong>Решение</strong>: </em><br>
+      <strong><em>I)</em></strong><em> Исследуем на непрерывность точку <img align="absmiddle"  width="43" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image175_0000.gif"></em><br>
+      <em>1) <img align="absmiddle"  width="63" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image177_0000.gif"> – функция определена в  данной точке.</em><br>
+      <em>2) Найдём односторонние пределы:</em><br>
+      <em><img align="absmiddle"  width="304" height="68" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image179_0000.gif"></em><br>
+      <em>Левосторонний предел бесконечен, значит, функция терпит разрыв 2-го  рода в точке <img align="absmiddle"  width="43" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image175_0001.gif">.</em><br>
+      <strong><em>II)</em></strong><em> Исследуем на непрерывность точку <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165_0003.gif"></em><br>
+      <em>1) <img align="absmiddle"  width="55" height="20" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image182.gif"> – функция определена в  данной точке.</em><br>
+      <em>2) Найдём односторонние пределы:</em><br>
+      <em><img align="absmiddle"  width="160" height="68" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image184.gif"></em><br>
+      <em>Односторонние пределы конечны и различны, значит, функция <img align="absmiddle"  width="36" height="21" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image026_0003.gif"> терпит разрыв 1-го  рода со скачком в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165_0004.gif">.</em><br>
+      <em>Выполним чертёж:</em><br>
+      <strong><em><img align="absmiddle"  width="453" height="360" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image187.jpg" alt="Разрывы обоих типов у одной кусочно-заданной функции"></em></strong><br>
+      <strong><em>Ответ</em></strong><em>: В точке <img align="absmiddle"  width="43" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image175_0002.gif"> функция терпит разрыв  2-го рода, в точке <img align="absmiddle"  width="35" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image165_0005.gif"> функция терпит разрыв  1-го рода со скачком.</em></p>
+  <p><em>Пример 9: <strong>Решение</strong>: исследуем  на непрерывность точку <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0004.gif">:</em><br>
+      <em>1) Функция не определена в данной точке.</em><br>
+      <em>2) Вычислим односторонние пределы:</em><br>
+      <em><img align="absmiddle"  width="347" height="91" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image191_0000.gif"></em><br>
+      <em>Левосторонний предел бесконечен, значит, функция терпит разрыв 2-го  рода в точке <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0005.gif">.</em><br>
+      <em>Выполним чертёж:</em><br>
+      <em><img align="absmiddle"  width="302" height="315" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image194.jpg" alt="МО-ЛО-ДЕЦ!"></em></p>
+  <p><strong><em>Ответ</em></strong><em>: функция непрерывна на всей числовой прямой кроме точки <img align="absmiddle"  width="32" height="17" src="i/nepreryvnost_funkcii_i_tochki_razryva_clip_image014_0006.gif">, в которой она терпит разрыв 2-го рода.</em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

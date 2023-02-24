@@ -1,0 +1,1011 @@
+<html>
+<head>
+<title>Как найти ранг матрицы? Подробные примеры решений</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="ранг матрицы, что такое ранг матрицы, как найти ранг матрицы, примеры решений, подробно, доступно, с помощью миноров, метод окаймляющих миноров, ранг матрицы методом гаусса, с помощью элементарных преобразований, исследовать систему уравнений на совместность, через ранг матрицы, теорема кронекера-капелли">
+<meta name="Description" content="Разобранные задачи на нахождение ранга матрицы методом окаймляющих миноров и с помощью элементарных преобразований">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Как найти ранг матрицы?</strong></h1>
+  
+ 
+  <p><em>Знание ранга матрицы повысит ваш ранг =)</em></p>
+   <br>
+  <p>На сегодняшнем уроке  мы  познакомимся с понятием ранга <strong><a href="deistviya_s_matricami.html">алгебраической  матрицы</a></strong>, научимся находить ранг матрицы <em>методом  окаймляющих миноров</em> и <strong><a href="metod_gaussa_dlya_chainikov.html">методом Гаусса</a></strong>,  а также рассмотрим важное практическое приложение темы: <strong>исследование системы линейных уравнений на совместность</strong>.</p>
+  <h3><strong>Что такое ранг  матрицы?</strong></h3>
+  <p>В юмористическом эпиграфе статьи содержится большая доля  истины. Само слово «ранг» у нас обычно ассоциируется с некоторой иерархией,  чаще всего, со служебной лестницей. Чем больше у человека знаний, опыта,  способностей, блата и т.д. – тем выше его должность и спектр возможностей.  Выражаясь по молодёжному, под рангом подразумевают общую степень «крутизны». </p>
+  <p>И братья наши математические живут по тем же принципам. Выведем  на прогулку несколько произвольных <em>нулевых  матриц</em>:<br>
+      <img align="absmiddle" width="496" height="96" src="k/rang_matricy_clip_image002.gif"></p>
+  <p>Задумаемся, если в матрице <em>одни нули</em>, то о каком ранге может идти речь? Всем знакомо  неформальное выражение «полный ноль». В обществе матриц всё точно так же:</p>
+  <p><strong>Ранг нулевой матрицы </strong><img align="absmiddle" width="13" height="19" src="k/rang_matricy_clip_image004.gif"> <strong>любых размеров равен нулю</strong>.</p>
+  <p><strong><em>Примечание</em></strong><em>: нулевая  матрица обозначается греческой буквой «тета»</em></p>
+  <p>В целях лучшего понимания ранга матрицы здесь и далее я буду  привлекать на помощь материалы <strong><a href="vektory_dlya_chainikov.html">аналитической  геометрии</a></strong>. Рассмотрим нулевой <strong><a href="vektory_dlya_chainikov.html">вектор</a></strong> <img align="absmiddle" width="63" height="24" src="k/rang_matricy_clip_image006.gif"> нашего трёхмерного  пространства, который не задаёт определённого направления и бесполезен для  построения <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">аффинного базиса</a></strong>. С  алгебраической точки зрения координаты данного вектора записаны в <strong><a href="deistviya_s_matricami.html">матрицу</a></strong> «один на три» и логично <em>(в   указанном геометрическом смысле)</em> считать, что ранг этой матрицы  равен нулю. </p>
+  <p>Теперь рассмотрим несколько <u>ненулевых</u> <em>векторов-столбцов</em> и <em>векторов-строк</em>:<br>
+      <img align="absmiddle" width="544" height="96" src="k/rang_matricy_clip_image008.gif"><br>
+    В каждом экземпляре есть хотя бы один ненулевой элемент, и это  уже кое-что! </p>
+  <p><strong>Ранг любого ненулевого  вектора-строки (вектора-столбца) равен единице</strong></p>
+  <p>И вообще – <strong>если в  матрице <u>произвольных размеров</u> есть хотя бы один ненулевой элемент, то её  ранг <u>не меньше</u> единицы</strong>.</p>
+  <p>Алгебраические векторы-строки и векторы-столбцы в известной  степени абстрактны, поэтому снова обратимся к геометрической ассоциации. Ненулевой <strong><a href="vektory_dlya_chainikov.html">вектор</a></strong> <img align="absmiddle" width="87" height="21" src="k/rang_matricy_clip_image010.gif"> задаёт вполне  определённое направление в пространстве и годится для построения <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">базиса</a></strong>, поэтому ранг матрицы <img align="absmiddle" width="76" height="23" src="k/rang_matricy_clip_image012.gif"> будем считать равным  единице.</p>
+  <p><strong><em>Теоретическая справка</em></strong><em>: в  линейной алгебре вектор – это элемент  векторного пространства (определяемое через 8 аксиом), который, в частности, может представлять собой упорядоченную строку <img align="absmiddle" width="13" height="17" src="k/rang_matricy_clip_image014.gif"> (или столбец) действительных чисел <img align="absmiddle" width="92" height="24" src="k/rang_matricy_clip_image016.gif"> с определёнными для них операциями сложения <img align="absmiddle" width="521" height="24" src="k/rang_matricy_clip_image020.gif"> и умножения на  действительное число<img align="absmiddle" width="297" height="24" src="k/rang_matricy_clip_image018.gif">. С более подробной информацией о векторах можно  ознакомиться в статье <strong><a href="linejnye_preobrazovanija.html">Линейные преобразования</a></strong>.</em></p>
+  <p>Рассмотрим матрицу <img align="absmiddle" width="85" height="48" src="k/rang_matricy_clip_image022.gif">, строки которой <em>линейно  зависимы</em> (выражаются друг через друга). С геометрической точки зрения во  вторую строку записаны координаты коллинеарного вектора <img align="absmiddle" width="101" height="21" src="k/rang_matricy_clip_image024.gif">, который ничуть не продвинул дело в построении <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">трёхмерного базиса</a></strong>, являясь в этом  смысле лишним. Таким образом, ранг данной матрицы тоже равен единице. </p>
+  <p>Перепишем координаты векторов в столбцы (<strong><a href="deistviya_s_matricami.html">транспонируем матрицу</a></strong>):<br>
+      <img align="absmiddle" width="72" height="75" src="k/rang_matricy_clip_image026.gif"></p>
+  <p>Что изменилось с точки зрения ранга? Ничего. Столбцы  пропорциональны, значит, ранг равен единице. Кстати, обратите внимание, что все  три строки тоже пропорциональны. Их можно отождествить с координатами <strong>трёх</strong> коллинеарных векторов плоскости,  из которых <strong>только один</strong> полезен для  построения «плоского» базиса. И это полностью согласуется с нашим  геометрическим смыслом ранга.</p>
+  <p>Из вышеприведённого примера следует важное утверждение:</p>
+  <p><strong>Ранг матрицы по  строкам равен рангу матрицы по столбцам</strong>. Об этом я уже немного упоминал на  уроке об эффективных <strong><a href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">методах вычисления  определителя</a></strong>. </p>
+  <p><strong><em>Примечание</em></strong><em>: из линейной  зависимости строк следует линейная зависимость столбцов (и наоборот).  Но в целях экономии времени, да и в силу  привычки я почти всегда буду говорить о линейной зависимости строк. </em></p>
+  <p>Продолжим дрессировать нашего любимого питомца. Добавим в  матрицу третьей строкой координаты ещё одного коллинеарного вектора <img align="absmiddle" width="109" height="21" src="k/rang_matricy_clip_image028.gif">:<br>
+      <img align="absmiddle" width="107" height="75" src="k/rang_matricy_clip_image030.gif"></p>
+  <p>Помог ли он нам в построении трёхмерного базиса? Конечно,  нет. Все три вектора гуляют туда-сюда по одной дорожке, и ранг матрицы равен  единице. Можно взять сколько угодно коллинеарных векторов, скажем, 100, уложить  их координаты в матрицу «сто на три» и ранг такого небоскрёба всё равно останется  единичным.</p>
+  <p>Познакомимся с матрицей <img align="absmiddle" width="92" height="48" src="k/rang_matricy_clip_image032.gif">, строки которой <em>линейно  независимы</em>.  Пара неколлинеарных  векторов <img align="absmiddle" width="176" height="24" src="k/rang_matricy_clip_image034.gif"> пригодна для построения  трёхмерного базиса. Ранг этой матрицы равен двум. </p>
+  <p>А чему равен ранг матрицы <img align="absmiddle" width="92" height="75" src="k/rang_matricy_clip_image036.gif">? Строки вроде не пропорциональны…, значит, по идее трём.  Однако ранг этой матрицы тоже равен двум. Я сложил первые две строки и записал  результат внизу, то есть <em>линейно выразил</em> третью строку через первые две. Геометрически строки матрицы соответствуют  координатам трёх <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">компланарных векторов</a></strong>,  причём среди этой тройки существует пара неколлинеарных товарищей.</p>
+  <p>Как видите, <em>линейная  зависимость</em> в рассмотренной матрице не очевидна, и сегодня мы как раз  научимся выводить её «на чистую воду».</p>
+  <p>Думаю, многие догадываются, что такое ранг матрицы!</p>
+  <p>Рассмотрим матрицу <img align="absmiddle" width="92" height="75" src="k/rang_matricy_clip_image038.gif">, строки которой <em>линейно  независимы</em>. Векторы <img align="absmiddle" width="249" height="24" src="k/rang_matricy_clip_image040.gif"> образуют <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">аффинный базис</a></strong>, и ранг данной матрицы  равняется трём.</p>
+  <p>Как вы знаете, любой четвёртый, пятый, десятый вектор  трёхмерного пространства будет линейно выражаться через базисные векторы.  Поэтому, если в матрицу <img align="absmiddle" width="92" height="75" src="k/rang_matricy_clip_image038_0000.gif"> добавить любое  количество строк, то её ранг <strong>всё равно  будет равен трём</strong>. </p>
+  <p>Аналогичные рассуждения можно провести для матриц бОльших  размеров (понятно, уже без геометрического смысла).</p>
+  <p><em><strong>Определение</strong></em>: <strong>ранг  матрицы – это максимальное количество линейно независимых строк</strong>. Или: <strong>ранг матрицы – это максимальное количество  линейно независимых столбцов</strong>. Да, их количество всегда совпадает.</p>
+  <p>Из вышесказанного также следует важный практический ориентир: <strong>ранг матрицы не превосходит её  минимальной размерности</strong>. Например, в матрице <img align="absmiddle" width="145" height="96" src="k/rang_matricy_clip_image042.gif">четыре строки и пять  столбцов. Минимальная размерность – четыре, следовательно, ранг данной матрицы  заведомо не превзойдёт 4.</p>
+  <p><strong>Обозначения</strong>: в  мировой теории и практике не существует общепринятого стандарта для обозначения  ранга матрицы, наиболее часто можно встретить: <img align="absmiddle" width="147" height="21" src="k/rang_matricy_clip_image044.gif"> – как говорится,  англичанин пишет одно, немец другое. Поэтому давайте по мотивам известного  анекдота про американский и русский ад обозначать ранг матрицы родным словом.  Например: <img align="absmiddle" width="169" height="21" src="k/rang_matricy_clip_image046.gif">. А если матрица «безымянная», коих встречается очень много,  то можно просто записать <img align="absmiddle" width="63" height="19" src="k/rang_matricy_clip_image048.gif">.</p>
+  <br>
+  <h2><strong>Как найти ранг  матрицы с помощью миноров?</strong></h2>
+  <p>На уроках о <strong><a href="kak_vychislit_opredelitel.html">вычислении  определителя</a></strong> и нахождении <strong><a href="kak_naiti_obratnuyu_matricu.html">обратной  матрицы</a></strong> нам уже встречались миноры второго порядка, получаемые  вычёркиванием строк и столбцов в матрице «три на три». Сейчас мы расширим  понятие минора и дадим его определение… да не вздыхайте так тяжко, тут с  картинками =)</p>
+  <p><strong>Минором</strong> <u>прямоугольной</u> матрицы называется <strong><a href="kak_vychislit_opredelitel.html">определитель</a></strong>, составленный  из чисел, которые находятся на пересечении различных <img align="absmiddle" width="13" height="19" src="k/rang_matricy_clip_image050.gif"> строк и различных <img align="absmiddle" width="13" height="19" src="k/rang_matricy_clip_image050_0000.gif"> столбцов матрицы.  Число <img align="absmiddle" width="13" height="19" src="k/rang_matricy_clip_image050_0001.gif"> называют <strong>порядком минора</strong>.</p>
+  <p>Заметьте, что сама матрица не обязана быть квадратной. Рассмотрим  конкретный пример:<br>
+      <img align="absmiddle" width="155" height="96" src="k/rang_matricy_clip_image052.gif"></p>
+  <p>Как получить какой-нибудь минор 2-го порядка? Нужно выбрать  две произвольные строки, например, <strong>2-ю  и 4-ю</strong>, два произвольных столбца, например, <strong>3-й и 5-й</strong>, и числа, находящиеся на их пересечении <img align="absmiddle" width="192" height="131" src="k/rang_matricy_clip_image054.jpg"> записать в минор второго порядка: <img align="absmiddle" width="89" height="48" src="k/rang_matricy_clip_image056.gif">. Сколько всего миноров 2-го порядка? Много. Существуют  специальные комбинаторные формулы для подсчёта количества миноров, но в рамках  данного занятия это малополезная информация.</p>
+  <p>Получим какой-нибудь минор третьего порядка. Рассматриваем  три произвольные строки, например, <strong>1-ю,  3-ю и 4-ю</strong>, три произвольных столбца, например, <strong>1-й, 2-й и 4-й</strong> и с их пересечения <img align="absmiddle" width="190" height="122" src="k/rang_matricy_clip_image058.jpg"> «снимаем»  минор 3-го порядка: <img align="absmiddle" width="123" height="75" src="k/rang_matricy_clip_image060.gif">.</p>
+  <p>Что касается миноров 4-го порядка, то здесь выбор уже  невелик: необходимо задействовать все 4 строки и четыре произвольных столбца,  например, все столбцы, за исключением 3-го:<br>
+      <img align="absmiddle" width="147" height="96" src="k/rang_matricy_clip_image062.gif"></p>
+  <h3><strong>Алгоритм нахождения  ранга матрицы с помощью миноров</strong></h3>
+  <p>В качестве примера возьмём ту же матрицу <img align="absmiddle" width="155" height="96" src="k/rang_matricy_clip_image052_0000.gif">. Поскольку в матрице есть ненулевые элементы, то её ранг не  меньше единицы и, очевидно, что он не превосходит 4. Как действовать дальше?</p>
+  <p>Дальше необходимо начать перебор и вычисление миноров 2-го  порядка. Если ВСЕ миноры 2-го порядка окажутся нулевыми, то ранг матрицы равен  единице. Но это крайне маловероятно, рано или поздно (чаще всего рано),  встретится ненулевой минор <img align="absmiddle" width="51" height="23" src="k/rang_matricy_clip_image064.gif">, и данный факт означает, что ранг матрицы <strong>не менее двух</strong>.</p>
+  <p>На следующем шаге последовательно перебираем и рассчитываем  миноры 3-го порядка. Если ВСЕ эти миноры равны нулю, то <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image066.gif">. Если же встретился минор <img align="absmiddle" width="51" height="24" src="k/rang_matricy_clip_image068.gif">, то делаем вывод о том, что ранг матрицы <strong>не менее трёх</strong> и переходим к следующему  шагу.</p>
+  <p>Перебор и вычисление миноров 4-го порядка. Если ВСЕ миноры  4-го порядка равны нулю, то <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image070.gif">, если встретился минор <img align="absmiddle" width="51" height="23" src="k/rang_matricy_clip_image072.gif">, то <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image074.gif">.</p>
+  <p>Таким образом, <strong>ранг  матрицы равен максимальному порядку ненулевого минора</strong>.</p>
+  <p>Схему «перебора в лоб» часто критикуют, но как ни странно,  во многих случаях она даёт неплохие результаты. Тем не менее, следует отметить  длительность процесса и в целях сокращения количества вычислений разработан:</p>
+  <h3><strong>метод окаймляющих  миноров</strong></h3>
+  <p>Алгоритм в общем виде, боюсь, будет мало кому понятен, гораздо  проще разобрать его на конкретной задаче:</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти ранг матрицы методом окаймляющих миноров<br>
+      <img align="absmiddle" width="129" height="96" src="k/rang_matricy_clip_image076.gif"></p>
+  <p><strong>Решение</strong>: дана  квадратная матрица «четыре на четыре» и, понятно, её ранг не больше четырёх. </p>
+  <p>Заряжаем:</p>
+  <p>Поскольку в матрице есть ненулевые элементы, то её ранг <strong>не менее единицы</strong>.</p>
+  <p>Проверку миноров 2-го порядка начинаем с так называемого <em>углового минора</em> <img align="absmiddle" width="156" height="115" src="k/rang_matricy_clip_image078.jpg">.</p>
+  <p><img align="absmiddle" width="149" height="48" src="k/rang_matricy_clip_image080.gif">, поэтому переходим к минору <img align="absmiddle" width="156" height="114" src="k/rang_matricy_clip_image082.jpg">:</p>
+  <p><img align="absmiddle" width="197" height="48" src="k/rang_matricy_clip_image084.gif">, значит, ранг матрицы <strong>не  менее двух</strong>. Что было бы нужно сделать, если бы и этот минор оказался  нулевым? В этом случае рассматриваем минор <img align="absmiddle" width="155" height="115" src="k/rang_matricy_clip_image086.jpg">, и если он тоже равен нулю, едем дальше:</p>
+  <p><img align="absmiddle" width="156" height="114" src="k/rang_matricy_clip_image088.jpg">, <img align="absmiddle" width="156" height="115" src="k/rang_matricy_clip_image090.jpg">, <img align="absmiddle" width="156" height="115" src="k/rang_matricy_clip_image092.jpg">.</p>
+  <p>При необходимости (когда получились одни нули), следует  продолжить перебор миноров по аналогичной схеме у:</p>
+  <p>1-й и 3-й строк;<br>
+    1-й и 4-й строк;<br>
+	2-й и 3-й строк;<br>
+    2-й и 4-й строк;<br>
+    3-й и 4-й строк – до тех пор, пока не повстречается минор,  отличный от нуля.</p>
+  <p>Если все миноры 2-го порядка оказались нулевыми, то <img align="absmiddle" width="56" height="21" src="k/rang_matricy_clip_image094.gif">.</p>
+  <p>Но в нашем случае уже на втором шаге обнаружен «хороший»  минор, и теперь мы переходим к рассмотрению миноров третьего порядка.  Приделываем ноги младшему коллеге <img align="absmiddle" width="49" height="48" src="k/rang_matricy_clip_image096.gif">,  <strong> который будет  входить во все рассматриваемые миноры высших порядков</strong>:<br>
+      <img align="absmiddle" width="158" height="114" src="k/rang_matricy_clip_image098.jpg"></p>
+  <p>Вопрос «третьим будешь?» может быть адресован либо красному,  либо зелёному товарищу:<br>
+      <img align="absmiddle" width="157" height="114" src="k/rang_matricy_clip_image100.jpg"></p>
+  <p>Был бы пятый столбец – нашёлся бы ещё один друг.</p>
+  <p>Начнём с красного:<br>
+      <img align="absmiddle" width="384" height="75" src="k/rang_matricy_clip_image102.gif"> </p>
+  <p>Не помогло. Теперь сообразим с зелёным:<br>
+      <img align="absmiddle" width="307" height="75" src="k/rang_matricy_clip_image104.gif"></p>
+  <p>Тоже плохо. Свешиваем ноги ниже и последовательно берём в  компанию «малиновые» и «коричневые» числа:<br>
+      <img align="absmiddle" width="160" height="115" src="k/rang_matricy_clip_image106.jpg"></p>
+  <p>Сначала «синие» с «малиновыми»:<br>
+      <img align="absmiddle" width="423" height="75" src="k/rang_matricy_clip_image108.gif">, значит, ранг матрицы <strong>не  менее трёх</strong>. Если бы этот минор оказался равным нулю, то следовало бы  вычислить определитель из «синих» и «коричневых» чисел. <strong>Других миноров 3-го порядка, которые содержат младший ненулевой минор <img align="absmiddle" width="49" height="48" src="k/rang_matricy_clip_image096_0000.gif"> – нет</strong>. И если бы  «сине-коричневый» определитель тоже съел  бублик, то <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image066_0000.gif">.</p>
+  <p>Миноров 3-го порядка на самом деле больше, и рассматриваемый  метод в данном случае позволяет сократить вычисления, максимум, до четырёх  определителей. Успех нас поджидал на 3-м шаге, и «хороший» ненулевой минор <img align="absmiddle" width="109" height="75" src="k/rang_matricy_clip_image111.gif"> удостаивается ботинок:<br>
+      <img align="absmiddle" width="155" height="115" src="k/rang_matricy_clip_image113.jpg"></p>
+  <p>Теперь «синие» и «малиновые» столбцы <strong>должны входить во все миноры высших порядков</strong>. В данном случае это  единственный минор 4-го порядка, совпадающий с определителем матрицы:<br>
+      <img align="absmiddle" width="180" height="96" src="k/rang_matricy_clip_image115.gif"> (т.к. 2-я и 3-я строки  пропорциональны – см. <strong><a href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">свойства  определителя</a></strong>)</p>
+  <p>Если бы у <s>бабушки</s> нас в матрице был пятый столбец, то  следовало бы вычислить ещё один минор 4-го порядка («синие», «малиновый» + 5-й  столбец).</p>
+  <p><strong>Вывод</strong>:  максимальный порядок ненулевого минора равен трём, значит, <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image070_0000.gif">.</p>
+  <p>Возможно, не все до конца осмыслили данную фразу: минор 4-го  порядка равен нулю, но среди миноров 3-го порядка нашёлся ненулевой – поэтому  максимальный порядок <strong>ненулевого</strong> минора и равен трём.</p>
+  <p>Возникает вопрос, а почему бы сразу не вычислить  определитель? Ну, во-первых, в большинстве заданий матрица не квадратная, а  во-вторых, даже если у вас и получится ненулевое значение, то задание с высокой вероятностью забракуют, так как оно обычно подразумевает стандартное решение «снизу вверх». А в  рассмотренном примере нулевой определитель 4-го порядка и вовсе позволяет утверждать,  что ранг матрицы лишь меньше четырёх.</p>
+  <p>Должен признаться, разобранную задачу я придумал сам, чтобы  качественнее объяснить метод окаймляющих миноров. В реальной практике всё  проще:</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти ранг матрицы методом окаймляющих миноров<br>
+      <img align="absmiddle" width="108" height="75" src="k/rang_matricy_clip_image118.gif"></p>
+  <p>Решение и ответ в конце урока.</p>
+  <p>Когда алгоритм работает быстрее всего? Вернёмся к той же  матрице «четыре на четыре» <img align="absmiddle" width="140" height="99" src="k/rang_matricy_clip_image120.gif">. Очевидно, решение будет самым коротким в случае «хороших» <em>угловых миноров</em>:<br>
+      <img align="absmiddle" width="156" height="125" src="k/rang_matricy_clip_image122.gif"></p>
+  <p>И, если <img align="absmiddle" width="51" height="23" src="k/rang_matricy_clip_image072_0000.gif">, то  <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image074_0000.gif">, в противном случае – <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image070_0001.gif">.</p>
+  <p>Размышление совсем не гипотетично – существует немало примеров,  где всё дело и ограничивается только угловыми минорами.</p>
+  <p>Однако в ряде случаев более эффективен и предпочтителен  другой способ:</p>
+  <br>
+  <h2><strong>Как найти ранг  матрицы с помощью метода Гаусса?</strong></h2>
+  <p>Параграф рассчитан на читателей, которые уже знакомы с <strong><a href="metod_gaussa_dlya_chainikov.html">методом Гаусса</a></strong> и мало-мальски набили на  нём руку.</p>
+  <p>С технической точки зрения метод не отличается новизной:</p>
+  <p>1) с помощью элементарных преобразований приводим матрицу к  ступенчатому виду;</p>
+  <p>2) ранг матрицы равен количеству строк.</p>
+  <p>Совершенно понятно, что <strong>использование  метода Гаусса не меняет ранга матрицы</strong>, и суть здесь предельно проста: согласно  алгоритму, в ходе элементарных преобразований выявляются и удаляются все лишние  пропорциональные (линейно зависимые) строки, в результате чего остаётся «сухой  остаток» – максимальное количество линейно независимых строк.</p>
+  <p>Преобразуем старую знакомую матрицу с координатами трёх  коллинеарных векторов:<br>
+      <img align="absmiddle" width="299" height="75" src="k/rang_matricy_clip_image126.gif"><br>
+    <br>
+    (1) Ко второй строке прибавили первую строку, умноженную на  –2. К третьей строке прибавили первую строку.</p>
+  <p>(2) Нулевые строки удаляем.</p>
+  <p>Таким образом, осталась одна строка, следовательно, <img align="absmiddle" width="56" height="21" src="k/rang_matricy_clip_image094_0000.gif">. Что и говорить, это гораздо быстрее, чем рассчитать девять  нулевых  миноров 2-го порядка и только  потом сделать вывод.</p>
+  <p>Напоминаю, что в самой по себе <strong><a href="deistviya_s_matricami.html">алгебраической  матрице</a></strong> ничего менять нельзя, и преобразования выполняются только с целью  выяснения ранга! Кстати, остановимся ещё раз на вопросе, почему нельзя?  Исходная матрица <img align="absmiddle" width="105" height="75" src="k/rang_matricy_clip_image129.gif"> несёт информацию,  которая принципиально отлична от информации матрицы <img align="absmiddle" width="83" height="75" src="k/rang_matricy_clip_image131.gif"> и строки <img align="absmiddle" width="76" height="23" src="k/rang_matricy_clip_image133.gif">. В некоторых   математических моделях (без преувеличения) разница в одном числе может  быть вопросом жизни и смерти. …Вспомнились школьные учителя математики  начальных и средних классов, которые безжалостно срезали оценку на 1-2 балла за  малейшую неточность или отклонение от алгоритма. И было жутко обидно, когда  вместо, казалось бы, гарантированной «пятёрки» получалось «хорошо» или того  хуже. Понимание пришло намного позже – а как иначе доверить человеку спутники,  ядерные боеголовки и электростанции? Но вы не беспокойтесь, я не работаю в этих  сферах =)</p>
+  <p>Перейдём к более содержательным заданиям, где помимо прочего  познакомимся с важными вычислительными приёмами <strong><a href="metod_gaussa_dlya_chainikov.html">метода Гаусса</a></strong>:</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти ранг матрицы с помощью элементарных преобразований<br>
+      <img align="absmiddle" width="155" height="96" src="k/rang_matricy_clip_image135.gif"></p>
+  <p><strong>Решение</strong>: дана  матрица «четыре на пять», значит, её ранг заведомо не больше, чем 4.</p>
+  <p>В первом столбце, отсутствует 1 или –1, следовательно,  необходимы дополнительные действия, направленные на получение хотя бы одной  единицы. За всё время существования сайта мне неоднократно задавали вопрос:  «Можно ли в ходе элементарных преобразований переставлять столбцы?». Вот здесь  – переставили первый-второй столбец, и всё отлично! В большинстве задач, где  используется <strong><a href="metod_gaussa_dlya_chainikov.html">метод Гаусса</a></strong>, столбцы  действительно переставлять можно. НО НЕ НУЖНО. И дело даже не в возможной  путанице с переменными, дело в том, что в классическом курсе обучения высшей  математике данное действие традиционно не рассматривается, поэтому на такой  реверанс посмотрят ОЧЕНЬ криво (а то и заставят всё переделывать).</p>
+  <p>Второй момент касается чисел. В ходе решения полезно  руководствоваться следующим эмпирическим правилом: <strong>элементарные преобразования по возможности должны уменьшать числа  матрицы</strong>. Ведь с единицей-двойкой-тройкой работать значительно легче, чем,  например, с 23, 45 и 97. И первое действие направлено не только на получение  единицы в первом столбце, но и на ликвидацию чисел 7 и 11.</p>
+  <p>Сначала полное решение, потом комментарии:<br>
+      <img align="absmiddle" width="560" height="147" src="k/rang_matricy_clip_image137.gif"></p>
+  <p>(1) Ко второй строке прибавили первую строку, умноженную на  –2. К третьей строке прибавили первую строку, умноженную на –3. И до кучи: к  4-й строке прибавили 1-ю строку, умноженную на –1.</p>
+  <p>(2) Последние три строки пропорциональны. Удалили 3-ю и 4-ю  строки, вторую строку переместили на первое место.</p>
+  <p>(3) Ко второй строке прибавили первую строку, умноженную на  –3.</p>
+  <p>В приведённой к ступенчатому виду матрице две строки.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image066_0001.gif"></p>
+  <p>Теперь ваша очередь мучить матрицу «четыре на четыре»:</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти ранг матрицы методом Гаусса<br>
+      <img align="absmiddle" width="103" height="96" src="k/rang_matricy_clip_image140.gif"></p>
+  <p>Напоминаю, что <strong><a href="metod_gaussa_dlya_chainikov.html">метод  Гаусса</a></strong> не предполагает однозначной жёсткости, и ваше решение, скорее всего,  будет отличаться от моего решения. Краткий образец оформления задачи в конце  урока.</p>
+  <h3><strong>Какой метод  использовать для нахождения ранга матрицы?</strong></h3>
+  <p>На практике зачастую вообще не сказано, какой метод  необходимо использовать для нахождения ранга. В такой ситуации следует  анализировать условие – для одних матриц рациональнее провести решение через  миноры, а для других значительно выгоднее применить элементарные преобразования:</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти ранг матрицы <br>
+      <img align="absmiddle" width="116" height="120" src="k/rang_matricy_clip_image142.gif"></p>
+  <p><strong>Решение</strong>: первый  способ как-то сразу отпадает =) </p>
+  <p>Чуть выше я советовал не трогать столбцы матрицы, но когда  есть нулевой столбец, либо пропорциональные/совпадающие столбцы, то всё же  стОит провести ампутацию:<br>
+      <img align="absmiddle" width="441" height="243" src="k/rang_matricy_clip_image144.gif"></p>
+  <p>(1) Пятый столбец нулевой, удалим его из матрицы. Таким  образом, ранг матрицы не больше четырёх. Первую строку умножили на –1.  Это ещё одна фирменная фишка метода Гаусса, превращающая следующее действие в  приятную прогулку:</p>
+  <p>(2) Ко всем строкам, начиная со второй, прибавили первую  строку.</p>
+  <p>(3) Первую строку умножили на –1, третью строку разделили на  2, четвёртую строку разделили на 3. К пятой строке прибавили вторую строку,  умноженную на –1.</p>
+  <p>(4) К пятой строке прибавили третью строку, умноженную на –2.</p>
+  <p>(5) Последние две строки пропорциональны, пятую удаляем.</p>
+  <p>В результате получено 4 строки.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="59" height="21" src="k/rang_matricy_clip_image074_0001.gif"></p>
+  <p>Стандартная пятиэтажка для самостоятельного исследования:</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти ранг матрицы<br>
+      <img align="absmiddle" width="95" height="120" src="k/rang_matricy_clip_image147.gif"></p>
+  <p>Краткое решение и ответ в конце урока. </p>
+  <p>Следует отметить, что словосочетание «ранг матрицы» не так часто  встретишь на практике, и в большинстве задач можно вообще обойтись без него. Но  существует одно задание, где рассматриваемое понятие является главным действующим  лицом, и в заключение статьи мы рассмотрим это практическое приложение:</p>
+  <br>
+  <h2><strong>Как исследовать  систему линейных уравнений на совместность?</strong></h2>
+  <p>Нередко помимо решения <strong><a href="kak_reshit_sistemu_uravnenii.html">системы  линейных уравнений</a></strong> по условию предварительно требуется исследовать её на  совместность, то есть доказать, что какое-либо решение вообще существует.  Ключевую роль в такой проверке играет <em>теорема  Кронекера-Капелли</em>, которую я сформулирую в необходимом виде:</p>
+  <p>Если ранг <strong>матрицы  системы</strong> равен рангу <strong>расширенной  матрицы системы</strong>, то система совместна, причём, если данное число совпадает  с количеством неизвестных, то решение единственно.</p>
+  <p>Таким образом, для исследования системы на совместность  нужно проверить равенство <img align="absmiddle" width="145" height="27" src="k/rang_matricy_clip_image149.gif">, где <img align="absmiddle" width="16" height="17" src="k/rang_matricy_clip_image151.gif"> – <em>матрица системы</em> (вспоминаем терминологию из урока <strong><a href="metod_gaussa_dlya_chainikov.html">Метод Гаусса</a></strong>), а <img align="absmiddle" width="44" height="27" src="k/rang_matricy_clip_image153.gif"> – <em>расширенная матрица системы</em> (т.е. матрица с коэффициентами при  переменных + столбец свободных членов).</p>
+  <p>Всё просто:</p>
+  <p><u>Пример 7</u></p>
+  <p>Исследовать систему на совместность и найти её решение, если  система совместна<br>
+      <img align="absmiddle" width="556" height="99" src="k/rang_matricy_clip_image155.gif"></p>
+  <p>А когда системы уже прорешаны – просто вдвойне… нет –  втройне =)</p>
+  <p><strong>Решение</strong>: тем не  менее, обратим внимание на строгую верхнюю строчку – по условию, <br><strong>в первую очередь</strong>, требуется проверить  систему на совместность. Как начать решение? <br><strong>В любом случае</strong> записываем расширенную матрицу системы и с помощью  элементарных преобразований приводим её к ступенчатому виду:</p>
+  <p>а) Пример № 1 статьи о <strong><a href="metod_gaussa_dlya_chainikov.html">методе  исключения неизвестных</a></strong>:<br>
+    <img align="absmiddle" width="312" height="77" src="k/rang_matricy_clip_image157.gif"></p>
+  <p>Элементарные преобразования не меняют ранга матриц, поэтому  в результате выполненных действий получены эквивалентные исходным матрица  системы <img align="absmiddle" width="109" height="75" src="k/rang_matricy_clip_image159.gif"> и расширенная матрица  системы <img align="absmiddle" width="147" height="77" src="k/rang_matricy_clip_image161.gif">.</p>
+  <p>Обе матрицы имеют <em>ступенчатый вид</em>, причём в каждой матрице три стоки.</p>
+  <p><strong>Вывод</strong>: <img align="absmiddle" width="171" height="27" src="k/rang_matricy_clip_image171.gif">, значит, по теореме Кронекера-Капелли система совместна; и  поскольку количество переменных (<img align="absmiddle" width="45" height="17" src="k/rang_matricy_clip_image173.gif"> – 3 шт.) совпадает с  рангом, то система имеет единственное решение.</p>
+  <p>Что дальше? Дальше следует непосредственно решить систему.  Если по условию не предложен способ, то, конечно же, раскручиваем обратный ход <strong><a href="metod_gaussa_dlya_chainikov.html">метода Гаусса</a></strong>. Если требуется решить  систему <strong><a href="pravilo_kramera_matrichnyi_metod.html">методом Крамера</a></strong> или <strong><a href="pravilo_kramera_matrichnyi_metod.html">с помощью обратной матрицы</a></strong>, ну что  поделать….</p>
+  <p>б) Пример № 1 статьи о <strong><a href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">несовместных  системах и системах с общим решением</a></strong>:<br>
+      <img align="absmiddle" width="367" height="77" src="k/rang_matricy_clip_image175.gif"></p>
+  <p>В результате элементарных преобразований получена  эквивалентная матрица системы  <img align="absmiddle" width="141" height="75" src="k/rang_matricy_clip_image177.gif"> и расширенная матрица  системы <img align="absmiddle" width="185" height="77" src="k/rang_matricy_clip_image179.gif">.</p>
+  <p>Приведём<em> матрицу системы</em> к ступенчатому виду, удалив нулевую  строку:</p>
+  <p><img align="absmiddle" width="275" height="75" src="k/rang_matricy_clip_image888.gif"> – количество строк  равно двум, поэтому  <img align="absmiddle" width="84" height="21" src="k/rang_matricy_clip_image183.gif">.</p>
+  <p> <em>Расширенная</em> же <em>матрица системы</em> имеет ступенчатый вид и количество её  строк равно трём, а посему <img align="absmiddle" width="99" height="27" src="k/rang_matricy_clip_image169_0000.gif">.</p>
+  <p><strong>Вывод</strong>: <img align="absmiddle" width="145" height="27" src="k/rang_matricy_clip_image187.gif">, значит, по теореме Кронекера-Капелли система несовместна.</p>
+  <p>Следует заметить, что обоснование этого факта можно  провести и через миноры:</p>
+  <p>Максимальный порядок ненулевого минора <em>матрицы системы</em> равен двум, например:<br>
+      <img align="absmiddle" width="208" height="48" src="k/rang_matricy_clip_image181.gif">, поэтому <img align="absmiddle" width="84" height="21" src="k/rang_matricy_clip_image183.gif"></p>
+  <p>Максимальный порядок ненулевого минора <em>расширенной матрицы системы</em> равен трём, например:<br>
+    <img align="absmiddle" width="256" height="75" src="k/rang_matricy_clip_image185.gif">     <em>(взяли первые два столбца + обязательно столбец свободных членов).</em></p>
+  <p>Таким образом, <img align="absmiddle" width="99" height="27" src="k/rang_matricy_clip_image169_0000.gif">.</p>
+  <p><strong>Вывод</strong>: <img align="absmiddle" width="145" height="27" src="k/rang_matricy_clip_image187.gif">, значит, по теореме Кронекера-Капелли система несовместна.</p>
+  <p>И обращаю внимание, что если по условию <strong>не</strong> требуется исследовать систему на  совместность, то вполне достаточно ограничиться стандартным ответом (см. <strong><a href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">решение Примера 1</a></strong>).</p>
+  <p>в) Пример № 3 той же статьи:<br>
+      <img align="absmiddle" width="367" height="99" src="k/rang_matricy_clip_image189.gif"></p>
+  <p>В результате элементарных преобразований получена  эквивалентная матрица системы <img align="absmiddle" width="145" height="48" src="k/rang_matricy_clip_image889.gif"> и расширенная матрица  системы <img align="absmiddle" width="179" height="51" src="k/rang_matricy_clip_image890.gif">.</p>
+  <p>Обе матрицы имеют ступенчатый вид и в каждой из них две строки.  </p>
+  <p><strong>Вывод</strong>: <img align="absmiddle" width="169" height="27" src="k/rang_matricy_clip_image201.gif">, значит, по теореме Кронекера-Капелли система совместна. Поскольку  ранг меньше количества переменных (<img align="absmiddle" width="80" height="24" src="k/rang_matricy_clip_image203.gif"> – 4 шт.), то система  имеет бесконечно много решений.</p>
+  <p>Далее находим общее решение по стандартной схеме.</p>
+  <p>Приведу также альтернативное доказательство с  помощью миноров, которое встречается в некоторых методичках:</p>
+  <p>Максимальный порядок ненулевого минора <em>матрицы системы</em> равен двум, например:<br>
+      <img align="absmiddle" width="183" height="48" src="k/rang_matricy_clip_image194.gif">, следовательно, <img align="absmiddle" width="84" height="21" src="k/rang_matricy_clip_image183_0000.gif">.</p>
+  <p>Максимальный порядок ненулевого минора <em>расширенной матрицы системы</em> также равен двум, например <em>(обязательно  включаем столбец свободных членов)</em>:<br>
+      <img align="absmiddle" width="159" height="48" src="k/rang_matricy_clip_image197.gif"> , поэтому <img align="absmiddle" width="99" height="27" src="k/rang_matricy_clip_image199.gif"></p>
+  <p>Второй абзац можно полностью заменить хитрой лаконичной  фразой: «по этой же причине <img align="absmiddle" width="99" height="27" src="k/rang_matricy_clip_image199_0000.gif">».</p>
+  <p><strong>Вывод</strong>: <img align="absmiddle" width="169" height="27" src="k/rang_matricy_clip_image201.gif">,...
+  и далее по тексту (см. выше).
+  <p>Готово.</p>
+  <p>+ Образец исследования системы на совместность можно ещё посмотреть в начале <br>
+  Примера № 1 урока о <a href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">нахождении различных базисных  решений системы</a>.</p>
+  <p>…Всё-таки иногда удивительно обманываются ожидания – порой  думаешь, что статья получится огромной, а она оказывается весьма компактной, а  иногда, как сейчас – наоборот. Посмотрел статистику и жутко удивился добрым 20  тысячам символов. Поэтому всем высокого ранга и до скорых встреч!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>: поскольку в матрице есть  ненулевые элементы, то её ранг не меньше единицы.</em><br>
+      <em><img align="absmiddle" width="169" height="48" src="k/rang_matricy_clip_image205.gif">, значит, ранг матрицы не менее двух.</em><br>
+      <em>Рассмотрим миноры 3-го  порядка, при этом в них обязательно должен содержаться ненулевой минор <img align="absmiddle" width="40" height="48" src="k/rang_matricy_clip_image207.gif">. Таких миноров два:</em><br>
+      <em><img align="absmiddle" width="507" height="149" src="k/rang_matricy_clip_image209.gif"></em><br>
+      <em>Максимальный порядок  ненулевого минора равен двум.</em><br>
+      <strong><em>Ответ</em></strong><em>:</em><em> <img align="absmiddle" width="60" height="21" src="k/rang_matricy_clip_image211.gif"></em></p>
+  <p><em>Пример 4: <strong>Решение</strong>: с помощью элементарных  преобразований приведем матрицу к ступенчатому виду:</em><br>
+      <em><img align="absmiddle" width="493" height="173" src="k/rang_matricy_clip_image213.gif"></em><br>
+      <em>(1) Первую и вторую  строки поменяли местами. К 4-й строке прибавили 3-ю строку, умноженную на –2.</em><br>
+      <em>(2) Вторая и 4-я  строки одинаковы, 4-ю строку удалили. К третьей строке прибавили вторую строку,  умноженную на –1. </em><br>
+      <em>(3) Первую и третью  строки поменяли местами.</em><br>
+      <em>(4) Ко второй строке  прибавили первую строку, умноженную на –2. К 3-й строке прибавили первую  строку, умноженную на –1.</em><br>
+      <em>(5) К третьей строке  прибавили вторую строку, умноженную на 3.</em><br>
+      <em>В результате получены  3 строки, значит, ранг матрицы равен 3.</em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="60" height="21" src="k/rang_matricy_clip_image215.gif"></em></p>
+  <p><em>Пример 6: <strong>Решение</strong>: ранг матрицы не превосходит  минимальной размерности, то есть, трёх.</em><br>
+      <em>В матрице есть  ненулевые элементы, значит, ранг не менее единицы.</em><br>
+      <em><img align="absmiddle" width="425" height="148" src="k/rang_matricy_clip_image217.gif"></em><br>
+      <em>Максимальный порядок  ненулевого минора равен трём</em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="60" height="21" src="k/rang_matricy_clip_image215_0000.gif"></em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1001 @@
+<html>
+<head>
+<title>Признаки сходимости рядов. Признак Даламбера. Признаки Коши. Примеры решений.
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="признаки сходимости рядов, примеры решений, признак сходимости Даламбера, радикальный признак Коши, интегральный признак Коши, просто, подробно, доступно, ряд сходится, ряд расходится">
+<meta name="Description" content="Подробные примеры с комментариями – поднимаем тему с нулевого уровня подготовки!">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Признаки сходимости рядов.
+<br>Признак Даламбера. Признаки Коши</h1>
+  
+  
+  <p><em>Работайте, работайте – а понимание придёт потом</em><br>
+    <em>Ж.Л. Даламбер</em></p><br>
+  
+  <p>Всех поздравляю с началом учебного года! Сегодня 1  сентября, и я решил в честь праздника познакомить читателей с тем, что вы давно  с нетерпением ждали и жаждали узнать – <strong>признаками  сходимости числовых положительных рядов</strong>. Праздник Первое сентября и мои  поздравления всегда актуальны, ничего страшного, если на самом деле за окном  лето, вы же сейчас <s>в третий раз пересдаете экзамен</s> учитесь, если зашли на эту  страничку! </p>
+  <p>Для тех, кто только начинает изучать ряды, рекомендую для  начала ознакомиться со статьей <strong><a href="ryady_dlya_chajnikov.html">Числовые  ряды для чайников</a></strong>. Собственно, данная телега является продолжением банкета.  Итак, сегодня на уроке мы рассмотрим примеры и решения по темам:</p><ul>
+  <li><strong>Признак сходимости  Даламбера</strong></li>
+      <li><strong><a href="#rpk">Радикальный признак  сходимости Коши</a></strong><em> (cразу ссылки для опытных читателей)</em></li>
+      <li><strong><a href="#ipk">Интегральный признак  сходимости Коши</a></strong></li>
+	  </ul>
+  <p>Одним из распространенных признаков сравнения, который  встречается в практических примерах, является признак Даламбера. Признаки Коши  встречаются реже, но тоже весьма популярны. Как всегда, постараюсь изложить  материал просто, доступно и понятно. Тема не самая сложная, и все задания в  известной степени трафаретны.</p><br>
+  <a name="pd"></a> <h2>Признак сходимости  Даламбера</h2>
+  <p>Жан Лерон Даламбер – это знаменитый французский математик  18-го века. Вообще, Даламбер специализировался на дифференциальных уравнениях и  на основании своих исследований занимался баллистикой, чтобы у Его Величества  лучше летали пушечные ядра. Заодно и про числовые ряды не забыл, не зря потом шеренги  наполеоновских войск так четко сходились и расходились. </p>
+  <p>Перед тем как сформулировать сам признак, рассмотрим важный  вопрос:<br>
+      <strong>Когда нужно применять  признак сходимости Даламбера?</strong></p>
+  <p>Сначала начнем с повторения. Вспомним случаи, когда нужно  применять самый ходовой <strong><a href="ryady_dlya_chajnikov.html#pps">предельный  признак сравнения</a></strong>. Предельный признак сравнения применяется тогда, когда в  общем члене ряда:</p>
+  <p>1) В знаменателе находится многочлен.<br>
+    2) Многочлены находятся и в числителе и в знаменателе.<br>
+    3) Один или оба многочлена могут быть под корнем.<br>
+	4) Многочленов и корней, разумеется, может быть и больше.</p>
+  <p>Основные же предпосылки для применения признака Даламбера  следующие:</p>
+  <p>1) В общий член ряда («начинку» ряда) входит какое-нибудь  число в степени, например, <img align="absmiddle"  width="19" height="20" src="g/priznak_dalambera_priznaki_koshi_clip_image002.gif">, <img align="absmiddle"  width="17" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image004.gif">, <img align="absmiddle"  width="17" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image006.gif"> и так далее. Причем,  совершенно не важно, где эта штуковина располагается, в числителе или в  знаменателе – важно, что она там присутствует.</p>
+  <p>2) В общий член ряда входит факториал. С факториалами мы скрестили шпаги ещё на уроке <a href="predel_posledovatelnosti.html">Числовая  последовательность и её предел</a>. Впрочем, не помешает снова раскинуть скатерть-самобранку:<br>
+      <img align="absmiddle"  width="35" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image008.gif"><br>
+      <img align="absmiddle"  width="32" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image010.gif"><br>
+      <img align="absmiddle"  width="52" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image012.gif"><br>
+      <img align="absmiddle"  width="67" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image014.gif"><br>
+      <img align="absmiddle"  width="84" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image016.gif"><br>
+    …<br>
+  <img align="absmiddle"  width="104" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image018.gif"><br>
+  <img align="absmiddle"  width="184" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image020.gif"><br>
+    …</p>
+  <p><strong>!</strong> При  использовании признака Даламбера нам как раз придется расписывать факториал  подробно. Как и в предыдущем пункте, факториал может располагаться вверху или  внизу дроби.</p>
+  <p>3) Если в общем члене ряда есть «цепочка множителей»,  например, <img align="absmiddle"  width="112" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image022.gif">. Этот случай встречается редко, но! При исследовании такого  ряда часто допускают ошибку – см. Пример 6.</p>
+  <p>Вместе со степенями или (и) факториалами в начинке ряда  часто встречаются многочлены, это не меняет дела – нужно использовать признак  Даламбера.</p>
+  <p>Кроме того, в общем члене ряда может встретиться  одновременно и степень и факториал; может встретиться два факториала, две  степени, важно чтобы там находилось <strong>хоть  что-то</strong> из рассмотренных пунктов – и это как раз предпосылка для  использования признака Даламбера.</p>
+  <p><strong>Признак Даламбера</strong>:  Рассмотрим <strong>положительный числовой ряд</strong> <img align="absmiddle"  width="39" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image024.gif">. Если существует предел отношения последующего члена к  предыдущему: <img align="absmiddle"  width="85" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image026.gif">, то:<br>
+    а) При <img align="absmiddle"  width="39" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image028.gif"> ряд <strong>сходится</strong>. В частности, ряд сходится при <img align="absmiddle"  width="41" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image030.gif">.<br>
+    б) При <img align="absmiddle"  width="39" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image032.gif"> ряд <strong>расходится</strong>. В частности, ряд расходится  при <img align="absmiddle"  width="45" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image034.gif">.<br>
+    в) При <img align="absmiddle"  width="39" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image036.gif"> <strong>признак не дает ответа</strong>. Нужно использовать другой признак. Чаще  всего единица получается в том случае, когда признак Даламбера пытаются  применить там, где нужно использовать <a href="ryady_dlya_chajnikov.html#pps">предельный признак сравнения</a>. </p>
+  <p>У кого до сих пор проблемы с пределами или недопонимание  пределов, обратитесь к уроку <strong><a href="predely_primery_reshenii.html">Пределы.  Примеры решений</a></strong>. Без понимания предела и умения раскрывать неопределенность <img align="absmiddle"  width="19" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image038.gif"> дальше, к сожалению,  не продвинуться.</p>
+  <p>А сейчас долгожданные примеры.</p>
+  <div id="primer">
+    <p><u>Пример 1</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="85" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image040.gif"><br>
+      Мы видим, что в общем члене ряда у нас есть <img align="absmiddle"  width="19" height="20" src="g/priznak_dalambera_priznaki_koshi_clip_image042.gif">, а это верная предпосылка того, что нужно использовать  признак Даламбера. Сначала полное решение и образец оформления, комментарии  ниже.</p>
+    <p>Используем признак Даламбера:<br>
+      <img align="absmiddle"  src="g/priznak_dalambera_priznaki_koshi_clip_image044.gif">    <br>
+      Таким образом, исследуемый ряд <strong>сходится.</strong><br>
+    (1) Составляем отношение следующего члена ряда к  предыдущему: <img align="absmiddle"  width="32" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image046.gif">. Из условия мы видим, что общий член ряда <img align="absmiddle"  width="97" height="44" src="g/priznak_dalambera_priznaki_koshi_clip_image048.gif">. Для того, чтобы получить следующий член ряда нужно <strong>ВМЕСТО <img align="absmiddle"  width="13" height="15" src="g/priznak_dalambera_priznaki_koshi_clip_image050.gif"> подставить <img align="absmiddle"  width="33" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image052.gif">:</strong> <img align="absmiddle"  width="169" height="44" src="g/priznak_dalambera_priznaki_koshi_clip_image054.gif">.<br>
+    (2) Избавляемся от <a href="goryachie_formuly.pdf" target="_blank">четырехэтажности дроби</a>. При определенном  опыте решения этот шаг можно пропускать.<br>
+    (3) В числителе раскрываем скобки. В знаменателе выносим  четверку из степени.<br>
+      (4) Сокращаем на <img align="absmiddle"  width="19" height="20" src="g/priznak_dalambera_priznaki_koshi_clip_image042_0000.gif">. Константу <img align="absmiddle"  width="16" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image057.gif"> выносим за знак  предела. В числителе в скобках приводим подобные слагаемые. <br>
+      (5) Неопределенность <img align="absmiddle"  width="19" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image059.gif"> устраняется  стандартным способом – <a href="predely_primery_reshenii.html">делением числителя и знаменателя</a> на «эн» в старшей  степени.<br>
+    (6) Почленно делим числители на знаменатели, и указываем  слагаемые, которые стремятся к нулю.<br>
+      (7) Упрощаем ответ и делаем пометку, что <img align="absmiddle"  width="36" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image061.gif"> с выводом о том, что,  по признаку Даламбера исследуемый ряд сходится.</p>
+    <p>В рассмотренном примере в общем члене ряда у нас встретился  многочлен 2-й степени. Что делать, если там многочлен 3-й, 4-й или более  высокой степени? Дело в том, что если дан многочлен более высокой степени, то  возникнут трудности с раскрытием скобок. В этом случае можно применять  «турбо»-метод решения.</p>
+    <p><u>Пример 2</u></p>
+    <p>Возьмём похожий ряд и исследуем его на сходимость<br>
+        <img align="absmiddle"  width="93" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image063.gif"></p>
+    <p>Сначала полное решение, потом комментарии:</p>
+    <p>Используем признак Даламбера:<br>
+        <img align="absmiddle"  width="577" height="213" src="g/priznak_dalambera_priznaki_koshi_clip_image065.jpg"><br>
+      Таким образом, исследуемый ряд <strong>сходится</strong>.</p>
+    <p>(1) Составляем отношение <img align="absmiddle"  width="32" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image046_0000.gif">.<br>
+      (2) Избавляемся от четырехэтажности дроби.</p>
+    <p>(3) Рассмотрим выражение <img align="absmiddle"  width="135" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image067.gif"> в числителе и  выражение <img align="absmiddle"  width="71" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image069.gif"> в знаменателе. Мы  видим, что в числителе нужно раскрывать скобки и возводить в четвертую степень: <img align="absmiddle"  width="49" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image071.gif">, чего делать совершенно не хочется. А для тех, кто  не знаком с <a href="formuly_kombinatoriki.pdf" target="_blank">биномом Ньютона</a>, эта задача окажется ещё сложнее.  Проанализируем старшие степени: если мы вверху раскроем скобки <img align="absmiddle"  width="135" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image073.gif">, то получим старшую степень <img align="absmiddle"  width="19" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image075.gif">. Внизу у нас такая же старшая степень: <img align="absmiddle"  width="19" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image075_0000.gif">. По аналогии с предыдущим примером, очевидно, что при почленном  делении числителя и знаменателя на <img align="absmiddle"  width="19" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image075_0001.gif"> у нас в пределе  получится единица. Или, как говорят математики, многочлены  <img align="absmiddle"  width="135" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image073_0000.gif"> и <img align="absmiddle"  width="72" height="21" src="g/priznak_dalambera_priznaki_koshi_clip_image079.gif"> – <em>одного порядка роста</em>. Таким образом, вполне можно обвести отношение <img align="absmiddle"  width="137" height="44" src="g/priznak_dalambera_priznaki_koshi_clip_image081.gif"> простым карандашом и  сразу указать, что эта штука стремится к единице. Аналогично расправляемся со  второй парой многочленов: <img align="absmiddle"  width="33" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image052_0000.gif"> и <img align="absmiddle"  width="36" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image084.gif">, они тоже <em>одного  порядка роста</em>, и их отношение стремится к единице.</p>
+    <p>На самом деле, такую «халтуру» можно было провернуть и в  Примере № 1, но для многочлена 2-й степени такое решение смотрится всё-таки  как-то несолидно. Лично я поступаю так: если есть многочлен (или многочлены)  первой или второй степени, я использую «длинный» способ решения Примера 1. Если  попадается многочлен 3-й и более высоких степеней, я использую «турбо»-метод  по образцу Примера 2.</p>
+    <p><u>Пример 3</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="76" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image086.gif"></p>
+    <p>Полное решение и образец оформления в конце урока</p>
+    <p>Рассмотрим типовые примеры с факториалами:</p>
+    <p><u>Пример 4</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="92" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image088.gif"></p>
+    <p>В общий член ряда входит и степень, и факториал. Ясно, как  день, что здесь надо использовать признак Даламбера. Решаем.</p>
+    <p><img align="absmiddle"  width="477" height="264" src="g/priznak_dalambera_priznaki_koshi_clip_image090.gif"><br>
+      Таким образом, исследуемый ряд <strong>расходится</strong>.<br>
+    (1) Составляем отношение <img align="absmiddle"  width="32" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image046_0001.gif">. Повторяем еще раз. По условию общий член ряда: <img align="absmiddle"  width="104" height="44" src="g/priznak_dalambera_priznaki_koshi_clip_image093.gif">. Для того чтобы получить следующий член ряда, <strong>вместо <img align="absmiddle"  width="13" height="15" src="g/priznak_dalambera_priznaki_koshi_clip_image050_0000.gif"> нужно подставить <img align="absmiddle"  width="33" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image052_0001.gif"></strong>, таким образом: <img align="absmiddle"  width="144" height="44" src="g/priznak_dalambera_priznaki_koshi_clip_image097.gif">. <br>
+    (2) Избавляемся от четырехэтажности дроби.<br>
+    (3) Отщипываем семерку от степени. <strong>Факториалы расписываем подробно</strong>. Как это сделать – см. начало  урока или статью <a href="predel_posledovatelnosti.html">о числовых последовательностях</a>.<br>
+    (4) Сокращаем всё, что можно сократить.<br>
+    (5) Константу <img align="absmiddle"  width="16" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image099.gif"> выносим за знак  предела. В числителе раскрываем скобки.<br>
+    (6) Неопределенность <img align="absmiddle"  width="19" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image059_0000.gif"> устраняем стандартным  способом – делением числителя и знаменателя на «эн» в старшей степени.</p>
+    <p><u>Пример 5</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="40" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image101.gif"></p>
+    <p>Полное решение и образец оформления в конце урока</p>
+    <p><u>Пример 6</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="139" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image103.gif"></p>
+    <p>Иногда встречаются ряды, которые в своей начинке содержат  «цепь» множителей, этот тип ряда мы еще не рассматривали. Как исследовать ряд с  «цепочкой» множителей? Использовать признак Даламбера. Но сначала для понимания  происходящего распишем ряд подробно:<br>
+        <img align="absmiddle"  width="516" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image105.gif"></p>
+    <p>Из разложения мы видим, что у каждого следующего члена ряда  добавляется дополнительный множитель в знаменателе, поэтому, если общий член  ряда <img align="absmiddle"  width="151" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image107.gif">, то  следующий член  ряда:<br>
+        <img align="absmiddle"  width="417" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image109.gif">. Вот здесь часто автоматом допускают ошибку, формально по  алгоритму записывая, что <img align="absmiddle"  width="214" height="54" src="g/priznak_dalambera_priznaki_koshi_clip_image111.jpg"></p>
+    <p>Примерный образец решения может выглядеть так:</p>
+    <p>Используем признак Даламбера:<br>
+        <img align="absmiddle"  width="372" height="139" src="g/priznak_dalambera_priznaki_koshi_clip_image113.gif"></p>
+    <p>Таким образом, исследуемый ряд <strong>сходится.</strong></p>
+  </div>
+  <a name="rpk"></a><br>
+  <h2>Радикальный признак  Коши</h2>
+  <p>Огюстен Луи Коши – еще более знаменитый французский  математик. Биографию Коши вам может рассказать любой студент технической  специальности. В самых живописных красках. Не случайно эта фамилия высечена на  первом этаже Эйфелевой башни.</p>
+  <p>Признак сходимости Коши для положительных числовых рядов чем-то  похож на только что рассмотренный признак Даламбера.</p>
+  <p><strong>Радикальный признак  Коши: </strong>Рассмотрим <strong>положительный  числовой ряд</strong> <img align="absmiddle"  width="39" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image024_0000.gif">. Если существует предел: <img align="absmiddle"  width="84" height="32" src="g/priznak_dalambera_priznaki_koshi_clip_image115.gif">, то:<br>
+    а) При <img align="absmiddle"  width="39" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image028_0000.gif"> ряд <strong>сходится</strong>. В частности, ряд сходится при <img align="absmiddle"  width="41" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image030_0000.gif">.<br>
+    б) При <img align="absmiddle"  width="39" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image032_0000.gif"> ряд <strong>расходится</strong>. В частности, ряд расходится  при <img align="absmiddle"  width="45" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image034_0000.gif">.<br>
+    в) При <img align="absmiddle"  width="39" height="17" src="g/priznak_dalambera_priznaki_koshi_clip_image036_0000.gif"> <strong>признак не дает ответа</strong>. Нужно использовать другой признак. Интересно  отметить, что если признак Коши не даёт нам ответа на вопрос о сходимости ряда,  то признак Даламбера тоже не даст ответа. Но если признак Даламбера не даёт  ответа, то признак Коши вполне может «сработать». То есть, признак Коши  является в этом смысле более сильным признаком.</p>
+  <p><strong>Когда нужно  использовать радикальный признак Коши?</strong> Радикальный признак Коши обычно  использует в тех случаях, когда корень <img align="absmiddle"  width="32" height="28" src="g/priznak_dalambera_priznaki_koshi_clip_image117.gif"> «хорошо» извлекается  из общего члена ряда. Как правило, этот перец находится в степени, <strong>которая зависит от</strong> <img align="absmiddle"  width="13" height="15" src="g/priznak_dalambera_priznaki_koshi_clip_image050_0001.gif">. Есть еще экзотические случаи, но ими голову забивать не  будем.</p>
+  <div id="primer">
+    <p><u>Пример 7</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="103" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image119.gif"></p>
+    <p>Мы видим, что дробь полностью находится под  степенью, зависящей от «эн», а значит, нужно использовать радикальный признак Коши:<br>
+        <img align="absmiddle"  width="517" height="152" src="g/priznak_dalambera_priznaki_koshi_clip_image122.gif"><br>
+      Таким образом, исследуемый ряд <strong>расходится</strong>.</p>
+    <p>(1) Оформляем общий член ряда под корень.</p>
+    <p>(2) Переписываем то же самое, только уже без корня,  используя свойство степеней <img align="absmiddle"  width="64" height="35" src="g/priznak_dalambera_priznaki_koshi_clip_image124.gif">.<br>
+      (3) В показателе почленно делим числитель на знаменатель,  указывая, что <img align="absmiddle"  width="31" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image126.gif"><br>
+      (4) В результате у нас получилась неопределенность <img align="absmiddle"  width="39" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image128.gif">. Здесь можно было пойти длинным путем: возвести <img align="absmiddle"  width="41" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image130.gif"> в куб, возвести <img align="absmiddle"  width="43" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image132.gif"> в куб, потом <a href="predely_primery_reshenii.html">разделить  числитель и знаменатель</a> на «эн» в кубе. Но в данном случае есть  более эффективное решение: этот приём можно использовать прямо под степенью-константой. Для устранения неопределенности делим числитель  и знаменатель на <img align="absmiddle"  width="13" height="15" src="g/priznak_dalambera_priznaki_koshi_clip_image050_0002.gif"> (старшую степень многочленов).</p>
+    <p>(5) Выполняем почленное деление, и указываем  слагаемые, которые стремятся к нулю.<br>
+      (6) Доводим ответ до ума, помечаем, что <img align="absmiddle"  width="52" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image135.gif"> и делаем вывод о том,  что ряд расходится.</p>
+    <p>А вот более простой пример для самостоятельного решения:</p>
+    <p><u>Пример 8</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="85" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image137.gif"></p>
+    <p>И еще пара типовых примеров.</p>
+    <p>Полное решение и образец оформления в конце урока</p>
+    <p><u>Пример 9</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="111" height="51" src="g/priznak_dalambera_priznaki_koshi_clip_image139.gif"><br>
+      Используем радикальный признак Коши:<br>
+      <img align="absmiddle"  width="557" height="152" src="g/priznak_dalambera_priznaki_koshi_clip_image141.gif"><br>
+      Таким образом, исследуемый ряд <strong>сходится</strong>.<strong></strong></p>
+    <p>(1) Помещаем общий член ряда под корень.</p>
+    <p>(2) Переписываем то же самое, но уже без корня, при этом  раскрываем скобки, используя формулу сокращенного умножения: <img align="absmiddle"  width="135" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image143.gif">.<br>
+      (3) В показателе почленно делим числитель на знаменатель и  указываем, что <img align="absmiddle"  width="31" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image145.gif">.<br>
+      (4) Получена неопределенность вида <img align="absmiddle"  width="41" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image147.gif">, и здесь тоже  можно выполнять деление прямо под степенью. <strong>Но с одним  условием:</strong> коэффициенты при старших степенях многочленов должны быть разными. У нас они разные (5 и 6), и поэтому можно (и нужно)  разделить оба этажа на <img align="absmiddle"  width="13" height="15" src="g/priznak_dalambera_priznaki_koshi_clip_image050_0002.gif">. Если же эти коэффициенты <em>одинаковы</em>, например (1 и 1): <img align="absmiddle"  width="99" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image149.gif"> , то такой фокус не проходит и нужно использовать   <strong><a href="zamechatelnye_predely.html">второй замечательный предел</a></strong>.  Если помните, эти тонкости рассматривались в  последнем параграфе статьи <strong><a href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a></strong>.</p>
+    <p>(5) Собственно выполняем почленное деление и указываем,  какие слагаемые у нас стремятся к нулю.<br>
+      (6) Неопределенность устранена, у нас остался простейший  предел: <img align="absmiddle"  width="76" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image151.gif">. Почему <img align="absmiddle"  width="16" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image153.gif"> в <em>бесконечно большой</em> степени стремится к нулю? Потому что основание  степени удовлетворяет неравенству <img align="absmiddle"  width="60" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image155.gif">. Если у кого есть сомнения в справедливости предела <img align="absmiddle"  width="101" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image157.gif">, то я не поленюсь, возьму в руки калькулятор:<br>
+      Если <img align="absmiddle"  width="35" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image159.gif">, то <img align="absmiddle"  width="96" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image161.gif"><br>
+      Если <img align="absmiddle"  width="37" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image163.gif">, то <img align="absmiddle"  width="96" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image165.gif"><br>
+      Если <img align="absmiddle"  width="37" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image167.gif">, то <img align="absmiddle"  width="96" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image169.gif"><br>
+      Если <img align="absmiddle"  width="44" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image171.gif">, то <img align="absmiddle"  width="99" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image173.gif"><br>
+      Если <img align="absmiddle"  width="45" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image175.gif">, то <img align="absmiddle"  width="100" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image177.gif"><br>
+      … и т.д. до бесконечности – то есть, в пределе: <img align="absmiddle"  width="101" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image157_0000.gif"></p>
+    <p>Прямо таки <strong><a href="predel_posledovatelnosti.html">бесконечно  убывающая геометрическая прогрессия</a></strong> на пальцах =)<strong> </strong><br>
+      <strong>!</strong> Никогда не используйте этот приём в качестве доказательства! Ибо если что-то очевидно, то это ещё не значит, что  это правильно.</p>
+      <p>(7) Указываем, что <img align="absmiddle"  width="33" height="19" src="g/priznak_dalambera_priznaki_koshi_clip_image179.gif"> и делаем вывод о том,  что ряд сходится.</p>
+    <p><u>Пример 10</u></p>
+    <p>Исследовать ряд на сходимость <img align="absmiddle"  width="92" height="51" src="g/priznak_dalambera_priznaki_koshi_clip_image181.gif"></p>
+    <p>Это пример для самостоятельного решения.</p>
+  </div>
+  <p>Иногда для решения предлагается провокационный пример,  например: <img align="absmiddle"  width="85" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image183.gif">. Здесь в показателе степени <strong>нет «эн»</strong>, только константа. Тут нужно возвести в квадрат числитель  и знаменатель (получатся многочлены), а далее придерживаться алгоритма из  статьи <strong><a href="ryady_dlya_chajnikov.html">Ряды для чайников</a></strong>. В подобном  примере сработать должен либо необходимый признак сходимости ряда либо  предельный признак сравнения.</p>
+  <a name="ipk"></a><br>
+  <h2>Интегральный признак  Коши</h2>
+  <p>Или просто интегральный признак. Разочарую тех, кто плохо усвоил материал первого курса. Для  того чтобы применять интегральный признак Коши необходимо более или менее  уверенно уметь находить производные, интегралы, а также иметь навык вычисления <strong><a href="nesobstvennye_integraly.html">несобственного интеграла</a></strong> первого рода.</p>
+  <p>В учебниках по математическому анализу <strong>интегральный признак  Коши</strong> дан математически строго, но слишком уж поморочено, поэтому я сформулирую  признак  не слишком строго, но понятно:</p>
+  <p>Рассмотрим <strong>положительный числовой  ряд</strong> <img align="absmiddle"  width="39" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image024_0001.gif">. Если существует несобственный интеграл <img align="absmiddle" width="45" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image800.gif">, то ряд сходится или расходится вместе с этим  интегралом.</p>
+  <p>И сразу примеры для пояснения:</p>
+  <div id="primer">
+  <p><u>Пример 11</u></p>
+  <p>Исследовать ряд на сходимость <img align="absmiddle"  width="60" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image185.gif"></p>
+  <p>Почти классика. Натуральный логарифм и какая-нибудь бяка.</p>
+  <p><strong>Основной предпосылкой  использования интегрального признака Коши</strong> является тот факт, что в общем члене ряда содержатся множители, похожие  на некоторую функцию и её производную. Из темы <strong><a href="kak_naiti_proizvodnuju.html">Производная</a></strong> вы наверняка запомнили  простейшую табличную вещь: <img align="absmiddle"  width="69" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image187.gif">, и у нас как раз такой каноничный случай.</p>
+  <p>Как использовать интегральный признак? Сначала берем значок  интеграла и переписываем со «счётчика» ряда верхний и нижний пределы: <img align="absmiddle"  width="24" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image189.gif">. Затем под интегралом переписываем «начинку» ряда с буковкой  «хэ»: <img align="absmiddle"  width="52" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image191.gif">. Чего-то не хватает…, ах, да, еще в числителе нужно  прилепить значок дифференциала: <img align="absmiddle"  width="52" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image193.gif">.</p>
+  <p>Теперь нужно вычислить несобственный интеграл <img align="absmiddle"  width="52" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image193_0000.gif">. При этом возможно два случая:</p>
+  <p>1) Если выяснится, что интеграл <img align="absmiddle"  width="52" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image193_0001.gif"> сходится, то будет  сходиться и наш ряд <img align="absmiddle"  width="60" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image185_0000.gif">.</p>
+  <p>2) Если выяснится, что интеграл  <img align="absmiddle"  width="52" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image193_0002.gif"> расходится, то наш ряд <img align="absmiddle"  width="60" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image185_0001.gif"> тоже будет  расходиться.</p>
+  <p>Повторюсь, если материал запущен, то чтение параграфа будет трудным  и малопонятным, поскольку применение признака по сути дела сводится к  вычислению <strong><a href="nesobstvennye_integraly.html">несобственного интеграла</a></strong> первого рода.</p>
+  <p>Полное решение и оформление примера должно выглядеть  примерно так:</p>
+  <p>Используем интегральный признак:<br>
+    <br>
+  <img align="absmiddle"  width="85" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image196.gif"></p>
+  <p>Подынтегральная функция  непрерывна на <img align="absmiddle"  width="45" height="23" src="g/priznak_dalambera_priznaki_koshi_clip_image198.gif"></p>
+  <p><img align="absmiddle"  width="400" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image200.gif"></p>
+  <p>Таким образом, исследуемый ряд <strong>расходится</strong> вместе с соответствующим несобственным интегралом. </p>
+  <p><u>Пример 12</u></p>
+  <p>Исследовать ряд на сходимость <img align="absmiddle"  width="123" height="45" src="g/priznak_dalambera_priznaki_koshi_clip_image202.gif"></p>
+  <p>Решение и образец оформления в конце урока</p>
+  <p>В рассмотренных примерах логарифм также мог находиться под  корнем, это не изменило бы способа решения.</p>
+  <p>И еще два примера на закуску</p>
+  <p><u>Пример 13</u></p>
+  <p>Исследовать ряд на сходимость <img align="absmiddle"  width="95" height="51" src="g/priznak_dalambera_priznaki_koshi_clip_image204.gif"></p>
+  <p>По общим «параметрам» общий член ряда подходит для  использования <a href="ryady_dlya_chajnikov.html#pps">предельного признака сравнения</a>. Нужно всего лишь раскрыть скобки <img align="absmiddle"  width="59" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image206.gif"> и <s>сразу сдать на кандидата</s> предельно сравнить данный ряд со сходящимся рядом <img align="absmiddle"  width="53" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image208.gif">. Впрочем, я немного слукавил, скобки можно и не  раскрывать, но всё равно решение через предельный признак  будет  выглядеть несколько вычурно.</p>
+  <p>Поэтому мы используем интегральный признак Коши:</p>
+  <p><img align="absmiddle"  width="121" height="53" src="g/priznak_dalambera_priznaki_koshi_clip_image210.gif"></p>
+  <p>Подынтегральная функция  непрерывна на <img align="absmiddle"  width="43" height="23" src="g/priznak_dalambera_priznaki_koshi_clip_image212.gif"></p>
+  <p><img align="absmiddle"  width="423" height="128" src="g/priznak_dalambera_priznaki_koshi_clip_image214.gif"><br>
+    Получено конечное число, значит, исследуемый ряд  <strong>сходится</strong> вместе с соответствующим несобственным интегралом.</p>
+  <p><em><strong>! Примечание:</strong> полученное  число <img align="absmiddle"  width="27" height="44" src="g/priznak_dalambera_priznaki_koshi_clip_image216.gif"> –  <u>не является</u> <a href="kak_naiti_summu_ryada.html">суммой ряда</a>!!!</em></p>
+  <p><u>Пример 14</u></p>
+  <p>Исследовать ряд на сходимость <img align="absmiddle"  width="92" height="51" src="g/priznak_dalambera_priznaki_koshi_clip_image218.gif"></p>
+  <p>Решение и образец оформления в конце урока, который подходит  к концу.</p></div>
+  <p>Да. Возможно, у некоторых возник вопрос, почему я начал этот  урок с таким энтузиазмом? Всё просто – начался учебный год, а мне не нужно на  учебу!!! Я столько мучался =( Что даже не устал в заключительных аккордах этой  статьи.</p>
+  <p>В целях окончательного и бесповоротного усвоения темы числовых рядов посетите урок <a href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница. Примеры решений</a>.</p>
+  <p>Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em><strong>Пример 3:</strong> Используем  признак Даламбера:</em><br>
+      <em><img align="absmiddle"  width="369" height="232" src="g/priznak_dalambera_priznaki_koshi_clip_image220.gif"></em><br>
+      <em>Таким образом,  исследуемый ряд <strong>расходится</strong>.</em></p>
+  <p><em><strong>Примечание</strong>: Можно было  использовать и «турбо»-метод решения: сразу обвести карандашом отношение <img align="absmiddle"  width="57" height="48" src="g/priznak_dalambera_priznaki_koshi_clip_image222.gif">, указать, что оно стремится к единице и сделать пометку:  «одного порядка роста».</em></p>
+  <p><em><strong>Пример 5:</strong> Используем  признак Даламбера:</em><br>
+      <em><img align="absmiddle"  width="347" height="136" src="g/priznak_dalambera_priznaki_koshi_clip_image224.gif"></em><br>
+      <em>Таким образом,  исследуемый ряд <strong>сходится</strong>.</em></p>
+  <p><strong><em>Пример 8:</em></strong> <em>Используем радикальный  признак Коши:</em><br>
+      <em><img align="absmiddle"  width="309" height="141" src="g/priznak_dalambera_priznaki_koshi_clip_image226.gif"></em><br>
+      <em>Таким образом,  исследуемый ряд <strong>сходится</strong>.</em></p>
+  <p><strong><em>Пример 10:</em></strong> <em>Используем радикальный  признак Коши:</em><br>
+      <em><img align="absmiddle"  width="472" height="152" src="g/priznak_dalambera_priznaki_koshi_clip_image228.gif"></em><br>
+      <em>Таким образом,  исследуемый ряд <strong>расходится</strong>.</em><br>
+      <em><strong>Примечание</strong>: Здесь  основание степени <img align="absmiddle"  width="37" height="41" src="g/priznak_dalambera_priznaki_koshi_clip_image230.gif">, поэтому <img align="absmiddle"  width="101" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image232.gif"></em></p>
+  <p><strong><em>Пример 12:</em></strong> <em>Используем  интегральный признак:.</em><br>
+      <em> <img align="absmiddle"  width="149" height="49" src="g/priznak_dalambera_priznaki_koshi_clip_image234.gif"></em><br>
+      <em>Подынтегральная функция непрерывна на <img align="absmiddle"  width="43" height="23" src="g/priznak_dalambera_priznaki_koshi_clip_image212_0000.gif">.</em><br>
+      <em><img align="absmiddle"  width="495" height="99" src="g/priznak_dalambera_priznaki_koshi_clip_image236.gif"></em><br>
+      <em>Получено конечное  число, значит, исследуемый ряд  <strong>сходится</strong> вместе с соответствующим  несобственным интегралом.</em></p>
+  <p><strong><em>Пример 14: </em></strong> <em>Используем  интегральный признак:</em><br>
+      <em> <img align="absmiddle"  width="119" height="53" src="g/priznak_dalambera_priznaki_koshi_clip_image238.gif"></em><br>
+      <em>Подынтегральная функция непрерывна на <img align="absmiddle"  width="43" height="23" src="g/priznak_dalambera_priznaki_koshi_clip_image212_0001.gif">.</em><br>
+      <em><img align="absmiddle"  width="416" height="93" src="g/priznak_dalambera_priznaki_koshi_clip_image240.gif"></em><br>
+      <em>Таким образом, исследуемый  ряд  <strong>расходится</strong> вместе с соответствующим несобственным интегралом</em>.</p>
+  <p><em><strong>Примечание:</strong> Ряд <img align="absmiddle"  width="92" height="51" src="g/priznak_dalambera_priznaki_koshi_clip_image218_0000.gif"> также можно  исследовать с помощью <a href="ryady_dlya_chajnikov.html#pps">предельного признака сравнения</a>. Для этого удобно раскрыть скобки под корнем  <img align="absmiddle"  width="164" height="24" src="g/priznak_dalambera_priznaki_koshi_clip_image243.gif"> и сравнить исследуемый  ряд с расходящимся рядом <img align="absmiddle"  width="53" height="47" src="g/priznak_dalambera_priznaki_koshi_clip_image245.gif">.</em></p>
+  </div>
+  <p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

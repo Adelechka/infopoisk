@@ -1,0 +1,1101 @@
+<html>
+<head>
+<title>Как составить уравнение плоскости? Примеры и задачи
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="уравнение плоскости, общее уравнение плоскости, расположение плоскостей, неравенства полупространства, как составить плоскость, по трём точкам, по двум векторам и точке, по вектору нормали и точки, примеры решений, подробно, просто, доступно, построить параллельную плоскость, перпендикулярную плоскость, расстояние от точки до плоскости, расстояние между плоскостями, взаимное расположение плоскостей, плоскости совпадают, плоскости параллельны, плоскости пересекаются, угол между плоскостями, решение задач">
+<meta name="Description" content="Пространственная геометрия для чайников">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Уравнение плоскости. Как составить уравнение плоскости?<br>
+    Взаимное расположение плоскостей. Задачи</h1>
+  <br>
+  
+  <p>Пространственная геометрия не намного сложнее «плоской»  геометрии, и наши полёты в пространстве начинаются с данной статьи. Для  усвоения темы необходимо хорошо разобраться в <strong><a href="vektory_dlya_chainikov.html">векторах</a></strong>, кроме того, желательно быть знакомым с геометрией  плоскости – будет много похожего, много аналогий, поэтому информация  переварится значительно лучше. В серии моих уроков 2D-мир открывается статьёй <strong><a href="uravnenie_pryamoi_na_ploskosti.html">Уравнение прямой на плоскости</a></strong>. Но  сейчас Бэтмен сошёл с плоского экрана телевизора и стартует с космодрома  Байконур.</p>
+  <p>Начнём с чертежей и обозначений. Схематически плоскость  можно нарисовать в виде параллелограмма, что создаёт впечатление пространства:<br>
+      <img align="absmiddle"  width="381" height="123" src="d/uravnenie_ploskosti_clip_image002.jpg" alt="Плоскость в пространстве"><br>
+    Плоскость бесконечна, но у нас есть возможность изобразить  лишь её кусочек. На практике помимо параллелограмма также прорисовывают овал  или даже облачко. Мне по техническим причинам удобнее изображать плоскость  именно так и именно в таком положении. Реальные плоскости, которые мы  рассмотрим в практических примерах, могут располагаться как угодно – мысленно  возьмите чертёж в руки и покрутите его в пространстве, придав плоскости любой  наклон, любой угол.</p>
+  <p><strong>Обозначения</strong>:  плоскости принято обозначать маленькими греческими буквами <img align="absmiddle"  width="60" height="20" src="d/uravnenie_ploskosti_clip_image004.gif">, видимо, чтобы не путать их с <strong><a href="uravnenie_pryamoi_na_ploskosti.html">прямой на плоскости</a></strong> или с <strong><a href="uravnenija_pryamoi_v_prostranstve.html">прямой  в пространстве</a></strong>. Я привык использовать букву <img align="absmiddle"  width="15" height="13" src="d/uravnenie_ploskosti_clip_image006.gif">. На чертеже именно буква «сигма», а вовсе не дырочка. Хотя,  дырявая плоскость, это, безусловно, весьма забавно. </p>
+  <p>В ряде случаев для обозначения плоскостей удобно  использовать те же греческие буквы с нижними подстрочными индексами, например, <img align="absmiddle"  width="61" height="21" src="d/uravnenie_ploskosti_clip_image008.gif">.</p>
+  <p>Очевидно, что плоскость однозначно определяется тремя  различными точками, не лежащими на одной прямой. Поэтому достаточно популярны трёхбуквенные  обозначения плоскостей – по принадлежащим им точкам, например, <img align="absmiddle"  width="85" height="21" src="d/uravnenie_ploskosti_clip_image010.gif"> и т.д. Нередко буквы  заключают в круглые скобки: <img align="absmiddle"  width="108" height="21" src="d/uravnenie_ploskosti_clip_image012.gif">, чтобы не перепутать плоскость с другой геометрической  фигурой. </p>
+  <p>Для опытных читателей приведу <strong>меню быстрого доступа</strong>:</p>
+  <ul>
+  <li><a href="uravnenie_ploskosti.html#ou">Общее уравнение плоскости</a></li>
+    <li><a href="uravnenie_ploskosti.html#t2v">Как составить уравнение плоскости по точке и двум векторам?</a></li>
+    <li><a href="uravnenie_ploskosti.html#3t">Как составить уравнение плоскости по трём точкам?</a></li>
+    <li><a href="uravnenie_ploskosti.html#n">Нормальный вектор плоскости</a></li>
+    <li><a href="uravnenie_ploskosti.html#tn">Как составить уравнение плоскости по точке и вектору  нормали?</a></li>
+    <li><a href="uravnenie_ploskosti.html#pp">Как построить плоскость, параллельную данной?</a></li>
+    <li><a href="uravnenie_ploskosti.html#rtp">Как найти расстояние от точки до плоскости?</a></li>
+    <li><strong><a href="uravnenie_ploskosti.html#vr">Взаимное расположение плоскостей:</a></strong></li>
+	<ul>
+   <li><a href="uravnenie_ploskosti.html#sov">Совпадающие плоскости</a></li>
+    <li><a href="uravnenie_ploskosti.html#par">Параллельные плоскости</a> </li>
+    <li><a href="uravnenie_ploskosti.html#rpp">Расстояние между параллельными плоскостями</a></li>
+    <li><a href="uravnenie_ploskosti.html#per">Пересекающиеся плоскости</a> </li>
+    <li><a href="uravnenie_ploskosti.html#upp">Угол между плоскостями</a></li>
+	</ul>
+   </ul>
+  <p>и  мы не будем томиться долгими ожиданиями:</p>
+  <br>
+  <a name="ou"></a><h2><strong>Общее уравнение  плоскости</strong></h2>
+  <p>Общее уравнение плоскости имеет вид <img align="absmiddle"  width="128" height="20" src="d/uravnenie_ploskosti_clip_image014.gif">, где коэффициенты <img align="absmiddle"  width="48" height="20" src="d/uravnenie_ploskosti_clip_image016.gif"> одновременно не равны  нулю. </p>
+  <p>Ряд теоретических выкладок и практических задач справедливы  как для привычного ортонормированного базиса, так и для аффинного базиса  пространства (если масло - масляное, вернитесь к уроку <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость векторов. Базис векторов</a></strong>). Для простоты  будем полагать, что все события происходят в ортонормированном базисе и  декартовой прямоугольной системе координат.</p>
+  <p>А теперь немного потренируем пространственное воображение.  Ничего страшного, если у вас оно плохое, сейчас немного разовьём. Даже для игры  на нервах нужны тренировки. </p>
+  <p>В самом общем случае, когда числа <img align="absmiddle"  width="67" height="20" src="d/uravnenie_ploskosti_clip_image018.gif"> не равны нулю,  плоскость пересекает все три координатные оси. Например, так:</p>
+  <p>  <img align="absmiddle"  width="295" height="274" src="d/uravnenie_ploskosti_clip_image020.jpg" alt="Расположение плоскости в прямоугольной системе координат"></p>
+  <div id="primer">
+  <p>Ещё раз повторю, что плоскость бесконечно продолжается во  все стороны, и у нас есть возможность изобразить только её часть.</p>
+  <p>Рассмотрим простейшие уравнения плоскостей: </p>
+  <p><img align="absmiddle"  width="33" height="17" src="d/uravnenie_ploskosti_clip_image022.gif"></p>
+  <p>Как понимать данное уравнение? Вдумайтесь: «зет» ВСЕГДА, при  любых значениях «икс» и «игрек» равно нулю. Это уравнение «родной» координатной  плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image024.gif">. Действительно, формально уравнение можно переписать так: <img align="absmiddle"  width="105" height="20" src="d/uravnenie_ploskosti_clip_image026.gif">, откуда хорошо видно, что нам по барабану, какие значения  принимают «икс» и «игрек», важно, что «зет» равно нулю.</p>
+  <p>Аналогично:<br>
+      <img align="absmiddle"  width="35" height="17" src="d/uravnenie_ploskosti_clip_image028.gif"> – уравнение  координатной плоскости <img align="absmiddle"  width="32" height="17" src="d/uravnenie_ploskosti_clip_image030.gif">;<br>
+      <img align="absmiddle"  width="35" height="20" src="d/uravnenie_ploskosti_clip_image032.gif"> – уравнение  координатной плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image034.gif">.</p>
+  <p>Немного усложним задачу, рассмотрим плоскость <img align="absmiddle"  width="68" height="17" src="d/uravnenie_ploskosti_clip_image036.gif"> (здесь и далее в  параграфе предполагаем, что числовые коэффициенты не равны нулю). Перепишем  уравнение в виде: <img align="absmiddle"  width="51" height="39" src="d/uravnenie_ploskosti_clip_image038.gif">. Как его понимать? «Икс» ВСЕГДА, при любых значениях «игрек»  и «зет» равно некоторому числу <img align="absmiddle"  width="29" height="39" src="d/uravnenie_ploskosti_clip_image040.gif">. Эта плоскость параллельна координатной плоскости <img align="absmiddle"  width="32" height="17" src="d/uravnenie_ploskosti_clip_image030_0000.gif">. Например, плоскость <img align="absmiddle"  width="35" height="17" src="d/uravnenie_ploskosti_clip_image042.gif"> параллельна плоскости <img align="absmiddle"  width="32" height="17" src="d/uravnenie_ploskosti_clip_image030_0001.gif"> и проходит через точку <img align="absmiddle"  width="49" height="20" src="d/uravnenie_ploskosti_clip_image044.gif">.</p>
+  <p>Аналогично:<br>
+      <img align="absmiddle"  width="68" height="20" src="d/uravnenie_ploskosti_clip_image046.gif"> – уравнение плоскости,  которая параллельна координатной плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image034_0000.gif">;<br>
+      <img align="absmiddle"  width="67" height="17" src="d/uravnenie_ploskosti_clip_image048.gif"> – уравнение плоскости,  которая параллельна координатной плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image024_0000.gif">.</p>
+  <p>Добавим членов: <img align="absmiddle"  width="99" height="20" src="d/uravnenie_ploskosti_clip_image050.gif">. Уравнение можно переписать так: <img align="absmiddle"  width="133" height="20" src="d/uravnenie_ploskosti_clip_image052.gif">, то есть «зет» может быть любым. Что это значит? «Икс» и  «игрек» связаны соотношением <img align="absmiddle"  width="99" height="20" src="d/uravnenie_ploskosti_clip_image050_0000.gif">, которое прочерчивает в плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image024_0001.gif"> некоторую прямую  (узнаёте <strong><a href="uravnenie_pryamoi_na_ploskosti.html">уравнение прямой на плоскости</a></strong>?).  Поскольку «зет» может быть любым, то эта прямая «тиражируется» на любой высоте.  Таким образом, уравнение <img align="absmiddle"  width="99" height="20" src="d/uravnenie_ploskosti_clip_image050_0001.gif"> определяет плоскость,  параллельную координатной оси <img align="absmiddle"  width="25" height="17" src="d/uravnenie_ploskosti_clip_image054.gif"></p>
+  <p>Аналогично: <br>
+      <img align="absmiddle"  width="97" height="17" src="d/uravnenie_ploskosti_clip_image056.gif"> – уравнение плоскости,  которая параллельна координатной оси <img align="absmiddle"  width="25" height="17" src="d/uravnenie_ploskosti_clip_image058.gif">;<br>
+      <img align="absmiddle"  width="97" height="20" src="d/uravnenie_ploskosti_clip_image060.gif"> – уравнение плоскости,  которая параллельна координатной оси <img align="absmiddle"  width="27" height="17" src="d/uravnenie_ploskosti_clip_image062.gif">.</p>
+  <p>Если свободные члены <img align="absmiddle"  width="16" height="16" src="d/uravnenie_ploskosti_clip_image064.gif"> нулевые, то плоскости  будут непосредственно проходить через соответствующие оси. Например,  классическая «прямая пропорциональность»: <img align="absmiddle"  width="36" height="16" src="d/uravnenie_ploskosti_clip_image066.gif">. Начертите в плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image024_0002.gif"> прямую <img align="absmiddle"  width="36" height="16" src="d/uravnenie_ploskosti_clip_image066_0000.gif"> и мысленно размножьте  её вверх и вниз (так как «зет» любое). Вывод: плоскость, заданная уравнением <img align="absmiddle"  width="36" height="16" src="d/uravnenie_ploskosti_clip_image066_0001.gif">, проходит через координатную ось <img align="absmiddle"  width="25" height="17" src="d/uravnenie_ploskosti_clip_image054_0000.gif">.</p>
+  <p>Завершаем обзор: плоскость <img align="absmiddle"  width="103" height="20" src="d/uravnenie_ploskosti_clip_image069.gif"> проходит через начало  координат. Ну, здесь совершенно очевидно, что точка <img align="absmiddle"  width="60" height="20" src="d/uravnenie_ploskosti_clip_image071.gif"> удовлетворяет данному  уравнению.</p>
+  <p>И, наконец, случай, который изображён на чертеже: <img align="absmiddle"  width="128" height="20" src="d/uravnenie_ploskosti_clip_image014_0000.gif"> – плоскость дружит со  всеми координатными осями, при этом она всегда «отсекает» треугольник, который  может располагаться в любом из восьми октантов.</p>
+  <p>Как грамотно построить перечисленные виды плоскостей на  клетчатой бумаге – смотрите в справочных  материалах о <strong><a href="poverhnosti.html">пространственных  поверхностях</a></strong>.</p>
+  <h3><strong>Линейные неравенства  в пространстве</strong></h3>
+  <p>Для лучшего понимания информации желательно хорошо изучить <strong><a href="lineinye_neravenstva.html">линейные неравенства на плоскости</a></strong>,  поскольку многие вещи буду похожи. Параграф будет носить краткий обзорный характер  с несколькими примерами, так как материал на практике встречается довольно  редко. </p>
+  <p>Если уравнение <img align="absmiddle"  width="128" height="20" src="d/uravnenie_ploskosti_clip_image014_0001.gif"> задаёт плоскость, то  неравенства<br>
+      <img align="absmiddle"  width="547" height="20" src="d/uravnenie_ploskosti_clip_image073.gif"> задают <strong>полупространства</strong>. Если неравенство  нестрогое (два последних в списке), то в решение неравенства кроме  полупространства входит и сама плоскость.</p>
+  <p>Как и для <strong><a href="lineinye_neravenstva.html">линейных  неравенств</a> </strong>плоскости, справедлив аналогичный принцип: если одна точка  полупространства удовлетворяет неравенству, то и ВСЕ точки данного полупространства  удовлетворяют данному неравенству.</p>
+  <p>Читайте примеры и посматривайте на чертёж:</p>
+  <p>1) <img align="absmiddle"  width="35" height="20" src="d/uravnenie_ploskosti_clip_image075.gif">. Как понимать данное неравенство? «Икс» и «зет» могут быть  любыми, а вот «игрек» всегда больше либо равно нулю. Данное неравенство определяет  правое полупространство; так как оно нестрогое, то координатная плоскость <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image034_0001.gif"> входит в решение.</p>
+  <p>2) <img align="absmiddle"  width="33" height="17" src="d/uravnenie_ploskosti_clip_image077.gif"> – «игрек» и «зет»  могут быть любыми, а вот «икс» строго меньше нуля. Неравенство задаёт дальнее  от нас полупространство, и ввиду его строгости, координатная плоскость <img align="absmiddle"  width="32" height="17" src="d/uravnenie_ploskosti_clip_image030_0002.gif"> не входит в решение.</p>
+  <p>3) <img align="absmiddle"  width="33" height="16" src="d/uravnenie_ploskosti_clip_image079.gif"> Сначала мысленно  начертим плоскость <img align="absmiddle"  width="33" height="16" src="d/uravnenie_ploskosti_clip_image081.gif"> – данная плоскость  параллельна «родной» координатной плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image024_0003.gif"> и расположена на  высоте <img align="absmiddle"  width="33" height="16" src="d/uravnenie_ploskosti_clip_image081_0000.gif"> (на 2 единицы выше  плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenie_ploskosti_clip_image024_0004.gif">). При любых «икс» и «игрек» – «зет» меньше либо равно двум.  Поэтому неравенство определяет нижнее полупространство + саму плоскость <img align="absmiddle"  width="33" height="16" src="d/uravnenie_ploskosti_clip_image081_0001.gif">.</p>
+  <p>4) Дана плоскость <img align="absmiddle"  width="112" height="20" src="d/uravnenie_ploskosti_clip_image084.gif">. Я специально подобрал плоскость, которая «высекает»  треугольник в первом октанте (такой, как на чертеже). Требуется строгим  неравенством задать полупространство, которое содержит начало координат.</p>
+  <p>Составим вспомогательный многочлен <img align="absmiddle"  width="160" height="20" src="d/uravnenie_ploskosti_clip_image086.gif"> и вычислим его  значение в начале координат: <img align="absmiddle"  width="223" height="20" src="d/uravnenie_ploskosti_clip_image088.gif">, таким образом, искомое неравенство: <img align="absmiddle"  width="112" height="20" src="d/uravnenie_ploskosti_clip_image090.gif">.</p></div>
+  <p>Проведённый обзор полезен не только в аналитической  геометрии, но и для решения ряда задач математического анализа. </p>
+  <br>
+  <h2><strong>Как составить  уравнение плоскости?</strong></h2>
+  <p>Конструировать уравнение плоскости будем с помощью векторов  и точек. Их должно быть <strong>как можно меньше</strong>,  но <strong>достаточно</strong>, чтобы <strong>однозначно</strong> определить плоскость. Одним  словом, красивая математическая лаконичность. Математика – царица наук, не  стерва, но строгА. А уж насколько доступна, во многом зависит от вашего к ней  отношения =)</p>
+  <p>Казалось бы, плоскость можно определить с помощью двух <u>неколлинеарных</u> векторов. Но векторы свободны и бродят по всему пространству, поэтому ещё нужна  фиксированная точка.</p>
+  <a name="t2v"></a><h3><strong>Как составить  уравнение плоскости по точке и двум неколлинеарным векторам?</strong></h3>
+  <p>Рассмотрим точку <img align="absmiddle"  width="91" height="21" src="d/uravnenie_ploskosti_clip_image092.gif"> и два <u>неколлинеарных</u> вектора <img align="absmiddle"  width="160" height="21" src="d/uravnenie_ploskosti_clip_image094.gif">. <strong>Уравнение плоскости</strong>,  которая проходит через точку <img align="absmiddle"  width="24" height="21" src="d/uravnenie_ploskosti_clip_image096.gif"> параллельно векторам <img align="absmiddle"  width="31" height="19" src="d/uravnenie_ploskosti_clip_image098.gif">, <strong>выражается формулой</strong>:</p>
+  <p><img align="absmiddle"  width="121" height="68" src="d/uravnenie_ploskosti_clip_image100.gif"></p>
+  <p><strong><em>! Примечание</em></strong><em>: под выражением  «вектор параллелен плоскости» подразумевается, что вектор можно отложить и в  самой плоскости. Для наглядности я буду откладывать векторы прямо в плоскости.</em></p>
+  <p>Принципиально ситуация выглядит так:<br>
+      <img align="absmiddle"  width="382" height="125" src="d/uravnenie_ploskosti_clip_image102.jpg" alt="Как составить уравнение плоскости по двум векторам и точке?"><br>
+    Обратите внимание, что точка и два <u>коллинеарных</u> вектора не определят плоскость однозначно (векторы будут свободно «вертеться» вокруг  точки и зададут бесконечно много плоскостей).</p>
+  <p><u>Пример 1</u></p>
+  <p>Составить уравнение плоскости по точке <img align="absmiddle"  width="81" height="20" src="d/uravnenie_ploskosti_clip_image104.gif"> и векторам <img align="absmiddle"  width="136" height="21" src="d/uravnenie_ploskosti_clip_image106.gif">.</p>
+  <p><strong>Решение</strong>: Составим  уравнение плоскости по точке и двум неколлинеарным векторам:<br>
+      <img align="absmiddle"  width="128" height="68" src="d/uravnenie_ploskosti_clip_image108.gif"></p>
+  <p><strong><a href="kak_vychislit_opredelitel.html">Определитель</a></strong> удобнее  всего раскрыть по первому столбцу:<br>
+      <img align="absmiddle"  width="303" height="45" src="d/uravnenie_ploskosti_clip_image110.gif"></p>
+  <p>Раскрываем определители второго порядка:<br>
+      <img align="absmiddle"  width="324" height="43" src="d/uravnenie_ploskosti_clip_image112.gif"></p>
+  <p>На первом месте у нас находится знак «минус». Хорошим тоном  считается убрать наглеца, в этих целях меняем знак у каждого слагаемого. Проводим  дальнейшие упрощения и получаем уравнение плоскости:<br>
+      <img align="absmiddle"  width="225" height="64" src="d/uravnenie_ploskosti_clip_image114.gif"></p>
+  <p>Сократить здесь ничего нельзя, поэтому:</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="151" height="20" src="d/uravnenie_ploskosti_clip_image116.gif"></p>
+  <p>…числа, конечно, страшноваты получились для первого примера  =) …но переделывать, пожалуй, не буду, на практике большие числа – вещь  распространённая.</p>
+  <p>Как проверить задание? Для проверки пока не хватает  информации, но я обязательно выполню её чуть позже.</p>
+  <p><u>Пример 2</u></p>
+  <p>Составить уравнение плоскости по точке <img align="absmiddle"  width="72" height="20" src="d/uravnenie_ploskosti_clip_image118.gif"> и двум неколлинеарным  векторам <img align="absmiddle"  width="151" height="21" src="d/uravnenie_ploskosti_clip_image120.gif">.</p>
+  <p>Это пример для самостоятельного решения, полное решение и  ответ в конце урока.</p>
+  <p>Иногда может потребоваться решить обратную задачу – по  известному уравнению плоскости найти параллельные ей векторы. Кстати, сколько  параллельных векторов существует у плоскости? Бесконечно много. Однако нельзя  объять необъятное, поэтому «вытащим» из уравнения плоскости три таких вектора:</p>
+  <p>Пусть плоскость задана общим уравнением <img align="absmiddle"  width="128" height="20" src="d/uravnenie_ploskosti_clip_image014_0002.gif">. Тогда векторы <img align="absmiddle"  width="223" height="23" src="d/uravnenie_ploskosti_clip_image122.gif"> будут параллельны  данной плоскости (а, значит, <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">компланарны</a></strong>),  и любые два из них – линейно независимы. Так, в Примере № 1 мы составили  уравнение плоскости <img align="absmiddle"  width="151" height="20" src="d/uravnenie_ploskosti_clip_image116_0000.gif">. Построенной плоскости будут параллельны следующие векторы: <img align="absmiddle"  width="223" height="23" src="d/uravnenie_ploskosti_clip_image124.gif">. Если честно, не припомню, чтобы приходилось этим  пользоваться, тем не менее, справка не лишняя.</p>
+  <p>Итак, «конструкция» из двух  неколлинеарных векторов и точки однозначно  определяет плоскость. Но существует более очевидный способ,  о котором упоминалось выше, и он громким стуком в дверь уже давно просится на  урок. Три точки. Дёшево и сердито.</p>
+  <a name="3t"></a><h3><strong>Как составить  уравнение плоскости по трём точкам?</strong></h3>
+  <p>Любые ли три точки пространства задают плоскость? Нет.  Во-первых, точки должны быть различными. А во-вторых, они не должны лежать на  одной прямой (сразу все три).</p>
+  <p><strong>Уравнение плоскости</strong>,  проходящей через три <u>различные</u> точки <img align="absmiddle"  width="268" height="21" src="d/uravnenie_ploskosti_clip_image126.gif">, которые <u>не лежат на одной прямой</u>, <strong>можно составить по формуле</strong>:</p>
+  <p><img align="absmiddle"  width="175" height="68" src="d/uravnenie_ploskosti_clip_image128.gif"></p>
+  <p>На самом деле это разновидность предыдущего способа, смотрим  на картинку:<br>
+      <img align="absmiddle"  width="385" height="119" src="d/uravnenie_ploskosti_clip_image130.jpg" alt="Как составить уравнение плоскости по трём точкам?"><br>
+    Если известны три различные точки, не лежащие на одной  прямой, то легко найти два неколлинеарных вектора, параллельных данной  плоскости:<br>
+  <img align="absmiddle"  width="188" height="49" src="d/uravnenie_ploskosti_clip_image132.gif"></p>
+  <p>То есть, наша формула фактически совпадает с формулой  предыдущего параграфа. Многие уже заметили явную аналогию с материалами статьи <strong><a href="uravnenie_pryamoi_na_ploskosti.html">Уравнение прямой на плоскости</a></strong>.  Закономерности будут сохраняться и дальше!</p>
+  <p>Чтобы не умереть от скуки, предлагаю раскрутить  примеры-шарады:</p>
+  <p><u>Пример 3</u></p>
+  <p>Составить уравнение плоскости по точкам <img align="absmiddle"  width="240" height="21" src="d/uravnenie_ploskosti_clip_image134.gif">.</p>
+  <p><strong>Решение</strong>: составим  уравнение плоскости по трём точкам. Используем формулу:<br>
+      <img align="absmiddle"  width="204" height="137" src="d/uravnenie_ploskosti_clip_image136.gif"></p>
+  <p>Вот теперь и аналитически видно, что всё дело свелось к  координатам двух векторов. Раскрываем определитель по первому столбцу, находим  уравнение плоскости:<br>
+      <img align="absmiddle"  width="284" height="133" src="d/uravnenie_ploskosti_clip_image138.gif"></p>
+  <p>Больше ничего упростить нельзя, записываем:</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="111" height="20" src="d/uravnenie_ploskosti_clip_image140.gif"></p>
+  <p>Проверка напрашивается сама собой – в полученное уравнение  плоскости нужно подставить координаты <strong>каждой</strong> точки. Если <strong>хотя бы одна</strong> из трёх  точек «не подойдёт», ищите ошибку.</p>
+  <p><strong>Для «мёртвого» зачёта  всегда выполняйте проверку мысленно или на черновике!!!</strong> </p>
+  <p><u>Пример 4</u></p>
+  <p>Составить уравнение плоскости, проходящей через точки <img align="absmiddle"  width="147" height="20" src="d/uravnenie_ploskosti_clip_image142.gif"> и начало координат.</p>
+  <p>Это пример для самостоятельного решения. Ещё раз  присмотримся к формуле <img align="absmiddle"  width="175" height="68" src="d/uravnenie_ploskosti_clip_image128_0000.gif">. В каждом столбце определителя встречаются координаты точки <img align="absmiddle"  width="24" height="21" src="d/uravnenie_ploskosti_clip_image096_0000.gif">, и это можно с выгодой использовать. В предложенной задаче даны  три точки: <img align="absmiddle"  width="147" height="20" src="d/uravnenie_ploskosti_clip_image142_0000.gif">, начало координат. <strong>В  качестве точки <img align="absmiddle"  width="24" height="21" src="d/uravnenie_ploskosti_clip_image096_0001.gif"> можно выбрать любую из  трёх точек</strong>. Подумайте, как рациональнее оформить решение! Да, и  постарайтесь, не пропускать это задание, в самом конце решения увидите важный  технический нюанс ;-)</p>
+  <a name="n"></a><h3><strong>Вектор нормали  плоскости (нормальный вектор)</strong></h3>
+  <p>Вектор нормали плоскости – это вектор, который  перпендикулярен данной плоскости. Очевидно, что у любой плоскости бесконечно  много нормальных векторов. Но для решения задач нам будет хватать и одного.<br>
+      <img align="absmiddle"  width="396" height="274" src="d/uravnenie_ploskosti_clip_image145.jpg" alt="Вектор нормали  плоскости"><br>
+      <strong>Если плоскость задана  общим уравнением <img align="absmiddle"  width="128" height="20" src="d/uravnenie_ploskosti_clip_image014_0003.gif">, то вектор <img align="absmiddle"  width="67" height="20" src="d/uravnenie_ploskosti_clip_image147.gif">  является вектором  нормали данной плоскости</strong>. Просто до безобразия. Всё, что нужно сделать –  это «снять» коэффициенты из уравнения плоскости.</p>
+  <p>Обещанного три экрана ждут, вернёмся к Примеру № 1 и выполним  его проверку. Напоминаю, что там требовалось построить уравнение плоскости по  точке <img align="absmiddle"  width="81" height="20" src="d/uravnenie_ploskosti_clip_image104_0000.gif"> и двум векторам <img align="absmiddle"  width="136" height="21" src="d/uravnenie_ploskosti_clip_image149.gif">. В результате решения мы получили уравнение <img align="absmiddle"  width="151" height="20" src="d/uravnenie_ploskosti_clip_image116_0001.gif">. Проверяем:</p>
+  <p>Во-первых, подставим координаты точки <img align="absmiddle"  width="81" height="20" src="d/uravnenie_ploskosti_clip_image104_0001.gif"> в полученное  уравнение:<br>
+      <img align="absmiddle"  width="204" height="61" src="d/uravnenie_ploskosti_clip_image151.gif"><br>
+    Получено верное равенство, значит, точка <img align="absmiddle"  width="20" height="16" src="d/uravnenie_ploskosti_clip_image153.gif"> действительно лежит в  данной плоскости. </p>
+  <p>Во-вторых, из уравнения плоскости снимаем вектор нормали: <img align="absmiddle"  width="164" height="20" src="d/uravnenie_ploskosti_clip_image155.gif">. Поскольку векторы <img align="absmiddle"  width="136" height="21" src="d/uravnenie_ploskosti_clip_image149_0000.gif"> параллельны плоскости,  а вектор <img align="absmiddle"  width="87" height="20" src="d/uravnenie_ploskosti_clip_image158.gif"> перпендикулярен  плоскости, то должны иметь место следующие факты: <img align="absmiddle"  width="111" height="21" src="d/uravnenie_ploskosti_clip_image160.gif">. Перпендикулярность векторов легко проверить с помощью <strong><a href="skaljarnoe_proizvedenie_vektorov.html">скалярного произведения</a></strong>:<br>
+      <img align="absmiddle"  width="389" height="44" src="d/uravnenie_ploskosti_clip_image162.gif"></p>
+  <p>Вывод: уравнение плоскости найдено правильно.</p>
+  <p>В ходе проверки я фактически процитировал следующее  утверждение теории: <strong>вектор <img align="absmiddle"  width="72" height="21" src="d/uravnenie_ploskosti_clip_image164.gif"> параллелен плоскости <img align="absmiddle"  width="128" height="20" src="d/uravnenie_ploskosti_clip_image014_0004.gif"> в том и только том  случае, когда <img align="absmiddle"  width="121" height="21" src="d/uravnenie_ploskosti_clip_image166.gif">.</strong></p>
+  <p>Решим важную задачу, которая имеет отношение и к уроку <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение векторов</a></strong>:  </p>
+  <p><u>Пример 5</u></p>
+  <p>Найти единичный нормальный вектор плоскости <img align="absmiddle"  width="117" height="20" src="d/uravnenie_ploskosti_clip_image168.gif">.</p>
+  <p><strong>Решение</strong>:  Единичный вектор – это вектор, длина которого равна единице. Обозначим данный  вектор через <img align="absmiddle"  width="17" height="21" src="d/uravnenie_ploskosti_clip_image170.gif">. Совершенно понятно, что векторы <img align="absmiddle"  width="45" height="21" src="d/uravnenie_ploskosti_clip_image174.gif"> коллинеарны:<br>
+      <img align="absmiddle"  width="390" height="261" src="d/uravnenie_ploskosti_clip_image172.jpg" alt="Единичный нормальный вектор плоскости">
+    </p>
+  <p>Сначала из уравнения плоскости снимем вектор нормали: <img align="absmiddle"  width="145" height="20" src="d/uravnenie_ploskosti_clip_image176.gif">.</p>
+  <p>Как найти единичный вектор? <strong>Для того чтобы найти единичный вектор <img align="absmiddle"  width="17" height="21" src="d/uravnenie_ploskosti_clip_image170_0000.gif">, нужно <u>каждую</u> координату вектора <img align="absmiddle"  width="13" height="16" src="d/uravnenie_ploskosti_clip_image178.gif"> разделить на длину  вектора <img align="absmiddle"  width="13" height="17" src="d/uravnenie_ploskosti_clip_image180.gif"></strong>.</p>
+  <p>Перепишем вектор нормали в виде <img align="absmiddle"  width="97" height="23" src="d/uravnenie_ploskosti_clip_image182.gif"> и найдём его длину:<br>
+      <img align="absmiddle"  width="253" height="28" src="d/uravnenie_ploskosti_clip_image184.gif"></p>
+  <p>Согласно вышесказанному:<br>
+      <img align="absmiddle"  width="287" height="45" src="d/uravnenie_ploskosti_clip_image186.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="143" height="45" src="d/uravnenie_ploskosti_clip_image188.gif"></p>
+  <p>Проверка: <img align="absmiddle"  width="425" height="53" src="d/uravnenie_ploskosti_clip_image190.gif">, что и требовалось проверить.</p>
+  <p>Читатели, которые внимательно изучили последний параграф  урока <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение векторов</a></strong>,  наверное, заметили, что <strong>координаты  единичного вектора <img align="absmiddle"  width="17" height="21" src="d/uravnenie_ploskosti_clip_image192.gif"> – это в точности  направляющие косинусы вектора <img align="absmiddle"  width="13" height="16" src="d/uravnenie_ploskosti_clip_image178_0000.gif"></strong>:<br>
+      <img align="absmiddle"  width="361" height="44" src="d/uravnenie_ploskosti_clip_image195.gif"> </p>
+  <p>Отвлечёмся от разобранной задачи: <strong>когда вам дан произвольный ненулевой вектор</strong>, и по условию требуется  найти его направляющие косинусы (см. последние задачи урока <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение векторов</a></strong>), то вы, по сути, находите и  единичный вектор, коллинеарный данному. Фактически два задания в одном флаконе.</p>
+  <p>Необходимость найти единичный вектор нормали возникает в  некоторых задачах математического анализа.</p>
+  <p>С выуживанием нормального вектора разобрались, теперь ответим  на противоположный вопрос:</p>
+  <a name="tn"></a><h3><strong>Как составить уравнение  плоскости по точке и вектору нормали?</strong></h3>
+  <p>Эту жёсткую конструкцию вектора нормали и точки хорошо знает  мишень для игры в дартс. Пожалуйста, вытяните руку вперёд и мысленно выберите  произвольную точку пространства, например, маленькую кошечку в серванте.  Очевидно, что через данную точку можно провести единственную плоскость,  перпендикулярную вашей руке.</p>
+  <p><strong>Уравнение плоскости,  проходящей через точку <img align="absmiddle"  width="91" height="21" src="d/uravnenie_ploskosti_clip_image092_0000.gif"> перпендикулярно  вектору  <img align="absmiddle"  width="75" height="21" src="d/uravnenie_ploskosti_clip_image197.gif">, выражается формулой:</strong></p>
+  <p><img align="absmiddle"  width="251" height="21" src="d/uravnenie_ploskosti_clip_image199.gif"><br>
+      <img align="absmiddle"  width="397" height="274" src="d/uravnenie_ploskosti_clip_image201.jpg" alt="Как составить уравнение плоскости по точке и вектору нормали?"><br>
+    Выглядит значительно привлекательнее, чем предыдущие  мытарства. В некоторых задачах аналитической геометрии уравнение плоскости  можно составить несколькими способами, и решение через точку и нормальный  вектор – самое оптимальное.</p>
+  <p><u>Пример 6</u></p>
+  <p>Составить уравнение плоскости по точке <img align="absmiddle"  width="80" height="21" src="d/uravnenie_ploskosti_clip_image203.gif"> и вектору нормали <img align="absmiddle"  width="65" height="20" src="d/uravnenie_ploskosti_clip_image205.gif">.</p>
+  <p><strong>Решение</strong>:  Используем формулу:<br>
+      <img align="absmiddle"  width="251" height="132" src="d/uravnenie_ploskosti_clip_image207.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="91" height="20" src="d/uravnenie_ploskosti_clip_image209.gif"></p>
+  <p>Проверка выполняется очень легко:</p>
+  <p>1) Из полученного уравнения <img align="absmiddle"  width="127" height="20" src="d/uravnenie_ploskosti_clip_image211.gif"> снимаем вектор  нормали: <img align="absmiddle"  width="144" height="20" src="d/uravnenie_ploskosti_clip_image213.gif"> – всё хорошо,  полученный вектор совпал с вектором из условия (в ряде случаев может получиться  коллинеарный вектор).</p>
+  <p>2) Подставим координаты точки <img align="absmiddle"  width="81" height="21" src="d/uravnenie_ploskosti_clip_image215.gif"> в уравнение плоскости:<br>
+      <img align="absmiddle"  width="147" height="61" src="d/uravnenie_ploskosti_clip_image217.gif"><br>
+    Верное равенство, значит, точка <img align="absmiddle"  width="24" height="21" src="d/uravnenie_ploskosti_clip_image096_0002.gif"> принадлежит данной  плоскости.</p>
+  <p>Вывод: уравнение плоскости найдено правильно.</p>
+  <p>Пример настолько прозрачен, что хочется немного  завуалировать условие:</p>
+  <p><u>Пример 7</u></p>
+  <p>Найти уравнение плоскости, проходящей через точку <img align="absmiddle"  width="68" height="20" src="d/uravnenie_ploskosti_clip_image220.gif"> перпендикулярно оси <img align="absmiddle"  width="27" height="17" src="d/uravnenie_ploskosti_clip_image062_0000.gif">.</p>
+  <p>Это пример для самостоятельного решения. Просто, но со  вкусом.</p>
+  <p>Перейдём к более содержательным примерам. Типовая задача:</p>
+  <a name="pp"></a><h3><strong>Как построить  плоскость, параллельную данной?</strong></h3>
+  <p><u>Пример 8</u></p>
+  <p>Построить плоскость, проходящую через точку <img align="absmiddle"  width="75" height="20" src="d/uravnenie_ploskosti_clip_image223.gif"> параллельно плоскости <img align="absmiddle"  width="117" height="20" src="d/uravnenie_ploskosti_clip_image225.gif">.</p>
+  <p><strong>Решение</strong>:  Обозначим известную плоскость через <img align="absmiddle"  width="137" height="21" src="d/uravnenie_ploskosti_clip_image227.gif">. По условию требуется найти плоскость <img align="absmiddle"  width="20" height="21" src="d/uravnenie_ploskosti_clip_image229.gif">, которая параллельна плоскости <img align="absmiddle"  width="17" height="21" src="d/uravnenie_ploskosti_clip_image231.gif"> и проходит через точку <img align="absmiddle"  width="20" height="16" src="d/uravnenie_ploskosti_clip_image153_0000.gif">.</p>
+  <p>Выполним схематический чертёж, который поможет быстрее  разобраться в условии и понять алгоритм решения:<br>
+      <img align="absmiddle"  width="480" height="258" src="d/uravnenie_ploskosti_clip_image234.jpg" alt="Как построить плоскость параллельную данной?"><br>
+    У параллельных плоскостей один и тот же вектор нормали.  Добавить нечего =) Осталось оформить мат в два хода:</p>
+  <p>1) Из уравнения <img align="absmiddle"  width="140" height="21" src="d/uravnenie_ploskosti_clip_image236.gif"> найдём вектор нормали  плоскости: <img align="absmiddle"  width="67" height="20" src="d/uravnenie_ploskosti_clip_image238.gif">.</p>
+  <p>2) Уравнение плоскости <img align="absmiddle"  width="20" height="21" src="d/uravnenie_ploskosti_clip_image229_0000.gif"> составим по точке <img align="absmiddle"  width="75" height="20" src="d/uravnenie_ploskosti_clip_image223_0000.gif"> и вектору нормали <img align="absmiddle"  width="67" height="20" src="d/uravnenie_ploskosti_clip_image238_0000.gif">:<br>
+      <img align="absmiddle"  width="228" height="87" src="d/uravnenie_ploskosti_clip_image240.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="157" height="23" src="d/uravnenie_ploskosti_clip_image242.gif"></p>
+  <p>Как выполнить проверку, я уже рассказал.</p>
+  <p>Продолжаем раскидывать стог сена пространственной геометрии:</p>
+  <a name="rtp"></a><h3><strong>Как найти расстояние  от точки до плоскости?</strong></h3>
+  <p>Расстояние от точки до плоскости – это длина перпендикуляра,  опущенного из точки <img align="absmiddle"  width="24" height="21" src="d/uravnenie_ploskosti_clip_image002.gif"> к данной плоскости:<br>
+      <img align="absmiddle"  width="387" height="223" src="d/uravnenie_ploskosti_clip_image004.jpg" alt="Расстояние от точки до плоскости">
+   </p>
+  
+  <p>Формула очень похожа на формулу «плоской» геометрии расстояния  от точки до прямой (см. Пример № 8 урока <strong><a href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие  задачи с прямой на плоскости</a></strong>).</p>
+  <p><strong>Расстояние от точки <img align="absmiddle"  width="91" height="21" src="d/uravnenie_ploskosti_clip_image008_0000.gif"> до плоскости <img align="absmiddle"  width="147" height="20" src="d/uravnenie_ploskosti_clip_image010_0000.gif"> выражается формулой </strong><br>
+      <img align="absmiddle"  width="201" height="47" src="d/uravnenie_ploskosti_clip_image012_0000.gif"><strong></strong></p>
+	  <p>При желании или надобности можно найти и точку <img align="absmiddle"  width="19" height="16" src="d/uravnenie_ploskosti_clip_image006_0000.gif">, но для этого нужно разобраться с <strong><a href="uravnenija_pryamoi_v_prostranstve.html">уравнениями прямой в пространстве</a></strong> и посетить урок <strong><a href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи на прямую и плоскость</a></strong>. </p>
+      <p><u>Пример 9</u></p>
+  <p>Найти расстояние от точки <img align="absmiddle"  width="93" height="20" src="d/uravnenie_ploskosti_clip_image014_0005.gif"> до плоскости <img align="absmiddle"  width="95" height="17" src="d/uravnenie_ploskosti_clip_image016_0000.gif"></p>
+  <p><strong>Решение</strong>: анализировать  тут нечего, главное, не допустить ошибку в вычислениях:<br>
+      <img align="absmiddle"  width="495" height="47" src="d/uravnenie_ploskosti_clip_image018_0000.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="107" height="39" src="d/uravnenie_ploskosti_clip_image020.gif"></p>
+  <p>Такое даже для самостоятельного решения неловко предлагать.</p>
+  <p>Заключительный раздел урока будет посвящен взаимному  расположению плоскостей. Мы уже немного поговорили о параллельных плоскостях, и  сейчас продолжим тему:</p>
+  <br>
+  <a name="vr"></a><h2><strong>Взаимное расположение  плоскостей</strong></h2>
+  <p>Для практики наиболее важна информация о взаимном  расположении двух плоскостей, но и о трёх плоскостях также будет краткая  справка.</p>
+  <p>Рассмотрим две плоскости пространства, заданные общими  уравнениями: <br>
+      <img align="absmiddle"  width="189" height="48" src="d/uravnenie_ploskosti_clip_image022_0000.gif"></p>
+  <p>Они могут:</p>
+  <p>1) совпадать;</p>
+  <p>2) быть параллельными: <img align="absmiddle"  width="48" height="23" src="d/uravnenie_ploskosti_clip_image024_0005.gif">;</p>
+  <p>3) пересекаться по некоторой  прямой «эль»: <img align="absmiddle"  width="75" height="23" src="d/uravnenie_ploskosti_clip_image026_0000.gif">.</p>
+  <p>Всё очень и очень похоже на взаимное расположение прямых на  плоскости (урок <strong><a href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи с  прямой на плоскости</a></strong>).</p>
+  <a name="sov"></a><h3><strong>Совпадающие плоскости</strong></h3>
+  <p><strong>Две плоскости совпадают, тогда и только тогда, когда их соответствующие  коэффициенты пропорциональны</strong>, то есть, существует такое число «лямбда», что  выполняются равенства <img align="absmiddle"  width="265" height="21" src="d/uravnenie_ploskosti_clip_image028_0000.gif"></p>
+  <p>Рассмотрим плоскости <img align="absmiddle"  width="143" height="48" src="d/uravnenie_ploskosti_clip_image030_0003.gif"> и составим систему:<br>
+    <img align="absmiddle"  width="156" height="91" src="d/uravnenie_ploskosti_clip_image032_0000.gif"></p>
+  <p>Из <strong>каждого</strong> уравнения системы следует, что <img align="absmiddle"  width="48" height="19" src="d/uravnenie_ploskosti_clip_image034_0002.gif">. Таким образом, система совместна и плоскости <img align="absmiddle"  width="43" height="23" src="d/uravnenie_ploskosti_clip_image036_0000.gif"> совпадают.</p>
+  <a name="par"></a><h3><strong>Параллельные  плоскости</strong></h3>
+  <p><strong>Две плоскости  параллельны тогда и только тогда, когда их коэффициенты при переменных <img align="absmiddle"  width="59" height="17" src="d/uravnenie_ploskosti_clip_image038_0000.gif">  пропорциональны: <img align="absmiddle"  width="208" height="23" src="d/uravnenie_ploskosti_clip_image040_0000.gif">, но <img align="absmiddle"  width="59" height="21" src="d/uravnenie_ploskosti_clip_image042_0000.gif"></strong>.<strong></strong></p>
+  <p>На практике очень часто первые три коэффициента банально  совпадают (<img align="absmiddle"  width="36" height="19" src="d/uravnenie_ploskosti_clip_image044_0000.gif">). Посмотрим, например, на уравнения параллельных плоскостей  из Примера № 8:<br>
+      <img align="absmiddle"  width="156" height="48" src="d/uravnenie_ploskosti_clip_image046_0000.gif"></p>
+  <p>Комментарии, думаю, излишни, всё прекрасно видно. Но на  всякий случай выполню формальную проверку, вдруг кому потребуется. Составим  систему:<br>
+      <img align="absmiddle"  width="184" height="91" src="d/uravnenie_ploskosti_clip_image048_0000.gif"></p>
+  <p>Из первых трёх уравнений следует, что <img align="absmiddle"  width="33" height="17" src="d/uravnenie_ploskosti_clip_image050_0002.gif">, а из четвёртого уравнения следует, что <img align="absmiddle"  width="45" height="39" src="d/uravnenie_ploskosti_clip_image052_0000.gif">, значит, <strong><a href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">система  несовместна</a></strong>. Но коэффициенты при переменных <strong><img align="absmiddle"  width="59" height="17" src="d/uravnenie_ploskosti_clip_image038_0001.gif"> </strong> пропорциональны,  следовательно, плоскости параллельны.</p>
+  <p>Задача о нахождении параллельной плоскости уже была, поэтому  решим что-нибудь новое:</p>
+  <a name="rpp"></a><h3><strong>Как найти расстояние  между плоскостями?</strong></h3>
+  <p><strong>Расстояние между  двумя параллельными плоскостями <img align="absmiddle"  width="172" height="48" src="d/uravnenie_ploskosti_clip_image054_0001.gif"> выражается формулой</strong>:</p>
+  <p><img align="absmiddle"  width="180" height="48" src="d/uravnenie_ploskosti_clip_image056_0000.gif"><br>
+      <img align="absmiddle"  width="402" height="263" src="d/uravnenie_ploskosti_clip_image058.jpg" alt="Расстояние между плоскостями"><br>
+    Координаты точек <img align="absmiddle"  width="48" height="23" src="d/uravnenie_ploskosti_clip_image060_0000.gif"> нам неизвестны, да их  и не нужно знать, поскольку перпендикуляр между плоскостями можно протянуть в  любом месте.</p>
+  <p>Найдём расстояние между параллельными плоскостями Примера  № 8:</p>
+  <p><u>Пример 10</u></p>
+  <p>Найти расстояние между параллельными плоскостями <img align="absmiddle"  width="156" height="48" src="d/uravnenie_ploskosti_clip_image046_0001.gif">.</p>
+  <p><strong>Решение</strong>:  Используем формулу:<br>
+      <img align="absmiddle"  width="504" height="53" src="d/uravnenie_ploskosti_clip_image062_0001.gif"><br>
+    <br>
+  <strong>Ответ</strong>: <img align="absmiddle"  width="216" height="45" src="d/uravnenie_ploskosti_clip_image064_0000.gif"><br>
+    <br>
+    У многих наверняка возник вопрос: вот у этих плоскостей <img align="absmiddle"  width="172" height="48" src="d/uravnenie_ploskosti_clip_image054_0002.gif"> – первые три коэффициенты  одинаковы, но это же не всегда так! Да, не всегда.</p>
+  <p><u>Пример 11</u></p>
+  <p>Найти расстояние между параллельными плоскостями <img align="absmiddle"  width="179" height="48" src="d/uravnenie_ploskosti_clip_image066_0002.gif"></p>
+  <p>Проверим пропорциональность коэффициентов: <img align="absmiddle"  width="119" height="41" src="d/uravnenie_ploskosti_clip_image068.gif">, но <img align="absmiddle"  width="84" height="45" src="d/uravnenie_ploskosti_clip_image070.gif">, значит, плоскости действительно параллельны. Первые три  коэффициента пропорциональны, но не совпадают. Однако формула-то <img align="absmiddle"  width="180" height="48" src="d/uravnenie_ploskosti_clip_image072.gif"> предусмотрена для  совпадающих коэффициентов!</p>
+  <p>Есть два пути решения:</p>
+  <p>1) Найдём какую-нибудь точку, принадлежащую любой из  плоскостей. Например, рассмотрим плоскость <img align="absmiddle"  width="159" height="23" src="d/uravnenie_ploskosti_clip_image074.gif">. Чтобы найти точку, проще всего обнулить две координаты.  Обнулим «икс» и «зет», тогда: <img align="absmiddle"  width="143" height="21" src="d/uravnenie_ploskosti_clip_image076.gif">.</p>
+  <p>Таким образом, точка <img align="absmiddle"  width="69" height="21" src="d/uravnenie_ploskosti_clip_image078.gif"> принадлежит данной  плоскости. Теперь можно использовать формулу расстояния от точки до плоскости <img align="absmiddle"  width="68" height="23" src="d/uravnenie_ploskosti_clip_image080.gif">, рассмотренную в предыдущем разделе.</p>
+  <p>2) Второй способ связан с небольшим трюком, который нужно  применить, чтобы таки использовать формулу <img align="absmiddle"  width="180" height="48" src="d/uravnenie_ploskosti_clip_image072_0000.gif">! Это пример для самостоятельного решения.</p>
+  <a name="per"></a><h3><strong>Пересекающиеся  плоскости</strong></h3>
+  <p>Третий, самый распространённый случай, когда две плоскости  пересекаются по некоторой прямой <img align="absmiddle"  width="68" height="21" src="d/uravnenie_ploskosti_clip_image082.gif">:<br>
+      <img align="absmiddle"  width="387" height="391" src="d/uravnenie_ploskosti_clip_image084.jpg" alt="Пересекающиеся плоскости"><br>
+      <strong>Две плоскости  пересекаются тогда и только тогда, когда их коэффициенты при переменных <img align="absmiddle"  width="59" height="17" src="d/uravnenie_ploskosti_clip_image038_0002.gif"> НЕ пропорциональны</strong>,  то есть НЕ существует такого значения «лямбда», чтобы выполнялись равенства <strong><img align="absmiddle"  width="192" height="21" src="d/uravnenie_ploskosti_clip_image086_0000.gif"></strong></p>
+  <p>Сразу отмечу важный факт: <strong>Если плоскости  пересекаются, то  <a href="kak_reshit_sistemu_uravnenii.html">система линейных уравнений</a> <img align="absmiddle"  width="157" height="47" src="d/uravnenie_ploskosti_clip_image088_0000.gif"> задаёт <a href="uravnenija_pryamoi_v_prostranstve.html">прямую в пространстве</a></strong>. Но о ней позже.<strong></strong></p>
+  <p>В качестве примера рассмотрим плоскости <img align="absmiddle"  width="132" height="44" src="d/uravnenie_ploskosti_clip_image090_0000.gif">. Составим систему для соответствующих коэффициентов:<br>
+      <img align="absmiddle"  width="167" height="68" src="d/uravnenie_ploskosti_clip_image092_0001.gif"></p>
+  <p>Из первых двух уравнений следует, что <img align="absmiddle"  width="33" height="17" src="d/uravnenie_ploskosti_clip_image050_0003.gif">, но из третьего уравнения следует, что <img align="absmiddle"  width="35" height="17" src="d/uravnenie_ploskosti_clip_image094_0000.gif">, значит, <strong><a href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">система  несовместна</a></strong>, и плоскости пересекаются. </p>
+  <p>Проверку можно выполнить «по пижонски» одной строкой:<br>
+      <img align="absmiddle"  width="72" height="39" src="d/uravnenie_ploskosti_clip_image096_0003.gif"></p>
+  <p>Параллельные плоскости мы уже разобрали, теперь поговорим о  перпендикулярных плоскостях. Очевидно, что к любой плоскости можно провести  бесконечно много перпендикулярных плоскостей, а для того, чтобы зафиксировать  конкретную перпендикулярную плоскость, нужно задать две точки:</p>
+  <p><u>Пример 12</u></p>
+  <p>Дана плоскость <img align="absmiddle"  width="119" height="21" src="d/uravnenie_ploskosti_clip_image098_0000.gif">. Построить плоскость <img align="absmiddle"  width="20" height="21" src="d/uravnenie_ploskosti_clip_image100_0000.gif">, перпендикулярную данной и проходящую через точки <img align="absmiddle"  width="145" height="21" src="d/uravnenie_ploskosti_clip_image102.gif">.</p>
+  <p><strong>Решение</strong>: Начинаем  анализировать условие. Что мы знаем о плоскости <img align="absmiddle"  width="20" height="21" src="d/uravnenie_ploskosti_clip_image100_0001.gif">? Известны две точки. Можно найти вектор <img align="absmiddle"  width="43" height="24" src="d/uravnenie_ploskosti_clip_image104_0002.gif">, параллельный данной плоскости. Но этого мало, нужен ещё один. Так как плоскости должны быть  перпендикулярны, то вторым вектором следует взять нормальный вектор плоскости <img align="absmiddle"  width="17" height="21" src="d/uravnenie_ploskosti_clip_image106_0000.gif">.</p>
+  <p>Проводить подобные рассуждения здОрово помогает  схематический чертёж:<br>
+    <img align="absmiddle"  width="387" height="391" src="d/uravnenie_ploskosti_clip_image108.jpg" alt="Как построить плоскость перпендикулярную данной?"><br>
+    Для лучшего понимания задачи отложите вектор нормали <img align="absmiddle"  width="16" height="21" src="d/uravnenie_ploskosti_clip_image110_0000.gif"> от точки <img align="absmiddle"  width="23" height="21" src="d/uravnenie_ploskosti_clip_image112_0000.gif"> в плоскости <img align="absmiddle"  width="20" height="21" src="d/uravnenie_ploskosti_clip_image100_0002.gif">. </p>
+  <p>Кстати, теперь чётко видно, почему одна точка не определит  перпендикулярную плоскость – вокруг единственной точки будет «вращаться»  бесконечно много перпендикулярных плоскостей. Так же нас не устроит и  единственный вектор (без всяких точек). Вектор является свободным и  «наштампует» нам бесконечно много перпендикулярных плоскостей (которые, к  слову, будут параллельны между собой). В этой связи минимальную жёсткую конструкцию обеспечивают  две точки.</p>
+  <p>Задача разобрана, решаем:</p>
+  <p>1) Найдём вектор <img align="absmiddle"  width="248" height="24" src="d/uravnenie_ploskosti_clip_image114_0000.gif">.</p>
+  <p>2) Из уравнения <img align="absmiddle"  width="119" height="21" src="d/uravnenie_ploskosti_clip_image098_0001.gif"> снимем вектор нормали: <img align="absmiddle"  width="65" height="21" src="d/uravnenie_ploskosti_clip_image117.gif">.</p>
+  <p>3) Уравнение плоскости <img align="absmiddle"  width="20" height="21" src="d/uravnenie_ploskosti_clip_image100_0003.gif"> составим по точке <img align="absmiddle"  width="67" height="21" src="d/uravnenie_ploskosti_clip_image119.gif"> (можно было взять и <img align="absmiddle"  width="23" height="21" src="d/uravnenie_ploskosti_clip_image112_0001.gif">) и двум неколлинеарным векторам <img align="absmiddle"  width="168" height="24" src="d/uravnenie_ploskosti_clip_image122_0000.gif">:<br>
+      <img align="absmiddle"  width="289" height="181" src="d/uravnenie_ploskosti_clip_image124_0000.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="149" height="21" src="d/uravnenie_ploskosti_clip_image126_0000.gif"></p>
+  <p>Проверка состоит из двух этапов:</p>
+  <p>1) Проверяем, действительно ли плоскости будут  перпендикулярны. Если две плоскости перпендикулярны, то их векторы нормали  будут ортогональны. Логично. Из полученного уравнения <img align="absmiddle"  width="149" height="21" src="d/uravnenie_ploskosti_clip_image126_0001.gif"> снимаем вектор нормали <img align="absmiddle"  width="64" height="21" src="d/uravnenie_ploskosti_clip_image128_0001.gif"> и рассчитываем <strong><a href="skaljarnoe_proizvedenie_vektorov.html">скалярное произведение векторов</a></strong>:<br>
+      <img align="absmiddle"  width="308" height="21" src="d/uravnenie_ploskosti_clip_image130.gif"></p>
+  <p>Таким образом, <img align="absmiddle"  width="51" height="21" src="d/uravnenie_ploskosti_clip_image132_0000.gif"></p>
+  <p>2) В уравнение плоскости <img align="absmiddle"  width="149" height="21" src="d/uravnenie_ploskosti_clip_image126_0002.gif"> подставляем координаты  точек <img align="absmiddle"  width="145" height="21" src="d/uravnenie_ploskosti_clip_image102_0000.gif">. Обе точки должны «подойти». </p>
+  <p>И первый, и второй пункт можно выполнить устно.</p>
+  <p>Перейдём к заключительной задаче урока:</p>
+  <a name="upp"></a><h3><strong>Как найти угол между  плоскостями?</strong></h3>
+  <p>Две пересекающиеся плоскости <img align="absmiddle"  width="177" height="44" src="d/uravnenie_ploskosti_clip_image134_0000.gif"> образуют четыре  двухгранных угла и любой из этих углов называют углом между плоскостями.</p>
+  <p>Обозначим угол между плоскостями через <img align="absmiddle"  width="87" height="21" src="d/uravnenie_ploskosti_clip_image136_0000.gif">:<br>
+      <img align="absmiddle"  width="385" height="395" src="d/uravnenie_ploskosti_clip_image138.jpg" alt="Угол между плоскостями"><br>
+    Наклон плоскости однозначно определяется её вектором  нормали, поэтому <strong>угол между плоскостями  можно найти через угол между нормальными векторами данных плоскостей</strong>. А угол между  векторами рассчитывается с помощью обыденной формулы, рассмотренной на уроке <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение векторов</a></strong>:<br>
+  <img align="absmiddle"  width="92" height="44" src="d/uravnenie_ploskosti_clip_image140_0000.gif"></p>
+  <p>Распишем формулу в коэффициентах:<br>
+      <img align="absmiddle"  width="236" height="48" src="d/uravnenie_ploskosti_clip_image142_0001.gif"></p>
+  <p>Обратите внимание, что формула может дать и тупой  угол, например, 150 градусов. Такой ответ не будет страшной ошибкой, но за угол  между плоскостями, как правило, принимают <strong>острый</strong> угол, поэтому концовку задания лучше дополнить расчётом «традиционного» угла:  180 – 150 =30 градусов.</p>
+  <p>Задачка  поинтереснее:</p>
+  <p><u>Пример 13</u></p>
+  <p>Найти угол между плоскостями <img align="absmiddle"  width="104" height="44" src="d/uravnenie_ploskosti_clip_image144.gif"></p>
+  <p>Это пример для самостоятельного решения. Решение и ответ в  конце урока.</p>
+  <p>Что-то не хочется мне вас сегодня отпускать… наверное,  хорошо себя вели и активно работали на уроке =) Придётся рассказать что-нибудь  ещё.</p>
+  <h3><strong>Взаимное расположение  трёх плоскостей</strong></h3>
+  <p>Три плоскости могут располагаться в пространстве 8  способами, если интересуют все случаи, пожалуйста, посмотрите в книге  Атанасяна-Базылева или в Интернете, видел вроде в Википедии, точно уже не  помню.</p>
+  <p>Самый известный случай взаимного расположения трёх  плоскостей – плоскости пересекаются в одной точке. Живой пример находится совсем  недалеко от вас. Посмотрите вверх – в угол комнаты, где пересекаются две стены  и потолок. Пессимисты могут посмотреть вниз. </p>
+  <p>Аналитически данному случаю соответствует <strong><a href="kak_reshit_sistemu_uravnenii.html">система линейных уравнений</a> </strong><img align="absmiddle"  width="157" height="68" src="d/uravnenie_ploskosti_clip_image146.gif">, которая имеет единственное решение.</p>
+  <p>Ничего не напоминает? Вот, оказывается, где прячется <strong><a href="pravilo_kramera_matrichnyi_metod.html">метод Крамера</a></strong>… – в углу вашей комнаты! </p>
+  <p>На следующем уроке мы изучим <strong><a href="uravnenija_pryamoi_v_prostranstve.html">Прямые в пространстве</a></strong>. </p>
+  <p>Спасибо за работу, домашнего задания не  будет!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>: составим уравнение плоскости  по точке и двум неколлинеарным векторам:</em><br>
+      <em><img align="absmiddle"  width="297" height="203" src="d/uravnenie_ploskosti_clip_image148.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="80" height="20" src="d/uravnenie_ploskosti_clip_image150.gif"></em></p>
+  <p><em>Пример 4: <strong>Решение</strong>: составим уравнение плоскости  по трём точкам <img align="absmiddle"  width="207" height="20" src="d/uravnenie_ploskosti_clip_image152.gif">:</em><br>
+      <em><img align="absmiddle"  width="228" height="249" src="d/uravnenie_ploskosti_clip_image154.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="84" height="20" src="d/uravnenie_ploskosti_clip_image156.gif"></em></p>
+  <p><em>Пример 7: <strong>Решение</strong>: Так как плоскость  перпендикулярна оси <img align="absmiddle"  width="27" height="17" src="d/uravnenie_ploskosti_clip_image158_0000.gif">, то вектор <img align="absmiddle"  width="53" height="21" src="d/uravnenie_ploskosti_clip_image160_0000.gif"> является вектором  нормали для данной плоскости. Уравнение плоскости составим по точке <img align="absmiddle"  width="68" height="20" src="d/uravnenie_ploskosti_clip_image162_0000.gif"> и вектору нормали <img align="absmiddle"  width="53" height="21" src="d/uravnenie_ploskosti_clip_image160_0001.gif">:</em><br>
+      <em><img align="absmiddle"  width="224" height="39" src="d/uravnenie_ploskosti_clip_image165.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="52" height="17" src="d/uravnenie_ploskosti_clip_image167.gif"></em></p>
+  <p><em>Пример 11: <strong>Решение</strong>: Разделим все коэффициенты  второго уравнения на два:</em><br>
+      <em><img align="absmiddle"  width="168" height="67" src="d/uravnenie_ploskosti_clip_image169.gif"></em><br>
+      <em>Используем формулу </em><br>
+      <em><img align="absmiddle"  width="568" height="72" src="d/uravnenie_ploskosti_clip_image171.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="197" height="45" src="d/uravnenie_ploskosti_clip_image173.gif"></em></p>
+  <p><em>Пример 13: <strong>Решение</strong>: Обозначим <img align="absmiddle"  width="87" height="21" src="d/uravnenie_ploskosti_clip_image136_0001.gif">. Используем формулу:</em><br>
+      <em><img align="absmiddle"  width="368" height="47" src="d/uravnenie_ploskosti_clip_image175.gif"></em><br>
+      <em><img align="absmiddle"  width="225" height="44" src="d/uravnenie_ploskosti_clip_image179.gif"></em></p>
+  <p><em>За угол между  плоскостями примем острый угол: <img align="absmiddle" width="297" height="45" src="d/uravnenie_ploskosti_999.gif"></em><br>
+    <strong><em>Ответ</em></strong><em>: </em><em><img align="absmiddle" width="245" height="45" src="d/uravnenie_ploskosti_clip_998.gif"></em></p>
+  </div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

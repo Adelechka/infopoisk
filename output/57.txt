@@ -1,0 +1,450 @@
+<html>
+<head>
+
+<title>Доступные лекции по высшей математике</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="доступные лекции по высшей математике, курс высшей математики, для начинающих, статьи по высшей математике, уроки по математике">
+<meta name="Description" content="Авторский курс Емелина Александра">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script><style type="text/css">
+<!--
+.style1 {font-style: italic}
+-->
+</style>
+</head>
+
+<body  >
+
+
+<table width="620"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td valign="top"><br><br>
+  <h1 align="center">Лекции и уроки по высшей математике</h1>
+  <h3 align="center"><p><img align="absmiddle" src="images/compas.jpg" border="0">&nbsp;&nbsp;Карта сайта <a href="index.html">mathprofi.ru</a> </h3>
+  <br>
+  <p>Спокойно-спокойно – не удивляемся, такой «небоскрёб»  «возведён» для удобства мобильных пользователей. Приветствую тех, кто зашёл на  эту страничку с поисковика, меня зовут <strong><a href="index.html">Емелин  Александр</a></strong> и я рад представить вам свой курс  высшей математики. Лекции и уроки носят практическую направленность и,  кроме того, позволяют разобраться в теории. Поехали:</p>
+ <br><a name="search"></a>
+  <p><img align="absmiddle" src="images/mark.jpg" border="0"> <strong>Если Вы хотите  найти что-то конкретное</strong>, то имеет смысл сразу же воспользоваться поиском по  сайту:</p>
+  <p><img align="absmiddle" src="images/sun3.png" border="0">&nbsp; <a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&ie=Windows-1251&q=&ref=www.mathprofi.ru/#gsc.tab=0" target="_blank">Поиск >>></a></p>
+  <strong></strong>
+  
+  
+
+
+
+  <p>Не нашлось нужного материала? </p>
+  <p>Зайдите на страницу с <strong><a href="skachat_primery_po_vysshei_matematike.html">тематическими  архивами</a></strong> или посетите нашу библиотеку <strong><a href="https://mathprofi.com" target="_blank">mathprofi.com</a></strong>, в которой можно раздобыть методички, лекции, контрольные,  и др. учебные материалы.</p>
+  <p>Совсем-совсем дела плохи? Задайте вопрос на <strong><a href="https://mathprofi.com" target="_blank">форуме</a></strong>!</p>
+  <p>Есть вопрос лично ко мне? Посмотрите <strong><a href="scripts/faq.html">часто задаваемые вопросы</a></strong> и если что – <strong><a href="scripts/smess/index.php">обращайтесь</a></strong>! Оставить свой отзыв можно  в <strong><a href="scripts/gb">гостевой книге</a></strong>.</p>
+  <br><p><img align="absmiddle" src="images/mark.jpg" border="0"> <strong>Для людей,  начинающих изучать высшую математику</strong>, а также желающих восстановить свои  знания/навыки предназначена организационная статья, которая так и называется:</p>
+  <p><strong><a href="matematika_dlya_chainikov.html">Высшая математика для  «чайников» или с чего начать?</a></strong></p>
+  <p>Рекомендуемые математические ресурсы <strong><a href="saity_po_matematike.html">здесь &gt;&gt;&gt;</a></strong></p>
+  <p>Список доходчивой литературы <strong><a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html
+" target="_blank">здесь &gt;&gt;&gt;</a></strong></p>
+  <p>«Кладовка» со справочными материалами – <strong><a href="matematicheskie_formuly.html">здесь</a></strong>.</p>
+  <br><a name="start"></a></a>
+  <p><img align="absmiddle" src="images/mark.jpg" border="0"> <strong>Кликаем по интересующему разделу</strong> и «спускаемся на лифте» к его подробному описанию! Все  статьи в той или иной теме (и сами темы) я старался расположить в логической  последовательности их изучения:</p>
+  <p><strong><img align="absmiddle" src="images/geometria.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#angem">Аналитическая  геометрия</a></strong></p>
+      <p><strong><img align="absmiddle" src="images/algebra.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#va">Высшая алгебра</a></strong></p>
+      <p><strong><img align="absmiddle" src="images/predely.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#predely">Пределы</a></strong></p>
+      <p><strong><img align="absmiddle" src="images/pr.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#pr">Производная и  некоторые её приложения</a></strong></p>
+      <p><strong><img align="absmiddle" src="images/funkcii.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#fg">Функции и графики</a></strong></p>
+      <p><strong><img align="absmiddle" src="images/fnp.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#fnp">Функции нескольких  переменных</a></strong></p>
+      <p><strong><img align="absmiddle" src="images/integraly.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#i">Однократные интегралы</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/diffury.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#du">Дифференциальные уравнения</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/ryady.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#chr">Числовые ряды</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/fr.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#fr">Функциональные ряды</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/ki.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#dtkpi">Кратные, криволинейные и поверхностные интегралы</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/tp.png" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#tp">Элементы векторного анализа</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/ko.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#ko">Комплексный анализ</a></strong></p>
+	  <p><strong><img align="absmiddle" src="images/terver.jpg" border="0">&nbsp; <a href="lekcii_po_vysshei_matematike.html#terver">Теория вероятностей</a></strong><br>
+	  
+	  </p>
+  <p>…</p>
+  <p>Я не хочу оформлять карту сайта «штабелем ссылок» и  составляю её вручную, поэтому в настоящий момент здесь могут быть  представлены не все темы. В том случае, если Вы не видите нужных разделов,  пользуйтесь <strong><em><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&ie=Windows-1251&q=&ref=www.mathprofi.ru/#gsc.tab=0" target="_blank">
+Поиском</a></em></strong> либо ориентируйтесь по левому навигационному меню,  например, <strong><a href="index.html">главной страницы</a></strong></p>
+
+  <br>
+<p align="center"><img src="images/sun3.png" border="0">&nbsp;&nbsp;&nbsp;<img src="images/sun3.png" border="0">&nbsp;&nbsp;&nbsp;<img src="images/sun3.png" border="0"></p>
+
+  
+  <a name="angem"></a>
+  <h2><strong>Аналитическая  геометрия</strong></h2>
+  <p>В данном разделе можно выделить несколько блоков:</p>
+  <p><strong>Векторы. </strong>«Альфа»  и «омега» аналитической геометрии. Начинаем с двух базовых уроков:</p>
+  <p><strong><a href="vektory_dlya_chainikov.html">Векторы для чайников</a></strong><br>
+      <strong><a href="skaljarnoe_proizvedenie_vektorov.html">Скалярное  произведение векторов</a></strong></p>
+  <p>и продолжаем следующими статьями:</p>
+  <p><strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная  зависимость/независимость и базис векторов</a></strong><br>
+      <strong><a href="perehod_k_novomu_bazisu.html">Переход к новому  базису и к новой системе координат</a></strong><br>
+      <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное  произведение векторов</a></strong><br>
+      <strong><a href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления  отрезка в данном отношении</a></strong></p>
+  <p>Здесь наиболее трудной является 2-я лекция <em>(о переходе)</em> и поэтому я не рекомендую  спешить с её изучением</p>
+  <p><strong>Прямая на плоскости </strong>представлена  следующими страницами:</p>
+  <p><strong><a href="uravnenie_pryamoi_na_ploskosti.html">Уравнение прямой на  плоскости</a></strong><br>
+      <strong><a href="zadachi_s_pryamoi_na_ploskosti.html">Основные задачи с  прямой на плоскости</a></strong><br>
+      <strong><a href="lineinye_neravenstva.html">Линейные неравенства</a></strong><br>
+    и <strong><a href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Задача с  треугольником</a></strong>, где я разбираю не только её, но вручаю вам «ключ» к решению  многих задач по теме, да и не только по этой теме. </p>
+  <p><strong>Линии второго порядка</strong>.  Данный цикл лекций-уроков примечателен тем, что в него удалось ненавязчиво  вместить значительное количество теории:</p>
+  <p><strong><a href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Эллипс и окружность</a></strong><br>
+      <strong><a href="giperbola_i_parabola.html">Гипербола и парабола</a></strong><br>
+      <strong><a href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями  второго порядка</a></strong><br>
+    и <strong><a href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Приведение  уравнения линии 2-го порядка к каноническому виду</a></strong> – на радость многим  студентам =)</p>
+  <p><strong>Полярная система  координат</strong>. С ней целесообразно ознакомиться после изучения предыдущей темы,  ибо окружностей и иже с ними тут хватает:</p>
+  <p><strong><a href="poljarnye_koordinaty.html">Полярные координаты</a></strong> – теоретические азы и простейшие примеры;<br>
+      <strong><a href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Практикум по  построению типовых кривых в ПСК</a></strong></p>
+  <p>И, наконец, <strong>геометрия  пространства</strong>, где, наоборот – ярко выражена практика:</p>
+  <p><strong><a href="uravnenie_ploskosti.html">Уравнение плоскости</a></strong><br>
+      <strong><a href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a></strong><br>
+      <strong><a href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в  пространстве</a></strong><br>
+      <strong><a href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи на  прямую и плоскость</a></strong><br>
+      <strong><a href="treugolnaya_piramida.html">Типовая задача с  треугольной пирамидой</a></strong></p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="va"></a>
+  <h2><strong>Высшая алгебра</strong></h2>
+  <p>Данный раздел также делится на несколько подразделов:</p>
+  <p><strong>Вводные лекции</strong>,  которые имеют огромное значение для изучения ВСЕГО курса высшей математики:</p>
+  <p><strong><a href="mnozhestva.html">Множества и действия  над ними</a></strong><br>
+      <strong><a href="osnovy_matematicheskoj_logiki.html">Основы математической  логики</a></strong><br>
+      <strong><a href="formuly_i_zakony_logiki.html">Формулы и законы  логики</a></strong><br>
+      <strong><a href="uravnenija_v_vysshei_matematike.html">Уравнения в высшей  математике</a></strong></p>
+  <p><strong>Комплексные числа</strong>.  Любимая многими тема!</p>
+  <p><strong><a href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа для  «чайников»</a></strong> – понятие и действия с числами;<br>
+      <strong><a href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения уравнения и  системы с комплексными числами</a></strong> – добротный и насыщенный практикум по теме.</p>
+  <p><strong>Матрицы и  определители</strong>. Уроки для «самых маленьких»:</p>
+  <p><strong><a href="deistviya_s_matricami.html">Действия с матрицами</a></strong><br>
+      <strong><a href="kak_naiti_obratnuyu_matricu.html">Как найти обратную  матрицу?</a></strong><br>
+      <strong><a href="kak_vychislit_opredelitel.html">Как вычислить  определитель?</a></strong></p>
+  <p>и более серьёзные практические занятия:</p>
+  <p><strong><a href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя  и понижение его порядка</a></strong><br>
+      <strong><a href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных  операций и вычисление матричных выражений</a></strong><br>
+      <strong><a href="matrichnye_uravneniya_primery_reshenij.html">Решение матричных  уравнений</a></strong></p>
+  <p><strong>Системы линейных  алгебраических уравнений</strong>. </p>
+  <p>Опять же – базовый уровень:</p>
+  <p><strong><a href="kak_reshit_sistemu_uravnenii.html">Как решить систему  уравнений?</a></strong><br>
+      <strong><a href="pravilo_kramera_matrichnyi_metod.html">Метод Крамера и метод  обратной матрицы</a></strong><br>
+      <strong><a href="metod_gaussa_dlya_chainikov.html">Метод Гаусса</a></strong><br>
+      <strong><a href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы  и системы с общим решением</a></strong></p>
+  <p>и продвинутый:</p>
+  <p><strong><a href="rang_matricy.html">Ранг матрицы</a></strong><br>
+      <strong><a href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы  линейных алгебраических уравнений</a></strong><br>
+      <strong><a href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a></strong><br>
+      <strong><a href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение СЛУ в  различных базисах</a></strong></p>
+  <p><strong>Линейные  преобразования</strong>. Собственно:</p>
+  <p><strong><a href="linejnye_preobrazovanija.html">Линейные преобразования</a></strong> – интереснейшая и одна из самых важных лекций по алгебре, на которой я  рассмотрел не только основы темы, но и обобщил понятие вектора.<br>
+      <strong><a href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные числа и  собственные векторы</a></strong> – наиболее известная и популярная задача.</p>
+  <p><strong>Квадратичные формы</strong>.  Держат нас в форме!</p>
+  <p><a href="kvadratichnye_formy.html">Понятие квадратичной формы, обычная и матричная запись</a>, а также знакоопределенность и критерий Сильвестра;<br>
+    <a href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Приведение формы к каноническому виду. Метод Лагранжа</a> <br>
+  <strong><a href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное  преобразование квадратичной формы</a></strong> и  геометрическое приложение – приведение уравнения линии 2 порядка данным  методом. </p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="predely"></a>
+  <h2><strong>Пределы</strong></h2>
+  <p>Пределы без предела =) </p>
+  <p><em>Рабочий справочный  материал по теме:</em><br>
+      <strong><em><a href="zamechatelnye_predely.pdf">Замечательные пределы и эквивалентности</a></em></strong></p>
+  <p>Базовые уроки для прожжённых гуманитариев:</p>
+  <p><strong><a href="predely_primery_reshenii.html">Предел функции</a></strong><br>
+      <strong><a href="zamechatelnye_predely.html">Замечательные пределы</a></strong></p>
+  <p>и тотальный «разгром» лимитов для угорелых технарей:</p>
+  <p><strong><a href="metody_resheniya_predelov_neopredelennosti.html">Методы решения  пределов</a></strong><br>
+      <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые  функции и замечательные эквивалентности</a></strong><br>
+      <strong><a href="pravila_lopitalya.html">Правила Лопиталя</a></strong> <em>(нужно уметь находить производные – см.  ниже)</em><br>
+      <strong><a href="slozhnye_predely.html">Пределы повышенной  сложности</a></strong><br>
+      <strong><a href="predel_posledovatelnosti.html">Пределы  последовательностей</a></strong></p>
+  <p>+ более чем доступная лекция по теории, открывающая  дверь в удивительный мир математического анализа:</p>
+  <p><strong><a href="predely_po_koshi.html">Определения предела  последовательности и предела функции</a></strong></p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="pr"></a>
+  <h2><strong>Производная и  некоторые её приложения</strong></h2>
+  <p><em>Рабочий справочный  материал по теме:</em><br>
+      <strong><em><a href="tablica_proizvodnyh.pdf">Правила дифференцирования и таблица производных</a></em></strong></p>
+  <p>Как обычно – «песочница»:</p>
+  <p><strong><a href="kak_naiti_proizvodnuju.html">Как найти  производную?</a></strong><br>
+      <strong><a href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной  функции</a></strong></p>
+  <p>и несколько уроков для отработки техники дифференцирования:</p>
+  <p><strong><a href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи с  производной</a></strong><br>
+      <strong><a href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Сложные производные</a></strong><br>
+      <strong><a href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной и  параметрически заданной функций</a></strong><br>
+      <strong><a href="proizvodnye_vysshih_porjadkov.html">Производные высших  порядков</a></strong></p>
+  <p>После чего целесообразно ознакомиться с теоретической  лекцией <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a></strong> и  потренироваться в нахождении <strong><a href="proizvodnaya_po_opredeleniju_primery_reshenii.html">производной  по определению</a></strong> <em>(нужно уметь находить  пределы – см. выше)</em></p>
+  <p>И заключительная порция статей посвящена некоторым  приложениям производной:</p>
+  <p><strong><a href="kak_naiti_uravnenie_normali.html">Уравнение нормали</a></strong><br>
+      <strong><a href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближённые  вычисления с помощью дифференциала</a></strong> <em>(здесь  волею судьбы оказалось рассмотрена и аналогичная задача для функции двух  переменных)</em><br>
+      <strong><a href="metod_kasatelnyh.html">Метод касательных</a></strong></p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="fg"></a>
+  <h2><strong>Функции и графики</strong></h2>
+  <p>Две справочно-прикладные статьи, без которых никуда! Причём во  всей вышке:</p>
+  <p><strong><a href="grafiki_i_svoistva_funkcij.html">Графики и свойства  элементарных функций</a></strong><br>
+      <strong><a href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Построение графиков  путём их элементарного преобразования</a></strong></p>
+  <p>Основной же цикл статей посвящён исследованию функции:</p>
+  <p><strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность функции</a></strong><br>
+      <strong><a href="oblast_opredeleniya.html">Область определения  функции</a></strong><br>
+      <strong><a href="asimptoty_grafika_funkcii.html">Асимптоты графика  функции</a></strong><br>
+      <strong><a href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Нули и интервалы  знакопостоянства функции</a></strong><br>
+      <strong><a href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание  и экстремумы функции</a></strong><br>
+      <strong><a href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость,  вогнутость и перегибы графика</a></strong><br>
+      <strong><a href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование  функции</a></strong></p>
+  <p>По материалам перечисленных уроков создан удобный <em>справочный конспект</em>:<br>
+      <strong><em><a href="shema_issledovaniya_funkcii.pdf">Схема исследования функции</a></em></strong></p>
+  <p>+ <strong><a href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Нахождение  наибольшего и наименьшего значений функции на отрезке</a></strong> <br>
+      <em>(самостоятельная  задача и иногда «довесок» к полному исследованию)<strong></strong></em></p>
+  <p>И бонус:</p>
+  <p><strong><a href="zadachi_na_minimumy_i_maksimumy.html">Задачи на экстремумы</a></strong></p>
+      <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="fnp"></a>
+  <h2><strong>Функции нескольких  переменных</strong></h2>
+  <p>Один из предметов моей гордости – пожалуй, наиболее трудный  в создании раздел. Его можно условно разделить на две части:</p>
+  <p><strong><a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения и  линии уровня функции двух переменных</a> </strong>– <em>intro</em>;<br>
+      <strong><a href="poverhnosti.html">Основные поверхности  пространства</a> </strong>– не только справочная статья, но и ценное руководство по  технике ручного построения поверхностей.  </p>
+  <p>+ три «ласточки» на пределы и непрерывность:</p>
+  <p><strong><a href="predel_funkcii_dvuh_peremennyh.html">Предел функции двух  переменных</a></strong><br>
+      <strong><a href="povtornye_predely.html">Повторные пределы</a></strong><br>
+      <strong><a href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции  двух переменных</a></strong></p>
+  <p>Вторая часть раздела касается дифференцирования ФНП. Сначала  отрабатываем технику решения:</p>
+  <p><strong><a href="chastnye_proizvodnye_primery.html">Частные производные  функции двух переменных</a></strong><br>
+      <strong><a href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные  функции трёх переменных</a></strong><br>
+      <strong><a href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных  функций нескольких переменных</a></strong><br>
+      <strong><a href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить,  удовлетворяет ли функция уравнению?</a></strong><br>
+      <strong><a href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные  неявно заданной функции</a></strong></p>
+  <p>после чего окончательно разбираемся в сути частных  производных:</p>
+  <p><strong><a href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по  направлению и градиент</a></strong> – отличная лекция, не пропустите!</p>
+  <p>И наиболее распространённые приложения:</p>
+  <p><strong><a href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость  и нормаль к поверхности</a></strong><br>
+      <strong><a href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функции  двух и трёх переменных</a></strong><br>
+      <strong><a href="uslovnye_extremumy.html">Условные экстремумы</a></strong><br>
+      <strong><a href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и  наименьшее значения функции в области</a></strong></p>
+  <p>+ мегапопулярный</p>
+  <p><strong><a href="metod_naimenshih_kvadratov.html">Метод наименьших  квадратов</a> </strong></p>
+      <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="i"></a>
+  <h2><strong>Однократные интегралы</strong></h2>
+  <p>В этот обширный раздел включены лекции-уроки о  неопределенных, определённых и несобственных интегралах. </p>
+  <p><em>Рабочий справочный  материал по теме:</em><br>
+      <strong><em><a href="tablica_integralov.pdf">Правила интегрирования и таблица интегралов</a></em></strong></p>
+  <p><strong>Неопределенные  интегралы</strong>. Осваиваем «интегральный минимум студента»:</p>
+  <p><strong><a href="integraly_primery_reshenij.html">Простейшие  неопределённые интегралы</a></strong><br>
+      <strong><a href="metod_zameny_peremennoi.html">Подведение под знак  дифференциала и метод замены</a></strong> (!)<br>
+      <strong><a href="integrirovanie_po_chastyam.html">Интегрирование по  частям</a></strong></p>
+  <p>и укрепляемся на завоёванных рубежах:</p>
+  <p><strong><a href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от  тригонометрических функций</a></strong><br>
+      <strong><a href="integrirovanie_drobei.html">Интегрирование  некоторых дробей</a></strong><br>
+      <strong><a href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от  дробно-рациональных функций</a></strong><br>
+      <strong><a href="integrirovanie_kornei.html">Интегрирование корней</a></strong><br>
+    + <strong><a href="slozhnye_integraly.html">Интегралы  повышенной сложности</a></strong> – для фанатов.</p>
+  <p><strong>Определённые  интегралы</strong>. Тактика та же – изучаем вводную статью по теме + два  «заштатных», но очень важных приложения:</p>
+  <p><strong><a href="opredelennye_integraly_primery_reshenij.html">Определённые  интегралы и методы их решения</a></strong><br>
+      <strong><a href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Площадь плоской  фигуры</a></strong><br>
+      <strong><a href="obyem_tela_vrashenija.html">Объем тела вращения</a></strong></p>
+  <p>Примерно здесь находится Рубикон раздела – знакомимся с  лекцией, в которой я раскрыл суть интегрирования:</p>
+  <p><strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?</a></strong></p>
+  <p><strong>Несобственные  интегралы</strong> представлены статьёй:</p>
+  <p><strong><a href="nesobstvennye_integraly.html">Несобственные  интегралы</a></strong>,</p>
+  <p>мануалом для более подготовленных читателей:</p>
+  <p><strong><a href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы  решения определённых и несобственных интегралов</a></strong></p>
+  <p>и темой для готовеньких:)</p>
+  <p><strong><a href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный  интеграл на сходимость?</a></strong> <em>(1-го рода)</em><br>
+  <strong><a href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости  несобственных интегралов 2-го рода</a></strong><br>
+  <strong><a href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Условная и абсолютная  сходимость несобственного интеграла</a></strong></p>
+  <p>На следующих уроках закрепляем навыки решения интегралов:</p>
+  <p><strong><a href="ploshad_v_poljarnyh_koordinatah.html">Площадь плоской  фигуры в полярных координатах</a></strong><br>
+      <strong><a href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">Площадь и объём, если  линия задана параметрически</a></strong><br>
+      <strong><a href="dlina_dugi_krivoi.html">Длина дуги кривой</a></strong><br>
+      <strong><a href="ploshad_poverhnosti_vrashenija.html">Площадь поверхности  вращения</a></strong></p>
+  <p>И ставшие уже традиционными, статьи по численным методам.  Как вычислить определённый интеграл приближённо:</p>
+  <p><strong><a href="metod_prjamougolnikov.html">методом  прямоугольников</a></strong><br>
+      <strong><a href="formula_simpsona_metod_trapecij.html">методом трапеций и  методом Симпсона</a></strong></p>
+      <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+ <br><a name="du"></a>
+  <h2><strong>Дифференциальные уравнения</strong></h2>
+  <p>Один из самых увлекательных и любимых мной разделов! Чего и  вам желаю: </p>
+  <p>Сначала осваиваем <strong>основы  темы и ДУ первого порядка</strong>. <br>
+    Как повелось, «скорая помощь»:</p>
+  <p><strong><a href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные  уравнения с разделяющимися переменными</a></strong><br>
+      <strong><a href="odnorodnye_diffury_pervogo_poryadka.html">Однородные  дифференциальные уравнения</a> </strong><br>
+  + <strong><a href="du_svodjashiesja_k_odnorodnym.html">диффуры, сводящиеся к  первым двум типам</a></strong></p>
+  <p>а также незаменимый урок о <strong><a href="lineinye_differencialnye_uravnenija.html">линейных ДУ первого порядка</a></strong>.</p>
+  <p>И менее распространённые, но не менее важные:</p>
+  <p><strong><a href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальное  уравнение в полных дифференциалах</a></strong><br>
+      <strong><a href="differencialnoe_uravnenie_bernulli.html">Дифференциальное  уравнение Бернулли</a></strong></p>
+  <p>После чего можно перейти к изучению следующего подраздела:</p>
+  <p><strong>ДУ второго и высших  порядков</strong>. Эти уравнения делятся на две «ветви»:</p>
+  <p><strong><a href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Диффуры, допускающие  понижение порядка</a></strong></p>
+  <p>и</p>
+  <p><strong><a href="differencialnye_uravnenija_vtorogo_poryadka.html">Линейные однородные  уравнения 2-го и высших порядков</a></strong><br>
+      <strong><a href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Линейные неоднородные  уравнения 2-го порядка</a></strong><br>
+      <em>+ справочная <strong><a href="kak_podobrat_chastnoe_reshenie_dy.pdf">таблица подбора частного решения</a></strong></em></p>
+      <p><strong><a href="linejnye_diffury_vysshih_porjadkov.html">Линейные неоднородные  уравнения высших порядков</a></strong></p>
+  <p><strong>++</strong></p>
+  <p><strong><a href="metod_variacii_proizvolnyh_postoyannyh.html">Метод вариации  произвольных постоянных для ДУ 1-го и 2-го порядков</a></strong></p>
+  <p><strong>И на десерт</strong>:</p>
+  <p><strong><a href="sistemy_differencialnyh_uravnenij.html">Системы дифференциальных  уравнений</a></strong><br>
+      <strong><a href="zadachi_s_diffurami.html">Задачи с дифференциальными  уравнениями</a></strong><br>
+  <strong><a href="metody_eilera_i_runge_kutty.html">Методы  Эйлера и Рунге-Кутты</a></strong> <em>(основы  приближённых вычислений)</em></p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="chr"></a>
+  <h2><strong>Числовые ряды</strong></h2>
+  <p>Одна из самых простых и прозрачных тем:</p>
+  <p><strong><a href="ryady_dlya_chajnikov.html">Числовые ряды для «чайников»</a></strong> – понятие числового ряда и его сходимости, необходимый признак сходимости ряда,  признаки сравнения;<br>
+      <strong><a href="kak_naiti_summu_ryada.html">Нахождение суммы ряда</a></strong><br>
+      <strong><a href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера,  радикальный и интегральный признаки Коши</a></strong><br>
+      <strong><a href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся  ряды и признак Лейбница</a></strong><br>
+  + <strong><a href="slozhnye_ryady.html">Числовые  ряды повышенной сложности</a></strong> – классифицированы!</p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="fr"></a>
+  <h2><strong>Функциональные ряды</strong></h2>
+  <p>Для изучения этого раздела нужно освоить числовые ряды <em>(см. выше)</em>. </p>
+  <p>Две статьи для «чайников»:</p>
+  <p><strong><a href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a></strong><br>
+      <strong><a href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций в  степенные ряды</a></strong></p>
+  <p>и более серьёзный уровень:<br>
+      <strong><a href="summa_stepennogo_ryada.html">Нахождение суммы степенного  ряда</a></strong> <em>(обратная задача к разложению)</em><br>
+      <strong><a href="ravnomernaja_shodimost.html">Равномерная и  неравномерная сходимость</a></strong><br>
+      <strong><a href="slozhnye_funkcionalnye_ryady.html">Исследование  сходимости произвольных функциональных рядов</a></strong></p>
+  <p>Приложения темы:<br>
+    <a href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления значений функции</a><br>
+    <a href="vychislenie_integrala_razlozheniem_v_ryad.html">Приближённое вычисление определённого интеграла</a><br>
+    <a href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Нахождение приближённого частного решения ДУ</a><br>
+    <a href="predel_s_pomoshju_riada.html">Вычисление пределов с помощью рядов</a></p>
+  <p>И отдельная глава:</p>
+  <p><strong><a href="ryady_furie_primery_reshenij.html">Ряды  Фурье</a></strong> – в конце лекции есть много дополнительных  материалов!
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="dtkpi"></a>
+  <h2><strong>Кратные, криволинейные и поверхностные интегралы</strong></h2>
+  <p>Распространение идеи <strong><em><a href="lekcii_po_vysshei_matematike.html#i">интегрирования</a></em></strong> на дву- и трёхмерные  области.</p>
+  <p><strong>Уроки по двойным  интегралам</strong>:</p>
+  <p><a href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы для «чайников»</a><br>
+    <a href="kak_vychislit_dvoinoi_integral.html">Вычисление произвольного двойного интеграла</a><br>
+    <a href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойной интеграл в полярных координатах</a><br>
+    <a href="centr_tjazhesti_ploskoi_figury.html">Центр тяжести плоской фигуры</a> – наиболее популярное  приложение</p>
+  <p><strong>Уроки по тройным  интегралам</strong>:</p>
+  <p><a href="troinye_integraly.html">Тройные интегралы</a> – уже для «самоваров»<br>
+    <a href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный тройной интеграл?</a></p>
+  <p><strong>Следующую тему</strong> изучаем не поверхностно:</p>
+  <p><a href="krivolineinye_integraly.html">Криволинейные интегралы</a><br>
+    <a href="ki_po_zamknutomu_konturu_formula_grina.html">Они же по замкнутому контуру</a> </p>
+  <p><strong>А эту</strong> – не  криво:)</p>
+  <p><a href="poverhnostnye_integraly.html">Поверхностные интегралы</a> </p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <br><a name="tp"></a>
+  <h2><strong>Элементы векторного анализа</strong></h2>
+  <p>Захватывающая, но достаточно трудная тема, требующая знания, в  частности <em>криволинейных</em> и <em>поверхностных</em> интегралов:</p>
+  <p><strong><a href="teoriya_polya.html">Основы теории поля</a></strong> – понятие скалярного и векторного поля, векторные линии, градиентное поле,  ротор векторного поля, потенциальное поле;<br>
+      <strong><a href="potok_vektornogo_polya.html">Поток векторного поля</a></strong>,  в том числе через замкнутую поверхность;<br>
+      <strong><a href="divergenciya_vektornogo_polya.html">Дивергенция  векторного поля и формула Гаусса-Остроградского</a></strong><br>
+      <strong><a href="cirkulyaciya_vektornogo_polya.html">Циркуляция  векторного поля и формула Стокса</a></strong>  </p>
+	  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+	  <br><a name="ko"></a>
+  <h2><strong>Комплексный анализ</strong></h2>
+  <p>Статей  пока немного, но они в тельняшках:</p>
+  <p><a href="funkcii_kompleksnoi_peremennoi.html">Дифференцирование функций комплексной переменной</a><br>
+    <a href="kak_naiti_kompleksnuju_funkciju.html">Как восстановить функцию по известной мнимой или  действительной части?</a></p>
+  <p><em>Рабочий справочный материал по двум нижеследующим  статьям:</em><br>
+      <em><a href="tablica_originalov_j_izobrazhenij.pdf">Таблица оригиналов и  изображений</a></em></p>
+  <p><a href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Как найти частное решение ДУ методом операционного  исчисления?</a><br>
+    <a href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ операторным методом?</a> </p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+   <br><a name="terver"></a>
+  <h2><strong>Теория вероятностей</strong></h2>
+  <p><em>Рабочие справочные материалы по теме:</em><br>
+    <span class="style1"><a href="formuly_kombinatoriki.pdf">Основные формулы комбинаторики</a><br>
+    <a href="formuly_teorii_veroyatnostey.pdf">Основные формулы теории вероятностей</a></span></p>
+  <p>Данную тему можно разделить на две большие главы</p>
+  <p><strong>Случайные события</strong></p>
+  <p><a href="teorija_verojatnostei.html">Основы теории вероятностей</a><br>
+    <a href="zadachi_po_kombinatorike_primery_reshenij.html">Основы комбинаторики</a><br>
+    <a href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое определение вероятности</a><br>
+    <a href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическое определение вероятности</a><br>
+    <a href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения и умножения вероятностей</a><br>
+    <a href="zavisimye_sobytija.html">Зависимые события</a><br>
+    <a href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности и формулы Байеса</a><br>
+    <a href="nezavisimye_ispytanija_i_formula_bernulli.html">Формула Бернулли</a><br>
+    <a href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная теоремы Лапласа</a><br>
+    <a href="statisticheskoe_opredelenie_verojatnosti.html">Статистическое определение вероятности</a></p>
+  <p><strong>Случайные величины (СВ)</strong></p>
+  <p>Здесь можно выделить три блока. </p>
+  <p><u>Дискретные случайные  величины</u>:</p>
+  <p><a href="sluchainaya_velichina.html">Понятие, виды, закон распределения и математическое ожидание СВ</a> <br>
+    <a href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия и стандартное отклонение дискретной случайной  величины</a><br>
+    <a href="funkcia_raspredeleniya_dsv.html">Функция распределения дискретной случайной величины</a><br>
+    +<br>
+    распространенные виды дискретных распределений:<br>
+    <a href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a><br>
+    <a href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a> <br>
+    <a href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a><br>
+    <a href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое распределение</a></p>
+  <p><u>Непрерывные случайные  величины</u>:</p>
+  <p><a href="nepreryvnaya_sluchaynaya_velichina.html">Функция распределения и плотности распределения вероятностей</a><br>
+    <a href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Математическое ожидание и дисперсия непрерывной СВ</a><br>
+    +<br>
+    распространенные виды непрерывных распределений:<br>
+    <a href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a><br>
+    <a href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a><br>
+    <a href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a></p>
+  <p><u>Система случайных  величин (двумерная случайная величина)</u>:</p>
+  <p><a href="sistema_sluchainyh_velichin.html">Понятие и примеры решение дискретных случайных величин</a><br>
+    <a href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимость и независимость случайных величин</a> (дискретный  случай)<br>
+    <a href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Непрерывная 2-мерная величина, функции распределения и плотности</a><br>
+    <a href="zavisimost_i_koefficient_kovariacii_nsv.html">Условные законы распределения и ковариация непрерывных СВ</a></p>
+  <p align="right"><em><a class=classbar href="lekcii_po_vysshei_matematike.html#start">^^^ Наверх – к списку разделов</a></em></p>
+  <p>…</p>
+  <p><em>Продолжение следует!</em></p>
+ <br>
+<p align="center"><img src="images/sun3.png" border="0">&nbsp;&nbsp;&nbsp;<img src="images/sun3.png" border="0">&nbsp;&nbsp;&nbsp;<img src="images/sun3.png" border="0"></p>
+
+  <center>
+  <h3><strong>И будьте уверены</strong>:</h3>
+  <p><strong><a href="index.html">Высшая математика –  это просто и доступно!</a></strong></p>
+  <p><em>(переход на главную  страницу сайта)</em></p>
+  <br>
+  </center>
+  </td>
+</tr>
+</table>
+
+<table width="620" cellpadding="0" cellspacing="0" align="center">
+<tr><td>
+
+<p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023</p>  
+
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+</noindex>
+</td></tr>
+</table>
+
+</body>
+</html>

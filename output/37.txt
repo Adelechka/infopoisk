@@ -1,0 +1,918 @@
+<html>
+<head><title>Эмпирический коэффициент детерминации. Эмпирическое корреляционное отношение. Эмпирические линии регрессии</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="эмпирический коэффициент детерминации,  как найти, эмпирическое корреляционное отношение, как вычислить, примеры, корреляционное поле, поле корреляции, эмпирические линии регрессии, построить, регрессия игрек на икс, регрессия икс на игрек">
+<meta name="Description" content="…«чайникам» рекомендую начать со статьи Группировка данных.">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">18. Эмпирический коэффициент детерминации<br>и эмпирическое корреляционное отношение.<br>Поле корреляции и эмпирические линии регрессии</h1>
+  
+ <br>
+  <p>Об <em>эмпирическом  коэффициенте детерминации</em> я уже рассказал на уроке о <strong><a href="dispersii.html">дисперсиях</a></strong> (конец Примера 59), а об <em>эмпирическом корреляционном отношении</em> – после выполнения <strong><a href="analiticheskaya_gruppirovka.html">аналитической группировки</a></strong> (Пример 61).  Более того, мы вычислили эти показатели в ходе выполнения указанных задач. И  если вы до сих пор с ними не ознакомились, то пройдите по ссылкам. «Чайникам»  рекомендую начать со статьи <strong><a href="gruppirovka_dannyh.html">Группировка  данных</a></strong>. </p>
+  <p>Сейчас нам встретятся те же самые показатели, только  рассчитываться они будут немного по-другому – в рамках <strong><a href="kombinacionnaya_gruppirovka.html">комбинационной группировки</a></strong>. И мы, конечно, повторим их суть. Для  опытных читателей оглавление:</p>
+  <p>– <a href="empiricheskie_pokazateli.html#ekd">эмпирический коэффициент детерминации</a>;<br>
+    – <a href="empiricheskie_pokazateli.html#eko">эмпирическое корреляционное отношение</a>;<br>
+    – <a href="empiricheskie_pokazateli.html#kz">корреляционная зависимость и причинно-следственная связь</a>  (читать всем!);<br>
+    – <a href="empiricheskie_pokazateli.html#elr">корреляционное поле и эмпирическая линия регрессии</a>,</p>
+  <p>и обо всём по порядку, как обычно, в конкретной задаче:</p>
+  <p><u>Пример 65</u></p>
+  <p>Имеются выборочные данные о выпуске продукции и сумме  прибыли по 30 предприятиям:<br>
+      <img align="absmiddle" width="519" height="141" src="v/empiricheskie_pokazateli_clip_image002.jpg"></p>
+  <p><strong>Внимание!</strong> Эту  таблицу мы построили на уроке <strong><a href="kombinacionnaya_gruppirovka.html">Комбинационная  группировка</a></strong> (Пример 63), и<strong> если вам  не очень понятно её устройство, то ОБЯЗАТЕЛЬНО разберитесь</strong>. Без этого  дальше никуда.</p>
+  <p>Теперь задание:</p>
+  <p>1) Вычислить <em>эмпирический  коэффициент детерминации</em> и <em>эмпирическое  корреляционное отношение</em>. Сделать выводы.</p>
+  <p>2) Построить <strong><em>корреляционное поле</em></strong> и <strong><em>эмпирическую  линию регрессии</em></strong>. Прокомментировать полученный график.</p>
+  <p><strong>Решение</strong>: анализируя <strong><a href="kombinacionnaya_gruppirovka.html">комбинационную таблицу</a></strong>, легко  заметить, что <em>частоты</em> в серых ячейках  имеют тенденцию располагаться по диагонали от левого верхнего к правому нижнему  углу. Это говорит о наличии <strong><a href="analiticheskaya_gruppirovka.html">прямой  корреляционной зависимости</a></strong> прибыли предприятий <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004.gif"> от выпуска продукции <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006.gif"> – <strong>чем больше</strong> выпускают предприятия, <strong>тем</strong> <em>в среднем</em> <strong>больше</strong> их прибыль.</p>
+  <p>Однако на размер прибыли, очевидно, влияет не только этот,  но и множество других факторов, в том числе случайных. И возникает вопрос: как  оценить весомость фактора, положенного в основу комбинационной группировки?  Иными словами, насколько жИво или вяло «откликается» прибыль на  изменение выпуска продукции?</p>
+  <p>Ответ на этот вопрос даёт:</p>
+  <a name="ekd"></a><h2>1) Эмпирический  коэффициент детерминации:</h2>
+  <p><img align="absmiddle" width="57" height="51" src="v/empiricheskie_pokazateli_clip_image008.gif"> – есть отношение <strong><a href="dispersii.html">межгрупповой дисперсии</a> </strong>к<strong> <a href="dispersii.html">общей дисперсии</a></strong>.</p>
+  <p>Общая дисперсия <img align="absmiddle" width="21" height="27" src="v/empiricheskie_pokazateli_clip_image010.gif"> учитывает ВСЕ причины,  которые влияют на вариацию <em>признака-результата</em> (прибыли). Межгрупповая дисперсия <img align="absmiddle" width="20" height="27" src="v/empiricheskie_pokazateli_clip_image012.gif"> учитывает влияние  фактора, положенного в основу группировки (выпуска продукции).</p>
+  <p>Эмпирический коэффициент детерминации характеризует ДОЛЮ  влияния группировочного фактора (выпуска продукции). Данный коэффициент  изменяется в пределах <img align="absmiddle" width="65" height="24" src="v/empiricheskie_pokazateli_clip_image014.gif">, и чем он ближе к единице, тем сильнее влияние <em>группировочного фактора</em> на <em>признак-результат</em> (прибыль).</p>
+  <p>Дело за малым – вычислить <img align="absmiddle" width="21" height="27" src="v/empiricheskie_pokazateli_clip_image010_0000.gif"> и <img align="absmiddle" width="20" height="27" src="v/empiricheskie_pokazateli_clip_image012_0000.gif">. </p>
+  <p>В «шапке» и в левом столбце комбинационной таблицы <em>(см. выше)</em> у нас находятся два <strong><a href="intervalnyi_variacionnyi_ryad.html">интервальных вариационных ряда</a></strong> и  сначала нужно перейти к <strong><a href="diskretnyi_variacionnyi_ryad.html">дискретным рядам</a></strong>,  выбрав в качестве <em>вариант</em> <img align="absmiddle" width="16" height="24" src="v/empiricheskie_pokazateli_clip_image018.gif"> и <img align="absmiddle" width="19" height="25" src="v/empiricheskie_pokazateli_clip_image020.gif"> середины  соответствующих интервалов:<br>
+      <img align="absmiddle" width="531" height="141" src="v/empiricheskie_pokazateli_clip_image022.jpg"></p>
+  <p>На всякий случай примеры расчёта: <img align="absmiddle" width="280" height="41" src="v/empiricheskie_pokazateli_clip_image024.gif">.</p>
+  <p>Вычислим <em>общую среднюю</em> признака-результата:<br>
+      <img align="absmiddle" width="515" height="45" src="v/empiricheskie_pokazateli_clip_image026.gif"> млн. руб.</p>
+  <p>и <em>общую дисперсию</em>:<br>
+      <img align="absmiddle" width="419" height="45" src="v/empiricheskie_pokazateli_clip_image028.gif"><br>
+      <img align="absmiddle" width="508" height="44" src="v/empiricheskie_pokazateli_clip_image030.gif"></p>
+  <p>Разбираемся с <em>межгрупповой  дисперсией</em>. Для её нахождения вычислим <em>групповые</em> или, как их называют, <strong><em>условные средние</em></strong>. При условии <img align="absmiddle" width="75" height="23" src="v/empiricheskie_pokazateli_clip_image032.gif"> средняя прибыль  составит:<br>
+      <img align="absmiddle" width="416" height="45" src="v/empiricheskie_pokazateli_clip_image034.gif"> млн. руб.<br>
+    и давайте ещё в качестве закрепляющего примера приведу  расчёт для <img align="absmiddle" width="75" height="23" src="v/empiricheskie_pokazateli_clip_image036.gif">:<br>
+  <img align="absmiddle" width="432" height="45" src="v/empiricheskie_pokazateli_clip_image038.gif"> млн. руб.</p>
+  <p>Промежуточные вычисления удобно заносить рядышком, наращивая  комбинационную таблицу: <br>
+      <img align="absmiddle" width="659" height="191" src="v/empiricheskie_pokazateli_clip_image040.jpg"></p>
+  <p>Полагаю, после моих видео вам не составит труда  автоматизировать эти вычисления в Экселе. Вычислим <strong><a href="dispersii.html">межгрупповую дисперсию</a></strong>:<br>
+      <img align="absmiddle" width="671" height="91" src="v/empiricheskie_pokazateli_clip_image042.gif"></p>
+  <p><img align="absmiddle" width="460" height="40" src="v/empiricheskie_pokazateli_clip_image044.gif"></p>
+  <p>В качестве факультативного задания предлагаю самостоятельно вычислить <strong><a href="dispersii.html">групповые дисперсии</a> ( </strong>по каждой из  пяти групп),<strong> <a href="dispersii.html">внутригрупповую дисперсию</a></strong> и проверить <strong><a href="dispersii.html">правило сложения дисперсий</a></strong> <img align="absmiddle" width="87" height="29" src="v/empiricheskie_pokazateli_clip_image046.gif">. Я выполнил это в обязательном порядке, дабы избежать  ошибок. </p>
+  <p>Вычислим <strong>эмпирический коэффициент детерминации:</strong><br>
+      <img align="absmiddle" width="193" height="51" src="v/empiricheskie_pokazateli_clip_image048.gif"> – таким образом,  66,93% вариации прибыли обусловлено изменением   выпуска продукции. Остальные 33,07% вариации обусловлены другими  факторами.</p>
+  <p>Исходя из правило сложения дисперсий <img align="absmiddle" width="87" height="29" src="v/empiricheskie_pokazateli_clip_image046_0000.gif">, легко понять, что за остальную вариацию отвечает внутригрупповая  дисперсия <img align="absmiddle" width="23" height="29" src="v/empiricheskie_pokazateli_clip_image051.gif">, графически она характеризует меру разброса частот в серых  столбцах (см. таблицу выше). </p>
+  <p>Теперь повторим суть коэффициента детерминации. Чем ближе <img align="absmiddle" width="20" height="24" src="v/empiricheskie_pokazateli_clip_image053.gif"> к единице, тем больше  межгрупповая дисперсия <img align="absmiddle" width="20" height="27" src="v/empiricheskie_pokazateli_clip_image012_0001.gif"> и меньше <img align="absmiddle" width="23" height="29" src="v/empiricheskie_pokazateli_clip_image051_0000.gif">. Высокое значение <img align="absmiddle" width="20" height="27" src="v/empiricheskie_pokazateli_clip_image012_0002.gif"> говорит о том, что  групповые средние <img align="absmiddle" width="17" height="24" src="v/empiricheskie_pokazateli_clip_image056.gif"> знАчимо отличаются от  общей средней <img align="absmiddle" width="15" height="20" src="v/empiricheskie_pokazateli_clip_image058.gif">, то есть изменение значений «икс» приводит к существенному  изменению значений «игрек». Иными словами, признак-фактор действительно  оказывает сильное влияние. При этом внутригрупповая  дисперсия <img align="absmiddle" width="23" height="29" src="v/empiricheskie_pokazateli_clip_image051_0001.gif"> будет малА и частоты в  серой области примут выраженный диагональный вид. В предельном случае <img align="absmiddle" width="53" height="27" src="v/empiricheskie_pokazateli_clip_image061.gif">  (и нулевом значении <img align="absmiddle" width="23" height="29" src="v/empiricheskie_pokazateli_clip_image051_0001.gif">) речь идёт о строгой  функциональной зависимости.</p>
+  <p>Обратно, малые значения <img align="absmiddle" width="20" height="24" src="v/empiricheskie_pokazateli_clip_image053_0000.gif"> обусловлены тем, что межгрупповая  дисперсия <img align="absmiddle" width="20" height="27" src="v/empiricheskie_pokazateli_clip_image012_0003.gif"> близкА к нулю – по той  причине, что групповые средние <img align="absmiddle" width="17" height="24" src="v/empiricheskie_pokazateli_clip_image056_0000.gif"> близкИ к общей средней <img align="absmiddle" width="15" height="20" src="v/empiricheskie_pokazateli_clip_image058_0000.gif">. Это означает, что на изменение значений «икс» – «игреки»  «откликаются» слабо. При этом внутригрупповая дисперсия <img align="absmiddle" width="23" height="29" src="v/empiricheskie_pokazateli_clip_image051_0002.gif"> будет большой – это  значит, что дисперсия в группах существенна и частоты в серых столбцах более  разбросаны – фактически они заполнят всю серую область и, естественно, утратят  диагональный вид.</p>
+  <p>Кто всё понял, тот монстр :)</p>
+  <p>Следующий показатель:</p>
+  <a name="eko"></a><h2>эмпирическое  корреляционное отношение</h2>
+  <p>– есть квадратный корень из эмпирического коэффициента  детерминации:<br>
+      <img align="absmiddle" width="107" height="55" src="v/empiricheskie_pokazateli_clip_image064.gif"></p>
+  <p>Данный показатель тоже изменяется в пределах <img align="absmiddle" width="59" height="21" src="v/empiricheskie_pokazateli_clip_image066.gif">  и характеризует  тесноту (силу) корреляционной зависимости. Чем ближе <img align="absmiddle" width="13" height="17" src="v/empiricheskie_pokazateli_clip_image068.gif"> к единице, тем сильнее  зависит признак-результат <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0000.gif"> от признака-фактора <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0000.gif"> – тем «жёстче»  реагируют значения «игрек» на изменение значений «икс». И наоборот, чем ближе <img align="absmiddle" width="13" height="17" src="v/empiricheskie_pokazateli_clip_image068_0000.gif"> к нулю, тем зависимость  слабее – тем более вяло реагируют «игреки» на изменение значений «икс».</p>
+  <p>Для качественной оценки этой силы используют уже известную  вам <em>шкалу Чеддока</em>, скопирую её из  статьи <strong><a href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a></strong>:<br>
+      <img align="absmiddle" width="361" height="195" src="v/empiricheskie_pokazateli_clip_image072.jpg"></p>
+  <p>Следует заметить, что эта шкала не единственна, в разных  источниках информации вы можете встретить немного разные градации.</p>
+  <p>В нашей задаче:<br>
+      <img align="absmiddle" width="175" height="29" src="v/empiricheskie_pokazateli_clip_image074.gif"> – таким образом,  существует сильная корреляционная зависимость прибыли предприятия <img align="absmiddle" width="25" height="21" src="v/empiricheskie_pokazateli_clip_image076.gif"> от выпуска продукции <img align="absmiddle" width="29" height="21" src="v/empiricheskie_pokazateli_clip_image078.gif">.</p>
+  <p>И ещё раз подчёркиваю, что <strong>это всего лишь одна из математических моделей, а не какая-то  «абсолютная» истина</strong>. Так, в <strong><a href="analiticheskaya_gruppirovka.html">Примере  61</a></strong>, работая с теми же исходными данными, мы получили <img align="absmiddle" width="81" height="24" src="v/empiricheskie_pokazateli_clip_image080.gif"> и <img align="absmiddle" width="57" height="21" src="v/empiricheskie_pokazateli_clip_image082.gif">. Но, несмотря на то, что та и эта модель несколько разные –  результаты по содержательному смыслу получились примерно одинаковыми. Вообще  говоря, первая модель (Пример 61) более точная, но зато вторая (с  комбинационной группировкой) более компактная и информативная, что становится  актуальным при увеличении объёма выборки. </p>
+  <p>Да, а <strong>почему  показатели называют</strong> <em>эмпирическими</em>?  Потому что они получены опытным путём. Ещё их можно назвать <strong><em>эмпирическими  выборочными коэффициентами</em></strong>. И если мы возьмём другую случайную <strong><a href="matematicheskaya_statistika.html">репрезентативную</a></strong> выборку предприятий,  то получим другие значения <img align="absmiddle" width="37" height="24" src="v/empiricheskie_pokazateli_clip_image084.gif"> (в рамках и той и  другой модели). Однако они вряд ли будут сильно отличаться от уже полученных  результатов.</p>
+  <p>Теперь поговорим о <strong>недостатках</strong> <em>эмпирического коэффициента детерминации</em> и <em>эмпирического корреляционного отношения</em>. <strong>Начнём с главного и, пожалуй,  фундаментального момента</strong>, который удостоился отдельного параграфа:</p>
+  <a name="kz"></a><h2>Корреляционная  зависимость и причинно-следственная связь</h2>
+  <p>Это разные вещи.<strong></strong></p>
+  <p><strong>Если между признаками <img align="absmiddle" width="36" height="21" src="v/empiricheskie_pokazateli_clip_image086.gif"> существует сильная  корреляционная зависимость, то это ещё не значит, что между ними есть  взаимосвязь</strong>. Так, если мы возьмём два произвольных вариационных ряда,  которые примерно одинаково растут (или убывают), то <strong>в любом случае</strong> получатся высокие значения <img align="absmiddle" width="37" height="24" src="v/empiricheskie_pokazateli_clip_image084_0000.gif">. При этом <strong>между  признаками может вообще не быть никакой причинно-следственной связи</strong>, а-ля <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0001.gif"> – сезонное размножение  сусликов в Монголии и <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0001.gif"> – скорость свободного  падения кирпича с Пизанской башни. </p>
+  <p>Поэтому <u>причинно-следственная</u> зависимость признака <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0002.gif"> от <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0002.gif"> должна быть <strong>предварительно обоснована если не  экспертным путём, то хотя бы здравым смыслом</strong>. Как это произошло <strong><a href="kombinacionnaya_gruppirovka.html">в примере с котами</a></strong> и в нашей задаче с  выпуском продукции и прибылью. И уже выявленная в ходе решения <u>корреляционная</u> зависимость лишь подтверждает зависимость причинно-следственную.</p>
+  <p>С другой стороны, если коэффициенты <img align="absmiddle" width="37" height="24" src="v/empiricheskie_pokazateli_clip_image084_0001.gif"> близки к нулю (слабая  корреляционная зависимость), то это ещё не значит, что между признаками нет  причинно-следственной связи. Представьте, что вы с разной силой дёргаете ручку  игрового автомата, на котором крутятся бананчики, вишенки, семёрки и другие  картинки. Есть ли причинно-следственная связь между вашими действиями и тем,  что выпало на автомате? Безусловно. Но вот корреляционной зависимости (выпавших  картинок от ваших усилий) нет никакой. Частоты в комбинационной таблице будут  расположены хаотично, а при большом количестве испытаний примерно равномерно, и  коэффициенты  <img align="absmiddle" width="37" height="24" src="v/empiricheskie_pokazateli_clip_image084_0002.gif"> устремятся к нулю.  Таким образом, к некоторым (и даже многим) зависимостям вообще нельзя применять  метод корреляционного анализа.  Или же  можно, но работать он будет плохо. </p>
+  <p><strong>Основная  предпосылка использования корреляционного анализа состоит в том, что при  изменении одного фактора – другой должен гипотетически </strong><em>(по нашему предположению и обоснованию)</em><strong> возрастать или убывать</strong>.<strong></strong></p>
+  <p>Кроме того, величина <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0003.gif"> может зависеть от <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0003.gif"> косвенно,  опосредованно, и удачный тому пример есть в Википедии: очевидно, что между уличным  травматизмом и количеством ДТП существует выраженная корреляционная  зависимость, однако, эти показатели прямо не зависят друг от друга, у них есть  общая причина – погодные условия (гололед, туман и т.д.).</p>
+  <p><strong>Ещё раз перечитайте и  хорошо ОСМЫСЛИТЕ вышесказанное!</strong></p>
+  <p>Какие ещё есть недостатки у коэффициентов <img align="absmiddle" width="37" height="24" src="v/empiricheskie_pokazateli_clip_image084_0003.gif">? </p>
+  <p>– Данные коэффициенты не отражают направление корреляционной  зависимости. Так, если вам просто покажут значение <img align="absmiddle" width="57" height="21" src="v/empiricheskie_pokazateli_clip_image092.gif">, то невозможно сказать, обратная здесь зависимость или  прямая. В простейшем случае этот факт определяется логическим путём либо  визуально – смотрим, как расположены частоты в комбинационной таблице, и делаем  соответствующий вывод. Да, и графики, графики ещё есть! – на которых хорошо  виднА корреляционная зависимость, читаем о следующем недостатке:</p>
+  <p>– Эмпирические коэффициенты ничего нам не говорят о <strong><em>форме</em></strong> зависимости. Под формой имеется в виду <strong><a href="grafiki_i_svoistva_funkcij.html">функция</a></strong>,  которой можно удачно приблизить эмпирические (точечные) значения показателей, и  <a href="grafiki_i_svoistva_funkcij.html">график</a> этой функции. И здесь мы плавно подошли к заключительному пункту задачи,  который открывает ещё одну большую тему:</p>
+  <a name="elr"></a><h2>2) Корреляционное  поле и эмпирическая линия регрессии</h2>
+  <p><strong><em>Корреляционное поле</em></strong> – это множество точек с абсциссами <img align="absmiddle" width="16" height="24" src="v/empiricheskie_pokazateli_clip_image018_0000.gif"> и ординатами <img align="absmiddle" width="17" height="24" src="v/empiricheskie_pokazateli_clip_image056_0001.gif">, которые соответствуют <u>ненулевым</u> значениям частот <img align="absmiddle" width="19" height="25" src="v/empiricheskie_pokazateli_clip_image096.gif">.</p>
+  <p>Для осмысления определения я просто скопирую сверху  комбинационную таблицу:<br>
+      <img align="absmiddle" width="439" height="140" src="v/empiricheskie_pokazateli_clip_image098.jpg"></p>
+  <p>и приведу готовое корреляционное поле:<br>
+      <img align="absmiddle" width="507" height="322" src="v/empiricheskie_pokazateli_clip_image100.jpg"></p>
+  <p>При этом сами частоты <img align="absmiddle" width="19" height="25" src="v/empiricheskie_pokazateli_clip_image096_0000.gif"> (числа в серых  ячейках) на графике никак не отмечаются. И уже по внешнему виду <em>корреляционного поля</em> можно сказать, что  зависимость здесь прямая («чем больше, тем больше»). О том, как выполнить такой симпатичный чертёж, <a href="https://youtu.be/5Nj0r-MKgac" target="_blank">смотрите здесь</a>, правда,  ролик относится уже к следующим урокам</p>
+  <p>Далее. Что такое <strong><em>регрессия</em></strong>?</p>
+  <p>В статистическом смысле <strong>регрессия</strong> – это зависимость <em>средних значений</em> <img align="absmiddle" width="17" height="24" src="v/empiricheskie_pokazateli_clip_image056_0002.gif"> признака-результата от соответствующих значений <img align="absmiddle" width="16" height="24" src="v/empiricheskie_pokazateli_clip_image018_0001.gif"> признака-фактора.</p>
+  <p>Термин «регрессия» появился исторически, и желающие могут  найти эту историю в Сети. Если быть лаконичным, то полученные средние значения  «игрек» регрессивно возвращают нас к первопричине – соответствующим исходным  значениям «икс». </p>
+  <p><strong><em>Эмпирическая линия регрессии </em></strong> <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0004.gif"> к <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0004.gif"> (именно так) – это <em>ломаная</em>,  соединяющая точки <img align="absmiddle" width="48" height="24" src="v/empiricheskie_pokazateli_clip_image107.gif">:<br>
+      <img align="absmiddle" width="512" height="322" src="v/empiricheskie_pokazateli_clip_image109.jpg" target="_blank"><br>
+    В Экселе не составляет никакого труда добавить  ломаную, отсылаю вас к <strong><a href="https://youtu.be/5Nj0r-MKgac" target="_blank">тому же видео</a></strong>. Построенная <em>ломаная</em> проходит максимально близко к точкам корреляционного поля, при этом учитываются  весомость частот <img align="absmiddle" width="19" height="25" src="v/empiricheskie_pokazateli_clip_image096_0001.gif">, на основе которых были вычислены значения <img align="absmiddle" width="17" height="24" src="v/empiricheskie_pokazateli_clip_image056_0003.gif"> <em>(см. начало 1-го пункта задачи)</em>.</p>
+  <p>Эмпирическая линия регрессии используется не только для  наглядного изображения корреляционной зависимости, но и для <strong><em><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F" target="_blank">интерполяции</a></em></strong> промежуточных значений…, сейчас объясню :) Рассматривая различные промежуточные  значения выпуска продукции (промежуточные «иксы», отличные от <img align="absmiddle" width="16" height="24" src="v/empiricheskie_pokazateli_clip_image018_0002.gif">) мы можем достаточно точно оценить соответствующие средние  значения прибыли («игреки средние»).</p>
+  <p><strong>Задание выполнено</strong>. </p>
+  <p>Но тема продолжается. Дело в том, что  существует два «комплекта» коэффициентов <img align="absmiddle" width="37" height="24" src="v/empiricheskie_pokazateli_clip_image084_0004.gif"> и две линии регрессии.  Это обусловлено тем, что встречаются ситуации, где признаки <img align="absmiddle" width="36" height="21" src="v/empiricheskie_pokazateli_clip_image086_0000.gif"> взаимно влияют друг на  друга. Приведу философский пример, адаптированный к современным реалиям:)</p>
+  <p><img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0006.gif"> – количество  произведённых куриц на птицефабрике;<br>
+      <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0006.gif"> – количество  произведённых яиц.</p>
+  <p>Совершенно понятно, что здесь как признак <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0007.gif"> влияет на <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0007.gif">, так и наоборот. И мы можем вычислить два «комплекта»  показателей. Первый комплект – как в только что рассмотренной задаче:<br>
+      <img align="absmiddle" width="136" height="51" src="v/empiricheskie_pokazateli_clip_image115.gif"> – коэффициенты,  которые показывают степень зависимости <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0008.gif"> от <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0008.gif">. Графическое изображение зависимости – эмпирическая линия  регрессии  <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0009.gif"> к <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0009.gif">– есть ломаная, соединяющая точки <img align="absmiddle" width="48" height="24" src="v/empiricheskie_pokazateli_clip_image107_0000.gif">.</p>
+  <p>И второй комплект:<br>
+      <img align="absmiddle" width="136" height="48" src="v/empiricheskie_pokazateli_clip_image117.gif"> – коэффициенты,  характеризующие  зависимость <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0010.gif"> от <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0010.gif">. Эмпирическая линия регрессии  <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0011.gif"> к <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0011.gif"> – есть <em>ломаная</em>, соединяющая точки <img align="absmiddle" width="53" height="25" src="v/empiricheskie_pokazateli_clip_image119.gif">.</p>
+  <p>Для расчёта коэффициентов второго комплекта используют  «зеркальные» формулы, и желающие могут исследовать этот вопрос самостоятельно.  Если честно, не припомню, чтобы в студенческих работах требовалось находить  коэффициенты <img align="absmiddle" width="53" height="27" src="v/empiricheskie_pokazateli_clip_image121.gif">. Но вот изобразить вторую линию регрессии – требовалось, и в  качестве демонстрации я построю её для данных только что прорешанной задачи. Для  наглядности снова скопирую табличку сверху:<br>
+      <img align="absmiddle" width="531" height="141" src="v/empiricheskie_pokazateli_clip_image022_0000.jpg"></p>
+  <p>Вычислим «икс среднее» по каждой из трёх групп.  При <img align="absmiddle" width="93" height="23" src="v/empiricheskie_pokazateli_clip_image123.gif">:<br>
+      <img align="absmiddle" width="363" height="49" src="v/empiricheskie_pokazateli_clip_image125.gif">;<br>
+    при <img align="absmiddle" width="95" height="23" src="v/empiricheskie_pokazateli_clip_image127.gif">:<br>
+  <img align="absmiddle" width="377" height="49" src="v/empiricheskie_pokazateli_clip_image129.gif">;<br>
+    и при <img align="absmiddle" width="95" height="24" src="v/empiricheskie_pokazateli_clip_image131.gif">:<br>
+  <img align="absmiddle" width="351" height="49" src="v/empiricheskie_pokazateli_clip_image133.gif">.</p>
+  <p>Изобразим на чертеже то же <em>корреляционное поле</em> (оно у нас одно) и эмпирическую линию регрессии <img align="absmiddle" width="19" height="17" src="v/empiricheskie_pokazateli_clip_image006_0012.gif"> к  <img align="absmiddle" width="15" height="17" src="v/empiricheskie_pokazateli_clip_image004_0012.gif"> – <em>ломаную</em>, соединяющую точки <img align="absmiddle" width="53" height="25" src="v/empiricheskie_pokazateli_clip_image119.gif">:<br>
+      <img align="absmiddle" width="512" height="320" src="v/empiricheskie_pokazateli_clip_image135.jpg"></p>
+  <p>Готово. Звенья ломаной расположились почти по прямой, и это  наводит на светлую мысль: а нельзя ли приблизить эмпирические точки <strong><a href="grafiki_i_svoistva_funkcij.html">линейной функцией</a></strong>? Во многих случаях  это будет удачным решением! А, главное, технически простым. Об этом речь пойдёт  на следующих уроках – <strong><a href="linejnyj_koefficient_korrelyacii.html">о линейном  коэффициенте корреляции</a></strong> и <strong><a href="uravnenie_lineynoy_regressii.html">уравнении  линейной регрессии</a></strong>.</p>
+  <p>Ну а пока закрепим материал, и я, конечно же, не мог не  вернуться к этой задаче:</p>
+  <p><u>Пример 66</u></p>
+  <p>По результатам выборочного исследования 100 котов получены  следующие данные:<br>
+      <img align="absmiddle" width="340" height="141" src="v/empiricheskie_pokazateli_clip_image137.gif"></p>
+  <p>Требуется исследовать корреляционную зависимость доброты  кота от его массы:</p>
+  <p>1) Вычислить эмпирический коэффициент детерминации и  эмпирическое корреляционное отношение. Сделать выводы.</p>
+  <p>2) Построить корреляционное поле и эмпирическую линию  регрессии.</p>
+  <p><strong><em>Указание: </em></strong><em>при переходе к дискретному  ряду взять значения 3,5 кг, 5 и 7 кг. Злых котов обозначить «минус» единицей, а  добрых – «плюс» единицей.</em></p>
+  <p>Также обратите внимание, что здесь признак-фактор расположен  слева по вертикали, а признак-результат – в «шапке» таблицы. Как я уже отмечал,  именно такое расположение чаще всего встречается в практических задачах. Но тем  лучше – тем лучше вы осмыслите формулы и алгоритм решения. </p>
+  <p>Образец для сверки рядом, и мы, наконец, переходим к  «попсовой» теме, которая встречается повсеместно, даже у закоренелых  гуманитариев  – <strong><a href="linejnyj_koefficient_korrelyacii.html">Линейный коэффициент корреляции</a></strong> по курсу.</p>
+  <p><u>Решения и ответы:</u></p>
+  <p><strong><em>Пример 66. Решение:</em></strong><em> перейдём к дискретным рядам распределения:</em><br>
+    <em><img align="absmiddle" width="341" height="143" src="v/empiricheskie_pokazateli_clip_image139.jpg"></em>  </p>
+  <p><strong><em>1)</em></strong><em> Эмпирический  коэффициент детерминации найдем по формуле:</em><br>
+      <em><img align="absmiddle" width="57" height="51" src="v/empiricheskie_pokazateli_clip_image008_0000.gif"></em></p>
+  <p><em>Вычислим общую среднюю:</em><br>
+      <em><img align="absmiddle" width="263" height="45" src="v/empiricheskie_pokazateli_clip_image141.gif"> – средняя доброта кота  в выборке.</em><br>
+      <em>Вычислим общую  дисперсию:</em><br>
+      <em><img align="absmiddle" width="393" height="91" src="v/empiricheskie_pokazateli_clip_image143.gif"></em></p>
+  <p><em>Вычислим групповые  средние. У тощих котов <img align="absmiddle" width="76" height="23" src="v/empiricheskie_pokazateli_clip_image145.gif"> средняя доброта  составляет:</em><br>
+      <em><img align="absmiddle" width="292" height="45" src="v/empiricheskie_pokazateli_clip_image147.gif">,</em><br>
+      <em>у обычных котов <img align="absmiddle" width="67" height="23" src="v/empiricheskie_pokazateli_clip_image149.gif">:</em><br>
+      <em><img align="absmiddle" width="301" height="45" src="v/empiricheskie_pokazateli_clip_image151.gif"></em><br>
+      <em>и у толстых котов <img align="absmiddle" width="68" height="24" src="v/empiricheskie_pokazateli_clip_image153.gif">:</em><br>
+      <em><img align="absmiddle" width="291" height="45" src="v/empiricheskie_pokazateli_clip_image155.gif">.</em><br>
+      <em>Вычислим межгрупповую  дисперсию:</em><br>
+      <em><img align="absmiddle" width="555" height="84" src="v/empiricheskie_pokazateli_clip_image157.gif"></em></p>
+  <p><em>Эмпирический  коэффициент детерминации:</em><br>
+      <em><img align="absmiddle" width="188" height="51" src="v/empiricheskie_pokazateli_clip_image159.gif"> – таким образом, 10,92%  вариации доброты котов обусловлено их массой, остальные 89,06% вариации  обусловлено другими причинами. Таки условия жизни и воспитание кота имеют куда  бОльшее значение :)</em></p>
+  <p><em>Вычислим эмпирическое  корреляционное отношение:</em><br>
+      <em><img align="absmiddle" width="167" height="48" src="v/empiricheskie_pokazateli_clip_image161.gif"> – таким образом,  существует слабо-умеренная корреляционная зависимость доброты кота от его  массы. </em></p>
+  <p><strong><em>Примечание:</em></strong><em> о достаточно  низком значении этих показателей нам говорили частоты <img align="absmiddle" width="19" height="25" src="v/empiricheskie_pokazateli_clip_image096_0002.gif"> комбинационной  таблицы, которые не имели ярко выраженного диагонального вида.</em></p>
+  <p><strong><em>2)</em></strong><em> Построим корреляционное  поле и эмпирическую линию регрессии – ломаную, соединяющую точки </em><img align="absmiddle" width="48" height="24" src="v/empiricheskie_pokazateli_clip_image107_0001.gif"><em>:</em><br>
+      <em><img align="absmiddle" width="490" height="270" src="v/empiricheskie_pokazateli_clip_image164.gif"></em><br>
+      <em>З.Ы. Это, конечно,  была задача-шутка :) Но если у  кого-то есть реальное исследование на данную тему – пишите!</em> </p>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

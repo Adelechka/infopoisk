@@ -1,0 +1,1014 @@
+<html>
+<head>
+<title>Частные производные функции трёх переменных
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="частные производные, функции трёх переменных, три переменные, найти частные производные функции 3 переменных, u, f(x,y,z), примеры решений, подробно, для чайников, доступно, частные производные в точке функции трёх переменных, полный дифференциал функции трёх переменных">
+<meta name="Description" content="Частные производные с полного нуля, подробные примеры решений с пошаговыми комментариями">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Частные производные функции трёх переменных</strong></h1>
+  
+  <br>
+  <p>Продолжаем всеми любимую тему математического анализа –  производные. В данной статье мы научимся находить <strong>частные производные функции трёх переменных</strong>: первые производные и  вторые производные. Что необходимо знать и уметь для освоения материала? Не  поверите, но, во-первых, нужно уметь находить «обычные» производные функции  одной переменной – на высоком или хотя бы среднем уровне. Если с ними совсем  туго, то начните с урока <strong><a href="kak_naiti_proizvodnuju.html">Как найти  производную?</a></strong> Во-вторых, очень важно прочитать статью <strong><a href="chastnye_proizvodnye_primery.html">Частные производные функции двух переменных</a></strong> и осмыслить-прорешать  если не все, то бОльшую часть примеров. Если это уже сделано, то уверенной  походкой идём со мной, будет интересно, даже удовольствие получите!
+  <p>Методы и принципы нахождения <em>частных производных функции трёх переменных</em> на самом деле очень  похожи на частные производные <a href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">функции двух переменных</a>. Функция двух переменных,  напоминаю, имеет вид <img align="absmiddle"  width="75" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image002.gif">, где «икс» и «игрек» – независимые переменные. Геометрически  функция двух переменных обычно представляет собой некоторую <strong><a href="poverhnosti.html">поверхность</a></strong> в нашем  трёхмерном пространстве.</p>
+  <p>Функция трёх переменных имеет вид <img align="absmiddle"  width="91" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image004.gif">, при этом переменные <img align="absmiddle"  width="43" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image006.gif"> называются <em>независимыми переменными</em> или <em>аргументами</em>, переменная <img align="absmiddle"  width="13" height="15" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image008.gif"> называется <em>зависимой переменной</em> или <em>функцией</em>. Например: <img align="absmiddle"  width="197" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image010.gif"> – функция трёх  переменных</p>
+  <p>А теперь немного о фантастических фильмах и инопланетянах.  Часто можно услышать о четырехмерном, пятимерном, десятимерном и т.д.  пространствах. Чушь или нет? <br>
+    Ведь функция трёх переменных <img align="absmiddle"  width="91" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image004_0000.gif"> подразумевает четырехмерное пространство <br>(и действительно, переменных же три + сама функция). График  функции трёх переменных представляет собой так называемую <em>гиперповерхность</em>. Представить её невозможно, поскольку мы живём в  трехмерном пространстве (длина/ширина/высота). Чтобы вам со мной не было  скучно, предлагаю викторину. Я задам несколько вопросов, а желающие могут  попробовать на них ответить:</p>
+  <p>– Существует ли в мире четвертое, пятое и т.д. измерения в  смысле обывательского понимания пространства (длина/ширина/высота)?</p>
+  <p>– Можно ли построить четырехмерное, пятимерное и т.д. пространство  в широком понимании этого слова? То есть, привести пример такого пространства в  нашей жизни.</p>
+  <p>– Возможно ли путешествие в прошлое?</p>
+  <p>– Возможно ли путешествие в будущее? </p>
+  <p>– Существуют ли инопланетяне?</p>
+  <p>На любой вопрос можно выбрать один из четырёх ответов:<br>
+    Да / Нет (наукой это запрещено) /  Наукой это не запрещено / Не знаю</p>
+  <p>Кто правильно ответит на все вопросы, тот, скорее всего,  обладает некоторой вещью ;-) </p>
+  <p>Ответы на вопросы я постепенно буду выдавать по ходу урока,  не пропускайте примеры! </p>
+  <p>Собственно, полетели. И сразу хорошая новость: <strong>для функции трёх переменных справедливы  <a href="tablica_proizvodnyh.pdf" target="_blank">правила дифференцирования и таблица производных</a></strong>. Именно поэтому вам  необходимо хорошо управляться с «обычными» <strong><a href="kak_naiti_proizvodnuju.html">производными  функций</a></strong> одной переменной. Отличий совсем немного!</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти частные производные первого порядка функции трёх  переменных <img align="absmiddle"  width="204" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image013.gif"></p>
+  <p><strong>Решение</strong>: Нетрудно  догадаться –<strong> </strong>для функции трёх  переменных существуют <u>три</u> частных производных первого порядка, которые  обозначаются следующим образом: </p>
+  <p><img align="absmiddle"  width="17" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image015.gif"> или <img align="absmiddle"  width="24" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image017.gif"> – частная производная  по «икс»;<br>
+      <img align="absmiddle"  width="19" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image019.gif"> или <img align="absmiddle"  width="24" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image021.gif"> – частная производная  по «игрек»;<br>
+      <img align="absmiddle"  width="17" height="23" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image023.gif"> или <img align="absmiddle"  width="24" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image025.gif"> – частная производная  по «зет».</p>
+  <p>В ходу больше обозначение со штрихом, но составители сборников,  методичек в условиях задач очень любят использовать как раз громоздкие  обозначения – так что не теряйтесь! Возможно, не все знают, как правильно  читать вслух эти «страшные дроби». Пример: <img align="absmiddle"  width="24" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image017_0000.gif"> следует читать  следующим образом: «дэ у по дэ икс».</p>
+  <p>Начнём с производной по «икс»: <img align="absmiddle"  width="17" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image015_0000.gif">. <strong>Когда мы находим  частную производную по </strong><img align="absmiddle"  width="13" height="15" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image027.gif"><strong>, то переменные <img align="absmiddle"  width="15" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image029.gif"> и </strong><img align="absmiddle"  width="13" height="13" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image031.gif"> <strong>считаются константами (постоянными числами)</strong>. А производная любой  константы, о, благодать, равна нулю:</p>
+  <p><img align="absmiddle"  width="617" height="56" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image033.gif"></p>
+  <p>Сразу обратите внимание на подстрочный индекс <img align="absmiddle"  width="64" height="15" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image035.gif"> – никто вам не  запрещает помечать, что <img align="absmiddle"  width="29" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image037.gif"> являются константами.  Так даже удобнее, начинающим рекомендую использовать именно такую запись,  меньше риск запутаться.</p>
+  <p>(1) Используем свойства линейности производной, в частности,  выносим все константы за знак производной. Обратите внимание, что во втором  слагаемом <img align="absmiddle"  width="28" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image039.gif"> константу выносить не  нужно: так как «игрек» является константой, то <img align="absmiddle"  width="28" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image039_0000.gif"> – тоже константа. В  слагаемом <img align="absmiddle"  width="27" height="19" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image041.gif"> за знак производной  вынесена «обычная» константа 8 и константа «зет».</p>
+  <p>(2) Находим простейшие производные, не забывая при этом, что <img align="absmiddle"  width="29" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image037_0000.gif"> – константы. Далее  причесываем ответ.</p>
+  <p>Частная производная <img align="absmiddle"  width="19" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image019_0000.gif">. <strong>Когда мы находим  частную производную по «игрек», то переменные <img align="absmiddle"  width="13" height="15" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image027_0000.gif"> и </strong><img align="absmiddle"  width="13" height="13" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image031_0000.gif"> <strong>считаются константами</strong>:</p>
+  <p><img align="absmiddle"  width="609" height="59" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image045.gif"></p>
+  <p>(1) Используем свойства линейности. И снова заметьте, что  слагаемые <img align="absmiddle"  width="27" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image047.gif">, <img align="absmiddle"  width="27" height="19" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image049.gif"> являются константами,  а значит, за знак производной выносить ничего не нужно.</p>
+  <p>(2) Находим производные, не забывая, что <img align="absmiddle"  width="28" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image051.gif"> константы. Далее  упрощаем ответ.</p>
+  <p>И, наконец, частная производная <img align="absmiddle"  width="17" height="23" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image023_0000.gif">. <strong>Когда мы находим  частную производную по «зет», то переменные <img align="absmiddle"  width="13" height="15" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image027_0001.gif"> и </strong><img align="absmiddle"  width="15" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image029_0000.gif"> <strong>считаются константами</strong>:</p>
+  <p><img align="absmiddle"  width="600" height="48" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image055.gif"></p>
+  <p><strong>Общее правило</strong> очевидно и незатейливо: <em>Когда мы находим  частную производную <strong>по какой-либо</strong> независимой переменной, то <strong>две другие</strong> независимые переменные считаются константами.</em></p>
+  <p>При оформлении данных задач следует быть предельно внимательным,  в частности, <strong>нельзя терять подстрочные  индексы</strong> (которые указывают, по какой переменной проводится  дифференцирование). Потеря индекса будет ГРУБЫМ НЕДОЧЁТОМ. Хммм…. забавно, если  после такого устрашения я их сам где-нибудь пропущу)</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти частные производные первого порядка функции трёх  переменных <img align="absmiddle"  width="231" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image057.gif"></p>
+  <p>Это пример для самостоятельного решения. Полное решение и  ответ в конце урока.</p>
+  <p>Рассмотренные два примера достаточно просты и, решив  несколько подобных задачек, даже чайник приноровится расправляться с ними  устно.</p>
+  <p>Для разгрузки вернемся к первому вопросу викторины:  Существует ли в мире четвертое, пятое и т.д. измерения в смысле обывательского  понимания пространства (длина/ширина/высота)?</p>
+  <p>Верный ответ: <em>Наукой  это не запрещено</em>. Вся фундаментальная математическая аксиоматика, теоремы,  математический аппарат прекрасно и <em>непротиворечиво</em> работают в пространстве любой размерности. Не исключено, что где-нибудь во  Вселенной существуют неподвластные нашему разуму гиперповерхности, например,  четырёхмерная гиперповерхность, которая задается функцией трех переменных <img align="absmiddle"  width="91" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image004_0001.gif">. А может быть гиперповерхности рядом с нами или даже мы  находимся прямо в них, просто наше зрение, другие органы чувств, сознание  способны на восприятие и осмысление только трёх измерений. </p>
+  <p>Вернемся к примерам. Да, если кто сильно загрузился  викториной, ответы на следующие вопросы лучше прочитать после того, как  научитесь находить частные производные функции трёх переменных, а то я вам по  ходу статьи вынесу весь мозг =)</p>
+  <p>Помимо простейших Примеров 1,2 на практике встречаются  задания, которые можно назвать небольшой головоломкой. Такие примеры, к моей  досаде, выпали из поля зрения, когда я создавал урок <strong><a href="chastnye_proizvodnye_primery.html">Частные производные функции двух переменных</a></strong>. Навёрстываем  упущенное:</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти частные производные первого порядка функции трёх  переменных и составить полный дифференциал первого порядка <br>
+      <img align="absmiddle"  width="80" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image059.gif"></p>
+  <p><strong>Решение</strong>: вроде бы  тут «всё просто», но первое впечатление обманчиво. При нахождении частных  производных многие будут гадать на кофейной гуще и ошибаться.</p>
+  <p>Разберём пример последовательно, чётко и понятно.</p>
+  <p>Начнём с частной производной по «икс». Когда мы находим  частную производную по «икс», то переменные <img align="absmiddle"  width="28" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image061.gif"> считаются константами.  Следовательно, показатель нашей функции <img align="absmiddle"  width="20" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image063.gif"> – тоже константа. Для  чайников рекомендую следующий приём решения: на черновике поменяйте константу <img align="absmiddle"  width="20" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image063_0000.gif"> на конкретное  положительное целое число, например, на «пятерку». В результате получится  функция одной переменной:<br>
+      <img align="absmiddle"  width="75" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image066.gif"> или ещё можно записать  так: <img align="absmiddle"  width="65" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image068.gif"></p>
+  <p>Это <u>степенная</u> функция со сложным основанием (синусом).  По <strong><a href="proizvodnaya_slozhnoi_funkcii.html">правилу дифференцирования сложной  функции</a></strong>:<br>
+      <img align="absmiddle"  width="353" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image070.gif"></p>
+  <p>Теперь вспоминаем, что <img align="absmiddle"  width="44" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image072.gif">, таким образом:<br>
+      <img align="absmiddle"  width="152" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image074.gif"></p>
+  <p>На чистовике, конечно, решение следует оформить так:<br>
+      <img align="absmiddle"  width="435" height="27" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image076.gif"></p>
+  <p>Находим частную производную по «игрек», <img align="absmiddle"  width="27" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image078.gif"> считаются константами.  Если «икс» константа, то <img align="absmiddle"  width="35" height="19" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image080.gif"> – тоже константа. На  черновике проделываем тот же трюк: <img align="absmiddle"  width="35" height="19" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image080_0000.gif"> заменим, например, на  3, «зет» – заменим той же «пятёркой». В результате снова получается функция  одной переменной:<br>
+      <img align="absmiddle"  width="48" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image082.gif"></p>
+  <p>Это <u>показательная</u> функция со сложным показателем. По <strong><a href="proizvodnaya_slozhnoi_funkcii.html">правилу дифференцирования сложной функции</a></strong>:<br>
+      <img align="absmiddle"  width="265" height="27" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image084.gif"></p>
+  <p>Теперь вспоминаем нашу замену: <img align="absmiddle"  width="96" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image086.gif"></p>
+  <p>Таким образом: <img align="absmiddle"  width="164" height="27" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image088.gif"></p>
+  <p>На чистовике, понятно, оформление должно выглядеть,  благообразно:<br>
+      <img align="absmiddle"  width="471" height="27" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image090.gif"></p>
+  <p>И зеркальный случай с частной производной по «зет» (<img align="absmiddle"  width="28" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image092.gif"> – константы):<br>
+      <img align="absmiddle"  width="469" height="27" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image094.gif"></p>
+  <p>При определенном опыте проведенный анализ можно проводить  мысленно. </p>
+  <p>Выполняем вторую часть задания – составим дифференциал  первого порядка. Это очень просто, по аналогии с функцией двух переменных,  дифференциал первого порядка записывается по формуле:<br>
+      <img align="absmiddle"  width="155" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image096.gif"></p>
+  <p>В данном случае:<br>
+      <img align="absmiddle"  width="516" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image098.gif"></p>
+  <p>И делов то. Отмечу, что в практических задачах полный  дифференциал 1-го порядка функции трёх переменных требуют составить значительно  реже, чем для функции двух переменных.</p>
+  <p>Забавный пример для самостоятельного решения:</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти частные производные первого порядка функции трёх  переменных и составить полный дифференциал первого порядка <br>
+      <img align="absmiddle"  width="105" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image100.gif"></p>
+  <p>Полное решение и ответ в конце урока. Если возникнут  затруднения, используйте рассмотренный «чайниковский» алгоритм, он  гарантированно должен помочь. И ещё полезный совет – <strong>не спешите</strong>. Такие примеры быстро не решаю даже я.</p>
+  <p>Отвлекаемся и разбираем второй вопрос: Можно ли построить  четырехмерное, пятимерное и т.д. пространство в широком понимании этого слова?  То есть, привести пример такого пространства в нашей жизни.</p>
+  <p>Верный ответ: <em>Да</em>.  Причём, очень легко. Например, добавляем к длине/ширине/высоте четвёртое  измерение – время. Популярное четырехмерное пространство-время и всем известная  теория относительности, аккуратно скомпилированная Эйнштейном по материалам трудов Лобачевского,  Пуанкаре, Лоренца и Минковского. Тоже не все знают. За что у него Нобелевская  премия? В научном мире был нешуточный скандал, и Нобелевский комитет  сформулировал заслугу троечника Эйнштейна примерно следующим образом: «За общий вклад в  развитие физики». Дальнейшее, что называется, раскрутка и пиар. </p>
+  <p>К рассмотренному четырехмерному пространству легко добавить пятое  измерение, например: атмосферное давление. И так далее, так далее, так далее, сколько  зададите измерений в своей модели – столько и будет. В широком смысле слова мы  живём в многомерном пространстве.</p>
+  <p>Разберём еще пару типовых задач:</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти частные производные первого порядка в точке <img align="absmiddle"  width="68" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image102.gif"><br>
+      <img align="absmiddle"  width="121" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image104.gif"></p>
+  <p><strong>Решение</strong>: Задание в  такой формулировке часто встречается на практике и предполагает выполнение  следующих двух действий:<br>
+    – нужно найти частные производные первого порядка;<br>
+    – нужно вычислить значения частных производных 1-го порядка  в точке <img align="absmiddle"  width="68" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image102_0000.gif">.</p>
+  <p>Решаем: <br>
+      <img align="absmiddle"  width="607" height="93" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image106.gif"></p>
+  <p>(1) Перед нами сложная функция, и на первом шаге следует взять  производную от арктангенса. При этом мы, по сути, невозмутимо используем табличную  формулу производной арктангенса <img align="absmiddle"  width="121" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image108.gif">. По <strong><a href="proizvodnaya_slozhnoi_funkcii.html">правилу  дифференцирования сложной функции</a></strong> результат необходимо домножить на  производную внутренней функции (вложения): <img align="absmiddle"  width="67" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image110.gif">.</p>
+  <p>(2) Используем свойства линейности.</p>
+  <p>(3) И берём оставшиеся производные, не забывая, что <img align="absmiddle"  width="29" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image037_0001.gif"> – константы.</p>
+  <p>По условию задания необходимо найти значение найденной  частной производной <img align="absmiddle"  width="121" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image112.gif"> в точке <img align="absmiddle"  width="68" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image102_0001.gif">. Подставим координаты точки <img align="absmiddle"  width="69" height="40" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image115.gif"> в найденную  производную:<br>
+      <img align="absmiddle"  width="312" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image117.gif"></p>
+  <p>Преимуществом данного задания является тот факт, что другие  частные производные находятся по очень похожей схеме:<br>
+      <img align="absmiddle"  width="596" height="91" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image119.gif"></p>
+  <p>Как видите, шаблон решения практически такой же.</p>
+  <p>Вычислим значение найденной частной производной <img align="absmiddle"  width="121" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image121.gif"> в точке <img align="absmiddle"  width="68" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image102_0002.gif">:<br>
+      <img align="absmiddle"  width="313" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image123.gif"></p>
+  <p>И, наконец, производная по «зет»:<br>
+      <img align="absmiddle"  width="581" height="91" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image125.gif"></p>
+  <p><img align="absmiddle"  width="257" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image127.gif"></p>
+  <p>Готово. Решение можно было оформить и по другому: сначала  найти все три частные производные, а потом вычислить их значения в точке <img align="absmiddle"  width="21" height="17" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image129.gif">. Но, мне кажется, приведенный способ удобнее – только нашли  частную производную, и сразу, не отходя от кассы, вычислили её значение в  точке. </p>
+  <p>Интересно отметить, что геометрически точка <img align="absmiddle"  width="69" height="40" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image115_0000.gif"> – вполне реальная  точка нашего трехмерного пространства. Значения же функции <img align="absmiddle"  width="41" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image131.gif">, производных <img align="absmiddle"  width="145" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image133.gif"> – уже четвертое  измерение, и где оно геометрически находится, никто не знает. Как говорится, по  Вселенной никто с рулеткой не ползал, не проверял.</p>
+  <p>Коль скоро снова философская тема пошла, рассмотрим третий  вопрос: Возможно ли путешествие в прошлое?</p>
+  <p>Верный ответ: <em>Нет</em>.  Путешествие в прошлое противоречит второму закону термодинамики о необратимости  физических процессов (энтропии). Так что не ныряйте, пожалуйста, в бассейн без  воды, событие можно открутить назад только в видеозаписи =) Народная мудрость  не зря придумала противоположный житейский закон: «Семь раз отмерь, один раз  отрежь». Хотя, на самом деле грустная штука, время однонаправлено и необратимо,  никто из нас завтра не помолодеет. А различные фантастические фильмы вроде  «Терминатора» с научной точки зрения – полная чушь. Абсурд и с точки зрения  философии – когда Следствие, вернувшись в прошлое, может уничтожить собственную же Причину.</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти частные производные первого порядка в точке <img align="absmiddle"  width="77" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image135.gif"><br>
+      <img align="absmiddle"  width="64" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image137.gif"></p>
+  <p><u>Пример 7</u></p>
+  <p>Найти частные производные первого порядка в точке <img align="absmiddle"  width="63" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image139.gif"><br>
+      <img align="absmiddle"  width="119" height="29" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image141.gif"></p>
+  <p>Это два несложных примера для самостоятельного решения.  Полное решение и ответ в конце урока.</p>
+  <p>Но вы не расстраивайтесь из-за второго закона термодинамики,  сейчас я всех приободрю более сложными примерами:</p>
+  <p><u>Пример 8</u></p>
+  <p>Найти частные производные первого порядка функции трёх  переменных<br>
+      <img align="absmiddle"  width="148" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image143.gif"></p>
+  <p><strong>Решение</strong>: Найдем  частные производные первого порядка:<br>
+      <img align="absmiddle"  width="596" height="147" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image145.gif"></p>
+  <p>(1) Начиная находить производную, следует придерживаться  того же подхода, что и для функции одной переменной. Используем свойства  линейности, в данном случае выносим за знак производной константы <img align="absmiddle"  width="45" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image147.gif">.</p>
+  <p>(2) Под знаком производной у нас находится <strong>произведение</strong> двух функций, <strong>каждая из которых зависит </strong>от нашей  «живой» переменной «икс». Поэтому необходимо использовать правило  дифференцирования произведения <img align="absmiddle"  width="103" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image149.gif">.</p>
+  <p>(3) С производной <img align="absmiddle"  width="29" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image151.gif"> сложностей никаких, а  вот производная <img align="absmiddle"  width="120" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image153.gif"> является производной  сложной функции: сначала необходимо найти, по сути, табличный логарифм <img align="absmiddle"  width="73" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image155.gif"> и домножить его на  производную от вложения. </p>
+  <p>(4) Думаю, все уже освоились с простейшими примерами вроде <img align="absmiddle"  width="97" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image157.gif"> – тут у нас «живой»  только <img align="absmiddle"  width="19" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image159.gif">, производная которого равна <img align="absmiddle"  width="21" height="19" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image161.gif"></p>
+  <p>Практически зеркален случай с производной по «игрек», его я  запишу короче и без комментариев:<br>
+      <img align="absmiddle"  width="548" height="104" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image163.gif"></p>
+  <p>Интереснее с производной по «зет», хотя, всё равно почти то  же самое:<br>
+      <img align="absmiddle"  width="583" height="216" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image165.gif"></p>
+  <p>(1) Выносим константы за знак производной.</p>
+  <p>(2) Здесь опять произведение двух функций, <strong>каждая из которых зависит</strong> от «живой»  переменной «зет». В принципе, можно использовать формулу производной частного,  но проще таки пойти другим путём – найти производную от произведения.</p>
+  <p>(3) Производная <img align="absmiddle"  width="84" height="52" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image167.gif"> – это табличная  производная. Во втором слагаемом – уже знакомая производная сложной функции.</p>
+  <p>Готово.</p>
+  <p><u>Пример 9</u></p>
+  <p>Найти частные производные первого порядка функции трёх  переменных<br>
+      <img align="absmiddle"  width="108" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image169.gif"></p>
+  <p>Это пример для самостоятельного решения. Подумайте, как  рациональнее находить ту или иную частную производную. Полное решение и ответ в  конце урока.</p>
+  <p>Перед тем как перейти к заключительным примерам урока и  рассмотреть <strong><a href="chastnye_proizvodnye_primery.html">частные производные второго  порядка</a></strong> функции трёх переменных, всех еще раз взбодрю четвертым вопросом:</p>
+  <p>Возможно ли путешествие в будущее?</p>
+  <p>Верный ответ: <em>Наукой это  не запрещено</em>. Парадоксально, но не существует математического, физического,  химического или другого естественнонаучного закона, который бы запрещал  путешествие в будущее! Кажется чушью? Но практически у каждого в жизни бывало  предчувствие (причём, не подкрепленное никакими логическими доводами), что  произойдет то или иное событие. И оно происходило! Откуда пришла информация? Из  будущего? Таким образом, фантастические фильмы о путешествии в будущее, да и, к  слову, предсказания всевозможных гадалок, экстрасенсов нельзя назвать таким уж  бредом. По крайне мере, наука этого не опровергла. Всё возможно! Так, когда я  учился в школе, то компакт диски и плоские мониторы из фильмов  казались мне невероятной фантастикой.</p>
+  <p>Известная комедия «Иван Васильевич меняет профессию» – выдумка  наполовину (как максимум). Никакой научный закон не запрещал Ивану Грозному  оказаться в будущем, но невозможно, чтобы два перца оказались в прошлом и  исполняли обязанности царя.</p>
+  <br>
+  <h2><strong>Частные производные  второго порядка функции трёх переменных</strong></h2>
+  <p>Общий принцип нахождения частных производных второго  порядка функции трёх переменных аналогичен принципу нахождения частных  производных 2-го порядка функции двух переменных. Поэтому, если вы хорошо  проработали урок <strong><a href="chastnye_proizvodnye_primery.html">Частные производные  функции двух переменных</a></strong>, то будет всё очень просто.</p>
+  <p>Для того чтобы найти частные производные второго порядка,  сначала необходимо найти частные производные первого порядка <img align="absmiddle"  width="61" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image171.gif"> или в другой записи: <img align="absmiddle"  width="79" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image173.gif">.</p>
+  <p>Частных производных второго порядка девять штук.</p>
+  <p>Первая группа – это вторые производные по тем же переменным:<br>
+      <img align="absmiddle"  width="21" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image175.gif"> или <img align="absmiddle"  width="29" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image177.gif"> – вторая производная  по «икс»;<br>
+      <img align="absmiddle"  width="23" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image179.gif"> или <img align="absmiddle"  width="29" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image181.gif"> – вторая производная  по «игрек»;<br>
+      <img align="absmiddle"  width="21" height="23" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image183.gif"> или <img align="absmiddle"  width="29" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image185.gif"> – вторая производная  по «зет».</p>
+  <p>Вторая группа – это <em>смешанные</em> частные производные 2-го порядка, их шесть:<br>
+      <img align="absmiddle"  width="23" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image187.gif"> или <img align="absmiddle"  width="37" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image189.gif"> – <em>смешанная</em> производная «икс по игрек»;<br>
+      <img align="absmiddle"  width="23" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image191.gif"> или <img align="absmiddle"  width="37" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image193.gif"> – <em>смешанная</em> производная «игрек по икс»;<br>
+      <img align="absmiddle"  width="21" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image195.gif"> или <img align="absmiddle"  width="37" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image197.gif"> – <em>смешанная</em> производная «икс по зет»;<br>
+      <img align="absmiddle"  width="21" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image199.gif"> или <img align="absmiddle"  width="36" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image201.gif"> – <em>смешанная</em> производная «зет по икс»;<br>
+      <img align="absmiddle"  width="23" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image203.gif"> или <img align="absmiddle"  width="37" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image205.gif"> – <em>смешанная</em> производная «игрек по зет»;<br>
+      <img align="absmiddle"  width="21" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image207.gif"> или <img align="absmiddle"  width="37" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image209.gif"> – <em>смешанная</em> производная «зет по игрек».</p>
+  <p>Как и для случая функции двух переменных, при решении задач  можно ориентироваться на следующие равенства смешанных производных второго  порядка:<br>
+      <img align="absmiddle"  width="57" height="75" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image211.gif"></p>
+  <p><em>Примечание: строго  говоря, это не всегда так</em></p>
+  <p>На всякий случай несколько примеров, как правильно читать  сиё безобразие вслух:<br>
+      <img align="absmiddle"  width="23" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image179_0000.gif"> – «у два штриха дважды  по игрек»;<br>
+      <img align="absmiddle"  width="29" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image185_0000.gif"> – «дэ два у по дэ зет  квадрат»;<br>
+      <img align="absmiddle"  width="21" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image195_0000.gif"> – «у два штриха по икс  по зет»;<br>
+      <img align="absmiddle"  width="37" height="47" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image209_0000.gif"> – «дэ два у по дэ зет  по дэ игрек».</p>
+  <p>Примеры на нахождение частных производных 2-го прядка для  функции трёх переменных на практике встречаются реже. Обычно они не очень сложные,  но довольно большие по объему.</p>
+  <p><u>Пример 10</u></p>
+  <p>Найти все частные производные первого и второго порядка  функции трёх переменных<br>
+      <img align="absmiddle"  width="105" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image213.gif"></p>
+  <p>Записать полный дифференциал 2-го порядка – вы его  хотели, и вы его получили! :)</p>
+  <p><strong>Решение</strong>: сначала  найдем частные производные первого порядка:<br>
+      <img align="absmiddle"  width="583" height="169" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image215.gif"></p>
+  <p>Частные производные второго порядка рекомендую начинать  искать со смешанных производных, поскольку это позволит выяснить, а правильно  ли вообще найдены производные первого порядка.</p>
+  <p>Берём найденную производную <img align="absmiddle"  width="73" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image217.gif"> и дифференцируем её по  «игрек»:<br>
+      <img align="absmiddle"  width="371" height="55" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image219.gif"><br>
+    Берём найденную производную <img align="absmiddle"  width="103" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image221.gif"> и дифференцируем её по  «икс»:<br>
+  <img align="absmiddle"  width="440" height="55" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image223.gif"></p>
+  <p>Равенство <img align="absmiddle"  width="57" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image225.gif"> выполнено. Гуд.</p>
+  <p>Разбираемся со второй парой смешанных производных.<br>
+    Берём найденную производную <img align="absmiddle"  width="73" height="44" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image217_0000.gif"> и дифференцируем её по  «зет»:<br>
+  <img align="absmiddle"  width="369" height="55" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image227.gif"><br>
+    Берём найденную производную <img align="absmiddle"  width="115" height="45" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image229.gif"> и дифференцируем её по  «икс»:<br>
+  <img align="absmiddle"  width="441" height="57" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image231.gif"><br>
+  <img align="absmiddle"  width="56" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image233.gif"> – всё путём.</p>
+  <p>Аналогично разбираемся с третьей парой смешанных  производных:<br>
+      <img align="absmiddle"  width="504" height="115" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image235.gif"><br>
+      <img align="absmiddle"  width="56" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image237.gif"> Нормалёк.</p>
+  <p>После проделанных трудов гарантированно можно утверждать,  что, во-первых, мы правильно нашли все частные производные 1-го порядка,  во-вторых, правильно нашли и смешанные частные производные 2-го порядка.</p>
+  <p>Осталось найти ещё три частные производные второго  порядка,  вот здесь уже во избежание  ошибок следует максимально сконцентрировать внимание:<br>
+      <img align="absmiddle"  width="604" height="171" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image239.gif"></p>
+  <p>И по горячим пожеланиям землян, составим полный дифференциал второго  порядка:</p>
+    <p><img align="absmiddle" width="616" height="131" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image400.gif"></p>
+  <p>Готово. Повторюсь, задание не столько сложное, сколько  объемное. Решение можно сократить и сослаться на равенства смешанных частных  производных, но в этом случае не будет проверки. Поэтому лучше таки потратить  время и найти <strong>все</strong> производные (к  тому же это может потребовать преподаватель), или, в крайнем случае, выполнить  проверку на черновике. </p>
+  <p><u>Пример 11</u></p>
+  <p>Найти все частные производные первого и второго порядка  функции трёх переменных<br>
+      <img align="absmiddle"  width="129" height="41" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image241.gif"></p>
+  <p>Это пример для самостоятельного решения. Краткое решение и  ответ в конце урока, который подошел к финальному вопросу:</p>
+  <p>– Существуют ли инопланетяне?</p>
+  <p>Верный ответ: <em>Не знаю</em>.  Было бы странным, если бы вы ответили «да» или «нет». С одной стороны, откуда  вы знаете, что их нет? С другой стороны, даже если вы видели гуманоидов и лично  с ними общались, то ответ «да» прозвучит ещё страннее =) </p>
+  <p>Кто правильно ответил на все 5 вопросов, тот, скорее всего,  обладает дипломом ФМ или другого естественно-технического факультета.</p>
+  <p>Ну а мне пора садиться в летающую тарелку и возвращаться к  себе домой в Туманность Андромеды.</p>
+  <p>Ку.</p>
+  <p><u>Решения и ответы: </u></p><div id="primer">
+  <p><em>Пример 2: <strong>Решение</strong>: </em><br>
+    <em><img align="absmiddle"  width="612" height="51" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image243.gif"></em>  <br>
+    <em><img align="absmiddle"  width="609" height="53" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image245.gif"></em>    <br>
+    <em><img align="absmiddle"  width="592" height="51" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image247.gif"></em>  </p>
+  <p><em>Пример 4: <strong>Решение</strong>: Найдем частные производные  первого порядка.</em><br>
+      <em><img align="absmiddle"  width="359" height="80" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image249.gif"></em><br>
+      <em>Составим полный  дифференциал первого порядка:</em><br>
+      <em><img align="absmiddle"  width="541" height="27" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image251.gif"></em></p>
+  <p><em>Пример 6: <strong>Решение</strong>: Вычислим частные производные  первого порядка в точке <img align="absmiddle"  width="77" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image135_0000.gif">:</em><br>
+      <em><img align="absmiddle"  width="388" height="171" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image253.gif"></em></p>
+  <p><em>Пример 7: <strong>Решение</strong>: Вычислим частные производные  первого порядка в точке </em><img align="absmiddle"  width="63" height="21" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image139_0000.gif"><em>:</em><br>
+      <em><img align="absmiddle"  width="585" height="291" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image255.gif"></em></p>
+  <p><em>Пример  9: <strong>Решение</strong>: Найдем частные производные первого порядка:</em><br>
+      <em> <img align="absmiddle"  width="419" height="104" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image257.gif"></em><br>
+      <em><img align="absmiddle"  width="548" height="101" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image259.gif"></em><br>
+      <em><img align="absmiddle"  width="544" height="101" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image261.gif"></em></p>
+  <p><em>Пример  11: <strong>Решение</strong>: Найдем частные производные первого порядка:</em><br>
+      <em><img align="absmiddle"  width="341" height="96" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image263.gif"></em><br>
+      <em><img align="absmiddle"  width="344" height="96" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image265.gif"></em><br>
+      <em><img align="absmiddle"  width="375" height="99" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image267.gif"></em><br>
+      <em>Найдем частные производные второго порядка:</em><br>
+      <em><img align="absmiddle"  width="491" height="96" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image269.gif"></em><br>
+      <em><img align="absmiddle"  width="57" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image271.gif"></em><br>
+      <em><img align="absmiddle"  width="492" height="52" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image273.gif"></em><br>
+      <em><img align="absmiddle"  width="56" height="24" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image275.gif"></em><br>
+      <em><img align="absmiddle"  width="491" height="52" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image277.gif"></em><br>
+      <em><img align="absmiddle"  width="56" height="25" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image279.gif"></em><br>
+      <em><img align="absmiddle"  width="356" height="80" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image281.gif"></em><br>
+      <em><img align="absmiddle"  width="356" height="80" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image283.gif"></em></p>
+  <p><em><img align="absmiddle"  width="371" height="101" src="f/chastnye_proizvodnye_funkcii_treh_peremennyh_clip_image285.gif"></em>
+  </p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

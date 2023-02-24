@@ -1,0 +1,1125 @@
+<html>
+<head>
+<title>Комплексные числа для чайников
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="комплексные числа, что такое комплексное число, для чайников, алгебраическая форма комплексного числа, тригонометрическая форма комплексного числа, аргумент, модуль, действия с комплексными числами, сложение комплексных чисел, просто, вычитание комплексных чисел, умножение комплексных чисел, деление комплексных чисел, возведение в степень, извлечение корней, примеры, доступно, понятно, подробно">
+<meta name="Description" content="Не занимайтесь комплексными числами после комплексного обеда!">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Комплексные числа для чайников</h1>
+  
+ 
+  <p><em>Не занимайтесь  комплексными числами после комплексного обеда</em></p>
+   <br>
+  <p>На данном уроке мы познакомимся с понятием комплексного  числа, рассмотрим алгебраическую, тригонометрическую и показательную форму  комплексного числа. А также научимся выполнять действия с комплексными числами:  сложение, вычитание, умножение, деление, возведение в степень и извлечение  корня. </p>
+  <p>Не беспокойтесь, я вас напугал, я вас и рассмешу. Для освоения  комплексных чисел не требуется каких-то специальных знаний из курса высшей  математики, и материал доступен даже школьнику. Достаточно уметь выполнять  основные алгебраические действия с «обычными» числами и немного рубить в  тригонометрии. Впрочем, если что позабылось,<br>я напомню. </p>
+  <p><strong>Урок состоит из следующих параграфов</strong>:</p>
+  <ul>
+      <li> <a href="kompleksnye_chisla_dlya_chainikov.html#k">понятие  комплексного числа</a>;</li>
+      <li> <a href="kompleksnye_chisla_dlya_chainikov.html#af">алгебраическая  форма комплексного числа</a>, тут же <strong>сложение, вычитание, умножение и деление комплексных  чисел</strong>;</li>
+      <li> <a href="kompleksnye_chisla_dlya_chainikov.html#tf">тригонометрическая и показательная форма комплексного числа</a>;</li>
+      <li> <a href="kompleksnye_chisla_dlya_chainikov.html#ks">возведение  комплексных чисел в степень</a>, <strong>формула Муавра</strong>;</li>
+      <li> <a href="kompleksnye_chisla_dlya_chainikov.html#kk">извлечение корней  из комплексных чисел</a>, <strong>квадратное уравнение с комплексными корнями</strong>.</li>
+	  </ul>
+	  
+  <p>На любой вкус и цвет – кому, что интересно. А комплексные  числа действительно становятся любимой темой,... после того, как  студенты знакомятся с другими разделами <a href="mnozhestva.html">высшей алгебры</a> =). Если Вы являетесь  чайником, или только-только приступили к изучению комплексных чисел, то  параграфы лучше прочитать по порядку, без «перескоков». </p>
+  <p>Сначала «поднимем» информацию об «обычных» школьных  числах. В математике они  называются <strong><a href="mnozhestva.html">множеством действительных  чисел</a></strong> и обозначаются буквой <img align="absmiddle"  width="17" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002.gif"> (в литературе,  рукописях заглавную букву «эр» пишут жирной либо утолщённой). Все  действительные числа сидят на знакомой числовой прямой:</p>
+  <p><img align="absmiddle"  width="492" height="93" src="h/kompleksnye_chisla_dlya_chainikov_clip_image004.gif" alt="Множество действительных чисел, числовая прямая"></p>
+  <p>Компания действительных чисел очень пёстрая – здесь и целые  числа, и дроби, и иррациональные числа. При этом каждой точке числовой  прямой обязательно соответствует некоторое действительное число.</p>
+  <br>
+  <a name="k"></a><h2><strong>Понятие комплексного  числа</strong></h2>
+  <p>Прежде чем, мы перейдем к рассмотрению комплексных чисел,  дам важный совет: не пытайтесь представить комплексное число «в жизни» – это  всё равно, что пытаться представить четвертое измерение в нашем трехмерном  пространстве.</p>
+  <p>Если хотите, комплексное число – это двумерное число. Оно имеет вид <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008.gif">, где <img align="absmiddle"  width="13" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image010.gif"> и <img align="absmiddle"  width="13" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012.gif"> – действительные  числа, <img align="absmiddle"  width="9" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014.gif"> – так называемая <em>мнимая единица</em>. Число <img align="absmiddle"  width="13" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image010_0000.gif"> называется <em>действительной частью</em> <em>(<img align="absmiddle"  width="32" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image016.gif">) </em>комплексного числа <img align="absmiddle"  width="13" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0000.gif">, число <img align="absmiddle"  width="13" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012_0000.gif"> называется <em>мнимой частью</em> <em>(<img align="absmiddle"  width="32" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image019.gif">)</em> комплексного числа <img align="absmiddle"  width="13" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0001.gif">.</p>
+  <p><img align="absmiddle"  width="40" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image021.gif"> – это ЕДИНОЕ  ЧИСЛО, а не сложение. Действительную и мнимую  части комплексного числа, в принципе, можно переставить местами: <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image023.gif"> или переставить мнимую  единицу: <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image025.gif"> – от этого комплексное  число не изменится. <strong>Но стандартно  комплексное число принято записывать именно в таком порядке</strong>:  <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0000.gif"></p>
+  <p>Чтобы всё было понятнее, сразу приведу геометрическую  интерпретацию. Комплексные числа изображаются на <em>комплексной плоскости</em>:<br>
+      <img align="absmiddle"  width="384" height="382" src="h/kompleksnye_chisla_dlya_chainikov_clip_image027.gif" alt="Комплексная плоскость"><br>
+    Как упоминалось выше, буквой <img align="absmiddle"  width="17" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002_0000.gif"> принято обозначать  множество действительных чисел. <strong>Множество </strong>же<strong> комплексных чисел </strong>принято  обозначать «жирной» или утолщенной буквой <img align="absmiddle"  width="16" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image030.gif">. Поэтому на чертеже следует поставить букву <img align="absmiddle"  width="16" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image030_0000.gif">, обозначая тот факт, что у нас комплексная плоскость.</p>
+  <p>Комплексная плоскость состоит из двух осей:<br>
+      <img align="absmiddle"  width="32" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image016_0000.gif"> – действительная ось<br>
+      <img align="absmiddle"  width="32" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image019_0000.gif"> – мнимая ось</p>
+  <p>Правила оформления чертежа практически такие же, как и для  чертежа в декартовой системе координат (см. <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и свойства элементарных функций</a></strong>). По осям нужно задать  масштаб, отмечаем:</p>
+  <p> ноль; </p>
+  <p>единицу по действительной оси;</p>
+  <p> мнимую единицу <img align="absmiddle"  width="9" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014_0000.gif"> по мнимой оси. </p>
+  <p>Не  нужно проставлять все значения: …–3, –2, –1, 0, 1, 2, 3,… и <img align="absmiddle"  width="155" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image034.gif">. </p>
+  <p>Да чего тут мелочиться, рассмотрим чисел десять.</p>
+  <p>Построим на комплексной плоскости следующие комплексные  числа:<br>
+      <img align="absmiddle"  width="41" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image036.gif">, <img align="absmiddle"  width="51" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image038.gif">, <img align="absmiddle"  width="43" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image040.gif"><br>
+      <img align="absmiddle"  width="40" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image042.gif">, <img align="absmiddle"  width="67" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image044.gif">, <img align="absmiddle"  width="48" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image046.gif"><br>
+      <img align="absmiddle"  width="69" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image048.gif">, <img align="absmiddle"  width="71" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image050.gif">, <img align="absmiddle"  width="77" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image052.gif">, <img align="absmiddle"  width="79" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image054.gif"></p>
+  <p><img align="absmiddle"  width="511" height="510" src="h/kompleksnye_chisla_dlya_chainikov_clip_image056.gif" alt="Как изобразить комплексные числа на комплексной плоскости"><br>
+    По какому принципу отмечены числа на комплексной плоскости,  думаю, очевидно – комплексные числа отмечают точно так же, как мы отмечали  точки еще в 5-6 классе на уроках геометрии.<br>
+    <br>
+    Рассмотрим следующие комплексные числа: <img align="absmiddle"  width="41" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image036_0000.gif">, <img align="absmiddle"  width="51" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image038_0000.gif">, <img align="absmiddle"  width="43" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image040_0000.gif">. Вы скажете, да это же обыкновенные действительные числа! И  будете почти правы. Действительные числа – это частный случай комплексных  чисел. Действительная ось <img align="absmiddle"  width="32" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image016_0001.gif"> обозначает в точности  множество действительных чисел <img align="absmiddle"  width="17" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002_0001.gif">, то есть на оси<img align="absmiddle"  width="32" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image016_0002.gif"> сидят все наши  «обычные» числа. Более строго утверждение можно сформулировать так: Множество  действительных чисел <img align="absmiddle"  width="17" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002_0002.gif"> является <a href="mnozhestva.html">подмножеством</a>  множества комплексных чисел <img align="absmiddle"  width="16" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image030_0001.gif">.</p>
+  <p>Числа <img align="absmiddle"  width="41" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image036_0001.gif">, <img align="absmiddle"  width="51" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image038_0001.gif">, <img align="absmiddle"  width="43" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image040_0001.gif"> – это комплексные  числа с нулевой мнимой частью.</p>
+  <p>Числа <img align="absmiddle"  width="40" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image042_0000.gif">, <img align="absmiddle"  width="67" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image044_0000.gif">, <img align="absmiddle"  width="48" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image046_0000.gif"> – это, наоборот, <em>чисто мнимые числа</em>, т.е. числа с нулевой  действительной частью. Они располагаются строго на мнимой оси <img align="absmiddle"  width="32" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image019_0001.gif">.</p>
+  <p>В числах <img align="absmiddle"  width="69" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image048_0000.gif">, <img align="absmiddle"  width="71" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image050_0000.gif">, <img align="absmiddle"  width="77" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image052_0000.gif">, <img align="absmiddle"  width="79" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image054_0000.gif"> и действительная и  мнимая части не равны нулю. Такие числа тоже обозначаются точками на  комплексной плоскости, при этом, к ним принято проводить радиус-векторы из  начала координат (обозначены красным цветом на чертеже). Радиус-векторы к  числам, которые располагаются на осях, обычно не  чертят, потому что они сливаются с осями.</p>
+  </br>
+  <a name="af"></a><h2><strong>Алгебраическая форма  комплексного числа.<br>
+      Сложение, вычитание,  умножение и деление комплексных чисел</strong></h2>
+  <p>С алгебраической формой комплексного числа мы уже познакомились, <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0001.gif"> – это и есть  алгебраическая форма комплексного числа. Почему речь зашла о форме? Дело в том,  что существуют еще тригонометрическая и показательная форма комплексных чисел,  о которых пойдет речь в следующем параграфе.</p>
+  <p>Действия с комплексными числами не представляют особых  сложностей и мало чем отличаются от обычной алгебры.</p>
+  <div id="primer">
+    <h3><strong>Сложение комплексных  чисел</strong></h3>
+    <p><u>Пример 1</u></p>
+    <p>Сложить два комплексных числа <img align="absmiddle"  width="65" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image058.gif">, <img align="absmiddle"  width="69" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image060.gif"></p>
+    <p>Для того чтобы сложить два комплексных числа нужно сложить  их действительные и мнимые части:<br>
+        <img align="absmiddle"  width="196" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image062.gif"></p>
+    <p>Просто, не правда ли? Действие настолько очевидно, что не  нуждается в дополнительных комментариях.</p>
+    <p>Таким нехитрым способом можно найти сумму любого количества  слагаемых: просуммировать действительные части и просуммировать мнимые части.</p>
+    <p>Для комплексных чисел справедливо правило первого класса: <img align="absmiddle"  width="101" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image064.gif"> – от перестановки  слагаемых сумма не меняется.</p>
+    <h3><strong>Вычитание комплексных  чисел</strong></h3>
+    <p><u>Пример 2</u></p>
+    <p>Найти разности комплексных чисел <img align="absmiddle"  width="44" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image066.gif"> и <img align="absmiddle"  width="44" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image068.gif">, если <img align="absmiddle"  width="69" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image070.gif">, <img align="absmiddle"  width="81" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image072.gif"></p>
+    <p>Действие аналогично сложению, единственная особенность  состоит в том, что вычитаемое нужно взять в скобки, а затем – стандартно  раскрыть эти скобки со сменой знака:</p>
+    <p><img align="absmiddle"  width="380" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image074.gif"></p>
+    <p>Результат не должен смущать, у полученного числа две, а не  три части. Просто действительная часть – составная: <img align="absmiddle"  width="57" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image076.gif">. Для наглядности ответ можно переписать так: <img align="absmiddle"  width="152" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image078.gif">.</p>
+    <p>Рассчитаем вторую разность:<br>
+        <img align="absmiddle"  width="363" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image080.gif"><br>
+      Здесь действительная часть тоже составная: <img align="absmiddle"  width="47" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image082.gif"></p>
+    <p>Чтобы не было какой-то недосказанности, приведу короткий  пример с «нехорошей» мнимой частью: <img align="absmiddle"  width="208" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image084.gif">. Вот здесь без скобок уже не обойтись.</p>
+    <h3><strong>Умножение комплексных  чисел</strong></h3>
+    <p>Настал момент познакомить вас со знаменитым равенством:</p>
+    <p><img align="absmiddle"  width="48" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image086.gif"></p>
+    <p><u>Пример 3</u></p>
+    <p>Найти произведение комплексных чисел  <img align="absmiddle"  width="57" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image088.gif">, <img align="absmiddle"  width="69" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image090.gif"></p>
+    <p>Очевидно, что произведение следует записать так:<br>
+        <img align="absmiddle"  width="136" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image092.gif"></p>
+    <p>Что напрашивается? Напрашивается раскрыть скобки по правилу  умножения многочленов. Так и нужно сделать! Все алгебраические действия вам  знакомы, главное, помнить, что <img align="absmiddle"  width="48" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image086_0000.gif"> <strong>и быть внимательным</strong>.</p>
+    <p>Повторим, omg, школьное правило умножения многочленов: Чтобы  умножить многочлен на многочлен нужно каждый член одного многочлена умножить на  каждый член другого многочлена.</p>
+    <p>Я распишу подробно:<br>
+        <img align="absmiddle"  width="443" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image094.gif"></p>
+    <p>Надеюсь, всем было понятно, что <img align="absmiddle"  width="188" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image096.gif"></p>
+    <p>Внимание, и еще раз внимание, чаще всего ошибку допускают в  знаках.</p>
+    <p>Как и сумма, произведение комплексных чисел перестановочно,  то есть справедливо равенство: <img align="absmiddle"  width="88" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image098.gif">.</p>
+    <p>В учебной литературе и на просторах Сети легко найти  специальную формулу для вычисления произведения комплексных чисел. Если хотите,  пользуйтесь, но мне кажется, что подход с умножением многочленов универсальнее  и понятнее. Формулу приводить не буду, считаю, что в данном случае – это  забивание головы опилками.</p>
+    <h3><strong>Деление комплексных  чисел</strong></h3>
+    <p><u>Пример 4</u></p>
+    <p>Даны комплексные числа <img align="absmiddle"  width="67" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image100.gif">, <img align="absmiddle"  width="71" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image102.gif">. Найти частное <img align="absmiddle"  width="21" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image104.gif">.</p>
+    <p>Составим частное:<br>
+        <img align="absmiddle"  width="76" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image106.gif"></p>
+    <p>Деление чисел осуществляется <strong>методом умножения знаменателя и числителя на сопряженное знаменателю  выражение</strong>. </p>
+    <p>Вспоминаем бородатую формулу <img align="absmiddle"  width="149" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image108.gif"> и смотрим на наш <u>знаменатель</u>: <img align="absmiddle"  width="40" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image110.gif">. В знаменателе уже есть <img align="absmiddle"  width="47" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image112.gif">, поэтому сопряженным выражением в данном случае является <img align="absmiddle"  width="47" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image114.gif">, то есть <img align="absmiddle"  width="40" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image116.gif"></p>
+    <p>Согласно правилу, знаменатель нужно умножить на <img align="absmiddle"  width="40" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image116_0000.gif">, и, чтобы ничего не изменилось, домножить числитель на то же  самое число <img align="absmiddle"  width="40" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image116_0001.gif">:<br>
+        <img align="absmiddle"  width="133" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image118.gif"></p>
+    <p>Далее в числителе нужно раскрыть скобки (перемножить два  числа по правилу, рассмотренному в предыдущем пункте). А в знаменателе  воспользоваться формулой <img align="absmiddle"  width="149" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image108_0000.gif"> (помним, что<img align="absmiddle"  width="48" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image086_0001.gif"> и не путаемся в  знаках!!!).</p>
+    <p>Распишу подробно:<br>
+        <img align="absmiddle"  width="397" height="91" src="h/kompleksnye_chisla_dlya_chainikov_clip_image120.gif"></p>
+    <p>Пример я подобрал «хороший», если взять два числа «от  балды», то в результате деления почти всегда получатся дроби, что-нибудь вроде <img align="absmiddle"  width="60" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image122.gif">.</p>
+    <p>В ряде случаев перед делением дробь целесообразно упростить,  например, рассмотрим частное чисел: <img align="absmiddle"  width="61" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image124.gif">. Перед делением избавляемся от лишних минусов: в числителе и  в знаменателе выносим минусы за скобки и сокращаем эти минусы: <img align="absmiddle"  width="208" height="44" src="h/kompleksnye_chisla_dlya_chainikov_clip_image126.gif">. Для любителей порешать приведу правильный ответ: <img align="absmiddle"  width="9" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014_0001.gif"></p>
+    <p>Редко, но встречается такое задание:</p>
+    <p><u>Пример 5</u></p>
+    <p>Дано комплексное число <img align="absmiddle"  width="71" height="44" src="h/kompleksnye_chisla_dlya_chainikov_clip_image129.gif">. Записать данное число в алгебраической форме (т.е. в форме <img align="absmiddle"  width="41" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image131.gif">).</p>
+    <p>Приём тот же самый – умножаем знаменатель и числитель на  сопряженное знаменателю выражение. Снова смотрим на формулу <img align="absmiddle"  width="149" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image108_0001.gif">. В знаменателе уже есть <img align="absmiddle"  width="47" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image114_0000.gif">, поэтому знаменатель и числитель нужно домножить на  сопряженное выражение <img align="absmiddle"  width="47" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image112_0000.gif">, то есть на <img align="absmiddle"  width="44" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image136.gif">:<br>
+        <img align="absmiddle"  width="468" height="49" src="h/kompleksnye_chisla_dlya_chainikov_clip_image138.gif"></p>
+    <p><u>Пример 6</u></p>
+    <p>Даны два комплексных числа <img align="absmiddle"  width="68" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image140.gif">, <img align="absmiddle"  width="69" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image142.gif">. Найти их сумму, разность, произведение и частное. </p>
+    <p>Это пример для самостоятельного решения. Полное решение и  ответ в конце урока.</p>
+  </div>
+  <p>На практике запросто могут предложить <a href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">навороченный пример</a>, где  нужно выполнить много действий с комплексными числами. Никакой паники: <strong>будьте внимательны</strong>, соблюдайте правила  алгебры, обычный алгебраический порядок действий, и помните, что <img align="absmiddle"  width="48" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image086_0002.gif"></p>
+  <br>
+  <a name="tf"></a><h2><strong>Тригонометрическая и  показательная форма комплексного числа</strong></h2>
+  <p>В данном параграфе больше речь пойдет о тригонометрической  форме комплексного числа. Показательная форма в практических заданиях  встречается значительно реже. Рекомендую закачать и по возможности распечатать <em>тригонометрические таблицы</em>, методический  материал можно найти на странице <strong><a href="matematicheskie_formuly.html">Математические  формулы и таблицы</a></strong>. Без таблиц далеко не уехать.</p>
+  <p>Любое комплексное число (кроме нуля) <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0002.gif"> можно записать в  тригонометрической форме:<br>
+      <img align="absmiddle"  width="144" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image145.gif">, где <img align="absmiddle"  width="17" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image147.gif"> – это <strong>модуль комплексного числа</strong>, а <img align="absmiddle"  width="15" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image149.gif"> – <strong>аргумент комплексного числа</strong>. Не разбегаемся, всё проще, чем  кажется.</p>
+  <p>Изобразим на комплексной плоскости число <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0003.gif">. Для определённости и простоты объяснений расположим его в  первой координатной четверти, т.е. считаем, что <img align="absmiddle"  width="77" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image152.gif">: <br>
+      <img align="absmiddle"  width="331" height="325" src="h/kompleksnye_chisla_dlya_chainikov_clip_image154.gif" alt="Модуль и аргумент комплексного числа"></p>
+  <p><strong>Модулем комплексного  числа</strong> <img align="absmiddle"  width="13" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0002.gif"> называется расстояние  от начала координат до соответствующей точки комплексной плоскости. Попросту  говоря, <strong>модуль – это длина</strong> радиус-вектора,  который на чертеже обозначен красным цветом. </p>
+  <p>Модуль комплексного числа <img align="absmiddle"  width="13" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0003.gif"> стандартно обозначают: <img align="absmiddle"  width="17" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image147_0000.gif"> или <img align="absmiddle"  width="12" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image158.gif"></p>
+  <p>По теореме Пифагора легко вывести формулу для нахождения  модуля комплексного числа: <img align="absmiddle"  width="89" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image160.gif">. Данная формула справедлива <strong>для любых</strong> значений «а» и «бэ».</p>
+  <p><strong><em>Примечание</em></strong><em>: модуль комплексного числа представляет собой обобщение понятия<strong> <a href="goryachie_formuly.pdf" target="_blank">модуля  действительного числа</a></strong>, как расстояния от точки до  начала координат.</em></p>
+  <p><strong>Аргументом  комплексного числа</strong> <img align="absmiddle"  width="13" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0004.gif"> называется <strong>угол </strong><img align="absmiddle"  width="15" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image149_0000.gif"> между <u>положительной  полуосью</u> действительной оси <img align="absmiddle"  width="32" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image016_0003.gif"> и радиус-вектором,  проведенным из начала координат к соответствующей точке. Аргумент не определён  для единственного числа: <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image163.gif">.</p>
+  <p>Рассматриваемый принцип фактически схож с <strong><a href="poljarnye_koordinaty.html">полярными координатами</a></strong>, где полярный  радиус и полярный угол однозначно определяют точку.</p>
+  <p>Аргумент комплексного числа <img align="absmiddle"  width="13" height="13" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0005.gif"> стандартно обозначают: <img align="absmiddle"  width="15" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image149_0001.gif"> или <img align="absmiddle"  width="35" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image165.gif"></p>
+  <p>Из геометрических соображений получается следующая формула  для нахождения аргумента:<br>
+      <img align="absmiddle"  width="99" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image167.gif">. <strong>Внимание!</strong> Данная  формула работает только в правой полуплоскости! Если комплексное число  располагается не в 1-й и не 4-й координатной четверти, то формула будет  немного другой. Эти случаи мы тоже разберем.</p>
+  <p>Но сначала рассмотрим простейшие примеры, когда комплексные  числа располагаются на координатных осях.</p>
+  <p><u>Пример 7</u></p>
+  <p>Представить в тригонометрической форме комплексные числа: <img align="absmiddle"  width="39" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image169.gif">, <img align="absmiddle"  width="48" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image171.gif">, <img align="absmiddle"  width="51" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image173.gif">, <img align="absmiddle"  width="56" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image175.gif">.<br>
+    Выполним чертёж:<br>
+  <img align="absmiddle"  width="511" height="510" src="h/kompleksnye_chisla_dlya_chainikov_clip_image177.gif" alt="Комплексные числа на осях"></p>
+  <p>На самом деле задание устное. Для наглядности перепишу тригонометрическую  форму комплексного числа: <img align="absmiddle"  width="144" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image145_0000.gif"></p>
+  <p>Запомним намертво, модуль – <strong>длина</strong> (которая всегда <u>неотрицательна</u>), аргумент – <strong>угол</strong>.</p><div id="primer">
+  <p>1) Представим в тригонометрической форме число <img align="absmiddle"  width="39" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image169_0000.gif">. Найдем его модуль и аргумент. Очевидно, что <img align="absmiddle"  width="43" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image180.gif">. Формальный расчет по формуле: <img align="absmiddle"  width="219" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image182.gif">.<br>
+    Очевидно, что <img align="absmiddle"  width="43" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image184.gif"> (число лежит  непосредственно на действительной положительной полуоси). Таким образом, число  в тригонометрической форме: <img align="absmiddle"  width="113" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image186.gif">.</p>
+  <p>Ясно, как день, обратное проверочное действие: <img align="absmiddle"  width="192" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image188.gif"></p>
+  <p>2) Представим в тригонометрической форме число <img align="absmiddle"  width="48" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image171_0000.gif">. Найдем его модуль и аргумент. Очевидно, что <img align="absmiddle"  width="47" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image191.gif">. Формальный расчет по формуле: <img align="absmiddle"  width="229" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image193.gif">.<br>
+    Очевидно, что <img align="absmiddle"  width="49" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image195.gif"> (или 90 градусов). На  чертеже угол обозначен красным цветом. Таким образом, число в  тригонометрической форме: <img align="absmiddle"  width="149" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image197.gif">.</p>
+  <p>Используя <em>таблицу  значений тригонометрических функций</em>, легко обратно получить алгебраическую  форму числа (заодно выполнив проверку):<br>
+    <img align="absmiddle"  width="253" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image199.gif"></p>
+  <p>3) Представим в тригонометрической форме число <img align="absmiddle"  width="51" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image173_0000.gif">. Найдем его модуль и аргумент. Очевидно, что <img align="absmiddle"  width="45" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image202.gif">. Формальный расчет по формуле: <img align="absmiddle"  width="247" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image204.gif">.<br>
+    Очевидно, что <img align="absmiddle"  width="47" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image206.gif"> (или 180 градусов). На  чертеже угол обозначен синим цветом. Таким образом, число в тригонометрической  форме: <img align="absmiddle"  width="136" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image208.gif">.</p>
+  <p>Проверка: <img align="absmiddle"  width="255" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image210.gif"></p>
+  <p>4) И четвёртый интересный случай. Представим в  тригонометрической форме число <img align="absmiddle"  width="56" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image175_0000.gif">. Найдем его модуль и аргумент. Очевидно, что <img align="absmiddle"  width="47" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image213.gif">. Формальный расчет по формуле: <img align="absmiddle"  width="256" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image215.gif">.</p>
+  <p>Аргумент можно записать двумя способами: Первый способ: <img align="absmiddle"  width="57" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image217.gif"> (270 градусов), и,  соответственно: <img align="absmiddle"  width="164" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image219.gif">. Проверка: <img align="absmiddle"  width="299" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image221.gif"></p>
+  <p>Однако более стандартно следующее правило: <strong>Если угол больше 180 градусов</strong>, то его  записывают со знаком минус и противоположной ориентацией («прокруткой») угла: <img align="absmiddle"  width="60" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image223.gif"> (минус 90 градусов), на  чертеже угол отмечен зеленым цветом. Легко заметить, что <img align="absmiddle"  width="57" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image217_0000.gif"> и <img align="absmiddle"  width="60" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image223_0000.gif"> – это один и тот же  угол.</p>
+  <p>Таким образом, запись принимает вид: <img align="absmiddle"  width="200" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image226.gif"></p>
+  <p><strong>Внимание!</strong> Ни в  коем случае нельзя использовать четность косинуса, нечетность синуса и  проводить дальнейшее «упрощение» записи:<br>
+      <img align="absmiddle"  width="455" height="67" src="h/kompleksnye_chisla_dlya_chainikov_clip_image228.jpg"></p></div>
+  <p>Кстати, полезно вспомнить внешний вид и свойства  тригонометрических и обратных тригонометрических функций, справочные материалы  находятся в последних параграфах страницы <strong><a href="grafiki_i_svoistva_funkcij.html">Графики  и свойства основных элементарных функций</a></strong>. И комплексные числа усвоятся  заметно легче!</p>
+  <p>В оформлении простейших примеров так и следует записывать<em>: «очевидно, что модуль равен… очевидно, что  аргумент равен...»</em>.  Это действительно  очевидно и легко решается устно.</p>
+  <p>Перейдем к рассмотрению более распространенных случаев. Как  я уже отмечал, с модулем проблем не возникает, всегда следует использовать  формулу <img align="absmiddle"  width="89" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image160_0000.gif">. А вот формулы для нахождения аргумента будут разными, это  зависит от того, в какой координатной четверти лежит число <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0004.gif">. При этом возможны три варианта (их полезно переписать к  себе в тетрадь):</p>
+  <p>1) Если <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image230.gif"> (1-я и 4-я  координатные четверти, или правая полуплоскость), то аргумент нужно находить по  формуле <img align="absmiddle"  width="99" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image167_0000.gif">.</p>
+  <p>2) Если <img align="absmiddle"  width="76" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image232.gif"> (2-я координатная  четверть), то аргумент нужно находить по формуле <img align="absmiddle"  width="124" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image234.gif">.</p>
+  <p>3) Если <img align="absmiddle"  width="76" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image236.gif"> (3-я координатная  четверть), то аргумент нужно находить по формуле <img align="absmiddle"  width="133" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image238.gif">.</p>
+  <p><u>Пример 8</u></p>
+  <p>Представить в тригонометрической форме комплексные числа: <img align="absmiddle"  width="79" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002_0003.gif">, <img align="absmiddle"  width="80" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image004_0000.gif">, <img align="absmiddle"  width="79" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0006.gif">, <img align="absmiddle"  width="77" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0005.gif">.</p>
+  <p>Коль скоро есть готовые формулы, то чертеж выполнять не  обязательно. Но есть один момент: когда вам предложено задание представить число  в тригонометрической форме, то <strong>чертёж  лучше в любом случае выполнить</strong>. Дело в том, что решение без чертежа часто  бракуют преподаватели, отсутствие чертежа – серьёзное основание для минуса и  незачета.</p>
+  <p>Эх, сто лет от руки ничего не чертил, держите:<br>
+      <img align="absmiddle"  width="406" height="348" src="h/kompleksnye_chisla_dlya_chainikov_clip_image010.jpg" alt="Как найти аргумент комплексного числа в зависимости от координатной четверти"></p>
+  <p>Как всегда, грязновато получилось =)</p><div id="primer">
+  <p>Я представлю в комплексной форме числа <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012_0001.gif"> и <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014_0002.gif">, первое и третье числа будут для самостоятельного решения.</p>
+  <p>Представим в тригонометрической форме число <img align="absmiddle"  width="80" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image004_0001.gif">. Найдем его модуль и аргумент.<br>
+      <img align="absmiddle"  width="275" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image016_0004.gif"><br>
+    Поскольку <img align="absmiddle"  width="76" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image018.gif"> (случай 2), то <img align="absmiddle"  width="421" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image020.gif"> – вот здесь  нечетностью арктангенса воспользоваться нужно. К сожалению, в таблице  отсутствует значение <img align="absmiddle"  width="48" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image022.gif">, поэтому в подобных случаях аргумент приходится оставлять в  громоздком виде:<br>
+  <img align="absmiddle"  width="292" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image024.gif"> – число <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012_0002.gif"> в тригонометрической  форме.</p>
+  <p>Расскажу о забавном способе проверки. Если вы будете  выполнять чертеж на клетчатой бумаге в том масштабе, который у меня (1 ед. = 1  см), то можно взять линейку и измерить модуль в сантиметрах. Если есть  транспортир, то можно непосредственно по чертежу измерить и угол. </p>
+  <p>Перечертите чертеж в тетрадь и измерьте линейкой расстояние от  начала координат до числа <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012_0003.gif">. Вы убедитесь, что действительно <img align="absmiddle"  width="132" height="28" src="h/kompleksnye_chisla_dlya_chainikov_clip_image026.gif">. Также транспортиром можете измерить угол и убедиться, что  действительно <img align="absmiddle"  width="171" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image028.gif">.</p>
+  <p>Представим в тригонометрической форме число <img align="absmiddle"  width="77" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image008_0006.gif">. Найдем его модуль и аргумент.<br>
+      <img align="absmiddle"  width="241" height="32" src="h/kompleksnye_chisla_dlya_chainikov_clip_image030_0002.gif"></p>
+  <p>Поскольку <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image032.gif"> (случай 1), то <img align="absmiddle"  width="315" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image034_0000.gif"> (минус 60 градусов).</p>
+  <p>Таким образом: <br>
+      <img align="absmiddle"  width="200" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image036_0002.gif"> – число <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014_0003.gif"> в тригонометрической  форме.</p>
+  <p>А вот здесь, как уже отмечалось, минусы <u>не трогаем</u>. </p>
+  <p>Кроме забавного графического метода проверки, существует и  проверка аналитическая, которая уже проводилась в Примере 7. Используем <em>таблицу значений тригонометрических функций</em>,  при этом учитываем, что угол <img align="absmiddle"  width="29" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image039.gif"> – это в точности  табличный угол <img align="absmiddle"  width="88" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image041.gif"> (или 300 градусов):<br>
+      <img align="absmiddle"  width="387" height="56" src="h/kompleksnye_chisla_dlya_chainikov_clip_image043.gif"> – число <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014_0004.gif"> в исходной  алгебраической форме.</p>
+  <p>Числа <img align="absmiddle"  width="79" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002_0004.gif"> и <img align="absmiddle"  width="79" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0007.gif"> представьте в  тригонометрической форме самостоятельно. Краткое решение и ответ в конце урока.</p></div>
+  <p>В конце параграфа кратко о показательной форме комплексного  числа.</p>
+  <p>Любое комплексное число (кроме нуля) <img align="absmiddle"  width="65" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image047.gif"> можно записать в  показательной форме:<br>
+      <img align="absmiddle"  width="65" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image049.gif">, где <img align="absmiddle"  width="17" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image051.gif"> – это модуль  комплексного числа, а <img align="absmiddle"  width="15" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image053.gif"> – аргумент  комплексного числа.</p>
+  <p>Что нужно сделать, чтобы представить комплексное число в  показательной форме? Почти то же самое: выполнить чертеж, найти модуль и  аргумент. И записать число в виде <img align="absmiddle"  width="65" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image049_0000.gif">.</p>
+  <p>Например, для числа <img align="absmiddle"  width="80" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image004_0002.gif"> предыдущего примера у  нас найден модуль и аргумент: <img align="absmiddle"  width="67" height="28" src="h/kompleksnye_chisla_dlya_chainikov_clip_image055.gif">, <img align="absmiddle"  width="125" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image057.gif">. Тогда данное число в показательной форме запишется  следующим образом: <img align="absmiddle"  width="128" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image059.gif">.</p>
+  <p>Число <img align="absmiddle"  width="259" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image061.gif"> в показательной форме  будет выглядеть так: <img align="absmiddle"  width="85" height="37" src="h/kompleksnye_chisla_dlya_chainikov_clip_image063.gif"></p>
+  <p>Число <img align="absmiddle"  width="228" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image065.gif"> – так: <img align="absmiddle"  width="91" height="36" src="h/kompleksnye_chisla_dlya_chainikov_clip_image067.gif"></p>
+  <p> И т.д.</p>
+  <p>Единственный совет – <strong>не  трогаем показатель</strong> экспоненты, там не нужно переставлять множители,  раскрывать скобки и т.п. Комплексное число в показательной форме записывается <strong>строго</strong> по форме <img align="absmiddle"  width="65" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image049_0001.gif">.</p>
+  <br>
+  <a name="ks"></a><h2><strong>Возведение  комплексных чисел в степень</strong></h2>
+  <p>Начнем со всеми любимого квадрата. </p>
+  <p><u>Пример 9</u></p>
+  <p>Возвести в квадрат комплексное число <img align="absmiddle"  width="64" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image069.gif"></p>
+  <p>Здесь можно пойти двумя путями, первый способ это переписать  степень как произведение множителей <img align="absmiddle"  width="197" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image071.gif"> и перемножить числа по  правилу умножения многочленов.</p>
+  <p>Второй способ состоит в применении известной школьной  формулы сокращенного умножения <img align="absmiddle"  width="153" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image073.gif">:<br>
+      <img align="absmiddle"  width="373" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image075.gif"></p>
+  <p>Для комплексного числа легко вывести свою формулу  сокращенного умножения:<br>
+      <img align="absmiddle"  width="284" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image077.gif">. Аналогичную формулу можно вывести для квадрата разности, а  также для куба суммы и куба разности. Но эти формулы более актуальны для <strong><a href="funkcii_kompleksnoi_peremennoi.html">задач комплексного анализа</a></strong>, поэтому на  данном уроке я воздержусь от подробных выкладок.</p>
+  <p>Что делать, если комплексное число нужно возвести, скажем, в  5-ю, 10-ю или 100-ю степень? Ясно, что в алгебраической форме проделать такой  трюк практически невозможно, действительно, подумайте, как вы будете решать  пример вроде <img align="absmiddle"  width="95" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image079.gif">?</p>
+  <p>И здесь на помощь приходит тригонометрическая форма  комплексного числа и, так называемая, <strong>формула  Муавра</strong>: Если комплексное число представлено в тригонометрической форме <img align="absmiddle"  width="144" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image081.gif">, то при его возведении в натуральную степень <img align="absmiddle"  width="13" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image083.gif"> справедлива формула:</p>
+  <p><img align="absmiddle"  width="195" height="29" src="h/kompleksnye_chisla_dlya_chainikov_clip_image085.gif"></p>
+  <p>Данная формула следует из <strong>правила умножения комплексных чисел, представленных в  тригонометрической форме</strong>: чтобы найти произведение чисел <img align="absmiddle" width="160" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image999.gif">, <img align="absmiddle" width="168" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image998.gif"> нужно перемножить их  модули и сложить аргументы:<br>
+    <img align="absmiddle" width="284" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image997.gif"></p>
+  <p>Аналогично для показательной формы: если <img align="absmiddle" width="176" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image996.gif">, то:<br>
+      <img align="absmiddle" width="147" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image995.gif"></p>
+  <p>Просто до безобразия.</p><div id="primer">
+  <p><u>Пример 10</u></p>
+  <p>Дано комплексное число <img align="absmiddle"  width="73" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image087.gif">, найти <img align="absmiddle"  width="23" height="20" src="h/kompleksnye_chisla_dlya_chainikov_clip_image089.gif">.</p>
+  <p>Что нужно сделать? Сначала нужно представить данное число в  тригонометрической форме. Внимательные читатели заметили, что в Примере 8 мы  это уже сделали:</p>
+  <p><img align="absmiddle"  width="163" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image091.gif"> </p>
+  <p>Тогда, по формуле Муавра:<br>
+      <img align="absmiddle"  width="491" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image093.gif"></p>
+  <p>Упаси боже, не нужно считать на калькуляторе <img align="absmiddle"  width="53" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image095.gif">, а вот угол в большинстве случае следует упростить. Как  упростить? Образно говоря, нужно  избавиться от лишних оборотов. Один оборот составляет <img align="absmiddle"  width="24" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image097.gif"> радиан или 360  градусов. Выясним сколько у нас оборотов в аргументе <img align="absmiddle"  width="32" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image099.gif">. Для удобства делаем дробь правильной: <img align="absmiddle"  width="79" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image101.gif">, после чего становится хорошо видно, что можно убавить один оборот: <img align="absmiddle"  width="103" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image103.gif">. Надеюсь всем понятно, что <img align="absmiddle"  width="32" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image105.gif"> и <img align="absmiddle"  width="27" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image107.gif"> – это один и тот же  угол.</p>
+  <p>Таким образом, окончательный ответ запишется так:<br>
+      <img align="absmiddle"  width="221" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image109.gif"></p>
+  <p>Любители стандартов везде и во всём могут переписать ответ в  виде:<br>
+      <img align="absmiddle"  width="272" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image111.gif"> (т.е. убавить еще один  оборот и получить значение аргумента в стандартном виде).</p>
+  <p>Хотя <img align="absmiddle"  width="221" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image109_0000.gif"> – ни в коем случае не  ошибка.</p>
+  <p><u>Пример 11</u></p>
+  <p>Дано комплексное число <img align="absmiddle"  width="72" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image113.gif">, найти <img align="absmiddle"  width="23" height="20" src="h/kompleksnye_chisla_dlya_chainikov_clip_image115.gif">. Полученный аргумент (угол) упростить, результат представить  в алгебраической форме.</p>
+  <p>Это пример для самостоятельного решения, полное решение и  ответ в конце урока.</p></div>
+  <p>Отдельная разновидность задачи возведения в степень – это  возведение в степень чисто мнимых чисел.</p>
+  <p><u>Пример 12</u></p>
+  <p>Возвести в степень комплексные числа <img align="absmiddle"  width="19" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image117.gif">, <img align="absmiddle"  width="19" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image119.gif">, <img align="absmiddle"  width="39" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image121.gif"></p>
+  <p>Здесь тоже всё просто, главное, помнить знаменитое  равенство.</p>
+  <p>Если мнимая единица возводится в четную степень, то техника  решения такова:<br>
+      <img align="absmiddle"  width="145" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image123.gif"></p>
+  <p>Если мнимая единица возводится в нечетную степень, то  «отщипываем» одно «и»,  получая четную  степень:<br>
+      <img align="absmiddle"  width="249" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image125.gif"></p>
+  <p>Если есть минус (или любой действительный коэффициент), то  его необходимо предварительно отделить:<br>
+      <img align="absmiddle"  width="349" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image127.gif"></p>
+  <p><u>Пример 13</u></p>
+  <p>Возвести в степень комплексные числа <img align="absmiddle"  width="43" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image129_0000.gif">, <img align="absmiddle"  width="36" height="49" src="h/kompleksnye_chisla_dlya_chainikov_clip_image131_0000.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <br>
+  <a name="kk"></a><h2><strong>Извлечение корней из  комплексных чисел.<br> Квадратное уравнение с комплексными корнями</strong></h2>
+  <p>Наконец-то. Меня всю дорогу подмывало привести этот  маленький примерчик:<br>
+      <img align="absmiddle"  width="61" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image133.gif"></p>
+  <p>Нельзя извлечь корень? Если речь идет о действительных  числах, то действительно нельзя. В комплексных числах извлечь корень –  можно! А точнее, <u>два</u> корня:</p>
+  <p><img align="absmiddle"  width="103" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image135.gif"><br>
+      <img align="absmiddle"  width="96" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image137.gif"></p>
+  <p>Действительно ли найденные корни являются решением уравнения <img align="absmiddle"  width="52" height="20" src="h/kompleksnye_chisla_dlya_chainikov_clip_image139.gif">? Выполним проверку:</p>
+  <p><img align="absmiddle"  width="207" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image141.gif"><br>
+      <img align="absmiddle"  width="179" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image143.gif"></p>
+  <p>Что и требовалось проверить.</p>
+  <p>Часто используется сокращенная запись, оба корня записывают  в одну строчку под «одной гребёнкой»: <img align="absmiddle"  width="63" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image145_0001.gif">. </p>
+  <p>Такие корни также называют <em>сопряженными комплексными корнями</em>.</p>
+  <p>Как извлекать квадратные корни из отрицательных чисел,  думаю, всем понятно: <img align="absmiddle"  width="64" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image147_0001.gif">, <img align="absmiddle"  width="73" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image149_0002.gif">, <img align="absmiddle"  width="83" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image151.gif">, <img align="absmiddle"  width="84" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image153.gif">, <img align="absmiddle"  width="85" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image155.gif"> и т.д. Во всех случаях  получается <u>два</u> сопряженных комплексных корня.</p>
+  <p>О том, как извлечь квадратный корень из комплексного числа с  ненулевой мнимой частью, я расскажу чуть позже, а пока нечто знакомое:</p>
+  <p><u>Пример 14</u></p>
+  <p>Решить квадратное уравнение <img align="absmiddle"  width="105" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image157.gif"></p>
+  <p>Вычислим дискриминант:<br>
+      <img align="absmiddle"  width="136" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image159.gif"></p>
+  <p>Дискриминант отрицателен, и в действительных числах  уравнение решения не имеет. Но корень можно извлечь в комплексных числах!<br>
+      <img align="absmiddle"  width="76" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image161.gif"></p>
+  <p>По известным формулам получаем два корня:<br>
+      <img align="absmiddle"  width="85" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image163_0000.gif"><br>
+      <img align="absmiddle"  width="76" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image165_0000.gif"> – сопряженные комплексные  корни</p>
+  <p>Таким образом, уравнение <img align="absmiddle"  width="105" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image157_0000.gif"> имеет два сопряженных  комплексных корня: <img align="absmiddle"  width="67" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image167_0001.gif">, <img align="absmiddle"  width="69" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image169_0001.gif"></p>
+  <p>Нетрудно понять,что в <em>поле</em> комплексных чисел «школьное» квадратное уравнение всегда  при двух корнях! И вообще, любое уравнение вида <img align="absmiddle"  width="252" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image171_0001.gif"> имеет ровно <img align="absmiddle"  width="13" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image083_0000.gif"> комплексных корней, часть которых (или все) могут  быть действительными.</p>
+  <p>Простой пример для самостоятельного решения:</p>
+  <p><u>Пример 15</u></p>
+  <p>Найти корни уравнения <img align="absmiddle"  width="72" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image174.gif"> и разложить квадратный  двучлен на множители.</p>
+  <p>Разложение на множители осуществляется опять же по  стандартной школьной формуле. Но на этом тема не закрыта! Совсем скоро вы будете уверенно решать <strong><a href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">квадратные уравнения с комплексными  коэффициентами</a></strong> <em>(которые не являются действительными)</em>.</p>
+  <h3><strong>Как извлечь корень из произвольного комплексного числа?</strong></h3>
+  <p>Рассмотрим уравнение <img align="absmiddle"  width="47" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image176.gif">, или, то же самое: <img align="absmiddle"  width="52" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image178.gif">. Здесь «эн» может принимать любое натуральное значение,  которое больше единицы. В частности, при <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image180_0000.gif"> получается квадратный  корень <img align="absmiddle"  width="52" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image182_0000.gif">. Что касается именно квадратного корня, то он успешно  извлекается и «алгебраическим» методом, который рассмотрен на уроке <strong><a href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и системы уравнений с  комплексными числами</a></strong>. Но то позже – здесь и сейчас мы познакомимся с универсальным  способом, пригодным для произвольного «эн»:</p>
+  <p>Уравнение вида <img align="absmiddle"  width="52" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image178_0000.gif"> имеет ровно <img align="absmiddle"  width="13" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image083_0001.gif"> корней <img align="absmiddle"  width="99" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image186_0000.gif">, которые можно найти по формуле:<br>
+      <img align="absmiddle"  width="281" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image188_0000.gif">, где <img align="absmiddle"  width="20" height="27" src="h/kompleksnye_chisla_dlya_chainikov_clip_image190.gif"> – это модуль  комплексного числа <img align="absmiddle"  width="16" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image192.gif">, <img align="absmiddle"  width="15" height="17" src="h/kompleksnye_chisla_dlya_chainikov_clip_image053_0000.gif"> – его аргумент, а  параметр <img align="absmiddle"  width="13" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image195_0000.gif"> принимает значения: <img align="absmiddle"  width="119" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image197_0000.gif"></p><div id="primer">
+  <p><u>Пример 16</u></p>
+  <p>Найти корни уравнения <img align="absmiddle"  width="79" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image199_0000.gif"></p>
+  <p>Перепишем уравнение в виде <img align="absmiddle"  width="84" height="29" src="h/kompleksnye_chisla_dlya_chainikov_clip_image201.gif"></p>
+  <p>В данном примере <img align="absmiddle"  width="75" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image203.gif">,  <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image180_0001.gif">, поэтому уравнение будет иметь два корня: <img align="absmiddle"  width="17" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image206_0000.gif"> и <img align="absmiddle"  width="16" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image208_0000.gif">.<br>
+    Общую формулу можно сразу немножко детализировать:<br>
+  <img align="absmiddle"  width="281" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image210_0000.gif">, <img align="absmiddle"  width="56" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image212.gif"></p>
+  <p>Теперь нужно найти модуль и аргумент комплексного числа <img align="absmiddle"  width="75" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image203_0000.gif">:<br>
+      <img align="absmiddle"  width="228" height="32" src="h/kompleksnye_chisla_dlya_chainikov_clip_image214.gif"><br>
+    Число <img align="absmiddle"  width="16" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image192_0000.gif"> располагается в первой  четверти, поэтому:<br>
+  <img align="absmiddle"  width="189" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image217_0001.gif"><br>
+    Напоминаю, что при нахождении тригонометрической формы  комплексного числа всегда желательно сделать чертеж. </p>
+  <p>Еще более детализируем формулу:<br>
+      <img align="absmiddle"  width="281" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image219_0000.gif">, <img align="absmiddle"  width="56" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image212_0000.gif"></p>
+  <p>На чистовик так подробно оформлять, конечно, не нужно, это  сделано мной для того, чтобы вам было понятно, откуда что взялось.</p>
+  <p>Подставляя в формулу значение <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image221_0000.gif">, получаем первый корень:<br>
+      <img align="absmiddle"  width="453" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image223_0001.gif"></p>
+  <p>Подставляя в формулу значение <img align="absmiddle"  width="35" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image225.gif">, получаем второй корень:<br>
+      <img align="absmiddle"  width="463" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image227.gif"></p>
+  <p><strong>Ответ:</strong> <img align="absmiddle"  width="169" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image229.gif">, <img align="absmiddle"  width="184" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image231.gif"></p>
+  <p>При желании или требовании задания, полученные корни можно  перевести обратно в алгебраическую форму.</p>
+  <p>Следует отметить, что на практике аргумент подкоренного  числа может оказаться не так «хорош», как в рассмотренном примере. В этом  случае для извлечения квадратного корня лучше использовать упомянутый выше «алгебраический» метод.</p>
+  <p>И напоследок рассмотрим задание-«хит», в контрольных  работах почти всегда для решения предлагается уравнение третьей степени: <img align="absmiddle"  width="45" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image233.gif">.</p>
+  <p><u>Пример 17</u></p>
+  <p>Найти корни уравнения <img align="absmiddle"  width="69" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image235.gif">, где <img align="absmiddle"  width="97" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image237.gif"></p>
+  <p>Сначала представим уравнение в  виде <img align="absmiddle"  width="52" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image178_0001.gif">:<br>
+      <img align="absmiddle"  width="55" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image239.gif"></p>
+  <p>Если <img align="absmiddle"  width="97" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image237_0000.gif">, тогда <img align="absmiddle"  width="225" height="53" src="h/kompleksnye_chisla_dlya_chainikov_clip_image242.gif"></p>
+  <p>Обозначим <img align="absmiddle"  width="27" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image244.gif"> привычной формульной  буквой: <img align="absmiddle"  width="144" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image246.gif">.<br>
+    Таким образом, требуется найти корни уравнения <img align="absmiddle"  width="119" height="49" src="h/kompleksnye_chisla_dlya_chainikov_clip_image248.gif"></p>
+  <p>В данном примере <img align="absmiddle"  width="36" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image250.gif">, а значит, уравнение имеет ровно три корня: <img align="absmiddle"  width="17" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image206_0001.gif">, <img align="absmiddle"  width="16" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image208_0001.gif">, <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012_0004.gif"><br>
+    Детализирую общую формулу:<br>
+  <img align="absmiddle"  width="281" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image253.gif">, <img align="absmiddle"  width="68" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image255.gif"></p>
+  <p>Найдем модуль и аргумент комплексного числа <img align="absmiddle"  width="108" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image257.gif">:<br>
+      <img align="absmiddle"  width="267" height="61" src="h/kompleksnye_chisla_dlya_chainikov_clip_image259.gif"><br>
+    Число <img align="absmiddle"  width="16" height="15" src="h/kompleksnye_chisla_dlya_chainikov_clip_image192_0001.gif"> располагается во  второй четверти, поэтому:<br>
+  <img align="absmiddle"  width="407" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image261.gif"></p>
+  <p>Еще раз детализирую формулу:<br>
+      <img align="absmiddle"  width="311" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image263.gif">, <img align="absmiddle"  width="68" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image255_0000.gif"><br>
+    Корень удобно сразу же упростить:<br>
+  <img align="absmiddle"  width="299" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image266.gif"></p>
+  <p>Подставляем в формулу значение <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image221_0001.gif"> и получаем первый  корень:<br>
+      <img align="absmiddle"  width="473" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image268.gif"></p>
+  <p>Подставляем в формулу значение <img align="absmiddle"  width="35" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image225_0000.gif"> и получаем второй  корень:<br>
+      <img align="absmiddle"  width="492" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image271.gif"></p>
+  <p>Подставляем в формулу значение <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image273.gif"> и получаем третий  корень:<br>
+      <img align="absmiddle"  width="503" height="85" src="h/kompleksnye_chisla_dlya_chainikov_clip_image275.gif"></p></div>
+  <p>Очень часто полученные корни требуется изобразить  геометрически:<br>
+      <img align="absmiddle"  width="298" height="302" src="h/kompleksnye_chisla_dlya_chainikov_clip_image277.gif" alt="Извлечение корня из комплексного числа. Изобразить корни на комплексной плоскости"><br>
+    Как выполнить чертеж? <br>
+    Сначала на калькуляторе находим, чему равен модуль  корней  <img align="absmiddle"  width="69" height="47" src="h/kompleksnye_chisla_dlya_chainikov_clip_image279.gif"> и чертим циркулем  окружность данного радиуса. Все корни будут располагаться на данной окружности.</p>
+  <p>Теперь берем аргумент первого корня <img align="absmiddle"  width="17" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image281.gif"> и выясняем, чему  равняется угол в градусах: <img align="absmiddle"  width="91" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image283.gif">. Отмеряем транспортиром <img align="absmiddle"  width="27" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image285.gif"> и ставим на чертеже  точку <img align="absmiddle"  width="17" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image206_0002.gif">.</p>
+  <p>Берем аргумент второго корня <img align="absmiddle"  width="31" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image287.gif"> и переводим его в  градусы: <img align="absmiddle"  width="109" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image289.gif">. Отмеряем транспортиром <img align="absmiddle"  width="33" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image291.gif"> и ставим на чертеже  точку <img align="absmiddle"  width="16" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image208_0002.gif">.</p>
+  <p>По такому же алгоритму строится точка <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image012_0005.gif"></p>
+  <p>Легко заметить, что корни расположены геометрически  правильно с интервалом <img align="absmiddle"  width="76" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image295.gif">между радиус-векторами.  Чертеж крайне желательно выполнять с помощью транспортира. Если вы отмерите углы  «на глазок», то рецензент легко это заметит и процентов 90-95 поставит минус за  чертеж.</p>
+      
+    <p>Уравнения  четвертого  <img align="absmiddle"  width="47" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image297.gif"> и высших порядков  встречаются крайне редко, если честно, я даже не припомню случая, когда мне  пришлось их решать. В этой связи ограничусь рассмотренными примерами.</p>
+    <p>Чтобы закрепить материал и узнать много нового,  обязательно приходите на практикум <strong><a href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения,  уравнения и системы уравнений с комплексными числами</a></strong> – будет жарко!</p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 6: <strong>Решение:</strong> </em><br>
+      <em><img align="absmiddle"  width="199" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image299.gif"></em><br>
+      <em><img align="absmiddle"  width="311" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image301.gif"></em><br>
+      <em><img align="absmiddle"  width="347" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image303.gif"></em><br>
+      <em><img align="absmiddle"  width="373" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image305.gif"></em></p>
+  <p><em>Пример 8: <strong>Решение:</strong> </em><br>
+      <em>Представим в  тригонометрической форме число <img align="absmiddle"  width="79" height="25" src="h/kompleksnye_chisla_dlya_chainikov_clip_image002_0005.gif">. Найдем его модуль и аргумент. <img align="absmiddle"  width="260" height="32" src="h/kompleksnye_chisla_dlya_chainikov_clip_image307.gif">. Поскольку <img align="absmiddle"  width="37" height="19" src="h/kompleksnye_chisla_dlya_chainikov_clip_image032_0000.gif"> (случай 1), то <img align="absmiddle"  width="207" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image309.gif">. Таким образом: <img align="absmiddle"  width="167" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image311.gif"> – число <img align="absmiddle"  width="16" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image208_0003.gif"> в тригонометрической  форме.</em></p>
+  <p><em>Представим в  тригонометрической форме число <img align="absmiddle"  width="79" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image006_0008.gif">. Найдем его модуль и аргумент. <img align="absmiddle"  width="275" height="31" src="h/kompleksnye_chisla_dlya_chainikov_clip_image314.gif">. Поскольку <img align="absmiddle"  width="76" height="21" src="h/kompleksnye_chisla_dlya_chainikov_clip_image316.gif"> (случай 3), то <img align="absmiddle"  width="452" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image318.gif">. Таким образом: <img align="absmiddle"  width="235" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image320.gif"> – число <img align="absmiddle"  width="17" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image322.gif"> в тригонометрической  форме.</em></p>
+  <p><em>Пример 11: <strong>Решение:</strong> Представим число в  тригонометрической форме: <img align="absmiddle"  width="195" height="48" src="h/kompleksnye_chisla_dlya_chainikov_clip_image324.gif"> (это число <img align="absmiddle"  width="17" height="23" src="h/kompleksnye_chisla_dlya_chainikov_clip_image014_0005.gif"> Примера 8). Используем  формулу Муавра <img align="absmiddle"  width="195" height="29" src="h/kompleksnye_chisla_dlya_chainikov_clip_image085_0000.gif">: </em><br>
+      <em><img align="absmiddle"  width="476" height="75" src="h/kompleksnye_chisla_dlya_chainikov_clip_image327.gif"></em></p>
+  <p><em>Пример 13: <strong>Решение:</strong></em><br>
+      <img align="absmiddle"  width="425" height="24" src="h/kompleksnye_chisla_dlya_chainikov_clip_image329.gif"><br>
+      <img align="absmiddle"  width="213" height="49" src="h/kompleksnye_chisla_dlya_chainikov_clip_image331.gif"></p>
+  <p><em>Пример 15: <strong>Решение:</strong></em><br>
+      <img align="absmiddle"  width="60" height="20" src="h/kompleksnye_chisla_dlya_chainikov_clip_image333.gif"><br>
+      <img align="absmiddle"  width="57" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image335.gif"><br>
+      <img align="absmiddle"  width="55" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image337.gif">, <img align="absmiddle"  width="45" height="41" src="h/kompleksnye_chisla_dlya_chainikov_clip_image339.gif"><br>
+      <em>Разложим квадратный  двучлен на множители:</em><br>
+      <img align="absmiddle" width="280" height="45" src="h/kompleksnye_chisla_dlya_chainikov_clip_image341.gif">  </p>
+  </div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

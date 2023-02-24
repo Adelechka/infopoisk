@@ -1,0 +1,967 @@
+<html>
+<head>
+<title>Уравнения прямой в пространстве
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="уравнения прямой в пространстве, как составить, как найти, примеры решений, пространственная прямая, параллельна осям, параллельна координатным плоскостям, канонические уравнения прямой в пространстве, по точке и направляющему вектору, по двум точкам, параметрические уравнения прямой в пространстве, прямая задана пересечением плоскостей, найти точку, направляющий вектор">
+<meta name="Description" content="…я постараюсь добросовестно и подробно рассказать всё, что связано с пространственными прямыми. Как составить уравнения прямой в пространстве? Начнём с…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>УравнениЯ прямой в пространстве</strong></h1>
+  <br>
+  
+  <p>Здравствуйте-здравствуйте!  Впервые или снова, но очень рад вас видеть! Продолжаем знакомиться с  пространственной геометрией – миром, в котором мы живём. На первом уроке мы вдоль  и поперёк рассмотрели <strong><a href="uravnenie_ploskosti.html">уравнение  плоскости</a></strong>, а сейчас очередь дошла до моей очередной жертвы – <strong>прямой в пространстве</strong>. Если ваш уровень  подготовки не очень высок, пожалуйста, начните с предыдущей статьи, там же есть  путеводитель для чайников – тех, кто проходил мимо векторов пару раз и очень  давно.</p>
+  <p>В данном разделе мы разберём  вопросы, связанные <strong>с уравнениЯМИ прямой  в пространстве</strong>, посмотрим, как может располагаться прямая относительно  координатных плоскостей, координатных осей и научимся решать типовые задачи. Я  добросовестно постараюсь рассказать всё самое главное, что связано с  пространственными прямыми.</p>
+  <p>Начнём с уравненИЙ прямой в  пространстве. Для лёгкого понимания темы целесообразно хорошо проштудировать <strong><a href="uravnenie_pryamoi_na_ploskosti.html">уравнение «плоской» прямой</a></strong>, поскольку  будет очень много похожих вещей. Но будут и отличия, на одно из которых вы уже  наверняка обратили внимание. Я выделял большими буквами окончание слова  «уравнение», подчеркивая, что оно находится ВО МНОЖЕСТВЕННОМ ЧИСЛЕ. И это не  случайно, своеобразие пространственной прямой состоит в том, что она задаётся  не одним уравнением, а некоторым множеством уравнений. Высшая математика не  озадачивает нас улыбкой Джоконды, поэтому надвинем на лоб строгую параллельность  морщин и приступим к делу. Если вас интересует что-то конкретное,  используйте <strong>быстрые ссылки</strong>:</p>
+  <ul>
+  <li><strong><a href="uravnenija_pryamoi_v_prostranstve.html#ku">канонические уравнения прямой</a></strong> (по точке и направляющему вектору);</li>
+    <li><a href="uravnenija_pryamoi_v_prostranstve.html#utt"> уравнения прямой по  двум точкам</a>;</li>
+    <li><a href="uravnenija_pryamoi_v_prostranstve.html#pu">параметрические уравнения прямой</a>;</li>
+    <li><a href="uravnenija_pryamoi_v_prostranstve.html#upp">прямая, заданная пересечением  двух плоскостей</a>.
+  </li><br>
+  <li><a href="zadachi_s_pryamoi_v_prostranstve.html">Типовые задачи с пространственной прямой</a></li>
+  </ul>
+  <br>
+  <h2><strong>Как составить уравнения прямой в пространстве?</strong>  </h2>
+  <p>Аналогично «плоской» прямой,  существует несколько способов, которыми мы можем задать прямую в пространстве.  Начнём с канонов – точки и направляющего вектора прямой:</p>
+  <a name="ku"></a><h3><strong>Канонические уравнения прямой</strong></h3>
+  <p><strong>Если известна  некоторая точка пространства <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002.gif">, принадлежащая прямой, и направляющий вектор <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image004.gif"> данной прямой, то  канонические уравнения этой прямой выражаются  формулами</strong>:</p>
+  <p><img align="absmiddle"  width="144" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image006.gif" alt="Канонические уравнения прямой в пространстве"></p>
+  <p>Приведённая запись предполагает, что координаты направляющего  вектора <img align="absmiddle"  width="61" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image008.gif"> <strong>не равны нулю</strong>. Что делать, если одна или две координаты нулевые, мы  рассмотрим чуть позже.</p>
+  <p>Как и в статье <strong><a href="uravnenie_ploskosti.html">Уравнение  плоскости</a></strong>, для простоты будем считать, что во всех задачах урока действия  проводятся в ортонормированном базисе пространства.</p>
+  <p><u>Пример 1</u></p>
+  <p>Составить канонические уравнения прямой по точке <img align="absmiddle"  width="72" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image010.gif"> и направляющему  вектору <img align="absmiddle"  width="68" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image012.gif"></p>
+  <p><strong>Решение</strong>:  Канонические уравнения прямой составим по формуле:<br>
+      <img align="absmiddle"  width="144" height="121" src="d/uravnenija_pryamoi_v_prostranstve_clip_image014.gif"></p>
+  <p><strong>Ответ</strong>:<strong> </strong><img align="absmiddle"  width="105" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image016.gif"></p>
+  <p>И ежу понятно… хотя, нет, ежу не понятно вообще ничего. </p>
+  <p>Что следует отметить в этом очень простом примере?  Во-первых, полученные уравнения НЕ НАДО сокращать на единицу: <img align="absmiddle"  width="123" height="47" src="d/uravnenija_pryamoi_v_prostranstve_clip_image018.jpg">. Сократить, точнее, можно, но это непривычно  режет глаз и создаёт неудобства в ходе решения задач.</p>
+  <p>А во-вторых, в аналитической геометрии неизбежны две вещи –  это проверка и зачёт:</p>
+  <p>На всякий случай смотрим на знаменатели уравнений и  сверяемся – <strong>правильно ли</strong> там  записаны координаты направляющего вектора <img align="absmiddle"  width="68" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image012_0000.gif">. Нет, не подумайте, у нас не урок в детском садике  «Тормозок».  Данный совет очень важен,  поскольку позволяет полностью исключить ошибку по невнимательности. Никто не  застрахован, а вдруг неправильно переписали? Наградят премией Дарвина по геометрии.</p>
+  <p>Далее подставляем координаты точки <img align="absmiddle"  width="72" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image010_0000.gif"> в найденные уравнения:<br>
+      <img align="absmiddle"  width="113" height="57" src="d/uravnenija_pryamoi_v_prostranstve_clip_image021.gif"></p>
+  <p>Получены верные равенства, значит, координаты точки <img align="absmiddle"  width="20" height="16" src="d/uravnenija_pryamoi_v_prostranstve_clip_image023.gif"> удовлетворяют нашим  уравнениям, и сама точка действительно принадлежит данной прямой.</p>
+  <p>Проверка очень легко (и быстро!) выполняется устно.</p>
+  <p>В ряде задач требуется найти какую-нибудь другую точку <img align="absmiddle"  width="17" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image025.gif">, принадлежащую данной прямой. Как это сделать?</p>
+  <p>Берём полученные уравнения <img align="absmiddle"  width="105" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image016_0000.gif"> и мысленно «отщипываем»,  например, левый кусочек: <img align="absmiddle"  width="36" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image028.gif">. Теперь этот кусочек приравниваем <strong>к любому числу</strong> (помним, что ноль уже был), например, к единице: <img align="absmiddle"  width="55" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image030.gif">. Так как <img align="absmiddle"  width="55" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image030_0000.gif">, то и два других «куска» тоже должны быть равны единице. По  сути, нужно решить систему:<br>
+      <img align="absmiddle"  width="211" height="111" src="d/uravnenija_pryamoi_v_prostranstve_clip_image033.gif"></p>
+  <p>Проверим, удовлетворяет ли найденная точка <img align="absmiddle"  width="71" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image035.gif"> уравнениям <img align="absmiddle"  width="105" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image016_0001.gif">:<br>
+      <img align="absmiddle"  width="112" height="96" src="d/uravnenija_pryamoi_v_prostranstve_clip_image037.gif"></p>
+  <p>Получены верные равенства, значит, точка <img align="absmiddle"  width="17" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image025_0000.gif"> действительно лежит на  данной прямой.</p>
+  <p>Выполним чертёж в прямоугольной системе координат. Заодно  вспомним, как правильно откладывать точки в пространстве:<br>
+      <img align="absmiddle"  width="348" height="437" src="d/uravnenija_pryamoi_v_prostranstve_clip_image040.jpg" alt="Прямая в пространстве"></p>
+  <p>Строим точку <img align="absmiddle"  width="72" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image010_0001.gif">: <br>
+    – от начала координат в отрицательном направлении оси <img align="absmiddle"  width="27" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image043.gif"> откладываем отрезок  первой координаты <img align="absmiddle"  width="43" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image045.gif"> (зелёный пунктир);<br>
+    – вторая координата <img align="absmiddle"  width="35" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image047.gif"> нулевая, поэтому «не  дёргаемся» с оси <img align="absmiddle"  width="27" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image043_0000.gif"> ни влево, ни вправо;<br>
+    – в соответствие с третьей координатой <img align="absmiddle"  width="33" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image049.gif"> отмеряем три единицы  вверх (фиолетовый пунктир).</p>
+  <p>Строим точку <img align="absmiddle"  width="71" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image035_0000.gif">: отмеряем две единицы «на себя» (желтый пунктир), одну  единицу вправо (синий пунктир) и две единицы вниз (коричневый пунктир). Коричневый  пунктир и сама точка <img align="absmiddle"  width="17" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image025_0001.gif"> наложились на  координатную ось, обратите внимание, что они находятся в нижнем  полупространстве и ПЕРЕД осью <img align="absmiddle"  width="25" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image052.gif">.</p>
+  <p>Сама прямая <img align="absmiddle"  width="29" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image054.gif"> проходит над осью <img align="absmiddle"  width="27" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image043_0001.gif"> и, если меня не  подводит глазомер, над осью <img align="absmiddle"  width="25" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image056.gif">. Не подводит, убедился аналитически. Если бы прямая <img align="absmiddle"  width="29" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image054_0000.gif"> проходила ЗА осью <img align="absmiddle"  width="25" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image056_0000.gif">, то следовало бы стереть ластиком частичку линии <img align="absmiddle"  width="29" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image054_0001.gif"> сверху и снизу точки  скрещивания.</p>
+  <p>У прямой бесконечно много направляющих векторов, например:<br>
+      <img align="absmiddle"  width="243" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image058.gif"> (красная стрелка)</p>
+  <p>Получился в точности исходный вектор <img align="absmiddle"  width="68" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image012_0001.gif">, но это чистая случайность, такую уж я выбрал точку <img align="absmiddle"  width="17" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image025_0002.gif">. Все направляющие векторы прямой коллинеарны, и их  соответствующие координаты пропорциональны (более подробно – см. <strong><a href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость векторов. Базис  векторов</a></strong>). Так, векторы <img align="absmiddle"  width="168" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image061.gif"> тоже будут  направляющими векторами данной прямой.</p>
+  <p>Дополнительную информацию о построении трёхмерных чертежей  на клетчатой бумаге можно найти в начале методички <strong><a href="grafiki_i_svoistva_funkcij.html">Графики и свойства функций</a></strong>. В тетради разноцветные пунктирные  дорожки к точкам (см. чертёж) обычно тонко прочерчивают простым карандашом тем  же пунктиром.</p>
+  <p>Разберёмся с частными случаями, когда одна или две  координаты направляющего вектора нулевые. Попутно продолжаем тренировку  пространственного зрения, которая началась в начале урока <strong><a href="uravnenie_ploskosti.html">Уравнение плоскости</a></strong>. И вновь я расскажу вам сказку о голом короле –  нарисую пустую систему координат и буду убеждать вас, что там есть  пространственные прямые =)<br>
+      <img align="absmiddle"  width="331" height="319" src="d/uravnenija_pryamoi_v_prostranstve_clip_image063.jpg" alt="Расположение прямой относительно координатных осей и координатных плоскостей"></p>
+  <p>Проще перечислить все шесть случаев:</p><div id="primer">
+  <p>1) Для точки <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0000.gif"> и направляющего  вектора <img align="absmiddle"  width="67" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image065.gif"> канонические уравнения  прямой распадаются на три <strong>отдельных</strong> уравнения: <img align="absmiddle"  width="195" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image067.gif">.</p>
+  <p>Или короче: <img align="absmiddle"  width="136" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image069.gif"></p>
+  <p><u>Пример 2</u>: составим уравнения прямой по точке <img align="absmiddle"  width="75" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image071.gif"> и направляющему  вектору <img align="absmiddle"  width="67" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image073.gif">: </p>
+  <p><img align="absmiddle"  width="121" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image075.gif"></p>
+  <p>Что это за прямая? Направляющий вектор прямой <img align="absmiddle"  width="67" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image073_0000.gif"> коллинеарен орту <img align="absmiddle"  width="53" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image078.gif">, значит, данная прямая будет параллельна оси <img align="absmiddle"  width="27" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image043_0002.gif">. Канонические уравнения следует понимать так: <br>
+    а) <img align="absmiddle"  width="88" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image080.gif"> – «игрек» и «зет» <strong>постоянны</strong>, равны <strong>конкретным числам</strong>;<br>
+    б) переменная «икс» может принимать любые значения: <img align="absmiddle"  width="49" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image082.gif"> (на практике данное  уравнение, как правило, не записывают).</p>
+  <p>В частности, уравнения <img align="absmiddle"  width="81" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image084.gif"> задают саму ось <img align="absmiddle"  width="27" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image043_0003.gif">. Действительно, «икс» принимает любое значение, а «игрек» и  «зет» всегда равны нулю.</p>
+  <p>Рассматриваемые уравнения можно интерпретировать и другим  образом: посмотрим, например, на аналитическую запись оси абсцисс: <img align="absmiddle"  width="81" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image084_0000.gif">. Ведь это уравнения двух плоскостей! Уравнение <img align="absmiddle"  width="35" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image047_0000.gif"> задаёт координатную  плоскость <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image088.gif">, а уравнение <img align="absmiddle"  width="33" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image090.gif"> – координатную  плоскость <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image092.gif">. Правильно думаете – данные координатные плоскости  пересекаются по оси <img align="absmiddle"  width="27" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image043_0004.gif">. Способ, когда прямая в пространстве задаётся пересечением  двух плоскостей, мы рассмотрим в самом конце урока.</p>
+  <p>Два похожих случая:</p>
+  <p>2) Канонические уравнения прямой, проходящей через точку <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0001.gif"> параллельно вектору <img align="absmiddle"  width="68" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image094.gif">, выражаются формулами <img align="absmiddle"  width="132" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image096.gif">.</p>
+  <p>Такие прямые будут параллельны координатной оси <img align="absmiddle"  width="25" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image056_0001.gif">. В частности, уравнения <img align="absmiddle"  width="81" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image099.gif"> задают координатную саму  ось ординат.</p>
+  <p>3) Канонические уравнения прямой, проходящей через точку <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0002.gif"> параллельно вектору <img align="absmiddle"  width="67" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image101.gif">, выражаются формулами <img align="absmiddle"  width="135" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image103.gif">.</p>
+  <p>Данные прямые параллельны координатной оси <img align="absmiddle"  width="25" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image052_0000.gif">, а уравнения <img align="absmiddle"  width="81" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image106.gif"> задают саму ось  аппликат.</p>
+  <p>Загоним в стойло вторую тройку:</p>
+  <p>4) Для точки <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0003.gif"> и направляющего  вектора <img align="absmiddle"  width="75" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image108.gif"> канонические уравнения  прямой распадаются на пропорцию <img align="absmiddle"  width="96" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image110.gif"> и <strong><a href="uravnenie_ploskosti.html">уравнение плоскости</a></strong> <img align="absmiddle"  width="60" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image112.gif">.</p>
+  <p><u>Пример 3</u>: составим уравнения прямой по точке <img align="absmiddle"  width="73" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image114.gif"> и направляющему  вектору <img align="absmiddle"  width="69" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image116.gif">: </p>
+  <p><img align="absmiddle"  width="127" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image118.gif"></p>
+  <p>Разберём суть полученной записи. Уравнение <img align="absmiddle"  width="55" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image120.gif"> задаёт плоскость в  пространстве, причём данная плоскость будет параллельна «родной» координатной  плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image092_0000.gif">. Из пропорции <img align="absmiddle"  width="59" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image123.gif"> легко выразить  уравнение «плоской» прямой, единственное, эта прямая будет находиться не на  плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image092_0001.gif">, а на высоте <img align="absmiddle"  width="33" height="16" src="d/uravnenija_pryamoi_v_prostranstve_clip_image125.gif">.</p>
+  <p>Если высота нулевая: <img align="absmiddle"  width="40" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image127.gif">, то уравнения принимают вид <img align="absmiddle"  width="141" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image129.gif">, и вот это уже в точности наша «плоская» прямая, лежащая в  плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image092_0002.gif">.</p>
+  <p>Таким образом, рассмотренный случай задаёт прямую,  параллельную координатной плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image092_0003.gif">. Действительно, задумайтесь, ведь направляющий вектор <img align="absmiddle"  width="75" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image108_0000.gif"> параллелен данной  плоскости, ведь «зетовая» координата равна нулю.</p>
+  <p>5) Прямая, заданная точкой <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0004.gif"> и направляющим  вектором <img align="absmiddle"  width="75" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image131.gif">, параллельна координатной плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image088_0000.gif">, и её канонические уравнения выражаются формулами: <img align="absmiddle"  width="171" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image134.gif">.</p>
+  <p>В частности, уравнения <img align="absmiddle"  width="140" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image136.gif"> определяют прямую,  лежащую в плоскости <img align="absmiddle"  width="36" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image088_0001.gif">.</p>
+  <p>6) Прямая, заданная точкой <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0005.gif"> и направляющим  вектором <img align="absmiddle"  width="76" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image138.gif">, параллельна координатной плоскости <img align="absmiddle"  width="32" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image140.gif">, и её канонические уравнения выражаются формулами: <img align="absmiddle"  width="168" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image142.gif">.</p>
+  <p>В частности, уравнения <img align="absmiddle"  width="144" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image144.gif"> определяют прямую,  лежащую в плоскости <img align="absmiddle"  width="32" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image140_0000.gif">.</p></div>
+  <p>Настала пора хорошо закусить:</p>
+  <p><u>Пример 4</u></p>
+  <p>Записать канонические уравнения прямой, если известна точка  и направляющий вектор  данной прямой.</p>
+  <p>а) <img align="absmiddle"  width="133" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image147.gif"><img align="absmiddle"  width="12" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image149.gif"><br>
+    б) <img align="absmiddle"  width="157" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image151.gif"><br>
+    в) Записать уравнения прямой, проходящей через точку <img align="absmiddle"  width="69" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image153.gif"> параллельно оси <img align="absmiddle"  width="25" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image052_0001.gif">.</p>
+  <p>Это примеры для самостоятельного решения, ответы в конце  урока.</p>
+  <p><strong>Постарайтесь не  пренебрегать примерами данного урока!</strong> Задачи вроде бы элементарны, но если  на них забить, то в дальнейшем появятся серьёзные затруднения. Причём, в  простых вещах. </p>
+  <a name="utt"></a><h3><strong>Как составить  уравнения пространственной прямой по двум точкам?</strong></h3>
+  <p>Если известны две точки пространства <img align="absmiddle"  width="187" height="23" src="d/uravnenija_pryamoi_v_prostranstve_clip_image156.gif">, то уравнения прямой, проходящей через данные точки,  выражаются формулами:</p>
+  <p><img align="absmiddle"  width="157" height="43" src="d/uravnenija_pryamoi_v_prostranstve_clip_image158.gif"></p>
+  <p>Унылый частный случай предыдущего параграфа. И в самом деле,  вектор <img align="absmiddle"  width="183" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image160.gif"> является направляющим  вектором прямой.</p>
+  <p>По возможности, рекомендую <u>не пользоваться</u> данными  формулами. Хорошо-то оно, всё хорошо, но только до тех пор, пока знаменатели без  нулей. Не буду объяснять все тонкости, но рекомендую придерживаться следующего  алгоритма решения:</p>
+  <p><u>Пример 5</u></p>
+  <p>Составить уравнения прямой, проходящей через точки <img align="absmiddle"  width="177" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image162.gif">.</p>
+  <p><strong>Решение</strong>: Найдём  направляющий вектор прямой:<br>
+      <img align="absmiddle"  width="288" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image164.gif"></p>
+  <p>Уравнения прямой составим по точке <img align="absmiddle"  width="79" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image166.gif"> (можно было выбрать точку <img align="absmiddle"  width="24" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image168.gif">) и направляющему вектору <img align="absmiddle"  width="104" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image170.gif">:</p>
+  <p><img align="absmiddle"  width="167" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image172.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="151" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image174.gif"></p>
+  <p>В принципе, можно было сократить знаменатели пропорции на 2  и записать ответ в виде <img align="absmiddle"  width="151" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image176.gif">, но <u>в данном</u> случае надобности в этом нет никакой. </p>
+  <p>Выполним проверку:</p>
+  <p>Подставим координаты точки <img align="absmiddle"  width="79" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image166_0000.gif"> в полученные  уравнения:<br>
+      <img align="absmiddle"  width="157" height="60" src="d/uravnenija_pryamoi_v_prostranstve_clip_image178.gif"><br>
+    Получены верные равенства.</p>
+  <p>Подставим координаты точки <img align="absmiddle"  width="97" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image180.gif">:<br>
+      <img align="absmiddle"  width="176" height="60" src="d/uravnenija_pryamoi_v_prostranstve_clip_image182.gif"><br>
+    Получены верные равенства.</p>
+  <p>Вывод: канонические уравнения прямой составлены правильно.</p>
+  <p><u>Пример 6</u></p>
+  <p>Составить уравнения прямой, проходящей через точки <img align="absmiddle"  width="135" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image184.gif"></p>
+  <p>Это пример для самостоятельного решения. Решение и ответ в  конце урока.</p>
+  <a name="pu"></a><h3><strong>Параметрические  уравнения прямой в пространстве</strong></h3>
+  <p><strong>Обязательно  прочитайте данный параграф!</strong> Параметрические уравнения, конечно, не альфа и  омега пространственной геометрии, но рабочий муравей многих задач. Причём, этот  вид уравнений часто применяется неожиданно, и я бы сказал, изящно. </p>
+  <p><strong>Если известна точка <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image002_0006.gif">, принадлежащая прямой, и направляющий вектор <img align="absmiddle"  width="84" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image004_0000.gif"> данной прямой, то  параметрические уравнения этой прямой задаются системой</strong>:</p>
+  <p><img align="absmiddle"  width="83" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image186.gif" alt="Параметрические уравнения прямой в пространстве"></p>
+  <p>О самом понятии параметрических уравнений я  рассказывал на уроках <strong><a href="zadachi_s_pryamoi_na_ploskosti.html">Уравнение прямой  на плоскости</a></strong> и <strong><a href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производная  параметрически заданной функции</a></strong>.</p>
+  <p>Всё проще пареной репы, поэтому придётся приперчить задачу:</p>
+  <p><u>Пример 7</u></p>
+  <p>Составить параметрические уравнения следующих прямых:<br>
+      <img align="absmiddle"  width="155" height="100" src="d/uravnenija_pryamoi_v_prostranstve_clip_image188.gif"></p>
+  <p><strong>Решение</strong>: Прямые  заданы каноническими уравнениями и на первом этапе следует найти какую-нибудь  точку, принадлежащую прямой, и её направляющий вектор.</p>
+  <p>а) Из уравнений <img align="absmiddle"  width="107" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image190.gif"> снимаем точку и  направляющий вектор: <img align="absmiddle"  width="147" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image192.gif">. Точку можно выбрать и другую (как это сделать – рассказано  выше), но лучше взять самую очевидную. Кстати, во избежание ошибок, всегда подставляйте  её координаты в уравнения.</p>
+  <p>Составим параметрические уравнения данной прямой:<br>
+      <img align="absmiddle"  width="261" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image194.gif"></p>
+  <p>Удобство параметрических уравнений состоит в том, что с их  помощью очень легко находить другие точки прямой. Например, найдём точку <img align="absmiddle"  width="17" height="16" src="d/uravnenija_pryamoi_v_prostranstve_clip_image196.gif">, координаты которой, скажем, соответствуют значению  параметра <img align="absmiddle"  width="31" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image198.gif">:<br>
+      <img align="absmiddle"  width="148" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image200.gif"></p>
+  <p>Таким образом: <img align="absmiddle"  width="85" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image202.gif"><br>
+    <br>
+    б) Рассмотрим канонические уравнения <img align="absmiddle"  width="137" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image204.gif">. Выбор точки здесь несложен, но коварен: <img align="absmiddle"  width="87" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image206.gif"> (будьте внимательны,  не перепутайте координаты!!!). Как вытащить направляющий вектор? Можно  порассуждать, чему параллельна данная прямая, а можно использовать простой  формальный приём: в пропорции находятся «игрек» и «зет», поэтому запишем  направляющий вектор <img align="absmiddle"  width="69" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image208.gif">, а на оставшееся место поставим ноль: <img align="absmiddle"  width="69" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image210.gif">.</p>
+  <p>Составим параметрические уравнения прямой:<br>
+      <img align="absmiddle"  width="252" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image212.gif"></p>
+  <p>в) Перепишем уравнения <img align="absmiddle"  width="101" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image214.gif"> в виде <img align="absmiddle"  width="164" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image216.gif">, то есть «зет» может быть любым. А если любым, то пусть,  например, <img align="absmiddle"  width="31" height="16" src="d/uravnenija_pryamoi_v_prostranstve_clip_image218.gif">. Таким образом, точка <img align="absmiddle"  width="68" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image220.gif"> принадлежит данной  прямой. Для нахождения направляющего вектора используем следующий формальный  приём: в исходных уравнениях <img align="absmiddle"  width="101" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image214_0000.gif"> находятся «икс» и  «игрек», и в направляющем векторе на данных местах записываем <u>нули</u>: <img align="absmiddle"  width="59" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image223.gif">. На оставшееся место ставим <u>единицу</u>: <img align="absmiddle"  width="57" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image225.gif">. Вместо единицы подойдёт любое число, кроме нуля.</p>
+  <p>Запишем параметрические уравнения прямой:<br>
+      <img align="absmiddle"  width="248" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image227.gif"></p>
+  <p>Для тренировки:</p>
+  <p><u>Пример 8</u></p>
+  <p>Составить параметрические уравнения следующих прямых:<br>
+      <img align="absmiddle"  width="329" height="83" src="d/uravnenija_pryamoi_v_prostranstve_clip_image229.gif"></p>
+  <p>Решения и ответы в конце урока. Полученные вами ответы могут  несколько отличаться от моих ответов, дело в том, что <strong>параметрические уравнения можно записать не единственным способом</strong>. Важно,  чтобы ваши и мои направляющие векторы были коллинеарны, и ваша точка  «подходила» к моим уравнениям (ну, или наоборот, моя точка к вашим уравнениям).</p>
+  <p>Как ещё можно задать прямую в пространстве? Хочется  что-нибудь придумать с вектором нормали. Однако номер не пройдёт, у  пространственной прямой нормальные векторы могут смотреть совершенно в разные  стороны.</p>
+  <p>Ещё об одном способе уже упоминалось на уроке <strong><a href="uravnenie_ploskosti.html">Уравнение плоскости</a></strong> и в начале этой  статьи: </p>
+  <a name="upp"></a><h3><strong>Прямая, заданная  пересечением двух плоскостей</strong></h3>
+  <p><strong>Если плоскости </strong><img align="absmiddle"  width="384" height="23" src="d/uravnenija_pryamoi_v_prostranstve_clip_image231.gif"> <strong> пересекаются, <br>то система  линейных уравнений <img align="absmiddle"  width="157" height="47" src="d/uravnenija_pryamoi_v_prostranstve_clip_image233.gif" alt="Прямая задана пересечением двух плоскостей"> задаёт прямую в пространстве</strong>.</p>
+  <p>То есть прямая задана уравнениями двух плоскостей. Типовая и  распространенная задача состоит в том, чтобы переписать уравнения прямой в  каноническом виде:</p>
+  <p><u>Пример 9</u></p>
+  <p>Записать канонические уравнения прямой <img align="absmiddle"  width="136" height="45" src="d/uravnenija_pryamoi_v_prostranstve_clip_image235.gif"></p>
+  <p><strong>Решение</strong>: Чтобы  составить канонические уравнения прямой, нужно знать точку и направляющий  вектор. А у нас даны уравнения двух плоскостей….</p>
+  <p>1) Сначала найдём какую-либо точку, принадлежащую данной  прямой. Как это сделать? В системе уравнений нужно обнулить какую-нибудь  координату. Пусть <img align="absmiddle"  width="35" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image047_0001.gif">, тогда получаем систему двух линейных уравнений с двумя  неизвестными: <img align="absmiddle"  width="97" height="45" src="d/uravnenija_pryamoi_v_prostranstve_clip_image238.gif">. Почленно складываем уравнения и находим решение системы:<br>
+      <img align="absmiddle"  width="263" height="45" src="d/uravnenija_pryamoi_v_prostranstve_clip_image240.gif"></p>
+  <p>Таким образом, точка <img align="absmiddle"  width="73" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image242.gif"> принадлежит данной  прямой. Обратите внимание на следующий технический момент: желательно найти  точку с <strong>целыми</strong> координатами. Если бы  в системе мы обнулили «икс» или «зет», то не факт, что получилась бы «хорошая»  точка без дробных координат. Такой анализ и подбор точки следует проводить  мысленно или на черновике.</p>
+  <p>Выполним проверку: подставим координаты точки <img align="absmiddle"  width="73" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image242_0000.gif"> в исходную систему  уравнений: <img align="absmiddle"  width="300" height="45" src="d/uravnenija_pryamoi_v_prostranstve_clip_image245.gif">. Получены верные равенства, значит, действительно <img align="absmiddle"  width="43" height="17" src="d/uravnenija_pryamoi_v_prostranstve_clip_image247.gif">.</p>
+  <p>2) Как найти направляющий вектор прямой? Его нахождение  наглядно демонстрирует следующий схематический чертёж:<br>
+   <img align="absmiddle"  width="413" height="422" src="d/uravnenija_pryamoi_v_prostranstve_clip_image249.jpg" alt="Нахождение вектора нормали, когда прямая задана пересечением двух плоскостей">  <br>
+    Направляющий вектор нашей прямой ортогонален нормальным  векторам плоскостей. А если <img align="absmiddle"  width="100" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image251.gif">, то вектор «пэ» найдём как <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">векторное произведение</a></strong> векторов нормали: <img align="absmiddle"  width="73" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image253.gif">.</p>
+  <p>Из уравнений плоскостей <img align="absmiddle"  width="133" height="44" src="d/uravnenija_pryamoi_v_prostranstve_clip_image255.gif"> снимаем их векторы  нормали:<br>
+      <img align="absmiddle"  width="141" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image257.gif"> </p>
+  <p>И находим направляющий вектор прямой:<br>
+      <img align="absmiddle"  width="392" height="96" src="d/uravnenija_pryamoi_v_prostranstve_clip_image259.gif"></p>
+  <p>Как проверить результат, рассматривалось в статье <strong><a href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное произведение векторов</a></strong>. </p>
+  <p>3) Составим канонические уравнения прямой по точке <img align="absmiddle"  width="73" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image242_0001.gif"> и направляющему  вектору <img align="absmiddle"  width="121" height="23" src="d/uravnenija_pryamoi_v_prostranstve_clip_image262.gif">:</p>
+  <p><img align="absmiddle"  width="156" height="41" src="d/uravnenija_pryamoi_v_prostranstve_clip_image264.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle"  width="133" height="41" src="d/uravnenija_pryamoi_v_prostranstve_clip_image266.gif"></p>
+  <p>На практике можно пользоваться готовой формулой: если прямая  задана пересечением двух плоскостей <img align="absmiddle"  width="157" height="47" src="d/uravnenija_pryamoi_v_prostranstve_clip_image268.gif">, то вектор <img align="absmiddle"  width="195" height="49" src="d/uravnenija_pryamoi_v_prostranstve_clip_image270.gif"> является направляющим вектором  данной прямой.</p>
+  <p><u>Пример 10</u></p>
+  <p>Записать канонические уравнения прямой <img align="absmiddle"  width="120" height="48" src="d/uravnenija_pryamoi_v_prostranstve_clip_image272.gif"></p>
+  <p>Это пример для самостоятельного решения. Ваш ответ может  отличаться от моего ответа (смотря, какую точку подберёте). Если отличие есть, то  для проверки возьмите точку из вашего уравнения и подставьте в моё уравнение  (или наоборот).</p>
+  <p>Полное решение и ответ в конце урока.</p>
+  <p>Во второй части урока мы рассмотрим взаимное расположение  прямых в пространстве, а также разберём задачи, которые связаны с пространственными  прямыми и точками. Терзают меня смутные ожидания, что материала будет прилично,  поэтому лучше всё-таки сделать отдельную веб страницу.</p>
+  <p>Добро пожаловать: <strong><a href="zadachi_s_pryamoi_v_prostranstve.html">Задачи  с прямой в пространстве &gt;&gt;&gt;</a></strong></p>
+  <p><u>Решения и ответы:</u></p><div id="primer">
+  <p><em>Пример 4: <strong>Ответы</strong>: </em><br>
+      <img align="absmiddle"  width="141" height="100" src="d/uravnenija_pryamoi_v_prostranstve_clip_image274.gif"></p>
+  <p><em>Пример 6: <strong>Решение</strong>: Найдём направляющий вектор  прямой:</em><br>
+      <em><img align="absmiddle"  width="224" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image276.gif"></em><br>
+      <em>Уравнения прямой  составим по точке <img align="absmiddle"  width="65" height="21" src="d/uravnenija_pryamoi_v_prostranstve_clip_image278.gif"> и направляющему  вектору <img align="absmiddle"  width="97" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image280.gif">:</em><br>
+      <em><img align="absmiddle"  width="99" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image282.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="99" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image282_0000.gif"> («игрек» – любое)</em></p>
+  <p><em>Пример 8: <strong>Решения и ответы</strong>:</em><br>
+      <em><img align="absmiddle"  width="191" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image285.gif"></em><br>
+      <em>в) Найдём направляющий  вектор прямой: <img align="absmiddle"  width="219" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image287.gif">. Параметрические уравнения прямой составим по точке <img align="absmiddle"  width="56" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image289.gif"> (можно выбрать точку  «бэ») и направляющему вектору <img align="absmiddle"  width="80" height="24" src="d/uravnenija_pryamoi_v_prostranstve_clip_image291.gif">:</em><br>
+      <em><img align="absmiddle"  width="75" height="68" src="d/uravnenija_pryamoi_v_prostranstve_clip_image293.gif"></em></p>
+  <p><em>Пример 10: <strong>Решение</strong>: Найдём какую-нибудь точку,  принадлежащую данной прямой. Пусть <img align="absmiddle"  width="35" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image047_0002.gif">, тогда: <img align="absmiddle"  width="135" height="45" src="d/uravnenija_pryamoi_v_prostranstve_clip_image295.gif">. Точка <img align="absmiddle"  width="97" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image297.gif">. Найдём направляющий вектор прямой, используем формулу:</em><br>
+      <em><img align="absmiddle"  width="195" height="120" src="d/uravnenija_pryamoi_v_prostranstve_clip_image299.gif"></em><br>
+      <em>Составим канонические  уравнения прямой по точке <img align="absmiddle"  width="75" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image301.gif"> и направляющему  вектору <img align="absmiddle"  width="68" height="20" src="d/uravnenija_pryamoi_v_prostranstve_clip_image303.gif">:</em><br>
+      <em><img align="absmiddle"  width="145" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image305.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle"  width="85" height="39" src="d/uravnenija_pryamoi_v_prostranstve_clip_image307.gif"></em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

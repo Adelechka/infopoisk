@@ -1,0 +1,963 @@
+<html>
+<head>
+<title>Производная по определению (через предел). Примеры решений</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="производная по определению, производная через предел, примеры решений, приращение аргумента, приращение функции, найти производную функции по определению, найти производную в точке по определению, как решить производную по определению, подобно, доступно, с объяснениями">
+<meta name="Description" content="Этот урок носит практическую направленность, более того, рассматриваемые задачи, в принципе, можно освоить и чисто формально, например, когда нет времени или…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center"><strong>Производная по определению (через предел). Примеры решений</strong></h1>
+  
+  <br>
+  <p>Когда человек сделал первые самостоятельные шаги в изучении  математического анализа и начинает задавать неудобные вопросы, то уже не так-то  просто отделаться фразой, что «дифференциальное исчисление найдено в капусте».  Поэтому настало время набраться решимости и раскрыть тайну появления на свет <strong><a href="tablica_proizvodnyh.pdf" target="_blank">таблицы производных и правил  дифференцирования</a></strong>. Начало положено в статье <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">о смысле производной</a></strong>, которую я настоятельно рекомендую к изучению,  поскольку там мы как раз рассмотрели понятие производной и начали щёлкать  задачи по теме.<strong> </strong>Этот же урок носит  ярко выраженную практическую направленность, более того, <strong>рассматриваемые ниже примеры, в принципе, можно освоить и чисто  формально</strong> (например, когда нет времени/желания вникать в суть производной).  Также крайне желательно (однако опять не обязательно) уметь находить производные  «обычным» методом – хотя бы на уровне двух базовых занятий: <strong><a href="kak_naiti_proizvodnuju.html">Как найти производную?</a></strong> и <strong><a href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции</a></strong>. 
+  <p>Но  без чего-чего сейчас точно не обойтись, так это без <strong><a href="predely_primery_reshenii.html">пределов функций</a></strong>. Вы должны ПОНИМАТЬ,  что такое предел и уметь решать их, как минимум, на среднем уровне. А всё потому,  что <strong>производная функции <img align="absmiddle" width="61" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image002.gif"> в точке <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004.gif"></strong> определяется формулой:<br>
+      <img align="absmiddle" width="272" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image006.gif"></p>
+  <p>Напоминаю обозначения и термины:<br>
+      <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008.gif"> называют <strong>приращением аргумента</strong>; <br>
+      <img align="absmiddle" width="159" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image010.gif"> – <strong>приращением функции</strong>;<br>
+      <img align="absmiddle" width="47" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image012.gif"> – это ЕДИНЫЕ символы  («дельту» нельзя «отрывать» от «икса» или «игрека»). </p>
+  <p>Очевидно, что <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0000.gif"> является  «динамической» переменной, <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0000.gif"> – константой и  результат вычисления предела <img align="absmiddle" width="155" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image015.gif"> – числом <em>(иногда – «плюс» либо «минус» бесконечностью)</em>.</p>
+  <p>В качестве точки <strong><img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0001.gif"></strong> можно рассмотреть ЛЮБОЕ  значение <img align="absmiddle" width="13" height="15" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image019.gif">, принадлежащее <strong><a href="oblast_opredeleniya.html">области  определения</a></strong> функции <img align="absmiddle" width="61" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image002_0000.gif">, в котором существует производная. </p>
+  <p><strong><em>! Примечание</em></strong><em>: оговорка «в  котором существует производная»  – <strong>в общем случае существенна</strong>! Так,  например, точка <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image021.gif"> хоть и входит в  область определения функции <img align="absmiddle" width="72" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image023.gif">, но производной <img align="absmiddle" width="87" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image025.gif"> там не существует.  Поэтому формула <img align="absmiddle" width="275" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image027.gif"> не применима в точке <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image021_0000.gif">, и укороченная формулировка без оговорки будет некорректна.  Аналогичные факты справедливы и для других функций с «обрывами» графика,  в частности, для  арксинуса и арккосинуса.</em></p>
+  <p>Таким образом, после замены <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030.gif">, получаем вторую рабочую формулу:<br>
+    <img align="absmiddle" width="257" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image032.gif"></p>
+  <p>Обратите внимание на коварное обстоятельство, которое может  запутать чайника: в данном пределе «икс», будучи сам независимой переменной, исполняет  роль статиста, а «динамику» задаёт опять же приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0001.gif">. Результатом вычисления предела <img align="absmiddle" width="141" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image034.gif"> является производная  функция <img align="absmiddle" width="39" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image036.gif">. </p>
+  <p>Исходя из вышесказанного, сформулируем условия двух типовых  задач:</p>
+  <p>– Найти <strong>производную в  точке</strong>, используя определение производной.</p>
+  <p>– Найти <strong>производную  функцию</strong>, используя определение производной. Эта версия, по моим  наблюдениям, встречается заметно чаще и ей будет уделено основное внимание.</p>
+  <p>Принципиальное отличие заданий состоит в том, что в  первом случае требуется найти <strong>число</strong> <em>(как вариант, бесконечность)</em>, а во втором  – <strong>функцию</strong>. Кроме того, производной может  и вовсе не существовать.</p>
+  <h3><strong>Как найти производную  по определению?</strong> </h3>
+  <p><strong>Составить отношение <img align="absmiddle" width="25" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image038.gif"> и вычислить предел <img align="absmiddle" width="52" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image040.gif"></strong>. </p>
+  <p>Откуда появилась <strong><a href="tablica_proizvodnyh.pdf" target="_blank">таблица  производных и правила дифференцирования</a></strong>? Благодаря единственному пределу <img align="absmiddle" width="257" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image042.gif">. Кажется волшебством, но в действительности – ловкость рук и  никакого мошенничества. На уроке <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что  такое производная?</a></strong> я начал рассматривать конкретные примеры, где с помощью  определения нашёл производные линейной и квадратичной функции. В целях познавательной  разминки продолжим тревожить <strong><a href="tablica_proizvodnyh.pdf" target="_blank">таблицу  производных</a></strong>, оттачивая алгоритм и технические приёмы решения:</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="72" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image023_0000.gif">, пользуясь определением производной</p>
+  <p>По сути, требуется доказать частный случай производной степенной  функции, который обычно фигурирует в таблице: <img align="absmiddle" width="88" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image045.gif">.</p>
+  <p><strong>Решение</strong> технически оформляется двумя способами. Начнём с первого, уже знакомого  подхода: лесенка начинается с дощечки, а производная функция – с производной в  точке. </p>
+  <p>Рассмотрим <strong>некоторую</strong> (конкретную) точку <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0002.gif">, принадлежащую <strong><a href="oblast_opredeleniya.html">области  определения</a></strong> функции <img align="absmiddle" width="72" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image023_0001.gif">, в которой существует производная. Зададим в данной точке  приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0002.gif"> <em>(разумеется, не выходящее за рамки <strong><a href="oblast_opredeleniya.html">о/о</a></strong>-я)</em> и составим  соответствующее приращение функции:<br>
+      <img align="absmiddle" width="275" height="28" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image049.gif"></p>
+  <p>Вычислим предел:<br>
+      <img align="absmiddle" width="315" height="47" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image051.gif"></p>
+  <p>Неопределённость 0:0 устраняется стандартным приёмом,  рассмотренным ещё в первом веке до нашей эры. Домножим числитель и знаменатель на  сопряженное выражение <img align="absmiddle" width="105" height="28" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image053.gif">:</p>
+  <p><img align="absmiddle" width="605" height="55" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image055.gif"></p>
+  <p>Техника решения такого предела подробно рассмотрена на  вводном уроке <strong><a href="predely_primery_reshenii.html">о пределах функций</a></strong>.</p>
+  <p>Итак, <img align="absmiddle" width="99" height="48" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image057.gif">.</p>
+  <p>Поскольку в качестве <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0003.gif"> можно выбрать ЛЮБУЮ  точку <img align="absmiddle" width="13" height="15" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image019_0000.gif"> интервала <img align="absmiddle" width="55" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image061.gif">, то, осуществив замену <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0000.gif">, получаем:<br>
+      <img align="absmiddle" width="87" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image025_0000.gif"></p>
+  <p><strong>Ответ</strong>: по  определению производной: <img align="absmiddle" width="87" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image025_0001.gif"></p>
+  <p>Готово. </p>
+  <p>В который раз порадуемся логарифмам:</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="75" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image066.gif">, пользуясь определением производной</p>
+  <p><strong>Решение</strong>: рассмотрим  другой подход к раскрутке той же задачи. Он точно такой же, но более рационален  с точки зрения оформления. Идея состоит в том, чтобы в начале решения избавиться  от подстрочного индекса и вместо буквы <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0004.gif"> использовать букву <img align="absmiddle" width="13" height="15" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image019_0001.gif">.</p>
+  <p>Рассмотрим <strong>произвольную</strong> точку <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0001.gif">, принадлежащую <strong><a href="oblast_opredeleniya.html">области  определения</a></strong> функции <img align="absmiddle" width="75" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image066_0000.gif"> (интервалу <img align="absmiddle" width="55" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image061_0000.gif">), и зададим в ней приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0003.gif">. <em>А вот здесь, кстати, как  и в большинстве случаев, можно обойтись без всяких оговорок, поскольку  логарифмическая функция дифференцируема в любой точке области определения.</em></p>
+  <p>Тогда соответствующее приращение функции:<br>
+      <img align="absmiddle" width="275" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image071.gif"></p>
+  <p>Найдём производную:<br>
+      <img align="absmiddle" width="320" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image073.gif"></p>
+  <p>Простота оформления уравновешивается путаницей, которая  может возникнуть у начинающих (да и не только). Ведь мы привыкли, что в пределе  изменяется буква «икс»! Но тут всё по-другому: <img align="absmiddle" width="13" height="15" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image019_0002.gif"> – античная статуя, а <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0004.gif"> – живой посетитель,  бодро шагающий по коридору музея. То есть «икс» – это «как бы константа».</p>
+  <p>Устранение неопределённости <img align="absmiddle" width="16" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image077.gif"> закомментирую  пошагово:</p>
+  <p><img align="absmiddle" width="404" height="84" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image079.gif"></p>
+  <p>(1) Используем свойство логарифма <img align="absmiddle" width="107" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image081.gif">.<strong></strong></p>
+  <p>(2) В скобках почленно делим числитель на знаменатель.</p>
+  <p>(3) В знаменателе искусственно домножаем и делим на «икс»  чтобы воспользоваться <a href="zamechatelnye_predely.pdf" target="_blank">замечательным пределом</a> <img align="absmiddle" width="107" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image083.gif">, при этом в качестве <strong><a href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">бесконечно  малой величины</a></strong> выступает <img align="absmiddle" width="83" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image085.gif">.</p>
+  <p><strong>Ответ</strong>: по  определению производной: <img align="absmiddle" width="67" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image087.gif"></p>
+  <p><em>Или сокращённо: <img align="absmiddle" width="69" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image089.gif"></em></p>
+  <p>Предлагаю самостоятельно сконструировать ещё две табличные  формулы:</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти производную <img align="absmiddle" width="63" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image091.gif"> по определению<strong></strong></p>
+  <p>В данном случае составленное приращение <img align="absmiddle" width="23" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image093.gif"> сразу же удобно  привести к общему знаменателю. Примерный образец оформления задания в конце  урока (первый способ).</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти производную <img align="absmiddle" width="64" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image095.gif"> по определению</p>
+  <p>А тут всё необходимо свести к <a href="zamechatelnye_predely.pdf" target="_blank">замечательному пределу</a> <img align="absmiddle" width="88" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image097.gif">. Решение оформлено вторым способом.</p>
+  <p>Аналогично выводится ряд других <strong><a href="tablica_proizvodnyh.pdf" target="_blank">табличных производных</a></strong>. Полный список можно найти в школьном  учебнике, или, например, 1-м томе Фихтенгольца. Не вижу особого смысла переписывать  из книг и доказательства правил дифференцирования – они тоже порождены формулой <img align="absmiddle" width="257" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image042_0000.gif">. </p>
+  <p>Переходим к реально встречающимся заданиям:</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="103" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image100.gif">, используя определение производной</p>
+  <p><strong>Решение</strong>: используем  первый стиль оформления. Рассмотрим некоторую точку <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0005.gif">, принадлежащую <img align="absmiddle" width="17" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image103.gif">, и<strong> </strong>зададим в ней  приращение аргумента <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0005.gif">. Тогда соответствующее приращение функции:<strong></strong><br>
+      <img align="absmiddle" width="403" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image105.gif"></p>
+  <p>Возможно, некоторые читатели ещё не до конца поняли принцип,  по которому нужно составлять приращение <img align="absmiddle" width="23" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image093_0000.gif">. Берём точку <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0006.gif"> (число) и находим в  ней значение функции: <img align="absmiddle" width="107" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image109.gif">, то есть в функцию <img align="absmiddle" width="103" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image100_0000.gif"> <strong>вместо</strong> «икса» следует подставить <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0007.gif">. Теперь берём тоже вполне конкретное число <img align="absmiddle" width="52" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image112.gif"> и так же подставляем  его в функцию <img align="absmiddle" width="103" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image100_0001.gif"> <strong>вместо</strong> «икса»: <img align="absmiddle" width="239" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image114.gif">. Записываем разность <img align="absmiddle" width="124" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image116.gif">, при этом <img align="absmiddle" width="55" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image118.gif"> необходимо <strong>полностью взять в скобки</strong>.</p>
+  <p>Составленное приращение функции <img align="absmiddle" width="23" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image093_0001.gif"> <strong>бывает выгодно сразу же упростить</strong>. Зачем? Облегчить и укоротить  решение дальнейшего предела. </p>
+  <p>Используем формулы <img align="absmiddle" width="371" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image121.gif">, раскрываем скобки и уничтожаем противоположные члены::<br>
+      <img align="absmiddle" width="463" height="104" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image123.gif"></p>
+  <p>Индейка выпотрошена, с жаркое никаких проблем:<br>
+      <img align="absmiddle" width="493" height="75" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image125.gif"></p>
+  <p>В итоге: <img align="absmiddle" width="119" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image127.gif"></p>
+  <p>Поскольку в качестве <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0008.gif"> можно выбрать любое действительное  число, то проведём замену <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0002.gif"> и получим <img align="absmiddle" width="109" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image129.gif">.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="109" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image129_0000.gif"> по определению.</p>
+  <p>В целях проверки найдём производную с помощью <strong><a href="tablica_proizvodnyh.pdf" target="_blank">правил дифференцирования и таблицы</a></strong>:<br>
+      <img align="absmiddle" width="375" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image132.gif"></p>
+  <p>Всегда полезно и приятно знать правильный ответ заранее,  поэтому лучше мысленно либо на черновике продифференцировать предложенную  функцию «быстрым» способом в самом начале решения.</p>
+  <p><u>Пример 6</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="96" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image134.gif"> по определению  производной</p>
+  <p>Это пример для самостоятельного решения. Результат лежит на  поверхности:<br>
+      <img align="absmiddle" width="173" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image136.gif"></p>
+  <p>Вернёмся к стилю № 2:</p>
+  <p><u>Пример 7</u></p>
+  <p>Пользуясь определением, найти производную функции<br>
+      <img align="absmiddle" width="120" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image138.gif"></p>
+  <p>Давайте немедленно узнаем, что должно получиться. По <strong><a href="proizvodnaya_slozhnoi_funkcii.html">правилу дифференцирования сложной функции</a></strong>:<br>
+      <img align="absmiddle" width="392" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image140.gif"></p>
+  <p><strong>Решение</strong>: рассмотрим  произвольную точку <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0003.gif">, принадлежащую <img align="absmiddle" width="17" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image103_0000.gif">, зададим в ней приращение аргумента <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0006.gif"> и составим приращение  функции:<br>
+      <img align="absmiddle" width="559" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image143.gif"></p>
+  <p>Найдём производную:<br>
+      <img align="absmiddle" width="555" height="328" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image145.gif"><br>
+    (1) Используем <strong><a href="trigonometricheskie_formuly.pdf" target="_blank">тригонометрическую  формулу</a></strong> <img align="absmiddle" width="268" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image147.gif">.</p>
+  <p>(2) Под синусом раскрываем скобки, под косинусом приводим  подобные слагаемые.</p>
+  <p>(3) Под синусом уничтожаем противоположные слагаемые, под косинусом почленно  делим числитель на знаменатель.</p>
+  <p>(4) В силу нечётности синуса выносим «минус». Под косинусом  указываем, что слагаемое <img align="absmiddle" width="63" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image149.gif">.</p>
+  <p>(5) В знаменателе проводим искусственное домножение, чтобы  использовать <strong><a href="zamechatelnye_predely.html">первый замечательный предел</a></strong> <img align="absmiddle" width="84" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image151.gif">. Таким образом, неопределённость устранена, причёсываем  результат.</p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="144" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image153.gif"> по определению</p>
+  <p>Как видите, основная трудность рассматриваемой задачи  упирается в сложность самого предела + небольшое своеобразие упаковки. На  практике встречаются и тот и другой способ оформления, поэтому я максимально  подробно расписываю оба подхода. Они равноценны, но всё-таки, по моему  субъективному впечатлению, чайникам целесообразнее придерживаться 1-го варианта  с «икс нулевым».</p>
+  <p><u>Пример 8</u></p>
+  <p>Пользуясь определением, найти производную функции<br>
+      <img align="absmiddle" width="85" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image155.gif"></p>
+  <p>Это задание для самостоятельного решения. Образец оформлен в  том же духе, что предыдущий пример.</p>
+  <p>Разберём более редкую версию задачи:</p>
+  <p><u>Пример 9</u></p>
+  <p>Найти производную функции <img align="absmiddle" width="83" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image157.gif"> в точке <img align="absmiddle" width="48" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image159.gif">, пользуясь определением производной.</p>
+  <p>Во-первых, что должно получиться в сухом остатке? Число</p>
+  <p>Вычислим ответ стандартным способом:<br>
+      <img align="absmiddle" width="388" height="120" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image161.gif"></p>
+  <p><strong>Решение</strong>: с точки  зрения наглядности это задание значительно проще, так как в формуле <img align="absmiddle" width="275" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image027_0000.gif"> вместо <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0009.gif"> рассматривается  конкретное значение. </p>
+  <p>Зададим в точке <img align="absmiddle" width="48" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image159_0000.gif"> приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0007.gif"> и составим соответствующее  приращение функции:<br>
+      <img align="absmiddle" width="652" height="48" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image167.gif"><br>
+    Вычислим производную в точке:<br>
+  <img align="absmiddle" width="413" height="67" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image169.gif"></p>
+  <p>Используем весьма редкую формулу разности тангенсов <img align="absmiddle" width="161" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image171.gif"> и в который раз сведём  решение к <strong><a href="zamechatelnye_predely.html">первому замечательному пределу</a></strong>:</p>
+  <p><img align="absmiddle" width="620" height="88" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image173.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="71" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image175.gif"> по определению  производной в точке.</p>
+  <p>Задачу не так трудно решить и «в общем виде» – достаточно  заменить <img align="absmiddle" width="17" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image177.gif">  на <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0010.gif"> или просто <img align="absmiddle" width="13" height="15" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image019_0003.gif"> в зависимости от  способа оформления. В этом случае, понятно, получится не число, а производная  функция.</p>
+  <p><u>Пример 10</u></p>
+  <p>Используя определение, найти производную функции <img align="absmiddle" width="107" height="28" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image181.gif"> в точке <img align="absmiddle" width="40" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image183.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <p>Заключительная бонус-задача предназначена, прежде всего, для  студентов с углубленным изучением математического анализа, но и всем остальным  тоже не помешает:</p>
+  <p><u>Пример 11</u></p>
+  <p>Будет ли дифференцируема функция <img align="absmiddle" width="216" height="51" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image185.gif"> в точке <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187.gif">?</p>
+  <p><strong>Решение</strong>:  очевидно, что кусочно-заданная функция <strong><a href="nepreryvnost_funkcii_i_tochki_razryva.html">непрерывна</a></strong> в точке <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187_0000.gif">, но будет ли она там дифференцируема? </p>
+  <p>Алгоритм решения, причём не только для кусочных  функций, таков:</p>
+  <p>1) Находим <em>левостороннюю  производную</em> в данной точке: <img align="absmiddle" width="45" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image190.gif">.</p>
+  <p>2) Находим <em>правостороннюю  производную</em> в данной точке: <img align="absmiddle" width="45" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image192.gif">.</p>
+  <p>3) Если <em>односторонние  производные</em> <u>конечны</u> и совпадают: <img align="absmiddle" width="101" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image194.gif">, то функция <img align="absmiddle" width="61" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image002_0001.gif"> дифференцируема в точке <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0011.gif"> и геометрически здесь существует общая касательная (см.  теоретическую часть урока <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Определение и  смысл производной</a></strong>). Если получены два разных значения: <img align="absmiddle" width="101" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image198.gif"> <em>(одно из которых может оказаться и бесконечным)</em>, то функция не дифференцируема в точке <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0012.gif">.</p>
+  <p>Если же обе односторонние производные равны  бесконечности <em>(пусть даже разных знаков)</em>, то функция <img align="absmiddle" width="61" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image002_0001.gif"> <strong>не</strong> дифференцируема  в точке <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0012.gif">, но там существует бесконечная производная и общая  вертикальная касательная к графику <em>(см.  Пример 5 урока <strong><a href="kak_naiti_uravnenie_normali.html">Уравнение нормали</a></strong>)</em>.</p>
+  <p><strong><em>! Примечание</em></strong><em>: таким образом, между  вопросами «Будет ли дифференцируема функция в точке?» и «Существует ли производная  в точке?» есть разница!</em></p>
+  <p>Всё очень просто!</p>
+  <p>1) При нахождении левосторонней производной приращение  аргумента отрицательно: <img align="absmiddle" width="45" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image200.gif">, а слева от точки <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187_0001.gif"> расположена парабола <img align="absmiddle" width="88" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image202.gif">, поэтому приращение функции равно:<br>
+      <img align="absmiddle" width="581" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image204.gif"><br>
+    И соответствующий левосторонний предел численно равен  левосторонней производной в рассматриваемой точке:<br>
+    <img align="absmiddle" width="312" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image206.gif">    <br>
+    <br>
+    2) Справа от точки <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187_0002.gif"> находится график  прямой <img align="absmiddle" width="83" height="21" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image208.gif"> и приращение аргумента  положительно: <img align="absmiddle" width="45" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image210.gif">. Таким образом, приращение функции:<br>
+  <img align="absmiddle" width="533" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image212.gif"></p>
+  <p>Правосторонний предел и правосторонняя производная в точке:<br>
+      <img align="absmiddle" width="208" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image214.gif"></p>
+  <p>3) Односторонние производные конечны и различны: <img align="absmiddle" width="89" height="23" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image216.gif"></p>
+  <p><strong>Ответ</strong>: функция не  дифференцируема в точке <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187_0003.gif">.</p>
+  <p>Ещё легче доказывается книжный случай недифференцируемости  модуля <img align="absmiddle" width="168" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image218.gif"> в точке <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187_0004.gif">, о котором я в общих чертах уже рассказал на <strong><a href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">теоретическом уроке о производной</a></strong>. </p>
+  <p>Некоторые кусочно-заданные функции дифференцируемы и в  точках «стыка» графика, например, котопёс <img align="absmiddle" width="195" height="51" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image220.gif"> обладает общей  производной и общей касательной (ось абсцисс) в точке <img align="absmiddle" width="43" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image187_0005.gif">. Кривой, да дифференцируемый на <img align="absmiddle" width="17" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image103_0001.gif">! Желающие могут убедиться в этом самостоятельно по образцу  только что решённого примера.</p>
+  <p>На этом забавном гибриде и закончим повествование =)
+  <p><u>Решения и ответы:</u></p></p><div id="primer">
+  <p><em>Пример 3: <strong>Решение</strong>: рассмотрим некоторую точку <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0013.gif">, принадлежащую области определения функции <img align="absmiddle" width="63" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image091_0000.gif">. Зададим в данной точке приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0008.gif"> и составим  соответствующее приращение функции:</em><br>
+      <em><img align="absmiddle" width="569" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image224.gif"></em><br>
+      <em>Найдём производную в  точке <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0014.gif">:</em><br>
+      <em><img align="absmiddle" width="420" height="115" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image227.gif"></em><br>
+      <em>Так как в качестве <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0015.gif"> можно выбрать любую  точку <img align="absmiddle" width="13" height="15" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image019_0004.gif"> области определения  функции <img align="absmiddle" width="63" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image091_0001.gif">, то <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0004.gif"> и <img align="absmiddle" width="84" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image229.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="84" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image229_0000.gif"> по определению  производной</em></p>
+  <p><em>Пример 4: <strong>Решение</strong>: рассмотрим произвольную точку <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0005.gif">, принадлежащую <img align="absmiddle" width="17" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image103_0002.gif">, и зададим в ней приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0009.gif">. Тогда соответствующее приращение функции:</em><br>
+      <em><img align="absmiddle" width="223" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image233.gif"></em><br>
+      <em>Найдём производную:</em><br>
+      <em><img align="absmiddle" width="269" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image235.gif"></em><br>
+      <em>Используем  замечательный предел <img align="absmiddle" width="88" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image097_0000.gif"></em><br>
+      <em><img align="absmiddle" width="288" height="44" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image237.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="68" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image239.gif"> по определению</em></p>
+  <p><em>Пример 6: <strong>Решение</strong>: рассмотрим некоторую точку <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0016.gif">, принадлежащую <img align="absmiddle" width="17" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image103_0003.gif">, и зададим в ней приращение аргумента <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0010.gif">. Тогда соответствующее приращение функции:<strong></strong></em><br>
+      <em><img align="absmiddle" width="399" height="104" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image242.gif"></em><br>
+      <em>Вычислим производную:</em><br>
+      <em><img align="absmiddle" width="420" height="75" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image244.gif"></em><br>
+      <em>Таким образом: <img align="absmiddle" width="103" height="25" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image246.gif"></em><br>
+      <em>Поскольку в качестве <img align="absmiddle" width="17" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image004_0017.gif"> можно выбрать любое  действительное число, то <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0006.gif"> и <img align="absmiddle" width="97" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image248.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="97" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image248_0000.gif"> по определению.</em></p>
+  <p><em>Пример 8: <strong>Решение</strong>: рассмотрим произвольную точку <img align="absmiddle" width="44" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image030_0007.gif">, принадлежащую <img align="absmiddle" width="17" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image103_0004.gif">, зададим в ней приращение  <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0011.gif"> и составим приращение  функции:</em><br>
+      <em><img align="absmiddle" width="427" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image251.gif"></em><br>
+      <em>Найдём производную:</em><br>
+      <em><img align="absmiddle" width="339" height="64" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image253.gif"></em><br>
+      <em>Используем  тригонометрическую формулу <img align="absmiddle" width="277" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image255.gif"> и первый замечательный  предел:</em><br>
+      <em><img align="absmiddle" width="575" height="192" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image257.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="124" height="45" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image259.gif"> по определению</em></p>
+  <p><em>Пример 10: <strong>Решение</strong>: Зададим приращение <img align="absmiddle" width="23" height="19" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image008_0012.gif"> в точке <img align="absmiddle" width="40" height="24" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image183_0000.gif">. Тогда приращение функции:</em><br>
+      <em><img align="absmiddle" width="575" height="29" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image262.gif"></em><br>
+      <em>Вычислим производную в  точке:</em><br>
+      <em><img align="absmiddle" width="375" height="48" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image264.gif"></em><br>
+      <em>Умножим числитель и  знаменатель на сопряженное выражение:</em><br>
+      <em><img align="absmiddle" width="497" height="101" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image266.gif"></em><br>
+      <strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="63" height="41" src="k/proizvodnaya_po_opredeleniju_primery_reshenii_clip_image268.gif"> по определению  производной в точке</em></p></div>
+  
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1072 @@
+<html>
+<head>
+<title>Функциональные и степенные ряды. Область сходимости ряда
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="autor" content="Александр Емелин">
+<meta name="Keywords" content="функциональные ряды, степенные ряды, область сходимости степенного ряда, примеры решений, интервал сходимости, подробно, комментарии, радиус сходимости, найти область сходимости ряда, найти интервал сходимости ряда, для чайников, доступно, просто">
+<meta name="Description" content="Подробные примеры решений типовых задач. От простого к сложному – доступно всем!">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Функциональные ряды. Степенные ряды.<br>
+Область сходимости ряда</h1>
+  
+  
+  <p><em>Смех без причины –  признак Даламбера</em></p><br>
+  <p>Вот и пробил час функциональных рядов. Для успешного  освоения темы, и, в частности, этого урока, нужно хорошо разбираться в обычных  числовых рядах. Следует хорошо понимать, что такое ряд, уметь применять  признаки сравнения для исследования ряда на сходимость. Таким образом, если Вы  только-только приступили к изучению темы или являетесь чайником в высшей  математике, <strong><a href="osnovy_matematicheskoj_logiki.html">необходимо</a> </strong>последовательно  проработать три урока: <strong><a href="ryady_dlya_chajnikov.html">Ряды для чайников</a></strong>,<strong> <a href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. Признаки Коши</a></strong> и <strong><a href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a></strong>.  Обязательно все три!  Если есть  элементарные знания и навыки решения задач с числовыми рядами, то справиться с  функциональными рядами будет довольно просто, поскольку нового материала не  очень и много.</p>
+  <p>На данном уроке мы рассмотрим понятие функционального ряда  (что это вообще такое), познакомимся со степенными рядами, которые встречаются  в 90% практических заданий, и научимся решать распространенную типовую  задачу на нахождение радиуса сходимости, интервала сходимости и области  сходимости степенного ряда. Далее рекомендую рассмотреть материал о <strong><a href="razlozhenie_funkcij_v_stepennye_ryady.html">разложении функций в степенные ряды</a></strong>, и «скорая помощь» начинающему  будет оказана. Немного отдышавшись, переходим на следующий уровень:</p>
+  <p>– к уроку о <strong><a href="summa_stepennogo_ryada.html">нахождении  суммы степенного ряда</a></strong> – обратная задача к <strong><a href="razlozhenie_funkcij_v_stepennye_ryady.html">его разложению</a></strong>;</p>
+  <p>– к уроку о <strong><a href="ravnomernaja_shodimost.html">равномерной  сходимости</a></strong>, после которого расправляемся с <strong><a href="slozhnye_funkcionalnye_ryady.html">другими функциональными рядами</a></strong>.</p>
+  <p>Также в разделе функциональных рядов есть их многочисленные <strong><a href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">приложения к приближённым вычислениям</a></strong>, и  некоторым особняком идут <a href="ryady_furie_primery_reshenij.html">Ряды Фурье</a>, которым в учебной литературе, как правило,  выделяется отдельная глава. У меня всего лишь одна статья, но зато длиннющая и  много-много дополнительных примеров!</p>
+  <p>Итак, ориентиры расставлены, поехали:</p>
+  <br>
+  <h2><strong>Понятие  функционального ряда и степенного ряда</strong></h2>
+  <p>Обычный <a href="ryady_dlya_chajnikov.html">числовой ряд</a>, вспоминаем, состоит из чисел:</p>
+  <p><img align="absmiddle"  width="211" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image002.gif"></p>
+  <p>Все члены ряда <img align="absmiddle"  width="119" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image004.gif"> – это <strong>ЧИСЛА</strong>. </p>
+  <p>Функциональный же ряд состоит из <strong>ФУНКЦИЙ</strong>:</p>
+  <p><img align="absmiddle"  width="325" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image006.gif"></p>
+  <p>В общий член ряда <img align="absmiddle"  width="39" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image008.gif"> помимо многочленов,  факториалов и других подарков <strong>непременно</strong> входит буковка «икс». Выглядит это, например, так: <img align="absmiddle"  width="89" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image010.gif">. Как и числовой ряд, любой функциональный ряд можно  расписать в развернутом виде:<br>
+      <img align="absmiddle"  width="359" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image012.gif"></p>
+  <p>Как видите, все члены функционального ряда <img align="absmiddle"  width="215" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image014.gif"> – это <strong>функции</strong>.</p>
+  <p>Наиболее популярной разновидностью функционального ряда  является <strong>степенной ряд</strong>. Членами степенного ряда являются <u>целые положительные</u> степени переменной <img align="absmiddle"  width="13" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image017.gif"> либо двучлена <img align="absmiddle" width="133" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image700.gif">, умноженные на числовые коэффициенты:<br>
+    <img align="absmiddle" width="365" height="93" src="g/funkcionalnye_i_stepennye_ryady_clip_image701.gif"><strong></strong></p>
+  <p>Как вы правильно догадываетесь, <img align="absmiddle"  width="17" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image021.gif"> – это старая знакомая  «начинка» <a href="ryady_dlya_chajnikov.html">числовых рядов</a>, которая зависит <strong>только от «эн»</strong>.</p>
+  <p>В практических заданиях многие степенные ряды начинаются с 1-го члена,  и поэтому в своих статьях я буду часто использовать обозначения <img align="absmiddle"  width="51" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image019.gif">, <img align="absmiddle"  width="87" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image025.gif">.</p>
+  <p>Простейшие примеры:<br>
+      <img align="absmiddle"  width="223" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image023.gif"></p>
+  <p><img align="absmiddle"  width="511" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image031.gif"></p>
+  <p>Следует отметить, что подобные ряды могут содержать  и нулевой член <em>(константу)</em>, в этом  случае его записывают за пределами суммы. Например:</p>
+  <p><img align="absmiddle" width="263" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image703.gif"></p>
+  <p>И, кроме того, степени могут «идти с пропусками»:<br>
+      <img align="absmiddle"  width="239" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image033.gif"></p>
+  <p><img align="absmiddle"  width="579" height="48" src="g/funkcionalnye_i_stepennye_ryady_clip_image035.gif"></p>
+  <p>Это тоже степенные ряды <em>(при желании их можно переписать с отсутствующими степенями  и нулевыми коэффициентами)</em>.<br>
+  </p>
+  <br>
+  <h2><strong>Сходимость степенного  ряда. </strong><br>
+      <strong>Интервал сходимости,  радиус сходимости и область сходимости</strong></h2>
+  <p>Не нужно пугаться такого обилия терминов, они идут «рядом  друг с другом» и не представляют особых сложностей для понимания. Лучше выберем  какой-нибудь простой подопытный ряд и сразу начнём разбираться.</p>
+  <p>Прошу любить и жаловать степенной ряд <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image037.gif">. </p>
+  <p>Переменная <img align="absmiddle"  width="13" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image017_0000.gif"> может принимать <strong>любое действительное значение</strong> от «минус  бесконечности» до «плюс бесконечности». Подставим в общий член ряда несколько  произвольных значений «икс»:<br>
+    Если <img align="absmiddle"  width="35" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image040.gif">, то <img align="absmiddle"  width="91" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image042.gif"><br>
+    Если <img align="absmiddle"  width="45" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image044.gif">, то <img align="absmiddle"  width="60" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image046.gif"><br>
+    Если <img align="absmiddle"  width="36" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image048.gif">, то <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image050.gif"><br>
+    Если <img align="absmiddle"  width="51" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image052.gif">, то <img align="absmiddle"  width="220" height="69" src="g/funkcionalnye_i_stepennye_ryady_clip_image054.gif"><br>
+    И так далее.</p>
+  <p>Очевидно, что, подставляя в <img align="absmiddle"  width="23" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image056.gif"> то или иное значение  «икс», мы получаем различные числовые ряды. Некоторые числовые ряды будут  сходиться, а некоторые расходиться. И наша задача <strong>найти множество значений «икс»</strong>, при котором степенной ряд <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image037_0000.gif"> будет <u>сходиться</u>.  Такое множество и называется <strong>областью  сходимости ряда</strong>.</p>
+  <p>Для любого степенного ряда (временно отвлекаемся от конкретного  примера) возможны три случая:</p>
+  <p>1) Степенной ряд <em>сходится  абсолютно</em> на некотором интервале <img align="absmiddle"  width="40" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image058.gif">. Иными словами, если мы выбираем  любое значение «икс» из интервала <img align="absmiddle"  width="40" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image058_0000.gif"> и подставляем его в  общий член степенного ряда, то у нас получается <a href="priznak_leibnica_primery_reshenii.html">абсолютно сходящийся</a> <a href="ryady_dlya_chajnikov.html">числовой ряд</a>. Такой интервал <img align="absmiddle"  width="40" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image058_0001.gif"> и называется <strong>интервалом сходимости степенного ряда</strong>. </p>
+  <p><strong>Радиус сходимости</strong>,  если совсем просто, это <strong>половина длины</strong> интервала сходимости: <br>
+      <img align="absmiddle"  width="65" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image061.gif"></p>
+  <p>Геометрически ситуация выглядит так:</p>
+  <p><img align="absmiddle"  width="530" height="172" src="g/funkcionalnye_i_stepennye_ryady_clip_image063.jpg" alt="Интервал сходимости степенного ряда"></p>
+  <p>В данном случае, интервал сходимости ряда: <img align="absmiddle"  width="60" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image065.gif">, радиус сходимости ряда: <img align="absmiddle"  width="181" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image067.gif"></p>
+  <p>Широко распространен тривиальный случай, когда интервал  сходимости симметричен относительно нуля: </p>
+  <p><img align="absmiddle"  width="532" height="88" src="g/funkcionalnye_i_stepennye_ryady_clip_image069.jpg" alt="Интервал сходимости степенного ряда, симметричный относительно нуля">></p>
+  <p>Здесь интервал сходимости ряда: <img align="absmiddle"  width="47" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image071.gif">, радиус сходимости ряда: <img align="absmiddle"  width="135" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image073.gif"></p>
+  <p>А что будет происходить на концах интервала <img align="absmiddle"  width="40" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image058_0002.gif">?  В точках <img align="absmiddle"  width="39" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image075.gif">, <img align="absmiddle"  width="37" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image077.gif"> степенной ряд <strong>может как сходиться, так и расходиться</strong>,  и для выяснения этого нужно проводить дополнительное исследование. После  такого исследования речь идёт уже об <strong>области  сходимости ряда</strong>:</p>
+  <p>– Если установлено, что степенной ряд расходится на обоих  концах интервала, то <strong>область сходимости  ряда</strong> совпадает с интервалом сходимости: <img align="absmiddle"  width="40" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image058_0003.gif"></p>
+  <p>– Если установлено, что степенной ряд сходится на одном  конце интервала и расходится на другом, то <strong>область  сходимости ряда </strong>представляет собой полуинтервал: <img align="absmiddle"  width="37" height="23" src="g/funkcionalnye_i_stepennye_ryady_clip_image079.gif"> или <img align="absmiddle"  width="37" height="23" src="g/funkcionalnye_i_stepennye_ryady_clip_image081.gif">.</p>
+  <p>– Если установлено, что степенной ряд сходится на обоих  концах интервала, то <strong>область сходимости  ряда</strong> представляет собой отрезок: <img align="absmiddle"  width="36" height="23" src="g/funkcionalnye_i_stepennye_ryady_clip_image083.gif"></p>
+  <p>Термины очень похожи, <strong>область  сходимости ряда</strong> – это чуть более детализированный <strong>интервал сходимости ряда</strong>.</p>
+  <p>С двумя оставшимися случаями всё короче и проще:</p>
+  <p>2) Степенной ряд <em>сходится  абсолютно</em> при <strong>любом</strong> значении <img align="absmiddle"  width="13" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image017_0001.gif">. То есть, какое бы значение «икс» мы не подставили в общий  член степенного ряда – в любом случае у нас получится <em>абсолютно сходящийся</em> числовой ряд. Интервал сходимости и область  сходимости в данном случае совпадают: <img align="absmiddle"  width="68" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image086.gif">. Радиус сходимости: <img align="absmiddle"  width="52" height="17" src="g/funkcionalnye_i_stepennye_ryady_clip_image088.gif">. Рисунок приводить не буду, думаю, нет необходимости.</p>
+  <p>3) Степенной ряд сходится в единственной точке. Если ряд имеет вид   <img align="absmiddle"  width="51" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image019.gif">, то он будет сходиться в единственной точке  <img align="absmiddle"  width="37" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image090.gif">.  В этом случае интервал сходимости и область сходимости ряда  тоже совпадают и равны единственному числу – нулю: <img align="absmiddle"  width="37" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image090_0000.gif">. Если ряд имеет вид <img align="absmiddle"  width="87" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image025.gif">, то он будет сходиться в единственной точке <img align="absmiddle"  width="39" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image075.gif">, если ряд имеет вид <img align="absmiddle"  width="87" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image027_0000.gif">, то, понятно, – в точке «минус а». Радиус сходимости ряда во всех случаях, естественно, нулевой: <img align="absmiddle"  width="40" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image092.gif">.</p>
+  <p>Других вариантов нет. Область сходимости степенного ряда –  это всегда либо единственная точка, либо любое «икс», либо интервал <img align="absmiddle"  width="40" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image058_0004.gif"> (возможно  полуинтервал, отрезок). Подчеркиваю, что <strong>данная классификация справедлива для степенных рядов</strong>. Для  произвольного функционального ряда она в общем случае является неверной.</p>
+  <br>
+  <h2><strong>Исследование  степенного ряда на сходимость</strong></h2>
+  <p>После небольшой порции теоретического материала переходим к  рассмотрению типового задания, которое практически всегда встречается на  зачетах и экзаменах по высшей математике.</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти область сходимости степенного ряда <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image037_0001.gif"></p>
+  <p>Задание часто формулируют эквивалентно: Найти интервал  сходимости степенного ряда и исследовать его сходимость на концах найденного  интервала.</p>
+  <p>Алгоритм решения довольно прозрачен и трафаретен.</p>
+  <p>На первом этапе находим интервал сходимости ряда. В  большинстве заданий используется схема, <u>основанная</u> на признаке Даламбера для произвольных числовых рядов <em>(на сайте освещен  лишь косвенно)</em>. Технически нам  нужно вычислить предел <img align="absmiddle"  width="83" height="51" src="g/funkcionalnye_i_stepennye_ryady_clip_image095.gif">, и с формальной техникой его решения вы уже <a href="priznak_dalambera_priznaki_koshi.html">бОльшей частью знакомы</a>:<br>
+      <img align="absmiddle"  width="521" height="179" src="g/funkcionalnye_i_stepennye_ryady_clip_image097.gif"></p>
+  <p>(1) Составляем отношение следующего члена ряда к  предыдущему.</p>
+  <p>(2) Избавляемся от четырехэтажности дроби.</p>
+  <p>(3) В числителе по правилу действий со степенями «отщипываем»  один «икс». В знаменателе возводим двучлен в квадрат. </p>
+  <p>(4) Выносим оставшийся «икс» за знак предела, причем,  выносим его вместе со знаком модуля. Почему со знаком модуля? Дело в том, что  наш предел <img align="absmiddle"  width="103" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image099.gif"> и так будет  неотрицательным, а вот «икс» вполне может принимать отрицательные значения.  Поэтому модуль относится именно к нему. </p>
+  <p>Кстати, почему <img align="absmiddle"  width="17" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image101.gif"> можно вообще вынести  за знак предела? Потому что «динамической» переменной в пределе у нас является  «эн», и от этого нашему «иксу» ни жарко ни холодно.</p>
+  <p>(5) Устраняем неопределенность <img align="absmiddle"  width="19" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image103.gif"> стандартным способом.</p>
+  <p>После того, как предел найден, нужно проанализировать, что у  нас получилось. <strong>Внимание!</strong> Вычисленный предел и интерпретацию его результатов <em>(см. ниже)</em> НЕЛЬЗЯ считать или называть «признаком Даламбера».  Подчеркну ещё раз, что рассматриваемая схема лишь <u>основана</u> <em>(не вдаюсь в подробности)</em> на признаке Даламбера для числовых рядов.</p>
+  <p>Итак:</p>
+  <p><strong>Если в пределе  получается ноль</strong>, то алгоритм решения заканчивает свою работу, и мы даём  окончательный ответ задания: «Область сходимости степенного ряда: <img align="absmiddle"  width="89" height="16" src="g/funkcionalnye_i_stepennye_ryady_clip_image105.gif">» (любое действительное число – случай №2 предыдущего  параграфа). То есть, степенной ряд сходится при любом значении «икс». Ответ  можно записать эквивалентно: «Ряд сходится при <img align="absmiddle"  width="92" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image107.gif">» (значок <img align="absmiddle"  width="13" height="13" src="g/funkcionalnye_i_stepennye_ryady_clip_image109.gif"> в математике  обозначает <a href="mnozhestva.html">принадлежность</a>).</p>
+  <p><strong>Если в пределе  получается бесконечность</strong>, то алгоритм решения также заканчивает свою  работу, и мы даём окончательный ответ задания: «Ряд сходится при <img align="absmiddle"  width="37" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image090_0001.gif">» (или при  <img align="absmiddle"  width="39" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image075.gif"> либо <img align="absmiddle" width="47" height="15" src="g/funkcionalnye_i_stepennye_ryady_clip_image002222.gif">»). Смотрите случай №3 предыдущего параграфа. </p>
+  <p><strong>Если в пределе получается не ноль и не бесконечность</strong>, то у  нас самый распространенный на практике случай №1 – ряд сходится на некотором  интервале.</p>
+  <p>В данном случае предел равен <img align="absmiddle"  width="17" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image101_0000.gif">. Как найти интервал сходимости ряда? Составляем неравенство:<br>
+      <img align="absmiddle"  width="39" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image112.gif"></p>
+  <p>В <strong>ЛЮБОМ задании данного  типа</strong> в левой части неравенства должен находиться <u>результат вычисления  предела</u>, а в правой части неравенства – <strong>строго</strong> <u>единица</u>. Не буду объяснять, почему именно такое неравенство  и почему справа единица. Уроки носят практическую направленность, и уже очень  хорошо, что от моих рассказов <s>не повесился профессорско-преподавательский состав</s>  стали понятнее некоторые теоремы.</p>
+  <p>Техника работы с модулем и решения двойных  неравенств подробно рассматривалась на первом курсе в статье <strong><a href="oblast_opredeleniya.html">Область определения функции</a></strong>, но для  удобства я постараюсь максимально подробно закомментировать все  действия. Раскрываем <a href="goryachie_formuly.pdf" target="_blank">неравенство с модулем</a> по школьному правилу <img align="absmiddle"  width="131" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image114.gif">. В данном случае:</p>
+    <p><img align="absmiddle"  width="68" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image116.gif"> – интервал сходимости  исследуемого степенного ряда.</p>
+  <p>Половина пути позади.</p>
+  <p>На втором этапе необходимо исследовать сходимость ряда на  концах найденного интервала.</p>
+  <p>Сначала берём левый конец интервала <img align="absmiddle"  width="45" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image044_0000.gif"> и подставляем его в  наш степенной ряд <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image037_0002.gif">:</p>
+  <p>При <img align="absmiddle"  width="123" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image120.gif"></p>
+  <p>Получен числовой ряд, и нам нужно исследовать его на  сходимость (уже знакомая из предыдущих уроков задача).</p>
+  <p>Используем <a href="priznak_leibnica_primery_reshenii.html" target="_blank">признак Лейбница</a>:</p>
+  <p>1) Ряд является знакочередующимся.<br>
+    2) <img align="absmiddle"  width="139" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image122.gif"> – члены ряда убывают  по модулю. При этом каждый следующий член  ряда по модулю меньше предыдущего: <img align="absmiddle" width="179" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image641.gif">, значит, убывание монотонно.<br>
+  Вывод: ряд сходится.</p>
+  <p>С помощью ряда, составленного из модулей, выясним,  как именно:<br>
+      <img align="absmiddle"  width="95" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image124.gif"> – сходится («эталонный» ряд из семейства <a href="ryady_dlya_chajnikov.html" target="_blank">обобщенного  гармонического ряда</a>).</p>
+  <p>Таким образом, полученный числовой ряд <a href="priznak_leibnica_primery_reshenii.html">сходится абсолютно</a>.</p>
+  <p>Далее рассматриваем правый конец интервала <img align="absmiddle"  width="35" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image040_0000.gif">, подставляем это значение в наш степенной ряд <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image037_0003.gif">:</p>
+  <p>при <img align="absmiddle"  width="147" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image127.gif"> – сходится.</p>
+  <p><strong><em>! Напоминаю</em></strong><em>, что любой сходящийся <a href="ryady_dlya_chajnikov.html">положительный  ряд</a> тоже является абсолютно сходящимся.</em></p>
+  <p>Таким образом, степенной ряд <img align="absmiddle"  width="41" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image037_0004.gif"> сходится, причём абсолютно, на обоих  концах найденного интервала.</p>
+  <p><strong>Ответ:</strong> область  сходимости исследуемого степенного ряда: <img align="absmiddle"  width="67" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image129.gif"></p>
+  <p>Имеет право на жизнь   и другое оформление ответа: Ряд сходится, если <img align="absmiddle"  width="65" height="23" src="g/funkcionalnye_i_stepennye_ryady_clip_image131.gif"></p>
+  <p>Иногда в условии задачи требуют указать радиус сходимости. Очевидно, что  в рассмотренном примере <img align="absmiddle"  width="37" height="17" src="g/funkcionalnye_i_stepennye_ryady_clip_image133.gif">.</p>
+  <p><u>Пример 2</u></p>
+  <p>Найти область сходимости степенного ряда <img align="absmiddle"  width="89" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image002_0000.gif"></p>
+  <p><strong>Решение:</strong> интервал сходимости ряда найдём <u>с  помощью</u> признака Даламбера <em>(но не ПО признаку! – для функциональных рядов такого признака не  существует)</em>:</p>
+  <p><img align="absmiddle"  width="439" height="187" src="g/funkcionalnye_i_stepennye_ryady_clip_image004_0000.gif"></p>
+  <p>Составляем стандартное неравенство: <br>
+    Ряд сходится при <img align="absmiddle"  width="41" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image006_0000.gif"></p>
+  <p><strong>Слева</strong> нам нужно  оставить <strong>только <img align="absmiddle"  width="17" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image008_0001.gif"></strong>, поэтому умножаем обе части неравенства на 3:<br>
+      <img align="absmiddle"  width="40" height="26" src="g/funkcionalnye_i_stepennye_ryady_clip_image010_0000.gif"></p>
+  <p>И раскрываем <a href="goryachie_formuly.pdf" target="_blank">неравенство с модулем</a> по правилу <img align="absmiddle"  width="131" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image012_0000.gif">:<br>
+      <img align="absmiddle"  width="70" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image014_0000.gif"> – интервал сходимости  исследуемого степенного ряда.</p>
+  <p>Исследуем сходимость степенного ряда на концах найденного  интервала:</p>
+  <p>1) При <img align="absmiddle"  width="334" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image016.gif">  </p>
+  <p><strong>Обратите внимание</strong>,  что при подстановке значения <img align="absmiddle"  width="45" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image018.gif"> в степенной ряд <img align="absmiddle"  width="89" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image002_0001.gif"> у нас сократились   <img align="absmiddle"  width="17" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image021_0000.gif">. Это верный признак того, что мы правильно нашли интервал  сходимости ряда.</p>
+  <p>Исследуем полученный числовой ряд на сходимость.</p>
+  <p>Используем <a href="priznak_leibnica_primery_reshenii.html" target="_blank">признак Лейбница</a>: </p>
+  <p>– Ряд является знакочередующимся.<br>
+    – <img align="absmiddle"  width="161" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image023_0000.gif"> – члены ряда убывают  по модулю. Каждый следующий член ряда по модулю меньше предыдущего: <img align="absmiddle" width="203" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image642.gif">, значит, убывание монотонно.</p>
+  <p>Вывод: ряд сходится.</p>
+  <p>Исследуем его на характер сходимости:<br>
+      <img align="absmiddle"  width="120" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image025_0001.gif"><br>
+    Сравним данный ряд с расходящимся рядом <img align="absmiddle"  width="47" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image027_0001.gif">. <br>
+    Используем <a href="ryady_dlya_chajnikov.html#pps" target="_blank">предельный признак сравнения</a>:<br>
+  <img align="absmiddle"  width="380" height="88" src="g/funkcionalnye_i_stepennye_ryady_clip_image029_0000.gif"><br>
+    Получено конечное число, отличное от нуля, значит, ряд <img align="absmiddle"  width="44" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image031_0000.gif"> расходится вместе с  рядом <img align="absmiddle"  width="47" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image027_0002.gif">.</p>
+  <p>Таким образом, ряд <img align="absmiddle"  width="67" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image034.gif"> <a href="priznak_leibnica_primery_reshenii.html">сходится   условно</a>.</p>
+  <p>2) При <img align="absmiddle"  width="223" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image036.gif"> – расходится (по  доказанному).</p>
+  <p><strong>Ответ:</strong> Область  сходимости исследуемого степенного ряда: <img align="absmiddle"  width="71" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image038.gif">. При <img align="absmiddle"  width="45" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image040_0001.gif"> ряд сходится условно.</p>
+  <p>В рассмотренном примере областью сходимости степенного ряда  является полуинтервал, причем во всех точках интервала <img align="absmiddle"  width="47" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image042_0000.gif"> степенной ряд <em>сходится абсолютно</em>, а в точке <img align="absmiddle"  width="45" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image040_0002.gif">, как выяснилось –<em> условно</em>.</p>
+  <p><u>Пример 3</u></p>
+  <p>Найти интервал сходимости степенного ряда и исследовать его  сходимость на концах найденного интервала <img align="absmiddle"  width="89" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image044_0001.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <p>Рассмотрим пару примеров, которые встречаются редко, но  встречаются.</p>
+  <p><u>Пример 4</u></p>
+  <p>Найти область сходимости ряда: <img align="absmiddle"  width="113" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image046_0000.gif"></p>
+  <p><strong>Решение:</strong> с помощью признака Даламбера найдем интервал  сходимости данного ряда:<br>
+      <img align="absmiddle"  width="489" height="211" src="g/funkcionalnye_i_stepennye_ryady_clip_image048_0000.gif"></p>
+  <p>(1) Составляем отношение следующего члена ряда к предыдущему.</p>
+  <p>(2) Избавляемся от четырехэтажности дроби.</p>
+  <p>(3) Кубы <img align="absmiddle"  width="48" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image050_0000.gif"> и <img align="absmiddle"  width="19" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image052_0000.gif"> по правилу действий со  степенями подводим под единую степень. В числителе хитро раскладываем степень <img align="absmiddle"  width="300" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image054_0000.gif">, т.е. раскладываем таким образом, чтобы на следующем шаге  сократить дробь на <img align="absmiddle"  width="67" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image056_0000.gif">. Факториалы расписываем подробно. </p>
+  <p> (4) Под кубом  почленно делим числитель на знаменатель, указывая, что <img align="absmiddle"  width="31" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image058_0005.gif">. В дроби сокращаем всё, что можно сократить. Множитель <img align="absmiddle"  width="53" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image060.gif"> выносим за знак  предела, его можно вынести, поскольку в нём нет ничего, зависящего от  «динамической» переменной «эн». Обратите внимание, что знак модуля не нарисован  – по той причине, что <img align="absmiddle"  width="52" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image062.gif"> принимает неотрицательные  значения при любом «икс».</p>
+  <p>В пределе получен ноль, а значит, можно давать окончательный  ответ:</p>
+  <p><strong>Ответ:</strong> Ряд  сходится при <img align="absmiddle"  width="92" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image064.gif"></p>
+  <p>А сначала-то казалось, что этот ряд со «страшной начинкой»  будет трудно решить. Ноль или бесконечность в пределе – почти подарок, ведь  решение заметно сокращается!</p>
+  <p><u>Пример 5</u></p>
+  <p>Найти область сходимости ряда <img align="absmiddle"  width="120" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image066.gif"></p>
+  <p>Это пример для самостоятельного решения. Будьте внимательны ;-) Полное решение  ответ в конце урока.</p>
+  <p>Рассмотрим еще несколько примеров, содержащих элемент  новизны в плане использования технических приемов. </p>
+  <p><u>Пример 6</u></p>
+  <p>Найти интервал сходимости ряда и исследовать его сходимость  на концах найденного интервала <img align="absmiddle"  width="128" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image068.gif"></p>
+  <p><strong>Решение:</strong> В общий  член степенного ряда входит множитель <img align="absmiddle"  width="47" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image070.gif">, обеспечивающий знакочередование. Алгоритм решения полностью  сохраняется, но при составлении предела <img align="absmiddle"  width="83" height="51" src="g/funkcionalnye_i_stepennye_ryady_clip_image072.gif"> мы игнорируем (не  пишем) этот множитель, поскольку модуль уничтожает все «минусы».</p>
+  <p>Интервал сходимости ряда найдём с помощью  признака Даламбера:<br>
+      <img align="absmiddle"  width="480" height="179" src="g/funkcionalnye_i_stepennye_ryady_clip_image074.gif"></p>
+  <p>Составляем стандартное неравенство:<br>
+    Ряд сходится при <img align="absmiddle"  width="63" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image076.gif"><br>
+  <strong>Слева</strong> нам нужно  оставить <strong>только модуль</strong>, поэтому  умножаем обе части неравенства на 5:<br>
+  <img align="absmiddle"  width="63" height="26" src="g/funkcionalnye_i_stepennye_ryady_clip_image078.gif"><br>
+    Теперь раскрываем модуль уже знакомым способом:<br>
+  <img align="absmiddle"  width="93" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image080.gif"></p>
+  <p>В середине двойного неравенства нужно оставить только «икс»,  в этих целях из каждой части неравенства вычитаем 2:<br>
+      <img align="absmiddle"  width="164" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image082.gif"></p>
+  <p><img align="absmiddle"  width="71" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image084.gif"> – интервал сходимости  исследуемого степенного ряда.</p>
+  <p>Исследуем сходимость ряда на концах найденного интервала:</p>
+  <p>1) Подставляем значение <img align="absmiddle"  width="47" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image086_0000.gif"> в наш степенной ряд <img align="absmiddle"  width="126" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image088_0000.gif">:</p>
+  <p><img align="absmiddle"  width="420" height="97" src="g/funkcionalnye_i_stepennye_ryady_clip_image090_0002.gif">  </p>
+  <p>Будьте предельно внимательны, множитель <img align="absmiddle"  width="52" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image092_0000.gif"> не обеспечивает  знакочередование, при любом натуральном «эн» <img align="absmiddle"  width="85" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image094.gif">. Полученный минус выносим за пределы ряда и забываем про  него, поскольку он (как и любая константа-множитель) никак не влияет на сходимость или  расходимость числового ряда.</p>
+  <p><strong>Еще раз заметьте</strong>,  что в ходе подстановки значения <img align="absmiddle"  width="47" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image086_0001.gif"> в общий член  степенного ряда у нас сократился множитель <img align="absmiddle"  width="17" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image096.gif">. Если бы этого не произошло, то это бы значило, что мы либо  неверно вычислили предел, либо неправильно раскрыли модуль. </p>
+  <p>Итак, требуется исследовать на сходимость числовой ряд <img align="absmiddle"  width="72" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image098.gif">. Здесь проще всего использовать предельный признак сравнения  и сравнить данный ряд с расходящимся гармоническим рядом. Но, если честно,  предельный признак сравнения до ужаса мне надоел, поэтому внесу некоторое  разнообразие в решение.</p>
+  <p>Используем <a href="priznak_dalambera_priznaki_koshi.html#ipk" target="_blank">интегральный признак</a>:<br>
+      <img align="absmiddle"  width="89" height="49" src="g/funkcionalnye_i_stepennye_ryady_clip_image100.gif"></p>
+  <p>Подынтегральная функция  непрерывна на <img align="absmiddle"  width="43" height="23" src="g/funkcionalnye_i_stepennye_ryady_clip_image102.gif">.</p>
+  <p><img align="absmiddle"  width="473" height="49" src="g/funkcionalnye_i_stepennye_ryady_clip_image104.gif">    </p>
+  <p>Таким образом, полученный  числовой ряд расходится вместе с соответствующим несобственным интегралом.</p>
+  <p>2) Исследуем второй конец интервала сходимости.<br>
+    При <img align="absmiddle"  width="262" height="46" src="g/funkcionalnye_i_stepennye_ryady_clip_image106.gif"></p>
+  <p>Используем признак Лейбница: </p>
+  <p>– Ряд является знакочередующимся.<br>
+    – <img align="absmiddle"  width="156" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image108.gif"> – члены ряда убывают по модулю. Каждый следующий член ряда по модулю меньше, чем предыдущий: <img align="absmiddle" width="277" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image643.gif">, значит, убывание монотонно.</p>
+  <p>Вывод: ряд сходится</p>
+  <p>Полученный числовой ряд не является абсолютно  сходящимся поскольку  <img align="absmiddle"  width="116" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image110.gif"> – расходится (по  доказанному).</p>
+  <p><strong>Ответ:</strong> <img align="absmiddle"  width="72" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image112_0000.gif"> – область сходимости  исследуемого степенного ряда, при <img align="absmiddle"  width="36" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image114_0000.gif"> ряд сходится условно.</p>
+  <p><u>Пример 7</u></p>
+  <p>Найти интервал сходимости ряда и исследовать его сходимость  на концах найденного интервала <img align="absmiddle"  width="99" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image116_0000.gif"></p>
+  <p>Это пример для самостоятельного решения.</p>
+  <p>Кто утомился, может сходить покурить, а мы рассмотрим еще  два примера.</p>
+  <p><u>Пример 8</u></p>
+  <p>Найти интервал сходимости ряда и исследовать его сходимость  на концах найденного интервала <img align="absmiddle"  width="99" height="48" src="g/funkcionalnye_i_stepennye_ryady_clip_image118.gif"></p>
+  <p><strong>Решение:</strong> Найдем интервал сходимости ряда:<br>
+      <img align="absmiddle"  width="497" height="223" src="g/funkcionalnye_i_stepennye_ryady_clip_image120_0000.gif"></p>
+  <p>Предел <img align="absmiddle"  width="152" height="59" src="g/funkcionalnye_i_stepennye_ryady_clip_image122_0000.gif">  по той причине, что  числитель и знаменатель <em>одного порядка  роста</em>. Более подробно об этом моменте и «турбо»-методе решения читайте в статье о <strong><a href="priznak_dalambera_priznaki_koshi.html#pd" target="_blank">признаке Даламбера</a></strong>. </p>
+  <p>Итак, ряд сходится при <img align="absmiddle"  width="75" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image124_0000.gif"></p>
+  <p>Умножаем обе части неравенства на 9:<br>
+      <img align="absmiddle"  width="75" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image126.gif"><br>
+    Извлекаем из обеих частей корень, при этом помним старый  школьный прикол <img align="absmiddle"  width="61" height="31" src="g/funkcionalnye_i_stepennye_ryady_clip_image128.gif">:<br>
+  <img align="absmiddle"  width="99" height="30" src="g/funkcionalnye_i_stepennye_ryady_clip_image130.gif"><br>
+  <img align="absmiddle"  width="60" height="26" src="g/funkcionalnye_i_stepennye_ryady_clip_image132.gif"><br>
+    Раскрываем модуль:<br>
+  <img align="absmiddle"  width="92" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image134.gif"><br>
+    и прибавляем ко всем частям единицу:<br>
+  <img align="absmiddle"  width="152" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image136.gif"></p>
+  <p><img align="absmiddle"  width="73" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image138.gif"> – интервал сходимости  исследуемого степенного ряда.</p>
+  <p>Исследуем сходимость степенного ряда на концах найденного  интервала:</p>
+  <p>1) Если <img align="absmiddle"  width="47" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image140.gif">, то получается следующий числовой ряд:</p>
+  <p><img align="absmiddle"  width="347" height="96" src="g/funkcionalnye_i_stepennye_ryady_clip_image142.gif"></p>
+  <p>Множитель <img align="absmiddle"  width="43" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image144.gif"> бесследно пропал,  поскольку при любом натуральном значении «эн» <img align="absmiddle"  width="65" height="24" src="g/funkcionalnye_i_stepennye_ryady_clip_image146.gif">.</p>
+  <p><strong>И в третий раз  обращаю внимание</strong> на то, что в результате подстановки сократились  <img align="absmiddle"  width="19" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image148.gif">, а значит, интервал сходимости найден правильно. </p>
+  <p>По всем признакам для полученного числового ряда <img align="absmiddle"  width="76" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image150.gif"> следует применить  <a href="ryady_dlya_chajnikov.html#pps" target="_blank">предельный признак сравнения</a>. Какой ряд подобрать для сравнения? Об этой  методике я уже рассказывал в соответствующем параграфе. Повторим.</p>
+  <p>Определяем старшую степень знаменателя, для этого мысленно  или на черновике отбрасываем под корнем всё, кроме самого старшего слагаемого: <img align="absmiddle"  width="63" height="35" src="g/funkcionalnye_i_stepennye_ryady_clip_image152.gif">. Таким образом, старшая степень знаменателя равна <img align="absmiddle"  width="16" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image154.gif">. Старшая степень числителя, очевидно, равна 1. Из старшей  степени знаменателя вычитаем старшую степень числителя: <img align="absmiddle"  width="63" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image156.gif">. </p>
+  <p>Таким образом, наш ряд нужно сравнить со сходящимся рядом <img align="absmiddle"  width="107" height="53" src="g/funkcionalnye_i_stepennye_ryady_clip_image158.gif">.<br>
+    Используем предельный признак сравнения:</p>
+  
+  <p><img align="absmiddle" width="547" height="88" src="g/funkcionalnye_i_stepennye_ryady_clip_image160.gif"><br>
+    Получено конечное, отличное от нуля число, значит, ряд <img align="absmiddle"  width="76" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image150_0000.gif"> сходится вместе с  рядом <img align="absmiddle"  width="53" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image162.gif">.</p>
+  <p>2) Что происходит на другом конце интервала?</p>
+  <p>При <img align="absmiddle"  width="460" height="48" src="g/funkcionalnye_i_stepennye_ryady_clip_image164.gif"> – а вот и вознаграждение за мучения в предыдущем пункте! Получился точно такой же числовой ряд, сходимость которого мы только что  доказали.</p>
+  <p><strong>Ответ:</strong> область  сходимости исследуемого степенного ряда: <img align="absmiddle"  width="73" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image166.gif"></p>
+  <p>Чуть менее сложный пример для самостоятельного решения:</p>
+  <p><u>Пример 9</u></p>
+  <p>Найти область сходимости ряда <img align="absmiddle"  width="70" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image168.gif"></p>
+  <p>Достаточно для начала =) </p>
+  <p>В заключение остановлюсь на одном моменте. Во всех примерах  мы опирались на признак Даламбера и составляли предел <img align="absmiddle"  width="83" height="51" src="g/funkcionalnye_i_stepennye_ryady_clip_image170.gif">. Но всегда ли нужно делать именно так? Почти всегда. Однако в некоторых случаях бывает невероятно выгодно  привлечь на помощь радикальный признак Коши и составить предел <img align="absmiddle"  width="83" height="33" src="g/funkcionalnye_i_stepennye_ryady_clip_image172.gif">, при этом алгоритм решения задачи остаётся прежним! Что это за случаи? Это те случаи, когда из общего члена степенного  ряда «хорошо» (полностью) извлекается корень «энной» степени, и такие примеры я разберу в статье о <strong><a href="ravnomernaja_shodimost.html">равномерной сходимости ряда</a></strong>. 
+  <p>Но «чайникам» с равномерной сходимостью лучше не  спешить – сначала целесообразно изучить второй урок начального уровня – <a href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций в  степенные ряды. Примеры решений</a>.
+  <p> Желаю успехов!</p>
+  <p><u>Решения и ответы:</u></p></p><div id="primer">
+  <p><em>Пример 3: <strong>Решение:</strong> интервал сходимости ряда найдём с помощью признака Даламбера:</em><br>
+      <em><img align="absmiddle"  width="459" height="179" src="g/funkcionalnye_i_stepennye_ryady_clip_image174.gif"></em><br>
+      <em>Ряд сходится при <img align="absmiddle"  width="41" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image176.gif"></em><br>
+      <em>Слева нужно оставить  только модуль, поэтому умножаем обе части неравенства на 7</em>:<br>
+      <em><img align="absmiddle"  width="41" height="26" src="g/funkcionalnye_i_stepennye_ryady_clip_image178.gif"></em><br>
+      <em><img align="absmiddle"  width="73" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image180.gif"> – интервал сходимости  исследуемого степенного ряда.</em></p>
+  <p><em>Исследуем сходимость  ряда на концах найденного интервала:</em><br>
+    <em>1) При <img align="absmiddle"  width="148" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image182.gif">  </em></p>
+  <p><em>Проверяем выполнение условий признака Лейбница:</em><br>
+    <em>– ряд является  знакочередующимся;</em><br>
+    <em>– <img align="absmiddle"  width="442" height="83" src="g/funkcionalnye_i_stepennye_ryady_clip_image184.gif"> – члены ряда не  убывают по модулю, следовательно, предела <img align="absmiddle"  width="48" height="29" src="g/funkcionalnye_i_stepennye_ryady_clip_image900.gif">. не существует.</em></p>
+  <p><em>Вывод: ряд расходится, т.к. не выполнен <a href="ryady_dlya_chajnikov.html#npsr" target="_blank">необходимый признак сходимости ряда</a>. </em><br>
+    <em>2) При <img align="absmiddle"  width="122" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image186.gif"></em> –<em> расходится по той же причине.</em></p>
+  <p><strong><em>Ответ:</em></strong><em> <img align="absmiddle"  width="73" height="18" src="g/funkcionalnye_i_stepennye_ryady_clip_image180_0000.gif"> – область сходимости  исследуемого степенного ряда</em></p>
+  <p><em>Пример 5: <strong>Решение:</strong> с помощью признака Даламбера найдём интервал сходимости:</em><br>
+      <em><img align="absmiddle"  width="528" height="185" src="g/funkcionalnye_i_stepennye_ryady_clip_image189.gif"></em></p>
+  <p><strong><em>Ответ:</em></strong><em> Ряд сходится при <img align="absmiddle" width="37" height="19" src="g/funkcionalnye_i_stepennye_ryady_clip_image0022222.gif"></em></p>
+  <p><em>Пример 7: <strong>Решение:</strong> найдем интервал сходимости  данного степенного ряда:</em><br>
+      <em><img align="absmiddle"  width="536" height="184" src="g/funkcionalnye_i_stepennye_ryady_clip_image193.gif"></em><br>
+      <em>Ряд сходится при <img align="absmiddle"  width="68" height="27" src="g/funkcionalnye_i_stepennye_ryady_clip_image195.gif"></em><br>
+      <em>Слева нужно оставить  только модуль, умножаем обе части неравенства на </em><img align="absmiddle"  width="16" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image197.gif"><em>:</em><br>
+      <em><img align="absmiddle"  width="67" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image199.gif"></em><br>
+      <em><img align="absmiddle"  width="100" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image201.gif"></em><br>
+      <em>В середине нужно  оставить только «икс», вычитаем из каждой части неравенства 3:</em><br>
+      <em><img align="absmiddle"  width="167" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image203.gif"></em><br>
+      <em><img align="absmiddle"  width="89" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image205.gif"> – интервал сходимости  исследуемого степенного ряда.</em></p>
+  <p><em>Исследуем сходимость  ряда на концах найденного интервала:</em><br>
+    <em>1) При <img align="absmiddle"  width="379" height="69" src="g/funkcionalnye_i_stepennye_ryady_clip_image207.gif">  </em><br>
+    <em><strong>Примечание:</strong> множитель <img align="absmiddle"  width="19" height="20" src="g/funkcionalnye_i_stepennye_ryady_clip_image209.gif"> сократился, значит,  мы на верном пути.</em></p>
+  <p><em>Используем признак  Лейбница:</em></p>
+  <p><em>Ряд является  знакочередующимся;</em><br>
+    <em><img align="absmiddle"  width="169" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image211.gif"> – члены ряда убывают по модулю;</em></p>
+  <p><em>каждый следующий член ряда по модулю меньше, чем предыдущий: <img align="absmiddle"  width="217" height="44" src="g/funkcionalnye_i_stepennye_ryady_clip_image644.gif">, значит,  убывание монотонно.</em></p>
+  <p><em>Таким образом, ряд сходится по  признаку Лейбница.</em></p>
+  <p><em>Исследуем его на  абсолютную/условную сходимость:</em><br>
+    <em><img align="absmiddle"  width="129" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image213.gif"></em></p>
+  <p><em>Используем  <a href="priznak_dalambera_priznaki_koshi.html#ipk" target="_blank">интегральный признак</a>:</em><br>
+    <em> <img align="absmiddle"  width="101" height="49" src="g/funkcionalnye_i_stepennye_ryady_clip_image215.gif"></em><br>
+    <em>Подынтегральная функция непрерывна на <img align="absmiddle"  width="43" height="23" src="g/funkcionalnye_i_stepennye_ryady_clip_image102_0000.gif">.</em><br>
+    <em><img align="absmiddle"  width="577" height="49" src="g/funkcionalnye_i_stepennye_ryady_clip_image218.gif"></em><br>
+    <em>Таким образом, ряд <img align="absmiddle"  width="43" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image220.gif"> расходится вместе с  соответствующим несобственным интегралом. </em><br>
+        <strong><em>Примечание</em></strong><em>: здесь можно было  использовать и <a href="ryady_dlya_chajnikov.html#pps" target="_blank">предельный признак сравнения</a>.</em></p>
+  <p><em><strong>Вывод:</strong> ряд </em><img align="absmiddle"  width="75" height="47" src="g/funkcionalnye_i_stepennye_ryady_clip_image222.gif"> <em> сходится условно.</em><br>
+        <em>2) При <img align="absmiddle"  width="365" height="69" src="g/funkcionalnye_i_stepennye_ryady_clip_image224.gif"> – расходится (по  доказанному).</em><br>
+        <strong><em>Ответ:</em></strong><em> Область сходимости  исследуемого степенного ряда: <img align="absmiddle"  width="89" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image205_0000.gif">, при <img align="absmiddle"  width="57" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image226.gif"> ряд сходится условно.</em><br>
+        <em>Область сходимости  окончательно можно записать так: <img align="absmiddle"  width="105" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image228.gif">, или даже так: <img align="absmiddle"  width="104" height="21" src="g/funkcionalnye_i_stepennye_ryady_clip_image230.gif">. Но не нужно :) ;).</em></p>
+  <p><em>Пример 9: <strong>Решение:</strong> Найдем интервал сходимости  ряда:</em><br>
+      <em><img align="absmiddle"  width="403" height="173" src="g/funkcionalnye_i_stepennye_ryady_clip_image234.gif"></em><br>
+      <em>Ряд сходится при <img align="absmiddle"  width="49" height="22" src="g/funkcionalnye_i_stepennye_ryady_clip_image236.gif"></em><br>
+      <em><img align="absmiddle"  width="47" height="41" src="g/funkcionalnye_i_stepennye_ryady_clip_image238.gif"></em><br>
+      <em><img align="absmiddle"  width="56" height="42" src="g/funkcionalnye_i_stepennye_ryady_clip_image240.gif"></em><br>
+      <em><img align="absmiddle"  width="102" height="42" src="g/funkcionalnye_i_stepennye_ryady_clip_image242.gif"> – интервал сходимости  исследуемого степенного ряда.</em></p>
+  <p><em>Исследуем сходимость  ряда на концах найденного интервала.</em><br>
+    <em>1) При <img align="absmiddle"  width="527" height="81" src="g/funkcionalnye_i_stepennye_ryady_clip_image244.gif">  </em><br>
+    <em>Сравним данный ряд с  расходящимся гармоническим рядом <img align="absmiddle"  width="35" height="45" src="g/funkcionalnye_i_stepennye_ryady_clip_image246.gif">. Используем предельный признак сравнения:</em><br>
+    <em><img align="absmiddle"  width="351" height="83" src="g/funkcionalnye_i_stepennye_ryady_clip_image248.gif"></em><br>
+    <em>Получено конечное  число, отличное от нуля, значит, полученный числовой ряд расходится вместе с  гармоническим рядом.</em><br>
+    <em>2) При <img align="absmiddle"  width="456" height="81" src="g/funkcionalnye_i_stepennye_ryady_clip_image250.gif"> – расходится (по  доказанному).</em><br>
+    <strong><em>Ответ:</em></strong><em> область сходимости  исследуемого степенного ряда: <img align="absmiddle"  width="102" height="42" src="g/funkcionalnye_i_stepennye_ryady_clip_image242_0000.gif"></em></p>
+  </div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

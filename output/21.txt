@@ -1,0 +1,999 @@
+<html>
+<head>
+<title>Как вычислить поток векторного поля?</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="поток векторное поля, что такое поток, как вычислить поток векторного поля, примеры решений, поток векторного поля через замкнутую окружность, вычислить поток непосредственно">
+<meta name="Description" content="Имеет ли значение сторона поверхности? Конечно. По одну сторону улица, по другую – комната =) Поэтому мы будем рассматривать…">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Поток векторного поля.<br>Поток через замкнутую поверхность</h1>
+  
+  <br>
+  <p>На втором уроке по <strong><a href="teoriya_polya.html">основам  векторного анализа</a></strong> мы узнаем, что такое поток векторного поля и научимся  его находить. Впрочем, некоторые читатели уже знают и умеют ;-) 
+  <p>Начнём с привычного вопроса – а с чем у вас ассоциируется  само слово «поток»? …Поток воздуха, поток жидкости…, собственно, он них в  частности и пойдёт речь. Откройте окно и вытяните руку в небо. Это будет направление  оси <img align="absmiddle" width="27" height="19" src="t/potok_vektornogo_polya_clip_image002.gif">. Другие же оси <strong><a href="grafiki_i_svoistva_funkcij.html">декартовой  системы</a></strong> <img align="absmiddle" width="45" height="19" src="t/potok_vektornogo_polya_clip_image004.gif"> пусть находятся где-то  тут, в комнате. </p>
+  <p>Теперь открытое окно мысленно «перекроем» <strong><a href="nepreryvnost_funkcii_dvuh_peremennyh.html">непрерывной</a></strong> <img align="absmiddle" width="16" height="15" src="t/potok_vektornogo_polya_clip_image006.gif">-<strong><a href="poverhnosti.html">поверхностью</a></strong>.  Проще всего выбрать прямоугольный фрагмент плоскости:<br>
+      <img align="absmiddle" width="292" height="290" src="t/potok_vektornogo_polya_clip_image008.jpg" alt="Поток векторного поля скоростей воздуха через открытое окно"></p>
+    <div id="primer"><p>Имеет ли значение сторона поверхности? Конечно. По одну  сторону улица, по другую – комната =) Поэтому мы будем рассматривать <strong><em><a href="poverhnostnye_integraly.html">ориентированную  поверхность</a></em></strong> <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image010.gif"> с двумя сторонами,  которые принято определять с помощью…, ну вы догадываетесь:)</p>
+  <p>Сторону, <strong><a href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">нормальные  векторы</a></strong> которой образует с полуосью <img align="absmiddle" width="32" height="23" src="t/potok_vektornogo_polya_clip_image012.gif"> <u>острые</u> углы,  будем называть <em>положительной</em> стороной  и обозначать через <img align="absmiddle" width="21" height="23" src="t/potok_vektornogo_polya_clip_image014.gif">, и соответственно, противоположную называть <em>отрицательной</em> и обозначать через <img align="absmiddle" width="21" height="23" src="t/potok_vektornogo_polya_clip_image016.gif">.</p>
+  <p><strong><em>Примечание:</em></strong><em> очень хочется  сказать «внешняя» и «внутренняя» сторона, но это приведёт к смысловому  противоречию – ведь ось <img align="absmiddle" width="27" height="19" src="t/potok_vektornogo_polya_clip_image002_0000.gif"> можно развернуть и  наоборот. Более того, на её место можно поставить другую координатную ось и  определить стороны <img align="absmiddle" width="45" height="23" src="t/potok_vektornogo_polya_clip_image018.gif"> из аналогичных  соображений</em>.</p>
+  <p>Для определённости выберем уличную (положительную сторону),  и поскольку наша поверхность <strong><a href="uravnenie_ploskosti.html">плоская</a></strong>,  то у ВСЕХ её точек будет <u>один и тот же</u> <strong><a href="uravnenie_ploskosti.html">вектор нормали</a></strong> <img align="absmiddle" width="15" height="17" src="t/potok_vektornogo_polya_clip_image020.gif">. Этот вектор <strong><a href="vektory_dlya_chainikov.html">свободен</a></strong>,  и его можно начертить где угодно.</p>
+  <p>Что характерно? В окно дует ветер. Или из окна <em>(мало ли,  сквозняк)</em>. Рассмотрим <strong><em><a href="teoriya_polya.html">поле скоростей</a></em></strong> <em>воздуха</em> и <u>каждой точке</u> поверхности <img align="absmiddle" width="21" height="23" src="t/potok_vektornogo_polya_clip_image014.gif"> <strong>поставим в соответствие</strong> исходящий из неё <em>несвободный</em> вектор <img align="absmiddle" width="17" height="20" src="t/potok_vektornogo_polya_clip_image022.gif">, который указывает <em>направление</em> и <em>скорость движения</em> воздуха <u>в  данной точке</u>. Чем сильнее ветер, тем длиннее вектор. Один из них я  изобразил на чертеже.</p>
+  <p>Всё очень просто: <strong>поток </strong><em>(обозначается буквой <img align="absmiddle" width="19" height="17" src="t/potok_vektornogo_polya_clip_image024.gif">) </em>– это количество воздуха, прошедшее через ориентированную  поверхность <img align="absmiddle" width="21" height="23" src="t/potok_vektornogo_polya_clip_image014.gif"> в единицу времени <em>(предполагается, что поле скоростей  измениться не успело)</em>. Причём:</p>
+  <p>– если <img align="absmiddle" width="43" height="19" src="t/potok_vektornogo_polya_clip_image026.gif">, то воздух движется <em>(полностью  или преимущественно)</em> <strong>по</strong> направлению векторов нормали <u>выбранной</u> «уличной» стороны  <img align="absmiddle" width="21" height="23" src="t/potok_vektornogo_polya_clip_image014.gif"> <em>(«уходит» из комнаты)</em>;  </p>
+  <p>– если <img align="absmiddle" width="43" height="19" src="t/potok_vektornogo_polya_clip_image028.gif">, то воздух движется <em>(полностью  или преимущественно)</em> <strong>против</strong> вектора <img align="absmiddle" width="15" height="17" src="t/potok_vektornogo_polya_clip_image020_0000.gif"> <em>(поступает в комнату)</em>.</p>
+  <p>Чем больше поток <strong><em><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></em></strong>, тем больше воздуха прошло  через поверхность <em>(в определённую единицу  времени)</em>, и тем, понятно, сильнее дует ветер.</p>
+  <p>– и, наконец, значению <img align="absmiddle" width="43" height="19" src="t/potok_vektornogo_polya_clip_image030.gif"> соответствуют практически  невероятные ситуации:</p>
+  <p>1) абсолютный штиль (ветер не дует вообще);<br>
+    2) ветер дует строго в самой плоскости «сигма» (все векторы  «эф» лежат в ней);<br>
+    3) равновесие – сколько воздуха «пришло» через поверхность,  столько и «ушло».</p>
+  <p>Что изменится, если рассмотреть «комнатную» сторону <img align="absmiddle" width="21" height="23" src="t/potok_vektornogo_polya_clip_image016.gif"> поверхности? Поскольку  её нормальный вектор направлен в противоположную сторону, то изменится знак  потока: </p>
+  <p>– он станет отрицательным, когда воздух «уходит» на улицу, и  положительным, когда ветер дует в окно. Образно говоря, здесь мы будем смотреть  на ту же самую ситуацию, только с другой стороны.</p>
+  <p>Вообще, чтобы учащиеся лучше прочувствовали эти тонны потока,  во многих источниках информации приводится аналогичный пример с жидкостью. Но  уж «Титаник» мы устраивать не будем, это грустный фильм – лучше откройте водопроводный  кран, задайте координатную ось и проанализируйте поток воды через сечение  водопроводной трубы. Хорошего вам напора!</p>
+  <p>Но кроме шуток, классический пример с жидкостью не случаен –  по той причине, что понятие потока пришло именно из гидродинамики, после чего  распространилось на произвольное<strong> <a href="teoriya_polya.html">векторное поле</a></strong>, где зачастую «дуть» или «течь» в прямом смысле нечему.</p></div>
+  <p>Теперь абстрагируемся от конкретных примеров и перейдём к  общим формулировкам:</p>
+  <p>Поток <strong><a href="teoriya_polya.html">векторного поля</a></strong> <img align="absmiddle" width="345" height="24" src="t/potok_vektornogo_polya_clip_image033.gif"> через ориентированную  поверхность <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image010.gif"> в единицу времени  численно равен <strong><a href="poverhnostnye_integraly.html">поверхностному интегралу  2-го рода</a></strong> по этой поверхности:</p>
+  <p><img align="absmiddle" width="359" height="31" src="t/potok_vektornogo_polya_clip_image035.gif"></p>
+  <p>Если объяснять просто, то из каждой точки поверхности <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image010.gif"> торчит вектор <img align="absmiddle" width="67" height="24" src="t/potok_vektornogo_polya_clip_image037.gif"> поля, и, согласно <strong><a href="chto_takoe_integral_teorija_dlja_chainikov.html">общему принципу интегрирования</a></strong>, данный  интеграл <strong>объединяе</strong>т <em>бесконечно малые</em> проекции всех этих векторов  на координатные плоскости, что и является мерилом суммарного потока.</p>
+  <p>И во 2-й части урока <strong><a href="poverhnostnye_integraly.html">Поверхностные  интегралы</a></strong> <em>(Примеры № 5-8)</em>, мы  только и занимались тем, что находили поток векторного поля. <strong>А если не занимались, то таки придётся</strong>,  ибо без техники решения никуда. Дальнейшее изложение материала предполагает,  что вы умеете решать поверхностные интегралы.</p>
+  <p>Так, например, вспомним <em>Пример  5</em>:</p>
+  <p><em>«Вычислить интеграл <img align="absmiddle" width="248" height="31" src="t/potok_vektornogo_polya_clip_image039.gif">, где <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image010.gif"> – верхняя сторона  плоскости <img align="absmiddle" width="93" height="21" src="t/potok_vektornogo_polya_clip_image042.gif">, расположенная в 1 октанте»</em></p>
+  <p>Скопирую оттуда чертёж:<br>
+      <img align="absmiddle" width="192" height="203" src="t/potok_vektornogo_polya_clip_image044.jpg"><br>
+    Условие этой задачи можно сформулировать эквивалентно:</p>
+  <p><em>«Найти поток  векторного поля <img align="absmiddle" width="240" height="24" src="t/potok_vektornogo_polya_clip_image046.gif"> через часть плоскости <img align="absmiddle" width="93" height="21" src="t/potok_vektornogo_polya_clip_image042_0000.gif">, ограниченную координатными плоскостями, в направлении  вектора нормали, образующего с положительной полуосью<img align="absmiddle" width="27" height="19" src="t/potok_vektornogo_polya_clip_image002_0001.gif"> острый угол»:</em></p>
+  <p>В том примере мы получили ответ <img align="absmiddle" width="277" height="33" src="t/potok_vektornogo_polya_clip_image049.gif"> – это и есть поток  векторного поля через верхнюю сторону треугольника. </p>
+  <p>Что означает этот результат в гидродинамическом смысле? Он  означает, что за <em>единицу времени</em> <u>в  направлении</u> вектора <img align="absmiddle" width="17" height="24" src="t/potok_vektornogo_polya_clip_image051.gif"> протекло <em>5 единиц </em>жидкости. Если бы результат  получился отрицательным, то это бы означало, что «утечка» произошла в  противоположном направлении.</p>
+  <p>Если вычислить поверхностный интеграл по нижней стороне  треугольника, то поток сменит знак:<br>
+      <img align="absmiddle" width="287" height="33" src="t/potok_vektornogo_polya_clip_image053.gif"> </p>
+  <p>Здесь мы «посмотрели на ситуацию» с другой стороны – по  направлению противоположно направленного нормального вектора <img align="absmiddle" width="29" height="24" src="t/potok_vektornogo_polya_clip_image055.gif">. Само же векторное поле (направление и скорость течения  воды) нисколько не изменилось.</p>
+  <p>Я снова воздержусь от секунд, килограммов и прочих  физических величин, чтобы сосредоточиться на математической стороне вопроса.  Скажу только, что <strong><a href="poverhnostnye_integraly.html">поверхностные  интегралы</a></strong> нашли широкое применение в различных разделах физики, и на самом  деле – это отдельная большая тема для разговора.</p>
+  <h3><strong>Как найти поток  векторного поля?</strong></h3>
+  <p>Начинающим, да и всем остальным рекомендую по возможности  сводить решение к вычислению <strong><a href="poverhnostnye_integraly.html">поверхностного  интеграла 1-го рода</a></strong>:</p>
+  <p><img align="absmiddle" width="457" height="40" src="t/potok_vektornogo_polya_clip_image057.gif"><br>
+    Просто чтобы не запутаться. </p>
+  <p>В основе этого перехода лежит известная формула <strong><a href="skaljarnoe_proizvedenie_vektorov.html">скалярного произведения</a></strong> <img align="absmiddle" width="193" height="30" src="t/potok_vektornogo_polya_clip_image059.gif">, и тут будет полезно проанализировать её содержательный  смысл. Пусть <img align="absmiddle" width="17" height="24" src="t/potok_vektornogo_polya_clip_image051.gif"> – это единичный вектор  нормали <u>«комнатой»</u> стороны нашего «сигма-окна» и пусть в рассматриваемых  ниже ситуациях дует ветер некоторой <u>постоянной</u> скорости. </p>
+  <p>Теперь ответим на вопрос: <strong>когда поток будут максимальным?</strong><strong> </strong>Математически максимум достигается при <img align="absmiddle" width="107" height="25" src="t/potok_vektornogo_polya_clip_image061.gif">, то есть когда углы между «полевыми» и нормальным вектором  равны нулю. Что это значит?  Это значит,  что ветер дует «прямо в окно» – строго по направлению нормалей. Логично, что  именно в этом случае в комнату и попадёт максимальное количество воздуха. </p>
+  <p>Если «угол задува» увеличивать от 0 до 90 градусов, то  косинус (а значит, и поток) будет уменьшаться до нуля. Тоже логично. В  частности, если ветер <em>(такой же силы!)</em> дует в окно под углом в 60 градусов, то поток воздуха по <strong><a href="goryachie_formuly.pdf" target="_blank">абсолютной величине</a></strong> будет уже в два раза меньше <em><img align="absmiddle" width="96" height="21" src="t/potok_vektornogo_polya_clip_image063.gif"></em>.Случаю <img align="absmiddle" width="109" height="25" src="t/potok_vektornogo_polya_clip_image065.gif"> соответствует  «невероятная ситуация», когда воздух перемещается в «плоскости окна». И, наконец,  отрицательным значениям косинуса <em>(углы от  90 до 180 градусов)</em> соответствуют случаи, когда ветер дует против вектора  нормали (т.е. из окна).</p>
+  <p>Ещё раз призываю научиться решать <strong><a href="poverhnostnye_integraly.html">поверхностные интегралы</a></strong> тех, кто не успел этого сделать, поскольку  сейчас мы фактически продолжаем тему:</p>
+  <br>
+  <h2><strong>Поток векторного поля  через замкнутую поверхность</strong></h2>
+  <p>Наверное, все интуитивно понимают, что это за поверхность. К  простейшим замкнутым поверхностям можно отнести <strong><a href="poverhnosti.html">сферу</a></strong> и <strong><a href="treugolnaya_piramida.html">треугольную пирамиду</a></strong>. </p>
+  <p>Вычисление потока через замкнутую поверхность имеет свои  особенности, с которыми мы познакомимся в ходе решения следующего каноничного  примера:</p>
+  <p><u>Пример 1</u></p>
+  <p>Найти поток векторного поля <img align="absmiddle" width="271" height="24" src="t/potok_vektornogo_polya_clip_image067.gif"> через замкнутую  поверхность, ограниченную плоскостью <img align="absmiddle" width="108" height="21" src="t/potok_vektornogo_polya_clip_image069.gif"> и координатными  плоскостями, в направлении внешней нормали</p>
+  <p><strong>Решение</strong>, как  повелось, начинаем с чертежа. Перепишем <strong><a href="uravnenie_ploskosti.html">уравнение  плоскости</a></strong> <strong><a href="poverhnosti.html">в отрезках</a></strong> <img align="absmiddle" width="91" height="41" src="t/potok_vektornogo_polya_clip_image071.gif"> и изобразим  предложенную поверхность, которая представляет собой треугольную пирамиду:<br>
+      <img align="absmiddle" width="313" height="288" src="t/potok_vektornogo_polya_clip_image073.jpg" alt="Поток векторного поля через замкнутую поверхность пирамиды"></p>
+    <div id="primer"><p>По условию, поверхность <em>ориентирована</em> в направлении внешней нормали, и поэтому к обозначению пирамиды я добавлю условную  стрелочку: <img align="absmiddle" width="67" height="19" src="t/potok_vektornogo_polya_clip_image075.gif">.</p>
+  <p>Поток векторного поля вычислим с помощью того же <strong><a href="poverhnostnye_integraly.html">поверхностного интеграла 2-го рода</a></strong>, и так  как поверхность замкнута, то к его обозначению обычно добавляют символический  кружочек:<br>
+      <img align="absmiddle" width="205" height="40" src="t/potok_vektornogo_polya_clip_image077.gif"></p>
+  <p>Если совсем тяжко, используйте привычную «сигму»:<br>
+      <img align="absmiddle" width="133" height="40" src="t/potok_vektornogo_polya_clip_image079.gif">, подразумевая под чёрточкой внешнее направление. Заметьте  также, что здесь крайне нежелательно ставить «плюсик»: <img align="absmiddle" width="38" height="22" src="t/potok_vektornogo_polya_clip_image081.jpg"> – по  той причине, что три грани пирамиды «смотрят» против координатных осей!</p>
+  <p>Несмотря на «страшный вид», смысл задачи опять же прост:  представьте, что пирамида ограничивает фрагмент нЕкоего водного русла.  Требуется выяснить, сколько жидкости туда поступило/вытекло в единицу времени.</p>
+  <p>И, очевидно, что здесь придётся воспользоваться <em>свойством аддитивности</em> поверхностного  интеграла, а конкретнее, представить его в виде <strong>суммы</strong> четырёх поверхностных интегралов по <em>ориентированным</em> <strong><a href="treugolnaya_piramida.html">граням  пирамиды</a></strong>:</p>
+  <p><img align="absmiddle" width="340" height="40" src="t/potok_vektornogo_polya_clip_image083.gif">, где:</p>
+  <p><img align="absmiddle" width="197" height="165" src="t/potok_vektornogo_polya_clip_image085.gif"></p>
+  <p>Здесь можно тоже использовать короткие обозначения <img align="absmiddle" width="89" height="24" src="t/potok_vektornogo_polya_clip_image087.gif">, но чтобы всё было понятнее, я предпочёл пусть громоздкие,  но зато «говорящие» названия поверхностей.</p>
+  <p><strong><em>! Примечание:</em></strong><em> вершины треугольников (и  др. фигур) желательно перечислять по правилу штопора: представьте, что вы  вкручиваете его в бутылку <u>по направлению вектора нормали</u>. Тогда вершины  следует перечислить по направлению вращательного движения ручки штопора. Это  правило дополнительно и однозначно указывает на ориентацию поверхности</em>.</p>
+  <p>…что-то не вижу энтузиазма в ваших глазах:)) …и напрасно – с  каждым экраном будет всё интереснее и интереснее ;)</p>
+  <p>1) Вычислим поток векторного поля через ориентированный  треугольник <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image089.gif"> в направлении  нормального вектора <img align="absmiddle" width="16" height="23" src="t/potok_vektornogo_polya_clip_image091.gif">. По сути дела, это <em>Пример  5</em> урока <strong><a href="poverhnostnye_integraly.html">Поверхностные интегралы</a></strong>. </p>
+  <p>Поскольку внешняя нормаль образует с полуосью <img align="absmiddle" width="32" height="23" src="t/potok_vektornogo_polya_clip_image012_0000.gif"> острый угол, то для  нахождения единичного нормального вектора используем формулу:<br>
+      <img align="absmiddle" width="147" height="55" src="t/potok_vektornogo_polya_clip_image093.gif"></p>
+  <p>Запишем <strong><a href="poverhnosti.html">функцию  плоскости</a></strong> <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image089_0000.gif">:<br>
+      <img align="absmiddle" width="393" height="41" src="t/potok_vektornogo_polya_clip_image095.gif"><br>
+    и найдём <strong><a href="chastnye_proizvodnye_primery.html">частные  производные 1-го порядка</a></strong>:<br>
+  <img align="absmiddle" width="123" height="41" src="t/potok_vektornogo_polya_clip_image097.gif"></p>
+  <p>Таким образом:<br>
+      <img align="absmiddle" width="633" height="96" src="t/potok_vektornogo_polya_clip_image099.gif"><br>
+    Убедимся, что его <strong><a href="vektory_dlya_chainikov.html">длина</a></strong> действительно равна единице:<br>
+  <img align="absmiddle" width="444" height="56" src="t/potok_vektornogo_polya_clip_image101.gif">, ч.т.п. На чертеже он выглядит коротеньким, но что поделать  – такой уж наклон плоскости.</p>
+  <p>Вычислим скалярное произведение:<br>
+      <img align="absmiddle" width="516" height="91" src="t/potok_vektornogo_polya_clip_image103.gif"></p>
+  <p>и сведём решение к вычислению <strong><a href="poverhnostnye_integraly.html">поверхностного интеграла 1-го рода</a></strong>:<br>
+      <img align="absmiddle" width="565" height="47" src="t/potok_vektornogo_polya_clip_image105.gif"></p>
+  <p>Теперь используем   формулу <img align="absmiddle" width="376" height="43" src="t/potok_vektornogo_polya_clip_image107.gif">, где <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image109.gif"> – проекция поверхности  «сигма» на плоскость <img align="absmiddle" width="39" height="19" src="t/potok_vektornogo_polya_clip_image111.gif">. Напоминаю, что интеграл 1-го рода можно вычислить ещё двумя  способами, но во избежание путаницы (опять же) лучше пойти привычным путём:</p>
+  <p><img align="absmiddle" width="400" height="91" src="t/potok_vektornogo_polya_clip_image113.gif"></p>
+  <p>Осталось разрулить <strong><a href="dvoinye_integraly_dlya_chainikov.html">двойной  интеграл</a></strong>. Найдём прямую, по которой по пересекаются плоскости <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image089_0001.gif"> и <img align="absmiddle" width="39" height="19" src="t/potok_vektornogo_polya_clip_image111_0000.gif">:<br>
+      <img align="absmiddle" width="475" height="48" src="t/potok_vektornogo_polya_clip_image116.gif"></p>
+  <p>и изобразим проекцию <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image109_0000.gif"> на двумерном чертеже  (не ленимся!!!):<br>
+      <img align="absmiddle" width="168" height="192" src="t/potok_vektornogo_polya_clip_image119.jpg" alt="Чтобы не запутаться, обязательно выполняем чертежи проекций "><br>
+    Очевидно, что с <strong><a href="dvoinye_integraly_dlya_chainikov.html">порядком  обхода</a></strong> я уже определился чуть ранее:<br>
+  <img align="absmiddle" width="107" height="61" src="t/potok_vektornogo_polya_clip_image121.gif"></p>
+  <p>Продолжаем:<br>
+      <img align="absmiddle" width="199" height="63" src="t/potok_vektornogo_polya_clip_image123.gif"></p>
+  <p>Повторные интегралы удобнее вычислить по порядку. Сначала  внутренний:<br>
+      <img align="absmiddle" width="405" height="157" src="t/potok_vektornogo_polya_clip_image125.gif"></p>
+  <p>затем внешний:<br>
+      <img align="absmiddle" width="396" height="209" src="t/potok_vektornogo_polya_clip_image127.gif"></p>
+  <p>Готово. Обратите внимание на рациональную технику вычисления  и оформления.</p>
+  <p>Для лучшего понимания задачи продолжим вкладывать в решение  гидродинамический смысл. Что означает полученный результат <img align="absmiddle" width="55" height="23" src="t/potok_vektornogo_polya_clip_image129.gif">? Он означает, что за единицу времени через треугольник <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image089_0002.gif"> в направлении вектора <img align="absmiddle" width="16" height="23" src="t/potok_vektornogo_polya_clip_image132.gif"> прошло 26 единиц  жидкости. Кстати, это не значит, что она движется ИСКЛЮЧИТЕЛЬНО в данном  направлении. Вполне возможно, что здесь «водоворот»: попробуйте поподставлять в  функцию <img align="absmiddle" width="271" height="24" src="t/potok_vektornogo_polya_clip_image067_0000.gif"> различные точки  треугольника <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image089_0003.gif">, и если окажется, что векторы поля торчат из него в разные стороны,  то дело обстоит именно так.</p>
+  <p>Оставшиеся три интеграла, благо, проще:</p>
+  <p>2) Найдём поток векторного поля через <em>ориентированный</em> треугольник <img align="absmiddle" width="35" height="19" src="t/potok_vektornogo_polya_clip_image134.gif">. Единичный вектор нормали тут очевиден: <img align="absmiddle" width="55" height="24" src="t/potok_vektornogo_polya_clip_image136.gif"> или <img align="absmiddle" width="77" height="23" src="t/potok_vektornogo_polya_clip_image138.gif">. Вычислим скалярное произведение:<br>
+      <img align="absmiddle" width="372" height="24" src="t/potok_vektornogo_polya_clip_image140.gif"></p>
+  <p>и перейдём к поверхностному интегралу 1-го рода<br>
+      <img align="absmiddle" width="507" height="40" src="t/potok_vektornogo_polya_clip_image142.gif"></p>
+  <p>Так как поверхность лежит непосредственно в плоскости <img align="absmiddle" width="39" height="19" src="t/potok_vektornogo_polya_clip_image111_0001.gif">, то формула<br>
+      <img align="absmiddle" width="376" height="43" src="t/potok_vektornogo_polya_clip_image107_0000.gif"> сильно упрощается –  ведь «зет» и её производные равны нулю. Двойной интеграл возьмём по тем же  пределам интегрирования:<br>
+      <img align="absmiddle" width="556" height="115" src="t/potok_vektornogo_polya_clip_image145.gif"></p>
+  <p>Отрицательное значение <img align="absmiddle" width="57" height="23" src="t/potok_vektornogo_polya_clip_image147.gif"> означает, что за  единицу времени через треугольник <img align="absmiddle" width="35" height="19" src="t/potok_vektornogo_polya_clip_image134.gif"> по итогу прошло 9  единиц жидкости <strong>против</strong> вектора <img align="absmiddle" width="17" height="23" src="t/potok_vektornogo_polya_clip_image149.gif"> (то есть, поступило  внутрь пирамиды). Любопытные читатели могут снова поподставлять точки  треугольника в функцию <img align="absmiddle" width="271" height="24" src="t/potok_vektornogo_polya_clip_image067_0001.gif"> и проанализировать  характер течения.</p>
+  <p>3) Вычислим поток векторного поля через <em>ориентированный</em> треугольник <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image151.gif">. Внешняя нормаль здесь тоже как на ладони: <img align="absmiddle" width="52" height="24" src="t/potok_vektornogo_polya_clip_image153.gif"> или <img align="absmiddle" width="77" height="24" src="t/potok_vektornogo_polya_clip_image155.gif">. Скалярное произведение:<br>
+      <img align="absmiddle" width="471" height="25" src="t/potok_vektornogo_polya_clip_image157.gif"></p>
+  <p>и стандартный переход:<br>
+      <img align="absmiddle" width="520" height="40" src="t/potok_vektornogo_polya_clip_image159.gif"></p>
+  <p>Поскольку треугольник <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image151_0000.gif"> лежит в плоскости <img align="absmiddle" width="39" height="19" src="t/potok_vektornogo_polya_clip_image161.gif">, то используем формулу <img align="absmiddle" width="375" height="44" src="t/potok_vektornogo_polya_clip_image163.gif">, в которой поверхность <img align="absmiddle" width="16" height="15" src="t/potok_vektornogo_polya_clip_image006_0000.gif"> совпадает со своей  проекцией <img align="absmiddle" width="29" height="23" src="t/potok_vektornogo_polya_clip_image166.gif"> на плоскость <img align="absmiddle" width="39" height="19" src="t/potok_vektornogo_polya_clip_image161_0000.gif">, а функция <img align="absmiddle" width="47" height="21" src="t/potok_vektornogo_polya_clip_image169.gif"> вместе со своими  производными равна нулю:</p>
+  <p><img align="absmiddle" width="368" height="44" src="t/potok_vektornogo_polya_clip_image171.gif"></p>
+  <p>Найдём прямую, по которой пересекаются плоскости:<br>
+      <img align="absmiddle" width="471" height="48" src="t/potok_vektornogo_polya_clip_image173.gif"><br>
+    и выполним двумерный чертёж:<br>
+  <img align="absmiddle" width="169" height="191" src="t/potok_vektornogo_polya_clip_image174.jpg" alt="Проекция пирамида на плоскость XOZ"><br>
+    По размерам треугольник равен предыдущему, но это только  размеры. Выберем следующий порядок обхода области:<br>
+  <img align="absmiddle" width="105" height="61" src="t/potok_vektornogo_polya_clip_image176.gif"></p>
+  <p>и перейдём к повторным интегралам:<br>
+      <img align="absmiddle" width="120" height="63" src="t/potok_vektornogo_polya_clip_image178.gif"></p>
+  <p>Внутренний:<br>
+      <img align="absmiddle" width="527" height="64" src="t/potok_vektornogo_polya_clip_image180.gif"></p>
+  <p>и внешний:<br>
+      <img align="absmiddle" width="431" height="93" src="t/potok_vektornogo_polya_clip_image182.gif"></p>
+  <p>Результат <img align="absmiddle" width="45" height="24" src="t/potok_vektornogo_polya_clip_image184.gif"> означает, что за  единицу времени через плоскость <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image151_0001.gif"> протекла 1 единица  жидкости <strong>в направлении</strong> вектора <img align="absmiddle" width="17" height="24" src="t/potok_vektornogo_polya_clip_image187.gif"> (убыла из пирамиды). Может  быть, здесь очень слабое течение, но не исключено, что и бурный водоворот.  Исследуете вопрос методом научного тыка!</p>
+  <p>4) И, наконец, поток векторного поля через грань <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image189.gif"> по внешнему  направлению <img align="absmiddle" width="51" height="23" src="t/potok_vektornogo_polya_clip_image191.gif"> Скалярное произведение:</p>
+  <p> <img align="absmiddle" width="337" height="24" src="t/potok_vektornogo_polya_clip_image193.gif"></p>
+  <p>и ещё раз переход:<br>
+    <img align="absmiddle" width="477" height="40" src="t/potok_vektornogo_polya_clip_image195.gif"></p>
+  <p>Поскольку треугольник находится в плоскости <img align="absmiddle" width="35" height="19" src="t/potok_vektornogo_polya_clip_image197.gif">, то пускаем в ход формулу <img align="absmiddle" width="379" height="44" src="t/potok_vektornogo_polya_clip_image199.gif">, где функция <img align="absmiddle" width="47" height="21" src="t/potok_vektornogo_polya_clip_image201.gif"> и её производные равны  нулю:</p>
+  <p><img align="absmiddle" width="316" height="44" src="t/potok_vektornogo_polya_clip_image203.gif"></p>
+  <p>Найдём линию пересечения плоскостей и выполним двумерный  чертёж:<br>
+      <img align="absmiddle" width="336" height="48" src="t/potok_vektornogo_polya_clip_image205.gif"><br>
+      <img align="absmiddle" width="204" height="193" src="t/potok_vektornogo_polya_clip_image207.jpg" alt="Проекция пирамида на плоскость YOZ"><br>
+    Выберем следующий порядок обхода области:<br>
+  <img align="absmiddle" width="84" height="45" src="t/potok_vektornogo_polya_clip_image209.gif"></p>
+  <p><img align="absmiddle" width="364" height="99" src="t/potok_vektornogo_polya_clip_image211.gif"></p>
+  <p>Отрицательное значение <img align="absmiddle" width="65" height="23" src="t/potok_vektornogo_polya_clip_image213.gif"> означает, что за  единицу времени через треугольник <img align="absmiddle" width="37" height="19" src="t/potok_vektornogo_polya_clip_image189.gif"> по итогу протекло 18  единиц жидкости <strong>против</strong> направления  вектора <img align="absmiddle" width="17" height="23" src="t/potok_vektornogo_polya_clip_image216.gif"> (т.е. внутрь  пирамиды).</p>
+  <p>Ну что же, вот и настал этот знаменательный момент. Вычислим  поток векторного поля через всю пирамиду по направлению внешних нормалей:</p>
+  <p><img align="absmiddle" width="469" height="40" src="t/potok_vektornogo_polya_clip_image218.gif"></p>
+  <p><strong>Ответ</strong>: <img align="absmiddle" width="43" height="19" src="t/potok_vektornogo_polya_clip_image030_0000.gif"></p>
+  <p>Что это значит? Это значит, что в единицу времени – сколько  поступило жидкости внутрь пирамиды – столько и вытекло. </p></div>
+  <p>Да, решение длинное, да решение непростое, но задачи на  вычисление потока векторного поля встречаются даже у студентов-заочников, причём,  довольно часто. И поэтому обязательно потренируйтесь на  небольшой призмочке:</p>
+  <p><u>Пример 2</u></p>
+  <p>Вычислить поток векторного поля <img align="absmiddle" width="17" height="20" src="t/potok_vektornogo_polya_clip_image022_0000.gif"> через замкнутую  поверхность <img align="absmiddle" width="16" height="15" src="t/potok_vektornogo_polya_clip_image006_0001.gif"> в направлении внешней  нормали</p>
+  <p><img align="absmiddle" width="264" height="48" src="t/potok_vektornogo_polya_clip_image223.gif"></p>
+  <p>Будьте ОЧЕНЬ внимательны!</p>
+  <p>В ходе решения заметьте, что плоскости <img align="absmiddle" width="88" height="21" src="t/potok_vektornogo_polya_clip_image225.gif"> параллельны оси <img align="absmiddle" width="27" height="19" src="t/potok_vektornogo_polya_clip_image002_0002.gif">, а точнее проходят через неё, и поэтому проецирование на  плоскость <img align="absmiddle" width="39" height="19" src="t/potok_vektornogo_polya_clip_image111_0002.gif"> не годится; плоскость  же <img align="absmiddle" width="35" height="19" src="t/potok_vektornogo_polya_clip_image229.gif"> параллельна плоскости <img align="absmiddle" width="35" height="19" src="t/potok_vektornogo_polya_clip_image197_0000.gif"> и здесь вообще один  вариант.</p>
+  <p>Кроме того, <strong><a href="uravnenie_ploskosti.html">нормальные  векторы плоскостей</a></strong> <img align="absmiddle" width="88" height="21" src="t/potok_vektornogo_polya_clip_image232.gif"> ортогональны к оси <img align="absmiddle" width="27" height="19" src="t/potok_vektornogo_polya_clip_image002_0003.gif">, и до сих пор нам не встречалась эта ситуация. Как их найти?  Здесь можно обойтись стандартными формулами <em>(см.  по ссылке выше)</em>, после чего проверить, куда они «смотрят» <em>(графически или вычислив <strong><a href="skaljarnoe_proizvedenie_vektorov.html">скалярное произведение</a></strong> с вектором <img align="absmiddle" width="11" height="20" src="t/potok_vektornogo_polya_clip_image234.gif"> либо<img align="absmiddle" width="13" height="23" src="t/potok_vektornogo_polya_clip_image236.gif">)</em>.</p>
+  <p>Но что делать, если дана произвольная поверхность? И вообще  – нужно ли исследовать всю поверхность? Перейдём ко 2-й части статьи, где нас  ждёт множество удивительных открытий:</p>
+  <p><strong><a href="divergenciya_vektornogo_polya.html">Дивергенция  векторного поля &gt;&gt;&gt;</a></strong></p>
+  <p><strong>! Перейдите к ней ПРЯМО СЕЙЧАС и прочитайте по «горячим мыслям» хотя бы начало!</strong></p>
+  
+  <p><u>Решение Примера 2:</u></p>
+  <p><em>Изобразим на чертеже искомую  поверхность, это призма <img align="absmiddle" width="96" height="19" src="t/potok_clip_image002.gif">:</em><br>
+      <em><img align="absmiddle" width="357" height="332" src="t/potok_clip_image004.jpg"></em></p>
+	  <div id="primer">
+  <p><em>Поток <img align="absmiddle" width="19" height="17" src="t/potok_clip_image006.gif"> векторного поля <img align="absmiddle" width="264" height="24" src="t/potok_clip_image008.gif"> через внешне-ориентированную  поверхность <img align="absmiddle" width="17" height="17" src="t/potok_vektornogo_polya_clip_image010.gif"> вычислим с помощью  поверхностного интеграла 2-го рода путём перехода к интегралу 1-го рода:</em></p>
+  <p><em><img align="absmiddle" width="232" height="40" src="t/potok_clip_image012.gif">, где <img align="absmiddle" width="17" height="24" src="t/potok_clip_image014.gif"> – единичный вектор  внешней нормали.</em></p>
+  <p><em>Поток представим в  виде суммы 5 потоков через грани призмы:</em><br>
+      <em><img align="absmiddle" width="188" height="24" src="t/potok_clip_image016.gif"></em></p>
+  
+  <p><em>1) Вычислим поток <img align="absmiddle" width="21" height="23" src="t/potok_clip_image018.gif"> через ориентированную грань   <img align="absmiddle" width="84" height="23" src="t/potok_clip_image020.gif"> в направлении единичного  нормального вектора <img align="absmiddle" width="111" height="24" src="t/potok_clip_image022.gif">. Найдём скалярное произведение:</em><br>
+      <em><img align="absmiddle" width="304" height="24" src="t/potok_clip_image024.gif"></em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="227" height="41" src="t/potok_clip_image026.gif">, поскольку грань <img align="absmiddle" width="64" height="23" src="t/potok_clip_image028.gif"> лежит в плоскости <img align="absmiddle" width="37" height="19" src="t/potok_clip_image030.gif">.</em></p>
+  <p><em>2) Вычислим поток <img align="absmiddle" width="23" height="23" src="t/potok_clip_image032.gif"> через грань <img align="absmiddle" width="88" height="23" src="t/potok_clip_image034.gif"> в направлении  единичного нормального вектора <img align="absmiddle" width="92" height="24" src="t/potok_clip_image036.gif">. Найдём скалярное произведение:</em><br>
+      <em><img align="absmiddle" width="293" height="24" src="t/potok_clip_image038.gif"></em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="252" height="41" src="t/potok_clip_image040.gif"></em></p>
+  <p><em>используем формулу:</em><br>
+      <em><img align="absmiddle" width="377" height="43" src="t/potok_clip_image042.gif"></em></p>
+  <p><em>Грань <img align="absmiddle" width="68" height="23" src="t/potok_clip_image044.gif"> лежит в плоскости <img align="absmiddle" width="35" height="17" src="t/potok_clip_image046.gif">, следовательно, <img align="absmiddle" width="73" height="25" src="t/potok_clip_image048.gif"> и:</em></p>
+  <p><em><img align="absmiddle" width="289" height="41" src="t/potok_clip_image050.gif"></em></p>
+  <p><em>Изобразим проекцию  грани <img align="absmiddle" width="20" height="23" src="t/potok_clip_image052.gif"> на плоскость <img align="absmiddle" width="39" height="19" src="t/potok_clip_image054.gif">:</em><br>
+      <em><img align="absmiddle" width="198" height="267" src="t/potok_clip_image055.jpg"></em><br>
+      <em>и выберем следующий  порядок обхода области:</em><br>
+      <em><img align="absmiddle" width="71" height="43" src="t/potok_clip_image057.gif"></em><br>
+      <em><img align="absmiddle" width="549" height="51" src="t/potok_clip_image059.gif"></em></p>
+  <p><em>3) Вычислим поток <img align="absmiddle" width="23" height="24" src="t/potok_clip_image061.gif"> через грань <img align="absmiddle" width="97" height="24" src="t/potok_clip_image063.gif"> в направлении  единичного нормального вектора <img align="absmiddle" width="88" height="24" src="t/potok_clip_image065.gif">. Найдём скалярное произведение:</em><br>
+      <em><img align="absmiddle" width="332" height="25" src="t/potok_clip_image067.gif"></em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="300" height="41" src="t/potok_clip_image069.gif"></em></p>
+  <p><em>Квадрат <img align="absmiddle" width="47" height="19" src="t/potok_clip_image071.gif">  лежит в плоскости <img align="absmiddle" width="35" height="19" src="t/potok_clip_image073.gif"> и удачно проецируется  лишь на плоскость <img align="absmiddle" width="35" height="19" src="t/potok_clip_image075.gif">. Используем формулу <img align="absmiddle" width="377" height="44" src="t/potok_clip_image077.gif">, в данном случае <img align="absmiddle" width="109" height="25" src="t/potok_clip_image079.gif"> и:</em></p>
+  <p><em><img align="absmiddle" width="396" height="44" src="t/potok_clip_image081.gif"></em></p>
+  <p><em>Изобразим проекцию  грани <img align="absmiddle" width="47" height="19" src="t/potok_clip_image071_0000.gif"> на плоскость <img align="absmiddle" width="35" height="19" src="t/potok_clip_image075_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="269" height="168" src="t/potok_clip_image083.jpg"></em><br>
+      <em>и выберем следующий  порядок обхода области:</em><br>
+      <em><img align="absmiddle" width="60" height="45" src="t/potok_clip_image085.gif"></em></p>
+  <p><em><img align="absmiddle" width="152" height="51" src="t/potok_clip_image087.gif"></em><br>
+      <em>а) <img align="absmiddle" width="425" height="51" src="t/potok_clip_image089.gif"></em><br>
+      <em>б) <img align="absmiddle" width="360" height="51" src="t/potok_clip_image091.gif"></em></p>
+  <p><em>4) Вычислим поток <img align="absmiddle" width="23" height="23" src="t/potok_clip_image093.gif"> через грань <img align="absmiddle" width="97" height="23" src="t/potok_clip_image095.gif">. Найдём вектор <img align="absmiddle" width="17" height="23" src="t/potok_clip_image097.gif">. Данная грань лежит в <strong><a href="uravnenie_ploskosti.html">плоскости</a></strong> <img align="absmiddle" width="61" height="21" src="t/potok_clip_image099.gif"> с <strong><a href="uravnenie_ploskosti.html#n">нормальным вектором</a></strong> <img align="absmiddle" width="71" height="21" src="t/potok_clip_image101.gif">. Тогда соответствующий вектор единичной длины:</em><br>
+      <em><img align="absmiddle" width="267" height="51" src="t/potok_clip_image103.gif"></em><br>
+      <em>Контроль: <img align="absmiddle" width="340" height="53" src="t/potok_clip_image105.gif"></em></p>
+  <p><strong><em>Примечание</em></strong><em>: <img align="absmiddle" width="17" height="23" src="t/potok_clip_image107.gif"> – это именно тот  вектор, который «смотрит» во внешнем направлении грани <img align="absmiddle" width="48" height="19" src="t/potok_clip_image109.gif">, аналитически это можно выяснить с помощью скалярного  произведения:</em><br>
+      <em><img align="absmiddle" width="244" height="43" src="t/potok_clip_image111.gif">, значит, между ним и координатным вектором <img align="absmiddle" width="11" height="20" src="t/potok_clip_image113.gif"> острый угол.</em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="599" height="45" src="t/potok_clip_image115.gif"></em></p>
+  <p><em><img align="absmiddle" width="335" height="48" src="t/potok_clip_image117.gif"></em></p>
+  <p><em>Грань <img align="absmiddle" width="79" height="23" src="t/potok_clip_image119.gif"> несколько удобнее  спроецировать на плоскость <img align="absmiddle" width="39" height="19" src="t/potok_clip_image121.gif">. Используем формулу <img align="absmiddle" width="375" height="44" src="t/potok_clip_image123.gif">. Из уравнения плоскости <img align="absmiddle" width="61" height="21" src="t/potok_clip_image099_0000.gif"> выразим <img align="absmiddle" width="72" height="21" src="t/potok_clip_image125.gif"> и найдём <img align="absmiddle" width="177" height="24" src="t/potok_clip_image127.gif"></em></p>
+  <p><em><img align="absmiddle" width="548" height="48" src="t/potok_clip_image129.gif"></em></p>
+  <p><em>Изобразим проекцию  грани <img align="absmiddle" width="79" height="23" src="t/potok_clip_image119_0000.gif"> на плоскость <img align="absmiddle" width="39" height="19" src="t/potok_clip_image121_0000.gif">:</em><br>
+      <em><img align="absmiddle" width="180" height="161" src="t/potok_clip_image132.jpg"></em></p>
+  <p><em>и выберем следующий  порядок обхода области:</em><br>
+      <em><img align="absmiddle" width="59" height="43" src="t/potok_clip_image134.gif"></em></p>
+  <p><em><img align="absmiddle" width="403" height="101" src="t/potok_clip_image136.gif"></em></p>
+  <p><em>5) Вычислим поток <img align="absmiddle" width="23" height="24" src="t/potok_clip_image138.gif"> через грань <img align="absmiddle" width="99" height="24" src="t/potok_clip_image140.gif"> в направлении <img align="absmiddle" width="17" height="24" src="t/potok_clip_image142.gif"> внешней нормали.  Данная грань лежит в плоскости <img align="absmiddle" width="69" height="21" src="t/potok_clip_image144.gif"> с нормальным вектором <img align="absmiddle" width="73" height="21" src="t/potok_clip_image146.gif">. Но нас устраивает вектор, который образует с вектором <img align="absmiddle" width="11" height="20" src="t/potok_clip_image148.gif"> тупой угол, и это противоположно  направленный вектор <img align="absmiddle" width="81" height="21" src="t/potok_clip_image150.gif"> (и в самом деле: <img align="absmiddle" width="221" height="20" src="t/potok_clip_image152.gif">, значит, между этими векторами тупой угол). Найдём соответствующий  единичный вектор:</em><br>
+    <em><img align="absmiddle" width="289" height="51" src="t/potok_clip_image154.gif"></em>  <br>
+      <em>Контроль: <img align="absmiddle" width="337" height="56" src="t/potok_clip_image156.gif"></em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="595" height="44" src="t/potok_clip_image158.gif"></em></p>
+  <p><em><img align="absmiddle" width="325" height="48" src="t/potok_clip_image160.gif"></em></p>
+  <p><em>Грань <img align="absmiddle" width="80" height="24" src="t/potok_clip_image162.gif"> спроецируем на ту же  плоскость <img align="absmiddle" width="39" height="19" src="t/potok_clip_image121_0001.gif"> – в тот же квадрат  (см. чертёж предыдущего пункта). Используем формулу <img align="absmiddle" width="375" height="44" src="t/potok_clip_image123_0000.gif">. Из уравнения плоскости <img align="absmiddle" width="69" height="21" src="t/potok_clip_image144_0000.gif"> выразим <img align="absmiddle" width="80" height="21" src="t/potok_clip_image165.gif"> и найдём <img align="absmiddle" width="197" height="24" src="t/potok_clip_image167.gif"></em></p>
+  <p><em><img align="absmiddle" width="569" height="151" src="t/potok_clip_image169.gif"></em></p>
+  <p><em>В результате поток векторного  поля через всю призму:</em><br>
+    <em><img align="absmiddle" width="443" height="47" src="t/potok_clip_image171.gif"></em>  </p>
+  <p><strong><em>Ответ</em></strong><em>: <img align="absmiddle" width="40" height="17" src="t/potok_clip_image173.gif"></em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>

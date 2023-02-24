@@ -1,0 +1,952 @@
+<html>
+<head>
+<title>Зависимые и независимые случайные величины</title>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="author" content="Александр Емелин">
+<meta name="Keywords" content="зависимые случайные величины, независимые случайные величины, определение, примеры решений, найти условное математическое ожидание, коэффициент ковариации, формула ковариации, коэффициент корреляции, как вычислить">
+<meta name="Description" content="Задачи с подробными вычислениями и комментариями">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script></head>
+
+<body  >
+
+
+<table width="980"  border="1" cellpadding="0" cellspacing="0" align="center">
+
+
+<tr>
+<td colspan="2" width="980" height="220" align="center" > 
+
+<img src="images/head.jpg" border="0" alt="Математика для заочников и не только">
+  <p class=classh align="center"><img align="absmiddle" border="0" src="images/kljuchik.jpg" border="0"> Высшая математика – просто и доступно!</p>  
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Если сайт упал, используйте ЗЕРКАЛО: <a href="https://mathprofi.net"> mathprofi.net</a></p>
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"> Наш форум, библиотека и блог <a href="https://mathprofi.com">mathprofi<img align="absmiddle" src="images/dotcom.gif" border="0"></a>>>></p>
+</td></tr>
+
+<tr>
+
+<td width="27%" valign="top" > 
+
+<br>
+<p class=classbar>Высшая математика:</p>
+
+<p class=classb>
+
+<a href="index.html">Математика для заочников</a>
+        </p><p class=classb>
+<a href="matematicheskie_formuly.html">Математические формулы,<br>таблицы и другие материалы</a>
+        </p><p class=classb>
+<a href="https://mathprofi.com/blog/dostupnye_knigi_po_vysshey_matematike.html" target="_blank">Книги по математике</a>
+        </p><p class=classb>
+<a href="saity_po_matematike.html">Математические сайты </a></p>
+
+<p class=classb><a href="files/kalkulyator.matprofi.ru.zip">+-*/^ Удобный калькулятор</a></p>
+<p><a href="files/drobovik.xls">+ «Дробовик»</a>&nbsp;&nbsp;&nbsp;<img align="absmiddle" src="images/new.png" border="0"></p>
+
+
+<p class=classbar>Учимся решать:</p>
+<p> <img src="images/pervyi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для первого курса"></p>
+
+<div id="bar1">
+
+<p class=classs>
+
+<a class=classbar href="matematika_dlya_chainikov.html">Высшая математика для чайников, или с чего начать?</a><br>
+<a class=classbar href="https://mathter.pro/pesochnica/index.html" target="_blank"><img align="absmiddle" src="images/pesochnica3.png" border="0"> Повторяем школьный курс</a></p>
+
+<p class=classtopic>
+Аналитическая геометрия:
+</p>
+<p class=classs>
+
+<a class=classbar href="vektory_dlya_chainikov.html">Векторы для чайников</a>
+<br>
+<a class=classbar href="skaljarnoe_proizvedenie_vektorov.html">Скалярное произведение <br>векторов</a>
+<br>
+<a class=classbar href="linejnaja_nezavisimost_vektorov_bazis_vektorov.html">Линейная (не) зависимость<br>векторов. Базис векторов</a>
+<br>
+<a class=classbar href="perehod_k_novomu_bazisu.html">Переход к новому базису</a>
+<br>
+<a class=classbar href="vektornoe_proizvedenie_vektorov_smeshannoe_proizvedenie.html">Векторное и смешанное<br>произведение векторов</a>
+<br>
+<a class=classbar href="delenie_otrezka_v_dannom_otnoshenii.html">Формулы деления отрезка<br>в данном отношении</a>
+<br>
+<a class=classbar href="uravnenie_pryamoi_na_ploskosti.html">Прямая на плоскости</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_na_ploskosti.html">Простейшие задачи<br>с прямой на плоскости</a>
+<br>
+<a class=classbar href="lineinye_neravenstva.html">Линейные неравенства</a>
+<br>
+<a class=classbar href="kak_nauchitsa_reshat_zadachi_po_geometrii.html">Как научиться решать задачи<br>по аналитической геометрии?</a>
+<br>
+<a class=classbar href="linii_vtorogo_poryadka_ellips_i_okruzhnost.html">Линии второго порядка. Эллипс</a>
+<br>
+<a class=classbar href="giperbola_i_parabola.html">Гипербола и парабола</a>
+<br>
+<a class=classbar href="zadachi_s_liniyami_2_poryadka.html">Задачи с линиями 2-го порядка</a>
+<br>
+<a class=classbar href="kak_privesti_uravnenie_linii_2_poryadka_k_kanonicheskomu_vidu.html">Как привести уравнение л. 2 п.<br>к каноническому виду?</a>
+<br>
+<a class=classbar href="poljarnye_koordinaty.html">Полярные координаты</a>
+<br>
+<a class=classbar href="kak_postroit_liniju_v_poljarnoi_sisteme_koordinat.html">Как построить линию<br>в полярной системе координат?</a>
+<br>
+<a class=classbar href="uravnenie_ploskosti.html">Уравнение плоскости</a>
+<br>
+<a class=classbar href="uravnenija_pryamoi_v_prostranstve.html">Прямая в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_v_prostranstve.html">Задачи с прямой в пространстве</a>
+<br>
+<a class=classbar href="zadachi_s_pryamoi_i_ploskostju.html">Основные задачи<br>на прямую и плоскость</a>
+<br>
+<a class=classbar href="treugolnaya_piramida.html">Треугольная пирамида</a>
+</p>
+
+
+
+<p class=classtopic>
+Элементы высшей алгебры:
+</p>
+
+<p class=classs>
+
+<a class=classbar href="mnozhestva.html">Множества и действия над ними</a>
+<br>
+<a class=classbar href="osnovy_matematicheskoj_logiki.html">Основы математической логики</a>
+<br>
+<a class=classbar href="formuly_i_zakony_logiki.html">Формулы и законы логики</a>
+<br>
+<a class=classbar href="uravnenija_v_vysshei_matematike.html">Уравнения высшей математики</a>
+<br>
+<a class=classbar href="racionalnye_korni_mnogochlena_shema_gornera.html">Как найти рациональные корни<br>многочлена? Схема Горнера</a>
+<br>
+<a class=classbar href="kompleksnye_chisla_dlya_chainikov.html">Комплексные числа</a>
+<br>
+<a class=classbar href="vyrazhenija_uravnenija_i_sistemy_s_ kompleksnymi_chislami.html">Выражения, уравнения и с-мы<br>с комплексными числами</a>
+<br>
+<a class=classbar href="deistviya_s_matricami.html">Действия с матрицами</a>
+<br>
+<a class=classbar href="kak_vychislit_opredelitel.html">Как вычислить определитель?</a>
+<br>
+<a class=classbar href="svoistva_opredelitelya_ponizhenie_poryadka_opredelitelya.html">Свойства определителя<br>и понижение его порядка</a>
+<br>
+<a class=classbar href="kak_naiti_obratnuyu_matricu.html">Как найти обратную матрицу?</a>
+<br>
+<a class=classbar href="svoistva_operacij_nad_matricami_matrichnye_vyrazheniya.html">Свойства матричных операций.<br>Матричные выражения</a>
+<br>
+<a class=classbar href="matrichnye_uravneniya_primery_reshenij.html">Матричные уравнения</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_uravnenii.html">Как решить систему линейных уравнений?</a>
+<br>
+<a class=classbar href="pravilo_kramera_matrichnyi_metod.html">Правило Крамера. Матричный метод решения системы</a>
+<br>
+<a class=classbar href="metod_gaussa_dlya_chainikov.html">Метод Гаусса для чайников</a>
+<br>
+<a class=classbar href="slu_nesovmestnye_sistemy_i_sistemy_s_obshim_resheniem.html">Несовместные системы<br>и системы с общим решением</a>
+<br>
+<a class=classbar href="rang_matricy.html">Как найти ранг матрицы?</a>
+<br>
+<a class=classbar href="odnorodnye_sistemy_lineinyh_uravnenij.html">Однородные системы<br>линейных уравнений</a>
+<br>
+<a class=classbar href="metod_zhordano_gaussa_nahozhdenie_obratnoi_matricy.html">Метод Гаусса-Жордана</a>
+<br>
+<a class=classbar href="reshenie_systemy_pri_razlichnyh_sposobah_vybora_bazisa.html">Решение системы уравнений<br>в различных базисах</a>
+<br>
+<a class=classbar href="linejnye_preobrazovanija.html">Линейные преобразования</a>
+<br>
+<a class=classbar href="sobstvennye_znachenija_i_sobstvennye_vektory.html">Собственные значения<br>и собственные векторы</a>
+<br>
+<a class=classbar href="kvadratichnye_formy.html">Квадратичные формы</a>
+<br>
+<a class=classbar href="kak_privesti_kf_k_kanonicheskomu_vidu.html">Как привести квадратичную<br>форму к каноническому виду?</a>
+<br>
+<a class=classbar href="metod_ortogonalnogo_preobrazovaniya_kf.html">Ортогональное преобразование<br>квадратичной формы</a>
+
+</p>
+
+<p class=classtopic>
+Пределы:
+</p>
+<p class=classs>
+
+<a class=classbar href="predely_primery_reshenii.html">Пределы. Примеры решений</a>
+<br>
+<a class=classbar href="zamechatelnye_predely.html">Замечательные пределы</a>
+<br>
+<a class=classbar href="metody_resheniya_predelov_neopredelennosti.html">Методы решения пределов</a>
+<br>
+<a class=classbar href="beskonechno_malye_funkcii_zamechatelnye_ekvivalentnosti.html">Бесконечно малые функции.<br>Эквивалентности</a>
+<br>
+<a class=classbar href="pravila_lopitalya.html">Правила Лопиталя</a>
+<br>
+<a class=classbar href="slozhnye_predely.html">Сложные пределы</a>
+<br>
+<a class=classbar href="predel_posledovatelnosti.html">Пределы последовательностей</a>
+<br>
+<a class=classbar href="predely_po_koshi.html">Пределы по Коши. Теория</a>
+</p>
+
+<p class=classtopic>
+Производные функций:
+</p>
+<p class=classs>
+
+
+<a class=classbar href="kak_naiti_proizvodnuju.html">Как найти производную?</a>
+<br>
+<a class=classbar href="proizvodnaya_slozhnoi_funkcii.html">Производная сложной функции. Примеры решений</a>
+<br>
+<a class=classbar href="slozhnye_proizvodnye_logarifmicheskaja_proizvodnaja.html">Логарифмическая производная</a>
+<br>
+<a class=classbar href="proizvodnye_neyavnoi_parametricheskoi_funkcii.html">Производные неявной, параметрической функций</a>
+<br>
+<a class=classbar href="tipovye_zadachi_s_proizvodnoi.html">Простейшие задачи<br> с производной</a>
+<br>
+<a class=classbar href="proizvodnye_vysshih_porjadkov.html">Производные высших порядков</a>
+<br>
+<a class=classbar href="opredelenie_proizvodnoi_smysl_proizvodnoi.html">Что такое производная?</a>
+<br>
+<a class=classbar href="proizvodnaya_po_opredeleniju_primery_reshenii.html">Производная по определению</a>
+<br>
+<a class=classbar href="kak_naiti_uravnenie_normali.html">Как найти уравнение нормали?</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenija_s_pomoshju_differenciala.html">Приближенные вычисления<br>с помощью дифференциала</a>
+<br>
+<a class=classbar href="metod_kasatelnyh.html">Метод касательных</a>
+</p>
+
+<p class=classtopic>
+Функции и графики:
+</p>
+<p class=classs>
+
+<a class=classbar href="grafiki_i_svoistva_funkcij.html">Графики и свойства<br>элементарных функций</a>
+<br>
+<a class=classbar href="kak_postroit_grafik_funkcii_s_pomoshyu_preobrazovanii.html">Как построить график функции<br>с помощью преобразований?</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_i_tochki_razryva.html">Непрерывность, точки разрыва</a>
+<br>
+<a class=classbar href="oblast_opredeleniya.html">Область определения функции</a>
+<br>
+<a class=classbar href="asimptoty_grafika_funkcii.html">Асимптоты графика функции</a>
+<br>
+<a class=classbar href="nuli_funkcii_intervaly_znakopostoyanstva_metod_intervalov.html">Интервалы знакопостоянства</a>
+<br>
+<a class=classbar href="vozrastanie_ubyvanie_ekstremumy_funkcii.html">Возрастание, убывание<br>и экстремумы функции</a>
+<br>
+<a class=classbar href="vypuklost_vognutost_tochki_peregiba_grafika.html">Выпуклость, вогнутость<br>и точки перегиба графика</a>
+<br>
+<a class=classbar href="polnoe_issledovanie_funkcii_i_postroenie_grafika.html">Полное исследование функции<br>и построение графика</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znacheniya_funkcii_na_otrezke.html">Наибольшее и наименьшее<br>значения функции на отрезке</a>
+<br>
+<a class=classbar href="zadachi_na_minimumy_i_maksimumy.html">Экстремальные задачи</a>
+</p>
+
+
+<p class=classtopic>
+ФНП:
+</p>
+<p class=classs>
+<a class=classbar href="funkcija_dvuh_peremennyh_oblast_opredelenija_linii_urovnja.html">Область определения функции<br>двух переменных. Линии уровня</a>
+<br>
+<a class=classbar href="poverhnosti.html">Основные поверхности</a>
+<br>
+<a class=classbar href="predel_funkcii_dvuh_peremennyh.html">Предел функции 2 переменных</a>
+<br>
+<a class=classbar href="povtornye_predely.html">Повторные пределы</a>
+<br>
+<a class=classbar href="nepreryvnost_funkcii_dvuh_peremennyh.html">Непрерывность функции 2п</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_primery.html">Частные производные</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_funkcii_treh_peremennyh.html">Частные производные<br>функции трёх переменных</a>
+<br>
+<a class=classbar href="proizvodnye_slozhnyh_funkcij_neskolkih_peremennyh.html">Производные сложных функций<br>нескольких переменных</a>
+<br>
+<a class=classbar href="kak_proverit_udovletvorjaet_li_funkcija_uravneniju.html">Как проверить, удовлетворяет<br>ли функция уравнению?</a>
+<br>
+<a class=classbar href="chastnye_proizvodnye_nejavno_zadannoj_funkcii.html">Частные производные<br>неявно заданной функции</a>
+<br>
+<a class=classbar href="proizvodnaja_po_napravleniju_i_gradient.html">Производная по направлению<br>и градиент функции</a>
+<br>
+<a class=classbar href="kasatelnaja_ploskost_i_normal_k_poverhnosti_v_tochke.html">Касательная плоскость и<br>нормаль к поверхности в точке</a>
+<br>
+<a class=classbar href="extremumy_funkcij_dvuh_i_treh_peremennyh.html">Экстремумы функций<br>двух и трёх переменных</a>
+<br>
+<a class=classbar href="uslovnye_extremumy.html">Условные экстремумы</a>
+<br>
+<a class=classbar href="naibolshee_i_naimenshee_znachenija_funkcii_v_oblasti.html">Наибольшее и наименьшее<br>значения функции в области</a>
+<br>
+<a class=classbar href="metod_naimenshih_kvadratov.html">Метод наименьших квадратов</a>
+</p>
+
+
+<p class=classtopic>
+Интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="integraly_primery_reshenij.html">Неопределенный интеграл.<br>Примеры решений</a>
+<br>
+<a class=classbar href="metod_zameny_peremennoi.html">Метод замены переменной<br> в неопределенном интеграле</a>
+<br>
+<a class=classbar href="integrirovanie_po_chastyam.html">Интегрирование по частям</a>
+<br>
+<a class=classbar href="integraly_ot_trigonometricheskih_funkcij.html">Интегралы от тригонометрических функций</a>
+<br>
+<a class=classbar href="integrirovanie_drobei.html">Интегрирование дробей</a>
+<br>
+<a class=classbar href="integraly_ot_drobno_racionalnoj_funkcii.html">Интегралы от дробно-рациональных функций</a>
+<br>
+<a class=classbar href="integrirovanie_kornei.html">Интегрирование иррациональных функций</a>
+<br>
+<a class=classbar href="slozhnye_integraly.html">Сложные интегралы</a>
+<br>
+<a class=classbar href="opredelennye_integraly_primery_reshenij.html">Определенный интеграл</a>
+<br>
+<a class=classbar href="vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html">Как вычислить площадь<br>с помощью определенного интеграла?</a>
+<br>
+<a class=classbar href="chto_takoe_integral_teorija_dlja_chainikov.html">Что такое интеграл?<br>Теория для чайников</a>
+<br>
+<a class=classbar href="obyem_tela_vrashenija.html">Объем тела вращения</a>
+<br>
+<a class=classbar href="nesobstvennye_integraly.html">Несобственные интегралы</a>
+<br>
+<a class=classbar href="metody_reshenija_opredelennyh_i_nesobstvennyh_integralov.html">Эффективные методы решения<br>определенных и несобственных<br>интегралов</a>
+<br>
+<a class=classbar href="kak_issledovat_shodimost_nesobstvennogo_integrala.html">Как исследовать несобственный<br>интеграл на сходимость?</a>
+<br>
+<a class=classbar href="priznaki_shodimosti_nesobstvennyh_integralov_vtorogo_roda.html">Признаки сходимости несобств.<br>интегралов второго рода</a>
+<br>
+<a class=classbar href="absolyutnaya_i_uslovnaya_shodimost_nesobstvennogo_integrala.html">Абсолютная и условная<br>сходимость несобств. интеграла</a>
+<br>
+<a class=classbar href="ploshad_v_poljarnyh_koordinatah.html">S в полярных координатах</a>
+<br>
+<a class=classbar href="ploshad_i_obyem_esli_linija_zadana_parametricheski.html">S и V, если линия задана<br>в параметрическом виде</a>
+<br>
+<a class=classbar href="dlina_dugi_krivoi.html">Длина дуги кривой</a>
+<br>
+<a class=classbar href="ploshad_poverhnosti_vrashenija.html">S поверхности вращения</a>
+<br>
+<a class=classbar href="formula_simpsona_metod_trapecij.html">Приближенные вычисления<br>определенных интегралов</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="metod_prjamougolnikov.html">Метод прямоугольников</a>
+
+</p>
+</div>
+
+
+<noindex>
+<p>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-9 -->
+<div id="yandex_rtb_R-A-1373053-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-9',
+    blockId: 'R-A-1373053-9'
+  })
+})</script>
+
+</div>
+</p>
+</noindex>
+
+
+<p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a></p>
+
+<p> <img src="images/vtoroi_kurs.png" border="0" alt="Лекции-уроки по высшей математике для второго курса"></p>
+
+<div id="bar1">
+
+<p class=classtopic>
+Дифференциальные уравнения:
+</p>
+<p class=classs>
+
+<a class=classbar href="differencialnye_uravnenija_primery_reshenii.html">Дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="odnorodnye_diffury_pervogo_poryadka.html">Однородные ДУ 1-го порядка</a>
+<br>
+<a class=classbar href="du_svodjashiesja_k_odnorodnym.html">ДУ, сводящиеся к однородным</a>
+<br>
+<a class=classbar href="lineinye_differencialnye_uravnenija.html">Линейные неоднородные дифференциальные уравнения первого порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_v_polnyh_differencialah.html">Дифференциальные уравнения в полных дифференциалах</a>
+<br>
+<a class=classbar href="differencialnoe_uravnenie_bernulli.html">Уравнение Бернулли</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_dopuskajushie_ponizhenie_poryadka.html">Дифференциальные уравнения<br>с понижением порядка</a>
+<br>
+<a class=classbar href="differencialnye_uravnenija_vtorogo_poryadka.html">Однородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="kak_reshit_neodnorodnoe_uravnenie_vtorogo_poryadka.html">Неоднородные ДУ 2-го порядка</a>
+<br>
+<a class=classbar href="linejnye_diffury_vysshih_porjadkov.html">Линейные дифференциальные<br>уравнения высших порядков</a>
+<br>
+<a class=classbar href="metod_variacii_proizvolnyh_postoyannyh.html"> Метод вариации <br>произвольных постоянных</a>
+<br>
+<a class=classbar href="sistemy_differencialnyh_uravnenij.html">Как решить систему<br>дифференциальных уравнений</a>
+<br>
+<a class=classbar href="zadachi_s_diffurami.html">Задачи с диффурами</a>
+<br>
+<a class=classbar href="metody_eilera_i_runge_kutty.html">Методы Эйлера и Рунге-Кутты</a>
+
+</p>
+<p class=classtopic>
+Числовые ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="ryady_dlya_chajnikov.html">Ряды для чайников</a>
+<br>
+<a class=classbar href="kak_naiti_summu_ryada.html">Как найти сумму ряда?</a>
+<br>
+<a class=classbar href="priznak_dalambera_priznaki_koshi.html">Признак Даламбера. <br>Признаки Коши</a>
+<br>
+<a class=classbar href="priznak_leibnica_primery_reshenii.html">Знакочередующиеся ряды. Признак Лейбница</a>
+<br>
+<a class=classbar href="slozhnye_ryady.html">Ряды повышенной сложности</a>
+
+</p>
+<p class=classtopic>
+Функциональные ряды:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcionalnye_i_stepennye_ryady.html">Степенные ряды</a>
+<br>
+<a class=classbar href="razlozhenie_funkcij_v_stepennye_ryady.html">Разложение функций<br>в степенные ряды</a>
+<br>
+<a class=classbar href="summa_stepennogo_ryada.html">Сумма степенного ряда</a>
+<br>
+<a class=classbar href="ravnomernaja_shodimost.html">Равномерная сходимость</a>
+<br>
+<a class=classbar href="slozhnye_funkcionalnye_ryady.html">Другие функциональные ряды</a>
+<br>
+<a class=classbar href="priblizhennye_vychislenia_s_pomoshju_ryadov.html">Приближенные вычисления<br>с помощью рядов</a>
+<br>
+<a class=classbar href="vychislenie_integrala_razlozheniem_v_ryad.html">Вычисление интеграла разложением функции в ряд</a>
+<br>
+<a class=classbar href="chastnoe_reshenie_du_priblizhenno_s_pomoshju_ryada.html">Как найти частное решение ДУ<br>приближённо с помощью ряда?</a>
+<br>
+<a class=classbar href="predel_s_pomoshju_riada.html">Вычисление пределов</a>
+<br>
+<a class=classbar href="ryady_furie_primery_reshenij.html">Ряды Фурье. Примеры решений</a>
+
+</p>
+<p class=classtopic>
+Кратные интегралы:
+</p>
+<p class=classs>
+
+<a class=classbar href="dvoinye_integraly_dlya_chainikov.html">Двойные интегралы</a>
+<br>
+<a class=classbar href="kak_vychislit_dvoinoi_integral.html">Как вычислить двойной<br> интеграл? Примеры решений</a>
+<br>
+<a class=classbar href="dvoinye_integraly_v_poljarnyh_koordinatah.html">Двойные интегралы<br>в полярных координатах</a>
+<br>
+<a class=classbar href="centr_tjazhesti_ploskoi_figury.html">Как найти центр тяжести<br>плоской фигуры?</a>
+<br>
+<a class=classbar href="troinye_integraly.html">Тройные интегралы</a>
+<br>
+<a class=classbar href="primery_reshenij_proizvolnyh_troinyh_integralov.html">Как вычислить произвольный<br>тройной интеграл?</a>
+<br>
+<img align="absmiddle" src="images/plus.png" border="0">
+<br>
+<a class=classbar href="krivolineinye_integraly.html">Криволинейные интегралы</a>
+<br>
+<a class=classbar href="ki_po_zamknutomu_konturu_formula_grina.html">Интеграл по замкнутому контуру<br>Формула Грина. Работа силы</a>
+<br>
+<a class=classbar href="poverhnostnye_integraly.html">Поверхностные интегралы</a>
+</p>
+
+<p class=classtopic>
+Элементы векторного анализа:
+</p>
+<p class=classs>
+<a class=classbar href="teoriya_polya.html">Основы теории поля</a>
+<br>
+<a class=classbar href="potok_vektornogo_polya.html">Поток векторного поля</a>
+<br>
+<a class=classbar href="divergenciya_vektornogo_polya.html">Дивергенция векторного поля<br>Формула Гаусса-Остроградского</a>
+<br>
+<a class=classbar href="cirkulyaciya_vektornogo_polya.html">Циркуляция векторного поля<br>и формула Стокса</a>
+</p>
+
+<p class=classtopic>
+Комплексный анализ:
+</p>
+<p class=classs>
+
+<a class=classbar href="funkcii_kompleksnoi_peremennoi.html">Примеры решений типовых<br>задач комплексного анализа</a>
+<br>
+<a class=classbar href="kak_naiti_kompleksnuju_funkciju.html">Как найти функцию<br>комплексной переменной?</a>
+<br>
+<a class=classbar href="reshenie_diffurov_metodom_operacionnogo_ischislenija.html">Решение ДУ методом<br>операционного исчисления</a>
+<br>
+<a class=classbar href="kak_reshit_sistemu_du_operacionnym_metodom.html">Как решить систему ДУ<br>операционным методом?</a>
+
+</p>
+
+
+<p class=classtopic>
+Теория вероятностей:
+</p>
+<p class=classs>
+
+<a class=classbar href="teorija_verojatnostei.html">Основы теории  вероятностей</a>
+<br>
+<a class=classbar href="zadachi_po_kombinatorike_primery_reshenij.html">Задачи по комбинаторике</a>
+<br>
+<a class=classbar href="zadachi_na_klassicheskoe_opredelenie_verojatnosti_primery_reshenij.html">Задачи на классическое<br>определение вероятности</a>
+<br>
+<a class=classbar href="geometricheskoe_opredelenie_verojatnosti.html">Геометрическая вероятность</a>
+<br>
+<a class=classbar href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">Задачи на теоремы сложения<br>и умножения вероятностей</a>
+<br>
+<a class=classbar href="zavisimye_sobytija.html">Зависимые события</a>
+<br>
+<a class=classbar href="formula_polnoj_verojatnosti_formuly_bajesa.html">Формула полной вероятности<br>и формулы Байеса</a>
+<br>
+<a class=classbar href="nezavisimye_ispytanija_i_formula_bernulli.html">Независимые испытания<br>и формула Бернулли</a>
+<br>
+<a class=classbar href="lokalnaja_i_integralnaja_teoremy_laplasa.html">Локальная и интегральная<br>теоремы Лапласа</a>
+<br>
+<a class=classbar href="statisticheskoe_opredelenie_verojatnosti.html">Статистическая вероятность</a>
+<br>
+<a class=classbar href="sluchainaya_velichina.html">Случайные величины.<br>Математическое ожидание</a>
+<br>
+<a class=classbar href="dispersia_diskretnoi_sluchainoi_velichiny.html">Дисперсия дискретной<br>случайной величины</a>
+<br>
+<a class=classbar href="funkcia_raspredeleniya_dsv.html">Функция распределения</a>
+<br>
+<a class=classbar href="geometricheskoe_raspredelenie_veroyatnostei.html">Геометрическое распределение</a>
+<br>
+<a class=classbar href="binomialnoe_raspredelenie_veroyatnostei.html">Биномиальное распределение</a>
+<br>
+<a class=classbar href="raspredelenie_i_formula_puassona.html">Распределение Пуассона</a>
+<br>
+<a class=classbar href="gipergeometricheskoe_raspredelenie_veroyatnostei.html">Гипергеометрическое<br>распределение вероятностей</a>
+<br>
+<a class=classbar href="nepreryvnaya_sluchaynaya_velichina.html">Непрерывная случайная<br>величина, функции F(x) и f(x)</a>
+<br>
+<a class=classbar href="matematicheskoe_ozhidanie_i_dispersiya_nsv.html">Как вычислить математическое<br>ожидание и дисперсию НСВ?</a>
+<br>
+<a class=classbar href="ravnomernoe_raspredelenie_veroyatnostei.html">Равномерное распределение</a>
+<br>
+<a class=classbar href="pokazatelnoe_raspredelenie_veroyatnostei.html">Показательное распределение</a>
+<br>
+<a class=classbar href="normalnoe_raspredelenie_veroyatnostei.html">Нормальное распределение</a>
+<br>
+<a class=classbar href="sistema_sluchainyh_velichin.html">Система случайных величин</a>
+<br>
+<a class=classbar href="zavisimye_i_nezavisimye_sluchainye_velichiny.html">Зависимые и независимые<br>случайные величины</a>
+<br>
+<a class=classbar href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">Двумерная непрерывная<br>случайная величина</a>
+<br>
+<a class=classbar href="zavisimost_i_koefficient_kovariacii_nsv.html">Зависимость и коэффициент<br>ковариации непрерывных СВ</a>
+</p>
+
+
+<p class=classtopic>Математическая статистика:</p>
+
+<p class=classs>
+
+<a class=classbar href="matematicheskaya_statistika.html">Математическая статистика</a>
+<br>
+<a class=classbar href="diskretnyi_variacionnyi_ryad.html">Дискретный вариационный ряд</a>
+<br>
+<a class=classbar href="intervalnyi_variacionnyi_ryad.html">Интервальный ряд</a>
+<br>
+<a class=classbar href="moda_mediana_generalnaya_i_vyborochnaya_srednyaya.html">Мода, медиана, средняя</a>
+<br>
+<a class=classbar href="pokazateli_variacii_generalnaya_i_vyborochnaya_dispersiya.html">Показатели вариации</a>
+<br>
+<a class=classbar href="formula_dispersii_standartnoe_otklonenie_koefficient_variacii.html">Формула дисперсии, среднее<br>квадратическое отклонение,<br>коэффициент вариации</a>
+<br>
+<a class=classbar href="asimmetriya_i_excess.html">Асимметрия и эксцесс<br>эмпирического распределения</a>
+<br>
+<a class=classbar href="statisticheskie_ocenki_parametrov_generalnoy_sovokupnosti.html">Статистические оценки<br>и доверительные интервалы</a>
+<br>
+<a class=classbar href="ocenka_veroyatnosti_binomialnogo_raspredeleniya.html">Оценка вероятности<br>биномиального распределения</a>
+<br>
+<a class=classbar href="ocenki_po_povtornoy_i_bespovtornoy_vyborke.html">Оценки по повторной<br>и бесповторной выборке</a>
+<br>
+<a class=classbar href="statisticheskie_gipotezy.html">Статистические гипотезы</a>
+<br>
+<a class=classbar href="proverka_statisticheskih_gipotez.html">Проверка гипотез. Примеры</a>
+<br>
+<a class=classbar href="kriteriy_soglasiya.html">Гипотеза о виде распределения<br>Критерий согласия Пирсона</a>
+<br>
+<a class=classbar href="gruppirovka_dannyh.html">Группировка данных. Виды группировок. Перегруппировка</a>
+<br>
+<a class=classbar href="dispersii.html">Общая, внутригрупповая<br>и межгрупповая дисперсия</a>
+<br>
+<a class=classbar href="analiticheskaya_gruppirovka.html">Аналитическая группировка</a>
+<br>
+<a class=classbar href="kombinacionnaya_gruppirovka.html">Комбинационная группировка</a>
+<br>
+<a class=classbar href="empiricheskie_pokazateli.html">Эмпирические показатели</a>
+<br>
+<a class=classbar href="linejnyj_koefficient_korrelyacii.html">Как вычислить линейный<br>коэффициент корреляции?</a>
+<br>
+<a class=classbar href="uravnenie_lineynoy_regressii.html">Уравнение линейной регрессии</a>
+<br>
+<a class=classbar href="proverka_znachimosti_lineynoy_modeli.html">Проверка значимости линейной<br>корреляционной модели</a>
+<br>
+<a class=classbar href="model_regressii_indeks_determinacii.html">Модель пАрной регрессии.<br>Индекс детерминации</a>
+<br>
+<a class=classbar href="nelineynaya_regressiya_primery_resheniy.html">Нелинейная регрессия. Виды и<br>примеры решений</a>
+<br>
+<a class=classbar href="koefficient_rangovoy_korrelyacii_spirmena.html">Коэффициент ранговой<br>корреляции Спирмена</a>
+<br>
+<a class=classbar href="koefficient_korrelyacii_fehnera.html">Коэф-т корреляции Фехнера</a>
+<br>
+<a class=classbar href="uravnenie_mnozhestvennoy_regressii.html">Уравнение множественной<br>линейной регрессии
+</a>
+</p>
+</div>
+
+<noindex>
+
+<p><a href="https://cse.google.ru/cse?cx=partner-pub-4276726786010073:1946131416&amp;ie=Windows-1251&amp;q=&amp;ref=www.mathprofi.ru/#gsc.tab=0" target="_blank"><img src="images/spoisk.png" align="absmiddle" border="0"></a></p>
+
+</noindex>
+
+<p><em><strong>Не нашлось нужной задачи?</strong></em><br>
+<a href="skachat_primery_po_vysshei_matematike.html">Сборники готовых решений!</a></p>
+<p style="padding-bottom:5px"><em><strong>Не получается пример?</strong></em><br>
+<a href="https://mathprofi.com" target="_blank">Задайте вопрос на форуме!<br>>>> mathprofi.com</a></p>
+
+
+<p class=classbar>Обратная связь:</p>
+<p class=classb>
+
+<a href="scripts/faq.html" rel="nofollow">Часто задаваемые вопросы</a><br>
+<a href="scripts/gb">Гостевая книга </a>
+<a href="scripts/call.html">Отблагодарить автора >>></a>
+
+        <br>
+</p>
+<p><em>Заметили опечатку / ошибку?<br>Пожалуйста, <a href="scripts/smess/index.php">сообщите</a> мне об этом</em></p>
+
+<noindex>
+<div class="adv">
+
+<!-- Yandex.RTB R-A-1373053-2 -->
+<div id="yandex_rtb_R-A-1373053-2"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-2',
+    blockId: 'R-A-1373053-2'
+  })
+})</script>
+
+</div>
+
+</noindex>
+
+</td>
+
+<td  valign="top"><noindex>
+<br>
+<table width="690" height="178"  border="0" cellpadding="0" cellspacing="8" align="center">
+<tr>
+
+<td align="center" width="508"> 
+
+<div class="advup">
+
+<!-- Yandex.RTB R-A-1373053-6 -->
+<div id="yandex_rtb_R-A-1373053-6"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-6',
+    blockId: 'R-A-1373053-6'
+  })
+})</script>
+
+</div>
+
+</td>
+
+<td align="center" width="182">
+
+<img src="images/chashka.gif" border="0" title="Успешной подготовки!"><br>
+
+<p></p><a href="lekcii_po_vysshei_matematike.html"><img align="absmiddle" src="images/sun3.png" border="0">&nbsp;&nbsp;Карта сайта</a>
+
+</td>
+
+
+</tr>
+</table>
+
+
+<hr size="2" width="600" color="gray">
+
+
+<br></noindex>
+  <h1 align="center">Зависимые и независимые случайные величины.<br>
+    Условные законы распределения и ковариация дискретных СВ </h1>
+  <br>
+ 
+  <p>На <strong><a href="sistema_sluchainyh_velichin.html">первом уроке по  теме</a> </strong>уже фигурировали задачи с независимыми случайными величинами, и  давайте сразу вспомним, что это значит: случайные величины являются  независимыми, если <strong><a href="sluchainaya_velichina.html">закон распределения  вероятностей</a></strong> любой из них, не зависит от того, какие значения приняли (или  примут) остальные случайные величины.</p>
+  <p>Например, система   двух игральных кубиков – совершенно понятно, что результат броска одного  кубика никак не влияет на вероятности выпадения граней другого кубика. Или одинаковые  независимо работающие игровые автоматы. И, наверное, у некоторых сложилось  впечатление, что независимы вообще любые СВ. Однако это далеко не всегда так.</p>
+  <p>Рассмотрим <em>одновременное</em> сбрасывание двух кубиков-магнитов, у которых северные полюса находятся на  стороне 1-очковой грани и южные – на противоположной грани в 6 очков. Будут ли  независимыми аналогичные случайные величины? Да, будут. Просто снизятся  вероятности выпадения «1» и «6» и увеличатся шансы других граней, т.к. в  результате испытания кубики могут притянуться противоположными полюсами.</p>
+  <p>Теперь рассмотрим систему <img align="absmiddle" width="47" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image002.gif">, в которой кубики сбрасываются <em>последовательно</em>:</p>
+  <p><em><img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004.gif"> – количество очков,  выпавших на первом кубике;</em></p>
+  <p><em><img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006.gif"> – количество очков,  выпавших на втором кубике, при условии, что он всё время сбрасывается по правую  (например) сторону от 1-го кубика</em>.</p>
+  <p>В этом случае закон распределения случайной величины <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0000.gif"> <strong>зависит</strong> от того, как расположился 1-й кубик. Вторая кость может  либо притянуться, либо наоборот – отскочить (если «встретились» одноимённые  полюса), либо частично или полностью проигнорировать 1-й кубик.</p>
+  <p>Второй пример: предположим, что <img align="absmiddle" width="13" height="15" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image008.gif"> одинаковых игровых  автоматов объединены в единую сеть, и <img align="absmiddle" width="131" height="24" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image010.gif"> – есть система  случайных величин - выигрышей на соответствующих автоматах. Не знаю, законна ли  эта схема, но владелец игрового зала вполне может настроить сеть следующим  образом: при выпадении крупного выигрыша на каком-либо автомате, автоматически меняются  законы распределения выигрышей вообще на всех автоматах. В частности,  целесообразно на некоторое время обнулить вероятности крупных выигрышей, чтобы  заведение не столкнулось с нехваткой средств (в том случае, если вдруг кто-то  выиграет по-крупному ещё раз). Таким образом, рассмотренная система будет  зависима.</p>
+  <p>То были примеры с <strong><a href="sluchainaya_velichina.html">дискретными  случайными величинами</a></strong>. Но, разумеется, существуют и дву- и большемерные <em>непрерывные</em> случайные величины. Пример  третий, баян:</p>
+  <p><em><img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0000.gif"> – рост наугад  выбранного человека;</em></p>
+  <p><em><img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0001.gif"> – его вес.</em></p>
+  <p>И для наглядности представим две группы людей: ростом 160 и  190 см. Совершенно понятно, что во 2-й   группе окажутся <em>преимущественно</em> более тяжелые люди, нежели в 1-й. То есть, распределение случайной величины <em><img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0002.gif"></em> зависит от того,  какое значение приняла случайная величина <em><img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0001.gif"></em>, и поэтому система <img align="absmiddle" width="47" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image002_0000.gif"> зависима. В отличие от  жёсткой функциональной зависимости (а-ля <img align="absmiddle" width="67" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image012.gif">) здесь имеет место <em>вероятностная</em>,  или как говорят, <em>стохастическая</em> зависимость. Это проявляется в том, что, выбрав наугад человека невысокого (например) роста,   <em>более вероятно</em> столкнуться  со «стандартным» весом таких людей, но всё же существует вероятность, что у  него окажется очень большой либо очень маленький вес для своей «ростовой  категории».</p>
+  <p><strong>Как составить закон  распределения системы зависимых СВ?</strong> Для независимых дискретных систем мы использовали <strong><a href="teoremy_slozhenija_i_umnozhenija_verojatnostei.html">теорему умножения вероятностей независимых  событий</a></strong>, и Капитан Очевидность подсказывает, что сейчас нужно применить  аналогичную теорему для <strong><a href="zavisimye_sobytija.html">зависимых событий</a></strong>. </p>
+  <p>В качестве демонстрационного примера рассмотрим колоду из 8  карт, пусть это будут короли и дамы, и простую игру, в которой два игрока  последовательно (не важно, в каком порядке) извлекают из колоды по одной карте.  Рассмотрим случайную величину <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0002.gif">, которая символизирует одного игрока и принимает следующие  значения:  <strong>1</strong>, если он извлёк червовую карту, и <strong>0</strong> – если карту другой масти.</p>
+  <p>Аналогично, пусть случайная величина <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0003.gif"> символизирует другого  игрока и тоже принимает значения 0 либо 1, если он извлёк не черву и черву  соответственно.</p>
+  <p>По <strong><a href="zavisimye_sobytija.html">теореме умножения  вероятностей зависимых событий</a></strong>:</p>
+  <p><img align="absmiddle" width="69" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image016.gif"> – вероятность того,  что оба игрока извлекут черву,</p>
+  <p><img align="absmiddle" width="69" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image018.gif"> – вероятность  того, что оба извлекут не черву, и:</p>
+  <p><img align="absmiddle" width="69" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image020.gif"> – вероятность того,  что один извлечёт черву, а другой – нет; ну или наоборот:<br>
+      <img align="absmiddle" width="69" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image022.gif"></p>
+  <p>Таким образом, закон распределения вероятностей зависимой системы <img align="absmiddle" width="47" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image002_0001.gif">:<br>
+      <img align="absmiddle" width="186" height="141" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image025.jpg"></p>
+    
+<div id="primer"><p>Контроль: <img align="absmiddle" width="180" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image027.gif">, что и требовалось проверить. …Возможно, у вас возник  вопрос, а почему я рассматриваю именно 8, а не 36 карт? Да просто для того,  чтобы дроби получились не такими громоздкими.</p>
+  <p>Теперь немного проанализируем результаты. Если  просуммировать вероятности <u>по строкам</u>: <img align="absmiddle" width="253" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image029.gif">, то получится в точности закон распределения случайной  величины <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0003.gif">:<br>
+      <img align="absmiddle" width="135" height="76" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image032.jpg"><br>
+    Легко понять, что это распределение соответствует ситуации,  когда «иксовый» игрок тянет карту один, без «игрекового» товарища, и его  математическое ожидание:<br>
+  <img align="absmiddle" width="156" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image034.gif"> – равно вероятности  извлечения червы из нашей колоды.</p>
+  <p>Аналогично, если просуммировать вероятности <u>по столбцам</u>,  то получим закон распределения одиночной игры второго игрока:<br>
+      <img align="absmiddle" width="135" height="73" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image036.jpg"><br>
+    с тем же матожиданием <img align="absmiddle" width="69" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image038.gif"></p>
+  <p>В силу «симметрии» правил игры, распределения получились  одинаковыми, но, в общем случае, они, конечно, различны.</p>
+  <p>Помимо этого, полезно рассмотреть <strong><em>условные законы распределения вероятностей</em></strong>.  Это ситуация, когда одна из случайных величин уже приняла какое-то конкретное  значение, или же мы предполагаем это гипотетически. </p>
+  <p>Пусть «игрековый» игрок тянет карту первым и извлёкает не  черву <img align="absmiddle" width="53" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image040.gif">. Вероятность этого события составляет <img align="absmiddle" width="84" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image042.gif"> (суммируем вероятности  по первому <u>столбцу</u> таблицы <img align="absmiddle" width="47" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image002_0002.gif"> – <em>см. вверху</em>). Тогда, из той же <strong><a href="zavisimye_sobytija.html">теоремы  умножения вероятностей зависимых событий</a> </strong>получаем следующие условные  вероятности:<br>
+      <img align="absmiddle" width="107" height="80" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image044.gif"> – вероятность того,  что «иксовый» игрок вытянет не черву при условии, что «игрековый» вытянул не  черву;<br>
+      <img align="absmiddle" width="107" height="80" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image046.gif"> – вероятность того,  что «иксовый» игрок вытянет черву, при условии, что «игрековый» вытянул не  черву.</p>
+  <p>…все помнят, как избавляться от <strong><a href="goryachie_formuly.pdf" target="_blank">четырёхэтажных дробей</a></strong>? И да, формальное, но очень удобное <strong>техническое правило вычисления этих  вероятностей</strong>: сначала следует просуммировать <u>все</u> вероятности по <u>столбцу</u>,  и затем каждую вероятность разделить на полученную сумму. </p>
+  <p>Таким образом, при <img align="absmiddle" width="43" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image048.gif"> условный закон  распределения случайной величины <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0004.gif"> запишется так:<br>
+      <img align="absmiddle" width="189" height="74" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image051.jpg"><br>
+      <img align="absmiddle" width="63" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image053.gif">, ОК. Вычислим условное математическое ожидание:<br>
+      <img align="absmiddle" width="197" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image055.gif"></p>
+  <p>Теперь составим закон распределения случайной величины <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0005.gif"> при условии, что  случайная величина <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0004.gif"> приняла значение <img align="absmiddle" width="41" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image058.gif">, т.е. «игрековый» игрок извлёк карту червовой масти. Для  этого суммируем вероятности 2-го <u>столбца</u> таблицы <img align="absmiddle" width="47" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image002_0003.gif"> (<em>см. вверху</em>): <img align="absmiddle" width="119" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image060.gif"> и вычисляем условные  вероятности:<br>
+      <img align="absmiddle" width="107" height="83" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image062.gif">– того, что «иксовый» игрок вытянет не черву,<br>
+      <img align="absmiddle" width="104" height="80" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image064.gif"> – и черву.<br>
+    Таким образом, искомый условный закон распределения:<br>
+  <img align="absmiddle" width="191" height="74" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image066.jpg"><br>
+    Контроль: <img align="absmiddle" width="63" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image053_0000.gif">, и условное математическое ожидание:<br>
+  <img align="absmiddle" width="196" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image069.gif"> – разумеется, оно  получилось меньше, чем в предыдущем случае, так как «игрековый» игрок убавил  количество черв в колоде.</p>
+  <p>«Зеркальным» способом <em>(работая  со строками таблицы <img align="absmiddle" width="47" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image002_0004.gif">)</em> можно составить <img align="absmiddle" width="57" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image071.gif"> – закон распределения  случайной величины <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0005.gif">, при условии, что случайная величина <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0006.gif"> приняла значение <img align="absmiddle" width="41" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image075.gif">, и условное распределение <img align="absmiddle" width="56" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image077.gif">, когда «иксовый» игрок извлёк черву. Легко понять, что в  силу «симметрии» игры, получатся те же распределения и те же значения <img align="absmiddle" width="175" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image079.gif">.</p></div>
+  <p>Для <strong><a href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">непрерывных  случайных величин</a></strong> вводятся такие же понятия <strong><a href="zavisimost_i_koefficient_kovariacii_nsv.html">условных распределений и матожиданий</a></strong>, но если в них нет горячей  надобности, то лучше продолжить изучение этого урока. </p>
+  <p>На практике в большинстве случаев вам предложат готовый  закон распределения системы случайных величин:</p>
+  <p><u>Пример 4</u></p>
+  <p>Двумерная случайная величина задана своим законом  распределения вероятностей:<br>
+      <img align="absmiddle" width="260" height="103" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image081.jpg"></p>
+    
+<div id="primer"><p>…хотел рассмотреть таблицу побольше, но решил таки не  маньячить, ведь главное разобраться в самом принципе решения.</p>
+  <p>Требуется:</p>
+  <p>1) Составить законы распределения <img align="absmiddle" width="375" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image083.gif"> и вычислить  соответствующие математические ожидания. Сделать обоснованный вывод о зависимости  или независимости случайных величин <em><img align="absmiddle" width="36" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image085.gif"></em>.</p>
+  <p>Это задание для самостоятельного решения! Напоминаю, что в  случае независимости СВ законы <img align="absmiddle" width="132" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image087.gif"> должны получиться  одинаковыми и совпасть с законом распределения случайной величины <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0007.gif">, и законы <img align="absmiddle" width="76" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image090.gif"> – совпасть с <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0006.gif">. Десятичные дроби, кто не знает или позабыл, удобно делить  так: <img align="absmiddle" width="96" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image093.gif">.<br>
+    Свериться с образцом можно внизу страницы.</p>
+  <p>2) Вычислить коэффициент ковариации. </p>
+  <p>Сначала разберёмся в самом термине, и откуда он вообще  произошёл: когда случайная величина принимает различные значения, то говорят,  что она <em>варьируется</em>, и количественное  измерение этой <em>вариации</em>, как вы  знаете, выражается <strong><a href="dispersia_diskretnoi_sluchainoi_velichiny.html">дисперсией</a></strong>. Используя  формулу вычисления дисперсии, а также свойства матожидания и дисперсии,  нетрудно установить, что:<br>
+      <img align="absmiddle" width="366" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image095.gif"><br>
+    то есть, при сложении двух случайных величин суммируются их  дисперсии и добавляется дополнительное слагаемое, характеризующее <em>совместную вариацию</em> или коротко – <strong><em>ковариацию</em></strong> случайных величин.</p>
+  <p><strong><em>Ковариация </em></strong><em>или <strong>корреляционный момент </strong></em>– это <em>мера совместной вариации</em> случайных  величин. </p>
+  <p><strong>Обозначение</strong>: <img align="absmiddle" width="68" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image097.gif"> или <img align="absmiddle" width="24" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image099.gif"></p>
+  <p>Ковариация дискретных случайных величин определяется, сейчас буду «выражаться»:),  как математическое ожидание произведения<em> линейных отклонений</em> этих случайных  величин от соответствующих матожиданий:<br>
+      <img align="absmiddle" width="271" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image101.gif"></p>
+  <p>Если <img align="absmiddle" width="92" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image103.gif">, то случайные величины <strong>зависимы</strong>.  Образно говоря, ненулевое значение говорит нам о <u>закономерных</u> «откликах»  одной СВ  на изменение другой СВ.</p>
+  <p>Ковариацию можно вычислить двумя способами, я рассмотрю оба. </p>
+  <p><strong>Способ первый</strong>. По <strong><a href="sluchainaya_velichina.html">определению математического ожидания</a></strong>:<br>
+      <img align="absmiddle" width="499" height="47" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image105.gif"></p>
+  <p>«Страшная» формула и совсем не страшные вычисления. Сначала  составим законы распределения случайных величин <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0008.gif"> и <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0007.gif"> – для этого суммируем  вероятности по строкам <em>(«иксовая»  величина)</em> и по столбцам <em>(«игрековая»  величина)</em>:<br>
+      <img align="absmiddle" width="478" height="64" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image109.jpg"><br>
+    Взгляните на исходную верхнюю таблицу – всем понятно, как  получились распределения? Вычислим <strong><a href="sluchainaya_velichina.html">матожидания</a></strong>:<br>
+  <img align="absmiddle" width="576" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image111.gif"> и <em>отклонения</em> значений случайных величин  от соответствующих математических ожиданий:<br>
+  <img align="absmiddle" width="368" height="72" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image113.gif"><br>
+    Полученные отклонения удобно поместить в двумерную таблицу,  внутрь которой затем переписать вероятности <img align="absmiddle" width="21" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image115.gif"> из исходной таблицы:<br>
+  <img align="absmiddle" width="538" height="108" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image117.jpg"><br>
+    Теперь нужно вычислить все возможные произведения <img align="absmiddle" width="177" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image119.gif">, в качестве примера я выделил: <img align="absmiddle" width="165" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image121.gif"> <em>(красный цвет)</em> и <img align="absmiddle" width="137" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image123.gif"> <em>(синий цвет)</em>. Вычисления удобно проводить в Экселе, а на чистовике  расписать всё подробно. Я привык работать «по строкам» слева направо и поэтому  сначала перечислю все возможные произведения с «иксовым» отклонением -1,6,  затем – с отклонением 0,4:<br>
+  <img align="absmiddle" width="512" height="117" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image125.gif"></p></div>
+  <p><strong>Способ второй</strong>,  более простой и распространённый. По формуле:<br>
+      <img align="absmiddle" width="236" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image127.gif"></p>
+  <p>Матожидание произведения СВ определяется как <img align="absmiddle" width="151" height="47" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image129.gif"> и технически всё очень  просто: берём исходную таблицу задачи и находим все возможные произведения <img align="absmiddle" width="31" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image131.gif"> на соответствующие  вероятности <img align="absmiddle" width="21" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image115_0000.gif">; на рисунке ниже я выделил красным цветом произведение <img align="absmiddle" width="120" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image134.gif"> и синим произведение <img align="absmiddle" width="96" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image136.gif">:<br>
+      <img align="absmiddle" width="467" height="112" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image138.jpg"><br>
+    Сначала перечислю все произведения со значением <img align="absmiddle" width="49" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image140.gif">, затем – со значением <img align="absmiddle" width="40" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image142.gif">, но вы, разумеется, можете использовать и другой порядок  перебора – кому как удобнее:<br>
+  <img align="absmiddle" width="265" height="117" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image144.gif"></p>
+  <p>Значения <img align="absmiddle" width="169" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image146.gif"> уже вычислены (см. 1-й  способ), и осталось применить формулу:<br>
+      <img align="absmiddle" width="447" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image148.gif"></p>
+  <p>Как отмечалось выше, ненулевое значение ковариации говорит  нам о зависимости случайных величин, причём, чем оно больше <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong>, тем эта зависимость <em>ближе</em> к функциональной <em>линейной</em> зависимости <img align="absmiddle" width="68" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image150.gif">. Ибо <img align="absmiddle" width="68" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image097_0000.gif"> определяется через  линейные отклонения.</p>
+  <p>Таким образом, определение можно сформулировать точнее: </p>
+  <p><strong>Ковариация</strong> – это  мера <em>линейной </em>зависимости случайных  величин.</p>
+  <p>С нулевым значением всё занятнее. Если установлено, что <img align="absmiddle" width="92" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image153.gif">, то случайные величины могут оказаться <strong>как независимыми, так и зависимыми</strong> (т.к. зависимость может носить  не только линейный характер). Таким образом, <strong>этот факт в общем случае нельзя использовать для обоснования независимости СВ</strong>!</p>
+  <p>Однако, если известно, что <img align="absmiddle" width="36" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image085_0000.gif"> независимы, то <img align="absmiddle" width="92" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image153_0000.gif">. В этом легко убедиться аналитически: так как для  независимых случайных величин справедливо свойство <img align="absmiddle" width="157" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image157.gif"> (<em>см. предыдущий урок)</em>, то по формуле вычисления ковариации:<br>
+      <img align="absmiddle" width="465" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image159.gif"></p>
+  <p>Какие значения может принимать этот коэффициент? Коэффициент  ковариации принимает значения, не превосходящие <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong> <img align="absmiddle" width="180" height="28" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image161.gif"> – и чем больше <img align="absmiddle" width="73" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image163.gif">, тем сильнее выражена линейная зависимость. И всё вроде бы хорошо, но есть  существенное неудобство такой меры:</p>
+  <p>Предположим, мы исследуем <strong><a href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">двумерную непрерывную случайную величину</a> </strong><img align="absmiddle" width="45" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image165.gif">  (готовимся морально :)), компоненты которой  измеряются в сантиметрах, и получили значение <img align="absmiddle" width="100" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image167.gif">. Кстати, какая размерность у ковариации? Коль скоро, <img align="absmiddle" width="75" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image169.gif"> – сантиметры, и <img align="absmiddle" width="67" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image171.gif"> – тоже сантиметры, то  их произведение и матожидание этого произведения <img align="absmiddle" width="127" height="24" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image173.gif">  – выражается в  квадратных сантиметрах, т.е. ковариация, как и дисперсия – есть <em>квадратичная</em> величина.</p>
+  <p>Теперь предположим, что кто-то изучил ту же систему <img align="absmiddle" width="45" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image165_0000.gif">, но использовал не сантиметры, а миллиметры. Так как 1 см =  10 мм, то ковариация увеличится в 100 раз и будет равна <img align="absmiddle" width="116" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image175.gif">!</p>
+  <p>Поэтому удобно рассмотреть <em>нормированный</em> коэффициент ковариации, который давал бы нам одинаковое  и безразмерное значение. Такой коэффициент получил название, продолжаем  нашу  задачу:</p>
+  <p>3) Коэффициент <strong><em>корреляции</em></strong>. Или, точнее, коэффициент  линейной корреляции:</p>
+  <p><img align="absmiddle" width="116" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image177.gif">, где <img align="absmiddle" width="80" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image179.gif"> – <strong><a href="dispersia_diskretnoi_sluchainoi_velichiny.html">стандартные отклонения</a></strong> случайных величин.</p>
+  <p>Коэффициент корреляции <em>безразмерен</em> и принимает значения из промежутка:</p>
+  <p><img align="absmiddle" width="75" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image181.gif"> <em>(если у вас на практике получилось другое – ищите ошибку)</em>.</p>
+  <p>Чем  больше <img align="absmiddle" width="19" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image183.gif"> <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong> к единице, тем теснее линейная взаимосвязь между величинами <img align="absmiddle" width="36" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image085_0001.gif">, и чем ближе <img align="absmiddle" width="19" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image183_0000.gif"> к нулю – тем такая  зависимость выражена меньше. Взаимосвязь считается существенной, начиная  примерно с <img align="absmiddle" width="60" height="29" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image186.gif">. Крайним значениям  <img align="absmiddle" width="96" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image188.gif"> соответствует строгая функциональная  зависимость <img align="absmiddle" width="68" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image150_0000.gif">, но на практике, конечно, «идеальных» случаев не встретить.</p>
+  <p>Очень хочется привести много интересных примеров, но корреляция  более актуальна в курсе <strong><a href="matematicheskaya_statistika.html">математической статистики</a></strong>,  и поэтому я приберегу их на будущее. Ну а сейчас найдём коэффициент корреляции  в нашей задаче. Так. Законы распределения <img align="absmiddle" width="36" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image085_0002.gif"> уже известны, скопирую  сверху:<br>
+      <img align="absmiddle" width="478" height="64" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image109_0000.jpg"><br>
+    Матожидания найдены: <img align="absmiddle" width="164" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image191.gif">, и осталось вычислить стандартные отклонения. <strong><a href="dispersia_diskretnoi_sluchainoi_velichiny.html">Табличкой</a></strong> уж оформлять не буду, быстрее  подсчитать строкой:<br>
+  <img align="absmiddle" width="616" height="112" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image193.gif"></p>
+  <p>Ковариация найдена в предыдущем пункте <img align="absmiddle" width="112" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image195.gif">, и осталось рассчитать коэффициент корреляции:<br>
+      <img align="absmiddle" width="237" height="45" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image197.gif">, таким образом, между величинами <img align="absmiddle" width="36" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image085_0003.gif"> имеет место  линейная зависимость средней тесноты.</p>
+  <p>Четвёртое задание опять же более характерно для задач <strong><a href="matematicheskaya_statistika.html">математической статистики</a></strong>, но на всякий  случай рассмотрим его и здесь:</p>
+  <p>4) Составить уравнение линейной регрессии <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0008.gif"> на <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0009.gif">.</p>
+  <p>Уравнение <strong><em>линейной регрессии</em></strong> – это функция <img align="absmiddle" width="101" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image202.gif">, которая <em>наилучшим  образом</em> приближает значения случайной величины <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0009.gif">. Для наилучшего приближения, как правило, используют <strong><a href="metod_naimenshih_kvadratov.html">метод наименьших квадратов</a></strong>, и тогда коэффициенты  регрессии можно вычислить по формулам:<br>
+      <img align="absmiddle" width="200" height="48" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image205.gif">, вот это чудеса, и 2-й коэффициент:<br>
+      <img align="absmiddle" width="256" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image207.gif"></p>
+  <p>Таким образом, искомое уравнение регрессии: <br>
+      <img align="absmiddle" width="164" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image209.gif"></p>
+  <p>ну и давайте ради исследовательского интереса я скопирую  табличку сверху:<br>
+      <img align="absmiddle" width="260" height="103" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image081_0000.jpg"><br>
+    и вычислю значения функции:<br>
+  <img align="absmiddle" width="195" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image211.gif"> – в результате  получился результат, который близок к наиболее вероятному <em>(см. 2-ю снизу строку)</em> значению <img align="absmiddle" width="43" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image213.gif">;<br>
+  <img align="absmiddle" width="176" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image215.gif"> – тоже неплохо, это  приближение попало между наиболее вероятными <em>(см. нижнюю строку)</em>   значениями <img align="absmiddle" width="91" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image217.gif"></p>
+  <p>Вполне и вполне приличные результаты, несмотря на невысокий  коэффициент корреляции. И, наверное, вы уже догадались, что чем ближе <img align="absmiddle" width="19" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image183_0001.gif"> <strong><a href="goryachie_formuly.pdf" target="_blank">по модулю</a></strong> к единице, тем точнее функция <img align="absmiddle" width="101" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image202_0000.gif"> приближает наиболее  вероятные значения случайной величины <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0010.gif">. Но уравнение линейной регрессии, конечно, больше применимо  к <strong><a href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">двумерной непрерывной случайной  величине</a></strong>, поскольку позволяет осуществлять реальное прогнозирование,  например, наиболее вероятного веса человека по заданному росту.</p>
+  <p>Творческое задание для самостоятельного решения:</p>
+  <p><u>Пример 5</u></p>
+  <p>Вычислить коэффициенты ковариации и корреляции для  демонстрационного примера данного урока (с картами червовой масти) и оценить  тесноту линейной связи между СВ.</p>
+  <p>после чего с нетерпением переходим к <strong><a href="dvumernaya_nepreryvnaya_sluchaynaya_velichina.html">системам непрерывных случайных величин</a></strong>.</p>
+  <p><u>Решения и ответы:</u></p>
+<div id="primer">
+  <p><em>Пример 4, пункт 1. <strong>Решение</strong>: </em></p>
+  <p><em>1) Составим закон  распределения <img align="absmiddle" width="63" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image221.gif">, для этого суммируем все вероятности соответствующего  столбца: <img align="absmiddle" width="109" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image223.gif"> и делим каждую  вероятность на полученную сумму:</em><br>
+      <em><img align="absmiddle" width="185" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image225.gif"></em><br>
+      <em>Так как вероятности  изменились, то мы имеем дело с условными вероятностями, и из этого можно сразу  сделать вывод, что случайные величины <img align="absmiddle" width="36" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image085_0004.gif"> зависимы.</em></p>
+  <p><strong><em>! Примечание</em></strong><em>: в случае  независимости СВ вероятности остались бы прежними! – желающие могут проверить  данный факт на любом примере <strong><a href="sistema_sluchainyh_velichin.html">предыдущего  урока</a></strong>.</em></p>
+  <p><em>Таким образом,  условное распределение вероятностей:</em><br>
+      <em><img align="absmiddle" width="187" height="46" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image227.jpg"></em><br>
+      <em>и условное  математическое ожидание: <img align="absmiddle" width="219" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image229.gif"></em></p>
+  <p><em>2) Составим закон  распределения <img align="absmiddle" width="65" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image231.gif">. Суммируем вероятности соответствующего столбца: <img align="absmiddle" width="109" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image233.gif"> и делим каждую из них  на полученную сумму:</em><br>
+      <em><img align="absmiddle" width="207" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image235.gif"></em><br>
+      <em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="189" height="74" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image237.jpg"></em><br>
+      <em>И здесь делаем вывод,  что распределение случайной величины <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0010.gif"> <strong>зависит от того</strong>, какое значение приняла случайная величина <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0011.gif">, что является ещё более убедительным обоснованием  зависимости этих СВ.</em><br>
+      <em>Условное матожидание: <img align="absmiddle" width="207" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image241.gif">.</em></p>
+  <p><em>3) Аналогично находим  закон распределения <img align="absmiddle" width="64" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image243.gif">:</em><br>
+      <em><img align="absmiddle" width="269" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image245.gif"></em><br>
+      <em>Таким образом, при <img align="absmiddle" width="44" height="24" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image247.gif"> случайная величина <img align="absmiddle" width="19" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image004_0011.gif"> достоверно примет  значение <img align="absmiddle" width="40" height="23" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image142_0000.gif"></em><br>
+      <em><img align="absmiddle" width="187" height="47" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image251.jpg"></em><br>
+      <em>и, очевидно, <img align="absmiddle" width="109" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image253.gif">.</em></p>
+  <p><em>4) Чтобы составить  закон распределения <img align="absmiddle" width="67" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image255.gif">, нужно просуммировать все вероятности соответствующей  строки: <img align="absmiddle" width="133" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image257.gif"> и разделить каждую из  них на полученную сумму: <img align="absmiddle" width="307" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image259.gif"></em><br>
+      <em><img align="absmiddle" width="256" height="48" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image261.jpg"></em><br>
+      <em><img align="absmiddle" width="360" height="27" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image263.gif"></em></p>
+  <p><em>5) И, наконец, <img align="absmiddle" width="465" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image265.gif"></em><br>
+      <em><img align="absmiddle" width="256" height="75" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image267.jpg"></em><br>
+      <em>Контроль: <img align="absmiddle" width="141" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image269.gif">, ч.т.п. </em><br>
+      <em><img align="absmiddle" width="428" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image271.gif"></em></p>
+  <p><em>Пример 5. <strong>Решение</strong>: коэффициент ковариации  вычислим по формуле:</em><br>
+      <em><img align="absmiddle" width="236" height="21" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image273.gif"></em></p>
+  <p><em><img align="absmiddle" width="147" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image275.gif"> уже найдены,</em><br>
+      <em><img align="absmiddle" width="345" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image277.gif"></em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="339" height="41" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image279.gif"></em></p>
+  <p><em>Коэффициент корреляции  вычислим по формуле:</em><br>
+      <em><img align="absmiddle" width="116" height="44" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image177_0000.gif"></em></p>
+  <p><em>Найдём стандартные  отклонения случайных величин:</em><br>
+      <em><img align="absmiddle" width="543" height="96" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image282.gif"></em><br>
+      <em>Закон распределения <img align="absmiddle" width="15" height="17" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image006_0012.gif"> точно такой же,  поэтому <img align="absmiddle" width="76" height="45" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image285.gif">.</em></p>
+  <p><em>Таким образом:</em><br>
+      <em><img align="absmiddle" width="259" height="83" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image287.gif"></em><br>
+      <em>Полученное значение  достаточно близко к нулю, что говорит о слабой зависимости случайных величин.  Тем не менее, знак «минус» показывает, что при увеличении значения одной из  случайных величин (от 0 до 1) уменьшаются шансы извлечения червы другим игроком</em></p>
+  <p><strong><em>Примечание</em></strong><em>: при  достаточно малых значениях <img align="absmiddle" width="19" height="25" src="s/zavisimye_i_nezavisimye_sluchainye_velichiny_clip_image183_0002.gif"> (ниже 0,3-0,4 по  модулю) построение уравнения линейной регрессии теряет смысл, т.к. оно  недостоверно приблизит исходные данные.</em></p></div>
+  <p><em> Автор: Емелин Александр </em></p>
+  <br>
+
+<p style="padding-bottom:12px"><a href="https://vk.com/mathprofiru" target="_blank" rel="nofollow"><img src="images/vkbuttonnews.png" border="0"></a>&nbsp;<a href="https://mathprofi.com/blog/" target="_blank"><img src="images/bbutton.png" border="0" alt="Блог Емелина Александра"> </p>
+
+
+<p align="center"> <a href="/">Высшая математика для заочников и не только >>></a></p>
+<p align="center"> <i>(Переход на главную страницу) </i> </p> 
+
+<noindex>
+
+<p align="center" style="padding-bottom:7px"><em><a href="scripts/call.html">Как можно отблагодарить автора?</a></em></p>
+
+
+
+
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/contented.php"  target="_blank" rel="nofollow"> Contented.ru – онлайн школа дизайна</a>
+</p>
+
+<p align="center"> <img align="absmiddle" src="images/mark.jpg" border="0"><a class=classbar href="scripts/skillfactory.php"  target="_blank" rel="nofollow"> SkillFactory – получи востребованную IT профессию!</a>
+</p>
+
+
+
+
+
+<br>
+
+
+<div class="adv2">
+
+<!-- Yandex.RTB R-A-1373053-4 -->
+<div id="yandex_rtb_R-A-1373053-4"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-1373053-4',
+    blockId: 'R-A-1373053-4'
+  })
+})</script>
+
+</div>
+
+
+<br><br>
+</noindex>
+</td>
+</tr>
+</table>
+
+<table width="980" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td  width="980" height="50" > 
+  <p class=classf align="center"> © Copyright mathprofi.ru, Александр Емелин, 2010-2023. Копирование материалов сайта запрещено</p>  
+<noindex>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+
+
+
+</noindex>
+</tr>
+</table>
+
+</body>
+</html>
