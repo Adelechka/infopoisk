@@ -22,6 +22,37 @@ def write(inverted_index):
             f.write('%s:%s\n' % (key, value))
 
 
+def boolean_search(query):
+    query = query.lower().split()
+    results = set()
+    for word in query:
+        if word == 'and':
+            continue
+        elif word == 'or':
+            continue
+        elif word == 'not':
+            continue
+        else:
+            if word in inverted_index:
+                results = results + set(inverted_index[word])
+            else:
+                results = results and set()
+    for i, term in enumerate(query):
+        if term == 'and':
+            if query[i-1] in inverted_index and query[i+1] in inverted_index:
+                results = results and (inverted_index[query[i-1]] and inverted_index[query[i+1]])
+        elif term == 'or':
+            if query[i-1] in inverted_index and query[i+1] in inverted_index:
+                results = results or (inverted_index[query[i-1]] or inverted_index[query[i+1]])
+        elif term == 'not':
+            if query[i+1] in inverted_index:
+                results -= inverted_index[query[i+1]]
+    return sorted(results)
+
+
 if __name__ == '__main__':
     inverted_index = inverted_index()
-    write(inverted_index)
+    # write(inverted_index)
+    # вектор or бок or раритет
+    query = input()
+    print(boolean_search(query))
