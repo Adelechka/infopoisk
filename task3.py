@@ -25,25 +25,25 @@ def write(inverted_index):
 def boolean_search(query):
     query = query.lower().split()
     results = set()
-    for word in query:
-        if word == 'and':
+    for term in query:
+        if term == 'and':
             continue
-        elif word == 'or':
+        elif term == 'or':
             continue
-        elif word == 'not':
+        elif term == 'not':
             continue
         else:
-            if word in inverted_index:
-                results = results + set(inverted_index[word])
+            if term in inverted_index:
+                results &= inverted_index[term]
             else:
-                results = results and set()
+                results &= set()
     for i, term in enumerate(query):
         if term == 'and':
             if query[i-1] in inverted_index and query[i+1] in inverted_index:
-                results = results and (inverted_index[query[i-1]] and inverted_index[query[i+1]])
+                results &= inverted_index[query[i-1]] & inverted_index[query[i+1]]
         elif term == 'or':
             if query[i-1] in inverted_index and query[i+1] in inverted_index:
-                results = results or (inverted_index[query[i-1]] or inverted_index[query[i+1]])
+                results |= inverted_index[query[i-1]] | inverted_index[query[i+1]]
         elif term == 'not':
             if query[i+1] in inverted_index:
                 results -= inverted_index[query[i+1]]
