@@ -1,3 +1,7 @@
+
+def intersection(lst1, lst2):
+    lst3 = [value for value in lst1 if value in lst2]
+    return lst3
 def inverted_index():
     inverted_index = {}
 
@@ -34,25 +38,28 @@ def boolean_search(query, inverted_index_dict):
             continue
         else:
             if term in inverted_index_dict:
-                results &= inverted_index_dict[term]
-            else:
-                results &= set()
+                results.update(inverted_index_dict[term])
+                print(len(results))
     for i, term in enumerate(query):
         if term == 'and':
             if query[i-1] in inverted_index_dict and query[i+1] in inverted_index_dict:
-                results &= inverted_index_dict[query[i-1]] & inverted_index_dict[query[i+1]]
+                results.intersection_update(intersection(inverted_index_dict[query[i-1]], inverted_index_dict[query[i+1]]))
         elif term == 'or':
             if query[i-1] in inverted_index_dict and query[i+1] in inverted_index_dict:
-                results |= inverted_index_dict[query[i-1]] | inverted_index_dict[query[i+1]]
+                results.__ior__(inverted_index_dict[query[i-1]] + inverted_index_dict[query[i+1]])
         elif term == 'not':
             if query[i+1] in inverted_index_dict:
-                results -= inverted_index_dict[query[i+1]]
+                results = results - set(inverted_index_dict[query[i+1]])
     return sorted(results)
 
 
 if __name__ == '__main__':
     inverted_index_dict = inverted_index()
-    # write(inverted_index)
+    write(inverted_index_dict)
     # вектор or бок or раритет
     query = input()
     print(boolean_search(query, inverted_index_dict))
+    #
+    # result = set([1, 2, 3])
+    # result.__ior__(set([4]))
+    # print(result)
