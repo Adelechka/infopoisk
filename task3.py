@@ -22,7 +22,7 @@ def write(inverted_index):
             f.write('%s:%s\n' % (key, value))
 
 
-def boolean_search(query):
+def boolean_search(query, inverted_index_dict):
     query = query.lower().split()
     results = set()
     for term in query:
@@ -33,26 +33,26 @@ def boolean_search(query):
         elif term == 'not':
             continue
         else:
-            if term in inverted_index:
-                results &= inverted_index[term]
+            if term in inverted_index_dict:
+                results &= inverted_index_dict[term]
             else:
                 results &= set()
     for i, term in enumerate(query):
         if term == 'and':
-            if query[i-1] in inverted_index and query[i+1] in inverted_index:
-                results &= inverted_index[query[i-1]] & inverted_index[query[i+1]]
+            if query[i-1] in inverted_index_dict and query[i+1] in inverted_index_dict:
+                results &= inverted_index_dict[query[i-1]] & inverted_index_dict[query[i+1]]
         elif term == 'or':
-            if query[i-1] in inverted_index and query[i+1] in inverted_index:
-                results |= inverted_index[query[i-1]] | inverted_index[query[i+1]]
+            if query[i-1] in inverted_index_dict and query[i+1] in inverted_index_dict:
+                results |= inverted_index_dict[query[i-1]] | inverted_index_dict[query[i+1]]
         elif term == 'not':
-            if query[i+1] in inverted_index:
-                results -= inverted_index[query[i+1]]
+            if query[i+1] in inverted_index_dict:
+                results -= inverted_index_dict[query[i+1]]
     return sorted(results)
 
 
 if __name__ == '__main__':
-    inverted_index = inverted_index()
+    inverted_index_dict = inverted_index()
     # write(inverted_index)
     # вектор or бок or раритет
     query = input()
-    print(boolean_search(query))
+    print(boolean_search(query, inverted_index_dict))
