@@ -98,8 +98,8 @@ if __name__ == '__main__':
 
             tokens_file = open(output_task4 + 'tokens_tf_idf' + str(i) + '.txt', 'w')
             for k, v in tokens_tf_dict.items():
-                tokens_file.write(str(k) + ": " + str(tokens_tf_dict[k]) + " " + str(tokens_idf_dict[k]) + "\n")
+                tokens_file.write(str(k) + " " + str(tokens_tf_dict[k]) + " " + str(tokens_idf_dict[k]) + "\n")
 
             lemmas_file = open(output_task4 + 'lemmas_tf_idf' + str(i) + '.txt', 'w')
             for k, v in lemmas_tf_dict.items():
-                lemmas_file.write(str(k) + ": " + str(lemmas_tf_dict[k]) + " " + str(lemmas_idf_dict[k]) + "\n")
+                lemmas_file.write(str(k) + " " + str(lemmas_idf_dict[k]) + " " + str(math.log(100 / float(lemmas_idf_dict[k]))) + "\n")
