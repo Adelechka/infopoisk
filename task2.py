@@ -74,15 +74,15 @@ if __name__ == '__main__':
         lemmas_file.close()
 
 
-    tokens_file = open(output_task2 + 'tokens.txt', 'w')
+    tokens_file = open(output_task2 + 'tokens.txt', 'w', encoding='utf-8')
     for token in tokens_all:
         tokens_file.write(token + "\n")
     tokens_file.close()
 
-    lemmas_all_file = open(output_task2 + 'lemmas.txt', 'w')
+    lemmas_all_file = open(output_task2 + 'lemmas.txt', 'w', encoding='utf-8')
     for lemma in lemmas_all:
         tokens = ' '
         for token in lemmas_all[lemma]:
             tokens += ' ' + token
-        lemmas_all_file.write(lemma + ":" + tokens + '\n')
+        lemmas_all_file.write(lemma + " " + tokens + '\n')
     lemmas_all_file.close()

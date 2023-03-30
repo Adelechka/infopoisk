@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вывод значений</title>
+</head>
+<body>
+<h1>Результат поиска по запросу: {{input_value}}</h1>
+<ul>
+    {% for value in result %}
+    <li>{{ value }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

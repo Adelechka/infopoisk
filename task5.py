@@ -1,74 +1,97 @@
-import math
-import os
-import re
-
 import nltk
-import pymorphy2
+import numpy as np
+from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
-from bs4 import BeautifulSoup
+import re
+import pandas as pd
+from pymystem3 import Mystem
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-if __name__ == '__main__':
-    output_task1 = 'output/'
-    output_task2 = 'output_task2/'
-    output_task4 = 'output_task4/'
-    lemmas_path = 'output_task2/lemmas.txt'
-    index_path = 'index.txt'
-    stopwords = stopwords.words("russian")
-    lemmatizer = pymorphy2.MorphAnalyzer(lang='ru')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
-    with open(lemmas_path, "r", encoding="cp1251") as f:
-        lemmas = [line.split(':')[0] for line in f.readlines()]
+stopwords_ru = stopwords.words("russian")
+stopwords_en = stopwords.words("english")
+stopwords_all = stopwords_en + stopwords_ru
 
-    with open(index_path, "r", encoding="cp1251") as f:
-        index = {filename: link for filename, link in (link.split(' - ') for link in f.readlines())}
+tokens = open('output_task2/tokens.txt', encoding='utf-8').read().splitlines()
+lemmas = [word.split(' ')[0] for word in open('output_task2/lemmas.txt', encoding='utf-8').read().splitlines()]
 
-    tokens_all = []
+lemmatizer_ru = Mystem()
+lemmatizer_en = WordNetLemmatizer()
+
+
+def coef_otaiai(df1, df2):
+    merged_df = pd.merge(df1, df2, on='word')
+    x = np.array(merged_df['td-idf_x'])
+    y = np.array(merged_df['td-idf_y'])
+    x_mean = np.mean(x)
+    y_mean = np.mean(y)
+    x_dev = x - x_mean
+    y_dev = y - y_mean
+    numerator = np.sum(x_dev * y_dev)
+    denominator = np.sqrt(np.sum(x_dev ** 2) * np.sum(y_dev ** 2))
+    return numerator / denominator
+
+
+def get_tokens(text: str):
+    text_tokens = nltk.word_tokenize(text)
+    almost_clean_tokens = set([w for w in text_tokens if not re.search(r"[^a-zA-Zа-яА-ЯёЁ]", w)])
+    clean_tokens = [w for w in almost_clean_tokens if w not in stopwords_all and len(w) > 1]
+    return clean_tokens
+
+
+def get_lemmas(text: str):
+    text_tokens = get_tokens(text)
+    text_lemmas = []
+    for token in text_tokens:
+        lemma = lemmatizer_ru.lemmatize(token)[0]
+        text_lemmas.append(lemma)
+    return text_lemmas
+
+
+def process(input_str):
+    texts = [input_str]
+    tokens_vectorizer = TfidfVectorizer(analyzer=get_tokens, vocabulary=tokens)
+
+    tokens_matrix = tokens_vectorizer.fit_transform(texts)
+    print(texts)
+    print(tokens_matrix)
+    tokens_idf = pd.DataFrame(tokens_vectorizer.idf_, index=tokens, columns=["idf"])
+
+    tokens_tfidf = pd.DataFrame(tokens_matrix.T.todense(), index=tokens, columns=["tf-idf"])
+
+    tokens_result_df = pd.concat([tokens_idf, tokens_tfidf], axis=1)
+    tokens_result_df = tokens_result_df.rename(columns={tokens_result_df.columns[0]: 'word'})
+
+    tokens_file = open(f"tokens.txt", "w", encoding='utf-8')
+    tokens_file.write(tokens_result_df.to_csv(sep=" ", header=False))
+    tokens_file.close()
+
+    tokens_for_query_read = pd.read_csv(
+        'tokens.txt',
+        delimiter=' ',
+        names=['word', 'idf', 'td-idf'],
+        encoding='utf-8'
+    )
+
+    dict_ans = {}
+
+    output_directory = "output_task4/"
+
     for i in range(100):
-        try:
-            text_file = open(output_task1 + str(i) + '.txt', 'r', encoding='cp1251')
-            text = BeautifulSoup(text_file, 'html.parser').get_text().lower()
-            tokens = nltk.word_tokenize(text)
-            token = 0
-            while token < len(tokens):
-                if tokens[token] in stopwords or not tokens[token].isalpha() \
-                        or not re.match(r"[а-яё]", tokens[token]) or len(tokens[token]) <= 2:
-                    tokens.remove(tokens[token])
-                token += 1
-            tokens_all += tokens
-        except:
-            continue
+        tokens_for_text_read = pd.read_csv(
+            f'{output_directory}lemmas_tf_idf{i}.txt',
+            delimiter=' ',
+            names=['word', 'idf', 'td-idf'],
+            encoding='utf-8'
+        )
+        if i == 1:
+            print(tokens_for_text_read)
+        dict_ans[i] = coef_otaiai(tokens_for_text_read, tokens_for_query_read)
 
-    lemmas_all = []
-    for token in tokens_all:
-        lemmas_all.append(lemmatizer.parse(token)[0].normal_form)
-    lemmas_idf_dict = dict.fromkeys(lemmas, 0.0)
-    N = 100
+    sorted_dict_ans = dict(sorted(dict_ans.items(), key=lambda x: x[1]))
+    sorted_keys = sorted(sorted_dict_ans, key=sorted_dict_ans.get, reverse=True)
 
-    for j in range(100):
-        try:
-            lemmas_in_file = [lemma.split(':') for lemma in
-                              open(output_task2 + 'lemmas' + str(j) + '.txt').read().splitlines()]
-            lemmas_in_file = [element[0] for element in lemmas_in_file]
-            for word in lemmas_in_file:
-                if word in lemmas:
-                    lemmas_idf_dict[word] += 1.0
-        except:
-            continue
-
-    for k, v in lemmas_idf_dict.items():
-        lemmas_idf_dict[k] = math.log(N / float(v))
-
-    print(len(lemmas_idf_dict))
-
-    # tf_idfs = {}
-    # for file in os.listdir(output_task4):
-    #     if file.startswith("lemmas"):
-    #         with open(os.path.join(output_task4, file), 'r', encoding='cp1251') as f:
-    #             key = file.lstrip("lemmas")
-    #             tf_idfs[key] = defaultdict(float)
-    #             for line in f.readlines():
-    #                 token = line.split(": ")[0]
-    #                 tf, idf = line.split(": ")[1].split()
-    #                 if token in lemmas:
-    #                     tf_idfs[key][lemmas.index(token)] = float(tf) * float(idf)
-    # print(tf_idfs)
+    return sorted_keys
